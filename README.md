@@ -36,19 +36,20 @@ payamgostar-knowledge/
 │   ├── PayamGostar-Skill-Complete.md ← اسکیل کامل در یک فایل
 │   ├── knowledge/                  ← مرکز دانش در ۵ بخش + CSVها + درخت منو
 │   └── agent/search_tool.json      ← تعریف ابزار جست‌وجو برای Function Calling
+├── dist/                           ← فایل‌های آماده نصب: .plugin برای Claude و zip نسخه portable
 └── tools/build_portable.py         ← ساخت دوباره portable/ از skills/
 ```
 
 ## نصب و استفاده
 
 ### ۱) Claude (اپ Claude، Claude Code، Cowork)
-فایل `.plugin` بخش Releases را نصب کنید، یا پوشه را به‌عنوان پلاگین اضافه کنید. اسکیل‌ها خودکار فعال می‌شوند؛ کافی است بپرسید یا فایل RFP را بدهید.
+فایل `dist/payamgostar-knowledge-v0.3.0.plugin` را دانلود و در Claude نصب کنید، یا پوشه را به‌عنوان پلاگین اضافه کنید. اسکیل‌ها خودکار فعال می‌شوند؛ کافی است بپرسید یا فایل RFP را بدهید.
 
 ### ۲) ایجنت‌های سازگار با Agent Skills (OpenAI Codex، Gemini CLI، Cursor، GitHub Copilot، VS Code و …)
 SKILL.md یک استاندارد باز است. پوشه‌های `skills/payamgostar-knowledge` و `skills/payamgostar-rfp-matcher` را در پوشه اسکیل‌های ابزار کپی کنید (مثلاً `.agents/skills/`، `.codex/skills/` یا `.github/skills/`، طبق مستندات همان ابزار). اگر ابزار فقط `AGENTS.md` را می‌خواند، کل مخزن را باز کنید.
 
 ### ۳) چت‌بات‌های بدون فایل‌سیستم (ChatGPT، Gemini Gem، Copilot Studio، DeepSeek، مدل لوکال)
-از پوشه `portable/` استفاده کنید. راهنمای قدم‌به‌قدم هر پلتفرم در [`portable/README.md`](portable/README.md) است.
+از پوشه `portable/` (یا فایل فشرده `dist/payamgostar-portable-v0.3.0.zip`) استفاده کنید. راهنمای قدم‌به‌قدم هر پلتفرم در [`portable/README.md`](portable/README.md) است.
 
 ### ۴) ایجنت اختصاصی (هر LLM از طریق API)
 ```bash
@@ -78,7 +79,7 @@ System Prompt را از `portable/SYSTEM_PROMPT.md` بردارید و ابزار
 ## نگهداری
 1. منبع تازه را طبق `references/pending-sources.md` وارد کنید.
 2. به‌روزرسانی مرکز دانش: مخزن رسمی را `git pull` کنید و `scripts/convert_kb.py` را اجرا کنید. سپس `version-history.md`، `conflicts.md` و `gaps-and-limits.md` را بازبینی کنید.
-3. پس از هر تغییر: `python3 tools/build_portable.py` و به‌روزرسانی [`CHANGELOG.md`](CHANGELOG.md).
+3. پس از هر تغییر: `python3 tools/build_portable.py`، ساخت دوباره فایل‌های `dist/` و به‌روزرسانی [`CHANGELOG.md`](CHANGELOG.md).
 
 ## محدودیت‌ها
 - تصاویر و ویدیوهای مرکز دانش متن ندارند و جزئیاتی که فقط در تصویر است تأییدشده نیست.
