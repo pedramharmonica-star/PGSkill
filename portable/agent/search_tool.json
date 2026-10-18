@@ -1,0 +1,14 @@
+{
+  "name": "search_payamgostar",
+  "description": "Search the PayamGostar CRM knowledge base (official help center up to v2.8.8.2, release notes, capability catalog, team-verified RFI answers, gaps, technical/security, installation, integrations). Returns ranked evidence snippets with source file and article title. Results are leads: read the cited article before claiming a capability. Query in Persian or English.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "query": {"type": "string", "description": "Question or requirement text, e.g. 'ورود دومرحله‌ای پیامکی' or 'two-way sync with Sepidar invoices'"},
+      "top": {"type": "integer", "description": "Number of results (default 8)", "default": 8},
+      "only": {"type": "string", "enum": ["kb", "ref"], "description": "Optional: 'kb' = official help center only, 'ref' = curated reference files only"}
+    },
+    "required": ["query"]
+  },
+  "x-implementation": "python3 skills/payamgostar-knowledge/scripts/find.py \"<query>\" --top <top> [--only <only>] --json   (or: import find; find.search(query, top, only))"
+}

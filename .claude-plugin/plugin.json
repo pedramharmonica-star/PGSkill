@@ -1,0 +1,7 @@
+{
+  "name": "payamgostar-knowledge",
+  "version": "0.3.0",
+  "description": "PayamGostar CRM product knowledge base (modules, capabilities, editions, technical/security, installation, integrations, gaps) plus an RFP-to-capability matcher.",
+  "author": { "name": "Pedram Berenji" },
+  "keywords": ["payamgostar", "crm", "rfp", "knowledge-base", "پیام‌گستر"]
+}
