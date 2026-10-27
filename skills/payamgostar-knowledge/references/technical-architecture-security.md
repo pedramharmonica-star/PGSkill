@@ -1,7 +1,9 @@
 # معماری فنی، امنیت، یکپارچه‌سازی API و عملیات
 
 منبع اصلی: **PGX_Document.xlsx** (سند ارزیابی فنی و معماری؛ شیت‌های ۰۱ تا ۰۹، با فهرست کشویی وضعیت «دارد، ندارد، قابل توسعه، Third Party، Roadmap، نامشخص»). منابع دیگر: RFI (شیت فنی، ردیف ۱۴۰ تا ۱۷۹)، دک‌ها (اسلاید معماری)، FAQ فنی، سند پیش‌نیاز نصب (۱۴۰۴/۰۳/۱۵).
-اولویت در موضوعات فنی: **PGX و سند نصب** ← RFI ← دک‌ها ← FAQ. تناقض‌ها در `conflicts.md`.
+اولویت در موضوعات فنی: **خودارزیابی (`self-assessment.md`) برای معماری و امکانات فنی**، سند نصب برای سخت‌افزار و سیستم‌عامل ← PGX ← RFI ← دک‌ها ← FAQ (تأیید ویزارد ۱۴۰۵/۰۸/۰۵). تناقض‌ها در `conflicts.md`.
+
+> ⚠ **هر جا این فایل از PGX «میکروسرویس (۵۳ سرویس)»، «‎.NET 8»، «React»، «IdentityServer» یا «Message Broker» نقل کرده، منسوخ است.** معماری معتبر طبق خودارزیابی: ASP.NET WebForm در لایه‌های Presentation، Application و Business؛ SQL Server 2022؛ REST (Swagger)، SOAP و Webhook؛ دو Windows Service نیتیو، یک سرویس IIS و کش Redis به‌علاوه In-Memory؛ بدون کانتینر، Docker، Kubernetes، Message Broker، API Gateway و ESB؛ IAM با Active Directory؛ جست‌وجوی Full-Text SQL Server (C35).
 
 > ستون Gap/Evidence خود PGX صادقانه نوشته که کدام ادعاها شاهد مستند ندارند. در RFP رسمی، برای هر ادعای فنی، شاهد را هم ذکر کن یا «قابل ارائه پس از جلسه فنی» بنویس.
 
