@@ -1,0 +1,288 @@
+{
+ "name_fa": "پرورش سرنخ",
+ "name_en": "Lead Nurturing",
+ "base_item": "Form",
+ "type_code": "LeadNurturing",
+ "tested_on": "PayamGostar 2.8.8.2 demo, 1405/08/05",
+ "groups": [
+  {
+   "fa": "اطلاعات سرنخ",
+   "en": "Lead Information",
+   "columns": 2
+  },
+  {
+   "fa": "ارزیابی BANT",
+   "en": "BANT Qualification",
+   "columns": 2
+  },
+  {
+   "fa": "پیگیری و نتیجه",
+   "en": "Follow-up & Result",
+   "columns": 2
+  }
+ ],
+ "fields": [
+  {
+   "group": "اطلاعات سرنخ",
+   "fa": "منبع سرنخ",
+   "en": "Lead Source",
+   "type": "dropdown",
+   "user_key": "LeadSource",
+   "values": [
+    "وب‌سایت",
+    "تماس ورودی",
+    "نمایشگاه",
+    "معرفی مشتری",
+    "کمپین تبلیغاتی",
+    "سایر"
+   ]
+  },
+  {
+   "group": "اطلاعات سرنخ",
+   "fa": "صنعت",
+   "en": "Industry",
+   "type": "dropdown",
+   "user_key": "LeadIndustry",
+   "values": [
+    "بازرگانی و توزیع",
+    "تولیدی و صنعتی",
+    "مواد غذایی و FMCG",
+    "خدمات",
+    "فناوری اطلاعات",
+    "سلامت و دارو",
+    "دولتی و عمومی",
+    "سایر"
+   ]
+  },
+  {
+   "group": "اطلاعات سرنخ",
+   "fa": "نقش فرد تماس",
+   "en": "Contact Role",
+   "type": "dropdown",
+   "user_key": "LeadContactRole",
+   "values": [
+    "تصمیم‌گیرنده نهایی",
+    "اثرگذار بر تصمیم",
+    "کاربر نهایی"
+   ]
+  },
+  {
+   "group": "ارزیابی BANT",
+   "fa": "بودجه",
+   "en": "Budget",
+   "type": "dropdown",
+   "user_key": "LeadBudget",
+   "values": [
+    "تأمین شده",
+    "در حال تأمین",
+    "نامشخص"
+   ]
+  },
+  {
+   "group": "ارزیابی BANT",
+   "fa": "اختیار تصمیم",
+   "en": "Authority",
+   "type": "dropdown",
+   "user_key": "LeadAuthority",
+   "values": [
+    "دارد",
+    "ندارد؛ نیازمند تأیید مدیر بالاتر"
+   ]
+  },
+  {
+   "group": "ارزیابی BANT",
+   "fa": "زمان خرید",
+   "en": "Timeline",
+   "type": "dropdown",
+   "user_key": "LeadTimeline",
+   "values": [
+    "کمتر از ۱ ماه",
+    "۱ تا ۳ ماه",
+    "۳ تا ۶ ماه",
+    "بیش از ۶ ماه"
+   ]
+  },
+  {
+   "group": "ارزیابی BANT",
+   "fa": "دمای سرنخ",
+   "en": "Lead Temperature",
+   "type": "dropdown",
+   "user_key": "LeadTemperature",
+   "values": [
+    "داغ",
+    "گرم",
+    "سرد"
+   ]
+  }
+ ],
+ "states": [
+  {
+   "name": "۱. ثبت و تخصیص سرنخ",
+   "code": "Intake",
+   "kind": "kartable",
+   "initial": true,
+   "end_time_days": 1,
+   "follow_up": true,
+   "owner_demo": "Admin",
+   "owner_real": "مدیر فروش یا گروه SDR"
+  },
+  {
+   "name": "۲. تماس اول و شناخت نیاز",
+   "code": "FirstContact",
+   "kind": "kartable",
+   "end_time_days": 1,
+   "follow_up": true,
+   "owner_demo": "Admin",
+   "owner_real": "گروه کارشناسان سرنخ (صف)"
+  },
+  {
+   "name": "۳. ارزیابی BANT و امتیازدهی",
+   "code": "Qualification",
+   "kind": "kartable",
+   "end_time_days": 3,
+   "follow_up": true,
+   "owner_demo": "Admin",
+   "owner_real": "آخرین مسئول کارتابل ۲"
+  },
+  {
+   "name": "۴. پرورش و پیگیری دوره‌ای",
+   "code": "Nurturing",
+   "kind": "kartable",
+   "end_time_days": 14,
+   "follow_up": true,
+   "owner_demo": "Admin",
+   "owner_real": "آخرین مسئول کارتابل ۲"
+  },
+  {
+   "name": "۵. تحویل به کارشناس ارشد فروش (SQL)",
+   "code": "Handoff",
+   "kind": "kartable",
+   "end_time_days": 2,
+   "follow_up": true,
+   "owner_demo": "Admin",
+   "owner_real": "سمت کارشناس ارشد فروش"
+  },
+  {
+   "name": "پایان: تبدیل به فرصت",
+   "code": "EndConverted",
+   "kind": "final"
+  },
+  {
+   "name": "پایان: رد صلاحیت",
+   "code": "EndDisqualified",
+   "kind": "final"
+  }
+ ],
+ "actions": [
+  {
+   "from": "Intake",
+   "name": "تخصیص و شروع تماس",
+   "to": "FirstContact",
+   "code": "kassign",
+   "required": []
+  },
+  {
+   "from": "Intake",
+   "name": "تکراری یا نامعتبر",
+   "to": "EndDisqualified",
+   "code": "kinvalid",
+   "required": []
+  },
+  {
+   "from": "FirstContact",
+   "name": "تماس موفق؛ ارزیابی BANT",
+   "to": "Qualification",
+   "code": "kqualify",
+   "required": [
+    "LeadSource",
+    "LeadIndustry",
+    "LeadContactRole"
+   ]
+  },
+  {
+   "from": "FirstContact",
+   "name": "پاسخ نداد یا زود است؛ پرورش",
+   "to": "Nurturing",
+   "code": "knurture",
+   "required": []
+  },
+  {
+   "from": "FirstContact",
+   "name": "رد صلاحیت",
+   "to": "EndDisqualified",
+   "code": "kdisqualify",
+   "required": []
+  },
+  {
+   "from": "Qualification",
+   "name": "آماده فروش (SQL)؛ تحویل به کارشناس ارشد",
+   "to": "Handoff",
+   "code": "ksql",
+   "required": [
+    "LeadBudget",
+    "LeadAuthority",
+    "LeadTimeline",
+    "LeadTemperature"
+   ]
+  },
+  {
+   "from": "Qualification",
+   "name": "نیاز به پرورش",
+   "to": "Nurturing",
+   "code": "knurturetwo",
+   "required": []
+  },
+  {
+   "from": "Qualification",
+   "name": "رد صلاحیت",
+   "to": "EndDisqualified",
+   "code": "kdisqualifytwo",
+   "required": []
+  },
+  {
+   "from": "Nurturing",
+   "name": "آماده ارزیابی مجدد",
+   "to": "Qualification",
+   "code": "krequalify",
+   "required": []
+  },
+  {
+   "from": "Nurturing",
+   "name": "رد صلاحیت",
+   "to": "EndDisqualified",
+   "code": "kdisqualifythree",
+   "required": []
+  },
+  {
+   "from": "Handoff",
+   "name": "تأیید؛ تبدیل به فرصت",
+   "to": "EndConverted",
+   "code": "kconvert",
+   "required": []
+  },
+  {
+   "from": "Handoff",
+   "name": "هنوز آماده نیست؛ برگشت به پرورش",
+   "to": "Nurturing",
+   "code": "kbacktonurture",
+   "required": []
+  }
+ ],
+ "visibility": {
+  "اطلاعات سرنخ": {
+   "Intake": "show",
+   "FirstContact": "show",
+   "Qualification": "disabled",
+   "Nurturing": "show",
+   "Handoff": "disabled"
+  },
+  "ارزیابی BANT": {
+   "Intake": "hidden",
+   "FirstContact": "disabled",
+   "Qualification": "show",
+   "Nurturing": "show",
+   "Handoff": "disabled"
+  }
+ },
+ "test_status": "record created; Intake -> FirstContact via kassign passed; remaining paths not yet run"
+}

@@ -5,7 +5,7 @@
 
 > ⚠️ **محرمانه، فقط برای استفاده داخلی.** این مخزن شامل اسناد داخلی است (RFI تأییدشده، سند فنی PGX، یادداشت‌های تناقض و محدودیت). آن را خصوصی نگه دارید.
 
-نسخه: **0.12.0** · دانش مرکز دانش تا نسخه نرم‌افزار **2.8.8.2** (برداشت ۱۴۰۵/۰۶/۱۴) · نگهدارنده: Pedram Berenji
+نسخه: **0.13.0** · دانش مرکز دانش تا نسخه نرم‌افزار **2.8.8.2** (برداشت ۱۴۰۵/۰۶/۱۴) · نگهدارنده: Pedram Berenji
 
 ---
 
@@ -34,6 +34,8 @@ payamgostar-proposal     ← پروپوزال PDF برند‌شده برای ا�
    │
    ▼
 payamgostar-contracts    ← پیش‌فاکتور و قراردادها (فروش، نصب و آموزش، SLA، NDA) پس از بستن معامله
+
+payamgostar-bpms-builder ← طراحی و ساخت فرم و فرایند (BPMS) در خود نرم‌افزار، با چک‌لیست و طرح آماده
 ```
 هر اسکیل جداگانه هم کار می‌کند. مثلاً برای پرسش و پاسخ فقط اولی لازم است.
 
@@ -43,7 +45,7 @@ payamgostar-contracts    ← پیش‌فاکتور و قراردادها (فرو
 PGSkill/
 ├── .claude-plugin/plugin.json      ← مانیفست پلاگین Claude
 ├── AGENTS.md                       ← راهنمای Codex، Cursor، Copilot، Gemini CLI و …
-├── skills/                         ← چهار اسکیل با استاندارد باز Agent Skills (SKILL.md)
+├── skills/                         ← پنج اسکیل با استاندارد باز Agent Skills (SKILL.md)
 │   ├── payamgostar-knowledge/
 │   │   ├── SKILL.md                ← قواعد، اولویت منابع، وضعیت‌ها، روش پاسخ
 │   │   ├── references/             ← دانش: ۲۰ فایل موضوعی + kb/ (۱۰۱۲ مقاله) + kb-evidence/ + نمایه‌ها
@@ -55,11 +57,15 @@ PGSkill/
 │   │   ├── SKILL.md                ← استوری‌بورد، هویت بصری، پیاده‌سازی و کنترل کیفیت پروپوزال
 │   │   ├── assets/                 ← لوگو، لوگوی 26 مشتری مرجع، گواهی افتا و نظام صنفی، PDF بسته‌های پشتیبانی
 │   │   └── templates/              ← کد قالب پروپوزال (⏳ خالی)
-│   └── payamgostar-contracts/
-│       ├── SKILL.md                ← کدام سند برای کدام معامله، محاسبه ۶۰/۴۰ و ۱۰٪، کنترل نهایی
-│       ├── templates/              ← ۴ قالب رسمی DOCX بی‌نام‌شده + متن md
-│       ├── references/             ← سیاست قراردادها، ساختار پیش‌فاکتور
-│       └── scripts/fill_contract.py ← پرکردن قالب و عدد به حروف
+│   ├── payamgostar-contracts/
+│   │   ├── SKILL.md                ← کدام سند برای کدام معامله، محاسبه ۶۰/۴۰ و ۱۰٪، کنترل نهایی
+│   │   ├── templates/              ← ۴ قالب رسمی DOCX بی‌نام‌شده + متن md
+│   │   ├── references/             ← سیاست قراردادها، ساختار پیش‌فاکتور
+│   │   └── scripts/fill_contract.py ← پرکردن قالب و عدد به حروف
+│   └── payamgostar-bpms-builder/
+│       ├── SKILL.md                ← قواعد، گردش کار و بهترین روش ساخت فرم و فرایند
+│       ├── references/             ← چک‌لیست ساخت، خطاها، نکته‌های مرورگر
+│       └── templates/              ← قالب طرح + طرح «پرورش سرنخ» (md و json)
 ├── kb-assets/                      ← ۲۰۲۶ اسکرین‌شات رسمی مرکز دانش (WebP، ~۴۸MB)؛ فقط در مخزن، نه در بسته پلاگین
 ├── portable/                       ← نسخه مستقل از مدل (ChatGPT، Gemini، Copilot، RAG)
 │   ├── SYSTEM_PROMPT.md            ← دستورالعمل کوتاه (کمتر از ۸۰۰۰ کاراکتر)
@@ -77,14 +83,14 @@ PGSkill/
 ## نصب و استفاده
 
 ### ۱) Claude (اپ Claude، Claude Code، Cowork)
-فایل `dist/payamgostar-knowledge-v0.12.0.plugin` را دانلود و در Claude نصب کنید، یا پوشه را به‌عنوان پلاگین اضافه کنید. اسکیل‌ها خودکار فعال می‌شوند؛ کافی است بپرسید یا فایل RFP را بدهید.
+فایل `dist/payamgostar-knowledge-v0.13.0.plugin` را دانلود و در Claude نصب کنید، یا پوشه را به‌عنوان پلاگین اضافه کنید. اسکیل‌ها خودکار فعال می‌شوند؛ کافی است بپرسید یا فایل RFP را بدهید.
 > اگر اسکیل جداگانه `payamgostar-rfp-response` را قبلاً نصب کرده‌اید، بعد از نصب این پلاگین غیرفعالش کنید. `payamgostar-proposal` جایگزین آن است و دو اسکیل هم‌کار با هم تداخل می‌کنند.
 
 ### ۲) ایجنت‌های سازگار با Agent Skills (OpenAI Codex، Gemini CLI، Cursor، GitHub Copilot، VS Code و …)
 SKILL.md یک استاندارد باز است. هر سه پوشه زیر `skills/` را (کنار هم، چون به هم ارجاع می‌دهند) در پوشه اسکیل‌های ابزار کپی کنید (مثلاً `.agents/skills/`، `.codex/skills/` یا `.github/skills/`، طبق مستندات همان ابزار). اگر ابزار فقط `AGENTS.md` را می‌خواند، کل مخزن را باز کنید.
 
 ### ۳) چت‌بات‌های بدون فایل‌سیستم (ChatGPT، Gemini Gem، Copilot Studio، DeepSeek، مدل لوکال)
-از پوشه `portable/` (یا فایل فشرده `dist/payamgostar-portable-v0.12.0.zip`) استفاده کنید. راهنمای قدم‌به‌قدم هر پلتفرم در [`portable/README.md`](portable/README.md) است.
+از پوشه `portable/` (یا فایل فشرده `dist/payamgostar-portable-v0.13.0.zip`) استفاده کنید. راهنمای قدم‌به‌قدم هر پلتفرم در [`portable/README.md`](portable/README.md) است.
 
 ### ۴) ایجنت اختصاصی (هر LLM از طریق API)
 ```bash

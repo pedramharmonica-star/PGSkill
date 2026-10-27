@@ -56,6 +56,7 @@ def complete():
     rs = os.path.join(SK, "payamgostar-rfp-matcher", "SKILL.md")
     ps = os.path.join(SK, "payamgostar-proposal", "SKILL.md")
     cs = os.path.join(SK, "payamgostar-contracts", "SKILL.md")
+    bs = os.path.join(SK, "payamgostar-bpms-builder", "SKILL.md")
     desc = fm(ks, "description") + " Also matches RFP/RFI/tender requirements row by row against PayamGostar capabilities and builds the branded customer proposal / RFP response."
     parts = [
         "---", "name: payamgostar-knowledge", f'description: "{desc}"', "---", "",
@@ -77,6 +78,8 @@ def complete():
         "## الف-۴) قراردادها و پیش‌فاکتور", "",
         "> قالب‌های DOCX و اسکریپت پرکردن فقط در محیط اجرای کد کاربرد دارند. در چت‌بات، متن قالب‌ها در «ب» (فایل‌های contracts/) آمده است.", "",
         demote(body(cs), 2), "",
+        "## الف-۵) ساخت فرم و فرایند (BPMS)", "",
+        demote(body(bs), 2), "",
         "# ب) دانش مرجع", "",
     ]
     for name in ORDER:
@@ -88,11 +91,17 @@ def complete():
         p = os.path.join(SK, "payamgostar-contracts", name)
         if os.path.exists(p):
             parts += [f"## فایل مرجع: contracts/{name}", "", demote(open(p, encoding="utf-8").read().strip(), 2), ""]
+    for name in BPMS_FILES:
+        p = os.path.join(SK, "payamgostar-bpms-builder", name)
+        if os.path.exists(p):
+            parts += [f"## فایل مرجع: bpms/{name}", "", demote(open(p, encoding="utf-8").read().strip(), 2), ""]
     open(os.path.join(OUT, "PayamGostar-Skill-Complete.md"), "w", encoding="utf-8").write("\n".join(parts) + "\n")
 
 CONTRACT_FILES = ["references/contract-policy.md", "references/pre-invoice.md",
                   "templates/sales-contract.md", "templates/install-training-support-contract.md",
                   "templates/sla-annex.md", "templates/nda.md"]
+
+BPMS_FILES = ["references/build-checklist.md", "references/pitfalls.md", "templates/process-spec-template.md", "templates/lead-nurturing.md"]
 
 def kb_parts():
     for old in glob.glob(os.path.join(KN, "kb-part-*.md")):
