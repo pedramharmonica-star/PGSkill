@@ -1,6 +1,6 @@
 ---
 name: payamgostar-proposal
-description: "Builds the customer-facing PayamGostar proposal / RFP response: a branded Persian RTL A4 PDF (cover, executive summary, module map, solution, requirement tables, implementation plan, support, next steps) from a customer RFP and the PayamGostar knowledge and RFP-match results. Use whenever a user wants a proposal, پروپوزال, پاسخ RFP, پیشنهاد فنی, or a designed response document for a PayamGostar customer or tender."
+description: "Builds the customer-facing PayamGostar proposal / RFP response in one of three models (general, RFP-based, or tailored to a stated industry + solution; tailored is the default): a branded Persian RTL A4 PDF (cover, executive summary, module map, solution, requirement tables, implementation plan, support, next steps) from a customer RFP and the PayamGostar knowledge and RFP-match results. Use whenever a user wants a proposal, پروپوزال, پاسخ RFP, پیشنهاد فنی, or a designed response document for a PayamGostar customer or tender."
 ---
 
 # ساخت پروپوزال و پاسخ RFP با هویت بصری پیام‌گستر
@@ -28,13 +28,26 @@ payamgostar-proposal    ← همین اسکیل: سند طراحی‌شده بر
 ورودی: فایل RFP مشتری (docx / pdf / xlsx) و در صورت وجود، فایل‌های لوگو و فونت.
 خروجی: یک PDF آماده ارسال به مشتری؛ فارسی، راست‌چین، A4 عمودی، با هویت بصری پیام‌گستر. همراهش یک پاسخ کوتاه در چت که تفسیر فایل، موارد نیازمند بازبینی و فهرست جاهای خالی را می‌گوید.
 
-از کاربر اطلاعات اضافه نخواه. همه چیز را از فایل‌ها دربیاور و جای اطلاعات ناموجود را خالی و برجسته بگذار.
+از کاربر اطلاعات اضافه نخواه. همه چیز را از فایل‌ها دربیاور و جای اطلاعات ناموجود را خالی و برجسته بگذار. **تنها استثنا:** انتخاب مدل پروپوزال و (در مدل ۳) صنعت و راهکار، اگر از درخواست معلوم نیست (بخش ۰-الف).
 اگر کاربر در پیامش توقف برای تأیید خواست (مثلاً تأیید استوری‌بورد یا ۳ صفحه نمونه)، همان را انجام بده. در غیر این صورت کل سند را بساز و نسخه قابل‌تست را تحویل بده؛ کاربر ترجیح می‌دهد نسخه‌های قابل‌تست را مرحله‌به‌مرحله ببیند.
 
 ---
 
-## ۰-ب. پروپوزال صنعت‌محور و راهکارمحور (بدون RFP)
-اگر کاربر RFP نداد و پروپوزال برای یک **صنعت** (مثلاً «پروپوزال پیام‌گستر برای بیمارستان‌ها») یا یک **راهکار** (مثلاً «پروپوزال BPMS و اتوماسیون اداری») خواست:
+## ۰-الف. انتخاب مدل پروپوزال (گام اول، الزامی)
+سیاست شرکت (۱۴۰۵/۰۸): **همه پروپوزال‌ها اختصاصی‌اند، مگر کاربر صریحاً پروپوزال عمومی بخواهد.** پیش از هر کار، مدل را مشخص کن. جزئیات و ساختار هر مدل: `references/proposal-models.md`.
+
+| مدل | کی | ورودی حداقل | مسیر |
+|---|---|---|---|
+| **۱. عمومی (جنرال)** | کاربر صریحاً «کلی / جنرال / معرفی» خواست | — | ساختار کوتاه مدل ۱، با کمی توضیح برای هر قابلیت |
+| **۲. مبتنی بر RFP** (کاملاً تخصصی) | فایل RFP، RFI یا سند نیازمندی هست | فایل RFP | `payamgostar-rfp-matcher` ← بخش‌های ۱ تا ۷ همین اسکیل |
+| **۳. اختصاصی بر اساس نیاز** | RFP نیست ولی نیاز مشخص است | **صنعت + راهکار** (هر دو الزامی) | بخش ۰-ب |
+
+- اگر مدل از درخواست معلوم نیست، **یک سؤال** بپرس: «۱) عمومی ۲) بر اساس RFP (فایل را بفرستید) ۳) اختصاصی (صنعت و راهکار را بگویید)».
+- در مدل ۳ اگر صنعت یا راهکار مشخص نیست، **نساز** و همان را بپرس.
+- پروپوزال‌های فعلی شرکت (اسکلت عمومی که فقط اسم صنعت در آن عوض شده) **تأیید نشده‌اند**. ضعف‌هایشان در `references/current-proposal-structure.md` است؛ هیچ‌کدام را تکرار نکن. به‌ویژه: ترتیب نیاز ← راهکار (نه ترتیب ماژول‌ها)، «درباره ما» حداکثر یک صفحه، بدون ادعای قدیمی (۴۳۴ گزارش، رهبر بازار)، و همیشه «مرزها و اتصال».
+
+## ۰-ب. پروپوزال صنعت‌محور و راهکارمحور (مدل ۳، بدون RFP)
+اگر کاربر RFP نداد و پروپوزال برای یک **صنعت** (مثلاً «پروپوزال پیام‌گستر برای بیمارستان‌ها») و یک **راهکار** (مثلاً «BPMS و اتوماسیون اداری») خواست (هر دو لازم است؛ ساختار کامل در `references/proposal-models.md` مدل ۳):
 1. منبع را از جدول «نقشه استفاده در پروپوزال» در `../payamgostar-knowledge/references/solutions.md` بردار (برای بیمه، شهرداری، برق و گاز اول `industry-solutions.md`).
 2. به‌جای بخش «پاسخ به نیازمندی‌ها»، جدول «نیاز صنعت ← قابلیت پیام‌گستر ← ماژول» بساز. هر ردیف با KB تأیید شود. نسخه و قیمت از `pricing.md`.
 3. بخش «مرزها و اتصال» را حتماً بیاور: آنچه سامانه تخصصی صنعت انجام می‌دهد (HIS، PMS، صدور بیمه‌نامه، ERP) و مسیر API.
@@ -43,6 +56,7 @@ payamgostar-proposal    ← همین اسکیل: سند طراحی‌شده بر
 
 ## ۰-ج. نمونه‌های تأییدشده
 - **اسکرین‌شات محصول:** ۲۰۲۶ تصویر رسمی مرکز دانش در `../../kb-assets/kb-images/` (ریشه مخزن). پیدا کردن: `python3 ../payamgostar-knowledge/scripts/find_image.py "<موضوع>"`. اگر پوشه در دسترس نیست (نصب پلاگین)، از `public_url` همان سطر استفاده کن. تصویر نسخه جدیدتر را ترجیح بده.
+- **اسکرین‌شات‌های عملیاتی** (ویزارد ۱۱): `assets/screenshots/index.csv` با ۷۹ تصویر وب (فرم‌های پرشده، کارتابل، قیف فرصت، انبار، فاکتور، داشبورد، گزارش‌ساز، طراح فرایند، ۹ نمونه فرم صنفی مثل شکایات، تعمیرات، استخدام، کنترل کیفیت) و ۹ تصویر اپلیکیشن موبایل. این‌ها برای «سناریوی کاری» بهترند؛ تصاویر KB بیشتر تنظیماتی‌اند. ستون `privacy`: هر چیزی غیر از `ok` یعنی نام، ایمیل، شماره یا تصویر افراد دیده می‌شود؛ پیش از ارسال به مشتری بُرش بزن یا تار کن، یا تصویر دیگری بردار. کپشن را از ستون `caption_fa` بردار و به سناریوی مشتری ربط بده.
 - `assets/customer-logos/` (+ `customers.csv`): 26 لوگوی مشتریان رزومه با صنعت. برای اسلاید «مشتریان ما» اول مشتریان همان صنعت را بیاور (`../payamgostar-knowledge/references/reference-customers.md`).
 - `assets/certificates/`: اسکن گواهی ارزیابی امنیتی محصول افتا (`afta-certificate.pdf`/`.png`) و مجوز نظام صنفی رایانه‌ای (`nezam-senfi-membership.png`). در اسلاید گواهی‌ها هر دو را بگذار. قاعده نوشتن افتا در `company-facts.md`.
 - `references/sample-kazheh-transport.md`: پروپوزال راهکارمحور برای RFP فرایندی (عملیات حمل). الگوی ترجمه RFP به فرم، گروه‌فیلد، فرایند، قوانین کسب‌وکار، نقش، اعلان، گزارش و فازبندی. برای RFPهای عملیاتی و فرایندی از این ساختار پیروی کن. اسلایدهای «درباره ما»، «فناوری» و «گواهی‌ها»ی آن قدیمی‌اند؛ کپی نکن.
@@ -162,12 +176,14 @@ for el in d.element.body.iterchildren():
 - برای نمودارها رنگ تازه نساز: «دارد» نارنجی توپر، «با توضیح» نارنجی هاشور، «ارائه نمی‌شود» خاکستری `--line`.
 
 ### تایپوگرافی
-- فونت‌ها را اول در `assets/fonts/` جست‌وجو کن.
-- **نمایشی**: Yekan Bakh FaNum، فقط وزن‌های ۱۰۰ (Hairline)، ۲۰۰ (Thin) و ۳۰۰ (Light). برای عدد بخش‌ها، KPI، شماره صفحه، تیتر جلد و نقل‌قول درشت.
-- **بدنه و تیترها**: Vazirmatn با وزن‌های ۴۰۰، ۶۰۰، ۷۰۰ و ۸۰۰. با `npm pack @fontsource/vazirmatn@5.0.20` و زیرمجموعه‌های arabic و latin با unicode-range دریافت کن.
-- اگر کاربر وزن‌های Regular و Bold یکان بخش را داد، جایگزین Vazirmatn کن.
-- فایل‌های `.eot` و `.woff` یکان بخش ممکن است در واقع TTF باشند؛ با fontTools بررسی کن.
-- مقیاس A4: عدد جداکننده ۲۱۰pt/100، تیتر جلد ۲۴pt/200، H1 جداکننده ۲۸pt/800، H2 صفحه ۲۱pt/800، سرماژول ۱۵pt/800، بدنه ۱۰ تا ۱۰٫۵pt/400 با فاصله خط ۱٫۷۵ تا ۱٫۹۵، برچسب ۸ تا ۹pt/700، زیرنویس ۷٫۵ تا ۸٫۵pt.
+- **فونت سازمانی پیام‌گستر: Yekan Bakh FaNum (یکان بخ، اعداد فارسی)** برای همه متن‌ها. ۸ وزن در `assets/fonts/`:
+  `YekanBakhFaNum-0100-Hairline` · `0200-Thin` · `0300-Light` · `0400-Regular` · `0500-Medium` · `0700-Bold` · `0900-Heavy` · `1000-Fat` (همه `.ttf`).
+- **نمایشی**: وزن‌های ۱۰۰، ۲۰۰ و ۳۰۰ برای عدد بخش‌ها، KPI، شماره صفحه، تیتر جلد و نقل‌قول درشت.
+- **بدنه**: ۴۰۰. **تیترها و برچسب‌ها**: ۵۰۰ و ۷۰۰. **تأکید خیلی درشت**: ۹۰۰. وزن ۱۰۰۰ (Fat) فقط برای یک کلمه تیتری روی جلد، اگر لازم شد.
+- `@font-face` با `font-family:'YekanBakh'` و `font-weight` برابر عدد وزن. اعداد لاتین هم با همین فونت فارسی نمایش داده می‌شوند (FaNum)؛ کد نیازمندی و نسخه (مثل `2.8.3`) را در `<bdi dir="ltr">` بگذار.
+- **Vazirmatn فقط جایگزین** است، وقتی پوشه `assets/fonts/` در دسترس نیست (مثلاً نصب پلاگین بدون فونت): `npm pack @fontsource/vazirmatn@5.0.20`. در پاسخ چت بگو فونت سازمانی استفاده نشد.
+- ⚠ لایسنس: یکان بخ فونت تجاری است (© رضا بختیاری‌فرد). فقط برای اسناد خود پیام‌گستر؛ فایل فونت را جدا برای مشتری یا بیرون نفرست. جاسازی در PDF مجاز است.
+- مقیاس A4: عدد جداکننده ۲۱۰pt/100، تیتر جلد ۲۴pt/200، H1 جداکننده ۲۸pt/700، H2 صفحه ۲۱pt/700، سرماژول ۱۵pt/700، بدنه ۱۰ تا ۱۰٫۵pt/400 با فاصله خط ۱٫۷۵ تا ۱٫۹۵، برچسب ۸ تا ۹pt/500، زیرنویس ۷٫۵ تا ۸٫۵pt/400.
 - **متن بدنه حداقل ۱۰pt و کنتراست حداقل ۴٫۵:۱.**
 - همه فونت‌ها را base64 داخل HTML بگذار تا در PDF جاسازی شوند.
 
@@ -217,7 +233,7 @@ for el in d.element.body.iterchildren():
 ```css
 @page{size:A4;margin:0}
 *{box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact}
-body{direction:rtl;font-family:'Vazirmatn','YB',Tahoma,sans-serif;font-size:10pt;line-height:1.75}
+body{direction:rtl;font-family:'YekanBakh','Vazirmatn',Tahoma,sans-serif;font-size:10pt;line-height:1.75}
 .page{width:210mm;height:297mm;position:relative;overflow:hidden;break-after:page}
 .page.light{padding:25mm 17mm 21mm}
 .hdr{position:absolute;top:9mm;right:17mm;left:17mm}
@@ -241,7 +257,7 @@ await pg.pdf(path=OUT, format='A4', print_background=True, prefer_css_page_size=
 ```
 - Bookmark از سرتیترها ساخته می‌شود: h1 فقط برای عنوان جداکننده‌ها، h2 برای عنوان صفحه‌ها و سرماژول‌ها. بقیه متن‌ها heading نباشند.
 - لینک‌های داخلی `<a href="#id">` در PDF کلیک‌پذیرند.
-- متن فارسی داخل SVG با `font-family="Vazirmatn"` و `text-anchor="middle"` درست رندر می‌شود.
+- متن فارسی داخل SVG با `font-family="YekanBakh"` و `text-anchor="middle"` درست رندر می‌شود.
 
 ---
 
@@ -254,7 +270,8 @@ await pg.pdf(path=OUT, format='A4', print_background=True, prefer_css_page_size=
 
 ## ۷. تحویل
 
-- PDF را با نام `PayamGostar-RFP-Response-<Client>.pdf` بفرست.
+- PDF را با نام `PayamGostar-RFP-Response-<Client>.pdf` (مدل ۲)، `PayamGostar-Proposal-<Client>-<Industry>.pdf` (مدل ۳) یا `PayamGostar-Overview.pdf` (مدل ۱) بفرست.
+- در پاسخ چت اول بگو کدام مدل ساخته شد و چرا.
 - در پاسخ چت به‌ترتیب بیاور:
   1. تفسیر قالب‌بندی فایل (مثلاً قرمز = ارائه نمی‌شود) و اینکه اگر اشتباه است، سند دوباره ساخته می‌شود
   2. عدد پوشش کل و پوشش مشتری‌محور

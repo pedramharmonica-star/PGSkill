@@ -91,6 +91,10 @@ def complete():
         p = os.path.join(SK, "payamgostar-contracts", name)
         if os.path.exists(p):
             parts += [f"## فایل مرجع: contracts/{name}", "", demote(open(p, encoding="utf-8").read().strip(), 2), ""]
+    for name in PROPOSAL_FILES:
+        p = os.path.join(SK, "payamgostar-proposal", name)
+        if os.path.exists(p):
+            parts += [f"## فایل مرجع: proposal/{name}", "", demote(open(p, encoding="utf-8").read().strip(), 2), ""]
     for name in BPMS_FILES:
         p = os.path.join(SK, "payamgostar-bpms-builder", name)
         if os.path.exists(p):
@@ -100,6 +104,8 @@ def complete():
 CONTRACT_FILES = ["references/contract-policy.md", "references/pre-invoice.md",
                   "templates/sales-contract.md", "templates/install-training-support-contract.md",
                   "templates/sla-annex.md", "templates/nda.md"]
+
+PROPOSAL_FILES = ["references/proposal-models.md", "references/current-proposal-structure.md"]
 
 BPMS_FILES = ["references/build-checklist.md", "references/pitfalls.md", "templates/process-spec-template.md", "templates/lead-nurturing.md"]
 
