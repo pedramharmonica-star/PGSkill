@@ -42,8 +42,8 @@ payamgostar-proposal    ← همین اسکیل: سند طراحی‌شده بر
 5. بقیه استوری‌بورد، هویت بصری و کنترل کیفیت مثل پروپوزال RFP است. فقط بخش ۰۳ با «نقشه نیاز و راهکار» جایگزین می‌شود.
 
 ## ۰-ج. نمونه‌های تأییدشده
-- `assets/customer-logos/` (+ `customers.csv`): ۲۳ لوگوی مشتریان رزومه با صنعت. برای اسلاید «مشتریان ما» اول مشتریان همان صنعت را بیاور (`../payamgostar-knowledge/references/reference-customers.md`).
-- `assets/certificates/afta-certificate.pdf` و `.png`: اسکن گواهی ارزیابی امنیتی محصول (افتا). قیدهای نسخه، دارنده و انقضا در `company-facts.md`.
+- `assets/customer-logos/` (+ `customers.csv`): 26 لوگوی مشتریان رزومه با صنعت. برای اسلاید «مشتریان ما» اول مشتریان همان صنعت را بیاور (`../payamgostar-knowledge/references/reference-customers.md`).
+- `assets/certificates/`: اسکن گواهی ارزیابی امنیتی محصول افتا (`afta-certificate.pdf`/`.png`) و مجوز نظام صنفی رایانه‌ای (`nezam-senfi-membership.png`). در اسلاید گواهی‌ها هر دو را بگذار. قاعده نوشتن افتا در `company-facts.md`.
 - `references/sample-kazheh-transport.md`: پروپوزال راهکارمحور برای RFP فرایندی (عملیات حمل). الگوی ترجمه RFP به فرم، گروه‌فیلد، فرایند، قوانین کسب‌وکار، نقش، اعلان، گزارش و فازبندی. برای RFPهای عملیاتی و فرایندی از این ساختار پیروی کن. اسلایدهای «درباره ما»، «فناوری» و «گواهی‌ها»ی آن قدیمی‌اند؛ کپی نکن.
 
 ## ۱. خواندن RFP (مهم‌ترین گام)

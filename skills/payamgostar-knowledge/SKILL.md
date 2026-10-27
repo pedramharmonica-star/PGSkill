@@ -120,5 +120,5 @@ python3 scripts/read_source.py SOURCE_ID --max-chars 30000 [--latest]
 
 ## مشتریان مرجع و گواهی‌ها
 - مشتریان رزومه (۲۳ سازمان، به تفکیک صنعت) و قواعد استفاده: `references/reference-customers.md`. لوگوها در `skills/payamgostar-proposal/assets/customer-logos/`.
-- گواهی افتا (شماره، نسخه 2.8.3، دارنده، انقضا ۱۴۰۵/۱۱/۰۸): `references/company-facts.md` و اسکن در `skills/payamgostar-proposal/assets/certificates/`.
+- گواهی افتا: همیشه بنویس «پیام‌گستر گواهی ارزیابی امنیتی افتا دارد» (شماره CBP-C1470-0301؛ به نام هلدینگ مادر). نسخه و اعتبار فقط اگر RFP صریح پرسید (`references/company-facts.md`). مجوز نظام صنفی رایانه‌ای (شماره ۱۴۰۱۴۸۱۶، تا ۱۴۰۶/۰۶/۱۷) هم همان‌جاست. اسکن‌ها: `skills/payamgostar-proposal/assets/certificates/`.
 - راهکار ۹ صنعت از سند «راهکار جامع»: `references/solutions.md` بخش ج-۲.

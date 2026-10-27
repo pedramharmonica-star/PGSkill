@@ -12,13 +12,16 @@ name_fa,file,industry_key,industry_fa,note,confidence,width,height
 شرکت نفت پاسارگاد,customer-logos/pasargad-oil.png,industrial,تولیدی و صنعتی,نفت و فرآورده‌های نفتی,قطعی,96,89
 اجاق گاز داتیس,customer-logos/datis.png,industrial,تولیدی و صنعتی,لوازم خانگی,قطعی,89,88
 اتوخسروانی,customer-logos/auto-khosravani.png,auto,خودرو,فروش خودرو («حس خوب، خرید مطمئن»),قطعی,400,146
-مادو موتور,customer-logos/mado-motor.png,auto,خودرو,از روی نام؛ نوع فعالیت تأیید شود,حدس,139,50
+مادو موتور,customer-logos/mado-motor.png,auto,خودرو,خودرو,قطعی,139,50
 ابرآروان,customer-logos/arvancloud.png,it,فناوری اطلاعات و نرم‌افزار,رایانش ابری و CDN,قطعی,74,67
 رسپینا,customer-logos/respina.png,it,فناوری اطلاعات و نرم‌افزار,اینترنت و ارتباطات,قطعی,79,80
-تارا,customer-logos/tara.png,it,فناوری اطلاعات و نرم‌افزار,احتمالاً فین‌تک (خرید اعتباری)؛ تأیید شود,حدس,62,62
-سیب طلایی هوشمند,customer-logos/sib-talaei.png,trade,بازرگانی و توزیع,احتمالاً فروش و توزیع کالای دیجیتال (لوگوی گوشی)؛ تأیید شود,حدس,200,200
+تارا,customer-logos/tara.png,it,فناوری اطلاعات و نرم‌افزار,فین‌تک (خرید اعتباری),قطعی,62,62
+سیب طلایی هوشمند,customer-logos/sib-talaei.png,trade,بازرگانی و توزیع,فروش و توزیع کالای دیجیتال,قطعی,200,200
 کوبل دارو,customer-logos/cobel-darou.png,health,دارو، درمان و تجهیزات پزشکی,دارو (Cobel Group),قطعی,300,108
 سازمان انتقال خون,customer-logos/blood-transfusion.png,health,دارو، درمان و تجهیزات پزشکی,سازمان دولتی درمانی,قطعی,185,171
 صدا و سیمای جمهوری اسلامی ایران,customer-logos/irib.png,gov,دولتی، عمومی و رسانه,رسانه ملی,قطعی,127,101
 معاونت علمی فناوری ریاست جمهوری,customer-logos/isti.png,gov,دولتی، عمومی و رسانه,نهاد دولتی,قطعی,86,87
 توسعه و نوآوری شهر,customer-logos/city-innovation.png,gov,دولتی، عمومی و رسانه,تحول دیجیتال شهری («تحول‌آفرین فردای دیجیتال»),حدس,151,123
+گروه مینا,customer-logos/mina-group.png,industrial,تولیدی و صنعتی,گروه صنعتی؛ نوع فعالیت دقیق ثبت نشده,قطعی,500,500
+ایستکول,customer-logos/eastcool.png,industrial,تولیدی و صنعتی,تولید سیستم‌های سرمایش و تهویه (EASTCOOL),قطعی,500,500
+اسکای روم,customer-logos/skyroom.png,it,فناوری اطلاعات و نرم‌افزار,سامانه جلسات و آموزش آنلاین,قطعی,500,500
