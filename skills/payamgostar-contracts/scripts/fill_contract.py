@@ -19,7 +19,7 @@ deal.json (all money in RIAL, integers):
   "software_amount": 0,                           # final software amount without VAT (after any APPROVED discount)
   "install_amount": null,                         # default = 10% of software_amount
   "project_amount": 0,                            # optional personalisation project (install contract)
-  "prepay_percent": 60, "vat_percent": 10
+  "prepay_percent": 50, "vat_percent": 10   # prepay is REQUIRED: negotiated per deal, usually >= 50
 }
 Only deal data is replaced. The contract wording is never changed.
 """
@@ -65,17 +65,23 @@ def money(n):
 # ---------- calculations ----------
 def calc(d):
     vat = d.get("vat_percent", 10) / 100
-    pp = d.get("prepay_percent", 60) / 100
+    if d.get("prepay_percent") is None:
+        sys.exit("prepay_percent is required (negotiated per deal; usually not below 50). Ask the user.")
+    pp = d["prepay_percent"] / 100
+    if d["prepay_percent"] < 50:
+        print("WARNING: prepayment below 50% is unusual; confirm with the sales manager.", file=sys.stderr)
     S = int(d.get("software_amount") or 0)
     out = {}
+    out["{{درصد پیش‌پرداخت}}"] = str(d["prepay_percent"])
+    out["{{درصد باقی‌مانده}}"] = str(100 - d["prepay_percent"])
     if S:
         pre = round(S * pp)
         rest_vat = S - pre + round(S * vat)
         out.update({
             "{{مبلغ نرم‌افزار بدون ارزش افزوده (ریال)}}": money(S),
             "{{مبلغ نرم‌افزار به حروف}}": words(S),
-            "{{پیش‌پرداخت ۶۰٪ (ریال)}}": money(pre),
-            "{{باقی‌مانده ۴۰٪ به‌علاوه ارزش افزوده کل (ریال)}}": money(rest_vat),
+            "{{پیش‌پرداخت (ریال)}}": money(pre),
+            "{{باقی‌مانده به‌علاوه ارزش افزوده کل (ریال)}}": money(rest_vat),
             "{{باقی‌مانده به‌علاوه ارزش افزوده به حروف}}": words(rest_vat),
         })
         out["_sales_prepay_words"] = words(pre)
@@ -90,9 +96,9 @@ def calc(d):
             "{{مبلغ خدمات نصب و آموزش به حروف}}": words(I),
             "{{مبلغ پروژه شخصی‌سازی (ریال)}}": money(P),
             "{{مبلغ پروژه شخصی‌سازی به حروف}}": words(P),
-            "{{پیش‌پرداخت ۶۰٪ کل قرارداد (ریال)}}": money(pre2),
-            "{{باقی‌مانده ۴۰٪ (ریال)}}": money(rest2),
-            "{{باقی‌مانده ۴۰٪ به حروف}}": words(rest2),
+            "{{پیش‌پرداخت کل قرارداد (ریال)}}": money(pre2),
+            "{{باقی‌مانده (ریال)}}": money(rest2),
+            "{{باقی‌مانده به حروف}}": words(rest2),
             "{{مالیات بر ارزش افزوده کل قرارداد (ریال)}}": money(vat2),
             "{{ارزش افزوده به حروف}}": words(vat2),
         })
@@ -128,8 +134,8 @@ def mapping(d, which):
     pw = c.pop("_sales_prepay_words", None); iw = c.pop("_install_prepay_words", None)
     m.update(c)
     # the same placeholder name is used for the prepayment words in both contracts
-    m["{{پیش‌پرداخت ۶۰٪ به حروف}}"] = (iw if which == "install" else pw) or "{{پیش‌پرداخت ۶۰٪ به حروف}}"
-    if m["{{پیش‌پرداخت ۶۰٪ به حروف}}"].startswith("{{"): del m["{{پیش‌پرداخت ۶۰٪ به حروف}}"]
+    m["{{پیش‌پرداخت به حروف}}"] = (iw if which == "install" else pw) or "{{پیش‌پرداخت به حروف}}"
+    if m["{{پیش‌پرداخت به حروف}}"].startswith("{{"): del m["{{پیش‌پرداخت به حروف}}"]
     return m
 
 def fill(tpl, d, out):

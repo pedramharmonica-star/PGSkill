@@ -1,6 +1,6 @@
 ---
 name: payamgostar-contracts
-description: "Prepares PayamGostar sales paperwork for a closed deal: decides which documents the deal needs (pre-invoice only, or sales contract + installation/training/support contract, plus SLA annex and NDA when asked), fills the official Persian contract templates (.docx) with deal data, computes the 60/40 payment split, 10% training/deployment fee, VAT and Persian amounts-in-words, and checks the result. Use whenever a user wants قرارداد، پیش‌فاکتور، SLA، NDA، تعهدنامه محرمانگی، قرارداد فروش یا قرارداد پشتیبانی for a PayamGostar customer."
+description: "Prepares PayamGostar sales paperwork for a closed deal: decides which documents the deal needs (pre-invoice only, or sales contract + installation/training/support contract, plus SLA annex and NDA when asked), fills the official Persian contract templates (.docx) with deal data, computes the negotiated prepayment split, 10% training/deployment fee, VAT and Persian amounts-in-words, and checks the result. Use whenever a user wants قرارداد، پیش‌فاکتور، SLA، NDA، تعهدنامه محرمانگی، قرارداد فروش یا قرارداد پشتیبانی for a PayamGostar customer."
 ---
 
 # اسکیل قراردادهای پیام‌گستر
@@ -20,13 +20,13 @@ description: "Prepares PayamGostar sales paperwork for a closed deal: decides wh
 |---|---|
 | **ابری** | قرارداد جدا ندارد. پیش‌فاکتور یا خرید از سایت + قوانین سایت (termsofuse). |
 | **نسخه استاندارد (درون‌سازمانی)** | معمولاً **فقط پیش‌فاکتور** که مشتری مهر و امضا می‌کند (`references/pre-invoice.md`). |
-| **نسخه پیشرفته (سازمانی)** | پیش‌فاکتور + **قرارداد فروش نرم‌افزار** + **قرارداد نصب و آموزش و پشتیبانی**. در صورت درخواست مشتری: **پیوست SLA** و **تعهدنامه محرمانگی (NDA)**. |
+| **نسخه پیشرفته (سازمانی)** | پیش‌فاکتور + **قرارداد فروش نرم‌افزار** + **قرارداد نصب و آموزش و پشتیبانی**. در صورت درخواست مشتری: **پیوست SLA** (جداگانه خریده می‌شود) و **تعهدنامه محرمانگی (NDA)**. |
 
 ## گردش کار
-1. **داده‌ها را جمع کن:** نام شرکت خریدار، نماینده یا نمایندگان و سمتشان، شماره ثبت، شناسه ملی، کد اقتصادی، نشانی، ایمیل رسمی، شماره و تاریخ پیش‌فاکتور، تاریخ شروع، مبلغ نهایی نرم‌افزار (بعد از تخفیف تأییدشده، بدون ارزش افزوده)، مبلغ پروژه شخصی‌سازی (اگر هست)، درصد پیش‌پرداخت (پیش‌فرض ۶۰).
+1. **داده‌ها را جمع کن:** نام شرکت خریدار، نماینده یا نمایندگان و سمتشان، شماره ثبت، شناسه ملی، کد اقتصادی، نشانی، ایمیل رسمی، شماره و تاریخ پیش‌فاکتور، تاریخ شروع، مبلغ نهایی نرم‌افزار (بعد از تخفیف تأییدشده، بدون ارزش افزوده)، مبلغ پروژه شخصی‌سازی (اگر هست)، **درصد پیش‌پرداخت** (طبق مذاکره؛ معمولاً کمتر از ۵۰٪ نیست؛ همیشه بپرس، پیش‌فرض نگذار).
 2. **محاسبه را نشان بده و تأیید بگیر:** `python3 scripts/fill_contract.py --calc deal.json`.
-   - قرارداد فروش: پیش‌پرداخت = ۶۰٪ مبلغ نرم‌افزار؛ باقی‌مانده = ۴۰٪ + **ارزش افزوده کل** (۱۰٪).
-   - قرارداد نصب و آموزش: مبلغ خدمات = **۱۰٪ مبلغ نرم‌افزار** (همان ۱۰٪ آموزش و استقرار) + پروژه شخصی‌سازی اختیاری؛ ۶۰٪ پیش‌پرداخت و ۴۰٪ + ارزش افزوده قبل از استقرار.
+   - قرارداد فروش: پیش‌پرداخت = درصد توافق‌شده از مبلغ نرم‌افزار؛ باقی‌مانده = بقیه + **ارزش افزوده کل** (۱۰٪).
+   - قرارداد نصب و آموزش: مبلغ خدمات = **۱۰٪ مبلغ نرم‌افزار** (همان ۱۰٪ آموزش و استقرار) + پروژه شخصی‌سازی اختیاری؛ پیش‌پرداخت به درصد توافق‌شده و باقی‌مانده + ارزش افزوده قبل از استقرار.
 3. **قالب را پر کن:** `python3 scripts/fill_contract.py <sales|install|sla|nda> deal.json out.docx`. اسکریپت جاهای خالی باقی‌مانده را فهرست می‌کند.
 4. **بندهای اختیاری:** اگر پروژه شخصی‌سازی نیست، در قرارداد نصب عبارت «به همراه یک بسته پروژه شخصی‌سازی…» و تبصره ۵ را با تأیید کاربر حذف کن. سمت امضاکنندگان خریدار در جدول امضا را مطابق نمایندگان واقعی اصلاح کن.
 5. **کنترل نهایی** (پایین) و تحویل فایل. در صورت نیاز PDF بساز.
@@ -46,4 +46,5 @@ description: "Prepares PayamGostar sales paperwork for a closed deal: decides wh
 - [ ] شماره پیش‌فاکتور در قرارداد فروش با پیش‌فاکتور یکی است.
 - [ ] مبلغ قرارداد نصب = ۱۰٪ مبلغ قرارداد فروش (مگر کاربر عدد دیگری داده باشد).
 - [ ] ایمیل رسمی فروشنده در قراردادها `cs@payamgostar.com` است.
-- [ ] تناقض‌های باز `contract-policy.md` (مهلت استقرار، SLA) را به کاربر یادآوری کن اگر به این معامله مربوط است.
+- [ ] درصد پیش‌پرداخت با مذاکره یکی است (کمتر از ۵۰٪ فقط با تأیید مدیر فروش).
+- [ ] اگر مشتری SLA خواسته: پیوست SLA جدا قیمت‌گذاری و امضا شده است (اضافه بر پشتیبانی).
