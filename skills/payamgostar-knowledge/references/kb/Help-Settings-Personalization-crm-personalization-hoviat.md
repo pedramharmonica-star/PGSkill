@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-personalization-hoviat
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## شخصی‌سازی هویت‌ها
 `مسیر سند: Help/Settings/Personalization-crm/personalization-hoviat/Personalization-of-identities.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/personalization-hoviat/Personalization-of-identities.md)
@@ -19,6 +19,8 @@
 لطفا ابتدا [تنظیمات مشترک آیتم‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md) را مطالعه کنید.
 
 علاوه بر تنظیمات عمومی، تنظیمات اختصاصی هویت‌ها به شرح زیر می باشد.
+
+![IMG-1607](</kb-assets/kb-images/Help/Settings/Personalization-crm/personalization-hoviat/personalization-hoviat.webp>)
 
 **1. الگوی شماره گذاری:** الگوی شماره مشتری را از بین الگوهایی که قبلا ساخته شده اند انتخاب کنید یا الگوی جدیدی به آن اختصاص دهید.(برای مطالعه بیشتر به بخش [الگو شماره گذاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Numbering-template/Numbering-template.md) مراجعه کنید.)
 

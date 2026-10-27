@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Integrated-bank-Database
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## بانک اطلاعاتی
 `مسیر سند: Help/Integrated-bank/Database/Database.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Database.md)
@@ -40,11 +40,17 @@
 
 > نکته: در صورت نیاز می‌توانید ماژول بانک فهرست مشاغل اول را که در 15 دسته بندی اصلی، اطلاعات مشاغل ثبت شده در پرتال اول(1st.ir ) را برای شما نمایش می‌دهد و شامل بیش از 200 هزار هویت مختلف از مشاغل سراسر کشور است را به عنوان یک بانک کمکی تهیه کنید. این اطلاعات در قالب هویت‌هایی از نوع سرنخ در بانک اطلاعاتی شما نمایش داده خواهند شد.
 
+![IMG-0288](</kb-assets/kb-images/Help/Integrated-bank/Database/JobsForFirst.webp>)
+
  با کلیک بر روی "افزودن گروه جدید" می‌توانید یک دسته بندی جدید ایجاد کنید.
 
 **1)**از طریق این بخش می‌توان  با فیلتر براساس نوع هویت، هویت‌ها با نوع مورد نظر را در بانک اطلاعاتی جستجو کرد.
 
  با دو بار کلیک بر روی هر کدام از دسته بندی‌ها می‌توانید محتوای آن دسته را مشاهده کنید و زیرشاخه‌های آن دسته بندی را مشاهده کنید. همچنین میتوانید دسته بندی جدیدی به زیر شاخه‌های این دسته بندی اضافه کنید.قابل ذکر است که در لایه اخر میتوانید لیست اعضای ان دسته بندی را مشاهده کنید.
+
+![IMG-0289](</kb-assets/kb-images/Help/Integrated-bank/Database/bank1.webp>)
+
+![IMG-0290](</kb-assets/kb-images/Help/Integrated-bank/Database/bank2.webp>)
 
 **1. بالا:** بازگشت به لایه قبلی.
 
@@ -80,9 +86,13 @@
 
 **4. ورود اطلاعات از اکسل:** به قسمت[ ورودی اکسل ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Excel-input/Excel-input.md) مراجعه کنید .
 
+![IMG-0291](</kb-assets/kb-images/Help/Integrated-bank/Database/bankk4.webp>)
+
 #####   کلیک راست بر روی لیست هویت‌ها:
 
 کلیک راست بر روی هویت‌ها، همانطور که در تصویر مشاهده می‌نمایید امکاناتی برای شما فراهم می‌نماید.
+
+![IMG-0292](</kb-assets/kb-images/Help/Integrated-bank/Database/bank5.webp>)
 
 **1. افزودن سابقه:** برای هویت یا هویت‌های انتخاب شده می‌توانید سابقه جدیدی ( از انواع فاکتور جدید، قرارداد و .. ) را ایجاد کنید .
 
@@ -140,6 +150,8 @@
 
 **2. خصوصيات اضافه شده:** علاوه بر فيلدهاي اصلي، فيلدهايي که از طريق [شخصی سازی-افزودن مشخصه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/Add-features/Add-features.md) به  فیلد‌های انواع هویت اضافه شده اند را نيز مي توانيد به عنوان ستون‌هاي نمايش لیست هویت انتخاب کنيد.
 
+![IMG-0293](</kb-assets/kb-images/Help/Integrated-bank/Database/Notes/bank6.webp>)
+
 ## مفهوم سرنخ
 `مسیر سند: Help/Integrated-bank/Database/lead.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/lead.md)
 
@@ -153,6 +165,8 @@
 در این قسمت تمامی پیش فاکتورها، فاکتورها و فاکتورهای برگشت از فروش ثبت شده برای مشتری را می توانید مشاهده کنید، می توانید برای جستجوی سوابق مورد نظر خود از فیلترهای مختلف استفاده کنید. همچنین می توانید سوابق فروش جدید برای مشتری ایجاد کنید.
 
 > نکته: از بخش تنظیمات روی لیست، میتوان پارامتر های مد نظر برای نمایش در این لیست انتخاب کرد و براساس آن خروجی گرفت.
+
+![IMG-0391](</kb-assets/kb-images/Help/Integrated-bank/Database/Sell/Sale.webp>)
 
 **1**. می توانید یک پیش فاکتور فروش جدید برای مشتری ایجاد کنید.
 
@@ -192,11 +206,15 @@
 > **نکته:** در صورت نیاز می توانید ماژول بانک فهرست مشاغل اول را که در 15 دسته بندی اصلی، اطلاعات مشاغل ثبت شده در پرتال اول(1st.ir ) را برای شما نمایش می دهد و شامل بیش از 200 هزار هویت مختلف
 از مشاغل سراسر کشور است را به عنوان یک بانک کمکی تهیه کنید. این اطلاعات در قالب هویت هایی از نوع سرنخ در بانک اطلاعاتی شما نمایش داده خواهند شد
 
+![IMG-0337](</kb-assets/kb-images/Help/Integrated-bank/Database/Grouping/JobsForFirst.webp>)
+
 با کلیک بر روی "افزودن گروه جدید" می توانید یک دسته بندی جدید ایجاد کنید.
 
 **1**.از طریق این بخش می توان  با فیلتر براساس نوع هویت، هویت ها با نوع مورد نظر را در بانک اطلاعاتی جستجو کرد.
 
  با دو بار کلیک بر روی هر کدام از دسته بندی ها می توانید محتوای آن دسته را مشاهده کنید و زیرشاخه های آن دسته بندی را مشاهده کنید. همچنین میتوانید دسته بندی جدیدی به زیر شاخه های این دسته بندی اضافه کنید.قابل ذکر است که در لایه اخر میتوانید لیست اعضای ان دسته بندی را مشاهده کنید.
+
+![IMG-0338](</kb-assets/kb-images/Help/Integrated-bank/Database/Grouping/bank1.webp>)
 
 ## مفهوم دسته بندی هویت‌ها
 `مسیر سند: Help/Integrated-bank/Database/Grouping/mafhome-grouping.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Grouping/mafhome-grouping.md)
@@ -204,6 +222,8 @@
 هویت‌ها را در بانک اطلاعاتی می‌توان  بر اساس حوزه کاری (برای مثال تولید کننده،خدمات و ...)، منطقه ( برای مثال تهران، کردستان و ...) و سایر روش هایی که برای کسب و کار شما مناسب است، دسته بندی کرد.
 
 در نظر داشته باشید که این دسته بندی ها در تمامی قسمت های نرم افزار مورد استفاده قرار می گیرند (مانند ثبت مخاطب یا سرنخ جدید، جستجو، گزارش و ...).
+
+![IMG-0339](</kb-assets/kb-images/Help/Integrated-bank/Database/Grouping/1.webp>)
 
 > **نکته:** لازم به ذکر است تعریف دسته بندی‌ها باید به گونه ای باشد که اشتراک هویت‌ها در آن ها حداقل باشد، به این معنی که هویت تکراری در دسته بندی‌ها وجود نداشته باشد.
 
@@ -218,6 +238,8 @@
 در این قسمت تمامی پیش فاکتورها، فاکتورها و فاکتورهای برگشت از خرید ثبت شده برای مشتری را می توانید مشاهده کنید، می توانید برای جستجوی سوابق مورد نظر خود از فیلترهای مختلف استفاده کنید. همچنین می توانید سوابق خرید جدید برای مشتری ایجاد کنید.
 
 مانند تمامی لیست ها از بخش تنظیمات روی لیست، میتوان پارامتر های مد نظر برای نمایش در این لیست انتخاب کرد و براساس آن خروجی گرفت.
+
+![IMG-0294](</kb-assets/kb-images/Help/Integrated-bank/Database/Buy/Purchase.webp>)
 
 **1**. می توانید یک پیش فاکتور خرید جدید ایجاد کنید.
 
@@ -250,11 +272,19 @@
 
 در هنگام جستجوی "مرتبط با" در آیتم‎‌ها، اگر هویت موردنظر یافت نشد، می‌توان با استفاده از کلید **افزودن**،  هویت جدیدی  را ایجاد کرد،  که به آن هویت چابک گفته می‌شود.
 
+![IMG-0405](</kb-assets/kb-images/Help/Integrated-bank/Database/hoviat-chabok/hoviat-chabok.webp>)
+
 در این صفحه نوع هویت، نام، نام خانوادگی هویت حقیقی/نام هویت حقوقی، زمینه فعالیت(دسته بندی) و فیلدهای اضافه‌ شده آن قابل انتخاب می‌باشد.
+
+![IMG-0406](</kb-assets/kb-images/Help/Integrated-bank/Database/hoviat-chabok/hoviat-chabok2.webp>)
 
 لازم به ذکر است نوع هویت پیش فرض نمایش داده شده در این بخش در تنظیمات شخصی سازی آن نوع آیتم انتخاب شده است که هنگام تعریف هویت چابک می توان نوع آن را تغییر داد.
 
+![IMG-0407](</kb-assets/kb-images/Help/Integrated-bank/Database/hoviat-chabok/hoviat-chabok3.jpg.webp>)
+
 همچنین زمینه فعالیت پیش فرض نمایش داده شده در هنگام تعریف این نوع هویت، در تنظیمات کلی، بخش دسته بندی کاربران مشخص شده که می توان آن را نیز ویرایش نمود.
+
+![IMG-0408](</kb-assets/kb-images/Help/Integrated-bank/Database/hoviat-chabok/hoviat-chabok4.jpg.webp>)
 
 ## لیست هویت‌ها در بانک اطلاعاتی
 `مسیر سند: Help/Integrated-bank/Database/list-hoviat/list-hoviat.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/list-hoviat/list-hoviat.md)
@@ -262,6 +292,8 @@
 در بانک اطلاعاتی می‌توان با کلیک بر روی دسته بندی‌های دارای عضو، لیست هویت‌های موجود در آن دسته بندی را مشاهده کرد.
 
 با استفاده از فیلترهای موجود امکان جستجوی هویت موردنظر از لیست وجود دارد.
+
+![IMG-0409](</kb-assets/kb-images/Help/Integrated-bank/Database/list-hoviat/list-hoviat.webp>)
 
 ## معرفی صفحات هویت
 `مسیر سند: Help/Integrated-bank/Database/General-specifications/General-specifications.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/General-specifications/General-specifications.md)
@@ -279,6 +311,8 @@
 > نکته: به عنوان نمونه عکس زیر از صفحه ی مدیریت اطلاعات یک  مخاطب حقوقی(شرکت) در تب مشخصات می‌باشد.
 
 قابل ذکر است مشخصات هویت‌های حقیقی و حقوقی شامل اطلاعات اصلی، تلفن‌ها و آدرس‌ها می‌باشد، اضافه کردن فیلدهای اطلاعاتی دلخواه با استفاده از شخصی سازی  امکان پذیر است.
+
+![IMG-0297](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/bank7.webp>)
 
 **1. نوار ابزار مشخصات:** بعد از ذخیره ی هویت با استفاده از دکمه‌های نمایش داده شده در این قسمت می‌توانید از عملکردهای متفاوتی بهره مند گردید که به تفصیل در بخش نوار ابزار مشخصات توضیح داده خواهد شد.
 
@@ -329,6 +363,8 @@
 
 در  این نوار ابزار، می‌توانید از امکانات زیر استفاده نمایید.
 
+![IMG-0315](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/InformationToolbar.webp>)
+
 **1. ذخیره/ذخیره و خروج:** اطلاعات وارد شده را ذخیره می‌کند. اگر روی ذخیره و خروج کلیک کنید پس از ذخیره تغییرات، صفحه نیز بسته خواهد شد.
 
 **2. حذف:**  هویت را حذف میکند. لازم به ذکر است در صورت وجود سوابق برای ان هویت ابتدا باید سوابق ان حذف گردد و مجددا برای حذف هویت اقدام کرد.
@@ -341,7 +377,11 @@
 
 همچنین امکان مشاهده تغییرات مورد نظر براساس تاریخ، عملیات انجام شده بر روی هویت و توسط کاربر مورد نظر وجود دارد.
 
+![IMG-0316](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/2020-06-07_11-16-50.webp>)
+
 **5.  ارسال ایمیل/ارسال فکس:** می‌توانید به این هویت یک ایمیل یا فکس ارسال کنید. برای ارسال ایمیل از این قسمت نیاز به ماژول مدیریت صندوق‌های پستی است. می‌توانید فایلی را نیز به ایمیل مورد نظر خود پیوست نمایید.
+
+![IMG-0317](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Contactstoolbar11.webp>)
 
 **6. شروع ارتباط  توسط:**
 
@@ -349,30 +389,44 @@
 
 با مرتبط کردن هویت‌ها به کمپین‌های تبلیغاتی میتوانید گزارش‌های دقیق تری از میزان جذب مخاطبان از هریک از کمپین‌ها در بخش گزارشات تحلیلی نرم افزار دریافت کنید.
 
+![IMG-0318](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Contactstoolbar2.webp>)
+
 **گروه‌های مرتبط:** در صورتی که مثلث کنار  گزینه "شروع ارتباط توسط" را کلیک کنید آیتم گروه‌های مرتبط را مشاهده خواهید کرد.
 
 با استفاده از این گزینه می‌توانید در صورت تمایل، مستقیما پروفایل مورد نظر را با زدن تیک نام هرکدام از گروه‌ها، به عضویت گروه‌های ساخته شده مورد نظر در قسمت  گروه‌های هدف درآورید.  همچنین مسیر پروفایل را در[ گروه‌های هدف ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Target-groups/Target-groups.md)ساخته شده نمایش می‌دهد.
 
 > نکته:  ممکن است یک هویت در بیشتر از یک گروه قرار گرفته باشد .
 
+![IMG-0319](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Contactstoolbar3.webp>)
+
 **7. ایجاد لینک پرداخت:** با استفاده از این دکمه می‌توانید لینک پرداختی برای مخاطب ایجاد و ارسال کنید. مخاطب با استفاده از لینک مزبور به درگاه پرداخت واسط هدایت ‌می‌شود تا عملیات پرداخت را به آسانی انجام دهد. برای مطالعه جزئیات بیشتر در این رابطه به صفحه[ " ایجاد لینک پرداخت "](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Payment-links/Payment-links.md) مراجعه کنید
+
+![IMG-0320](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/PaymentLink.webp>)
 
 {#AddingRelatedRecord}
 **8. تماس جدید:** با کلیک بر روی این دکمه می‌توانید یک تماس جدید ثبت کنید. همانطور که در شکل مشاهده می‌نمائید با کلیک برروی مثلث کنار آیتم "تماس جدید"  این قابلیت را در دسترس شما قرار می‌دهد که بتوانید تمامی‌سوابق دیگر را نیز برای این هویت ثبت کنید
+
+![IMG-0321](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/NewCall.webp>)
 
 **9. ارسال سریع:**   از این طریق میتوان تنظیمات ارسال پیام به هویت مورد نظر را انجام داد .با کلیک کردن بر روی دکمه ارسال سریع در این بخش، پنجره زیر نمایش داده می‌شود. در این پنجره هویت انتخاب شده برای این ارسال در سمت راست، قسمت کادر گیرندگان نمایش داده می‌شود و پس از انتخاب رسانه ( پیامک، ایمیل، فکس و پیام در شبکه‌های اجتماعی) و تنظیم متن می‌توانید ارسال پیام را انجام دهید.
 
 برای اطلاعات بیشتر به قسمت[ تبلیغات  ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/Marketing.md)مراجعه کنید.
 
+![IMG-0322](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Contactstoolbar7.webp>)
+
 > نکته: همچنین شما می‌توانید چند شرکت در یک گروه و یا دسته بندی انتخاب کرده ، سپس با کلیک راست بر روی یکی از شرکت‌های انتخاب شده و در نهایت با انتخاب گزینه ارسال سریع به این پنجره دسترسی داشته باشید. برای اطلاعات بیشتر در خصوص نحوه ارسال پیام به [ اطلاعات مشترک ابزارها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md) مراجعه کنید .
 
 **10. صدور کارت:** با کلیک کردن بر روی دکمه صدور کارت (در صورتی که ماژول صدور کارت برای مشتری را خریداری کرده باشید) پنجره ای به شکل زیر باز می‌شود و می‌توانید نمونه رو و یا پشت کارت را مشاهده و سپس چاپ نمایید. برای تنظیم قالب کارت مشتری به [تنظیمات کارت مشتری ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Customer-card/Customer-card.md)مراجعه کنید
+
+![IMG-0323](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Contactstoolbar8.webp>)
 
 **11. تعریف کاربر:** در صورتی که ماژول[ باشگاه مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Supplementary-modules/customer-club/Customer-dashboard/Customer-dashboard.md) را تهیه کرده باشید. می‌توانید به هر کدام از مشتریان خود از این روش نام کاربری و گذرواژه ای اختصاص دهید. مشتریان شما می‌توانند با این نام کاربری وارد داشبورد خود در قسمت باشگاه مشتریان نرم افزار شوند و لیست سوابق خود را مشاهده نمایند. به طور مثال فاکتورها، پرداخت‌ها و دیگر سوابق مربوط به خودشان را مشاهده کنند.
 
 پس از ذخیره نام کاربری و رمز عبور برای مشتری، میتوانید در دفعات بعدی از این بخش اطلاعات کاربری را برای آن هویت ارسال نمایید.
 
 > نکته: لازم به ذکر است که مشتریان که از این طریق برایشان نام کاربری و رمز عبور ایجاد کرده اید به صورت پیش فرض فعال هستند و حتی در صورت داشتن قالب پیام فعالسازی پیام فعالسازی برای انها ارسال نمیگردد.
+
+![IMG-0324](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Contactstoolbar10.webp>)
 
 **12. تبدیل هویت:** در این تبدیل در صورتیکه نوع پروفایل و نوع عملکرد هویت‌ها یکسان باشند، امکان تغییر نوع هویت وجود دارد. یعنی شما می‌توانید هویت‌های حقیقی را به حقوقی و سایر زیر نوع‌های هویت حقیقی تبدیل کنید یا هویت‌های حقوقی را به حقیقی و سایر زیر نوع‌های هویت حقوقی تبدیل کنید. .)
 
@@ -385,6 +439,8 @@
 **14. تبدیل سر نخ به مخاطب:** برای این تبدیل، می‌بایست هویت‌های انتخاب شده تماماً از نوع سرنخ باشند. در نظر داشته باشید، سرنخ‌های حقیقی می‌توانند به مخاطبان حقیقی وحقوقی تبدیل شوند و سرنخ‌های حقوقی می‌توانند به مخاطبان حقوقی و حقیقی تبدیل گردند. .)
 
 **15. انتقال سوابق:** می‌توانید با استفاده از این آیتم، سوابق ثبت شده برای هویت/هویت‌های دیگری را به این هویت منتقل کنید .
+
+![IMG-0325](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/bank9.webp>)
 
 **A. از:** می‌توانید همزمان تا چهار هویت را انتخاب کنید تا سوابقشان به این هویت منتقل شود.
 
@@ -405,7 +461,11 @@
 
 برای دسترسی به این قسمت کافیست بر روی آیکن یادآور و پیگیری در زیر نوار ابزار مشخصات کلیک کنید.
 
+![IMG-0312](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/image002.webp>)
+
 همانطور که در عکس ملاحظه می کنید، می توانید در این قسمت تنظیمات مرتبط با یادآور و پیگیری مورد نظر خود را تعیین نمائید.
+
+![IMG-0313](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Contactstoolbar4.webp>)
 
 **1.  آیکون ساعت:** با کلیک بر روی این آیکون تنظیمات مرتبط با پیگیری و یادآور نمایش داده خواهد شد. در صورتی که پیگیری روی این آیتم تنظیم شده باشد، آیکون ساعت سبزرنگ خواهد شد
 
@@ -423,6 +483,8 @@
 
 پیگیری هایی که برای آن ها یادآوری تنظیم کرده باشید به صورت زیر در تاریخ و ساعت وارد شده هرکدام نمایش داده خواهند شد. پنجره یادآوری تا زمانی که به تمامی آیتم های درون آن رسیدگی نشده باشد، به صورت مکرر ظاهر خواهد شد .
 
+![IMG-0314](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Contactstoolbar6.webp>)
+
 **A. موضوع:**  عنوان یادآوری را که تعیین کرده اید نمایش می دهد در صورتی که عنوانی تعیین نشده باشد، عنوان آیتمی (مانند مخاطب، فاکتور، یادداشت و .... )  که در سیستم بر آن یادآور گذاشته شده نشان داده می شود و با کلیک بر روی آن می توانید آن را مشاهده کنید.
 
 **B. زمان سپری شده:** زمانی که از یادآور تنظیم شده گذشته است.
@@ -439,6 +501,8 @@
 در این قسمت اطلاعات اصلی مرتبط با هویت نمایش داده می‌شود
 
 >  نکته: لازم به ذکر است که شکل زیر  از پروفایل یک سرنخ حقوقی قرار داده شده است .
+
+![IMG-0301](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Identity-nformation-management/Contactdatamanagement1.webp>)
 
 **1. کلاس مشتری:** کلاس مشتری را بر حسب خرید (میزان فاکتورها فروش، قراردادهای مالی) تعیین می‌کند. برای اطلاعات بیشتر می‌توانید به [ مدیریت کلاس بندی مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Customer-classification-management/Customer-classification-management.md) رجوع کنید.
 
@@ -514,6 +578,8 @@
 
 قابل ذکر است که تنها کاربر ایجاد کننده نظر می تواند نظر خود را حذف کند و امکان حذف نظر آن توسط کاربران دیگر وجود ندارد. (لازم به ذکر است ادمین و دارندگان مجوز مدیرسیستم از این امر مستثنی هستند و می توانند تمام نظرات را حذف کنند.)
 
+![IMG-0298](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Comments-home/Comments1.webp>)
+
 > **نکته:** با کلیک بر روی قسمت نظرات و تایپ علامت"@"   قبل از نام یک کاربر میتوانید کاربر بخصوصی که قصد دارید برای او نظری ثبت نمائید را صدا بزنیدو از این طریق ان را مطلع کنید. به این ترتیب نظر در ویجت نظرات کاربر انتخابی نیز نمایش داده می شود.
 در نظر داشته باشید امکان انتخاب کاربر غیر فعال وجود ندارد.
 
@@ -523,14 +589,22 @@
 
 > **نکته:** برای تنظیم پیام مرتبط با هرکدام از رسانه ها به قسمت[ مدیریت پیام های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Manage-system-messages/Manage-system-messages.md)  مراجعه کنید.
 
+![IMG-0299](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Comments-home/Mentioning1.webp>)
+
 ## ایجاد سرنخ حقوقی جدید
 `مسیر سند: Help/Integrated-bank/Database/General-specifications/Lead-management/CreateNewOrganizaitionalLead.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/General-specifications/Lead-management/CreateNewOrganizaitionalLead.md)
 
 مطابق عکس زیر برای ورود اطلاعات هویت ها از طریق بانک اطلاعاتی وارد آخرین لایه دسته‌بندی‌ بانک اطلاعاتی شده و گزینه شرکت جدید را برای وارد کردن سرنخ حقوقی و گزینه شخص جدید را برای وارد کردن سرنخ حقیقی انتخاب کنید.
 
+![IMG-0302](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.webp>)
+
 پس از انتخاب، صفحه زیر باز شده و می‌توانید در این صفحه زیرنوع هویت مورد نظرتان را انتخاب کنید.
 
+![IMG-0303](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/3.webp>)
+
 پس از انتخاب زیرنوع مورد نظر، صفحه‌ای مطابق صفحه زیر باز شده و می‌توانید اطلاعات سرنخ مورد نظر را وارد کنید.
+
+![IMG-0304: صفحه ذخیره سرنخ حقوقی](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/organization-lead.webp>)
 
 > **نکته**
 
@@ -557,9 +631,15 @@
 
 مطابق عکس زیر برای ورود اطلاعات هویت ها از طریق بانک اطلاعاتی وارد آخرین لایه دسته‌بندی‌ بانک اطلاعاتی شده و گزینه شرکت جدید را برای وارد کردن سرنخ حقوقی و گزینه شخص جدید را برای وارد کردن سرنخ حقیقی انتخاب کنید.
 
+![IMG-0302](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.webp>)
+
 پس از انتخاب، صفحه زیر باز شده و می‌توانید در این صفحه زیرنوع هویت مورد نظرتان را انتخاب کنید.
 
+![IMG-0303](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/3.webp>)
+
 پس از انتخاب زیرنوع مورد نظر، صفحه‌ای مطابق صفحه زیر باز شده و می‌توانید اطلاعات سرنخ مورد نظر را وارد کنید.
+
+![IMG-0305](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/1.webp>)
 
 > **نکته**
 
@@ -625,7 +705,11 @@
 
 2. گزینه **شخص جدید** را انتخاب کنید.
 
+![IMG-0306: ایجاد سرنخ حقیقی جدید](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.6.1/Creating-new-identity.webp>)
+
 3. در این مرحله انواع هویت‌هایی که مجوز **ذخیره اولیه** آن را دارید به شما نمایش داده می‌شود. بر روی **سرنخ حقیقی** کلیک کنید.
+
+![IMG-0307: انتخاب یکی از انواع هویت](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.6.1/Choosing-type-of-identity.webp>)
 
 پس از انتخاب زیرنوع مورد نظر، صفحه‌ای مطابق صفحه زیر باز شده و می‌توانید اطلاعات سرنخ مورد نظر را وارد کنید.
 
@@ -633,6 +717,8 @@
 
 ##### 1. مشخصات اولیه
 اطلاعاتی که در این قسمت وارد می‌کنید به شناخت اولیه سرنخ کمک می‌کند. پس سعی کنید تاجایی که می‌توانید اطلاعات بیشتری وارد کنید.
+
+![IMG-0308: اطلاعات اولیه سرنخ حقیقی](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.6.1/Bisic-information-of-New-person-lead.webp>)
 
 **موضوع**: موضوع فروش یا ارتباطی که با سرنخ خود میخواهید برقرار کنید را وارد کنید.
 
@@ -676,6 +762,8 @@
 اطلاعاتی که در این قسمت وارد می‌کنید برای مدیریت بهتر سرنخ در تیم فروش سازمان شما
 است.
 
+![IMG-0309: اطلاعات مدیریت سرنخ حقیقی](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.6.1/Alternative-information.webp>)
+
 **مسئولین پروفایل:** فیلدهای **مسئول پشتیبانی**، **مسئول فروش** و **مسئول متفرقه** تعیین می‌کند کدام یک از کاربران/پرسنل مجموعه شما مسئول پیگیری و پاسخگویی به این سرنخ می‌باشد.
 
 **نحوه آشنایی:** از هر طریقی که **اولین ارتباط** با این سرنخ شکل گرفته است، نحوه آشنایی را تعیین می‌کند. به کمک این فیلد می‌توانید مؤثرترین منابع جذب سرنخ و مشتری سازمان خود را شناسایی کنید.
@@ -691,6 +779,8 @@
 از طریق شخصی‌سازی اطلاعات هویت‌ها، می‌توانید فیلدهای اضافه در صفحه مشخصات سرنخ ایجاد کنید که اطلاعات بیشتری را در مورد سرنخ‌های خود ثبت کنید.
 در این مثال برای ثبت اطلاعات نوع رفتار و آشنایی قبلی، فیلدهای مربوطه ایجاد شده و اطلاعات موردنظر ثبت می‌شود.
 
+![IMG-0310: فیلدهای اضافه برای مشخصات سرنخ](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.6.1/Additional-Information.webp>)
+
 ##### 4. اطلاعات ارتباطی سرنخ
 
 در قسمت اطلاعات ارتباطی، تلفن، موبایل، فکس و آدرس کامل سرنخ را می‌توانید ذخیره ‌کنید. برای هرکدام از این موارد می‌توانید چندین اطلاعات وارد کنید.
@@ -700,6 +790,8 @@
 >**نکته**
 
 > هرکدام از اطلاعات تلفن، موبایل، فکس و آدرس امکان تعیین **پیش‌فرض** را دارند.
+
+![IMG-0311: اطلاعات ارتباطی سرنخ](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Lead-management/2.6.1/call-information.webp>)
 
 برای ثبت شماره جدید طبق مراحل زیر عمل کنید:
 1. نوع شماره‌ای که می‌خواهید ثبت کنید را در ستون **نوع** تعیین کنید.
@@ -737,6 +829,8 @@
 
 در این قسمت اطلاعات مربوط به راه های ارتباطی با هویت قرار داده می شود.
 
+![IMG-0300](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/Communication-information/image002.webp>)
+
 **1**. از این قسمت می توانید راه های ارتباطی با هویت ( اطلاعات تلفن، تلفن همراه، فکس و تلفکس و توضیحات مورد نیاز) آن را اضافه کنید.
 
 **2. پیش فرض:** می توانید یک شماره را برای هر نوع از راه های ارتباطی(تلفن، موبایل و فکس) به عنوان پیشفرض تعیین کنید. در صورتی که بخواهید برای این هویت یک پیام کوتاه یا فکس از طریق نرم افزار ارسال کنید، این پیام به شماره پیشفرض تعیین شده در این قسمت ارسال خواهد شد. همچنین در صورت قرار دادن پارامتر هوشمند تلفن، موبابل یا فکس در هریک از قالب های چاپی آیتم ها، مقدار مرتبط با شماره پیشفرض درج خواهد شد.
@@ -758,9 +852,17 @@
 
 مطابق عکس زیر برای ورود اطلاعات هویت‌ها از طریق بانک اطلاعاتی وارد آخرین لایه دسته‌بندی‌ بانک اطلاعاتی شده و گزینه شخص جدید را برای وارد کرد هویت حقیقی جدید انتخاب کنید.
 
+![IMG-0327](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/haghighi1.webp>)
+
 پس از انتخاب شرکت، صفحه زیر باز شده و می‌توانید در این صفحه زیرنوع هویت مورد نظرتان را انتخاب کنید.ساخت و ویرایش زیرنوع هویت‌ها را می‌توانید ازطریق شخصی سازی انجام دهید.
 
+![IMG-0328](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/haghighi2.webp>)
+
 پس از انتخاب زیرنوع مورد نظر، صفحه‌ای مطابق صفحه زیر باز شده و می‌توانید اطلاعات هویت حقیقی مورد نظر را وارد کنید.
+
+![IMG-0329](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/haghighi3.webp>)
+
+![IMG-0330](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/haghighi4.webp>)
 
 **1. کلاس مشتری:** کلاس مشتری را بر حسب خرید (میزان فاکتورها فروش، قراردادهای مالی) تعیین می‌کند. برای اطلاعات بیشتر می‌توانید به [[ مدیریت کلاس بندی مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Customer-classification-management/Customer-classification-management.md) رجوع کنید.
 
@@ -844,14 +946,24 @@
 مطابق تصویر زیر پس از اتمام وارد کردن اطلاعات هویت حقیقی، از طریق نوار ابزار بالای صفحه با زدن دکمه ذخیره، ذخیره اطلاعات را انجام دهید.
 .
 
+![IMG-0331](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/haghighi5.webp>)
+
 ## ایجاد مخاطب حقوقی
 `مسیر سند: Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghoghi.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghoghi.md)
 
 مطابق عکس زیر برای ورود اطلاعات هویت‌ها از طریق بانک اطلاعاتی وارد آخرین لایه دسته‌بندی‌ بانک اطلاعاتی شده و گزینه شرکت جدید را برای وارد کردن هویت حقوقی انتخاب کنید.
 
+![IMG-0332](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghooghii1.webp>)
+
 پس از انتخاب شرکت، صفحه زیر باز شده و می‌توانید در این صفحه زیرنوع هویت مورد نظرتان را انتخاب کنید.ساخت و ویرایش زیرنوع هویت‌ها را می‌توانید ازطریق شخصی سازی هویت انجام دهید.
 
+![IMG-0333](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghoghi3.webp>)
+
 پس از انتخاب زیرنوع مورد نظر، صفحه‌ای مطابق صفحه زیر باز شده و می‌توانید اطلاعات هویت حقوقی مورد نظر را وارد کنید.
+
+![IMG-0334](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghoghi4.webp>)
+
+![IMG-0335](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghoghi5.webp>)
 
 **1.کلاس مشتری:** کلاس مشتری را بر حسب خرید (میزان فاکتورها فروش، قراردادهای مالی) تعیین می‌کند. برای اطلاعات بیشتر می‌توانید به [ مدیریت کلاس بندی مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Customer-classification-management/Customer-classification-management.md) رجوع کنید.
 
@@ -948,10 +1060,14 @@
 
 مطابق تصویر زیر پس از اتمام وارد کردن اطلاعات هویت حقوقی، از طریق نوار ابزار بالای صفحه با زدن دکمه ذخیره، ذخیره اطلاعات را انجام دهید.
 
+![IMG-0336](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-mokhatab/hoghoghi6.webp>)
+
 ## ایجاد کاربر باشگاه از پروفایل هویت
 `مسیر سند: Help/Integrated-bank/Database/General-specifications/ijad-karbar/ijad-karbar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/General-specifications/ijad-karbar/ijad-karbar.md)
 
 در این روش می توانید به هر کدام از مشتریان خود نام کاربری و رمز عبور اختصاص دهید. مشتریان شما می توانند با این نام کاربری وارد داشبورد خود در قسمت باشگاه مشتریان نرم افزار شوند و لیست سوابق خود را مشاهده نمایند. به طور مثال فاکتورها، پرداخت ها و دیگر سوابق مربوط به خودشان را مشاهده کنند.
+
+![IMG-0326: ijad karbar](</kb-assets/kb-images/Help/Integrated-bank/Database/General-specifications/ijad-karbar/tarifkarbar.webp>)
 
 > نکته: پس از ذخیره نام کاربری و رمز عبور برای مشتری، می توانید در دفعات بعدی با کلیک بر روی این بخش اطلاعات نام کاربری و رمز عبور ایجاد شده را از طریق ایمیل برای آن هویت ارسال نمایید.
 
@@ -969,6 +1085,8 @@
 
 > **نکته:** سوابق مختص به هر آیتم (مانند سوابق ثبت شده در فرصت، فرم و ... ) به صورت زیر مجموعه آن نمایش داده میشوند.
 
+![IMG-0360](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Images/CompanyHistory.webp>)
+
 **1. فیلتر:** با استفاده از فیلتر های موجود در این قسمت می توانید لیست سوابق مورد نظر خود را جستجو کنید، با کلیک بر روی گزینه "پیام" تمامی سوابق از نوع پیام کوتاه، ایمیل و پیام شبکه اجتماعی نمایش داده می شود و با کلیک بر روی گزینه CRM لیست سوابق از نوع موجودیت ها نمایش داده می شود و پس از آن می توانید یکی از انواع سوابق (به طور مثال فرم یا فرصت) را براساس پارامتر های مورد نظر ( مانند تاریخ ایجاد و سازنده و .. ) فیلتر کنید.
 
 **2. مرتب سازی:** امکان مرتب سازی سوابق بر اساس "تاریخ ایجاد" و "تاریخ آخرین ویرایش" و "نام" و " نوع" امکان پذیر است.
@@ -978,6 +1096,8 @@
 **4. چاپ:** با زدن دکمه چاپ می توانید لیستی از سوابق ایجاد شده در مشتری با سفارشی سازی بر حسب نوع و تاریخ را پرینت بگیرید.
 
 **5.  خروجی اکسل:** پس از اعمال فیلترهای مورد نظر خود می توانید از لیست سوابق خروجی اکسل تهیه کنید.
+
+![IMG-0361: صفحه فیلتر آیتم‌های CRM در سوابق هویت](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Images/Filter-CRM-Objects.webp>)
 
 ## صفحه سوابق هویت
 `مسیر سند: Help/Integrated-bank/Database/Records/Records_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Records/Records_2.7.5.md)
@@ -989,6 +1109,8 @@
  برای مشاهده سوابقی که توسط سایر کاربران ثبت گردیده است، مجوز "مشاهده سوابق مشتری" مورد نیاز می‌باشد.
 
 به منظور سهولت دستیابی به آیتم(های) مورد نظر، قابلیت‌های "نوار فیلتر جستجو" در بالای صفحه در اختیار می‌باشد. به منظور اعمال فیلتر مورد نظر، معیار(های) مورد نیاز را لحاظ کرده و بر روی آیکون ذره بین کلیک نمایید. قابلیت‌های نمایش داده شده در  این نوار به شرح زیر می‌باشند:
+
+![IMG-0362: صفحه سوابق هویت](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Images/customer-records-2.7.5.webp>)
 
 **1. جستجو:** با استفاده از این فیلد می‌توانید سوابق دارای یک عبارت خاص را جستجو و فیلتر نمایید. نتیجه حاصل شده مواردی را نشان می‌دهد که در عنوان و یا محتوا (توضیحات و سایر فیلدهای موجود در آیتم)  شامل عبارت مذکور می‌باشند.
 
@@ -1042,6 +1164,8 @@
 
 در ادامه به بررسی نحوه مشاهده سوابق و قابلیت‌های صفحه سوابق در هر حالت نمایشی می‌پردازیم.
 
+![IMG-0363: سوابق هویت](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Images/customer-records-2.8.7.1.webp>)
+
 **1. جستجو:** با استفاده از این فیلد می‌توانید سوابق دارای یک عبارت خاص را جستجو و فیلتر نمایید. نتیجه حاصل شده مواردی را نشان می‌دهد که در عنوان و یا محتوا (توضیحات و سایر فیلدهای موجود در آیتم)  شامل عبارت مذکور می‌باشند.
 
 **2. تاریخ ایجاد:** با استفاده از این فیلتر می‌توانید سوابق ثبت شده در بازه زمانی مورد نظر خود را بیابید.
@@ -1063,6 +1187,8 @@
 در صورتی که سوابقی از نوع "ارتباطات" یا "تبلیغات" را انتخاب کرده‌باشید، فیلتری برای انتخاب **نوع رسانه** به شما نمایش داده‌می‌شود. علاوه بر آن می‌توانید مشخص نمایید که صرفاً پیام‌های ارسالی و یا دریافتی هویت در صفحه به شما نمایش داده‌شود.
 
 **6. دریافت خروجی اکسل:** با کلیک بر روی این آیکون از سوابق نمایش داده شده در صفحه خروجی اکسل دریافت می‌شود.
+
+![IMG-0364: سوابق هویت](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Images/customer-records-timeline-2.8.7.1.webp>)
 
 با انتخاب حالت نمایشی TimeLine سوابق هویت با نمایشی متفاوت به شما ارائه می‌شود. با استفاده از این حالت نمایشی می‌توانید اطلاعاتی از جمله کاربر ثبت‌کننده آیتم و تاریخ ایجاد را در یک نگاه دریافت نمایید.
 
@@ -1091,7 +1217,11 @@
 
 نکته مهم: لطفا ابتدا قسمت[ اطلاعات مشترک سوابق ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md)را مطالعه کنید.
 
+![IMG-0383](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Return-invoice-from-sales/ReturnSaleInvoice1.webp>)
+
 برای تمامی فاکتورهای تایید شده طبق شکل بالا می توان از طریق تب "فاکتورهای برگشتی این فاکتور" ، یک فاکتور برگشت جدید را صادر کرد.
+
+![IMG-0384](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Return-invoice-from-sales/ReturnSaleInvoice.webp>)
 
 **1. فاکتور فروش مرتبط:** در صورتی که فاکتور برگشتی را از روی فاکتور فروش صادر کرده باشید، در این قسمت فاکتور فروش مرتبط نمایش داده می شود و در غیر این صورت می توانید از بین فاکتورهای صادر شده برای مشتری، یکی از فاکتورها را برای نگاشت روی این فاکتور برگشت از فروش انتخاب کنید.
 
@@ -1107,6 +1237,8 @@
 می توانید برای ذخیره اطلاعات و توضیحات به خصوصی در مورد مخاطب از قابلیت یادداشت گذاری استفاده نمایید.
 
 > نکته مهم: لطفا ابتدا قسمت[  اطلاعات مشترک سوابق](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md) را مطالعه کنید.
+
+![IMG-0375](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-notes/Note.webp>)
 
 **1. موضوع:** موضوع یادداشت را تعیین کنید.
 
@@ -1127,7 +1259,11 @@
 
 > نکته مهم: لطفا ابتدا قسمت [ اطلاعات مشترک سوابق ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md)را مطالعه کنید.
 
+![IMG-0373](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-form/Form.webp>)
+
 > **نکته:** در صورت تعریف مرحله برای فرم، فیلدی با نام تخصیص داده شده به، به فرم اضافه می شود، که می توان فرم را در مرحله مشخص به کاربر مورد نظر متصل کرد.
+
+![IMG-0374](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-form/85200.webp>)
 
 ## ورود اطلاعات فرم‌ها از طریق اکسل
 `مسیر سند: Help/Integrated-bank/Database/Records/New-form/excel-form.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Records/New-form/excel-form.md)
@@ -1292,6 +1428,8 @@
 
 سابقه تماس تلفنی پس از ثبت، مطابق شکل زیر نمایش داده می‌شود.
 
+![IMG-0376: یجاد آیتم تماس تلفنی جدید](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-phone-call/NewCallItem.webp>)
+
 >**نکته**
 
 >بعد از ذخیره انواع سوابق، سربرگ‌های مشترکی در تمام آنها نمایش داده می‌شود. برای توضیحات بیشتر [اطلاعات مشترک سوابق](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md) را مطالعه کنید.
@@ -1302,6 +1440,8 @@
 با استفاده از این آیتم می توانید دریافت های نقدی، چکی یا اعتباری مرتبط با مشتریان خود را ثبت نمایید.
 
 > **نکته مهم:** ابتدا قسمت[ اطلاعات مشترک سوابق ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md)را مطالعه کنید.
+
+![IMG-0365](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Get-new/11.webp>)
 
 **1. فاکتور مرتبط:** در صورتی که این دریافت مرتبط با یک فاکتور فروش ثبت شده در پیام گستر باشد، از قسمت فاکتور مرتبط می توانید از لیست فاکتورهای صادر شده برای این مشتری، فاکتور مورد نظر را انتخاب کنیدو به این دریافت الصاق کنید.
 
@@ -1462,6 +1602,8 @@
 
 > نکته: وظیفه جزء آیتم‌هایی است که نیاز ندارد حتما به یک هویت متصل شود. (یعنی وظیفه بدون اتصال به هویت قابل ذخیره کردن است.) اما در نظر داشته باشید که اگر وظیفه را به هیچ پروفایلی متصل نکنید، در صورتی که وظیفه را در کارتابل خود نداشته باشید نمی‌توانید آن را در سوابق هیچ کدام از هویت‌ها مشاهده کنید و تنها راه پیدا کردن وظیفه مورد نظر، قسمت [تاریخچه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/CRM%20History/CRM%20History.md) CRM می‌باشد.
 
+![IMG-0377](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/Task.webp>)
+
 **1. ارجاع:** در صورتی که می‌خواهید وظیفه را به کاربر یا گروهی از کاربران  دیگر نرم افزار تخصیص دهید این گزینه را انتخاب کنید. لطفا قسمت[ ارجاع ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-task/Reference/Reference.md)را مطالعه کنید .
 
 **2. قفل کردن:** میتوانید زمان‌هایی که نیاز به کار کردن بر روی وظیفه ندارید آن را به حالت قفل شده در بیاورید. وظیفه قفل شده قابلیت ارجاع به دیگران را ندارد، برای خارج کردن وظیفه از حالت قفل شده در صورت اینکه قفل کننده آن وظیفه خودتان باشید میتوان با کلیک بر روی آزاد کردن، وظیفه قفل شده را از این حالت خارج کنید.
@@ -1479,6 +1621,10 @@
 
 مثال: فرض کنید کاربر A وظیفه را به کاربر B,C ارجاع دهد، کاربر B همان وظیفه را به کاربر D,E و کاربر C آن را به کاربر F ارجاع دهد، همچنین کاربر D نیز آن را به کاربر G ارجاع دهد. در صورتی که کاربر B خاتمه زنجیره ای را بزند، این وظیفه از کارتابل خودش و کاربران D,E,G خارج خواهد شد. اما اگر خاتمه همه را بزند این وظیفه از کارتابل همه کاربران خارج خواهد شد. فلوچارت مربوط به ارجاعات ذکر شده در این مثال را مشاهده کنید:
 
+![IMG-0378](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/TaskAssign.webp>)
+
+![IMG-0379](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/ChainEnd.webp>)
+
 **4. پاراف:** ارجاعات مرتبط با کاربری شما (ارجاعات قبل و بعد از شما) در قسمت پاراف مشاهده خواهد شد که هر کدام از قسمت‌های آن شامل موضوع ذکر شده در آن ارجاع (کاری که باید انجام شود)، زمان ارجاع و کاربر ارجاع دهنده و کاربر دریافت کننده می‌باشد. در مثال بالا کاربر B ارجاعات A → B ،  B → D،  B → E و D → G را می‌تواند در قسمت پاراف مشاهده کند، اما ارجاعات  A → C  و C → F را مشاهده نمی‌کند.
 
 **5. عنوان:** اگر وظیفه را ایجاد می‌کنید عنوان مناسبی را برای وظیفه در نظر بگیرید تا بتوانید از طریق این عنوان موضوع وظیفه را به خوبی دریابید.
@@ -1494,6 +1640,8 @@
 **10. توضیحات:** توضیحات و هدف کلی مرتبط با این وظیفه را در این قسمت درج کنید.
 
 **11. گردش کار:** در صورتی که مجوز "مشاهده کامل گردش کار" را برای آیتم وظیفه داشته باشید، می‌توانید در این قسمت تمامی‌ارجاعات این وظیفه یا به اصلاح نحوه گردش این وظیفه بین کاربران را به صورت درختی مشاهده کنید
+
+![IMG-0380](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/Workflow.webp>)
 
 ## ایجاد وظیفه
 `مسیر سند: Help/Integrated-bank/Database/Records/New-task/New-task.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Records/New-task/New-task.md)
@@ -1504,6 +1652,8 @@
 
 > نکته: وظیفه جزء آیتم‌هایی است که نیاز ندارد حتما به یک هویت متصل شود. (یعنی وظیفه بدون اتصال به هویت قابل ذخیره کردن است.) اما در نظر داشته باشید که اگر وظیفه را به هیچ پروفایلی متصل نکنید، در صورتی که وظیفه را در کارتابل خود نداشته باشید نمی‌توانید آن را در سوابق هیچ کدام از هویت‌ها مشاهده کنید و تنها راه پیدا کردن وظیفه مورد نظر، قسمت [تاریخچه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/CRM%20History/CRM%20History.md) CRM می‌باشد.
 
+![IMG-0377](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/Task.webp>)
+
 **1. ارجاع:** در صورتی که می‌خواهید وظیفه را به کاربر یا گروهی از کاربران  دیگر نرم افزار تخصیص دهید این گزینه را انتخاب کنید. لطفا قسمت[ ارجاع ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-task/Reference/Reference.md)را مطالعه کنید .
 
 **2. قفل کردن:** میتوانید زمان‌هایی که نیاز به کار کردن بر روی وظیفه ندارید آن را به حالت قفل شده در بیاورید. وظیفه قفل شده قابلیت ارجاع به دیگران را ندارد، برای خارج کردن وظیفه از حالت قفل شده در صورت اینکه قفل کننده آن وظیفه خودتان باشید میتوان با کلیک بر روی آزاد کردن، وظیفه قفل شده را از این حالت خارج کنید.
@@ -1521,6 +1671,10 @@
 
 مثال: فرض کنید کاربر A وظیفه را به کاربر B,C ارجاع دهد، کاربر B همان وظیفه را به کاربر D,E و کاربر C آن را به کاربر F ارجاع دهد، همچنین کاربر D نیز آن را به کاربر G ارجاع دهد. در صورتی که کاربر B خاتمه زنجیره ای را بزند، این وظیفه از کارتابل خودش و کاربران D,E,G خارج خواهد شد. اما اگر خاتمه همه را بزند این وظیفه از کارتابل همه کاربران خارج خواهد شد. فلوچارت مربوط به ارجاعات ذکر شده در این مثال را مشاهده کنید:
 
+![IMG-0378](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/TaskAssign.webp>)
+
+![IMG-0379](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/ChainEnd.webp>)
+
 **4. پاراف:** ارجاعات مرتبط با کاربری شما (ارجاعات قبل و بعد از شما) در قسمت پاراف مشاهده خواهد شد که هر کدام از قسمت‌های آن شامل موضوع ذکر شده در آن ارجاع (کاری که باید انجام شود)، زمان ارجاع و کاربر ارجاع دهنده و کاربر دریافت کننده می‌باشد. در مثال بالا کاربر B ارجاعات A → B ،  B → D،  B → E و D → G را می‌تواند در قسمت پاراف مشاهده کند، اما ارجاعات  A → C  و C → F را مشاهده نمی‌کند.
 
 **5. عنوان:** اگر وظیفه را ایجاد می‌کنید عنوان مناسبی را برای وظیفه در نظر بگیرید تا بتوانید از طریق این عنوان موضوع وظیفه را به خوبی دریابید.
@@ -1537,12 +1691,16 @@
 
 **11. گردش کار:** در صورتی که مجوز "مشاهده کامل گردش کار" را برای آیتم وظیفه داشته باشید، می‌توانید در این قسمت تمامی‌ارجاعات این وظیفه یا به اصلاح نحوه گردش این وظیفه بین کاربران را به صورت درختی مشاهده کنید
 
+![IMG-0380](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/Workflow.webp>)
+
 ## ارجاع وظیفه
 `مسیر سند: Help/Integrated-bank/Database/Records/New-task/Reference/Reference.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Records/New-task/Reference/Reference.md)
 
 برای ارجاع وظیفه به کاریران دیگر از دکمه ارجاع در نوار ابزار وظیفه استفاده کنید، پس از کلیک بر روی این دکمه پنجره زیر نمایش داده خواهد شد. ابتدا بایستی نام کاربر، گروه، سمت، دپارتمان یا حکم مورد نظر برای ارجاع این وظیفه انتخاب کنید، مهلت،موضوع و نوع ارسال مرتبط با این ارجاع را وارد کنید و روی دکمه افزودن کلیک کنید. پس از تکمیل اطلاعات مرتبط با تمام ارجاعات از دکمه ارجاع یا ارجاع و انتقال استفاده کنید
 
 > نکته: توجه داشته باشید در صورتی که وظیفه به صورت رونوشت یا رونوشت مخفی برای شما ارسال شده باشد، قابلیت ارجاع به کاربران دیگر را ندارد.
+
+![IMG-0381](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/New-task/Reference/Assign.webp>)
 
 **1. لیست ارجاعات:** هر کاربر یا گروهی که برای ارجاع انتخاب شده باشند در این قسمت نمایش داده می شوند.
 
@@ -1598,6 +1756,8 @@
 برای ساخت درخواست جدید به[ مدیریت درخواست ها ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Manage-requests/Manage-requests.md)مراجعه کنید.
 
 > نکته مهم: لطفا ابتدا قسمت[ اطلاعات مشترک سوابق ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md)را مطالعه کنید.
+
+![IMG-0390: DARKHAST](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/new-request/ticket1.webp>)
 
 **1. شماره درخواست:** شماره درخواستی که سیستم به درخواست اختصاص داده است را نمایش می دهد. هویت می تواند از طریق این شماره، درخواست خود را پیگیری کند. توجه داشته باشید که امکان تخصیص شماره دستی به درخواست وجود ندارد.
 
@@ -1691,6 +1851,8 @@
 #### افزودن محصول به فاکتور
 شما می‌توانید به فاکتوری که پیش‌تر ثبت کرده‌اید محصول اضافه کنید. به عنوان مثال فاکتور زیر را در نظر بگیرید.
 
+![IMG-0382: نمونه فاکتور](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Pre-invoice-new-invoice/Invoice-editing-sample.webp>)
+
 - در صورت افزودن **محصول جدید**، محصول اضافه شده در ردیف پایین محصولات پیشین قرار می‌گیرد. مثلا اگر ۱۵ عدد پاک‌کن به این فاکتور اضافه شود، این ردیف در زیر ردیف روان‌نویس درج خواهد شد.
 - اگر محصولی **مشابه یکی از محصولات موجود** در فاکتور ( مثلا روان‌نویس) به فاکتور اضافه شود، تعداد مورد نظر به تعداد قبلی اضافه می‌شود. به عنوان مثال اگر به سفارش قبلی این فاکتور، ۱۵ روان‌نویس افزوده شود، تعداد آن به ۲۵ تغییر می‌کند.
 - اگر محصولی **مشابه یکی از محصولات موجود** در فاکتور را با **تغییر نام** به فاکتور اضافه کنید، در صورتی که تنظیمات فاکتور در حالتی باشد که «قابلیت افزودن محصولات تکراری» برای آن فعال باشد، محصول با نام جدید در ردیف پایین فاکتور درج می‌شود. در مثال بالا، اگر محصول «روان‌نویس» جزء محصولات  قابل ویرایش در فاکتور باشد، شما می‌توانید به هنگام افزودن، نام آن را به «روان‌نویس مشکی» تغییر دهید. در این حالت، محصول در ردیف سوم فاکتور اضافه می‌شود. اما در حالتی که «قابلیت افزودن محصول تکراری»  غیرفعال باشد، تعداد روان‌نویس مشکی به سطر روان‌نویس افزوده می‌شود.
@@ -1710,6 +1872,8 @@
 
 > **نکته مهم:** لطفا ابتدا قسمت[ اطلاعات مشترک سوابق ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md)را مطالعه کنید.
 
+![IMG-0389](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/new-file/File.webp>)
+
 ## ایجاد قرارملاقات جدید
 `مسیر سند: Help/Integrated-bank/Database/Records/new-appointment/new-appointment.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Records/new-appointment/new-appointment.md)
 
@@ -1724,6 +1888,8 @@
 > نکته: برای تغییر پیام‌هایی که در قرار ملاقات ارسال می‌شود، به قسمت [مدیریت پیام‌های سیستم ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Manage-system-messages/Manage-system-messages.md)مراجعه کنید.
 
 > نکته: برای دیدن لیست قرار ملاقات‌ها به قسمت [تقویم کاری من ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/My-work-calendar/My-work-calendar.md)مراجعه کنید.
+
+![IMG-0385](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/new-appointment/NewMeeting.webp>)
 
 **1. هماهنگ کننده:** کاربری که مسئولیت هماهنگی جلسه را به عهده دارد تعیین کنید. توجه داشته باشید که پیام‌های اعلام وضعیت حضور شرکت کنندگان به این کاربر ارسال می‌شود.
 
@@ -1748,6 +1914,8 @@
 **9. تکرار:** با استفاده از این گزینه می‌توانید قرار ملاقات خود را به صورت تکرار شونده درآورید. (مناسب برای قرار ملاقاتهایی که هفته‌های متوالی در یک زمان انجام می‌شوند.)
 
 در نظر داشته باشید که اگر قرار ملاقات تکرار شونده تنظیم کنید. این قرار ملاقات به عنوان اصلی و تمامی‌تکرارهای آن به عنوان فرعی در نظر گرفته می‌شوند. میتوانید قرار ملاقات‌های فرعی را حذف کنید اما نمی‌توانید روی آنها تکرار تنظیم کنید. اگر قرار ملاقات اصلی را تغییر دهید و یا حذف کنید، تمامی‌قرار ملاقاتهای فرعی را تغییر می‌دهد و یا حذف می‌کند.
+
+![IMG-0386](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/new-appointment/NewMeeting1.webp>)
 
 **9.1** .الگوی تکرار این قرار ملاقات را مشخص کنید، به طور مثال در شکل بالا این قرار هر 6 هفته تکرار خواهد شد.
 
@@ -1790,6 +1958,8 @@
 
 با کلیک روی ارسال فکس به حاضران جلسه و مشخص کردن متن مشخص، برای شرکت کنندگان فکس ارسال می‌شود.
 
+![IMG-0387](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/new-appointment/NewMeeting2.webp>)
+
 **14**. برای لغو قرارملاقات می‌توانید از دکمه لغو قرارملاقات از بخش ریبون استفاده کنید، در صورتی که می‌خواهید پیام کنسلی قرارملاقات به مدعوین جلسه ارسال شود می‌توانید
  از دکمه‌ی لغو قرارملاقات و ارسال پیام، موجود در این قسمت استفاده کنید.
 
@@ -1797,10 +1967,14 @@
 
 برای اطلاعات بیشتر در این مورد به قسمت [مدیریت پیام‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Manage-system-messages/Manage-system-messages.md) مراجعه کنید.
 
+![IMG-0388](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/new-appointment/gharar.webp>)
+
 ## اطلاعات مشترک سوابق
 `مسیر سند: Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md)
 
 در تمامی ‌انواع سوابق (تماس تلفنی، یادداشت، فایل، فاکتور، فرم و ...) تنظیمات مشترکی وجود دارد که به شرح زیر است.
+
+![IMG-0366](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/savabegh1.webp>)
 
 **1. ذخیره/ذخیره خروج:** آیتم مورد نظر را ذخیره می‌کند/ آیتم مورد نظر را ذخیره میکند و صفحه ویرایش آن را می‌بندد.
 
@@ -1832,6 +2006,8 @@
 **12**. از این بخش میتوانید هویت مورد نظر را بعنوان مرتبط با، از بانک اطلاعاتی انتخاب کنید .
 
 > نکته: هنگام انتخاب مرتبط با در صورت تایپ نام و یا قسمتی از نام هویت مورد نظر، اگر هویت مورد نظر در لیست هویت‌ها یافت نشد می‌توانید با استفاده از کلید افزودن، هویت جدید ایجاد کنید .
+
+![IMG-0367](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/mortabetba.webp>)
 
 {#RelatingRecords}
 
@@ -1879,9 +2055,13 @@
 
  در صورتی که آیتم یکی از انواع فاکتورها (فروش و خرید و برگشت از فروش) یا پیش فاکتور (فروش و خرید و برگشت از فروش) باشد، در قسمت سوابق، علاوه بر فیلدهایی که در بالا توضیح داده شد، فیلد آدرس نیز وجود دارد.
 
+![IMG-0368](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/1.webp>)
+
  زمانی که هویت مرتبط با فاکتور و یا پیش فاکتور بیش از یک آدرس داشته باشد، امکان انتخاب آدرس مورد نظر هویت در سابقه آیتم توسط کاربر وجود دارد.
 
 > نکته: مقدار پیش فرض این فیلد، آدرس پیش فرض انتخاب شده در اطلاعات ارتباطی هویت است.
+
+![IMG-0369](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/2.webp>)
 
 در پیش نمایش فاکتور‌ها، پارامتری به نام "آدرس فاکتور" موجود است که آدرس انتخاب شده در این فیلد را به خود اختصاص می‌دهد.
 
@@ -1898,9 +2078,13 @@
 
 برای تغییر این ستون‌ها، طبق شکل روی علامت تنظیمات کلیک کنید.
 
+![IMG-0370](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/CommonTableFeature.webp>)
+
 با باز شدن تنظیمات مربوط به شخصی سازی جدول لیستی از فیلدهای مرتبط با آیتم را مشاهده می‌کنید.
 
 فیلدهایی که در این قسمت نمایش داده می‌شوند فقط شامل فیلدهای ثابت و فیلدهای اضافه شده روی نوع اصلی آیتم که در بخش شخصی سازی آیتم برای نمایش در لیست تعیین شده اند.
+
+![IMG-0371](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/CommonTableFeature2.webp>)
 
 **1. فیلدهای اصلی:**  فیلدهای اصلی شامل فیلدهای ثابت آیتم می‌شوند. برای مثال فیلد مرحله فروش و تاریخ موفقیت و نوع فرصت جزو فیلدهای ثابت فرصت هستند.
 
@@ -1910,10 +2094,14 @@
 
 برای مثال با انتخاب فیلد "تاریخ بازرسی" و غیرفعال کردن فیلدهای "مبلغ مورد انتظار" و "تاریخ بسته شدن" و "مالک" ، جدول فرصت به شکل زیر درمی‌آید.
 
+![IMG-0372](</kb-assets/kb-images/Help/Integrated-bank/Database/Records/Joint-record-information/CommonTableFeature3.webp>)
+
 ## لیست دریافت‌ها - پرداخت‌ها از پروفایل مشتری
 `مسیر سند: Help/Integrated-bank/Database/receiving-payment/receiving-payment.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/receiving-payment/receiving-payment.md)
 
 در این صفحه می توانید تمامی دریافت/پرداخت های ثبت شده برای مخاطب را مشاهده کنید. در صورت نیاز یک دریافت/پرداخت جدید ثبت کنید و یا دریافت/پرداخت های ثبت شده را ویرایش و یا حذف کنید.
+
+![IMG-0412](</kb-assets/kb-images/Help/Integrated-bank/Database/receiving-payment/ReceiptPayment.webp>)
 
 **1. پرداخت جدید:** پرداخت جدیدی را می توانید برای مخاطب ایجاد کنید، پرداخت مخاطب را به میزان مبلغ موجود در آن بدهکار میکند. (تنظیمات این نوع همانند [دریافت جدید](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Get%20new/Get%20new.md) است.)
 
@@ -1943,6 +2131,8 @@
 `مسیر سند: Help/Integrated-bank/Database/Notes/clickrast-hoviat.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Notes/clickrast-hoviat.md)
 
 کلیک راست بر روی هویت ها، همانطور که در تصویر مشاهده می نمایید امکاناتی برای شما فراهم می نماید.
+
+![IMG-0341](</kb-assets/kb-images/Help/Integrated-bank/Database/Notes/click-rast-hoviat.webp>)
 
 **1. افزودن سابقه:** برای هویت یا هویت های انتخاب شده می توانید سابقه جدیدی ( از انواع فاکتور جدید، قرارداد و .. ) را ایجاد کنید.
 
@@ -2007,6 +2197,8 @@
 
 > **نکته:** برای اختصاصی کردن و بالعکس عمومی کردن یک دسته بندی فقط کاربر سازنده دسته بندی و البته مدیر سیستم و یا مدیر بانک اطلاعاتی میتوانند این عملیات را انجام دهند.
 
+![IMG-0342](</kb-assets/kb-images/Help/Integrated-bank/Database/Notes/rastclick-dastbandi.webp>)
+
 ## تنظیمات نمایش لیست هویت در بانک اطلاعاتی
 `مسیر سند: Help/Integrated-bank/Database/Notes/table.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Notes/table.md)
 
@@ -2018,6 +2210,8 @@
 
 **2. خصوصيات اضافه شده:** علاوه بر فيلدهاي اصلي، فيلدهايي که از طريق [شخصی سازی-افزودن مشخصه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/Add-features/Add-features.md) به  فیلد های انواع هویت اضافه شده اند را نيز مي توانيد به عنوان ستون هاي نمايش لیست هویت انتخاب کنيد.
 
+![IMG-0293](</kb-assets/kb-images/Help/Integrated-bank/Database/Notes/bank6.webp>)
+
 ## صفحه‌ی مالی
 `مسیر سند: Help/Integrated-bank/Database/Financial/Financial.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Financial/Financial.md)
 
@@ -2026,6 +2220,8 @@
 > **نکته:** در مورد پیش فاکتور/فاکتورها و دریافت/پرداخت و قراردادها، در صورتی که نیاز به تایید داشته باشند بعد از تایید جز سابقه مالی محسوب می شوند .
 
 > **نکته:** همان طور که عنوان شد در مورد قراردادها، تنها در صورتی که قرارداد جنبه مالی داشته باشد به عنوان سابقه مالی در نظر گرفته می شوند .
+
+![IMG-0296](</kb-assets/kb-images/Help/Integrated-bank/Database/Financial/mali.webp>)
 
 **1. ویرایش:** می توانید سابقه مالی مورد نظر را ویرایش کنید.
 
@@ -2043,6 +2239,8 @@
 `مسیر سند: Help/Integrated-bank/Database/Important-dates/Important-dates.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Important-dates/Important-dates.md)
 
 در صفحه لیست تاریخ تمام برنامه های ارسال پیام که برای این پروفایل از این قسمت تنظیم شده است نمایش داده می شود. همچنین می توانید یک تاریخ جدید برای ارسال پیام تنظیم کنید و یا برنامه های تنظیم شده در هریک از تاریخ ها را ویرایش یا حذف کنید.
+
+![IMG-0340](</kb-assets/kb-images/Help/Integrated-bank/Database/Important-dates/NotificationDate.webp>)
 
 **1. تاریخ جدید:** با استفاده از این گزینه می توانید برنامه ای برای ارسال یک یا چند پیام (پیامک، ایمیل، فکس و یا چاپ) برای مخاطب تنظیم کنید. ( برای اطلاع در خصوص نحوه تنظیم به[ اطلاعات مشترک ابزارها ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md)در قسمت تبلیغات مراجعه کنید.)
 
@@ -2072,6 +2270,8 @@
 `مسیر سند: Help/Integrated-bank/Database/Payment-links/Payment-links.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Payment-links/Payment-links.md)
 
 در این صفحه قادر خواهید بود لینک های پرداخت جدیدی برای مخاطب ایجاد و ذخیره نمائید. همچنین می توانید لیست لینک های پرداخت از قبل ایجاد شده را مشاهده کنید.
+
+![IMG-0346](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/bank-peymentlink.webp>)
 
 **A. ایجاد لینک پرداخت:** با فشردن دکمه[ ایجاد لینک پرداخت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Create-payment-link.md) می توانید لینک پرداختی برای مخاطب ایجاد کنید تا مخاطب بتواند با استفاده از لینک مذبور عملیات پرداخت را به آسانی انجام دهد .
 
@@ -2118,6 +2318,8 @@
 
 برای مدیریت پرداخت هایی که مخاطبان باید انجام دهند می توانید از قابلیت لینک پرداخت استفاده کنید. برای استفاده از این قابلیت ابتدا باید در قسمت مدیریت حساب های مالی برای حداقل یکی از حساب های تعریف شده، قابلیت پرداخت واسط را فعال کرده باشید. سپس می توانید یک لینک پرداخت برای مخاطب ایجاد کرده و پیامی حاوی این لینک از طریق رسانه های مختلف (پیام کوتاه، ایمیل یا شبکه اجتماعی) برای او ارسال کنید. مخاطب با استفاده از این لینک به صفحه درگاه پرداخت آنلاین هدایت می شود تا عملیات پرداخت را انجام دهد، پس از پرداخت مبلغ توسط مشتری، یک دریافت در سوابق این مخاطب به صورت خودکار ثبت خواهد شد. برای ایجاد یک لینک پرداخت باید چهار گام را طی کنید که در زیر شرح داده شده است.
 
+![IMG-0347](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Paymentlink1.webp>)
+
 ##### A.مشخصات
 
 **1. نام حساب:** می توانید از بین حساب های مالی تعریف شده در قسمت مدیریت حساب های مالی که قابلیت پرداخت واسط برای آن ها فعال شده است، یک حساب را انتخاب کنید تا مبلغ به آن واریز گردد.
@@ -2134,13 +2336,19 @@
 
 **6. توضیحات:** توضیحات مرتبط با این لینک پرداخت را در این قسمت وارد کنید. می توانید از مقدار وارد شده در این فیلد به عنوان یک پارامتر هوشمند در متن پیام ارسالی برای مشتری استفاده کنید.
 
+![IMG-0348](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Paymentlink2.webp>)
+
 در این قسمت مشخص می کنید که پیام ارسالی حاوی لینک پرداخت به چه شخصی ارسال گردد. همانطور که ملاحظه می کنید این پیام می تواند به مدیر، رابط یا هر سمت انتخابی دیگری ارسال گردد. علاوه بر این می توانید یک شماره موبایل یا ایمیل به صورت دستی در این قسمت به عنوان گیرنده پیام وارد کنید. توجه داشته باشید که این گزینه ها به صورت چک باکس هستند، بنابراین امکان انتخاب بیش از یک گزینه نیز وجود دارد.
 
 ##### عملیات پس از تایید .C
 
+![IMG-0349](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Paymentlink3.webp>)
+
 در صورتی که لینک پرداخت را روی یکی از آیتم ها مانند فاکتور، فرم یا ... ایجاد کنید و به این آیتم یک فیلد از نوع دریافت اضافه کرده باشید، می توانید در این قسمت تنظیماتی اعمال کنید که دریافت ثبت شده پس از پرداخت توسط مشتری به فیلد دریافت اضافه شده به آیتم متصل گردد. برای این منظور ابتدا چک باکس اتصال به فیلد را فعال کرده و سپس فیلد مورد نظر خود را انتخاب کنید
 
 ##### پیام های ارسالی .D
+
+![IMG-0350](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Paymentlink4.webp>)
 
 در این گام پیام ارسالی برای مشتری را تنظیم کنید
 
@@ -2152,6 +2360,8 @@
 `مسیر سند: Help/Integrated-bank/Database/Payment-links/List-messages-sent/List-messages-sent.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Payment-links/List-messages-sent/List-messages-sent.md)
 
 لیست پیام های ارسالی لینک های پرداخت به همراه جزئیات آن در این قسمت قابل مشاهده است.
+
+![IMG-0351](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/List-messages-sent/sendmessageslist.webp>)
 
 **1. مخاطب:** نام مخاطب دریافت کننده پیام حاوی لینک پرداخت در این قسمت نمایش داده می شود.
 
@@ -2169,11 +2379,15 @@
 
 > نکته: برای اطلاع از انواع وضعیت ارسال و تحویل  می توانید به صفحه اطلاعات مشترک لیست ارسال پیام مراجعه کنید.
 
+![IMG-0352](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/List-messages-sent/sendmessageslist-content.webp>)
+
 **7. مشاهده:** برای مشاهده ی محتوای پیام های ارسالی و لینک پرداخت ایجاد شده بر روی این دکمه کلیک کنید.
 
 > نکته: چنانچه درقسمت آدرس گیرنده، بر روی نام مخاطب کلیک کنید،می توانید به پروفایل مخاطب وارد شوید.
 
 > نکته: با کلیک بر روی لینک پرداخت ایجاد شده به درگاه پرداخت واسط وارد شده و می توانید پرداخت مرتبط را به صورت آنلاین انجام دهید.
+
+![IMG-0353](</kb-assets/kb-images/Help/Integrated-bank/Database/Payment-links/List-messages-sent/sendmessageslist-resend.webp>)
 
 **8. ارسال مجدد:** برای ارسال مجدد پیام های حاوی لینک پرداخت ایجاد شده می توانید بر روی این دکمه کلیک کنید.  برای ارسال مجدد میتوانید ارسال به مخاطب مرتبط و یا ارسال به سایرین را انتخاب نمائید.
 
@@ -2196,6 +2410,8 @@
 
 #### مشاهده لیست معاملات مشتری{#customers'taradesList}
 می توانید تمامی معاملات انجام شده برای یک مخاطب خاص را از طریق **صفحه اصلی هویت** > **معاملات** مشاهده نمایید.
+
+![IMG-0392: لیست معاملات و مذاکرات مشتری](</kb-assets/kb-images/Help/Integrated-bank/Database/Trades/Transactions.webp>)
 
 1. **مورد معامله:** تمامی محصولات خریداری شده(موجود در فاکتور خرید) موجود در فاکتور خرید و فروخته شده (موجود در فاکتور فروش) به مشتری را نمایش می دهد.
 
@@ -2221,6 +2437,8 @@
 در صورتی که ماژول مدیریت درخواست ها را تهیه کرده باشید ، می توانید لیست  درخواست هارا که  از طریق  ایمیل از هویت دریافت شده است و همچنین درخواست هایی که کاربران برای آن هویت در نرم افزار ثبت کرده اند  را در این قسمت  مشاهده نمایید. ([راهنمای مدیریت درخواست ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Manage-requests/Manage-requests.md))
 
 > **نکته:** درخواست می تواند سوابق مختص به خود را داشته باشد. این سوابق به عنوان زیر مجموعه درخواست نمایش داده شده و در صورت حذف درخواست می توان آنها را به سوابق مخاطب منتقل کرد. لازم بذکر است با راست کلیک بر روی هریک از درخواست های موجود در لیست می توانید برای درخواست مورد نظر افزودن سابقه و ویرایش گروهی انجام دهید.
+
+![IMG-0413](</kb-assets/kb-images/Help/Integrated-bank/Database/requests/Bank-request.webp>)
 
 **1.  درخواست جدید:** می توانید یک[ درخواست جدید](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-request/new-request.md) را برای مخاطب ایجاد کنید.
 
@@ -2259,12 +2477,18 @@
 
 **تب پرسنل:** در بخش پرسنل امکان اضافه نمودن، حذف و ویرایش اطلاعات پرسنلی هر کدام از هویت‌های حقوقی وجود دارد. به بیانی دیگر قابلیت ارتباط دادن هویت های حقیقی و حقوقی به یکدیگر از طریق این صفحه وجود دارد. این تب برای هویت های حقوقی با نام پرسنل و برای هویت های حقیقی با نام شرکت ها مشاهده می شود و در صورتی که در هر کدام از انواع هویت ارتباطی تعریف گردد، در هویت متناظر نیز به صورت خودکار نمایش داده می شود ( به طور مثال اگر برای یکی از شرکت ها، پرسنل تعریف کنید در پروفایل پرسنل تعریف شده نیز در تب شرکت ها، این ارتباط را مشاهده خواهید نمود)
 
+![IMG-0354](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/Persenellpng.webp>)
+
 **1. انتخاب کارمند:** می توانید یک هویت حقیقی که قبلا در بانک اطلاعاتی ذخیره شده است را در این قسمت برای اضافه شدن به پرسنل این شرکت انتخاب کنید. نام هویت مورد نظر را وارد کرده و سپس رده شغلی این شخص را در سازمان مشخص کنید، در صورت تمایل می توانید فیلدهای شعبه، دپارتمان و توضیحات را نیز تکمیل نمایید.
+
+![IMG-0355](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/Employee2.webp>)
 
 **2. کارمند جدید:** می توانید یک هویت حقیقی جدید تعریف کرده و این هویت را به عنوان پرسنل این شرکت تعیین کنید.
 نکته: ایجاد کارمند جدید همانند ایجاد یک هویت حقیقی جدید است با این تفاوت که در اینجا قسمت مشخصات کارمند اضافه شده و فیلد رده شغلی الزامی است.
 
 **3. انتخاب به عنوان مدیر:** می توانید مدیر شرکت مورد نظر را نیز با استفاده از این گزینه تعیین نمایید. پس از انتساب این شخص به این سمت امکان حذف از این سمت با گزینه حذف از مدیر وجود دارد.
+
+![IMG-0356](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/personal.webp>)
 
 > نکته: شما می توانید پرسنل داخل یک پروفایل را به تنهایی عضو یک دسته‌بندی خاص در بانک اطلاعاتی کنید و از پروفایل شرکت جدا نمایید. همچنین می توانید به هر پرسنل شماره مشتری جداگانه ای اختصاص دهید. در واقع پرسنل تعریف شده هویت های حقیقی جداگانه ای هستند که تمامی امکانات یک هویت را دارا هستند.
 
@@ -2285,7 +2509,11 @@
 
 > نکته: توجه داشته باشید که این قسمت تنها برای مخاطبان و سرنخ های حقوقی وجود دارد.
 
+![IMG-0356](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/personal.webp>)
+
 **1. انتخاب کارمند:** می توانید یک مخاطب یا سرنخ حقیقی که قبلا در بانک اطلاعاتی ذخیره شده است را در این قسمت برای اضافه شدن به پرسنل این شرکت انتخاب کنید. نام هویت مورد نظر را وارد کرده و سپس رده شغلی این شخص را در سازمان مشخص کنید، در صورت تمایل می توانید فیلدهای شعبه، دپارتمان و توضیحات را نیز تکمیل نمایید.
+
+![IMG-0355](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/Employee2.webp>)
 
 **کارمند جدید:** می توانید یک هویت حقیقی جدید تعریف کرده و این هویت را به عنوان پرسنل این شرکت تعیین کنید.
 
@@ -2303,12 +2531,18 @@
 
 در این بخش نیز امکان اضافه نمودن، حذف و ویرایش اطلاعات شرکت ها برای هر کدام از مخاطبان حقیقی وجود دارد.
 
+![IMG-0357](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/Organizations.webp>)
+
 ## تعریف شرکت مرتبط
 `مسیر سند: Help/Integrated-bank/Database/Personnel-Companies/Sherkathamd.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/Personnel-Companies/Sherkathamd.md)
 
 **تب شرکت‌ها:** در این بخش امکان اضافه نمودن، حذف و ویرایش اطلاعات شرکت ها برای هر کدام از مخاطبان حقیقی وجود دارد. به بیانی دیگر قابلیت ارتباط دادن هویت های حقیقی و حقوقی به یکدیگر از طریق این صفحه وجود دارد. این تب برای هویت های حقوقی با نام پرسنل و برای هویت های حقیقی با نام شرکت ها مشاهده می شود و در صورتی که در هر کدام از انواع هویت ارتباطی تعریف گردد، در هویت متناظر نیز به صورت خودکار نمایش داده می شود ( به طور مثال اگر برای یکی از مخاطبان حقیقی، شرکت تعریف کنید در پروفایل شرکت (مخاطب حقوقی) تعریف شده نیز در تب پرسنل، این ارتباط را مشاهده خواهید نمود)
 
+![IMG-0358](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/Sherkatha.webp>)
+
 **انتخاب شرکت:** می‌توان یک مخاطب یا سرنخ حقوقی را که قبلا در بانک اطلاعاتی ذخیره شده است را در این قسمت به عنوان شرکتی که این مخاطب در آن عضو پرسنل است، انتخاب کرد. بدین منظور پس از انتخاب گزینه " انتخاب شرکت"، می‌بایست به شرح ذیل اقدام نمود:
+
+![IMG-0359](</kb-assets/kb-images/Help/Integrated-bank/Database/Personnel-Companies/EntekhabeSHerkatpng.webp>)
 
 **1.شرکت مرتبط:** در این قسمت شرکت مورد نظر را انتخاب کنید.
 
@@ -2321,7 +2555,11 @@
 
 **تماس‌های جاری:** هنگامی تماس در این قسمت نمایش داده می‌شود که تماس درحال انجام باشد یعنی در حال زنگ خوردن باشد یا با داخلی در حال مکالمه باشد.
 
+![IMG-0393](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/tamas-jari.webp>)
+
 در صورت محدود شدن تماس ها بر اساس داخلی، زمانی تماس در قسمت تماس جاری نمایش داده می‌شود که سیستم تلفنی حتما ویپ باشد و تنظیمات مربوطه (محدود کردن مشاهده تماسها براساس داخلی – تعریف داخلی مرتبط برای کاربر – مجوز مشاهده تماس های دریافتی) انجام شده باشد.
+
+![IMG-0394](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/sabeghe-tamas.webp>)
 
 **سابقه تماس:** تماس‌هایی که در قسمت تماس‌های جاری می‌باشد پس از اتمام تماس در قسمت سابقه تماس قرار می‌گیرد
 
@@ -2339,6 +2577,8 @@
 در صورتی که شماره تلفن تماس گیرنده در مشخصات عمومی پروفایل ذخیره شده باشد، تماس گرفته شده در این صفحه نمایش داده می‌شود.
 
 نوع تماس می‌تواند ورودی(فلش سبز رنگ)، خروجی(فلش آبی رنگ) و از دست رفته (فلش قرمز رنگ) باشد. همچنین تاریخ، زمان و مدت مکالمه نیز نمایش داده می‌شود .
+
+![IMG-0395](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/Calls.webp>)
 
 در این صفحه امکان مشاهده لیست تماس‌های برقرار شده با سیستم تلفنی ثبت شده در نرم افزار فراهم می‌شود .
 
@@ -2373,12 +2613,16 @@
 
 در بخش اطلاعات ارتباطی هویت کافی است بر روی علامت تلفن یا موبایل کنار شماره تماس کلیک شود، شماره مرتبط، از پیام گستر به سرویس تلفنی و از طریق سرویس تلفنی در صورت درست بودن تنظیمات با ویژگی orginate به سیستم ویپ منتقل میشود. سپس داخلی کاربر روی IPPhone یا نرم افزار تلفنی زنگ خورده و کاربر باید آن را پاسخ دهد تا شماره گیری انجام شود. .( این مورد باید در نظر گرفته شود که حتما باید داخلی کاربر روی نرم افزار تلفنی برای مثال  3cx تنظیم شده باشد.)
 
+![IMG-0396](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/Clicktocall.webp>)
+
 ## لیست تماس‌ها در پروفایل هویت
 `مسیر سند: Help/Integrated-bank/Database/calls-h/calls-h.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/calls-h/calls-h.md)
 
 در صورتی که شماره تلفن تماس گیرنده در مشخصات عمومی پروفایل ذخیره شده باشد، تماس گرفته شده در این صفحه نمایش داده می شود.
 
 نوع تماس می تواند ورودی(فلش سبز رنگ)، خروجی(فلش آبی رنگ) و از دست رفته (فلش قرمز رنگ) باشد. همچنین تاریخ، زمان و مدت مکالمه نیز نمایش داده می شود .
+
+![IMG-0395](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/Calls.webp>)
 
 در این صفحه امکان مشاهده لیست تماس های برقرار شده با سیستم تلفنی ثبت شده در نرم افزار فراهم می شود .
 
@@ -2411,7 +2655,11 @@
 
 **تماس‌های جاری:** هنگامی تماس در این قسمت نمایش داده میشود که تماس درحال انجام باشد یعنی در حال زنگ خوردن باشد یا با داخلی در حال مکالمه باشد.
 
+![IMG-0393](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/tamas-jari.webp>)
+
 در صورت محدود شدن تماس ها بر اساس داخلی، زمانی تماس در قسمت تماس جاری نمایش داده می شود که سیستم تلفنی حتما ویپ باشد و تنظیمات مربوطه (محدود کردن مشاهده تماسها براساس داخلی – تعریف داخلی مرتبط برای کاربر – مجوز مشاهده تماس های دریافتی) انجام شده باشد.
+
+![IMG-0394](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/sabeghe-tamas.webp>)
 
 **سابقه تماس:** تماس هایی که در قسمت تماسهای جاری می باشد پس از اتمام تماس در قسمت سابقه تماس قرار می گیرد
 
@@ -2465,6 +2713,8 @@ Yeastar  مدل U100  وS20
 
  برای ضبط مکالمات روی مراکز سانترال و خطوط مستقیم از دستگاههای جانبی ضبط مکالمات استفاده میشود که یک نمونه از آن که توسط سرویس تلفنی پیام گستر ساپورت میشود دستگاه تلسا می باشد.
 
+![IMG-0397](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/telsa.webp>)
+
 نحوه راه اندازی آن به این صورت است که قبل از ورود هر کدام از خطوط شهری آنالوگ، که به سانترال یا سگال وصل می شود از همان خط هم باید به دستگاه تلسا وصل شود تا در هنگام برقراری تماس و با استفاده از نرم افزاری که برای دستگاه تلسا روی سیستم نصب میشود مکالمات همزمان ضبط شوند تا با تنظیماتی که در سرویس تلفنی انجام میشود مکالمات قابلیت دانلود شدن از طریق پیام گستر را داشته باشد.(برای دانلود مکالمات در پیام گستر نیاز به ماژول ضبط مکالمات می باشد)
 
 > **نکته:** درایور دستگاه تلسا فقط روی سیستم عاملهای 32 بیتی ساپورت میشود و باید از نصب آن روی سیستم عاملهای 64 بیتی خودداری شود، زیرا در این سیستم عامل ها دستگاه تلسا شناسایی نمی شود.
@@ -2472,6 +2722,8 @@ Yeastar  مدل U100  وS20
 > **نکته:** به دلیل اینکه سرویس تلفنی پیام گستر برای نصب نیاز به net 4.7.2  دارد، نصب تلسا بر روی ویندوز های 7 ، 10 ، 8.1  32 بیتی انجام میشود ( ویندوز  2008 32 بیتی ساپورت نمی شود.)
 
 دستگاه تلسا به ازای هر دو خط یک ورودی دارد، در نتیجه هر دو خط در یک سوکت قرار گیرد. همچنین ترتیب خطوط ورودی به تلسا اهمیت دارد. مانند شکل زیر:
+
+![IMG-0398](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/zabt-mokale.webp>)
 
 > همچنین نصب دستگاه تلسا روی سیستمهای مجازی توصیه نمی شود.
 
@@ -2482,12 +2734,16 @@ Yeastar  مدل U100  وS20
 
 این قابلیت فقط در سیستم های ویپ قابل استفاده است، همچنین کاربر باید دارای داخلی باشد و مجوز "برقراری تماس" را داشته باشد.(برای مطالعه در رابطه تعریف مجوز و تخصیص داخلی به کاربر به بخش [مدیریت گروه‌ها و کاربران](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Manage-groups-and-users/Manage-groups-and-users.md) مراجعه کنید.)
 
+![IMG-0399](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/shomaregir.webp>)
+
 ## ضبط مکالمات
 `مسیر سند: Help/Integrated-bank/Database/calls-h/zabt-mokale.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/calls-h/zabt-mokale.md)
 
 در صورتیکه سخت افزار ضبط مکالمه نصب و راه اندازی شده باشد، می توان به مکالمات ضبط شده از طریق راست کلیک بر روی تماس موردنظر گوش داد و یا مکالمه‌ی ضبط شده را دانلود کرد.(برای مطالعه‌ی بیشتر به بخش تنظیمات ضبط مکالمات مراجعه کنید.)
 
 لازم به ذکر است کاربر برای دسترسی به مکالمات ضبط شده به مجوز "مدیریت تماس‌های ضبط شده" نیاز دارد.
+
+![IMG-0400](</kb-assets/kb-images/Help/Integrated-bank/Database/calls-h/zabt-mokale2.webp>)
 
 ## انواع عملکرد هویت
 `مسیر سند: Help/Integrated-bank/Database/mafahim/amalkard-hoviat.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Database/mafahim/amalkard-hoviat.md)
@@ -2527,9 +2783,13 @@ Yeastar  مدل U100  وS20
 
 برای تبدیل سرنخ به مخاطب باید از صفحه‌ی اصلی هویت کلید "تبدیل سرنخ به مخاطب" و برای رد صلاحیت سرنخ باید از کلید "عدم کفایت سرنخ" استفاده شود.
 
+![IMG-0410](</kb-assets/kb-images/Help/Integrated-bank/Database/mafahim/tabdil.webp>)
+
 > **نکته:** لازم به ذکر است در تبدیل سرنخ به مخاطب، سرنخ‌های حقیقی می‌توانند به مخاطب‌های حقیقی و حقوقی و سرنخ‌های حقوقی می‌توانند به مخاطب‌های حقوقی و حقیقی تبدیل شوند.
 
 > **نکته:** در صورت عدم کفایت سرنخ، این وضعیت در فیلد وضعیت سرنخ قابل مشاهده می‌باشد.
+
+![IMG-0411](</kb-assets/kb-images/Help/Integrated-bank/Database/mafahim/tabdil-sarnakh1.webp>)
 
 > **نکته:** می توانید در قسمت [جستجوی پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Advanced-search/Advanced-search.md) لیست سرنخ هایی را که صلاحیت آن ها تایید شده است (تبدیل به مخاطب شده اند) را در اختیار داشته باشید. برای انجام این کار باید پارامتر "وضعیت سرنخ" را بر اساس گزینه "واجد شرایط" فیلتر کنید.
 
@@ -2543,6 +2803,8 @@ Yeastar  مدل U100  وS20
 > **نکته:** فرم می تواند سوابق مختص به خود را داشته باشد. برای این حصول میتوان با راست کلیک کردن روی فرم و افزودن سابقه، یک سابقه به فرم متصل کرد و  در بخش سوابق میتوان این سابقه را به عنوان زیر مجموعه فرم مشاهده کرد و در صورت حذف فرم می توان آن سوابق را به هویت متصل کرد.
 
 > **نکته:** فرم از سوابقی است که بدون اتصال به پروفایل یک هویت قابل ذخیره کردن است.
+
+![IMG-0404](</kb-assets/kb-images/Help/Integrated-bank/Database/forms/Bank-forms.webp>)
 
 **1. فرم جدید:** می توانید فرم دلخواه خود را از بین فرم های تعریف شده در شخصی سازی برای این هویت ایجاد کنید.
 
@@ -2574,6 +2836,8 @@ Yeastar  مدل U100  وS20
 اطلاعات اصلی هویت‌ها اعم از نام، نام‌خانوادگی، نام شرکت، اطلاعات ارتباطی و موارد مشابه در صفحه مشخصات پروفایل هویت قابل مشاهده است. در صورت نیاز به درج یا مشاهده اطلاعات بیشتر درباره‌ی هویت، لازم است که پس از ذخیره‌ی هویت به تب جزئیات مراجعه نمایید.
 با توجه به اینکه جزئیات مورد نیاز برای هویت‌های حقیقی و حقوقی در برخی موارد متفاوت هستند، تصاویر هر یک از آن‌ها به صورت جداگانه در ادامه ارائه شده‌است.
 
+![IMG-0401: صفحه جزئیات مخاطب](</kb-assets/kb-images/Help/Integrated-bank/Database/details/Image/profile-details-2.8.7.1.webp>)
+
 عنوان فیلدهای تعبیه شده در صفحه جزئیات، گویای اطلاعاتی که می‌توانید برای هر یک از انواع هویت هویت ذخیره کنید، می‌باشد. در صورت نیاز می‌توانید گزینه‌های هر یک از فیلدهای اطلاعاتی را از بخش [مدیریت آیتم‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Management-of-system-items/Management-of-system-items.md) ویرایش نمایید و یا گزینه‌های مورد نظر را به آن‌ها اضافه کنید. بخش‌هایی که ممکن است در مورد نحوه کاربرد آن‌ها ابهاماتی وجود داشته‌باشد، در ادامه توضیح داده شده‌است.
 
 **گروه ارتباطی تلگرام**
@@ -2593,7 +2857,11 @@ Yeastar  مدل U100  وS20
 
 - **صفحه جزئیات مخاطب حقیقی:**
 
+![IMG-0402: صفحه جزئیات مخاطب حقیقی](</kb-assets/kb-images/Help/Integrated-bank/Database/details/Image/Haghighi.webp>)
+
 - **صفحه جزئیات مخاطب حقوقی:** {#NId}
+
+![IMG-0403: صفحه جزئیات مخاطب حقوقی](</kb-assets/kb-images/Help/Integrated-bank/Database/details/Image/Hoghooghi.webp>)
 
 در صورتی که چک باکس‌های sms فرستاده نشود، ایمیل فرستاده نشود و فکس نشود تیک خورده باشد، در ارسال های گروهی پیام به این هویت ارسال نمی‌شود.
 
@@ -2615,6 +2883,8 @@ Yeastar  مدل U100  وS20
 چنانچه برای این نوع پروفایل قانون امتیاز دهی براساس خرید محصول تنظیم شده باشد،چنانچه از روی آن، فاکتور برگشتی ثبت شود به میزان برگشتی ثبت شده، هویت مرتبط امتیاز مصرف شده کسب می کند.
 
 تراکنش های کاهشی پس از گذشتن تاریخ انقضاء تراکنش های امتیاز افزایشی به طور خودکار توسط سیستم ایجاد می شوند و تراکنش های امتیاز خرج شده در زمان استفاده از امتیاز هنگام صدور فاکتور فروش برای مشتری ایجاد خواهند شد. همچنین کاربران سیستم می توانند در صورت نیاز به صورت دستی هر سه نوع تراکنش را برای مشتریان ثبت کنند.
+
+![IMG-0295](</kb-assets/kb-images/Help/Integrated-bank/Database/Customer-ratings/IdentityPoints.webp>)
 
 **1 . تراکنش امتیاز جدید:** با استفاده از این دکمه می توانید یک تراکنش امتیاز جدید از نوع افزایشی، کاهشی یا خرج شده برای مشتری به صورت دستی ایجاد نمایید.
 
@@ -2639,7 +2909,11 @@ Yeastar  مدل U100  وS20
 
 در حالت کانبان فرصت‌ها براساس مراحلی که در آن قرار دارند نمایش داده می‌شود. (برای مطالعه بیشتر به بخش[ مرحله‌بندی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/leveling/leveling.md) مراجعه کنید.)
 
+![IMG-0343](</kb-assets/kb-images/Help/Integrated-bank/Database/Opportunities/Opportunities1.webp>)
+
 با تغییر حالت نمایش از کانبان به GRID   نمایش فرصت‌ها بصورت لیستی خواهد بود
+
+![IMG-0344](</kb-assets/kb-images/Help/Integrated-bank/Database/Opportunities/Opportunities11.webp>)
 
 **1.  فرصت جدید:** می توانید یک فرصت جدید برای هویت مورد نظرایجاد کنید.
 
@@ -2650,6 +2924,8 @@ Yeastar  مدل U100  وS20
 **4. نوع فیلتر:** می توانید فیلترهای انتخاب شده را با یک نام مشخص ذخیره کرد تا بتوان به سرعت از آن استفاده کرد .
 
 **5. جدول فرصت ها:** در این جدول می توانید تمامی فرصت های ثبت شده برای این هویت را بر اساس فیلدهای فرصت (فیلد هایی که در بخش شخصی سازی برای نمایش در لیست فرصت انتخاب شده اند) را مشاهده کنید، برای آشنایی با هرکدام از این فیلدها به صفحه راهنمای[ فرصت جدید ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Opportunity/NewOpportunity.md) مراجعه کنید. در واقع مزیت استفاده از این جدول در اینست که می توان در یک نگاه مشاهده نمود که فرصت های ثبت شده برای مشتری از چه منابعی شکل گرفته اند و یا اینکه در کدام مرحله قرار دارند. شما در این لیست امکان گزارش گیری از فرصت های ثبت شده برای این مخاطب را دارید .  برای آشنایی بیشتر با نحوه گزارش گیری به بخش[ گزارش ساز جدید ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Report-Builder/Report-Builder.md)مراجعه کنید
+
+![IMG-0345](</kb-assets/kb-images/Help/Integrated-bank/Database/Opportunities/Opportunities2.webp>)
 
 **A . مجموع نهایی:** مجموع مبلغ نهایی وارد شده در هرکدام از فرصت ها را محاسبه می کند، این مبلغ برآوردی بر اساس محصولات وارد شده در فرصت به صورت خودکار تکمیل می گردد، اما می توانید به صورت دستی آن را تغییر دهید.
 

@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Contract-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## تنظیمات اختصاصی قراردادها
 `مسیر سند: Help/Settings/Personalization-crm/Contract-management/Contract-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Contract-management/Contract-management.md)
@@ -8,10 +8,14 @@
 از این صفحه می توانید قرارداد جدیدی را تنظیم و قراردادهای قبلی را ویرایش و یا حذف نمایید. با کلیک بر روی دکمه + سبز رنگ، می‌توانید زیرنوع جدید جدیدی از آیتم قرارداد ایجاد کنید.
 از آیتم قرارداد می‌توانید برای قراداد پشتیبانی، تعمیر و نگهداری، خدمات پس از فروش، ضمانت تعویض و ... استفاده کنید و فرآیندهای تمدید قرارداد خود را بر روی آن پیاده سازی نمایید.
 
+![IMG-1280: صفحه شخصی‌سازی قراردادها](</kb-assets/kb-images/Help/Settings/Personalization-crm/Contract-management/ContractManagement1.webp>)
+
 لطفا ابتدا[ اطلاعات کلی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/General-information.md) را در این خصوص مطالعه فرمایید.
 ##### قرارداد جدید:
 
 علاوه بر تنظیمات[ آیتم های حقوقی/مالی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/Legal-financial-items/Legal-financial-items.md) و تنظیمات عمومی که در قسمت[ تنظیمات مشترک آیتم های سیستم ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md) توضیح داده شد، تنظیمات اختصاصی قرار دادها به شرح زیر می باشد.
+
+![IMG-1281](</kb-assets/kb-images/Help/Settings/Personalization-crm/Contract-management/ContractManagement.webp>)
 
 **1. الگوی شماره گذاری:** در این قسمت امکان انتخاب قالب شماره دهی برای این آیتم از الگو های تعریف شده در بخشالگوشماره گذاری وجود دارد و همچنین امکان تعریف قالب شماره دهی جدید در این قسمت وجود دارد که برای مطالعه بیشتر به الگو شماره گذاری مراجعه کنید.
 
@@ -33,4 +37,8 @@
 
 **8. الزام به داشتن این قرارداد:** در صورتی که این گزینه فعال شده باشد، اگر مخاطبی در سوابقش این نوع قرارداد را نداشته باشد، نوار قرمز رنگی در صفحه پروفایل آن مخاطب دیده می شود.
 
+![IMG-1282](</kb-assets/kb-images/Help/Settings/Personalization-crm/Contract-management/ContractManagement3.webp>)
+
 **9. الزام به تمدید این قرارداد:** در صورتی که این گزینه فعال شده باشد، اگر مخاطبی که این نوع قرارداد برای او ثبت شده است، تاریخ اتمام قراردادش فرا رسیده باشد، نوار قرمز رنگی در صفحه پروفایل آن مخاطب دیده می شود.
+
+![IMG-1283](</kb-assets/kb-images/Help/Settings/Personalization-crm/Contract-management/ContractManagement4.webp>)

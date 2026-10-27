@@ -1,11 +1,13 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-HowToUseProccess283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## نحوه استفاده از فرآیند‌های کاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/HowToUseProccess_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/HowToUseProccess_2.8.3.md)
 
 پس از طراحی و ایجاد فرآیند کاری چنانچه شما کاربری باشید که فرآیند به شما ارجاع داده باشد. فرآیند طراحی شده را در کارتابل خود مشاهده می‌کنید.
+
+![IMG-1419: کارتابل فرآیند‌ها](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/process-cartable_2.8.3.webp>)
 
 ####  مشاهده مسئولیت‌های کاربر در کارتابل فرآیند
 

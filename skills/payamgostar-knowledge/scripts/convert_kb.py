@@ -1,13 +1,30 @@
 #!/usr/bin/env python3
-"""Rebuild references/kb from the official docs repo.
+"""Rebuild references/kb from the official docs repo (read-only on the source).
 Usage: python3 convert_kb.py <PayamGostarDocs clone> <out dir> [commit]
-Strips images/HTML, redacts credentials, groups articles by menu section, writes _index.json."""
+Strips HTML, redacts credentials, groups articles by menu section, writes _index.json.
+If kb-assets/image-map.json exists (tools/import_kb_images.py), each screenshot becomes
+a link to its WebP copy: ![IMG-0001: alt](</kb-assets/kb-images/...webp>) (path from repo root)."""
 import os,re,sys,json,collections
 SRC=sys.argv[1]  # clone of https://github.com/1stco/PayamGostarDocs
 OUT=sys.argv[2]  # e.g. references/kb
 COMMIT=sys.argv[3] if len(sys.argv)>3 else 'e6143c66b1746f251ae840745e7fe070607aee10'
 BLOB=f'https://github.com/1stco/PayamGostarDocs/blob/{COMMIT}/'
 os.makedirs(OUT,exist_ok=True)
+_MAP=os.path.join(os.path.dirname(os.path.abspath(__file__)),'..','..','..','kb-assets','image-map.json')
+IMAP=json.load(open(_MAP,encoding='utf-8')) if os.path.exists(_MAP) else None
+IMG_RX=re.compile(r'!\[([^\]]*)\]\(([^)]+)\)|<img[^>]*?src=["\']([^"\']+)["\'][^>]*>',re.I)
+def mark_images(rel,raw):
+    if not IMAP: return raw
+    refs=IMAP['refs'].get(rel,{})
+    def rep(m):
+        iid=refs.get(m.group(2) or m.group(3))
+        if not iid: return m.group(0)
+        alt=re.sub(r'[\[\]()⟦⟧|]','',(m.group(1) or '')).strip()[:80]
+        return f'\n⟦IMG|{iid}|{alt}⟧\n'
+    return IMG_RX.sub(rep,raw)
+def unmark(t):
+    if not IMAP: return t
+    return re.sub(r'⟦IMG\|([^|]+)\|([^⟧]*)⟧',lambda m:f'![{m.group(1)}'+(f': {m.group(2)}' if m.group(2) else '')+f'](</{IMAP["images"][m.group(1)]}>)',t)
 def clean(t):
     t=re.sub(r'!\[[^\]]*\]\([^)]*\)','',t)                    # md images
     t=re.sub(r'data:[a-z/+]+;base64,[A-Za-z0-9+/=]+','',t)
@@ -30,7 +47,7 @@ for dp,ds,fs in os.walk(SRC):
         p=os.path.join(dp,f); rel=os.path.relpath(p,SRC)
         if rel.startswith('Other/') and f in ('test.md','MyTest.md','PicTest.md','Sample.md','Alovoiptest.md'): continue
         raw=open(p,encoding='utf-8',errors='replace').read()
-        body=clean(raw)
+        body=unmark(clean(mark_images(rel,raw)))
         if len(body)<40: continue
         m=re.search(r'^#\s+(.+)$',body,re.M)
         title=(m.group(1).strip() if m else f[:-3]).strip('# ')
@@ -49,7 +66,7 @@ for dp,ds,fs in os.walk(SRC):
         groups[g].append((rel,title,v,body))
         index.append({'file':g+'.md','path':rel,'title':title,'doc_version':v,'chars':len(body),'url':BLOB+rel})
 for g,arts in groups.items():
-    out=[f'# مستندات رسمی پیام‌گستر — {g}','',f'منبع: مخزن رسمی 1stco/PayamGostarDocs (commit {COMMIT[:12]}، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.','']
+    out=[f'# مستندات رسمی پیام‌گستر — {g}','',f'منبع: مخزن رسمی 1stco/PayamGostarDocs (commit {COMMIT[:12]}، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. '+('تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.' if IMAP else 'تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.'),'']
     for rel,title,v,body in arts:
         out.append(f'## {title}')
         out.append(f'`مسیر سند: {rel}`' + (f' · `نسخه سند: {v}`' if v else '') + f' · [منبع]({BLOB}{rel})')

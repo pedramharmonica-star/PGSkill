@@ -1,11 +1,13 @@
 # مستندات رسمی پیام‌گستر — Help-Management-and-reports-FrequentlyUsedReports
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## دریافت خروجی از گزارش
 `مسیر سند: Help/Management-and-reports/FrequentlyUsedReports/ExportFrequentlyUsedReports.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/FrequentlyUsedReports/ExportFrequentlyUsedReports.md)
 
 بعد از مشاهده گزارش و اعمال فیلتر روی آن اگر لازم باشد می‌توانید از گزاش خروجی در فرمت‌های مختلف دریافت کنید.
+
+![IMG-0520: دریافت خروجی از گزارش](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/Export-the-report.webp>)
 
 ## معرفی گزارش‌های پرکاربرد (گزارش‌های آماده)
 `مسیر سند: Help/Management-and-reports/FrequentlyUsedReports/FrequentlyUsedReportsIntroduction.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/FrequentlyUsedReports/FrequentlyUsedReportsIntroduction.md)
@@ -15,6 +17,8 @@
 گزارش‌های پرکاربرد آن دسته از گزارش‌هایی هستند که در قالب نمودار، جدول و کارت بر روی آیتم‌های CRM (فرصت، هویت، آیتم‌های فروش ...) توسط تیم تولید پیام‌گستر، طراحی و پیاده‌سازی شده است.
 
 این گزارشات به صورت آماده در 9 گروه **فروش**، **خرید**، **مارکتینگ**، **پشتیبانی مشتری**، **هویت**، **انبار**، **مالی**، **سیستمی** و **قرارداد** تهیه شده‌اند که دیگر نیازی به ساخت منابع اطلاعاتی، فرمول نویسی و تنظیمات ندارد و شما تنها با داشتن مجوز **مشاهده** گزارش، می‌توانید از هر یک از آن‌ها گزارش مد نظر خود را در فرمت‌های متنوع دریافت نمایید.
+
+![IMG-0521: گزارشات پرکاربرد در لیست گزارش‌ها](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/List-of-reports.webp>)
 
 ## تنظیمات دسترسی به گزارش‌ها
 `مسیر سند: Help/Management-and-reports/FrequentlyUsedReports/ReportAccessSettings.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/FrequentlyUsedReports/ReportAccessSettings.md)
@@ -30,7 +34,11 @@
 1. گزارش موردنظر خود را انتخاب کنید و
  موس را روی کارت آن نگه دارید تا آیکون **قفل** ظاهر شود، سپس بر روی آن کلیک کنید تا وارد محیط تخصیص دسترسی شوید.
 
+![IMG-0522: تعیین دسترسی روی گزاش‌ها](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/Report-access-setting.webp>)
+
 2. در این بخش می‌توانید **کاربر**، **گروه**، **سمت** و  **دپارتمان**  و موردنظر خود را انتخاب کنید و با کلیک بر روی دکمه  **اضافه کردن**،  آنها را به جدول تخصیص دسترسی اضافه کنید.
+
+![IMG-0523: جدول دسترسی‌های تخصیص داده شده به گزارش](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/List-of-authorized-users-on-report.webp>)
 
 ## انتخاب دسته‌بندی مورد نظر
 `مسیر سند: Help/Management-and-reports/FrequentlyUsedReports/SelectTheDesiredReportCategory.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/FrequentlyUsedReports/SelectTheDesiredReportCategory.md)
@@ -89,6 +97,8 @@
 
 با کلیک روی دسته‌بندی مورد نظر، در سمت چپ نرم‌افزار لیست  گزارش‌های آن بخش به صورت کارتی نمایش داده می‌شود.
 
+![IMG-0524: تصویر لیست گزارش‌های پرکاربرد و معرفی بخش های مختلف با نوتیشن](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/Frequently-used-reports.webp>)
+
 برای یافتن گزارش مورد نظر خود می‌توانید پس از تعیین دسته‌بندی اصلی، نام گزارش را در قسمت **جستجوی سریع** بیابید. در غیر این صورت از بین لیست گزارش‌ها، آن را انتخاب کنید.
 
 *به عنوان مثال*
@@ -99,6 +109,8 @@
 
 به اطلاعاتی که روی کارت گزارش درج شده دقت کنید. **آیکن** کنار عنوان گزارش نشان دهنده نوع گزارش است. اگر شکل **نموداری** داشت گزارش به یکی از حالت‌های میله‌ای، دایره‌ای، خطی، تراکم و یا ترکیبی از این‌هاست. اگر هم **آیکن جدول** درج شده بود یعنی خروجی گزارش به صورت لیستی و در جدول خواهد بود. به این صورت با یک نگاه می‌توانید متوجه شوید گزارش مورد نظر شما در چه قالبی تهیه شده است.
 
+![IMG-0525: معرفی بخش‌های کارت گزارش](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/card-of-report-icons.webp>)
+
 1. این شکل، نشان دهنده نوع گزارش است (نمودار میله‌ای، نمودار دایره‌ای، نمودار پراکندگی، نمودار خطی، جدول، کارت).
 2. عنوان گزارش
 3. این علامت را فقط روی گزارش‌های پیش‌فرض سیستم مشاهده خواهید کرد. گزارش‌هایی که توسط شما ساخته شده‌اند این علامت آبی رنگ را ندارند.
@@ -108,9 +120,13 @@
 #### مشاهده گزارش
 روی عنوان گزارش کلیک کنید. در این مثال (لیست فرصت‌های موفق) اگر فرصتی در سیستم ثبت نشده باشد پیغام «موردی یافت نشد» نمایش داده میشود. در غیر این صورت گزارش را به صورت کلی  خواهید.
 
+![IMG-0526: صفحه نمایش گزارش لیست فرصت‌های موفق](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/View-of-a-frequently-used-report.webp>)
+
 > **نکته**
 
 > در برخی گزارش‌ها به محض ورود به صفحه گزارش، به دلیل حجم و تنوع بالای اطلاعات، اعمال فیلتر برای مشاهده گزارش **الزامی** است.
 
 #### اعمال فیلتر روی گزارش
 سمت چپ گزارش روی **آیکن فیلتر** کلیک کنید. متناسب با هر گزارش، فیلدهایی را برای فیلتر در اختیار دارید. در این مثال، بر اساس نحوه آشنایی (فیلد منبع در فرصت)، کارشناس مرتبط فرصت (فیلد تخصیص داده شده به)، تاریخ موفقیت و نوع فرصت (فیلد نوع در فرصت) می‌توانید فیلتر مورد نظر خود را اعمال کنید.
+
+![IMG-0527: اعمال فیلتر روی گزارش‌های پرکاربرد](</kb-assets/kb-images/Help/Management-and-reports/FrequentlyUsedReports/Images/Filter-on-frequently-used-report.webp>)

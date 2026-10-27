@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Integrated-bank-Excel-output
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## دریافت خروجی اکسل از هویت‌ها
 `مسیر سند: Help/Integrated-bank/Excel-output/Excel-output.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Integrated-bank/Excel-output/Excel-output.md)
@@ -27,4 +27,8 @@
 
 > **نکته:** در خروجی اکسل از هویت‌های حقیقی، نام شرکت‌هایی که در آنها فعالیت دارند نمایش داده می‌شود.
 
+![IMG-0437](</kb-assets/kb-images/Help/Integrated-bank/Excel-output/1.webp>)
+
 با زدن دکمه خروجی اکسل، باید مسیر ذخیره فایل Excel را مشخص نمایید.
+
+![IMG-0438](</kb-assets/kb-images/Help/Integrated-bank/Excel-output/2.webp>)

@@ -15,3 +15,7 @@
   3. نسخه را در `.claude-plugin/plugin.json` و `CHANGELOG.md` بالا ببر.
 - جست‌وجوی دانش: `python3 skills/payamgostar-knowledge/scripts/find.py "<سؤال>" --top 8`
 - سایت payamgostar.com برای WebFetch مسدود است (robots). برای خواندنش از مرورگر (Claude in Chrome) استفاده کن و فقط بخوان. فرم پر نکن و چیزی ارسال نکن.
+
+## منبع مرکز دانش: فقط‌خواندنی
+- مخزن `https://github.com/1stco/PayamGostarDocs` را مدیر آموزش شرکت ساخته است. **به هیچ عنوان در آن چیزی ننویس:** نه commit، نه push، نه issue یا PR. فقط clone (با push غیرفعال: `git remote set-url --push origin DISABLED`) و استخراج.
+- استخراج: `python3 tools/import_kb_images.py <clone> <commit>` (تصاویر ← `kb-assets/`) و `python3 skills/payamgostar-knowledge/scripts/convert_kb.py <clone> skills/payamgostar-knowledge/references/kb <commit>` (متن ← `references/kb/`).

@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Management-and-reports-reports-crm
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## گزارشات CRM
 `مسیر سند: Help/Management-and-reports/reports-crm/reports-crm.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/reports-crm/reports-crm.md)
@@ -27,6 +27,8 @@
 
 برای استفاده از این گزارش نیاز به مجوز مدیر فروش می باشد.
 
+![IMG-0701](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/operation-CRM/opportunities/Opportunity1.webp>)
+
 **1. بازه گزارش:** در این قسمت می توان بازه زمانی دلخواه جهت گزارش دهی را تعیین نمود. این بازه می تواند بصورت ماهانه، سالیانه و یا یک بازه دلخواه باشد که در فیلد اول قابل انتخاب است.
 
 **2. منبع:** منبع ایجاد فرصت را انتخاب کنید (به طور مثال برای دریافت گزارش تمامی فرصت هایی که از طریق سمینار و همایش ایجاد شده اند)
@@ -45,6 +47,8 @@
 
 **9. دریافت گزارش:** پس از اعمال فیلترهای مورد نظر خود، فرمت فایل خروجی گزارش را مشخص نموده و روی دریافت گزارش کلیک کنید تا گزارش جزئیات فرصت ها دانلود شود. همان طور که در زیر مشاهده می کنید، هر ردیف از خروجی این گزارش نشان دهنده یک فرصت فروش است و به ازای آن می توانید جزئیات مربوطه را مشاهده کنید. همچنین با کلیک بر لینک هرکدام از فرصت ها در ستون "عنوان" یا کلیک بر روی لینک پروفایل مرتبط با فرصت در ستون "مرتبط با" به صفحه آن فرصت یا پروفایل هویت مرتبط با آن دسترسی داشته باشید.
 
+![IMG-0702](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/operation-CRM/opportunities/Opportunity2.webp>)
+
 ## گزارش عملکرد شرکت
 `مسیر سند: Help/Management-and-reports/reports-crm/operation-CRM/company's-performance/company's-performance.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/reports-crm/operation-CRM/company's-performance/company's-performance.md)
 
@@ -52,9 +56,13 @@
 
 برای استفاده از این گزارش علاوه بر مدیر سیستم ، کاربر نیاز  مجوز مدیر فروش یا مدیر پشتیبانی و یا مدیر ارتباط با مشتری دارد .
 
+![IMG-0699](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/operation-CRM/company's-performance/CRMOrg1.webp>)
+
 **1. بازه گزارش:** در این قسمت می توان بازه زمانی دلخواه جهت گزارش دهی را تعیین نمود. این بازه می تواند بصورت ماهانه، سالیانه و یا یک بازه دلخواه باشد که در فیلد اول قابل انتخاب است. پس از انتخاب بازه مورد نظر خود، نحوه تفکیک ردیف های جدول را در خروجی گزارش مشخص کنید.
 
 **2. فرمت فایل:**  در قسمت فرمت فایل، نوع فایل خروجی را انتخاب کرده و روی دریافت گزارش کلیک کنید تا گزارش مورد نظر دانلود شود.
+
+![IMG-0700](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/operation-CRM/company's-performance/CRM21.webp>)
 
 ## گزارش عملکرد هر کاربر
 `مسیر سند: Help/Management-and-reports/reports-crm/operation-CRM/Each-user's-performance/Each-user's-performance.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/reports-crm/operation-CRM/Each-user's-performance/Each-user's-performance.md)
@@ -63,11 +71,15 @@
 
 برای استفاده از این گزارش علاوه بر مدیر سیستم ، کاربر نیاز  مجوز مدیر فروش یا مدیر پشتیبانی و یا مدیر ارتباط با مشتری دارد .
 
+![IMG-0697](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/operation-CRM/Each-user's-performance/CRMUser1.webp>)
+
 **1. فیلتر بازه زمانی:** در این قسمت می توان بازه زمانی دلخواه جهت گزارش دهی را تعیین نمود. این بازه می تواند بصورت ماهانه، سالیانه و یا یک بازه دلخواه باشد که در فیلد اول قابل انتخاب است.
 
 **2. فرمت فایل:**  در قسمت فرمت فایل، نوع فایل خروجی را انتخاب کرده و روی دریافت گزارش کلیک کنید تا گزارش مورد نظر دانلود شود.
 
 همانظور که در زیر مشاهده می کنید در خروجی این گزارش، لیستی از کاربران نرم افزار برای هرکدام از آن ها تعداد ثبت و ویرایش آیتم های مختلف را در بازه زمانی انتخاب شده نمایش می دهد. همچنین مقایسه تعداد کل ثبت و ویرایش آیتم ها توسط کاربران به وسیله نمودار میله ای نمایش داده می شود.
+
+![IMG-0698](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/operation-CRM/Each-user's-performance/CRM2.webp>)
 
 ## تماس‌ها
 `مسیر سند: Help/Management-and-reports/reports-crm/report-calls/calls-report.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/reports-crm/report-calls/calls-report.md)
@@ -93,6 +105,8 @@
 
 برای استفاده از این گزارش علاوه بر مدیر سیستم ، کاربر نیاز  مجوز مدیر فروش یا مدیر پشتیبانی و یا مدیر ارتباط با مشتری دارد
 
+![IMG-0710](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Total-phone-calls/CallsNumberbase11.webp>)
+
 **1. بازه گزارش:** می توانید بازه تماس های نمایش داده شده در خروجی گزارش را مشخص کنید.
 
 **2. کارشناس:** در صورتی که قصد مشاهده اطلاعات تماس های یک کارشناس مشخص را دارید می توانید از این فیلتر استفاده کنید. توجه داشته باشید این موضوع نیازمند تعریف شماره داخلی متناظر کاربران سیستم از قسمت  [مدیریت گروه ها و کاربران ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Manage-groups-and-users/Manage-groups-and-users.md)یا[مدیریت سیستم های تلفنی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Telephone-systems/telephone-systems-Management/telephone-systems-Management.md) می باشد.
@@ -107,10 +121,14 @@
 
 **7. دریافت گزارش:** پس از اعمال فیلترهای مورد نظر، فرمت فایل خروجی گزارش را مشخص کرده و روی دکمه دریافت گزارش کلیک کنید تا اطلاعات تماس را در قالب فایل با فرمت دلخواه خود دریافت کنید.
 
+![IMG-0711](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Total-phone-calls/Calls41.webp>)
+
 ## گزارش از اطلاعات تماس تکراری
 `مسیر سند: Help/Management-and-reports/reports-crm/report-calls/Duplicate-contact-information/Duplicate-contact-information.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/reports-crm/report-calls/Duplicate-contact-information/Duplicate-contact-information.md)
 
 در این قسمت می توانید گزارشی از هویت هایی که اطلاعات تماس تکراری دارند (ایمیل و تلفن و موبایل و فکس و ....) دریافت کنید.
+
+![IMG-0705](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Duplicate-contact-information/DuplicateContactInformation.webp>)
 
 **1**. در این قسمت انتخاب کنید که بر اساس کدام اطلاعات تماس قصد گزارش گیری دارید.
 
@@ -129,6 +147,8 @@
 
 برای استفاده از این گزارش علاوه بر مدیر سیستم ، کاربر نیاز  مجوز مدیر فروش یا مدیر پشتیبانی و یا مدیر ارتباط با مشتری دارد.
 
+![IMG-0703](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Call-details/CallsDetails11.webp>)
+
 **1. بازه گزارش:** می توانید بازه تماس های نمایش داده شده در خروجی گزارش را مشخص کنید.
 
 **2. به تفکیک:** بر اساس بازه گزارش انتخاب شده می توانید نحوه تفکیک (روز، ماه، فصل، سال) نمایش تماس ها در خروجی گزارش را مشخص کنید.
@@ -143,6 +163,8 @@
 
 **7. دریافت گزارش:** پس از اعمال فیلترهای مورد نظر، فرمت فایل خروجی گزارش را مشخص کرده و روی دکمه دریافت گزارش کلیک کنید تا جزئیات تماس را در قالب فایل با فرمت دلخواه
 خود دریافت کنید.
+
+![IMG-0704](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Call-details/CallsDetails2.webp>)
 
 **A. نام کارشناس:** در صورتی که شماره داخلی برقرار کننده تماس تلفنی به یک کاربر تخصیص داده شده باشد، می توانید نام کارشناس مربوط به تماس را در این قسمت مشاهده نمایید.
 
@@ -165,6 +187,8 @@
 
 برای استفاده از این گزارش علاوه بر مدیر سیستم ، کاربر نیاز  مجوز مدیر فروش یا مدیر پشتیبانی و یا مدیر ارتباط با مشتری دارد
 
+![IMG-0708](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Total-calls-by-expert/CallsUserBase11.webp>)
+
 **1. بازه گزارش:** می توانید بازه تماس های نمایش داده شده در خروجی گزارش را مشخص کنید.
 
 **2. کارشناس:** در صورتی که قصد مشاهده اطلاعات تماس های یک کارشناس مشخص را دارید می توانید از این فیلتر استفاده کنید. توجه داشته باشید این موضوع نیازمند تعریف شماره داخلی متناظر کاربران سیستم از قسمت[  مدیریت گروه ها و کاربران ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Manage-groups-and-users/Manage-groups-and-users.md)یا[مدیریت سیستم های تلفنی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Telephone-systems/telephone-systems-Management%2Ftelephone-systems-Management.md)می باشد.
@@ -177,6 +201,8 @@
 
 **6. دریافت گزارش:** پس از اعمال فیلترهای مورد نظر، فرمت فایل خروجی گزارش را مشخص کرده و روی دکمه دریافت گزارش کلیک کنید تا اطلاعات تماس را در قالب فایل با فرمت دلخواه خود دریافت کنید
 
+![IMG-0709](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Total-calls-by-expert/Calls31.webp>)
+
 ## گزارش مجموع تماس‌ها به تفکیک تاریخ
 `مسیر سند: Help/Management-and-reports/reports-crm/report-calls/Total-calls-by-date/Total-calls-by-date.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/reports-crm/report-calls/Total-calls-by-date/Total-calls-by-date.md)
 
@@ -185,6 +211,8 @@
 در این قسمت می توانید گزارش مجموع تماس ها به تفکیک تاریخ های مورد نظر را دریافت کنید.
 
 برای استفاده از این گزارش علاوه بر مدیر سیستم ، کاربر نیاز  مجوز مدیر فروش یا مدیر پشتیبانی و یا مدیر ارتباط با مشتری دارد
+
+![IMG-0706](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Total-calls-by-date/CallsDateBase11.webp>)
 
 **1. بازه گزارش:** می توانید بازه تماس های نمایش داده شده در خروجی گزارش را مشخص کنید.
 
@@ -199,3 +227,5 @@
 **6. سیستم تلفنی:** پس از انتخاب شعبه مورد نظر در قسمت قبل می توانید یکی از سیستم تلفنی های تنظیم شده در آن شعبه را جهت نمایش اطلاعات تماس مربوطه انتخاب کنید.
 
 **7. دریافت گزارش:** پس از اعمال فیلترهای مورد نظر، فرمت فایل خروجی گزارش را مشخص کرده و روی دکمه دریافت گزارش کلیک کنید تا اطلاعات تماس را در قالب فایل با فرمت دلخواه خود دریافت کنید.
+
+![IMG-0707](</kb-assets/kb-images/Help/Management-and-reports/reports-crm/report-calls/Total-calls-by-date/CallsDateBase2.webp>)

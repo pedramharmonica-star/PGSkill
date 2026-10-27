@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Basic-Information
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## اطلاعات پایه
 `مسیر سند: Help/Basic-Information/Basic-Information.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Basic-Information.md)
@@ -38,7 +38,11 @@
 
 با کلیک بر روی لینک ویرایش پیام ها در روبروی هر پیام امکان نوشتن پیام و ویرایش پیام های قبلی فراهم می شود.
 
+![IMG-0039](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/SystemMessagesManagement1.webp>)
+
 با کلیک بر روی لینک ویرایش پیام ها در روبروی هر پیام، پنجره ای به شکل زیر باز خواهد شد.
+
+![IMG-0040](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/SystemMessagesManagement2.webp>)
 
 **گام 1-** پارامترهایی است که برای این پیام به صورت هوشمند توسط برنامه نویسان پیام گستر قرارداده شده است.
 
@@ -47,6 +51,10 @@
 برای اطلاعات بیشتر در خصوص نحوه تنظیم پیام به [اطلاعات مشترک ابزارها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md) و برای اطلاع از چگونگی عملکرد پارامترهای هوشمند به متن هوشمند مراجعه کنید.
 
 > لازم به ذکر است ارسال پیام‌ها از خطوط انتخاب شده در بخش [خطوط پیش فرض](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Default-lines/Default-lines.md) ارسال خواهد شد .
+
+![IMG-0041](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/SystemMessagesManagement3.webp>)
+
+![IMG-0042](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/SystemMessagesManagement4.webp>)
 
 **1**. هر کاربر هنگام دریافت پیام های سیستمی، به تعداد پیام های خوانده نشده عددی را در کنار آیکون زنگوله در صفحه بالای نرم افزار مشاهده می نماید. با کلیک بروی آیکون مورد نظر صفحه ای نمایش داده می شود و می توانید متن کامل پیام ها را مشاهده نمایید .
 
@@ -59,7 +67,11 @@
 
 با کلیک بر روی لینک ویرایش پیام ها در روبروی هر پیام امکان نوشتن پیام و ویرایش پیام های قبلی فراهم می شود.
 
+![IMG-0043](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/2.6.0/SystemMessagesManagement1.webp>)
+
 با کلیک بر روی لینک ویرایش پیام ها در روبروی هر پیام، پنجره ای به شکل زیر باز خواهد شد.
+
+![IMG-0044](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/2.6.0/SystemMessagesManagement2.webp>)
 
 **گام 1-** پارامترهایی است که برای این پیام به صورت هوشمند توسط برنامه نویسان پیام گستر قرارداده شده است.
 
@@ -69,6 +81,10 @@
 
 > لازم به ذکر است ارسال پیام‌ها از خطوط انتخاب شده در بخش [خطوط پیش فرض](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Default-lines/Default-lines.md) ارسال خواهد شد .
 
+![IMG-0045](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/2.6.0/SystemMessagesManagement3.webp>)
+
+![IMG-0046](</kb-assets/kb-images/Help/Basic-Information/Manage-system-messages/2.6.0/SystemMessagesManagement4.webp>)
+
 **1.** هر کاربر هنگام دریافت پیام های سیستمی، به تعداد پیام های خوانده نشده عددی را در کنار آیکون زنگوله در صفحه بالای نرم افزار مشاهده می نماید. با کلیک بروی آیکون مورد نظر صفحه ای نمایش داده می شود و می توانید متن کامل پیام ها را مشاهده نمایید .
 
 **2. حذف کردن:** می توانید تمامی پیام های سیستمی انتخاب شده را حذف کنید.
@@ -77,6 +93,8 @@
 `مسیر سند: Help/Basic-Information/Product-management/AddingProduct_2.8.6.md` · `نسخه سند: 2.8.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Product-management/AddingProduct_2.8.6.md)
 
 برای اینکه کاربران بتوانند از عناوین محصولات و خدمات در لیست محصولات، اقلام فرصت و اقلام انواع فاکتور استفاده نمایند، لازم است که این محصولات/خدمات و همچنین مشخصات آن‌ها پیش‌تر در نرم‌افزار تعریف شده‌باشد. برای ایجاد محصول/خدمت جدید در لیست محصولات خود، کافیست که وارد صحفه مدیریت محصولات شوید و بر روی کلید افزودن کلیک کنید. در صفحه‌ی نمایش داده شده می‌توانید مشخصات محصصول/خدمت مورد نظر را تعریف کنید. در ادامه‌ی مطلب، به جزئیات و مشخصات مورد نیاز برای ایجاد محصول می‌پردازیم.
+
+![IMG-0054: مشخصات محصول](</kb-assets/kb-images/Help/Basic-Information/Product-management/Image/Product-specifications-2.8.6.webp>)
 
 **1. گروه:** ابتدا گروهی که کالا یا خدمت مورد نظر باید در آن قرار بگیرد را مشخص کنید. چنانچه گروهی دارای زیرگروه باشد، باید آخرین زیرلایه را برای ثبت محصول/خدمت انتخاب نمایید.
 
@@ -167,6 +185,8 @@
 
 از این محصولات در هنگام صدور پیش فاکتور و فاکتور، ذخیره کردن یک فرصت فروش و یا صدور رسید و حواله انبار استفاده می‌شود.
 
+![IMG-0055](</kb-assets/kb-images/Help/Basic-Information/Product-management/ProductList1.webp>)
+
 **1. لیست دسته بندی‌ها:** لیست دسته بندی محصولات را نمایش می‌دهد.
 
 **2. فیلتر:** در این قسمت می‌توانید فیلترهای مختلفی از قبیل نام و کد محصول و اینکه آیا محصولات به نقطه سفارش خود رسیده اند یا خیر، برای یافتن محصولات مورد نظر خود اعمال کنید.
@@ -176,6 +196,8 @@
 **4. فرستادن به اکسل:** نرم افزار جزئیات اطلاعات محصولاتی که مشاهده می‌کنید را در قالب یک فایل اکسل در اختیار شما قرار می‌دهد.
 
 **5. مدیریت گروه‌ها:** در این قسمت می‌توانید دسته بندی محصولات خود را ایجاد، ویرایش و یا حذف کنید.
+
+![IMG-0056](</kb-assets/kb-images/Help/Basic-Information/Product-management/ProduceManagement.webp>)
 
 **A. ایجاد گروه:**می‌توانید در هر قسمت گروه جدیدی برای محصولات اضافه کنید.
 
@@ -217,6 +239,8 @@
 `مسیر سند: Help/Basic-Information/Product-management/Add-product/Add-product.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Product-management/Add-product/Add-product.md)
 
 پنجره ای نمایش داده می‌شود که می‌توانید محصول جدیدی به لیست محصولات اضافه نمایید .
+
+![IMG-0057: افزودن محصول](</kb-assets/kb-images/Help/Basic-Information/Product-management/Add-product/product1.webp>)
 
 **1. گروه:** ابتدا گروهی که کالای مورد نظر که می‌خواهید محصول  در آن اضافه شود را انتخاب کنید.
 
@@ -298,6 +322,8 @@
 
 در این صفحه می توانید امتیاز محصول در پایه امتیاز های مختلف را تعیین نمایید.
 
+![IMG-0060](</kb-assets/kb-images/Help/Basic-Information/Product-management/Score-settings/PointAssignment.webp>)
+
 **1. نوع پروفایل:** نوع پروفایلی که میخواهید این امتیاز به آن  تعلق گیرد را تعیین کنید.
 
 **2. نوع فعالیت:** فعالیتی که میخواهید با آن این امتیاز محاسبه شود را تعیین نمایید. (برای مثال فعال سازی سریال محصول به این معنی است که هر بار که سریال این محصول از طریق پیامک برای یک مشتری فعال شود(اصالت کالا)، نرم افزار امتیاز تعیین شده در این قسمت را به حساب او اضافه خواهد کرد.)
@@ -327,6 +353,8 @@
 - در صورت استفاده از اکسل نمونه‌ی موجود در سایت،‌ فرمت و کامنت‌های آن را حذف نمایید. بدین منظور جدول را نتخاب کرده و از Clear Comment و Clear Format استفاده نمایید.
 - برای محصولات و خدمات هر دسته‌بندی، اکسل جداگانه‌ای تهیه کنید. به عنوان مثال اگر دو دسته‌بندی «قطعات» و «ابزار» در قسمت مدیریت محصولات ایجاد کرده‌اید، برای بارگذاری اقلامی که می‌خواهید در دسته‌بندی قطعات قرار بگیرند یک فایل اکسل و برای اقلام دسته‌بندی ابزارها یک فایل اکسل دیگر تهیه نمایید.
 - در تهیه اکسل توجه داشته‌باشید که تمامی اطلاعات در یک Sheet قرار گیرد. در غیر این صورت بارگذاری اکسل با موفقیت انجام نخواهدشد.
+
+![IMG-0064: نمونه فایل اکسل نمونه محصولات](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-excel-sample-2.8.4.webp>)
 
 تصویر فوق،‌ ستون‌های مورد نیاز برای بارگذاری محصولات و خدمات را بر اساس فیلدهای پیش‌فرض نرم‌افزار نشان می‌دهد. برای تکمیل اطلاعات مربوط به این فیلدها، به راهنمایی‌های زیر توجه داشته‌باشید:
 
@@ -368,6 +396,8 @@
 ##### انتخاب فایل اکسل
 برای بارگذاری فایل اکسل از مسیر  **اطلاعات پایه** > **مدیریت محصولات** وارد صفحه مدیریت محصولات شوید و از بین دسته‌بندی‌های موجود، دسته‌بندی مورد نظر برای ثبت محصولات یا خدمات را انتخاب کنید. سپس بر روی کلید «دریافت اطلاعات» کلیک کنید تا صفحه بارگذاری به شما نمایش داده‌شود.
 
+![IMG-0065: بارگذاری فایل اکسل نمونه محصولات](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-excel-setting-2.8.4.webp>)
+
  با ورود به صفحه بارگذاری، باید تنظیمات مورد نیاز برای بارگذاری اکسل را بر اساس راهنمایی‌‌های زیر تکمیل نمایید:
 
  - **1. فایل اکسل:** فایلی که در قسمت قبلی تهیه کردید را در این قسمت بارگذاری کنید.
@@ -386,6 +416,8 @@
 
 #### تعریف ارتباط ستون‌ها
 در این گام باید ستون‌هایی که در اکسل خود تعریف کرده‌اید را با عناوینی که در نرم‌افزار پیام‌گستر برای تعریف محصول وجود دارد، نگاشت کنید. در واقع مشخص می‌کنید که اطلاعات هر فیلد، بر اساس کدام ستون اکسل درج شود.
+
+![IMG-0066: نگاشت محصولات](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-excel-sync-2.8.4.webp>)
 
 **1. نگاشت خودکار ستون های هم نام:** نرم‌افزار به صورت خودکار ستون‌هایی که با عناوین فیلدهای نرم‌افزار یکسان باشد را کنار هم قرار می‌دهد. برای اینکه نگاشت خودکار انجام شود، بر روی کلید «نگشات خودکار ستون‌های هم نام» کلیک کنید.
 
@@ -428,6 +460,8 @@
 - برای محصولات و خدمات هر دسته‌بندی، اکسل جداگانه‌ای تهیه کنید. به عنوان مثال اگر دو دسته‌بندی «قطعات» و «ابزار» در قسمت مدیریت محصولات ایجاد کرده‌اید، برای بارگذاری اقلامی که می‌خواهید در دسته‌بندی قطعات قرار بگیرند یک فایل اکسل و برای اقلام دسته‌بندی ابزارها یک فایل اکسل دیگر تهیه نمایید.
 - در تهیه اکسل توجه داشته‌باشید که تمامی اطلاعات در یک Sheet قرار گیرد. در غیر این صورت بارگذاری اکسل با موفقیت انجام نخواهدشد.
 
+![IMG-0067: اکسل نمونه محصولات](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-excel-sample-2.8.6.webp>)
+
 تصویر فوق،‌ ستون‌های مورد نیاز برای بارگذاری محصولات و خدمات را بر اساس فیلدهای پیش‌فرض نرم‌افزار نشان می‌دهد. برای تکمیل اطلاعات مربوط به این فیلدها، به راهنمایی‌های زیر توجه داشته‌باشید:
 
 - **نام‌:** نام محصول یا خدمت مورد نظر را در این قسمت وارد کنید.
@@ -464,11 +498,15 @@
 
 علاوه بر فیلدهای فوق، شما می‌توانید ویژگی‌های محصولات/خدمات را نیز از طریق اکسل وارد نمایید. نام ویژگی‌های مورد نظر را به ستون‌های اکسل خود اضافه کنید و سپس مقدار آن را برای هر محصول وارد نمایید. توجه داشته باشید که اگر مقدار یک ویژگی در ردیف یک محصول خالی باشد، آن ویژگی برای محصول مورد نظر درج نمی‌شود.
 
+![IMG-0068: ویژگی محصول در اکسل](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-specifications-in-excel-2.8.6.webp>)
+
 #### مراحل بارگذاری فایل اکسل{#ProductsExcelUpload}
 بارگذاری اکسل محصولات در پیام‌گستر، دو گام اصلی دارد:
 
 ##### گام اول: انتخاب فایل اکسل
 برای بارگذاری فایل اکسل از مسیر **اطلاعات پایه** > **مدیریت محصولات** وارد صفحه مدیریت محصولات شوید و از بین دسته‌بندی‌های موجود، دسته‌بندی مورد نظر برای ثبت محصولات یا خدمات را انتخاب کنید. سپس بر روی کلید «دریافت اطلاعات» کلیک کنید تا صفحه بارگذاری به شما نمایش داده‌شود.
+
+![IMG-0069: بارگذاری فایل اکسل نمونه محصولات](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-excel-setting-2.8.6.webp>)
 
 با ورود به صفحه بارگذاری، باید تنظیمات مورد نیاز برای بارگذاری اکسل را بر اساس راهنمایی‌‌های زیر تکمیل نمایید:
 
@@ -488,6 +526,8 @@
 
 #### گام دوم: تعریف ارتباط ستون‌ها
 در این گام باید ستون‌هایی که در اکسل خود تعریف کرده‌اید را با عناوینی که در نرم‌افزار پیام‌گستر برای تعریف محصول وجود دارد، نگاشت کنید. در واقع مشخص می‌کنید که اطلاعات هر فیلد، بر اساس کدام ستون اکسل درج شود.
+
+![IMG-0070: نگاشت محصولات](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/Images/products-excel-sync-2.8.6.webp>)
 
 **1. نگاشت خودکار ستون های هم نام:** نرم‌افزار به صورت خودکار ستون‌هایی که با عناوین فیلدهای نرم‌افزار یکسان باشد را کنار هم قرار می‌دهد. برای اینکه نگاشت خودکار انجام شود، بر روی کلید «نگشات خودکار ستون‌های هم نام» کلیک کنید.
 
@@ -534,6 +574,8 @@
 
 #### A.گام اول:
 
+![IMG-0071](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/ProductMngExcel1.webp>)
+
 **1. فایل اکسل:** فایلی که حاضر کرده اید را با استفاده از این دکمه انتخاب و بارگزاری کنید.
 
 **2. رسید انبار:** در صورتی که از انبارداری پیشرفته استفاده می کنید، باید نام انیار و نوع رسید انبار برای ورود محصولات به انبار  را انتخاب کنید. با انجام این کار پس از ورود محصولات، سیستم به صورت خودکار در انبار مشخص شده یک رسید ثبت خواهد کرد. تعداد هر محصول (موجودی انبار)  را می توانید با یک ستون به نام تعداد در فایل اکسل تعریف کنید.
@@ -552,6 +594,8 @@
 
 در این گام باید ستون هایی که در اکسل خود دارید را با عناوینی که در نرم افزار پیام گستر موجود است، نگاشت کنید.
 
+![IMG-0072](</kb-assets/kb-images/Help/Basic-Information/Product-management/receiving-information/ProductMngExcel2.webp>)
+
 **1. نگاشت خودکار ستون های هم نام:** نرم افزار به صورت خودکار ستون هایی که با عناوین نرم افزار یکسان باشد را کنار هم قرار می دهد.
 
 **2. انتخاب نگاشت:** اگر قبلا نگاشتی را ذخیره کرده باشید از این لیست میتوانید آن را انتخاب کنید.
@@ -569,6 +613,8 @@
 
 در صورتی که ماژول انبارداری پیشرفته فعال نشده باشد و نوع انبارداری کالاها بر حسب تعداد قرار گرفته باشد، می توانید از این قسمت برای ثبت ورود و خروج کالاها استفاده کنید.
 
+![IMG-0061](</kb-assets/kb-images/Help/Basic-Information/Product-management/number-warehouses/ProduceManagement55.webp>)
+
 > نکته: برای تغییر نوع انبارداری به قسمت [انبارداری ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/inventory/inventory.md) در تنظیمات کلی مراجعه کنید.
 
 موجودی کالاها در این حالت توسط فاکتورهای فروش و خرید تایید شده و نیز ورود و خروج کالاها که در این قسمت ثبت می شود، تعیین می گردد.
@@ -577,9 +623,13 @@
 
 بعد از اضافه کردن یک محصول در صورتی که محصول دارای انبارداری است می توانید از انبارداری محصول برای ثبت تعداد محصول و تاریخ ورود محصول به انبار استفاده نمایید.
 
+![IMG-0062](</kb-assets/kb-images/Help/Basic-Information/Product-management/number-warehouses/1.webp>)
+
 با کلیک بر روی اضافه نمودن، می توانید محصول را از انبار خارج و یا به انبار وارد نمایید
 
 > نکته:  در هر بار فروش محصول به تعداد فروش از انبار کسر می شود .
+
+![IMG-0063](</kb-assets/kb-images/Help/Basic-Information/Product-management/number-warehouses/ProduceManagement6.webp>)
 
 **1. نوع:** نوع انبارداری می تواند ورود یا خروج محصول باشد.
 
@@ -610,6 +660,8 @@
 
 در بخش ارسال محصول با استفاده از گروه محصول، کاربر امکان انتخاب یکی از گزینه‌های زیر را به منظور ارسال محصولات به فروشگاه آنلاین خواهد داشت
 
+![IMG-0058](</kb-assets/kb-images/Help/Basic-Information/Product-management/Online-shop/SendToOnlineShop.webp>)
+
 **1. همه:** ارسال همه گروه‌های   محصول به فروشگاه آنلاین
 
 **2. ارسال نشده‌ها:** ارسال گروه محصولاتی که تا به حال به فروشگاه آنلاین ارسال نشده اند.
@@ -631,6 +683,8 @@
 #### نام محصول
 
 در بخش ارسال محصول با استفاده از نام محصول، کاربر کلیه محصولات را در اختیار داشته و برای انتخاب محصولات مورد نظر برای ارسال به فروشگاه آنلاین می‌تواند به یکی از شیوه‌های زیر عمل کند.
+
+![IMG-0059](</kb-assets/kb-images/Help/Basic-Information/Product-management/Online-shop/SendToOnlineShop1.webp>)
 
 **1.** این قسمت برای انتخاب محصولات به صورت دستی برای ارسال به لیست محصولات انتخاب شده استفاده می‌شود.
 
@@ -663,6 +717,8 @@
 
 عنوان این آیتم ها در نرم افزار پیش فرض است و قابل اضافه کردن نیست. برای اضافه کردن آیتم دلخواه در صفحه مدیریت اطلاعات هویت ها به قسمت[ شخصی سازی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/Add-features/Add-features.md) هویت مراجعه کنید.
 
+![IMG-0048](</kb-assets/kb-images/Help/Basic-Information/Management-of-system-items/ItemsManagement.webp>)
+
 ## مدیریت اعیاد و مناسبت‌ها
 `مسیر سند: Help/Basic-Information/Holiday-management-and-occasions/Holiday-management-and-occasions.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Holiday-management-and-occasions/Holiday-management-and-occasions.md)
 
@@ -670,9 +726,15 @@
 
 همچنین مناسبت های تعریف شده در این قسمت، در تقویم کاری تحت عنوان تقویم مناسبت ها نمایش داده خواهند شد.
 
+![IMG-0033](</kb-assets/kb-images/Help/Basic-Information/Holiday-management-and-occasions/holidays1.webp>)
+
 برای تعریف یک مناسبت جدید یا تنظیم پیام برای مناسبت ها طبق زیر عمل کنید.
 
+![IMG-0034](</kb-assets/kb-images/Help/Basic-Information/Holiday-management-and-occasions/holidays2.webp>)
+
 **1**. با کلیک بر روی دکمه اضافه کردن می توانید یک مناسبت جدید تعریف نمایید. همانطور که مشاهده می کنید امکان ویرایش و حذف مناسبت ها نیز وجود دارد.
+
+![IMG-0035](</kb-assets/kb-images/Help/Basic-Information/Holiday-management-and-occasions/holidays3.webp>)
 
 **A**. عنوان مناسبت را وارد کنید.
 
@@ -699,6 +761,8 @@
 
 > نکته: برای حذف نشانی از لیست،به دلیل این که ممکن است نشانی استفاده شده باشد،  لازم است که آدرس دیگری به صورت جایگزین آدرسی که قصد حذف آن را دارید انتخاب کنید.
 
+![IMG-0019](</kb-assets/kb-images/Help/Basic-Information/Address-management/AddressManagment.webp>)
+
 نشانی هایی که در این قسمت ایجاد می شوند برای وارد کردن اطلاعات ارتباطی هویت ها مورد استفاده قرار می گیرند.
 
 ## مدیریت رنگ‌ها
@@ -708,11 +772,17 @@
 
 توجه کنید که از این رنگ ها در رنگ بندی تقویم ها، هویت ها، اقدام های فرآیندهای کاری و ... استفاده می شود.
 
+![IMG-0024](</kb-assets/kb-images/Help/Basic-Information/Color-management/Colormanagement1.webp>)
+
 #### رنگ جدید:
+
+![IMG-0025](</kb-assets/kb-images/Help/Basic-Information/Color-management/Colormanagement2.webp>)
 
 **1. عنوان:** نام رنگ مورد نظر را انتخاب کنید.
 
 **2. توضیحات:** توضیحات رنگ را بنویسید. در واقع با استفاده از توضیحات، معنی این رنگ را مشخص می کنید، زیرا این توضیحات به صورت متن راهنما به کاربران نمایش داده می شود.
+
+![IMG-0026](</kb-assets/kb-images/Help/Basic-Information/Color-management/Colormanagement3.webp>)
 
 **3. انتخاب رنگ:**  میتوانید که نام رنگ یا انتخاب رنگ یا کد رنگ را برای تعیین آن استفاده کنید
 
@@ -721,11 +791,17 @@
 
 در این بخش می توان با توجه به نیازی که در ارسال و یا چاپ متن ها و قالب های مختلف وجود دارد، قالب های پیش فرضی (Template) را برای استفاده توسط کاربران نرم افزار تنظیم نمایید. ( برای مثال آدرس و اطلاعات ارتباطی شرکت شما، نامه ها و قراردادهایی که به صورت مکرر از طریق فکس و یا چاپ ارسال می شوند.)
 
+![IMG-0049](</kb-assets/kb-images/Help/Basic-Information/Model-message-management/SMSFrameManagement1.webp>)
+
 **1. رسانه:** می توانید دسته بندی رسانه ای را انتخاب کنید. (برای مثال دسته بندی پیامک ها)
 
 **2. افزودن:** اولین مرحله برای ساخت قالب کلیک بر روی دکمه اضافه کردن دسته بندی جدید است. با زدن این دکمه صفحه ای نمایش داده می شود. در این صفحه ابتدا نامی را برای این دسته بندی انتخاب می نمایید و سپس مشخص می نمایید که این قالب در کدام یک از ابزارهای تبلیغات مورد استفاده قرار می گیرد
 
+![IMG-0050](</kb-assets/kb-images/Help/Basic-Information/Model-message-management/SMSFrameManagement2.webp>)
+
 **3**. با قرار گرفتن روی نام هر قالب، در سمت راست صفحه در قسمت قالب ها با کلیک بر روی دکمه اضافه کردن، می توانید قالب های مورد نیاز خود را برای آن دسته بندی خاص بسازید. در صفحه ای که نمایش داده می شود با انتخاب نام قالب و دسته بندی قالب، چنانچه دسته ای که انتخاب کرده باشید برای ابزار پیام کوتاه مورد استفاده قرار گیرد فقط می تواند به صورت متن ساده تنظیم شود. در حالت کلی متن قالب بسته به نوع رسانه می تواند به صورت فایل  Word، HTML و متن ساده ذخیره شود.
+
+![IMG-0051](</kb-assets/kb-images/Help/Basic-Information/Model-message-management/SMSFrameManagement3.webp>)
 
 برای آشنایی با نحوه استفاده از متن هوشمند به متن هوشمند مراجعه کنید.
 
@@ -735,7 +811,11 @@
 
 با استفاده از علامت پوشه در ارسال انواع رسانه ها می توان قالب های پیشفرض طراحی شده در این قسمت را بازخوانی کرد.
 
+![IMG-0052](</kb-assets/kb-images/Help/Basic-Information/Model-message-management/SMSFrameManagement4.webp>)
+
 برای انتخاب قالب می توانید از دو گزینه مختلف اقدام کنید.
+
+![IMG-0053: 1](</kb-assets/kb-images/Help/Basic-Information/Model-message-management/SMSFrameManagement5.webp>)
 
 **1. انتخاب قالب:** می توانید قالب هایی که در این قسمت تهیه کرده اید را با توجه به رسانه مورد نظر انتخاب کنید. با دوبار کلیک کردن بر روی هر کدام از قالب ها، به صورت خودکار آن قالب را می توانید در محتوای ارسال پیام درج کنید.
 
@@ -765,6 +845,8 @@
 
 4- **شماره داخلی** را وارد و **کاربر متناظر** با آن را انتخاب نمایید.
 
+![IMG-0079](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/telephone-systems-Management/Phonesystemsmanagement2.webp>)
+
 از این داخلی‌ها درلیست تماس‌های نرم‌افزار استفاده می‌شود. همچنین در گزارشات و تنظیمات [محدودیت‌های مشاهده تماس‌های ورودی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/calls/calls.md)، بر روی این داخلی‌های تعریف شده لحاظ خواهد شد.
 
 ## تعریف خطوط تلفنی جدید
@@ -778,10 +860,14 @@
 
 4- **شماره تلفن** مورد نظر خود را وارد و ذخیره نمایید.
 
+![IMG-0080](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/telephone-systems-Management/Phonesystemsmanagement6.webp>)
+
 ## تعریف سیستم تلفنی جدید
 `مسیر سند: Help/Basic-Information/Telephone-systems/telephone-systems-Management/add-systemtelephony.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Telephone-systems/telephone-systems-Management/add-systemtelephony.md)
 
 در صفحه باز شده، ابتدا شعبه مورد نظر خود را انتخاب کنید و در قسمت "سیستم‌های تلفنی" بر روی **افزودن** کلیک کنید.
+
+![IMG-0081](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/telephone-systems-Management/Phonesystemsmanagement4.webp>)
 
 **A. نام:** نام سیستم تلفنی را درج نمایید.
 
@@ -797,6 +883,8 @@
 `مسیر سند: Help/Basic-Information/Telephone-systems/telephone-systems-Management/telephone-systems-Management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Telephone-systems/telephone-systems-Management/telephone-systems-Management.md)
 
 در این قسمت تنظیمات مرتبط با سیستم های تلفنی انجام می شود. توجه داشته باشید که پس از تعیین شعبه می توانید ،  سیستم های تلفنی را اضافه نمایید و سپس خطوط تلفنی و داخلی های متناظر با کاربران را برای آن ها تعریف نمایید.
+
+![IMG-0082](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/telephone-systems-Management/Phonesystemsmanagement5.webp>)
 
 **1. انتخاب شعبه:** ابتدا شعبه ای را که می خواهید سیستم های تلفنی را برای آن تنظیم نمایید، باید انتخاب شود. این شعب از قسمت مدیریت[ شعب، دپارتمان ها و سمت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md)ایجاد می شوند.
 
@@ -825,6 +913,8 @@
 
 برای مثال می توانید تعیین کنید که برای 50 درصد تماس های دریافتی واحد فروش یک پیام تشکر ارسال شود. یا برای 100 درصد تماس های یک داخلی خاص، فرمی ایجاد شود و تحت فرآیند رسیدگی از طریق آن فرم قرار بگیرد
 
+![IMG-0075](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/Call-reminder-settings/Callsnotificationsettings.webp>)
+
 **1. نوع تماس:** گزارش از اطلاعات تماس تکراری  برای فیلتر یادآوری های تماس ها بر اساس نوع تماس (ورودی، خروجی و از دست رفته) از این فیلد استفاده نمایید.
 
 **2. نوع رویداد تماس:** برای فیلتر بر اساس نوع رویداد تماس (هنگام شروع یا خاتمه تماس) از این فیلد برای فیلتر لیست استفاده نمایید.
@@ -838,6 +928,8 @@
 
 برای افزودن یک رویداد جدید طبق مراحل زیر می توانید اقدام نمایید.
 برای دسترسی به تنظیمات یادآوری تماس، از مسیر **اطلاعات پایه** > **سیستم‌های تلفنی** > **تنظیمات یادآوری تماس‌ها** وارد صفحه لیست تنظیمات شوید و با کلیک بر روی کلید افزودن، یک صفحه جدید برای تعریف تنظیمات باز کنید. در این صفحه در بخش فیلترها، مشخص کنید که می‌خواهید برنامه یادآوری برای چه نوع تماس‌هایی اعمال شود. سپس در بخش عملیات، اقدام مورد نظر برای اجرا را مشخص و تنظیمات لازم آن را اعمال نمایید. در ادامه‌، به معرفی هر یک از تنظیمات این بخش‌ها می‌پردازیم.
+
+![IMG-0076: تنظیم زمان یادآوری تماس](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/Call-reminder-settings/Image/Call-reminder-time-setting-2.8.5.webp>)
 
 #### تنظیم عنوان
 با توجه به اینکه شما ممکن است برای یادآوری تماس‌های خود برنامه‌های مختلفی تنظیم کنید، لازم است که برای هر برنامه عنوانی در بگیرید.
@@ -870,6 +962,8 @@
 #### تنظیم عملیات{#CallReminderAction}
 حال که شرایط و زمان اجرای برنامه را مشخص کردید، وقت آن است که بگویید هنگام برقراری شرط‌های فوق، چه عملیاتی اجرا شود. شما می‌توانید از بین ایجاد فرم، ارسال پیام کوتاه، ارسال ایمیل، ارسال فکس و یا ارسال پیام در شبکه‌های اجتماعی یک یا چند اقدام را برای اجرا انتخاب نمایید.
 
+![IMG-0077: تنظیم عملیات یادآوری تماس](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/Call-reminder-settings/Image/Call-reminder-action-setting-2.8.5.webp>)
+
 9. با فعال کردن گزینه‌ی فرم جدید، هنگام برقراری تماس با شرایطی که در بخش فیلترها مشخص کرده‌اید یک فرم جدید در نرم‌افزار ثبت می‌شود. در صورت انتخاب این عملیات، از لیست کناری فرمی که قصد دارید در این برنامه ایجاد شود را مشخص نمایید (این فرم را باید پیش‌تر در بخش شخصی‌سازی ایجاد کرده‌باشید). فرم مذکور مرتبط با هویت تماس‌گیرنده/شخصی که با او تماس گرفته شده در سامانه ثبت می‌شود. لازم به ذکر است که از آنجا که فرم به صورت خودکار توسط نرم‌افزار ثبت می‌شود، ایجادکننده‌ی آن سیستم در نظر گرفته می‌شود. لکن با فعال‌سازی گزینه‌ی «ایجاد فرم برای هر داخلی پاسخگو» می‌توانید کاربر داخلی‌ای که تماس با وی برقرار شده (تماس دریافتی/خروجی/از دست رفته)،‌ به عنوان ایجاد‌کننده‌ی فرم در نظر گرفته‌شود. این موضوع می‌تواند در پیاده‌سازی فرآیند، تهیه گزارش و یا فیلتر فرم‌ها برای شما کاربردهای فراوانی داشته‌باشد.
 
 10. با فعال‌سازی گزینه‌ی ارسال پیام کوتاه، هنگام برقراری تماس با شرایطی که در بخش فیلترها مشخص کرده‌اید یک پیامک برای هویت مرتبط (شخص تماس‌گیرنده یا کسی که کاربران شما با وی تماس گرفته‌اند) ارسال می‌شود. بدین منظور کافیست که گزینه‌ی «ارسال پیام کوتاه» را فعال و متن پیام خود را در قسمت مربوطه تنظیم نمایید. برای شخصی‌سازی پیام‌های خود از پارامترهای هوشمند نیز می‌توانید استفاده کنید. در صورت عدم آشنایی کافی با این پارامترها از [راهنمای استفاده از پارامترهای هوشمند](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/Parameters/MessageParameters.md) استفاده کنید. به خاطر داشته‌باشید که در صورت درج لینک در متن پیام خود، با فعال‌سازی گزینه‌ «کوتاه‌سازی لینک‌های متن» لینک‌ها را به صورت کوتاه شده برای مخاطبان خود ارسال نمایید.
@@ -884,6 +978,8 @@
 `مسیر سند: Help/Basic-Information/Telephone-systems/Call-reminder-settings/Add-contact-event/Add-contact-event.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Telephone-systems/Call-reminder-settings/Add-contact-event/Add-contact-event.md)
 
 برای افزودن یک رویداد  جدید طبق مراحل زیر می توانید اقدام نمایید.
+
+![IMG-0078](</kb-assets/kb-images/Help/Basic-Information/Telephone-systems/Call-reminder-settings/Add-contact-event/AddCallsnotificationsettings.webp>)
 
 **1**.	نام موردنظر را برای برنامه یادآوری خود تعریف کنید.
 
@@ -925,7 +1021,11 @@
 
 توجه داشته باشید که سمت های تعریف شده در این قسمت از طریق[ مدیریت حکم های پرسنل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personnel-command-management/Personnel-command-management.md)ی به کاربران متصل می گردد.
 
+![IMG-0083](</kb-assets/kb-images/Help/Basic-Information/branches-department/BranchManagement1.webp>)
+
 **1. اضافه:** با راست کلیک بر روی عبارت "لیست شعب" می توانید یک شعبه اضافه کنید.
+
+![IMG-0084](</kb-assets/kb-images/Help/Basic-Information/branches-department/BranchManagement3.webp>)
 
 **A. شعب:** در صورتی که این شعبه زیر مجموعه شعبه دیگری است نام آن را انتخاب کنید ( در غیر یان صورت می تواند این فیلد خالی باشد )
 
@@ -942,6 +1042,8 @@
 **2. دپارتمان‌ها و سمت‌ها:** با راست کلیک روی هر شعبه به شما دسترسی به دپارتمان ها و سمت های آن شعبه را می دهد. در واقع در این قسمت می توانید چارت سازمانی خود را طراحی کنید و دپارتمان ها و سطوح سمت سازمان خود را تعریف کنید. پس از تعریف سطوح سمت، با تخصیص آن ها به کاربران نرم افزار، هر کاربر می تواند بر اساس سمت های تخصیص داده شده  به خود، از طریق [گزارشات عملکردی ،](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Functional-reports/Functional-reports.md) عملکرد سمت های زیر مجموعه خود را بررسی کند.
 
 > نکته: توجه داشته باشید برای تعریف سطوح سمت، باید ماژول "حکم سازمانی" را تهیه کرده باشید، در غیر اینصورت تنها می توانید سمت های کارمند و مدیر را داشته باشید.
+
+![IMG-0085](</kb-assets/kb-images/Help/Basic-Information/branches-department/BranchManagement2.webp>)
 
 **A. نام شعبه:** نام شعبه ای که قصد تغییر دپارتمان ها و سمت های آن را دارید می توانید انتخاب کنید.
 
@@ -972,7 +1074,11 @@
 
 توجه داشته باشید که سمت‌های تعریف شده در این قسمت از طریق[ مدیریت حکم‌های پرسنل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.6.0.md)ی به کاربران متصل می‌گردد.
 
+![IMG-0086](</kb-assets/kb-images/Help/Basic-Information/branches-department/2.6.0/BranchManagement1.webp>)
+
 **1. اضافه:** با راست کلیک بر روی عبارت "لیست شعب" می‌توانید یک شعبه اضافه کنید.
+
+![IMG-0087](</kb-assets/kb-images/Help/Basic-Information/branches-department/2.6.0/BranchManagement3.webp>)
 
 **A . شعب:** در  صورتی که این شعبه زیر مجموعه شعبه دیگری است نام آن را انتخاب کنید
 
@@ -985,6 +1091,8 @@
 با راست کلیک روی هر شعبه :
 
 می‌توان آن شعبه را ویرایش و حذف نمود و همچنین امکان تعریف مجوز‌های مربوط به این شعبه وجود دارد
+
+![IMG-0088](</kb-assets/kb-images/Help/Basic-Information/branches-department/2.6.0/BranchManagement2.webp>)
 
 **2. دپارتمان‌ها و سمت‌ها:** با کلیک روی هر شعبه به شما دسترسی به دپارتمان‌ها و سمت‌های آن شعبه را می‌دهد. در واقع در این قسمت می‌توانید چارت سازمانی خود را طراحی کنید و دپارتمان‌ها و سطوح سمت سازمان خود را تعریف کنید، در نظر داشته باشید انتخاب دپارتمان در زمان تعریف سمت جدید الزامی‌می‌باشد. پس از تعریف سطوح سمت، با تخصیص آن‌ها به کاربران نرم افزار، هر کاربر می‌تواند بر اساس سمت‌های تخصیص داده شده  به خود، از طریق [گزارشات عملکردی ،](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Functional-reports/Functional-reports.md) عملکرد سمت‌های زیر مجموعه خود را بررسی کند.
 
@@ -1002,6 +1110,8 @@
 
 **F . اضافه:** می‌توانید یک دپارتمان جدید زیر مجموعه دپارتمان مورد نظر اضافه کنید .
 
+![IMG-0089](</kb-assets/kb-images/Help/Basic-Information/branches-department/2.6.0/BranchManagement4.webp>)
+
 **3.  مجوزها:** مجوزهای مرتبط با این شعبه را با استفاده از این گزینه می‌توانید مشخص کنید. در صورت تعیین مجوز برای یک شعبه، تمامی کاربرهایی که یک سمت فعال در یکی از دپارتمان‌های این شعبه داشته باشند، مجوز‌های تعیین شده را به ارث خواهند برد.
 
 > نکته مهم: توجه داشته باشید نحوه تاثیر مجوزهای تعیین شده برای شعبه، دپارتمان و سمت، مانند نحوه تاثیر مجوزهای تعیین شده برای گروه کاربران می‌باشد ، مجوزهای شخصی هر کاربر که در قسمت ویرایش مجوزها در مدیریت گروه‌ها و کاربران تعیین می‌شود به آن مجوز‌ها  اولویت دارد.
@@ -1017,12 +1127,18 @@
 
 برای اضافه کردن مورد جدید به هر کدام از ستون ها (کشور،شهر، استان) کافی است بر روی علامت + در بالای هر ستون کلیک کنید.
 
+![IMG-0047](</kb-assets/kb-images/Help/Basic-Information/Management-of-countries-provinces-and-cities/CitesManagement.webp>)
+
 ## مدیریت حساب‌های مالی
 `مسیر سند: Help/Basic-Information/Financial-account-management/Financial-account-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Financial-account-management/Financial-account-management.md)
 
 از این قسمت می توانید برای مدیریت حساب های مالی و مدیریت ثبت پرداخت مالی استفاده نمایید .
 
+![IMG-0027](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/FinantialAccountingManagement1.webp>)
+
 با کلیک برروی دکمه اضافه کردن، اطلاعات حساب های شرکت خود را می توانید ثبت نمایید. در ثبت دریافت/پرداخت در پروفایل هویت ها در قسمت واریز به/ برداشت از، این حساب ها نمایش داده می شود و شما می توانید از بین حساب ها، حساب مورد نظر را انتخاب نمایید .
+
+![IMG-0028](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/FinantialAccountingManagement2.webp>)
 
 **1.** با فعال کردن گزینه پرداخت آنلاین امکان ایجاد لینک پرداخت برای مخاطبان فراهم می شود ، برای استفاده از این قابلیت نیاز به ماژول پرداخت واسط می باشد و سپس با ثبت نام در پنل
 
@@ -1040,6 +1156,8 @@
 
  لینک پرداخت استفاده نمایید.
 
+![IMG-0029](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/FinantialAccountingManagement3.webp>)
+
 ## مدیریت حساب‌های مالی
 `مسیر سند: Help/Basic-Information/Financial-account-management/FinancialAccountsManagement-2.8.7.md` · `نسخه سند: 2.8.7` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Financial-account-management/FinancialAccountsManagement-2.8.7.md)
 
@@ -1051,7 +1169,11 @@
 
 - **بانک:** حساب‌های بانکی حساب‌های مالی هستند که با درج مشخصات بانکی حساب تعریف می‌شوند و در صورت صحت اطلاعات وارد شده، علاوه بر لیست حساب‌ها، می‌توانید از آن‌ها برای پرداخت آنلاین و لینک پرداخت استفاده نمایید.
 
+![IMG-0030: لیست حساب‌ها](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/finantial-accounts-list-2.8.7.webp>)
+
 در صورت نیاز به تعریف حساب جدید، بر روی کلید افزودن کلیک کرده و وارد صفحه حساب مالی جدید شوید.
+
+![IMG-0031: اطلاعات حساب مالی](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/new-bank-account-2.8.7.webp>)
 
 - **نام حساب:** برای حساب یک عنوان انتخاب کنید. سعی کنید عنوان حساب را به گونه‌ای انتخاب کنید که شناسایی آن برای کاربران آسان باشد.
 - **نوع حساب:** مشخص کنید  حساب مورد نظر از نوع «بانک» یا «صندوق» ایجاد شود.
@@ -1088,8 +1210,12 @@
 
 - **بانک:** حساب‌های بانکی حساب‌های مالی هستند که با درج مشخصات بانکی حساب تعریف می‌شوند و در صورت صحت اطلاعات وارد شده و اعمال تنظیمات، علاوه بر مشاهده در لیست حساب‌ها، می‌توانید از آن‌ها برای پرداخت آنلاین و لینک پرداخت استفاده نمایید.
 
+![IMG-0030: لیست حساب‌ها](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/finantial-accounts-list-2.8.7.webp>)
+
 #### افزودن حساب
 در صورت نیاز به تعریف حساب جدید، بر روی کلید افزودن کلیک کرده و وارد صفحه حساب مالی جدید شوید.
+
+![IMG-0032: اطلاعات حساب مالی](</kb-assets/kb-images/Help/Basic-Information/Financial-account-management/Images/new-bank-account-2.8.8.1.webp>)
 
 - **نام حساب:** برای حساب یک عنوان انتخاب کنید. سعی کنید عنوان حساب را به گونه‌ای انتخاب کنید که شناسایی آن برای کاربران آسان باشد.
 - **نوع حساب:** مشخص کنید  حساب مورد نظر از نوع «بانک» یا «صندوق» ایجاد شود.
@@ -1131,9 +1257,13 @@
 
 در این قسمت اتاق هایی که به عنوان محل ملاقات برای [قرار های ملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-appointment/new-appointment.md) در نظر گرفته می شوند را میتوانید ایجاد و مدیریت کنید.
 
+![IMG-0073](</kb-assets/kb-images/Help/Basic-Information/Room-management/Roomsmanagement1.webp>)
+
 **1. لیست اتاق‌ها:** لیست اتاق هایی که قبلا اضافه شده اند را میتوانید در این قسمت مشاهده کنید.
 
 **2 . اضافه کردن:** با استفاده از این گزینه می توانید یک اتاق جدید برای نرم افزار ایجاد کنید
+
+![IMG-0074](</kb-assets/kb-images/Help/Basic-Information/Room-management/Roomsmanagement2.webp>)
 
 ## مدیریت تقویم‌ها
 `مسیر سند: Help/Basic-Information/Calendar-management/Calendar-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Basic-Information/Calendar-management/Calendar-management.md)
@@ -1144,9 +1274,13 @@
 
 هنگام ثبت قرار ملاقات جدید می توانید تقویم مورد نظر خود را از لیست تقویم‌هایی که مجوز تنظیم قرارملاقات در آن‌ها را دارید، انتخاب نمایید .
 
+![IMG-0020](</kb-assets/kb-images/Help/Basic-Information/Calendar-management/CalanderManagement1.webp>)
+
 **1**. در این قسمت لیست تقویم‌های تعریف شده در نرم افزار را مشاهده می‌نمایید و می‌توانید هر تقویم را ویرایش و یا حذف کنید.
 
 **2**. برای ساختن تقویم جدید بر روی دکمه اضافه کردن کلیک نمایید. در پنجره نمایش داده شده، نام تقویم و رنگ مورد نظر برای این تقویم را مشخص کرده و آن را ذخیره کنید.
+
+![IMG-0021](</kb-assets/kb-images/Help/Basic-Information/Calendar-management/CalanderManagement2.webp>)
 
 **3**. در این قسمت لیست کاربران و گروه‌های مجاز برای دسترسی به تقویم و نحوه دسترسی آن‌ها (خواندن یا خواندن و نوشتن) قابل مشاهده است. در صورت نیاز می‌توانید مجوزهای تعریف شده را حذف نمایید.
 
@@ -1165,9 +1299,13 @@
 
 هنگام ثبت قرار ملاقات جدید می‌توانید تقویم مورد نظر خود را از لیست تقویم‌هایی که مجوز تنظیم قرارملاقات در آن‌ها را دارید، انتخاب نمایید .
 
+![IMG-0022](</kb-assets/kb-images/Help/Basic-Information/Calendar-management/2.6.0/CalanderManagement1.webp>)
+
 **1**. در این قسمت لیست تقویم‌های تعریف شده در نرم افزار را مشاهده می‌نمایید و می‌توانید هر تقویم را ویرایش و یا حذف کنید.
 
 **2**. برای ساختن تقویم جدید بر روی دکمه اضافه کردن کلیک نمایید. در پنجره نمایش داده شده، نام تقویم و رنگ مورد نظر برای این تقویم را مشخص کرده و آن را ذخیره کنید.
+
+![IMG-0023](</kb-assets/kb-images/Help/Basic-Information/Calendar-management/2.6.0/CalanderManagement2.webp>)
 
 **3**. در این قسمت لیست کاربران، گروه‌ها، سمت‌ها و دپارتمان‌های مجاز برای دسترسی به تقویم و نحوه دسترسی آن‌ها (خواندن یا خواندن و نوشتن) قابل مشاهده است. در صورت نیاز می توانید مجوزهای تعریف شده را حذف نمایید.
 
@@ -1187,7 +1325,11 @@
 
 در این قسمت لیست زبان های تعریف شده در سیستم نمایش داده می شود. می توانید هر کدام از زبان ها را حذف کنید (به جز فارسی). همچنین می توانید زبان جدیدی برای سیستم تعریف کرده یا عبارت های هرکدام از زبان ها را از طریق فایل اکسل ویرایش کنید.
 
+![IMG-0037](</kb-assets/kb-images/Help/Basic-Information/Language-management/System-language/SystemLanguage1.webp>)
+
 **1. افزودن زبان جدید:** با کلیک بر روی این دکمه می توانید یک زبان جدید برای سیستم تعریف کنید، توجه داشته باشید در صورت تعریف زبان جدید باید معادل همه عبارت های موجود در نرم افزار را برای آن زبان در فایل اکسل زبان ها وارد نمایید، در غیر اینصورت کلید متناظر با هر عبارت برای آن زبان در نرم افزار نمایش داده خواهد شد.
+
+![IMG-0038](</kb-assets/kb-images/Help/Basic-Information/Language-management/System-language/SystemLanguage2.webp>)
 
 نام زبان، یک کلید دلخواه، فرهنگ و نوع تاریخ متناظر با این زبان را مشخص کرده و تغییرات را ذخیره نمایید
 
@@ -1203,3 +1345,5 @@
 در این قسمت می توانید با استفاده از فیلتر جستجو، کلید متناظر با هریک از عبارت ها را وارد کرده و به راحتی عنوان متناظر با آن کلید را برای هریک از زبان ها ویرایش کنید. برای اطلاع از کلید هریک از عبارت ها می توانید در[ قسمت زبان سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Language-management/System-language/System-language.md) ، فایل اکسل زبان ها را دانلود کنید.
 
 توجه داشته باشید نیازی به وارد کردن کلید به صورت کامل نیست و در صورتی که قسمتی از کلید را نیز در این قسمت وارد کنید، می توانید در نتایج جستجو، عبارت مورد نظر خود را بیابید.
+
+![IMG-0036](</kb-assets/kb-images/Help/Basic-Information/Language-management/Edit-phrases/PhraseEdition.webp>)

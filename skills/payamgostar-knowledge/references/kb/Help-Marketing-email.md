@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-email
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## پروتکل‌های قابل پشتیبانی ایمیل
 `مسیر سند: Help/Marketing/email/email-support.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/email-support.md)
@@ -42,6 +42,8 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 > نکته: کاربر برای استفاده از برنامه های تبلیغاتی مربوط به ایمیل نیاز به مجوز ارسال ایمیل دارد .
 
+![IMG-0771](</kb-assets/kb-images/Help/Marketing/email/advertising-mail.webp>)
+
 [اپراتور ارسال](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/email/Send-operators/Send-operators.md)
 
 [فرستنده ایمیل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/email/Email-sender/Email-sender.md)
@@ -65,7 +67,11 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 در صفحه‌ی اصلی هویت‌ها امکان ارسال ایمیل وجود دارد.
 
+![IMG-0772](</kb-assets/kb-images/Help/Marketing/email/ersal-email.jpg.webp>)
+
 با استفاده از این بخش، صفحه‌ی ارسال ایمیل در دسترس قرار می‌گیرد و همچنین امکان پیوست فایل برای ارسال در این بخش وجود دارد.
+
+![IMG-0773](</kb-assets/kb-images/Help/Marketing/email/ersal-email2.jpg.webp>)
 
 ## خبرنامه
 `مسیر سند: Help/Marketing/email/Newsletters-email/Newsletters-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Newsletters-email/Newsletters-email.md)
@@ -82,12 +88,16 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 گام 3-  انتخاب مخاطبان
 
+![IMG-0784](</kb-assets/kb-images/Help/Marketing/email/Newsletters-email/advertising-sendingnewsmail-home.webp>)
+
 ## گام 3 -  مدیریت مخاطبان خبرنامه ایمیل
 `مسیر سند: Help/Marketing/email/Newsletters-email/3-mokhatab-khabarname-email/3-mokhatab-khabarname-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Newsletters-email/3-mokhatab-khabarname-email/3-mokhatab-khabarname-email.md)
 
 برای اطلاعات بیشتر به انتخاب مخاطبان مراجعه نمایید.
 
 این مخاطبان باید شامل پروفایل هایی باشند که آدرس ایمیل در آن ها وجود داشته باشد .
+
+![IMG-0787](</kb-assets/kb-images/Help/Marketing/email/Newsletters-email/3-mokhatab-khabarname-email/advertising-sendingnewsmail-thirdstep.webp>)
 
 ## گام 1 -  اطلاعات پیام خبرنامه ایمیل
 `مسیر سند: Help/Marketing/email/Newsletters-email/1-avalie-khabarname-email/1-avalie-khabarname-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Newsletters-email/1-avalie-khabarname-email/1-avalie-khabarname-email.md)
@@ -96,15 +106,21 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 > نکته: تنها تفاوت موجود با پیام کوتاه در این است که در ایمیل امکان عضویت خودکار موجود نیست.
 
+![IMG-0785](</kb-assets/kb-images/Help/Marketing/email/Newsletters-email/1-avalie-khabarname-email/advertising-sendingnewsmail-firststep.webp>)
+
 ## گام 2 -  محتوای پیام خبرنامه ایمیل
 `مسیر سند: Help/Marketing/email/Newsletters-email/2-tanzimmatn-khabarname-email/2-tanzimmatn-khabarname-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Newsletters-email/2-tanzimmatn-khabarname-email/2-tanzimmatn-khabarname-email.md)
 
 برای اطلاعات بیشتر به [گام تنظیم متن](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/email/send-group-email/2-tanzim-matn-email/2-tanzim-matn-email.md) ارسال گروهی ایمیل مراجعه نمایید.
 
+![IMG-0786](</kb-assets/kb-images/Help/Marketing/email/Newsletters-email/2-tanzimmatn-khabarname-email/advertising-sendingnewsmail-secondstep.webp>)
+
 ## ارسال ایمیل از طریق ویجت دسترسی سریع
 `مسیر سند: Help/Marketing/email/Quick-access/2.6.0/Send-Mail.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Quick-access/2.6.0/Send-Mail.md)
 
 از طریق ویجت دسترسی سریع در صورت داشتن دسترسی به خطوط ایمیل می‌توانید از صفحه ارسال ایمیل، یک ایمیل جدید ارسال کنید.
+
+![IMG-0794](</kb-assets/kb-images/Help/Marketing/email/Quick-access/2.6.0/Send-Mail.webp>)
 
 **از:** در این قسمت می‌توانید از بین ایمیل‌های به اشتراک گذاشته شده برای شما، یک ایمیل را به عنوان فرستنده انتخاب نمایید.
 
@@ -125,7 +141,11 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 نکته جالب توجه در ارسال ایمیل ویژه، قراردادن لینک ویژه است. می توان در قسمت تنظیم متن لینکی قرارداد و با کلیک راست بر روی آن و انتخاب لینک ویژه، این لینک را قابل ردگیری کرد. به این شکل که اگر دریافت کننده ایمیل بر روی لینک کلیک نمایید در نمودار در ستون مخاطبان بازخورده نمایش داده می شود.
 
+![IMG-0798](</kb-assets/kb-images/Help/Marketing/email/Smart-email/11.webp>)
+
 **1**. با استفاده از این گزینه می توانید یک لینک به ایمیل خود اضافه کنید(مانند HTTP://PAYAMGOSTAR.COM)
+
+![IMG-0799](</kb-assets/kb-images/Help/Marketing/email/Smart-email/12.webp>)
 
 **2**. با راست کلیک بر روی یک لینک می توانید آن را به صورت ویژه تعیین کنید. در گزارشات مربوط به این ارسال تعداد مخاطبانی که بر روی این لینک کلیک کرده اند را نیز می توان مشاهده کرد.
 
@@ -152,6 +172,8 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 گام 4-  انتخاب مخاطبان
 
+![IMG-0774](</kb-assets/kb-images/Help/Marketing/email/Advertising-event-email/advertising-sendingeventmail-home.webp>)
+
 ## گام 4 -  مدیریت مخاطبان رویداد تبلیغاتی ایمیل
 `مسیر سند: Help/Marketing/email/Advertising-event-email/4-mokhatab-roydad-email/4-mokhatab-roydad-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Advertising-event-email/4-mokhatab-roydad-email/4-mokhatab-roydad-email.md)
 
@@ -159,20 +181,28 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 این مخاطبان باید شامل پروفایل هایی باشند که آدرس ایمیل در آن ها وجود داشته باشد .
 
+![IMG-0778](</kb-assets/kb-images/Help/Marketing/email/Advertising-event-email/4-mokhatab-roydad-email/advertising-sendingeventmail-fourthtstep.webp>)
+
 ## گام 1 - اطلاعات پیام رویداد تبلیغاتی ایمیل
 `مسیر سند: Help/Marketing/email/Advertising-event-email/1-avalie-roydad-email/1-avalie-roydad-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Advertising-event-email/1-avalie-roydad-email/1-avalie-roydad-email.md)
 
 به بخش گام اول - اطلاعات پیام در [اطلاعات مشترک بین ابزارها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md) مراجعه کنید.
+
+![IMG-0775](</kb-assets/kb-images/Help/Marketing/email/Advertising-event-email/1-avalie-roydad-email/advertising-sendingeventmail-firststep.webp>)
 
 ## گام 3 -  محتوای پیام رویداد تبلیغاتی ایمیل
 `مسیر سند: Help/Marketing/email/Advertising-event-email/3-matn-roydad-email/3-matn-roydad-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Advertising-event-email/3-matn-roydad-email/3-matn-roydad-email.md)
 
 برای اطلاعات بیشتر به   گام تنظیم متن ارسال گروهی ایمیل مراجعه نمایید.
 
+![IMG-0777](</kb-assets/kb-images/Help/Marketing/email/Advertising-event-email/3-matn-roydad-email/advertising-sendingeventmail-thirdstep.webp>)
+
 ## گام 2 -  زمان اجرای رویداد تبلیغاتی ایمیل
 `مسیر سند: Help/Marketing/email/Advertising-event-email/2-zamanbandi-roydad-email/2-zamanbandi-roydad-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Advertising-event-email/2-zamanbandi-roydad-email/2-zamanbandi-roydad-email.md)
 
 به [گام زمان اجرا](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/Advertising-event/2-zaman-bandi/zaman-bandi.md) در رویداد تبلیغاتی پیام کوتاه مراجعه کنید.
+
+![IMG-0776](</kb-assets/kb-images/Help/Marketing/email/Advertising-event-email/2-zamanbandi-roydad-email/advertising-sendingeventmail-secondstep.webp>)
 
 ## اپراتور ایمیل پرتال اول
 `مسیر سند: Help/Marketing/email/Send-operators/Send-operators.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Send-operators/Send-operators.md)
@@ -192,15 +222,27 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 **1**. ابتدا در سایت پرتال اول به قسمت داشبورد من مراجعه کنید. و برروی دکمه "می خواهم فروشنده شوم" کلیک نمایید.
 
+![IMG-0788](</kb-assets/kb-images/Help/Marketing/email/Photo-email/13.webp>)
+
 **2**. بر روی تب سه خط کلیک کنید تا وارد منوی پرتال شوید.
 
 **3**. بر روی تبلیغات و ارتباط با مشتری و سپس بر روی پنل ارسال ایمیل کنید.
 
+![IMG-0789](</kb-assets/kb-images/Help/Marketing/email/Photo-email/14.webp>)
+
 **4,5** . آپلود فایل را انتخاب و سپس تصویر مورد نظر خود را انتخاب کنبد .
+
+![IMG-0790](</kb-assets/kb-images/Help/Marketing/email/Photo-email/advertising-mail-1st-7.webp>)
+
+![IMG-0791](</kb-assets/kb-images/Help/Marketing/email/Photo-email/advertising-mailimage-1st-6.webp>)
 
 **6**. لینک مورد نظر را کپی کنید.
 
+![IMG-0792](</kb-assets/kb-images/Help/Marketing/email/Photo-email/advertising-mail-1st-8.webp>)
+
 هنگام اجرای برنامه ایمیل گروهی، در گام محتوای پیام بر روی آیکون " InsertImage" کلیک می نماییم و در پنجره جدید آدرس موردنظر را در کادر "ImageSrc"  وارد می نماییم.
+
+![IMG-0793](</kb-assets/kb-images/Help/Marketing/email/Photo-email/advertising-mailsending-1st-5.webp>)
 
 ## لیست پیام‌های دریافتی
 `مسیر سند: Help/Marketing/email/resive-list-email/resive-list-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/resive-list-email/resive-list-email.md)
@@ -208,6 +250,8 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 در این پنجره تمام ایمیل هایی که پس از اجرای برنامه های مختلف به شماره شما ارسال شده است، نمایش داده می شود. شماره خط و ارسال کننده و همچنین تاریخ دریافت نمایش داده می شود. همچنین می توان لیست ایمیل ها را با فاکتورهایی مانند تاریخ دریافت و یا بازه ای بین دو تاریخ محدود نمود.
 
 برای دیدن متن ارسال شده بر روی لینک محتوای پیام  در روبروی هر سطر کلیک نمایید.
+
+![IMG-0800](</kb-assets/kb-images/Help/Marketing/email/resive-list-email/15.webp>)
 
 ## اپراتور ارسال ایمیل پرتال اول
 `مسیر سند: Help/Marketing/email/Email-sender/Email-sender.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Email-sender/Email-sender.md)
@@ -219,13 +263,25 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 **1**. در بالای صفحه روی نام خود و سپس روی دکمه **" میخواهم فروشنده شوم"** کلیک کنید.
 
+![IMG-0779](</kb-assets/kb-images/Help/Marketing/email/Email-sender/advertising-mail-1st-1.webp>)
+
 **2**. سپس در صفحه پیش رو، روی دکمه سه خط، مانند شکل کلیک کنید تا تب منو برای شما باز شود.
+
+![IMG-0780](</kb-assets/kb-images/Help/Marketing/email/Email-sender/advertising-mail-1st-2.webp>)
 
 **4و3**. در منوی باز شده، در قسمت **"تبلیغات و ارتباط با مشتری"** کلیک کرده و سپس **"پنل ارسال ایمیل"** را کلیک کنید.
 
+![IMG-0781](</kb-assets/kb-images/Help/Marketing/email/Email-sender/advertising-mail-1st-3.webp>)
+
 **5**. در پنل ارسال ایمیل وارد تنظیمات ایمیل می‌شوید. مانند شکل زیر
 
+![IMG-0782](</kb-assets/kb-images/Help/Marketing/email/Email-sender/advertising-mail-1st-4.webp>)
+
 **6**.در این کادر ایمیل پیش‌فرض جهت ارسال و نام فرستنده بصورت پیش‌فرض نوشته شده است که در صورت نیاز می‌توان تغییر داد.
+
+![IMG-0783](</kb-assets/kb-images/Help/Marketing/email/Email-sender/advertising-mail-1st-5.webp>)
+
+![IMG-0783](</kb-assets/kb-images/Help/Marketing/email/Email-sender/advertising-mail-1st-5.webp>)
 
 ## مدیریت ارسال گروهی
 `مسیر سند: Help/Marketing/email/send-group-email/send-group-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/send-group-email/send-group-email.md)
@@ -242,6 +298,8 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 گام 3-  انتخاب مخاطبان
 
+![IMG-0801](</kb-assets/kb-images/Help/Marketing/email/send-group-email/advertising-sendinggroupmail-home.webp>)
+
 ## گام 3 - مدیریت مخاطبان ارسال گروهی ایمیل
 `مسیر سند: Help/Marketing/email/send-group-email/3-mokhatab-email/3-mokhatab-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/send-group-email/3-mokhatab-email/3-mokhatab-email.md)
 
@@ -249,12 +307,16 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 این مخاطبان باید شامل پروفایل هایی باشند که آدرس ایمیل در آن ها وجود داشته باشد .
 
+![IMG-0804](</kb-assets/kb-images/Help/Marketing/email/send-group-email/3-mokhatab-email/advertising-sendinggroupmail-thirdstep1.webp>)
+
 ## گام 2 -  محتوای پیام ارسال گروهی ایمیل
 `مسیر سند: Help/Marketing/email/send-group-email/2-tanzim-matn-email/2-tanzim-matn-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/send-group-email/2-tanzim-matn-email/2-tanzim-matn-email.md)
 
 در این گام می توانید متن مورد نظر برای ارسال را وارد و ویرایش کنید . از طریق منوی بالای صفحه (که شامل فایل، قالب و راهنمایی متن هوشمند می شود)، می توانید متون مورد نظر خود را که قبلا نوشته و در سیستم کامپیوتر خود ذخیره نموده اید وارد کنید، یا از قالب هایی که برای راحتی کار شما در نظر گرفته شده، استفاده کنید. همچنین امکان استفاده از متن هوشمند (به عنوان یکی از ویژگی های خاص پیام گستر) در این گام برای شما فراهم شده است
 
 لطفا ابتدا گام دوم - [محتوی پیام](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/gam-do/gam-do.md) در اطلاعات مشترک ابزارها را مطالعه کنید.
+
+![IMG-0803](</kb-assets/kb-images/Help/Marketing/email/send-group-email/2-tanzim-matn-email/advertising-sendinggroupmail-secondstep.webp>)
 
 **1. قرار دادن تصویر در متن:** به قسمت طریقه ایجاد یک  [ایمیل عکس دار](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/email/Photo-email/Photo-email.md) مراجعه کنید.
 
@@ -269,6 +331,8 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 این مخاطبان باید شامل پروفایل هایی باشند که آدرس ایمیل در آن ها وجود داشته باشد
 
+![IMG-0802](</kb-assets/kb-images/Help/Marketing/email/send-group-email/1-avalie-email/advertising-sendinggroupmail-firststep.webp>)
+
 ## لیست ایمیل‌‌های ارسالی
 `مسیر سند: Help/Marketing/email/Send-List-email/send-list.-email.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/email/Send-List-email/send-list.-email.md)
 
@@ -279,9 +343,13 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 
 >برای اطلاعات بیشتر در خصوص لیست ارسال ها به قسمت  [اطلاعات مشترک لیست ارسال](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/Send-ist/moshtarake-liste-ersal.md) مراجعه کنید.
 
+![IMG-0795: لیست ایمیل‌های ارسالی](</kb-assets/kb-images/Help/Marketing/email/Send-List-email/ListofSentEmailsAdvertising.webp>)
+
 **1**. با کليک راست بر روي يک ایمیل گزينه‌هاي زير مشاهده مي‌شود:
 
 - **جزئیات ارسال**: در این قسمت جزئیات مرتبط با ارسال ایمیل مانند کد رهگیری، وضعیت تحویل و ارسال را می‌توانید مشاهده کنید.
+
+![IMG-0796: جزئیات ایمیل ارسالی](</kb-assets/kb-images/Help/Marketing/email/Send-List-email/SendingEmailDetails.webp>)
 
 - **سعی در ارسال دوباره**: در این گزينه، ایمیل دوباره ارسال خواهد شد.
 
@@ -303,6 +371,8 @@ IMAP اجازه می‌دهد ایمیل‌هایی را که در سرور می
 **6.فرستادن به اکسل**: با استفاده از اين گزينه می‌توانید لیست ارسال‌های انتخاب شده را در قالب فایل اکسل دریافت کنید.
 
 درقسمت فیلترها، با توجه فیلدهای مشخص‌شده می‌توانید دامنه نمایش ایمیل‌ها را محدود کنید.
+
+![IMG-0797: فیلتر ایمیل‌های ارسال‌شده](</kb-assets/kb-images/Help/Marketing/email/Send-List-email/FilterSentEmail.webp>)
 
 **1. وضعیت ارسال**: انواع وضعیت ارسال به شرح زیر است
 

@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-ViewOfWorkFlow283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مشاهده چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/ViewOfWorkFlow_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/ViewOfWorkFlow_2.8.3.md)
@@ -19,6 +19,8 @@
 برای مشاهده گردش کار آیتم طبق مراحل زیر اقدام نمایید:
 1. آیتم مورد نظر خود را از لیست انتخاب و با دابل کلیک به صفحه مشخصات آن بروید.
 2. در تب **مشخصات** آیتم، روی **مشاهده چرخه‌کاری** کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت نمایش داده می‌شود.
+
+![IMG-1428: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/View-Item-process_2.8.3.webp>)
 
 > **نکته**
 

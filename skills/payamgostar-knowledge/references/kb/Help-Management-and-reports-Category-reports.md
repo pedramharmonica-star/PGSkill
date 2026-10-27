@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Management-and-reports-Category-reports
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## دسته بندی گزارش‌ها
 `مسیر سند: Help/Management-and-reports/Category-reports/Category-reports.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Category-reports/Category-reports.md)
@@ -8,6 +8,8 @@
  .در این بخش گزارش های ساخته شده در نرم افزار نمایش داده می شود
 
 در صورت دارا بودن مجوز مدیریت گزارشات ساخته شده، کاربر می تواند تمامی گزارشات ساخته شده را مشاهده، ویرایش و حذف کند و همچنین امکان تعیین مجوز بر روی گزارشات را دارد
+
+![IMG-0516](</kb-assets/kb-images/Help/Management-and-reports/Category-reports/report1.webp>)
 
 **1.** در این قسمت امکان ایجاد دسته بندی مورد نظر برای ذخیره گزارش ها و همچنین امکان ویرایش و حذف دسته بندی ها وجود دارد .
 
@@ -19,6 +21,8 @@
 
 همچنین می توانید فرمت مورد نظر را برای دریافت خروجی انتخاب کنید .
 
+![IMG-0517](</kb-assets/kb-images/Help/Management-and-reports/Category-reports/report2.webp>)
+
 **5.حذف:** گزارش مورد نظر را می توان حذف کرد .
 
 **6.مجوز:** در این بخش می توان برای کاربر مورد نظر دسترسی طراحی و  نمایش را تعریف کرد .
@@ -27,6 +31,8 @@
 `مسیر سند: Help/Management-and-reports/Category-reports/2.6.0/reports-category.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Category-reports/2.6.0/reports-category.md)
 
  در صورت دارا بودن مجوز مدیریت گزارشات ساخته شده، کاربر می تواند تمامی گزارشات ساخته شده را مشاهده، ویرایش و حذف کند و همچنین امکان تعیین مجوز بر روی گزارشات را دارد.
+
+![IMG-0518](</kb-assets/kb-images/Help/Management-and-reports/Category-reports/2.6.0/1.webp>)
 
 **1**.در این قسمت امکان ایجاد دسته بندی مورد نظر برای ذخیره گزارش ها و همچنین امکان ویرایش نام و حذف دسته بندی ها وجود دارد .
 
@@ -37,6 +43,8 @@
 **4.نمایش:** می توان گزارش ایجاد شده را مشاهده و خروجی مورد نظر را دریافت کرد . ( کاربر در صورت داشتن مجوز مدیریت گزارش های ساخته شده و یا مجوز  نمایش بر روی هر
  گزارش می تواند آن گزارش را ویرایش کند.)
 همچنین می توانید طبق تصویر زیر، فرمت مورد نظر را برای دریافت خروجی انتخاب کنید.
+
+![IMG-0519](</kb-assets/kb-images/Help/Management-and-reports/Category-reports/2.6.0/2.webp>)
 
 **5. کپی:** با استفاده از این دکمه،  می توان گزارش جدیدی با عنوان گزارش انتخابی، در همان دسته بندی ایجاد کرد. علاوه بر مدیر سیستم و سازنده گزارش، کاربران دارای مجوز مدیریت گزارش های ساخته شده یا مجوز طراحی گزارش، دسترسی کپی گزارشات را دارا می باشند.
 

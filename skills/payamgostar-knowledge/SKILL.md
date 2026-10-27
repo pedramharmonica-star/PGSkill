@@ -122,3 +122,13 @@ python3 scripts/read_source.py SOURCE_ID --max-chars 30000 [--latest]
 - مشتریان رزومه (۲۳ سازمان، به تفکیک صنعت) و قواعد استفاده: `references/reference-customers.md`. لوگوها در `skills/payamgostar-proposal/assets/customer-logos/`.
 - گواهی افتا: همیشه بنویس «پیام‌گستر گواهی ارزیابی امنیتی افتا دارد» (شماره CBP-C1470-0301؛ به نام هلدینگ مادر). نسخه و اعتبار فقط اگر RFP صریح پرسید (`references/company-facts.md`). مجوز نظام صنفی رایانه‌ای (شماره ۱۴۰۱۴۸۱۶، تا ۱۴۰۶/۰۶/۱۷) هم همان‌جاست. اسکن‌ها: `skills/payamgostar-proposal/assets/certificates/`.
 - راهکار ۹ صنعت از سند «راهکار جامع»: `references/solutions.md` بخش ج-۲.
+
+## تصاویر مرکز دانش (اسکرین‌شات‌ها) و مرجع آموزش
+- **مرجع آموزش پرسنل همین مرکز دانش است** (`references/kb/` + تصاویر). برای آموزش نقش‌محور، مقاله‌های «نقشه راه نقش‌ها» را ببین: `kb/Positions-Roadmap-*.md` (مدیر فروش، کارشناس فروش، امور مشتریان، مالی، انبار، IT، سیستم‌ها و روش‌ها، مسئول دفتر، مدیر تبلیغات، مدیرعامل).
+- مقاله‌های `kb/` حالا پیوند تصویر دارند: `![IMG-0135: …](</kb-assets/kb-images/…webp>)`. مسیر از **ریشه مخزن PGSkill** است. پوشه `kb-assets/` (۲۰۲۶ تصویر WebP، حدود ۴۸ مگابایت) فقط در مخزن است و داخل بسته پلاگین نیست.
+- جست‌وجوی تصویر: `python3 scripts/find_image.py "<موضوع>" --top 5` روی `references/kb-images-index.csv` (شناسه، مسیر، مقاله، بخش، alt، متن نزدیک، ابعاد، **URL عمومی**).
+- **کاربرد:**
+  - پاسخ چت‌بات و آموزش: پیوند `public_url` را بده (مخزن عمومی مرکز دانش، ثابت روی همان commit).
+  - پروپوزال و جزوه: فایل WebP از `kb-assets/` (در مخزن) یا `public_url`.
+- **قاعده:** متن داخل تصویر جست‌وجو نشده است. چیزی را که فقط در تصویر است و در متن مقاله نیامده ادعا نکن، مگر خودت تصویر را دیده باشی. تصویرِ نسخه قدیمی را با قید نسخه (نام فایل، مثلاً 2.8.6) بیاور.
+- **منبع فقط‌خواندنی:** مخزن `1stco/PayamGostarDocs` مال مدیر آموزش است. **هرگز در آن چیزی ننویس، commit یا push نکن.** فقط clone و استخراج. به‌روزرسانی: `python3 tools/import_kb_images.py <clone> <commit>` و بعد `python3 skills/payamgostar-knowledge/scripts/convert_kb.py <clone> skills/payamgostar-knowledge/references/kb <commit>`.

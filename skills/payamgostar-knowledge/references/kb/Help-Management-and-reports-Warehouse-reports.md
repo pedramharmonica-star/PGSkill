@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Management-and-reports-Warehouse-reports
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## گزارشات انبار
 `مسیر سند: Help/Management-and-reports/Warehouse-reports/Warehouse-reports.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Warehouse-reports/Warehouse-reports.md)
@@ -13,6 +13,8 @@
 `مسیر سند: Help/Management-and-reports/Warehouse-reports/Warehouse-inventory-report/Warehouse-inventory-report.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Warehouse-reports/Warehouse-inventory-report/Warehouse-inventory-report.md)
 
 در این قسمت می توانید موجودی هرکدام از محصولات خود را در انبار های مختلف مشاهده کنید. همچنین  با استفاده از فیلترهای موجود می توانید محصولاتی که به نقطه سفارش خود رسیده اند را مشاهده کرده و اقدامات لازم جهت سفارش خرید یا تولید محصول را انجام دهید.
+
+![IMG-0695](</kb-assets/kb-images/Help/Management-and-reports/Warehouse-reports/Warehouse-inventory-report/Inventoryproduct11.webp>)
 
 **1. نوع گزارش:** گزارش  موجودی به دو صورت قابل نمایش است:
 
@@ -32,12 +34,18 @@
 
 **7. دریافت گزارش:** می توانید از اطلاعات نمایش داده شده، یک گزارش با فرمت دلخواه خود دریافت کنید، ایتدا فرمت فایل مورد نظر خود را انتخاب کرده و سپس روی دریافت گزارش کلیک کنید.
 
+![IMG-0696](</kb-assets/kb-images/Help/Management-and-reports/Warehouse-reports/Warehouse-inventory-report/Inventoryproduct2.webp>)
+
 ## گزارش کاردکس کالا
 `مسیر سند: Help/Management-and-reports/Warehouse-reports/Product-Cardex-Report/Product-Cardex-Report.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Warehouse-reports/Product-Cardex-Report/Product-Cardex-Report.md)
 
 در این قسمت می توانید لیست تراکنش های اقلام انبار ها را بر اساس مقدار یا ریال مشاهده کنید تا از وضعیت ورود و خروج اقلام انبار آگاهی پیدا کنید. هر ردیف از جدول در این گزارش به معنی یک ورود یا خروج کالا به/از انبار است و به ازای آن می توانید اطلاعاتی مانند مقدار صادره/وارده و فی محصول در آن تراکنش انبار و فی میانگین را مشاهده نمایید.
 
 بمنظور مشاهده لیست تراکنش‌های انبار در ابتدا می بایست از دکمه "به روز رسانی" یا فیلتر بر اساس فیلد های تعریف شده استفاده کرد.
+
+![IMG-0692](</kb-assets/kb-images/Help/Management-and-reports/Warehouse-reports/Product-Cardex-Report/kardeks1.webp>)
+
+![IMG-0693](</kb-assets/kb-images/Help/Management-and-reports/Warehouse-reports/Product-Cardex-Report/InventoryKartex11.webp>)
 
 **1. دسته بندی محصولات:** می توانید با استفاده از این فیلد ، گروه محصول یا محصول دلخواهی را برای گزارش انتخاب نمایید.
 
@@ -82,3 +90,5 @@
 > نکته: قیمت گذاری حواله های انبار بر اساس فی میانگین می باشد. بنابراین برای سطرهای مرتبط با حواله های انبار، مقدار فی و فی میانگین یکسان است.
 
  **دریافت گزارش:** می توانید از گزارش کاردکس کالا با فرمت دلخواه خود خروجی بگیرید. ابتدا فرمت فایل مورد نظر خود را مشخص کرده و سپس روی دریافت گزارش کلیک کنید.
+
+![IMG-0694](</kb-assets/kb-images/Help/Management-and-reports/Warehouse-reports/Product-Cardex-Report/InventoryKartex2.webp>)

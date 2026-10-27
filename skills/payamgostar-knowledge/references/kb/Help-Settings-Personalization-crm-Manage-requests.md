@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Manage-requests
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت درخواست‌ها
 `مسیر سند: Help/Settings/Personalization-crm/Manage-requests/Manage-requests.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Manage-requests/Manage-requests.md)
@@ -11,9 +11,13 @@
 
 درخواست در واقع پاسخ دهی به ایمیل ها بر روی یک خط خاص و مدیریت ایمیل های آن خط محسوب می شود، به طوری که که هر ایمیل ارسال شده بر روی آن خط شماره ای به صورت خودکار دریافت می کند و ارسال کننده ایمیل می توانند ایمیل را از طریق شماره آن پیگیری نماید.
 
+![IMG-1411](</kb-assets/kb-images/Help/Settings/Personalization-crm/Manage-requests/1.webp>)
+
 با کلیک بر روی آیکون + می توانید یک نوع درخواست پشتیبانی جدید را ایجاد نمایید.
 
 برای تنظیمات عمومی درخواست پشتیبانی به[ تنظیمات مشترک آیتم های سیستم ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md)مراجعه کنید.
+
+![IMG-1412](</kb-assets/kb-images/Help/Settings/Personalization-crm/Manage-requests/67.webp>)
 
 **A. پاسخ دهی روی خط:** در واقع مشخص می کند این درخواست بر روی کدام خط ایمیل فعال می شود. (در واقع ایمیل های دریافتی روی کدام خط به صورت خودکار پاسخ داده شود و شماره پیگیری دریافت نمایند.)
 
@@ -36,6 +40,8 @@
 
 مقدار فیلدهای شدت،تاثیرگذاری و اولویت در مدیریت آیتم های سیستم قابل مشاهده می باشد.
 
+![IMG-1413: ماتریس اولویت در شخصی‌سازی درخواست پشتیبانی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Manage-requests/olaviat.webp>)
+
 > **نکته**{#Priority}
 
 > در تنظیمات شخصی‌سازی درخواست پشتیبانی، برای تنظیم **ترتیب نمایش آیتم** در لیست، گزینه **اولویت** اضافه شده است که می‌توانید لیست درخواست‌های پشتیبانی خود را براساس اولویت تنظیم کنید.
@@ -49,6 +55,8 @@
 
 **پیام پاسخ پیش‌فرض:** در صورت دریافت هر ایمیل بر روی خط مشخص شده، این پیام تنظیم شده به صورت خودکار برای فرستنده ایمیل ارسال می شود.
 
+![IMG-1414](</kb-assets/kb-images/Help/Settings/Personalization-crm/Manage-requests/khat-requests.webp>)
+
 ## تنظیمات اولویت درخواست
 `مسیر سند: Help/Settings/Personalization-crm/Manage-requests/olaviat.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Manage-requests/olaviat.md)
 
@@ -59,3 +67,5 @@
 **برای نمونه:** طبق تصویر اگر شدت درخواست ،در وضعیت جزئی  و تاثیرگذاری درخواست در وضعیت پایین باشد طبق تعریف انجام شده در این بخش، اولویت آن درخواست  پایین در نظر گرفته می شود .
 
 مقدار فیلدهای شدت،تاثیرگذاری و اولویت در مدیریت آیتم های سیستم قابل مشاهده می باشد.
+
+![IMG-1413: ماتریس اولویت در شخصی‌سازی درخواست پشتیبانی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Manage-requests/olaviat.webp>)

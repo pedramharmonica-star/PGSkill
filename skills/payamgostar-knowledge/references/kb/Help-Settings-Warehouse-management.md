@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Warehouse-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت انبارها
 `مسیر سند: Help/Settings/Warehouse-management/Warehouse-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Warehouse-management/Warehouse-management.md)
@@ -9,14 +9,20 @@
 
 > نکته: لطفا ابتدا محصولات خود را در قسمت[ مدیریت محصولات ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Product%20management/Product-management.md)دسته بندی و ایجاد کنید.
 
+![IMG-1632](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement1.webp>)
+
 **1. فیلتر:** می توانید با استفاده از فیلترهای موجود انبار مورد نظر خود را بیابید.
 
 **2. گروه انبار جدید:** می توانید یک گروه انباری جدید تعریف کنید، نام گروه انبار و کد دلخواه خود را وارد کرده و روی دکمه ذخیره کردن کلیک کنید.
+
+![IMG-1633](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement2.webp>)
 
 ## مدیریت محصولات انبار
 `مسیر سند: Help/Settings/Warehouse-management/manage-mahsool.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Warehouse-management/manage-mahsool.md)
 
 در این قسمت محصولاتی که می توانند در آن انبار باشند ( مجاز هستند) را تعیین کنید. از بین تمامی محصولات تعریف شده در مدیریت محصولات تنها این محصولات در حواله ها و رسید های این انبار قابل انتخاب خواهند بود.
+
+![IMG-1634](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement4.webp>)
 
 **A. اضافه کردن محصول:** از بین محصولات تعریف شده در قسمت مدیریت محصولات، محصول/محصولات مورد نظر خود که می خواهید به عنوان محصول مجاز این انبار تعیین گردد را انتخاب و به لیست اضافه کنید.
 
@@ -33,7 +39,11 @@
 
 با استفاده از کلید مدیریت مجوزهای انبار می‌توان مجوزها کاربران در هر انبار را تعیین کرد.
 
+![IMG-1635](</kb-assets/kb-images/Help/Settings/Warehouse-management/mojavez1.webp>)
+
 > **نکته مهم:** توجه داشته باشید هر کاربری که بخواهد عملیات مرتبط با انبار مانند صدور، تایید یا قیمت گذاری تراکنش های انبار را انجام دهد، باید مجوز مربوطه را در آن انبار داشته باشد.
+
+![IMG-1636](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement5.webp>)
 
 **A. افزودن کاربر/گروه:** برای تعریف مجوزهای این انبار برای یک کاربر/گروه جدید، ابتدا و یا گروه مورد نظر را انتخاب کنید، مجوز های مورد نظر را انتخاب کرده و آن را اضافه کنید.
 
@@ -60,7 +70,11 @@
 
 پس از ایجاد گروه انبار مورد نظر، می‌توان با استفاده از کلید افزودن در این بخش انبار جدیدی را ایجاد کرد.
 
+![IMG-1637](</kb-assets/kb-images/Help/Settings/Warehouse-management/anbar-jadid1.webp>)
+
 با کلیک بر روی افزودن صفحه‌ی زیر برای تعریف انبار جدید مشاهده می‌شود.
+
+![IMG-1638](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement3.webp>)
 
 **A. نام انبار:** نام انبار را تعیین کنید.
 

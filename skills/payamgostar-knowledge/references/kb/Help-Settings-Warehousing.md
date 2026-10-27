@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Warehousing
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## تعیین گارانتی کالا
 `مسیر سند: Help/Settings/Warehousing/GuaranteeSetting.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Warehousing/GuaranteeSetting.md)
@@ -9,6 +9,8 @@
 
 برای ثبت گارانتی محصولات از طریق مسیر زیر اقدام نمایید:
 **تنظیمات**> **مدیریت محصولات**> **اعمال گارانتی**
+
+![IMG-1639: ثبت گارانتی برای محصولات](</kb-assets/kb-images/Help/Settings/Warehousing/gurantee.webp>)
 
 برای ثبت گارانتی ابتدا می‌بایست در قسمت مدیریت محصولات چک باکس مرتبط با **اعمال گارانتی** فعال باشد
 

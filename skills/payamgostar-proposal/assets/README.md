@@ -19,3 +19,6 @@ Vazirmatn (فونت بدنه) آزاد است و هنگام ساخت دانلو�
 ## certificates/
 `afta-certificate.pdf` و `.png`: گواهی ارزیابی امنیتی محصول CBP-C1470-0301 (فقط صفحه گواهی).
 `nezam-senfi-membership.png`: مجوز فعالیت سازمان نظام صنفی رایانه‌ای استان تهران (شماره ۱۴۰۱۴۸۱۶).
+
+## اسکرین‌شات‌ها
+اسکرین‌شات‌های رسمی محصول از مرکز دانش در `kb-assets/kb-images/` (ریشه مخزن) و فهرستشان در `skills/payamgostar-knowledge/references/kb-images-index.csv` است. جست‌وجو: `scripts/find_image.py`.

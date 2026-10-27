@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-Process-design
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## آشنایی با چرخه‌کاری در پیام‌گستر
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Concept-Process.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Concept-Process.md)
@@ -29,6 +29,8 @@
 
 ##### تصویر زیر نمونه‌ای از فرآیند طراحی شده می‌باشد:
 
+![IMG-1437](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process1.webp>)
+
 در این مثال مرحله اول فرآیند مذاکره با مشتری/صدور پیش‌فاکتور می‌باشد که توسط گروه فروش انجام میشود،گروه فروش با انجام این مرحله و اجرای اقدام "ارجاع به مدیر فروش" فرآیند را به مرحله بعد که مرحله تایید پیش‌فاکتور و مذاکرات می‌باشد، هدایت میکند، در این مرحله مدیر فروش با اقدام "تایید و ارجاع به مرحله ارسال پیش فاکتور" برای مشتری فرآیند را به پایان می‌رساند، در این فرآیند دو اقدام در مرحله اول در نظر گرفته شده است که در صورت عدم خرید مشتری فرآیند به مرحله رویت فروش ناموفق توسط مدیر فروش منتقل می‌شود.
 
 ## طراحی فرآیند(چرخه کاری)
@@ -56,6 +58,8 @@
 
 برای اطلاع از شیوه اضافه کردن فیلدها به [تنظیمات مشترک آیتم های سیستم ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/Add-features/Add-features.md)مراجعه کنید.
 
+![IMG-1438](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/ProcessDesignCycle5.webp>)
+
 ## مشاهده چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md)
 
@@ -73,6 +77,8 @@
 برای مشاهده گردش کار آیتم طبق مراحل زیر اقدام نمایید:
 1. آیتم مورد نظر خود را از لیست انتخاب و با دابل کلیک به صفحه مشخصات آن بروید.
 2. در تب **مشخصات** آیتم، روی **مشاهده چرخه‌کاری** کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت نمایش داده می‌شود.
+
+![IMG-1439: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/View-Item-process.webp>)
 
 > **نکته**
 
@@ -135,6 +141,8 @@
 
  به طور مثال در شکل زیر، کارتابل تایید پیش فاکتور و مذاکرات سه اقدام دارد، به این معنی که مدیر فروش در این مرحله سه اقدام مجاز دارد که می‌تواند فرآیند را جهت ارسال پیش فاکتور به مشتری به مرحله بعد هدایت کند که در این صورت یک فعالیت ارسال پیام کوتاه برای اطلاع رسانی به مشتری اجرا شده و پس از آن وارد کارتابل ارسال پیش فاکتور خواهد شد، همچنین می تواند کار را جهت انجام اصلاحات به کارتابل قبلی بازگرداند یا به دلیل عدم تایید مذاکرات، فرآیند را به حالت نهایی بفرستد.
 
+![IMG-1430: مثال اجزای فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/ex.sales-process_2.8.3.webp>)
+
 ## ویرایش چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/WorkFlowEdition.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/WorkFlowEdition.md)
 
@@ -151,7 +159,11 @@
 1. به صفحه مشخصات آیتمی که قصد ویرایش چرخه‌کاری آن را دارید، بروید (می‌توانید آن را در لیست مربوط به آن بیابید).
 2. در تب **مشخصات** آیتم، روی [مشاهده چرخه‌کاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md) کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را به همراه جزئیات هر مرحله، نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت فهرست می‌شود.
 
+![IMG-1440: مسیر مشاهده گردش کار در صفحه اطلاعات آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/View-Item-process-button.webp>)
+
 در صفحه پیش‌رو جزئیات مربوط به هر مرحله در اختیار شما قرار داده می‌شود.
+
+![IMG-1441: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Process-edition-overview.webp>)
 
   **A.** در این جدول لیست کارتابل و فعالیت‌های انتظار گذشته طی فرآیند را مشاهده خواهید کرد.
 
@@ -171,11 +183,17 @@
 
 با کلیک بر دکمه **افزودن** کارتابل/فعالیت مورد نظر خود را اضافه نمایید. زین پس فرآیند از مرحله اضافه شده ادامه‌ی مسیر می‌دهد.
 
+![IMG-1442: صفحه ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Add-Stage-in-Process-edition-page.webp>)
+
 - **تغییر مسئول آخرین کارتابل، در چرخه‌کاری**
 
 همانطور که در توضیحات بالا اشاره شد، امکان حذف آخرین کارتابل در بخش ویرایش چرخه‌کاری وجود ندارد و تنها می‌توانید مسئول **آخرین کارتابل** را تغییر دهید. برای این کار روی گزینه ویرایش کلیک کنید.
 
+![IMG-1443: نحوه تغییر مسئول کارتابل در ویرایش چرخه کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Edite-last-stage-in-process.webp>)
+
 در صفحه پیش رو زمان دقیق ورود به کارتابل، تخصیص به کاربر، مشاهده آیتم و خروج فرآیند از کارتابل کاربر نمایش داده می‌شود. درصورتی که بخواهید مسئول این کارتابل را تغییر دهید، می‌توانید نام کاربر مورد نظر خود را از لیست انتخاب نموده و تغییرات را ذخیره نمایید.
+
+![IMG-1444: تغییر مسئول آخرین کارتابل در ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Change-user-in-cartable.webp>)
 
 > **نکته**
 
@@ -183,6 +201,8 @@
 
 ##### مشاهده سابقه تغییرات در ویرایش چرخه‌کاری
 برای هر دو حالت افزودن کارتابل/فعالیت جدید به انتهای فرآیند و ویرایش مسئول آخرین کارتابل، **نام ایجاد کننده**، **نام ویرایش کننده** و **زمان دقیق تغییرات** اعمال شده در لیست مراحل فرآیند، نمایش داده خواهد شد.
+
+![IMG-1445: مشاهده سابقه تغییرات ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/History-of-changes-in-process.webp>)
 
 ##### دسترسی‌های مورد نیاز برای ویرایش چرخه‌های کاری
 **مالک آیتم** و **مدیر سیستم** به طور کلی امکان ویرایش چرخه‌کاری را دارند. علاوه بر آن برخی مجوزهای مدیریتی (مثل مدیر مالی، مدیر فروش و ...) نیز دسترسی ویرایش چرخه‌کاری آیتم‌های مختلف را به کاربر می‌دهد که در ادامه به تفکیک توضیح داده می‌شود.
@@ -266,6 +286,8 @@
 
  به طور مثال در شکل زیر، کارتابل تایید پیش فاکتور و مذاکرات سه اقدام دارد، به این معنی که مدیر فروش در این مرحله سه اقدام مجاز دارد که می تواند فرآیند را جهت ارسال پیش فاکتور به مشتری به مرحله بعد هدایت کند که در این صورت یک فعالیت ارسال پیام کوتاه برای اطلاع رسانی به مشتری اجرا شده و پس از آن وارد کارتابل ارسال پیش فاکتور خواهد شد، همچنین می تواند کار را جهت انجام اصلاحات به کارتابل قبلی بازگرداند یا به دلیل عدم تایید مذاکرات، فرآیند را به حالت نهایی بفرستد.
 
+![IMG-1601](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/Action1.webp>)
+
 ## مفاهیم کلی فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/mafhom-bpms.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/mafhom-bpms.md)
 
@@ -282,6 +304,8 @@
 
 ##### برای نمونه فرآیند فروش در ابزار draw.io  به این صورت طراحی گردیده است:
 
+![IMG-1602](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/flowchart_1.webp>)
+
 ## ذخیره و بارگذاری فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/Process-storage-and-loading.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/Process-storage-and-loading.md)
 
@@ -289,20 +313,32 @@
 
 در نظر داشته باشید برای ذخیره و بارگذاری یک فرایند در نرم افزار، یک درخواست به پنل مدیریتی شرکت پیام گستر ارسال خواهد شد و تنها در صورت تایید، می توانید ذخیره و بارگذاری را انجام دهید. پس از بارگذاری فرایند ذخیره شده، تمامی فیلدها به همراه فرایند استقرار داده شده روی آیتم، در قالب آیتم جدیدی در نرم افزار بارگذاری خواهند شد.
 
+![IMG-1589](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport1.webp>)
+
 **1. ذخیره فرآیند:** با کلیک بر روی این دکمه می توانید درخواست ذخیره فرایند را ثبت کنید. توضیحاتی در ارتباط با درخواست خود (دلیل ذخیره فرآیند) وارد کرده و روی دکمه ارسال کردن کلیک کنید. بعد از پذیرفته شدن درخواست فایل مربوط به این فرآیند ذخیره خواهد شد و می توانید در آینده آن را بارگذاری کنید.
 
+![IMG-1590](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport2.webp>)
+
 **2. بارگذاری فرآیند:** با کلیک بر روی این دکمه، می توانید فایلی که از قبل ذخیره کرده اید را بارگذاری کنید. برای انجام این کار نیز باید توضیحی برای درخواست بارگذاری وارد نمایید. در صورت پذیرفته شدن درخواست، صفحه زیر را مشاهده خواهید کرد.
+
+![IMG-1591](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport3.webp>)
 
 در قسمت انتخاب فایل، باید فایل ذخیره شده از فرایند را بارگذاری کرده و سپس روی دکمه بارگذاری فایل کلیک کنید. (این فایل دارای پسوند pgprocess می باشد)
 
 پس از بارگذاری فایل، مطابق شکل زیر کاربران و گروه های متناظر با کاربران و گروه های استفاده شده در فرایند ذخیره شده را مشخص کنید و روی دکمه ذخیره کردن کلیک کنید.
+
+![IMG-1592](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport4.webp>)
 
 ## طراحی فرآیند به صورت شماتیک با ابزار پیام گستر
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md)
 
 با استفاده از این ابزار می‌توانید گردش کاری دلخواه را به صورت شماتیک ایجاد کرده و یا گردش کاری که در نرم افزار ایجاد کرده اید را مشاهده و بازبینی کنید .
 
+![IMG-1593](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/tarahi.webp>)
+
 با کلیک بر روی این گزینه یک صفحه ابزار طراحی فرآیند باز می‌شود.
+
+![IMG-1594](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/tarahi1.webp>)
 
 **1. ابزار طراحی فرآیند:** در این بخش شما می‌توانید لیست انواع فعالیت‌ها و کارتابل را مشاهده و برای طراحی فرآیند استفاده کنید .
 
@@ -340,15 +376,27 @@
 
 > نکته: به محل اتصال ورود و خروج اقدام توجه گردد
 
+![IMG-1595](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew3.webp>)
+
 **A**. به این معنی است که تعداد نامحدودی از اقدامات می‌تواند به کارتابل ختم شود و یا از آن آغاز گردد. (برای مثال در تصویر زیر یک اقدام به کارتابل "تایید پیش فاکتور" می‌رود و دو اقدام از آن خارج می‌شود.)
+
+![IMG-1596](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew4.webp>)
 
 **B**. تعداد نامحدودی اقدام می‌تواند به یک فعالیت از نوع تصمیم برسد اما تنها دو خروجی با نام‌های true (حالت بعدی در صورتی که شرط تصمیم برقرار باشد) و false (حالت بعدی در صورتی که شرط تصمیم برقرار نباشد) میتواند از آن خارج شود.
 
+![IMG-1597](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew5.webp>)
+
 **C**. تعداد نامحدودی اقدام می‌تواند به یک فعالیت از نوع وب سرویس برسد اما تنها دو خروجی با نام‌های success (حالت بعدی در صورت اجرای موفق وب سرویس) و fail (حالت بعدی در صورت خطای وب سرویس) می‌تواند از آن خارج شود. (برای مثال در تصویر زیر اگر وب سرویس "ثبت در سایت" به درستی عمل کند، گردش کاری آیتم به مرحله‌ی "پایان" و در صورت خطای وب سرویس به مرحله "فعالیت پیام کوتاه" می‌رود.)
+
+![IMG-1598](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew6.webp>)
 
 **D**. تعداد نامحدودی اقدام می‌تواند به یک فعالیت از نوع انتظار برسد اما تنها دو خروجی با نام‌های break (حالت بعدی در صورت برقرار شدن شرط انتظار) و expire (حالت بعدی در صورت منقضی شدن زمان انتظار) می‌تواند از آن خارج شود. (برای مثال در صورتی که شرط انتظار برقرار شود، گردش کار آیتم به مرحله "فعالیت انتظار بعد از خرید" و در صورت برقرار نشدن شرط انتظار، پس از پایان زمان انتظار به مرحله‌ی "فعالیت پیام کوتاه" می‌رود.)
 
+![IMG-1599](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew7.webp>)
+
 **E**. حالت نهایی به تعداد نامحدودی ورودی می‌پذیرد اما هیچ اقدامی ‌از آن خارج نمی‌شود.
+
+![IMG-1600](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew8.webp>)
 
 > نکته: به محل اتصال ورود و خروج اقدام توجه گردد.
 
@@ -370,11 +418,17 @@
 
 در این قسمت می توانید ترتیب گذاری مراحل مختلف فرآیند (کارتابل ها و انتظارها) را مشخص کنید. این ترتیب گذاری در گزارشات فرایندی، قسمت [نمایش کانبان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Process-reports/Kanban-Show/Kanban-Show.md) و همچنین پروسه نمایش داده شده در آیتم تحت فرایند تاثیرگذار است و ارتباطی با چگونگی گردش کار ندارد، زیرا چگونگی گردش کار فرآیند با استفاده از اقدام ها و تنظیمات فعالیت ها مشخص می گردد.
 
+![IMG-1603](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/tartibgozari-cartable/KanbanSorting3.webp>)
+
 > نکته: توجه داشته باشید یک فرایند در جریان، در یکی از کارتابل ها یا انتظار ها می باشد (زیرا سایر فعالیت های فرایند به سرعت انجام می شوند و پس از آن فرآیند به حالت بعدی هدایت خواهد شد)، به همین دلیل در این قسمت فقط ترتیب گذاری کارتابل ها و انتظارها را انجام می دهید.
 
 برای ترتیب گذاری در قسمت ویرایش چرخه کاری، روی دکمه ترتیب گذاری کارتابل ها و انتظارها کلیک کنید.
 
+![IMG-1604](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/tartibgozari-cartable/KanbanSorting1.webp>)
+
 با استفاده از کشیدن و رها کردن (Drag&Drop) و یا فلش های سبز رنگ، می توانید ترتیب بندی کانبان را برای این گردش کاری تعیین کنید.
+
+![IMG-1605](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/tartibgozari-cartable/KanbanSorting4.webp>)
 
 ## ساخت چرخه (Workflow) در نرم افزار:
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Create-a-work-cycle.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Create-a-work-cycle.md)
@@ -392,6 +446,8 @@
  صورت انجام آن ها فرایند به مرحله دیگر میرود. هر کارتابل می تواند چندین اقدام داشته باشد که بر اساس شرایط آن مرحله از کار و حالت های ممکن، ایجاد می گردند.
 
 **فعالیت:** مراحلی از گردش کار که به صورت خودکار توسط سیستم انجام می شوند. برای مثال فعالیت هایی مانند ارسال پیام کوتاه، ایمیل، تصمیم گیری سیستمی .....
+
+![IMG-1446: نمای کلی ایجاد چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Images/Work-flow-settings-over-view.webp>)
 
 **1. ابزار طراحی فرآیند جدید:** به [ ابزار طراحی فرآیند به صورت شماتیک با ابزار پیام گستر](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md) مراجعه کنید.
 
@@ -425,6 +481,8 @@
 
 **فعالیت:** مراحلی از گردش کار که به صورت خودکار توسط سیستم انجام می شوند. برای مثال فعالیت هایی مانند ارسال پیام کوتاه، ایمیل، تصمیم گیری سیستمی .....
 
+![IMG-1446: نمای کلی از ایجاد چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Images/Work-flow-settings-over-view.webp>)
+
 **1. ابزار طراحی فرآیند جدید:** به [ ابزار طراحی فرآیند به صورت شماتیک با ابزار پیام گستر](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md) مراجعه کنید.
 
 **2. ابزار طراحی فرآیند:** به  ابزار طراحی فرآیند به صورت شماتیک با ابزار گوگل مراجعه کنید .
@@ -443,12 +501,16 @@
 ##### مشاهده سابقه تغییرات در تنظیمات چرخه‌کاری {#WorkFlowSettingChangLog}
 در همین صفحه سابقه تغییرات هرکدام از کارتال یا فعالیت‌ها اضافه شده که شما می‌توانید **تاریخ ایجاد**، **نام کاربر ایجاد کننده کارتابل یا فعالیت**، **تاریخ ویرایش** و **نام کاربر ویرایش کننده** اجزای چرخه‌کاری را مشاهده نمایید.
 
+![IMG-1447: سابقه تغییرات در تنظیمات چرخه کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Images/Change-log-in-process-setting.webp>)
+
 ## نحوه ایجاد فعالیت
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Activity.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Activity.md)
 
 در این بخش امکان انتخاب فعالیت موردنظر برای استقرار فرآیند وجود دارد.
 
 با انتخاب هر کدام از فعالیت ها، باید تنظیمات مربوط به آن را تعیین کرده و مشخص کنیم که فرآیند بعد از انجام عملیات، به چه مرحله ای هدایت شود ( حالت بعدی ).
+
+![IMG-1453](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Activity.webp>)
 
 با کلیک بر روی دکمه ایجاد فعالیت، می توانید یک فعالیت جدید به فرآیند خود اضافه کنید. لیست انواع فعالیت ها به شرح زیر می باشند:
 
@@ -517,6 +579,8 @@
 
 به طور مثال فرض کنید که یک فرایند روی آیتم فرم درخواست مرخصی طراحی کرده اید و میخواهید در انتهای فرایند یک پیگیری برای مسئول منابع انسانی جهت ثبت مرخصی در سیستم اتوماسیون یه صورت خودکار توسط سیستم ایجاد شود.
 
+![IMG-1505](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Keep-trackof-tracking/Setfollowup.webp>)
+
  برای ثبت این فعالیت، پس از تعیین نام، نوع مرحله ( معمولی/اولیه) و حالت بعدی این مرحله ، تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
 **1. مرتبط با:** کاربری که باید این پیگیری برای او ایجاد شود را تعیین کنید.
@@ -536,6 +600,8 @@
 
 ##### تنظیمات این فعالیت به صورت زیر می باشد:
 
+![IMG-1532](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Activity.webp>)
+
 **1. مدت انتظار:** در این قسمت مدت زمان انتظار را مشخص کنید، مدت انتظار می تواند یک مقدار مشخص یا متغیر (بر اساس فیلدهای از نوع عدد و تاریخ باشد که روی آیتم تحت چرخه هستند) باشد. در صورتی که مقدار متغیر برای مدت انتظار در نظر بگیرید در واقع مدت انتظار با توجه به مقادیری که در فیلدها توسط کاربران وارد می شود، مشخص می گردد. به طور مثال در شکل بالا مدت انتظار تا 2 هفته بعد از تاریخی است که در فیلد تاریخ ارسال کالا وارد گردد.
 
 **2. حالت بدون شرط:** در صورتی که این گزینه را انتخاب کنید، انتظار تنها با فرا رسیدن زمانی که در مرحله قبل مشخص کرده اید، به پایان خواهد رسید و به مرحله ای که در قسمت وضعیت در صورت انقضا مشخص کردید،  منتقل می گردد.(به استثناء خاتمه مستقیم انتظار)
@@ -547,6 +613,8 @@
 > نکته: در صورت برقراری شرط ممکن است که حداکثر تا یک ساعت برای عملکرد این شرط زمان نیاز باشد.
 
 **5.  خاتمه مستقیم انتظار:** در این قسمت می توانید یک کاربر/گروه و یا سمت را به عنوان مالک انتظار مشخص کنید، مالک انتظار می تواند قبل از فرا رسیدن مدت انقضای انتظار یا برقراری شرط، انتظار را به صورت دستی به پایان برساند (انتظار را بشکند) مالک انتظار می تواند یک کاربر مشخص، آخرین مسئول یکی از کارتابل های فرآیند یا یک فیلد از نوع لیست کاربر/گروه آیتم تحت چرخه باشد، در صورتی که گزینه فیلد را انتخاب کنید می توانید یک کاربر/گروه و یا مسئول پروفایل ها را به عنوان مالک انتظار در صورت خالی بودن فیلد مربوطه در نظر بگیرید.
+
+![IMG-1533](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Delay1.webp>)
 
 **6**. در صورتی که این گزینه فعال باشد، پس از اتمام دستی انتظار توسط کاربر مالک انتظار، صفحه آیتم مربوطه بسته خواهد شد.
 
@@ -567,6 +635,8 @@
 
 ##### تنظیمات این فعالیت به صورت زیر می باشد:{#TimingWatingActivity}
 
+![IMG-1532](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Activity.webp>)
+
 **1. مدت انتظار:** در این قسمت مدت زمان انتظار را مشخص کنید، مدت انتظار می تواند یک مقدار مشخص یا متغیر (بر اساس فیلدهای از نوع عدد و تاریخ باشد که روی آیتم تحت چرخه هستند) باشد. در صورتی که مقدار متغیر برای مدت انتظار در نظر بگیرید در واقع مدت انتظار با توجه به مقادیری که در فیلدها توسط کاربران وارد می شود، مشخص می گردد. به طور مثال در شکل بالا مدت انتظار تا 2 هفته بعد از تاریخی است که در فیلد تاریخ ارسال کالا وارد گردد.
 
 > **نکته**
@@ -584,6 +654,8 @@
 > در صورت برقراری شرط ممکن است که حداکثر تا یک ساعت برای عملکرد این شرط زمان نیاز باشد.
 
 **5.  خاتمه مستقیم انتظار:** در این قسمت می توانید یک کاربر/گروه و یا سمت را به عنوان مالک انتظار مشخص کنید، مالک انتظار می تواند قبل از فرا رسیدن مدت انقضای انتظار یا برقراری شرط، انتظار را به صورت دستی به پایان برساند (انتظار را بشکند) مالک انتظار می تواند یک کاربر مشخص، آخرین مسئول یکی از کارتابل های فرآیند یا یک فیلد از نوع لیست کاربر/گروه آیتم تحت چرخه باشد، در صورتی که گزینه فیلد را انتخاب کنید می توانید یک کاربر/گروه و یا مسئول پروفایل ها را به عنوان مالک انتظار در صورت خالی بودن فیلد مربوطه در نظر بگیرید.
+
+![IMG-1533](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Delay1.webp>)
 
 **6**. در صورتی که این گزینه فعال باشد، پس از اتمام دستی انتظار توسط کاربر مالک انتظار، صفحه آیتم مربوطه بسته خواهد شد.
 
@@ -675,6 +747,8 @@
 #### پیاده‌سازی تخصیص مقدار پیشرفته با استفاده از expression
 برای پیاده‌سازی تخصیص مقدار پیشرفته، پس از تعیین مبدا و مقصد و ایجاد فیلدهای مورد نیاز،‌ فعالیت تخصیص مقدار را در بخش مناسب فرآیند خود قرار دهید. برای تنظیم فعالیت، چک باکس **اعمال** و **عبارت** را فعال نمایید. سپس دستور expression مورد نیاز را در فیلد مربوطه وارد کنید. شیوه‌ی نوشتن دستورات در بخش  نوشتن expression برای تخصیص مقدار پیشرفته به صورت کامل توضیح داده شده است. بهتر است دستور را در صفحه Notepad نوشته و آن را در این قسمت paste نمایید.
 
+![IMG-1509: تنظیم expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/advanced-value-allocation-expression-code-2.8.0.webp>)
+
 به طور خلاصه برای استفاده از تخصیص مقدار پیشرفته باید مراحل زیر را طی کنید:
 
 1. فیلدهای مبدا و مقصد را مشخص کنید و در صورت نیاز فیلدهای آن‌ را ایجاد نمایید.
@@ -710,6 +784,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 @(this.Select(Identity/Parent/Children.Item.ExtendedFieldCode@ItemKey));
 ```
 تصویر زیر نیز قالب بالا را به زبان فارسی توضیح می‌دهد.
+
+![IMG-1510: expression tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-2.8.0.webp>)
 
 در این تصویر فوق:
 - استفاده از this به معنای ارجاع دادن به آیتم فعلی (آیتم مقصد که چرخه روی آن طراحی شده است) می‌باشد. این بخش ثابت بوده و در ابتدای هر دستوری درج می‌شود.
@@ -824,6 +900,8 @@ SettlementTerms از طریق شخصی‌سازی اضافه کرده‌اید. 
 - Take: آیتم nام از بین لیستی که به صورت صعودی یا نزولی مرتب شده انتخاب می‌شود.
 - TakeOrDefault: با استفاده از این دستور در صورت موجود نبودن nامین مورد انتخابی،‌ مقداری که به عنوان پیش‌فرض انتخاب شده است، به عنوان خروجی نمایش داده می‌شود.
 
+![IMG-1511: Order tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-for-order-2.8.0.webp>)
+
 به طور کلی برای استفاده از قالب قابل مشاهده در تصویر بالا استفاده می‌شود. قسمت آبی رنگ کد تنها در صورت پیش‌فرض نبودن فیلد مبدا و قسمت سبز رنگ در صورت پیش‌فرض نبودن فیلد مبنای مرتب‌سازی در دستور درج شود.
 
 **مثال ۸:**
@@ -923,6 +1001,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 @(this.Select(Identity/Parent/Children.Item.ExtendedFieldCode@ItemKey));
 ```
 تصویر زیر نیز قالب بالا را به زبان فارسی توضیح می‌دهد.
+
+![IMG-1510: expression tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-2.8.0.webp>)
 
 در تصویر فوق:
 - استفاده از this به معنای ارجاع دادن به آیتم فعلی (آیتم مقصد که چرخه روی آن طراحی شده است) می‌باشد. این بخش ثابت بوده و در ابتدای هر دستوری درج می‌شود.
@@ -1044,6 +1124,8 @@ SettlementTerms از طریق شخصی‌سازی اضافه کرده‌اید. 
 - OrderDes: برای مرتب کردن به صورت نزولی استفاده می‌شود. چنانچه شما فیلد تاریخی را به صورت نزولی مرتب نمایید، اولین مورد در حقیقت جدیدترین خواهد بود.
 - Take: آیتم nام از بین لیستی که به صورت صعودی یا نزولی مرتب شده انتخاب می‌شود.
 - TakeOrDefault: با استفاده از این دستور در صورت موجود نبودن nامین مورد انتخابی،‌ مقداری که به عنوان پیش‌فرض انتخاب شده است، به عنوان خروجی نمایش داده می‌شود.
+
+![IMG-1511: Order tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-for-order-2.8.0.webp>)
 
 به طور کلی برای استفاده از قالب قابل مشاهده در تصویر بالا استفاده می‌شود. قسمت آبی رنگ کد تنها در صورت پیش‌فرض نبودن فیلد مبدا و قسمت سبز رنگ در صورت پیش‌فرض نبودن فیلد مبنای مرتب‌سازی در دستور درج شود.
 
@@ -1225,6 +1307,8 @@ CustomerTicket).OrderDes(Children.Ticket.EndDate@CustomerTicket).Take(1));
 #### پیاده‌سازی تخصیص مقدار پیشرفته با استفاده از expression
 برای پیاده‌سازی تخصیص مقدار پیشرفته، پس از تعیین مبدا و مقصد و ایجاد فیلدهای مورد نیاز،‌ فعالیت تخصیص مقدار را در بخش مناسب فرآیند خود قرار دهید. برای تنظیم فعالیت، چک باکس **اعمال** و **عبارت** را فعال نمایید. سپس دستور expression مورد نیاز را در فیلد مربوطه وارد کنید. شیوه‌ی نوشتن دستورات در بخش  نوشتن expression برای تخصیص مقدار پیشرفته به صورت کامل توضیح داده شده است. بهتر است دستور را در صفحه Notepad نوشته و آن را در این قسمت paste نمایید.
 
+![IMG-1509: تنظیم expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/advanced-value-allocation-expression-code-2.8.0.webp>)
+
 به طور خلاصه برای استفاده از تخصیص مقدار پیشرفته باید مراحل زیر را طی کنید:
 
 1. فیلدهای مبدا و مقصد را مشخص کنید و در صورت نیاز فیلدهای آن‌ را ایجاد نمایید.
@@ -1264,6 +1348,8 @@ CustomerTicket).OrderDes(Children.Ticket.EndDate@CustomerTicket).Take(1));
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1289,6 +1375,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ;Select @( Expression) نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 #### لیست فیلدهای قابل پشتیبانی جهت تعیین مقدار از طریق Expression:
 
@@ -1455,6 +1543,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 >در صورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1480,6 +1570,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ;Select @(Expression) نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 #### لیست فیلدهای قابل پشتیبانی جهت تعیین مقدار از طریق Expression:
 
@@ -1691,6 +1783,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1719,6 +1813,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@ در فعال
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ; (Expression)@ نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 ##### نمونه‌هایی از نحوه‌ی تعریف Expression
 در این قسمت با مثال‌هایی طریقه نوشتن Expression آموزش داده می‌شود:
@@ -1911,6 +2007,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1939,6 +2037,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@ در فعال
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ; (Expression)@ نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 ##### نمونه‌هایی از نحوه‌ی تعریف Expression
 در این قسمت با مثال‌هایی طریقه نوشتن Expression آموزش داده می‌شود:
@@ -2088,6 +2188,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@ در فعال
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -2113,6 +2215,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ;Select @( Expression) نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 #### لیست فیلدهای قابل پشتیبانی جهت تعیین مقدار از طریق Expression:{#ValidFieldInExpression}
 
@@ -2261,6 +2365,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در فرآیندهای کاری، فعالیت جدیدی به نام اطلاع رسانی به کاربر اضافه شده است که با استفاده از فعالیت اطلاع رسانی به کاربر، می‌توان بصورت خودکار نظری را بر روی آن آیتم به کاربر یا گروه کاربری ارسال نمود.
 
+![IMG-1500](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/Naam.webp>)
+
 **1. نام:** نام فعالیت را مشخص کنید.
 
 **2. نوع:** نوع فعالیت را مشخص کنید. در صورتی که فعالیت ابتدای فرآیند باشد نوع فعالیت را اولیه گذاشته و در غیر اینصورت نوع  معمولی را انتخاب کرده.
@@ -2268,6 +2374,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **3. کد:** در این قسمت یک کد برای فعالیت مربوطه مشخص کنید. کاربرد فیلد کد بمنظور استفاده در وب سرویس است.
 
 **4. توضیحات:** توضیحات تکمیلی را در این قسمت وارد نمایید.
+
+![IMG-1501](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/MasouleKartabl1.webp>)
 
 می‌توان از بین گروه/کاربر/سمت مشخص و آخرین مسؤل مشخص کرد کارتابل بدست چه کاربری برسد.
 
@@ -2277,11 +2385,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **6**. می‌توان کاربر را از بین کاربر، گروه و سمت مشخص کرد.
 
+![IMG-1502](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/MasouleKartabl2.webp>)
+
 ##### در صورت انتخاب آخرین مسؤل:
 
 **7**. می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه سمتی شود.
 
 **8. وضعیت:** مشخص کردن کارتابل مورد نظر.
+
+![IMG-1503](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/peyghamVahaalatebaadi.webp>)
 
 **9. پیغام:** در این قسمت متن نظر خود را وارد نمایید.
 
@@ -2293,6 +2405,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت می توانید در فرایند به صورت خودکار به هویت مرتبط با این آیتم تحت چرخه شماره مشتری اختصاص دهید، به طور مثال در فرایند فرصت فروش میخواهید پس از تایید فاکتور و دریافت مرتبط با فرصت، در صورت جدید بودن مشتری، شماره مشتری به او تخصیص داده شود. شماره مشتری هم می تواند به هویت مرتبط با آیتم و هم به هویت های متصل شده به فیلدهای از نوع شرکت/شخص تعریف شده در آیتم اختصاص داده شود.
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
+
+![IMG-1467](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocation-of-customer-number/AssignCustomerNo.webp>)
 
 **1**. در صورت فعال بودن این گزینه، به هویت مرتبط با آیتم تحت چرخه شماره مشتری اختصاص داده خواهد شد.
 
@@ -2311,7 +2425,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید، می خواهید در فرآیند فرصت پس از صدور پیش فاکتور فروش توسط کارشناس و تایید آن، پیش نمایش پیش فاکتور توسط دستگاه چاپگر مسئول بایگانی پرینت شود تا آن را در پرونده مشتری بایگانی کند.کافی است در قسمت تنظیمات متن، گزینه Send this  Field را انتخاب کرده و پس از آن فیلد پیش فاکتور را انتخاب کنید.
 
+![IMG-1514: تصویر تنظیمات Send this field در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-print-activity_2.5.6.webp>)
+
 > نکته: در صورتی که گزینه SpecificContent را انتخاب کنید، باید متن ارسالی را از طریق ابزار WebClientTool تنظیم کنید. برای اطلاع در خصوص تنظیم محتوای یک چاپ به قسمت تنظیم متن مراجعه کنید.
+
+![IMG-1515: تصویر تنظیمات Send Specific Content در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-specific-content-in-print-activity_2.5.6.webp>)
 
 ## فعالیت چاپ (Print)
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/PrintActivity_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/PrintActivity_2.7.5.md)
@@ -2350,6 +2468,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **توضیحات:** به تعداد زبان‌هایی که در تنظیمات زبان سیستم تعریف کرده باشید می‌توانید برای فعالیت چاپ، توضیحاتی ثبت نمایید که راهنمایی برای راهبری چرخه‌کاری باشد.
 
+![IMG-1516: تنظیمات نام و توضیحات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-fax-activity-set-name_2.7.5.webp>)
+
 ##### تنظیمات گیرنده/گیرندگان در فعالیت چاپ
 برای تعیین کردن گیرنده چاپ در طی فرآیند به روش‌های مختلفی می‌توانید عمل کنید.
 - **شرکت/فرد مرتبط**
@@ -2358,11 +2478,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
     دقت داشته باشید که **شماره چاپ پیش‌فرض** تعیین شده در اطلاعات هویت، برای چاپ در نظر گرفته می‌شود.
 
+![IMG-1517: شرکت/فرد مرتبط در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Related-contact_2.7.5.webp>)
+
 - **گیرنده دلخواه**
 
    با این گزینه می‌توانید یک شماره چاپ را در کادر نمایش داده شده ثبت کنید که هر بار فرآیند به این مرحله رسید، چاپ را به آن شماره ارسال کند.
 
    لازم به ذکر است که این شماره همیشه **ثابت** است و تنها **راهبر** یا **کاربر دارای مجوز شخصی‌سازی موجودیت‌ها**، می‌تواند شماره را در تنظیمات فعالیت چاپ تغییر دهد.
+
+![IMG-1518: گیرنده دلخواه در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Preffered-contact-send-message-activities_2.7.5.webp>)
 
 - **کاربر/سمت/گروه/دپارتمان**
 
@@ -2373,9 +2497,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
    فرض کنید سازمانی دارای چندین شعبه باشد و فرآیند ارزیابی سالانه‌ برای عملکرد شعب اجرا شده باشد.
  می‌توان با ایجاد یک گروه کاربری از مدیران شعب مختلف، تنظیمات گیرنده چاپ را روی این گزینه قرار داد و گروه کاربری مدیران شعب انتخاب شود. در این حالت بخشنامه ارزیابی سالیانه در این مرحله از فرآیند به گروه مدیران به صورت خودکار چاپ می‌شود.
 
+![IMG-1519: گیرنده کاربر، دپارتمان، سمت و گروه در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/User-Department-Group-Send-message-activities_2.7.5.webp>)
+
 - **فیلد**
 
    با انتخاب این گزینه گیرنده چاپ، از فیلد اضافه تعیین شده روی آیتم می‌خواند. فیلد اضافه تنها می‌تواند از نوع **کاربر** و **شرکت/شخص** باشد. در این حالت در طی فرآیند هویتی که در این فیلد تعیین شده باشد، گیرنده چاپ خواهد بود.
+
+![IMG-1520: فیلد گیرنده در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/field-of-contact-in-send-message-activities_2.7.5.webp>)
 
 ##### تنظیمات متن پیام در فعالیت چاپ
 به روش‌های مختلفی می‌توانید متن ارسالی خود به پرینتر را تنظیم نمایید.
@@ -2385,6 +2513,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    در این قسمت تنظیمات متن پیام انجام می‌شود که به روش‌های بارگذاری فایل ورد، انتخاب قالب پیام آماده و نگارش در Web client tool می‌توانید اقدام نمایید.
 
+![IMG-1521: تصویر Specific content در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/send-specific-content-in-fax-activity_2.7.5.webp>)
+
 - **ارسال این آیتم (Send this object)**
 
    با انتخاب این گزینه، پیش‌نمایش (قالب چاپ تنظیم شده) همین آیتم، یعنی آیتمی که روی آن چرخه‌کاری پیاده‌سازی شده است، برای چاپ انتخاب می‌شود. (در فعالیت‌های ارسال پیام‌کوتاه و ارسال پیام شبکه اجتماعی این گزینه وجود ندارد)
@@ -2392,10 +2522,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    با انتخاب این گزینه می‌توانید **قالب چاپ** یکی از **فیلدهای اضافه‌ی CRM** پیوست شده به این آیتم (فیلدهایی مانند فرم، فاکتور، حواله انبار و ...) را برای چاپ در نظر بگیرید. (در فعالیت های ارسال پیام کوتاه و ارسال پیام شبکه اجتماعی قابل انتخاب نیست)
 
+![IMG-1522: send this field در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-fax-activity_2.7.5.webp>)
+
 ###### قابلیت کوتاه‌سازی لینک در متن پیام {#ShortlinkPrint}
 به کمک چک باکس **کوتاه‌سازی لینک‌های متن** می‌توانید لینک‌هایی که در متن پیام خود ارسال می‌کنید را کوتاه کرده و لینک کوتاه شده را در متن خود چاپ نمایید.
 
 این قابلیت برای "فعالیت‌های ارسال پیام کوتاه"، ا"رسال چاپ" و "چاپ" قابل استفاده است.
+
+![IMG-1523: کوتاه‌سازی لینک در متن پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/short-link-in-fax-activity_2.7.5.webp>)
 
 ##### تنظیمات خط در فعالیت چاپ
 در این قسمت پرینتری که با آن باید چاپ در طی فرآیند انجام شود را تعیین کنید. نحوه تنظیم آن به دو روش انتخابی و پیش‌فرض است که در ادامه شرح داده می‌شود:
@@ -2413,6 +2547,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
  قسمت تنظیمات گیرنده، گیرنده مورد نظر را مشخص کنید و در قسمت تنظیمات متن، نوع پیام ارسالی (که می تواند یک متن مشخص، پیش نمایش همین آیتم یا پیش نمایش یکی از
 
 فیلدهای رفرنسی آیتم باشد) را مشخص کنید.
+
+![IMG-1524: تنظیمات مشترک فعالیت‌های ارسال پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/CommunicationActivity123.webp>)
 
 #### A. تنظیمات گیرنده پیام:
 
@@ -2463,6 +2599,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید می خواهید پیش نمایش پیش فاکتور مشتری، در فرآیند فرصت فروش از طریق ایمیل برای او ارسال شود. کافی است در قسمت تنظیمات متن، گزینه Send this  Field را انتخاب کرده و پس از آن فیلد پیش فاکتور را انتخاب کنید.
 
+![IMG-1525: تصویر تنظیمات فعالیت ارسال ایمیل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-email-activity-preview-of-crmObject-field_2.5.6.webp>)
+
 ## فعالیت ارسال فکس
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActivity_2.5.6.md` · `نسخه سند: 2.5.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActivity_2.5.6.md)
 
@@ -2474,7 +2612,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید می خواهید پیش نمایش پیش فاکتور مشتری، در فرآیند فرصت فروش از طریق فکس برای او ارسال شود. کافی است در قسمت تنظیمات متن، گزینه Send this  Field را انتخاب کرده و پس از آن فیلد پیش فاکتور را انتخاب کنید.
 
+![IMG-1526: تصویر send this field در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-fax-activity-setting_2.5.6.webp>)
+
 > **نکته:** در صورتی که گزینه Specific Content را انتخاب کنید، باید متن ارسالی را از طریق ابزار WebClientTool تنظیم کنید. برای اطلاع در خصوص تنظیم محتوای یک فکس به قسمت تنظیم متن مراجعه کنید.
+
+![IMG-1527: تصویر Send specific content در فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-specific-content-in-fax-activity_2.5.6.webp>)
 
 ## فعالیت ارسال فکس
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActiviy_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActiviy_2.7.5.md)
@@ -2519,6 +2661,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **توضیحات:** به تعداد زبان‌هایی که در تنظیمات زبان سیستم تعریف کرده باشید می‌توانید برای فعالیت فکس، توضیحاتی ثبت نمایید که راهنمایی برای راهبری چرخه‌کاری باشد.
 
+![IMG-1516: تنظیمات نام و توضیحات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-fax-activity-set-name_2.7.5.webp>)
+
 ##### تنظیمات گیرنده/گیرندگان در فعالیت ارسال فکس
 برای تعیین کردن گیرنده فکس در طی فرآیند به روش‌های مختلفی می‌توانید عمل کنید.
 - **شرکت/فرد مرتبط**
@@ -2527,11 +2671,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
     دقت داشته باشید که **شماره فکس پیش‌فرض** تعیین شده در اطلاعات هویت، برای ارسال فکس در نظر گرفته می‌شود.
 
+![IMG-1517: شرکت/فرد مرتبط در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Related-contact_2.7.5.webp>)
+
 - **گیرنده دلخواه**
 
    با این گزینه می‌توانید یک شماره فکس را در کادر نمایش داده شده ثبت کنید که هر بار فرآیند به این مرحله رسید، فکس را به آن شماره ارسال کند.
 
    لازم به ذکر است که این شماره همیشه **ثابت** است و تنها **راهبر** یا **کاربر دارای مجوز شخصی‌سازی موجودیت‌ها**، می‌تواند شماره را در تنظیمات فعالیت ارسال فکس تغییر دهد.
+
+![IMG-1518: گیرنده دلخواه در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Preffered-contact-send-message-activities_2.7.5.webp>)
 
 - **کاربر/سمت/گروه/دپارتمان**
 
@@ -2542,9 +2690,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
    فرض کنید سازمانی دارای چندین شعبه باشد و فرآیند ارزیابی سالانه‌ برای عملکرد شعب اجرا شده باشد.
  می‌توان با ایجاد یک گروه کاربری از مدیران شعب مختلف، تنظیمات گیرنده فکس را روی این گزینه قرار داد و گروه کاربری مدیران شعب انتخاب شود. در این حالت بخشنامه ارزیابی سالیانه در این مرحله از فرآیند به گروه مدیران به صورت خودکار فکس می‌شود.
 
+![IMG-1519: گیرنده کاربر، دپارتمان، سمت و گروه در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/User-Department-Group-Send-message-activities_2.7.5.webp>)
+
 - **فیلد**
 
    با انتخاب این گزینه گیرنده فکس، از فیلد اضافه تعیین شده روی آیتم می‌خواند. فیلد اضافه تنها می‌تواند از نوع **کاربر** و **شرکت/شخص** باشد. در این حالت در طی فرآیند هویتی که در این فیلد تعیین شده باشد، گیرنده فکس خواهد بود.
+
+![IMG-1520: فیلد گیرنده در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/field-of-contact-in-send-message-activities_2.7.5.webp>)
 
 ##### تنظیمات متن پیام در فعالیت ارسال فکس
 به روش‌های مختلفی می‌توانید متن پیام ارسالی خود را تنظیم نمایید.
@@ -2554,6 +2706,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    در این قسمت تنظیمات متن پیام انجام می‌شود که به روش‌های بارگذاری فایل ورد، انتخاب قالب پیام آماده و نگارش در Web client tool می‌توانید اقدام نمایید.
 
+![IMG-1521: تصویر Specific content در فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/send-specific-content-in-fax-activity_2.7.5.webp>)
+
 - **ارسال این آیتم (Send this object)**
 
    با انتخاب این گزینه، پیش‌نمایش (قالب چاپ تنظیم شده) همین آیتم، یعنی آیتمی که روی آن چرخه‌کاری پیاده‌سازی شده است، برای ارسال انتخاب می‌شود. (در فعالیت‌های ارسال پیام‌کوتاه و ارسال پیام شبکه اجتماعی این گزینه وجود ندارد)
@@ -2561,10 +2715,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    با انتخاب این گزینه می‌توانید **قالب چاپ** یکی از **فیلدهای اضافه‌ی CRM** پیوست شده به این آیتم (فیلدهایی مانند فرم، فاکتور، حواله انبار و ...) را برای ارسال در نظر بگیرید. (در فعالیت های ارسال پیام کوتاه و ارسال پیام شبکه اجتماعی قابل انتخاب نیست)
 
+![IMG-1522: send this field در فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-fax-activity_2.7.5.webp>)
+
 ###### قابلیت کوتاه‌سازی لینک در متن پیام {#ShortlinkFax}
 به کمک چک باکس **کوتاه‌سازی لینک‌های متن** می‌توانید لینک‌هایی که در متن پیام خود ارسال می‌کنید را کوتاه کرده و لینک کوتاه شده را در پیام برای مخاطب ارسال نمایید.
 
 این قابلیت برای "فعالیت‌های ارسال پیام کوتاه"، ا"رسال فکس" و "چاپ" قابل استفاده است.
+
+![IMG-1523: کوتاه‌سازی لینک در متن پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/short-link-in-fax-activity_2.7.5.webp>)
 
 ##### تنظیمات خط در فعالیت ارسال فکس
 در این قسمت خطی که با آن باید ارسال فکس در طی فرآیند انجام شود را تعیین کنید. نحوه تنظیم آن به دو روش انتخابی و پیش‌فرض است که در ادامه شرح داده می‌شود:
@@ -2584,6 +2742,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 به طور مثال فرض کنید می خواهید در فرآیند فرصت فروش، پس از ارسال کالا برای مشتری، اطلاعات ارسال برای او پیامک شود.
 
 > **نکته مهم:** درارسال پیامک امکان فرستادن قالب چاپ این آیتم (Send This Object) و فرستادن قالب چاپ یک فیلد وابسته (Send This Field) موجود نیست.
+
+![IMG-1528: تصویر تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-SMS-activity_2.5.6.webp>)
 
 ## فعالیت ارسال پیام کوتاه
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendSMSActivity_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendSMSActivity_2.7.5.md)
@@ -2624,6 +2784,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **توضیحات:** به تعداد زبان‌هایی که در تنظیمات زبان سیستم تعریف کرده باشید می‌توانید برای فعالیت پیام‌کوتاه، توضیحاتی ثبت نمایید که راهنمایی برای راهبری چرخه‌کاری باشد.
 
+![IMG-1516: تنظیمات نام و توضیحات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-fax-activity-set-name_2.7.5.webp>)
+
 ##### تنظیمات گیرنده/گیرندگان در فعالیت ارسال پیام‌کوتاه
 برای تعیین کردن گیرنده پیام‌کوتاه در طی فرآیند به روش‌های مختلفی می‌توانید عمل کنید.
 - **شرکت/فرد مرتبط**
@@ -2632,11 +2794,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
     دقت داشته باشید که **شماره پیام‌کوتاه پیش‌فرض** تعیین شده در اطلاعات هویت، برای ارسال پیام‌کوتاه در نظر گرفته می‌شود.
 
+![IMG-1517: شرکت/فرد مرتبط در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Related-contact_2.7.5.webp>)
+
 - **گیرنده دلخواه**
 
    با این گزینه می‌توانید یک شماره پیام‌کوتاه را در کادر نمایش داده شده ثبت کنید که هر بار فرآیند به این مرحله رسید، پیام‌کوتاه را به آن شماره ارسال کند.
 
    لازم به ذکر است که این شماره همیشه **ثابت** است و تنها **راهبر** یا **کاربر دارای مجوز شخصی‌سازی موجودیت‌ها**، می‌تواند شماره را در تنظیمات فعالیت ارسال پیام‌کوتاه تغییر دهد.
+
+![IMG-1518: گیرنده دلخواه در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Preffered-contact-send-message-activities_2.7.5.webp>)
 
 - **کاربر/سمت/گروه/دپارتمان**
 
@@ -2647,9 +2813,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
    فرض کنید سازمانی دارای چندین شعبه باشد و فرآیند ارزیابی سالانه‌ برای عملکرد شعب اجرا شده باشد.
  می‌توان با ایجاد یک گروه کاربری از مدیران شعب مختلف، تنظیمات گیرنده پیام‌کوتاه را روی این گزینه قرار داد و گروه کاربری مدیران شعب انتخاب شود. در این حالت بخشنامه ارزیابی سالیانه در این مرحله از فرآیند به گروه مدیران به صورت خودکار پیام‌کوتاه می‌شود.
 
+![IMG-1519: گیرنده کاربر، دپارتمان، سمت و گروه در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/User-Department-Group-Send-message-activities_2.7.5.webp>)
+
 - **فیلد**
 
    با انتخاب این گزینه گیرنده پیام‌کوتاه، از فیلد اضافه تعیین شده روی آیتم می‌خواند. فیلد اضافه تنها می‌تواند از نوع **کاربر** و **شرکت/شخص** باشد. در این حالت در طی فرآیند هویتی که در این فیلد تعیین شده باشد، گیرنده پیام‌کوتاه خواهد بود.
+
+![IMG-1520: فیلد گیرنده در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/field-of-contact-in-send-message-activities_2.7.5.webp>)
 
 ##### تنظیمات متن پیام در فعالیت ارسال پیام‌کوتاه
 در فعالیت ارسال پیام‌کوتاه می‌توانید یک متن در تنظیمات به کمک پارامترهای هوشمند تنظیم کرد یا از متن  قالب‌های از پیش تنظیم شده استفاده نمایید.
@@ -2660,6 +2830,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ***به عنوان مثال***
 فرض کنید می خواهید در فرآیند فرصت فروش، پس از ارسال کالا برای مشتری، اطلاعات ارسال برای او پیامک شود.
+
+![IMG-1529: صفحه تنظیمات فعالیت ارسال پیام کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/send-SMS-activity_2.7.5.webp>)
 
 > **نکته**
 
@@ -2672,6 +2844,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ***به عنوان مثال***
 فرض کنید می‌خواهید در پایان فرآیند فروش خود، لینک فرم نظرسنجی را برای مشتری خود ارسال کنید. برای اینکه تعداد کاراکتر متن پیام شما کوتاه شود، می‌توانید لینک فرم نظرسنجی خود را در متن پیام درج کرده و چک باکس **کوتاه‌سازی لینک‌های متن** را فعال نمایید.
+
+![IMG-1530: کوتاه‌سازی لینک در متن پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Example-for-Short-link-in-send-SMS-activity_2.7.5.webp>)
 
 ##### تنظیمات خط در فعالیت ارسال پیام‌کوتاه
 در این قسمت خطی که با آن باید ارسال پیام‌کوتاه در طی فرآیند انجام شود را تعیین کنید. نحوه تنظیم آن به دو روش انتخابی و پیش‌فرض است که در ادامه شرح داده می‌شود:
@@ -2688,13 +2862,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. میتوانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص میکند و با استفاده از فعالیت‌های تصمیم و قرار دادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرآیند در صورتی که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به صورت زیر خواهد بود)
 
+![IMG-1455](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Setavalue1.webp>)
+
  نحوه تخصیص مقدار به صورت زیر می‌باشد، کافیست نام، نوع و حالت بعدی فعالیت را مشخص کرده و تعیین کنید چه مقادیری به کدام فیلدها تخصیص پیدا کند.
+
+![IMG-1456](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Setavalue2.webp>)
 
 با وارد شدن فرآیند به این فعالیت، مقادیر وارد شده در هر یک از فیلدها که چک باکس "اعمال" برای آن‌ها فعال شده باشد، به فیلدها تخصیص پیدا می‌کند. (یعنی اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد)
 
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرآیند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش فاکتور، تایید پیش فاکتور، تایید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به صورت زیر)
+
+![IMG-1457](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Setavalue3.webp>)
 
 در مثال بالا، تاریخ اجرای فعالیت و همچنین ساعت اجرای آن به فیلدهای مشخص شده تخصیص می‌یابند.
 
@@ -2704,6 +2884,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت می‌توانید یک مقدار دلخواه را به یکی از فیلدهای آیتم تحت چرخه اختصاص دهید (این فیلدها می‌توانند فیلدهای پیش‌فرض و یا فیلدهای اضافه شده از قسمت شخصی‌سازی باشند)
 
 به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده‌اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. می‌توانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص می‌کند و با استفاده از فعالیت‌های تصمیم و قراردادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرایند درصورتی‌که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به‌صورت زیر خواهد بود)
+
+![IMG-1458: استفاده از فعالیت تخصیص مقدار در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Images/value-assignment-activity-flowchart.webp>)
 
 ##### تخصیص مقدار فیلدها از دو طریق انجام می‌شود:
 
@@ -2715,9 +2897,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد.
 
+![IMG-1459: استفاده از Expression در فعالیت تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Images/expression-in-assignment-value-activity.webp>)
+
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرایند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش‌فاکتور، تأیید پیش‌فاکتور، تأیید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به‌راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به‌صورت زیر)
+
+![IMG-1460: ثبت لحظه تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Images/time-of-assignment-value.webp>)
 
 > **نکته:**
 
@@ -2760,6 +2946,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده‌اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. می‌توانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص می‌کند و با استفاده از فعالیت‌های تصمیم و قراردادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرایند درصورتی‌که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به‌صورت زیر خواهد بود)
 
+![IMG-1464: استفاده از فعالیت تخصیص مقدار در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.1/Set-value-in-progress.webp>)
+
 ##### تخصیص مقدار فیلدها از دو طریق انجام می‌شود:
 
 **1)**    با فعال‌کردن چک باکس اعمال و تعیین مقدار موردنظر، آن فیلد طی این فرایند مقداردهی می‌شود.
@@ -2768,9 +2956,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد.
 
+![IMG-1465: استفاده از Expression در فعالیت تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.1/Expression-in-set-value-activity.webp>)
+
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرایند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش‌فاکتور، تأیید پیش‌فاکتور، تأیید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به‌راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به‌صورت زیر)
+
+![IMG-1466: ثبت لحظه تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.1/Time-of-set-value.webp>)
 
 > **نکته:**
 
@@ -2813,6 +3005,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده‌اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. می‌توانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص می‌کند و با استفاده از فعالیت‌های تصمیم و قراردادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرایند درصورتی‌که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به‌صورت زیر خواهد بود)
 
+![IMG-1461](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.0/Setavalue1.webp>)
+
 ##### تخصیص مقدار فیلدها از دو طریق انجام می‌شود:
 
 **1)**    با فعال‌کردن چک باکس اعمال و تعیین مقدار موردنظر، آن فیلد طی این فرایند مقداردهی می‌شود.
@@ -2821,9 +3015,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد.
 
+![IMG-1462](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.0/allocate1.webp>)
+
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرایند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش‌فاکتور، تأیید پیش‌فاکتور، تأیید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به‌راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به‌صورت زیر)
+
+![IMG-1463](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.0/allocate3.webp>)
 
 > **نکته:**
 
@@ -2874,6 +3072,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 تنظیمات این فعالیت به صورت زیر می باشد. کافیست نام فعالیت ، نوع و حالت بعدی فرآیند را تعیین کرده و مشخص کنید فیلد مرحله فروش به کدام مرحله تغییر کند.
 
+![IMG-1499](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Determining-the-stage/50.webp>)
+
 > نکته: برای تعریف و یا  ویرایش مراحل به قسمت به بخش مرحله بندی آیتم ها مراجعه کنید .
 
 ## فعالیت ایجاد کاربر باشگاه طی فرآیند
@@ -2884,6 +3084,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
  به طور مثال فرض کنید میخواهید در انتهای فرایند فرصت فروش در صورت جدید بودن مشتری و موفق شدن فرصت، یک کاربری برای این مشتری ایجاد شود.
 
 ##### تنظیمات این فعالیت به شرح زیر می باشد
+
+![IMG-1479](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Create-a-user/ejadkarbar.webp>)
 
 ابتدا نام و نوع فعالیت را مشخص کنید.
 
@@ -2905,6 +3107,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 فعالیت وب سرویس تنها فعالیتی است که می تواند به منابعی خارج از پیام گستر متصل شده و درواقع پلی بین پیام گستر و منبع خارجی مانند نرم افزار های دیگر باشد. همچنین زمانی که نتوانیم تمام نیازها را در قالب ماژول ها و فعالیت های موجود در فرآیند پیش ببریم می توانیم به راحتی از این فعالیت استفاده نماییم. پیش نیاز عملکرد این فعالیت، ایجاد وب سرویس و نوشتن آن توسط برنامه نویس، تعریف کلیدهای کاربر برای فیلدها و آیتم های مورد استفاده در وب سرویس ها می باشد. در نظر بگیرید زمانی که بخواهیم فرمی پس از رسیدن به مرحله ای فرم جدیدی را نیز ایجاد نموده و برخی از این فیلدهای فرم اول به داخل فرم دوم انتقال یابد. در این صورت پس از تعریف کردن کلیدهای کاربری و نوشتن سرویس مربوطه، این سرویس برروی آدرسی تحت عنوان آدرس سرویس پیاده سازی شده و این آدرس علاوه بر پارامترهای ورودی (فیلدها و فرم های درگیر در این سرویس) در فعالیت فراخوانی وب سرویس تعریف می گردند.
 
 در تنظیمات این فعالیت باید آدرس سرویس نوشته شده، نوع سرویس (Get یا Post) ، پارامترهای ورودی (مقادیری که از این آیتم به وب سرویس معرفی می شوند) و پارامترهای خروجی (مقادیری که به عنوان خروجی سرویس وارد فیلدهای آیتم می شوند) را وارد کرده و در انتها مشخص کنید که حالت بعدی فرآیند در صورت اجرای موفق وب سرویس و در صورت خطا کدام وضعیت ها باشد.
+
+![IMG-1468](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Call-service/Servicecall1.webp>)
 
 **آدرس سرویس:** آدرس سرویس مورد نظر برای فرآخوانی(تبادل اطلاعات) را وارد کنید .
 
@@ -2929,6 +3133,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 این فعالیت، لینک مربوط به قالب چاپ (پیش نمایش) آیتم تحت چرخه را به صورت خودکار ایجاد می کند تا برای اشتراک گذاری استفاده شود.
 
+![IMG-1534](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/ijad-link-eshtrakgozari/linkeshtrak.webp>)
+
 با استفاده از این لینک در مرورگر، قالب چاپ(پیش نمایش) آیتم مورد نظر قابل مشاهده است و امکان خروجی گرفتن از آن با فرمت PDF وجود دارد.
 
 > نکته: در نظر داشته باشید، لینک ایجاد شده در این قسمت مدت انقضا دارد و تا 2 ماه قابل استفاده است و بعد از اتمام مدت انقضا، آن لینک اعتباری ندارد و می بایست لینک اشتراک گذاری جدید ایجاد کنید.
@@ -2940,7 +3146,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای استفاده از این فعالیت از مسیر تنظیمات، شخصی‌سازی CRM، نمای کلی، ویرایش چرخه کاری اقدام نمایید. در این بخش با  انتخاب فعالیت جدید می‌توانید، از فعالیت اجرای دستورات پایگاه‌داده(SQL Activity) در فرایند استفاده کنید.
 
+![IMG-1480](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/63.webp>)
+
 در این فعالیت می‌بایست در ابتدا تعیین کنید در نظر دارید از پایگاه‌داده پیام‌گستر استفاده کنید یا می‌خواهید به پایگاه‌داده‌های دیگر متصل شوید. درصورتی‌که می‌خواهید از سایر پایگاه‌داده‌ها استفاده نمایید با انتخاب نوع پایگاه‌داده(در حال حاضر فقط SQL server پشتیبانی می‌گردد) و تعریف رشته اتصال (اطلاعات موردنیاز برای دسترسی به پایگاه اطلاعاتی) می‌توانید به آن پایگاه دسترسی داشته باشید.
+
+![IMG-1481](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/64.webp>)
 
  همانطور که در تصویر مشاهده می‌کنید برای نوشتن رشته اتصال باید اطلاعات پایگاه داده خود را وارد کنید.
 
@@ -2954,7 +3164,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  در صورتی که اطلاعات را به درستی وارد کرده باشید با کلیک بر روی گزینه تست باید تصویر زیر را مشاهده کنید.
 
+![IMG-1482](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/80.webp>)
+
 > در نظر داشته باشید درصورت استفاده از پایگاه‌داده پیام‌گستر نیازی به تعریف رشته اتصال نمی‌باشد و صرفاً می‌بایست دستور مدنظر را در بخش مربوطه وارد نمایید.
+
+![IMG-1483](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/65.webp>)
 
 برای نوشتن دستور در این فعالیت، علاوه بر دستورات SQL می‌توان از Custom Expression که به‌صورت مجزا در فایل پیوست شماره 5 توضیح داده شده است، استفاده نمایید.
 
@@ -2971,6 +3185,34 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 لازم به ذکر است در صورت عدم فعال‌بودن چک باکس "خروجی دارد"، فیلدی از آیتم جاری (تحت فرایند) مقداردهی نمی‌شود و اطلاعات به آیتم دیگر در پیام‌گستر یا به بانک اطلاعاتی موردنظر مطابق کوئری تعریف شده، منتقل می‌شود.
 
 ##### لیست فیلدهای پیش‌فرض موجودیت‌ها که امکان انتخاب آنها به‌عنوان پارامتر خروجی وجود دارد، به شرح زیر است:
+
+![IMG-1484](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/66.webp>)
+
+![IMG-1485](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/67.webp>)
+
+![IMG-1486](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/68.webp>)
+
+![IMG-1487](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/69.webp>)
+
+![IMG-1488](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/70.webp>)
+
+![IMG-1489](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/71.webp>)
+
+![IMG-1490](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/72.webp>)
+
+![IMG-1491](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/73.webp>)
+
+![IMG-1492](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/74.webp>)
+
+![IMG-1493](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/75.webp>)
+
+![IMG-1494](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/76.webp>)
+
+![IMG-1495](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/77.webp>)
+
+![IMG-1496](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/78.webp>)
+
+![IMG-1497](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/79.webp>)
 
 ##### لیست فیلدهای اضافه‌ی قابل پشتیبانی جهت انتخاب در پارامتر خروجی:
 
@@ -3035,7 +3277,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای استفاده از این فعالیت از مسیر تنظیمات، شخصی‌سازی CRM، نمای کلی، ویرایش چرخه کاری اقدام نمایید. در این بخش با  انتخاب فعالیت جدید می‌توانید، از فعالیت اجرای دستورات پایگاه‌داده(SQL Activity) در فرایند استفاده کنید.
 
+![IMG-1480](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/63.webp>)
+
 در این فعالیت می‌بایست در ابتدا تعیین کنید در نظر دارید از پایگاه‌داده پیام‌گستر استفاده کنید یا می‌خواهید به پایگاه‌داده‌های دیگر متصل شوید. درصورتی‌که می‌خواهید از سایر پایگاه‌داده‌ها استفاده نمایید با انتخاب نوع پایگاه‌داده(در حال حاضر فقط SQL server پشتیبانی می‌گردد) و تعریف رشته اتصال (اطلاعات موردنیاز برای دسترسی به پایگاه اطلاعاتی) می‌توانید به آن پایگاه دسترسی داشته باشید.
+
+![IMG-1481](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/64.webp>)
 
  همانطور که در تصویر مشاهده می‌کنید برای نوشتن رشته اتصال باید اطلاعات پایگاه داده خود را وارد کنید.
 
@@ -3049,7 +3295,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  در صورتی که اطلاعات را به درستی وارد کرده باشید با کلیک بر روی گزینه تست باید تصویر زیر را مشاهده کنید.
 
+![IMG-1482](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/80.webp>)
+
 > در نظر داشته باشید درصورت استفاده از پایگاه‌داده پیام‌گستر نیازی به تعریف رشته اتصال نمی‌باشد و صرفاً می‌بایست دستور مدنظر را در بخش مربوطه وارد نمایید.
+
+![IMG-1483](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/65.webp>)
 
 برای نوشتن دستور در این فعالیت، علاوه بر دستورات SQL می‌توان از Custom Expression که به‌صورت مجزا در فایل پیوست شماره 5 توضیح داده شده است، استفاده نمایید.
 
@@ -3068,6 +3318,34 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 لازم به ذکر است در صورت عدم فعال‌بودن چک باکس "خروجی دارد"، فیلدی از آیتم جاری (تحت فرایند) مقداردهی نمی‌شود و اطلاعات به آیتم دیگر در پیام‌گستر یا به بانک اطلاعاتی موردنظر مطابق کوئری تعریف شده، منتقل می‌شود.
 
 ##### لیست فیلدهای پیش‌فرض موجودیت‌ها که امکان انتخاب آنها به‌عنوان پارامتر خروجی وجود دارد، به شرح زیر است:
+
+![IMG-1484](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/66.webp>)
+
+![IMG-1485](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/67.webp>)
+
+![IMG-1486](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/68.webp>)
+
+![IMG-1487](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/69.webp>)
+
+![IMG-1488](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/70.webp>)
+
+![IMG-1489](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/71.webp>)
+
+![IMG-1490](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/72.webp>)
+
+![IMG-1491](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/73.webp>)
+
+![IMG-1492](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/74.webp>)
+
+![IMG-1493](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/75.webp>)
+
+![IMG-1494](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/76.webp>)
+
+![IMG-1495](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/77.webp>)
+
+![IMG-1496](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/78.webp>)
+
+![IMG-1497](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/79.webp>)
 
 ##### لیست فیلدهای اضافه‌ی قابل پشتیبانی جهت انتخاب در پارامتر خروجی:
 
@@ -3134,6 +3412,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 پس از تعیین آیتمی که قصد تایید/رد آن را دارید، نام، نوع و حالت بعدی فعالیت را تعیین کرده و روی دکمه تایید کلیک کنید
 
+![IMG-1537](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/taid-rad-anbar/Approvingwarehouserecipt1.webp>)
+
 **1. همین آیتم:** در صورتی که چرخه کاری بر روی آیتم از نوع تراکنش انبار پیاده سازی شده است و قصد تایید/رد آن را دارید، این گزینه را انتخاب کنید.
 
 **2. فیلد:** یک فیلد وابسته از نوع رسید/حواله انبار را میتوانید برای تایید و یا رد شدن انتخاب کنید. در صورت انتخاب این گزینه فیلد مورد نظر خود را از لیست انتخاب کنید.
@@ -3146,6 +3426,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت می توانید یک وظیفه به صورت خودکار توسط سیستم ایجاد کنید و به یکی از کاربرها ارجاع دهید.
 
 به طور مثال فرض کنید که برای فروش محصول به مشتری وجود توافقنامه در سوابق آن الزامی است، میتوانید یک فعالیت ثبت وظیفه در فرایند ایجاد کنید که کاربر در صورت نبود توافقنامه برای مشتری، فرایند را به این فعالیت هدایت کند و یک وظیفه برای کاربر مسئول ثبت توافقنامه ایجاد شود. مزیت استفاده از این فعالیت نسبت به ثبت وظیفه به صورت دستی این است که میتوانید عنوان، توضیحات و پاراف وظیفه را از یکی از فیلدهای همین آیتم وارد کنید.
+
+![IMG-1504](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Job-registration/Settask.webp>)
 
 برای ایجاد این فعالیت، پس از تعیین نام، نوع و حالت بعدی فرآیند، سایر تنظیمات را مطابق توضیحات زیر انجام دهید :
 
@@ -3167,6 +3449,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Membership/Membership.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Membership/Membership.md)
 
 با استفاده از این فعالیت می توانید هویت مرتبط با این آیتم را به یک دسته بندی بانک اطلاعاتی/گروه هدف اضافه کنید و یا از آن دسته بندی/گروه هدف، هویت را حذف کنید. برای مثال فرض کنید یک فرایند برای فرم شرکت در سمینار طراحی کرده اید، می توانید در این فرایند با استفاده از یک فعالیت عضویت تمامی هویت هایی که این فرم برایشان ثبت می شود را به گروه هدف "دعوت به سمینار و همایش" اضافه کنید. و از این گروه برای اهداف تبلیغاتی استفاده کنید.
+
+![IMG-1507](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Membership/Membership.webp>)
 
 برای ایجاد این فعالیت، پس از تعیین نام، نوع و حالت بعدی فرآیند، سایر تنظیمات را مطابق توضیحات زیر انجام دهید:
 
@@ -3196,6 +3480,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
+![IMG-1478](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Convert-type/ConvertCrmObject.webp>)
+
 **1**. در این قسمت لیست زیرنوع های ایجاد شده در شخصی سازی  برای آیتم تحت چرخه نمایش داده می شود و باید مشخص کنید که این آیتم به کدام زیرنوع تبدیل شود.
 
 **2**. حالت بعدی در صورت اجرای موفق تبدیل نوع را مشخص کنید، توجه داشته باشید با توجه به اینکه پس از اجرای این فعالیت، این آیتم به زیرنوع دیگری تغییر می کند، در این قسمت تنها میتوانید یکی از حالت های نهایی فرآیند را انتخاب کنید.
@@ -3208,6 +3494,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این دو فعالیت می توانید یک آیتم crm که نیاز به تایید یا شماره گذاری دارد را به صورت خودکار در روال فرآیند، توسط سیستم تایید/شماره گذاری و یا رد کنید(این آیتم ها شامل پیش فاکتور/فاکتور، دریافت/پرداخت یا قرارداد مالی/حقوقی می باشند).
 
 به طور مثال فرض کنید میخواهید در فرایند طراحی شده روی آیتم فرصت، پیش فاکتور متصل شده به فیلد پیش فاکتور فروش آن، پس از رویت و تایید مدیر فروش به صورت خودکار توسط سیستم تایید و شماره گذاری شود، و مدیر فروش برای تایید آن به کارتابل خود رجوع نکند، برای انجام این کار می توانید با استفاده از این فعالیت پس از کارتابل مدیر فروش با استفاده از اقدام تایید پیش فاکتور چرخه را به این فعالیت هدایت کنید تا فاکتور تایید شود.
+
+![IMG-1538](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/taid-rad-item/Approvingfinancialitem1.webp>)
 
 **1**. با فعال بودن این گزینه، پس از اجرای این فعالیت، آیتم مربوطه تایید خواهد شد.
 
@@ -3223,6 +3511,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** در فعالیت رد آیتم مالی صرفا باید آیتم مورد نظر را از طرق بالا مشخص کنید و حالت بعدی فرآیند را تعیین کنید.
 
+![IMG-1539](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/taid-rad-item/Approvingfinancialitem2.webp>)
+
 > **نکته:** برای استفاده از این فعالیت تایید/رد آیتم های مالی باید در نظر داشت که در شخصی سازی آیتم های مالی باید چک باکس نیاز به تایید فعال باشد .
 
 > **نکته مهم:** در صورتی که چرخه کاری فعال روی آیتم های دارای قابلیت تایید و شماره گذاری (مانند فاکتور، قرارداد، دریافت/پرداخت) داشته باشید و در چرخه فعالیت تایید/ رد آیتم را استفاده کرده باشید، پس از صدور برای تایید در کارتابل های مربوطه نمایش داده نخواهند شد و با استفاده این فعالیت به صورت خودکار انجام میپذیرد.
@@ -3233,6 +3523,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 می توانید با استفاده از این فعالیت یک قرار ملاقات در سوابق هویت مرتبط با آیتم تحت چرخه یا یک هویت دیگر ایجاد کنید، به طور مثال فرض کنید در فرایند فرصت فروش، برای بعضی از مشتریان نیاز به جلسه پرزنت محصول احساس می شود، در این صورت می توانید با استفاده از این فعالیت، قرار ملاقات مرتبط با جلسه پرزنت فروش را به صورت خودکار توسط سیستم ایجاد کنید. توجه داشته باشید در صورتی که این نوع قرار ملاقات چرخه کاری فعال داشته باشد، با ایجاد قرار ملاقات چرخه کاری مربوط به آن نیز فعال خواهد شد.
 
   برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
+
+![IMG-1506](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Make-appointments/SetMeeting.webp>)
 
 **1**. نوع قرار ملاقاتی که قصد ثبت آن با استفاده از این فعالیت دارید را از بین انواع قرار ملاقات های تعریف شده در شخصی سازی انتخاب کنید.
 
@@ -3291,7 +3583,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، شرط مورد نظر خود را تنظیم کرده و مشخص کنید که حالت بعدی در صورت برقراری و عدم برقراری شرط کدامیک از مراحل فرآیند باشد
 
+![IMG-1472](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Condition/Condition1.webp>)
+
 #### انواع شرط
+
+![IMG-1473](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Condition/Condition2.webp>)
 
 **1** . این شرط، عضویت، هویت مرتبط با آیتم تحت چرخه را در  یک دسته بندی بانک اطلاعاتی را مورد بررسی قرار می دهد که آیا هویت در دسته بندی انتخاب شده وجود دارد یا خیر . در صورت انتخاب این شرط، دسته بندی مورد نظر خود را تعیین کنید.
 
@@ -3312,11 +3608,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید فرآیند فرصت فروش تمامی مخاطبانی که خواهان تخفیف هستند را با استفاده از یک فعالیت انتظار  تا زمان شروع جشنواره به حالت تعلیق در می آورید. در صورتی که یک فرآیند برای شروع کمپین های تبلیغاتی داشته باشید می توانید پس از پذیرش اجرای کمپین با فراخوانی یک رویداد تمامی فرصت های فروشی که در حالت انتظار از این نوع هستند را به صورت یکجا از حالت انتظار خارج کرده و به کارتابل کارشناس فروش جهت پیگیری هدایت کنید.
 
+![IMG-1469](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Call-the-event/51.webp>)
+
 **1**.  نامی به فعالیت اختصاص دهید.
 
 **2**.  از بین رویدادهای تعریف شده درلیست رویدادها تعریف کرده اید رویداد مورد نظر خود را انتخاب کنید.
 
 **3**. گستره اعمال رویداد را مشخص کنید.
+
+![IMG-1470](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Call-the-event/52.webp>)
 
 **A-** فعالیت فراخوانی رویداد  در صورت انتخاب این گزینه تمامی فرآیندهایی که در حالت انتظار قرار دارند و شرط شکستن آنها بروز این رویداد می باشد، از حالت انتظار خارج خواهند شد.
 
@@ -3345,6 +3645,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از مشخص کردن نام و نوع فعالیت و همچنین تعیین حالت بعدی فرآیند، کافیست نوع فرم مورد نظر و حالت شروع فرآیند مربوط به آن فرم را مشخص کنید
 
+![IMG-1531](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Start-the-process/StartProcess.webp>)
+
 **1**. در این قسمت، از لیست انواع فرم های ایجاد شده در قسمت [مدیریت فرم ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Form-management/Form-management.md) نوع فرم مورد نظر خود که قصد ایجاد آن با استفاده از این فعالیت را دارید، انتخاب کنید.
 
 **2**. در صورتی که فرم انتخاب شده در مرحله قبل چرخه کاری فعال داشته باشد، در این قسمت لیست وضعیت های فرآیند آن (کارتابل ها و فعالیت ها) را مشاهده می کنید و می توانید وضعیت مورد نظر خود را انتخاب کنید. توجه داشته باشید غیر فعال بودن این فیلد به معنی نداشتن چرخه کاری فعال برای فرم مربوطه می باشد.
@@ -3356,6 +3658,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید. توجه داشته باشید که این توضیحات شامل تفاوت های ایجاد لینک پرداخت با استفاده از این فعالیت و ایجاد آن به صورت دستی می باشد. برای آشنایی با سایر تنظیمات، [ایجاد لینک پرداخت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Create-payment-link.md)را مطالعه کنید.
 
+![IMG-1535](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/ijad-link-pardakht/CreatePaymentLink.webp>)
+
 **1**. برای تعیین مبلغ لینک پرداخت ایجاد شده از طریق این فعالیت، 4 روش وجود دارد:
 
 **مقدار:** می توانید یک مقدار ثابت (برای همه لینک های پرداخت ایجاد شده از طریق این فعالیت) وارد کنید.
@@ -3366,6 +3670,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **مبلغ نهایی:** این گزینه در صورتی کاربرد دارد که آیتم تحت چرخه مالی/حقوقی باشد (پیش فاکتور، فاکتور، دریافت/پرداخت و قرارداد) و مبلغ نهایی آیتم به عنوان مبلغ لینک پرداخت در نظر گرفته خواهد شد.
 
 **2**. برای تعیین زمان انقضای لینک پرداخت ایجاد شده از طریق این فعالیت، در صورت انتخاب هریک از گزینه های تاریخ یا روز، می توانید یک مقدار ثابت (برای همه لینک های پرداخت ایجاد شده از طریق این فعالیت) یا یکی از فیلدهای آیتم تحت چرخه را به عنوان زمان انقضای لینک پرداخت در نظر بگیرید. (فیلد عدد در صورت انتخاب روز و فیلد تاریخ شمسی در صورت انتخاب تاریخ)
+
+![IMG-1536](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/ijad-link-pardakht/CreatePaymentLink2.webp>)
 
 **3**. درصورتی که پیام حاوی لینک پرداخت از طریق پیام کوتاه ارسال می گردد، با استفاده از فعالیت لینک پرداخت، علاوه بر امکان ارسال پیام به مدیر، رابط، سمت مشخص و یک شماره مشخص (مشابه با ایجاد لینک پرداخت به صورت دستی) می توانید شماره وارد شده در یکی از فیلدهای از نوع متن آیتم تحت چرخه را به عنوان گیرنده پیام کوتاه در نظر بگیرید.
 
@@ -3380,6 +3686,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
+![IMG-1471](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Computer-field-update/ExternalResources.webp>)
+
 **1**. در این قسمت، تمامی فیلدهای محاسباتی (فیلدهای از نوع فایل اکسل و از نوع وب سرویس) ساخته شده برای آیتم تحت چرخه نمایش داده می شود و می توانید فیلد یا فیلدهایی که قصد بروزرسانی مقدار آن ها با استفاده از این فعالیت را دارید انتخاب نمایید.
 
 **2**. حالت بعدی فرآیند در صورت اجرای موفق فعالیت (بروزرسانی موفق مقدار فیلدها) و حالت بعدی در صورت بروز خطا را مشخص کنید.
@@ -3390,6 +3698,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت میتوانید یک فرصت برای هویت مرتبط با این آیتم ثبت کنید، به طور مثال فرض کنید یک فرایند روی آیتم سرنخ ایجاد کرده اید و میخواهید پس از تبدیل این سرنخ به مخاطب، یک فرصت هم به صورت خودکار توسط سیستم برای مشتری ثبت گردد. توجه داشته باشید در صورتی که برای آیتم فرصت چرخه طراحی کرده باشید، چرخه کاری آن نیز با ثبت فرصت فعال خواهد شد. مزیت استفاده از این فعالیت نسبت به ثبت دستی فرصت اینست که می توانید عنوان فرصت را از فیلدهای متنی آیتم تحت چرخه انتخاب کنید و همچنین فرصت را به یکی از فیلدهای از نوع لیست کاربر و یا آخرین مسئول یکی از کارتابل ها اختصاص دهید.
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
+
+![IMG-1508](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Register-Opportunity/CreateSaleOpportunity.webp>)
 
 **1**.  نوع فرصت مورد نظر که می خواهید با استفاده از این فعالیت برای هویت مرتبط با این آیتم ایجاد شود ، از بین لیست انواع فرصت های تعریف شده در شخصی سازی، انتخاب کنید.
 
@@ -3408,6 +3718,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت و همچنین حالت بعدی فرآیند، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
+![IMG-1454](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Ad-to-blacklist/AddtoBlackList.webp>)
+
 **1**. نوع رسانه مورد نظر که قصد افزودن هویت مرتبط با آیتم تحت چرخه به لیست سیاه ارسال/دریافت پیام‌های آن را دارید انتخاب کرده و پس از آن خط مورد نظر خود را نیز از بین خطوط تنظیم شده در نرم افزار تعیین کنید. یعنی مشخص کنید که هویت در لیست سیاه کدام خط قرار گیرد.
 
 **2**. در صورت فعال بودن این گزینه، هویت مرتبط با آیتم تحت چرخه در لیست سیاه ارسال خط تعیین شده قرار می‌گیرد و ازین پس، پیام‌های ارسالی از این خط در نرم افزار پیام گستر، به این هویت ارسال نخواهد شد.
@@ -3424,6 +3736,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 به طور مثال فرض کنید میخواهیم یک چرخه کاری روی فاکتور فروش داشته باشیم، با استفاده از یک فعالیت تصمیم می توانیم مبلغ نهایی فاکتور را بررسی کنیم و این شرط را اعمال کنیم که اگر مبلغ کمتر از 10 میلیون باشد فاکتور به صورت خودکار توسط سیستم (با استفاده از یک فعالیت تایید آیتم مالی) تایید شود و در غیر اینصورت برای تایید وارد کارتابل مدیر فروش شود .
 
 ##### تنظیمات این فعالیت به شرح زیر می باشد:
+
+![IMG-1498](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Decision/Decison.webp>)
 
 **1**. نام مناسبی برای فعالیت برگزینید.
 
@@ -3446,9 +3760,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال در فلوچارت زیر، می توان دو فعالیت تصمیم را با استفاده از یک تصمیم چند شرطی ادغام نمود.
 
+![IMG-1474](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/Setavalue1.webp>)
+
  توجه داشته باشید که شرط های این فعالیت باید روی یک فیلد باشد.
 
 ##### تنظیمات این فعالیت به شرح زیر می باشد:
+
+![IMG-1475](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/MultipleDecision2.webp>)
 
 **1**. فیلد شرط را تعیین کنید. توجه داشته باشید که پس از تعیین یک شرط، این فیلد غیرفعال خواهد شد (به این معنی که تمامی شرط ها باید روی یک فیلد باشد).
 
@@ -3456,11 +3774,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **3**. برای تعریف شرط جدید روی این گزینه کلیک کنید.
 
+![IMG-1476](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/MultipleDecision3.webp>)
+
 **A-** عنوانی برای این شرط برگزینید.
 
 **B-** عملگر شرط را تعیین کنید. در واقع در این قسمت مقدار فیلد برای این شرط تعیین می شود.
 
 در این بخش با فعال کردن چک باکس عبارت، می توان شرطی را از طریق نوشتن Custom Expression که به صورت مجزا در بخش Expression توضیح داده شده است، تعریف نمود.
+
+![IMG-1477](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/MultipleDecision4.webp>)
 
 > **نکته:**:امکان استفاده از عبارت برای تعریف شرط در حال حاضر فقط بر روی آیتم‌هایی از نوع فرم، هویت، وظیفه، درخواست پشتیبانی و انواع فاکتور، پیش فاکتور و فاکتورهای برگشت از خرید و فروش قابل استفاده می باشد.
 
@@ -3503,12 +3825,18 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 فعالسازی فرآیند استقرار داده شده بر روی هر موجودیت باید از مسیر ذکر شده انجام شود. تا موجودیت پس از ذخیره در چرخه این فرآیند قرار گیرد.
 
+![IMG-1586](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/active-cycle/active-cycle.webp>)
+
 ## تعریف اقدام
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action.md)
 
 برای ساخت یک اقدام جدید، کارتابل مربوطه را انتخاب کرده و روی دکمه ایجاد عملیات جدید کلیک کنید.
 
+![IMG-1448](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action2.webp>)
+
 با کلیک بر روی این دکمه، پنجره زیر را مشاهده خواهید کرد.
+
+![IMG-1449](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action3.webp>)
 
 **1. نام اقدام:** یک نام مناسب برای اقدام برگزینید. از آنجایی که هر اقدام به صورت یک دکمه به کاربر نمایش داده می شود، این نام را به نحوی انتخاب کنید که کاربر معنی این اقدام را بداند. زیرا کاربران اطلاعی از جزئیات فرآیند پیاده سازی شده ندارند و صرفاً نام اقدام ها (و متن راهنمایی که برای اقدام ها می گذارید) مبنای تصمیم گیری آن ها برای انتخاب اقدام مناسب می باشد.
 
@@ -3522,6 +3850,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### نحوه نمایش اقدام ها و متون راهنمای تنظیم شده به صورت زیر می باشد:
 
+![IMG-1450](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action4.webp>)
+
 ## تنظیمات الزامی کردن فیلد در فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/elzam-feild.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/elzam-feild.md)
 
@@ -3531,7 +3861,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای تنظیم فیلدهای الزامی هر اقدام، روی دکمه الزام فیلدهای مربوط به آن اقدام کلیک کنید.
 
+![IMG-1451](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action5.webp>)
+
 با کلیک بر روی دکمه الزام فیلدها، لیست تمامی فیلدهایی که درکارتابل مربوط به این اقدام روی حالت نمایش قرار گرفته اند، نمایش داده خواهد شد و می توانید فیلدهای الزامی را تعیین کنید. توجه داشته باشید که در هر مرحله از فرآیند، تنها فیلدهایی قابل ویرایش هستند که روی حالت "نمایش" تنظیم شده باشند. برای اطلاع از چگونگی تنظیم حالت نمایش فیلدها، به توضیحات کارتابل مراجعه کنید.
+
+![IMG-1452](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action6.webp>)
 
 **1**. لیست فیلدهایی که در کارتابل مربوط به این اقدام روی حالت نمایش تنظیم شده اند به تفکیک گروه فیلدها در این قسمت نمایش داده می شوند و می توانید به راحتی با فعال کردن چک باکس مربوط به هریک از فیلدها، آن را برای این اقدام الزامی کنید.
 
@@ -3544,6 +3878,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ## ایجاد کارتابل
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardboard.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardboard.md)
 
+![IMG-1540](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable1.webp>)
+
 **A. نام:**
 
  نام کارتابل (مرحله گردش کار) مورد نظر را تعیین کنید. در واقع نام کارتابل، کاری است که باید در آن مرحله از گردش کار توسط کاربر انجام شود، بنابراین این نام را طوری برگزینید که کاربر هنگام مشاهده آن در کارتابل فرآیندها، مسئولیت خود در این مرحله را بداند.
@@ -3552,15 +3888,21 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر/گروه/سمت مشخص، آخرین مسئول یا فیلد تعیین کنید.
 
+![IMG-1541](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable2.webp>)
+
 **1.کاربر/گروه/سمت مشخص:** کاربر/گروه/سمت مرتبط را با انتخاب از لیست انتخاب می‌نمایید. ( برای ساخت کاربران و گروه‌های کاربری به مدیریت گروه‌ها و کاربران و برای ساخت سمت‌های جدید به قسمت [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) مراجعه کنید.
 
 ##### موارد 2 تا 7 فقط زمانی کاربرد دارند که مسئول کارتابل گروه یا سمتی باشد که به بیش از یک کاربر تخصیص داده شده است
 
 **2. قابلیت تخصیص به دیگران:** در صورت فعال بودن این گزینه، کاربر مسئول کارتابل می‌تواند کار را در همین مرحله به سایر کاربران عضو در گروه مسئول کارتابل تخصیص دهد.
 
+![IMG-1542](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable30.webp>)
+
 **3. تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
 **مثال1:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروش می‌باشد، بنابراین هریک از کارشناسان فروش می‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفاده می‌کنیم
+
+![IMG-1543](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable31.webp>)
 
 **4. تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی‌کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکار می‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیر می‌باشند:
 
@@ -3574,7 +3916,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **8. آخرین مسئول:**  در مواقعی استفاده می‌شود که در وسط چرخه می‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش داده می‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1544](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable32.webp>)
+
 مثال2: گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورت می‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1545](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئول می‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3582,7 +3928,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 شایان ذکر است می‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
+![IMG-1546](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable34.webp>)
+
 مثال3: گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)، می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1547](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable35.webp>)
 
 > نکته مهم: در صورتی که مسئول کارتابل را روی فیلد تنظیم می‌کنید، می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3598,13 +3948,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی‌(از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی‌مربوطه می‌باشد.
 
+![IMG-1548](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینه می‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1549](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینه می‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1550](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان، می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3614,9 +3970,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی‌برای مدیر دپارتمان و پس از 10 روز پیامی‌برای مدیر شعبه ارسال می‌گردد.)
 
+![IMG-1551](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیت می‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخص می‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاء می‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1552](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -3626,14 +3986,20 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع داده می‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1553](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable41.webp>)
+
 ## تنظیمات کارتابل در فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.7.5.3.md` · `نسخه سند: 2.7.5.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.7.5.3.md)
+
+![IMG-1554: صفحه تنظیمات کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable_2.7.5.3.webp>)
 
 ##### A. انتخاب نام کارتابل
  نام کارتابل (مرحله گردش کار) مورد نظر را تعیین کنید. در واقع نام کارتابل، کاری است که باید در آن مرحله از گردش کار توسط کاربر انجام شود، بنابراین این نام را طوری برگزینید که کاربر هنگام مشاهده آن در کارتابل فرآیندها، مسئولیت خود در این مرحله را بداند.
 
 ##### B. انتخاب مسئول کارتابل (مرتبط با)
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
+
+![IMG-1555: روش‌های انتخاب مسئول کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Assignment_2.7.5.3.webp>)
 
 ###### 1. انتخاب مستقیم
 در این روش به صورت مستقیم فرآیند را به کارتابل یک یا چند کاربر از پرسنل خود ارجاع می‌دهید.
@@ -3643,13 +4009,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    درصورتی که یکی از حالت‌های گروه کاربری، سمت و دپارتمان را انتخاب کنید، تنظیمات زیر نمایش داده می‌شود. گزینه‌های زیر این امکان را در اختیار شما می‌گذارد که در طی فرآیند مدیریت کارتابل بین افراد گروه به خوبی انجام شود.
 
+![IMG-1556: تنظیمات کارتابل در انتخاب گروهی کاربران](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-Cartable-to-other_2.7.5.3.webp>)
+
    **قابلیت تخصیص به دیگران:** در صورت فعال بودن این گزینه، کاربر مسئول کارتابل می‌تواند کار را در همین مرحله به سایر کاربران عضو در گروه مسئول کارتابل تخصیص دهد.
 
    **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
    **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
 
+![IMG-1557: مثال از تصویر فرآیند و کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Samlpe.webp>)
+
    **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
+
+![IMG-1558: تصویر حالت‌های مختلف تخصیص به آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/last-user-assignment-options.webp>)
 
    1. **صف برقرار شود:**  با فعال کردن این گزینه نرم افزار به صورت خودکار کاربری که کمترین کار را در این کارتابل دارد(بر اساس آیتم‌های موجود در کارتابل فرآیندها)، به عنوان مسئول کارتابل تعیین خواهد کرد.
    2. **اختصاص به کاربران حاضر:** اگر این گزینه فعال باشد، نرم افزار در اختصاص خودکار تنها کاربرانی را در نظر میگیرد که درروز جاری با نام کاربری خود وارد نرم افزار شده باشند.
@@ -3662,6 +4034,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### 2. انتخاب کاربر باشگاه مشتریان{#CustomerCartableSettingInClub}
 در این روش می‌توانید در حین فرآیند، در مواقعی که نیاز است مراحلی از کار توسط مشتری انجام شود، فرآیند را به کارتابل مشتری در بخش **باشگاه مشتریان** > **پیشخوان** ارجاع دهید.
 
+![IMG-1559: کارتابل مشتری در باشگاه مشتریان](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/User-Cartable-in-Club2.7.5.3.webp>)
+
 ###### 3. روش پیشرفته
 در این روش این امکان را دارید که مسئول کارتابل را بر اساس اطلاعاتی که در طی فرآیند ثبت می‌شوند، مسئول کارتابل را انتخاب نمایید.
 
@@ -3671,10 +4045,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل
 
+![IMG-1560: تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-last-user.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** در این قسمت کارتابلی که مسئول آن را به عنوان **آخرین مسئول** در نظر دارید، انتخاب کنید. دقت داشته باشید کارتابل انتخابی شما باید از بین مراحل گذشته انتخاب شود، زیرا باید آیتم در طی فرآیند یک بار از آن مراحل طی شده باشد.
 ###### تعیین مسئول کارتابل از طریق فیلد
+
+![IMG-1561: تعیین مسئول کارتابل از طریق فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-field.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -3685,6 +4063,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 شایان ذکر است می‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1547](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3702,9 +4082,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اگر مالک آیتم هم تعیین نشده بود، فرآیند به کارتابل کاربر تعیین شده در [**تنظیمات کلی** > **فرآیند**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Process/Process.md) ارجاع می‌دهد.
 
+![IMG-1562: تخصیص به مدیر آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/assign-cartabl-to-last-user-manager.webp>)
+
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1544](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1545](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3720,13 +4106,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1548](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1549](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1550](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3736,9 +4128,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1551](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1552](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -3748,14 +4144,20 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1553](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable41.webp>)
+
 ## تنظیمات کارتابل در فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.8.8.md` · `نسخه سند: 2.8.8` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.8.8.md)
+
+![IMG-1554: صفحه تنظیمات کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable_2.7.5.3.webp>)
 
 ##### A. انتخاب نام کارتابل
  نام کارتابل (مرحله گردش کار) مورد نظر را تعیین کنید. در واقع نام کارتابل، کاری است که باید در آن مرحله از گردش کار توسط کاربر انجام شود، بنابراین این نام را طوری برگزینید که کاربر هنگام مشاهده آن در کارتابل فرآیندها، مسئولیت خود در این مرحله را بداند.
 
 ##### B. انتخاب مسئول کارتابل (مرتبط با)
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
+
+![IMG-1555: روش‌های انتخاب مسئول کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Assignment_2.7.5.3.webp>)
 
 ###### 1. انتخاب مستقیم
 در این روش به صورت مستقیم فرآیند را به کارتابل یک یا چند کاربر از پرسنل خود ارجاع می‌دهید.
@@ -3765,13 +4167,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    درصورتی که یکی از حالت‌های گروه کاربری، سمت و دپارتمان را انتخاب کنید، تنظیمات زیر نمایش داده می‌شود. گزینه‌های زیر این امکان را در اختیار شما می‌گذارد که در طی فرآیند مدیریت کارتابل بین افراد گروه به خوبی انجام شود.
 
+![IMG-1556: تنظیمات کارتابل در انتخاب گروهی کاربران](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-Cartable-to-other_2.7.5.3.webp>)
+
    **قابلیت تخصیص به دیگران:** در صورت فعال بودن این گزینه، کاربر مسئول کارتابل می‌تواند کار را در همین مرحله به سایر کاربران عضو در گروه مسئول کارتابل تخصیص دهد.
 
    **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
    **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
 
+![IMG-1557: مثال از تصویر فرآیند و کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Samlpe.webp>)
+
    **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به ایgن مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
+
+![IMG-1563: تصویر حالت‌های مختلف تخصیص به آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/automatic-allocation-2.8.8.webp>)
 
    1. **برقراری صف بین کاربران:**  با فعال کردن این گزینه نرم‌افزار به صورت خودکار کاربری که کم‌ترین کار را در کارتابل فرآیندها دارد به عنوان مسئول کارتابل تعیین خواهد کرد. با فعال کردن این گزینه می‌توانید در قسمت‌های بعد مشخص کنید که شمارش کارهای موجود در کارتابل بر اساس تعداد کارهای موجود در بین تمام فرآیندها یا صرفاً همین کارتابل انجام شود.
    2. **اختصاص به کاربران حاضر:** اگر این گزینه فعال باشد، نرم‌افزار در اختصاص خودکار تنها کاربرانی را در نظر می‌گیرد که در روز جاری با نام کاربری خود وارد نرم‌افزار شده باشند.
@@ -3785,6 +4193,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### 2. انتخاب کاربر باشگاه مشتریان{#CustomerCartableSettingInClub}
 در این روش می‌توانید در حین فرآیند، در مواقعی که نیاز است مراحلی از کار توسط مشتری انجام شود، فرآیند را به کارتابل مشتری در بخش **باشگاه مشتریان** > **پیشخوان** ارجاع دهید.
 
+![IMG-1559: کارتابل مشتری در باشگاه مشتریان](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/User-Cartable-in-Club2.7.5.3.webp>)
+
 ###### 3. روش پیشرفته
 در این روش این امکان را دارید که مسئول کارتابل را بر اساس اطلاعاتی که در طی فرآیند ثبت می‌شوند، مسئول کارتابل را انتخاب نمایید.
 
@@ -3794,10 +4204,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل
 
+![IMG-1560: تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-last-user.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** در این قسمت کارتابلی که مسئول آن را به عنوان **آخرین مسئول** در نظر دارید، انتخاب کنید. دقت داشته باشید کارتابل انتخابی شما باید از بین مراحل گذشته انتخاب شود، زیرا باید آیتم در طی فرآیند یک بار از آن مراحل طی شده باشد.
 ###### تعیین مسئول کارتابل از طریق فیلد
+
+![IMG-1561: تعیین مسئول کارتابل از طریق فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-field.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -3808,6 +4222,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 شایان ذکر است می‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1547](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3825,9 +4241,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اگر مالک آیتم هم تعیین نشده بود، فرآیند به کارتابل کاربر تعیین شده در [**تنظیمات کلی** > **فرآیند**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Process/Process.md) ارجاع می‌دهد.
 
+![IMG-1562: تخصیص به مدیر آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/assign-cartabl-to-last-user-manager.webp>)
+
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1544](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1545](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3843,13 +4265,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1548](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1549](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1550](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3859,9 +4287,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1551](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1552](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -3870,6 +4302,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **3**. در این قسمت مشخص کنید که پس از منقضی شدن کارتابل، فرآیند به کدام وضعیت هدایت شود (می‌توانید یکی از کارتابل‌ها یا فعالیت‌ها را انتخاب کنید)
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
+
+![IMG-1553](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable41.webp>)
 
 > **نکته**
 
@@ -3886,7 +4320,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 >   نکته: نمایش فیلدها در هر مرحله‌ای که فرآیند باقی بماند نیز کاربرد دارد، مثل فعالیت انتظار که کار در مرحله مشخص شده باقی می‌ماند و می‌توان مشخص کرد که در این حالت انتظار چه فیلدهایی برای کاربر قابل نمایش باشند.
 
+![IMG-1564](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable42.webp>)
+
 با کلیک بر روی نمایش فیلدهای هر یک از کارتابل‌ها و فعالیت‌ها می توانید وضعیت نمایش هریک از فیلدها در آن مرحله را مشاهده کرده و آن ها را ویرایش کنید.
+
+![IMG-1565](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable43.webp>)
 
 **1**. برای هریک از گروه فیلدها مشخص کنید که در این مرحله به صورت باز شده، جمع شده و یا مخفی نمایش داده شود. توجه داشته باشید در صورتی که تمامی فیلدهای یک گروه فیلد، روی حالت مخفی باشند، گروه فیلد نیز به صورت خودکار مخفی خواهد شد.
 
@@ -3900,8 +4338,12 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **3**. با استفاده از دکمه های موجود در این قسمت، می توانید وضعیت کلیه فیلدهای یک گروه فیلد را به حالت نمایش، غیرفعال و مخفی تغییر دهید.
 
+![IMG-1566](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable44.webp>)
+
 ## ایجاد کارتابل
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardboard.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardboard.md)
+
+![IMG-1567](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/1.webp>)
 
 **A. نام:**
 
@@ -3912,6 +4354,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
 
 ##### انتخاب مستقیم
+
+![IMG-1568](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/2.webp>)
 
 **کاربر /گروه /سمت / دپارتمان مشخص:** کاربر/ گروه/ سمت/ دپارتمان مرتبط را با انتخاب از لیست انتخابمی‌نمایید. ( برای ساخت کاربران و گروه‌های کاربری به مدیریت گروه‌ها و کاربران و برای ساخت سمت‌های جدید به قسمت [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) مراجعه کنید.
 
@@ -3927,11 +4371,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **در صورت غیر فعال بودن فیلد آخرین مسئول**:
 
+![IMG-1569](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/3.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** مشخص کردن کارتابل مورد نظر
 
 **در صورت فعال بودن فیلد آخرین مسئول**:
+
+![IMG-1570](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/4.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -3941,9 +4389,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > در صورت انتخاب مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل، اگر کارتابل به  چند سمت (کاربر) تخصیص داده شود همانند منطق گروه عمل می‌کند و وارد کارتابل همه در آن رده می‌شود که یک کابر باید کار را به خود اختصاص دهد. همچنین در صورت فعال بودن چک باکس اختصاص به صورت صف و کاربران حاضر، عملکرد سیستم همانند منطق گروه خواهد بود. لازم بذکر است بمنظور استفاده از مدیر آخرین مسؤل و رده بالایی آخرین مسؤل لازم است برای کاربرانی که چند حکم سازمانی فعال دارند، در مدیریت حکم‌های سازمانی، حکم پیش‌فرض را مشخص کرد تا اگر آخرین مسؤل دارای چند حکم سازمانی بود با توجه به حکم پیشفرض وی کار وارد کارتابل مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل شود. واضح است در صورت منقضی یا غیر فعال شدن حکم پیش‌فرض، فرآیند با خطا مواجه شده و لازم است حکم پیش‌فرض جدید تعیین شود.
 
+![IMG-1571](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/5.webp>)
+
 **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
 **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
+
+![IMG-1572](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable31.webp>)
 
 **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
 
@@ -3957,7 +4409,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1573](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1574](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3965,7 +4421,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 شایان ذکر استمی‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
+![IMG-1575](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable34.webp>)
+
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1576](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3981,13 +4441,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1577](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1578](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1579](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3997,9 +4463,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1580](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1581](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -4009,8 +4479,12 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1582](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable41.webp>)
+
 ## ایجاد کارتابل
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/CartableSetting_2.6.5.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/CartableSetting_2.6.5.md)
+
+![IMG-1567: صفحه از تنظیمات کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/1.webp>)
 
 **A. نام:**
 
@@ -4021,6 +4495,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
 
 ##### انتخاب مستقیم
+
+![IMG-1568: تصویر نحوه تعیین مسئول کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/2.webp>)
 
 **کاربر /گروه /سمت / دپارتمان مشخص:** کاربر/ گروه/ سمت/ دپارتمان مرتبط را با انتخاب از لیست انتخابمی‌نمایید. ( برای ساخت کاربران و گروه‌های کاربری به مدیریت گروه‌ها و کاربران و برای ساخت سمت‌های جدید به قسمت [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) مراجعه کنید.
 
@@ -4035,11 +4511,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل
 
+![IMG-1569: تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/3.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** در این قسمت کارتابلی که مسئول آن را به عنوان **آخرین مسئول** در نظر دارید، انتخاب کنید. دقت داشته باشید کارتابل انتخابی شما باید از بین مراحل گذشته انتخاب شود، زیرا باید آیتم در طی فرآیند یک بار از آن مراحل طی شده باشد.
 
 ###### تعیین مسئول کارتابل از طریق فیلد
+
+![IMG-1570: تعیین مسئول کارتابل از طریق فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/4.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -4051,6 +4531,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > در صورت انتخاب مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل، اگر کارتابل به چند سمت (کاربر) تخصیص داده شود همانند منطق گروه عمل می‌کند و وارد کارتابل همه در آن رده می‌شود که یک کابر باید کار را به خود اختصاص دهد. همچنین در صورت فعال بودن چک باکس اختصاص به صورت صف و کاربران حاضر، عملکرد سیستم همانند منطق گروه خواهد بود. لازم بذکر است بمنظور استفاده از مدیر آخرین مسؤل و رده بالایی آخرین مسؤل لازم است برای کاربرانی که چند حکم سازمانی فعال دارند، در مدیریت حکم‌های سازمانی، حکم پیش‌فرض را مشخص کرد تا اگر آخرین مسؤل دارای چند حکم سازمانی بود با توجه به حکم پیشفرض وی کار وارد کارتابل مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل شود. واضح است در صورت منقضی یا غیر فعال شدن حکم پیش‌فرض، فرآیند با خطا مواجه شده و لازم است حکم پیش‌فرض جدید تعیین شود.
 
+![IMG-1571: تصویر حالت‌های مختلف تخصیص به آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/5.webp>)
+
 **انتخاب رده بالایی فیلد/ آخرین مسئول**{#TopLevel}
 
  هنگامی که مسئول کارتابل را روی **رده‌بالایی آخرین مسئول / رده بالایی فیلد** انتخاب کنید، چک باکسی با عنوان **تخصیص به نزدیکترین سطح سمت بالادستی، در صورت عدم یافتن کاربر در سطح سمت انتخابی** نمایش داده‌ می‌شود. اگر آن را فعال کنید، در حالتی که در سمت انتخاب شده (مثلا کارشناس ارشد) کاربری فعال نباشد، سیستم سمت بالاتر از آن را چک می‌کند. اگر باز هم در آن سمت کاربر فعال نباشد همینطور سطوح بالاتر آخرین مسئول را چک می‌کند تا به سمتی برسد که کاربر فعال داشته باشد.
@@ -4059,9 +4541,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اگر مالک آیتم هم تعیین نشده بود، فرآیند به کارتابل کاربر تعیین شده در [**تنظیمات کلی** > **فرآیند**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Process/Process.md) ارجاع می‌دهد.
 
+![IMG-1583: تخصیص به مدیر آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/assign-cartabl-to-last-user-manager.webp>)
+
 **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
 **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
+
+![IMG-1572: مثال از تصویر فرآیند و کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable31.webp>)
 
 **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
 
@@ -4075,7 +4561,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1573](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1574](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -4083,7 +4573,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 شایان ذکر استمی‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
+![IMG-1575](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable34.webp>)
+
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1576](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -4099,13 +4593,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1577](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1578](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1579](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -4115,9 +4615,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1580](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1581](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -4127,6 +4631,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1582](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable41.webp>)
+
 ## استفاده از فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade.md)
 
@@ -4134,9 +4640,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در صورتی که آیتم وارد کارتابل شود، آن آیتم برای مسئول آن کارتابل ارسال خواهد شد.(برای مطالعه بیشتر به بخش کارتابل مراجعه کنید.) سپس کاربر مسئول می‌تواند آن فرآیند را در کارتابل فرآیند‌های خود  مشاهده کند و بر اساس اقدام‌های تعریف شده بر روی آن کارتابل، فرآیند را به مسیر موردنظر هدایت کند.
 
+![IMG-1587](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade1.webp>)
+
 برای نمونه فرصت مناقصه‌ی ثبت شده، در مرحله‌ی بررسی پیش فاکتور توسط مدیر فروش میباشد.  این پیش فاکتور در این مرحله در کارتابل فرآیند‌های ادمین مقابل مشاهده است زیرا مسئول این مرحله ادمین می‌باشد.
 
 همچنین اقدام‌های تعریف شده برای این مرحله توسط ادمین قابل مشاهده و انجام می‌باشد.
+
+![IMG-1588](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade.webp>)
 
  مراحل فرآیند می‌تواند کارتابل باشد که باید توسط کاربران بررسی و به مراحل دیگر منتقل گردد و یا فعالیت باشد که بصورت خودکار توسط سیستم انجام می شود و پس از انجام به مراحل تعیین شده پس از آن منتقل می‌گردد.
 
@@ -4147,7 +4657,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای هر فرآیند باید حداقل یک حالت نهایی ایجاد کنید. رسیدن فرآیند به حالت نهایی به معنی پایان یافتن فرآیند می باشد. پس از پایان فرآیند، آیتم در سوابق در جریان و کارتابل هیچ کاربری مشاهده نمی شود و تنها در سوابق هویت ها قابل مشاهده است. می توانید برای فرآیند چند حالت پایان نیز ایجاد کنید. (مثلاً در فرایند کاری درخواست مرخصی، دو حالت نهایی با نام های پایان تایید شده و پایان رد شده داشته باشید، تا هر زمان که سابقه مربوطه را پس از اتمام فرایند آن باز کنید، با یک نگاه نحوه به پایان رسیدن آن را مشاهده کنید
 
+![IMG-1584](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Final-mode/EndState1.webp>)
+
 ##### با کلیک بر روی دکمه افزودن حالت نهایی، پنجره زیر را مشاهده خواهید کرد.
+
+![IMG-1585](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Final-mode/EndState2.webp>)
 
 **1**. نام مناسبی برای حالت نهایی فرآیند، برگزینید.
 

@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-WhatIsProcessInCRM283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## فرآیند چیست؟
 `مسیر سند: Help/Settings/Personalization-crm/Overview/WhatIsProcessInCRM_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/WhatIsProcessInCRM_2.8.3.md)
@@ -22,4 +22,8 @@
 
 منظور از اقدام، خروجی کارتابل‌های فرآیند یا اقدامات مجاز مسئول کارتابل در آن مرحله می باشد. در واقع از طریق اقدام مشخص می‌شود، فرآیند پس از این کارتابل به کدام مرحله (سایر کارتابل ها، فعالیت ها و حالت های نهایی) ارجاع خواهد شد.
 
+![IMG-1429: اقدامات کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/cartable-actions_2.8.3.webp>)
+
  به طور مثال در شکل زیر، کارتابل تایید پیش فاکتور و مذاکرات سه اقدام دارد، به این معنی که مدیر فروش در این مرحله سه اقدام مجاز دارد که می‌تواند فرآیند را جهت ارسال پیش فاکتور به مشتری به مرحله بعد هدایت کند که در این صورت یک فعالیت ارسال پیام کوتاه برای اطلاع رسانی به مشتری اجرا شده و پس از آن وارد کارتابل ارسال پیش فاکتور خواهد شد، همچنین می تواند کار را جهت انجام اصلاحات به کارتابل قبلی بازگرداند یا به دلیل عدم تایید مذاکرات، فرآیند را به حالت نهایی بفرستد.
+
+![IMG-1430: مثال اجزای فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/ex.sales-process_2.8.3.webp>)

@@ -1,13 +1,17 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-CustomizationCommonSettings
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## افزودن فیلد از طریق طراح فرم
 `مسیر سند: Help/Settings/Personalization-crm/CustomizationCommonSettings/FormDesignerTool.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/CustomizationCommonSettings/FormDesignerTool.md)
 
 این ابزار اجازه ویرایش و طراحی فرم یا سایر آیتم ها را به صورت شماتیک (تصویری) در اختیار کاربر قرار می دهد.
 
+![IMG-1355: قابلیت طراح فرم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Form-designer.webp>)
+
 میتوانید گروه فیلدی و فیلدهای مورد نظر را با کشیدن و جایگذاری (Drag&Drop) کردن در صفحه  به صورت دلخواه بچینید.
+
+![IMG-1356: افزودن فیلد اضافه با طراح فرم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Form-designer-details.webp>)
 
 **1. ذخیره:** فیلدهای تغییر یافته و اضافه شده را ذخیره می کند.
 
@@ -33,7 +37,11 @@
 
 تصویر زیر را برای مثال در نظر داشته باشید.
 
+![IMG-1357: مشاهده گردش کار آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/View-workflow_2.5.3.webp>)
+
 در هر آیتم تحت چرخه کاری با کلیک کردن بر روی گزینه مشاهده گردش کار اطلاعات چرخه طبق تصویر زیر نمایش داده می شود.
+
+![IMG-1358: نمایش مراحل گذشته چرخه کار آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Workflow-path_2.5.3.webp>)
 
 **A**. اطلاعات مراحل مختلف گردش کار را میتوانید در این قسمت مشاهده کنید.
 
@@ -45,11 +53,15 @@
 
 جهت ویرایش چرخه کاری آیتم در حالت انتظار ابتدا می بایست آیتم مورد نظر از حالت انتظار خارج و وارد کارتابل شود، سپس این ویرایش در گردش کار اعمال گردد.
 
+![IMG-1359: حذف و ویرایش مراحل گردش‌ کار آیتم جاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Workflow-edition_2.5.3.webp>)
+
 **1. حذف:** با حذف هر مرحله چرخه از انتها، جرخه به عقب بر می گردد.
 
 **2. ویرایش:** می توانید هر مرحله از چرخه را ویرایش کنید.
 
 **3. اضافه کردن:** می توانید مرحله بعدی چرخه را به دلخواه تعیین کنید.
+
+![IMG-1360: جزئیات ویرایش گردش کار آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Workflow-edition-details_2.5.3.webp>)
 
 **a**. می توانید مرحله مورد نظر (یکی از کارتابل ها یا فعالیت های تعریف شده) را انتخاب کنید.
 
@@ -69,6 +81,8 @@
 > **نکته:** توجه داشته باشید که اعمال مجوز از روش های مختلف به صورت یکپارچه عمل می کند. برای مشاهده چگونگی تاثیر مجوزهای اعمال شده از روش های مختلف به یک کاربر، از قسمت [تاًثیر مجوزه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/GroupsAndUsersManagement/UsersAndGroupsManagement.md#permissionEffect)ا اقدام کنید
 
 علاوه بر امکان تعیین مجوزهای این آیتم برای کاربران مختلف، می توانید مجوزهای سازنده (ایجاد کننده) آیتم را نیز تعیین کنید (به طور مثال اگر بخواهید هر کاربری که این آیتم را ایجاد می کند، فقط خودش قابلیت حذف آن را داشته باشد و سوابق ثبت شده توسط سایر کاربران قابل حذف نباشد، باید از این قسمت اقدام کنید)
+
+![IMG-1361: تعیین دسترسی آیتم در صفحه شخصی‌سازی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/ObjectTypePermissions.webp>)
 
 **1** . در این قسمت لیست مجوزهای تعریف شده برای این آیتم از روش های مختلف را به تفکیک کاربر/گروه/سمت/دپارتمان گیرنده مجوز مشاهده می کنید.
 
@@ -94,6 +108,8 @@
 #####  صورت می‌گیرد در غیر این‌صورت ۲ راه برای تغییر مرحله ایتم وجود دارد:
 
 **1.** بر روی آیتم کلیک کرده و از طریق نمایش زنجیره ای مراحل، مرحله مورد نظر انتخاب کرده و دکمه ذخیره زده شود.
+
+![IMG-1362: نمایش مراحل فرآیند در آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Stage-view.webp>)
 
 **2.** در لیست هر آیتم دو نوع حالت نمایشی وجود دارد : 1. نمایش لیستی 2. نمایش کانبان
 
@@ -125,12 +141,18 @@
 
 در پیش‌نمایش نام مرحله، تاریخ تغییر مرحله و تغییر دهنده مرحله قابل دسترسی می‌باشند.
 
+![IMG-1363: نمایش مراحل فرآیند در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Stage-view-in-item-list.webp>)
+
 ##### تعریف مرحله
 برای تعریف مرحله برای آیتم های موجود در سیستم می توان از قسمت ویرایش آیتم موجود در تنظیمات ، بخش شخصی سازی crm قسمت نمای کلی اقدام کرد .
+
+![IMG-1364: تنظیمات مراحل فرآیند در شخصی‌سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Stage-Settings.webp>)
 
 با کلیک بر روی بخش افزودن میتوانید مرحله جدیدی را تعریف نمایید و همچنین لیست مراحل تعریف شده به همراه وضعیت مرحله ( فعال / غیر فعال) نمایش داده میشود و امکان حذف و ویرایش مراحل وجود دارد.
 
 لازم به ذکر است که مشخص کردن یک مرحله پایانی برای ذخیره مراحل آیتم ضروری می‌باشد.
+
+![IMG-1365: جزئیات تنظیمات مراحل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Stage-setting-details.webp>)
 
 > **نکته**
 
@@ -138,6 +160,8 @@
 > لازم به ذکر است امکان تعریف مرحله برای تراکنش‌های انبار وجود ندارد.
 
 زمانی که در یک مرحله آیتم/ آیتم هایی وجود دارد امکان غیر فعالسازی و یا حذف آن مرحله بدون انتخاب یک مرحله جایگزین وجود ندارد.
+
+![IMG-1366: ایجاد مرحله پایانی در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Ending-stage-setting.webp>)
 
 ##### مرتب سازی مراحل
 
@@ -147,6 +171,8 @@
 `مسیر سند: Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.5.3.md` · `نسخه سند: 2.5.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.5.3.md)
 
 در این قسمت تنظیماتی که در ویرایش تمامی آیتم‌های نرم افزار پیام گستر مشترک است را مشاهده می‌کنید، توجه داشته باشید که علاوه بر این قسمت باید آیتم‌های حقوقی/مالی/حواله انبار را نیز مطالعه کنید، یادگیری این قسمت در طراحی چرخه حائز اهمیت است.
+
+![IMG-1367: نمای کلی از صفحه شخصی‌سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Item-customization-page.webp>)
 
 ##### موارد زیر در تمامی آیتم‌های سیستم به صورت مشترک وجود دارد:
 
@@ -211,6 +237,8 @@
 
  **19. استفاده از مشخصه موجود:** برای کپی کردن فیلدهایی که قبلا در آیتم دیگه ای ساخته شده اند می‌توانید از این ویژگی استفاده کنید.
 
+![IMG-1368: صفحه کپی کردن فیلد اضافه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Copy-custom-fields_2.5.7.webp>)
+
 ##### روال کار به این صورت می‌باشد:
 
 **A**. آیتمی‌که فیلد مورد نظرتان در آن قرار دارد را انتخاب کنید.
@@ -250,11 +278,15 @@
 
 > نکته: امکان انجام این تنظیمات روی کلیه موجودیت‌های اصلی و زیر نوع‌های آنها وجود دارد.
 
+![IMG-1369: نمایش فیلدها در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Fields-view-setting-in-item-list.webp>)
+
 با انتخاب این گزینه، میتوان تعیین کرد که چه فیلد‌هایی برای کاربر در لیست نمایش داده شود، کاربر میتواند از بخش تنظیمات لیست، از بین فیلد‌های مشخص شده در این بخش فیلد‌های مورد نظرش را برای نمایش در لیست و گزارش گیری از آن انتخاب کند.
 
 لازم به ذکر است کاربر امکان مشخص کردن ترتیب نمایش ستون‌های لیست را خواهد داشت.
 
 همچنین کاربر دارای مجوز می‌تواند مشخص کند که چه فیلدهایی در خلاصه سوابق نمایش داده شود.
+
+![IMG-1370: انتخاب فیلدهای قابل نمایش در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Fields-view-setting-in-item-list-details.webp>)
 
 **1. وضعیت:** در این قسمت می‌توانیم فیلدها را جهت نمایش در لیست آیتم‌ها انتخاب کنیم.
 
@@ -262,11 +294,15 @@
 
 > نکته: ترتیب قرار گرفتن محل قرار گرفتن فیلدها روی لیست برای کاربرانی که لیست‌ها را مشاهده می‌کنند، توسط عملیات drag & dropقابل ویرایش است.
 
+![IMG-1371: نمای ترتیب فیلدها در آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Arrange-fields-in-item-list-view.webp>)
+
 ##### امکان جابجا کردن ستون‌ها لیست
 
 با استفاده از اشاره گر‌ها می‌توانید ترتیب قرار گرفتن فیلد را تغییر دهید.
 
 کاربرانی که به لیست آیتم‌ها دسترسی دارند می‌توانند با عملیات drag & drop محل قرار گرفتن ستون‌های جدول را جابجا کنند.
+
+![IMG-1372: نحوه جابجایی ستوی‌های جدول لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Changing-Fields-view-in-item-list.webp>)
 
 برای مثال در شکل بالا با کلیک روی ستون"مبلغ باقیمانده" و کشیدن به یک ردیف عقبتر، اشاره گر آبی رنگی نمایش داده می‌شود که به محل جدید قرارگرفتن ستون "مبلغ باقیمانده" اشاره می‌کند.
 
@@ -274,6 +310,8 @@
 `مسیر سند: Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.6.4.md` · `نسخه سند: 2.6.4` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.6.4.md)
 
 در این قسمت تنظیماتی که در شخصی‌سازی تمامی آیتم‌های CRM مشترک است را مشاهده می‌کنید. توجه داشته باشید که برای آیتم‌های فروش، خرید، دریافت، پرداخت، قرارداد، رسید و حواله انبار، درخواست پشتیبانی و وظیفه لازم است تنظیمات شخصی‌سازی مربوط به خود را علاوه بر این قسمت، مطالعه نمایید.
+
+![IMG-1367: نمای کلی از صفحه شخصی‌سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Item-customization-page.webp>)
 
 ##### موارد زیر در تمامی آیتم‌های سیستم به صورت مشترک وجود دارد:
 1. **نام**: می‌توانید نام آیتم را به دلخواه خود تعیین کنید.
@@ -337,6 +375,8 @@
  این کار به منظور دسته بندی فیلدهای ساخته شده صورت می‌پذیرد که سهولت استفاده از آن آیتم را در برخواهد داشت.
 19. **استفاده از مشخصه موجود**: برای کپی کردن فیلدهایی که قبلا در آیتم دیگه ای ساخته شده اند می‌توانید از این ویژگی استفاده کنید.
 
+![IMG-1368: صفحه کپی کردن فیلد اضافه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Copy-custom-fields_2.5.7.webp>)
+
 ##### مراحل کپی کردن مشخصه موجود (فیلد اضافه از آیتمی دیگر)
 
 **A**. آیتمی‌که فیلد مورد نظرتان در آن قرار دارد را انتخاب کنید.
@@ -377,11 +417,15 @@
 > - برای دسترسی به این بخش بایستی کاربر مجوز مدیریت شخصی سازی crm را داشته باشد.
 > - امکان انجام این تنظیمات روی کلیه موجودیت‌های اصلی و زیر نوع‌های آنها وجود دارد.
 
+![IMG-1369: نمایش فیلدها در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Fields-view-setting-in-item-list.webp>)
+
 با انتخاب این گزینه، میتوان تعیین کرد که چه فیلد‌هایی برای کاربر در لیست نمایش داده شود، کاربر میتواند از بخش تنظیمات لیست، از بین فیلد‌های مشخص شده در این بخش فیلد‌های مورد نظرش را برای نمایش در لیست و گزارش گیری از آن انتخاب کند.
 
 لازم به ذکر است کاربر امکان مشخص کردن ترتیب نمایش ستون‌های لیست را خواهد داشت.
 
 همچنین کاربر دارای مجوز می‌تواند مشخص کند که چه فیلدهایی در خلاصه سوابق نمایش داده شود.
+
+![IMG-1370: انتخاب فیلدهای قابل نمایش در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Fields-view-setting-in-item-list-details.webp>)
 
 1. **وضعیت:** در این قسمت می‌توانیم فیلدها را جهت نمایش در لیست آیتم‌ها انتخاب کنیم.
 
@@ -391,11 +435,15 @@
 
 > ترتیب قرار گرفتن محل قرار گرفتن فیلدها روی لیست برای کاربرانی که لیست‌ها را مشاهده می‌کنند، توسط عملیات drag & dropقابل ویرایش است.
 
+![IMG-1371: نمای ترتیب فیلدها در آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Arrange-fields-in-item-list-view.webp>)
+
 ##### امکان جابجا کردن ستون‌ها لیست
 
 با استفاده از اشاره گر‌ها می‌توانید ترتیب قرار گرفتن فیلد را تغییر دهید.
 
 کاربرانی که به لیست آیتم‌ها دسترسی دارند می‌توانند با عملیات drag & drop محل قرار گرفتن ستون‌های جدول را جابجا کنند.
+
+![IMG-1372: نحوه جابجایی ستوی‌های جدول لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Changing-Fields-view-in-item-list.webp>)
 
 برای مثال در شکل بالا با کلیک روی ستون"مبلغ باقیمانده" و کشیدن به یک ردیف عقبتر، اشاره گر آبی رنگی نمایش داده می‌شود که به محل جدید قرارگرفتن ستون "مبلغ باقیمانده" اشاره می‌کند.
 
@@ -403,6 +451,8 @@
 `مسیر سند: Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md` · `نسخه سند: 2.7.5.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md)
 
 در این قسمت تنظیماتی که در شخصی‌سازی تمامی آیتم‌های CRM مشترک است را مشاهده می‌کنید. توجه داشته باشید که برای آیتم‌های فروش، خرید، دریافت، پرداخت، قرارداد، رسید و حواله انبار، درخواست پشتیبانی و وظیفه لازم است تنظیمات شخصی‌سازی مربوط به خود را علاوه بر این قسمت، مطالعه نمایید.
+
+![IMG-1367: نمای کلی از صفحه شخصی‌سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Item-customization-page.webp>)
 
 ##### موارد زیر در تمامی آیتم‌های سیستم به صورت مشترک وجود دارد:
 1. **نام**: می‌توانید نام آیتم را به دلخواه خود تعیین کنید.
@@ -474,6 +524,8 @@
 این کار به منظور دسته بندی فیلدهای ساخته شده صورت می‌پذیرد که سهولت استفاده از آن آیتم را در برخواهد داشت.
 22. **استفاده از مشخصه موجود**: برای کپی کردن فیلدهایی که قبلا در آیتم دیگه ای ساخته شده اند می‌توانید از این ویژگی استفاده کنید.
 
+![IMG-1368: صفحه کپی کردن فیلد اضافه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Copy-custom-fields_2.5.7.webp>)
+
 ##### مراحل کپی کردن مشخصه موجود (فیلد اضافه از آیتمی دیگر)
 
 **A**. آیتمی‌که فیلد مورد نظرتان در آن قرار دارد را انتخاب کنید.
@@ -509,6 +561,8 @@
 `مسیر سند: Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.8.6.md` · `نسخه سند: 2.8.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.8.6.md)
 
 در این قسمت تنظیماتی که در شخصی‌سازی تمامی آیتم‌های CRM مشترک است را مشاهده می‌کنید. توجه داشته باشید که برای آیتم‌های فروش، خرید، دریافت، پرداخت، قرارداد، رسید و حواله انبار، درخواست پشتیبانی و وظیفه لازم است که علاوه بر این راهنما، راهنمای تنظیمات شخصی‌سازی مختص به آن موجودیت را نیز مطالعه نمایید.
+
+![IMG-1373: صفحه شخصی‌سازی آیتم‌ها](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Item-customization-page_2.8.6.webp>)
 
 1. **نام:** نام آیتم (زیرنوع موجودیت) را تعیین کنید. در صورت استفاده از زبان‌های دیگر نرم‌افزار، عنوان آیتم را به زبان مورد نظر نیز درج نمایید.
 
@@ -593,6 +647,8 @@ B. **افزودن مشخصه (فیلد):** برای افزودن فیلدهای 
 
 C. **استفاده از مشخصه موجود:** برای استفاده مجدد از فیلدهایی که پیش‌تر در آیتم دیگری ساخته شده‌اند می‌توانید از این ویژگی استفاده کنید. بدین منظور:
 
+![IMG-1368: صفحه کپی کردن فیلد اضافه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Copy-custom-fields_2.5.7.webp>)
+
 - آیتمی‌ که فیلد مورد نظرتان در آن قرار دارد (پیش‌تر در آن استفاده شده‌است) را انتخاب کنید.
 - زیرنوع آیتم (که فیلد مورد نظر پیش‌تر در آن استفاده شده‌است) را انتخاب کنید.
 - فیلد مورد نظر را انتخاب کنید.
@@ -621,6 +677,8 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 منظور از شخصی‌سازی امکان ایجاد و یا ویرایش آیتم‌ها، طراحی، فعالسازی، ذخیره و بارگذاری چرخه، تنظیمات نمایشی فیلد‌های آیتم‌ها و تنظیمات مجوز‌های مربوط به هر آیتم می‌باشد.
 
 برای شخصی‌سازی موجودیت‌ها، کاربر نیازمند مجوز مدیریت شخصی‌سازی crmمی‌باشد و برای شخصی‌سازی زیر نوع موجودیت‌ها کاربر نیازمند مجوز شخصی‌سازی روی آن زیر نوع می‌باشد.
+
+![IMG-1374: صفحه شخصی‌سازی آیتم‌ها](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Items-customization-main-page_2.5.0.webp>)
 
 **1. اعمال فیلتر:** می‌توانید انواع آیتم‌ها را فیلتر کنید. این فیلترها شامل نوع آیتم، نام آن‌ها، وضعیت فعال/غیرفعال بودن آیتم و اینکه چرخه فعال کاری دارند یا خیر، می‌شود.
 
@@ -655,11 +713,15 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 > - برای دسترسی به این بخش بایستی کاربر مجوز مدیریت شخصی سازی crm را داشته باشد.
 > - امکان انجام این تنظیمات روی کلیه موجودیت‌های اصلی و زیر نوع‌های آنها وجود دارد.
 
+![IMG-1369: نمایش فیلدها در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Fields-view-setting-in-item-list.webp>)
+
 با انتخاب این گزینه، میتوان تعیین کرد که چه فیلد‌هایی برای کاربر در لیست نمایش داده شود، کاربر میتواند از بخش تنظیمات لیست، از بین فیلد‌های مشخص شده در این بخش فیلد‌های مورد نظرش را برای نمایش در لیست و گزارش گیری از آن انتخاب کند.
 
 لازم به ذکر است کاربر امکان مشخص کردن ترتیب نمایش ستون‌های لیست را خواهد داشت.
 
 همچنین کاربر دارای مجوز می‌تواند مشخص کند که چه فیلدهایی در خلاصه سوابق نمایش داده شود.
+
+![IMG-1370: انتخاب فیلدهای قابل نمایش در لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Fields-view-setting-in-item-list-details.webp>)
 
 1. **وضعیت:** در این قسمت می‌توانیم فیلدها را جهت نمایش در لیست آیتم‌ها انتخاب کنیم.
 
@@ -669,11 +731,15 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 
 > ترتیب قرار گرفتن محل قرار گرفتن فیلدها روی لیست برای کاربرانی که لیست‌ها را مشاهده می‌کنند، توسط عملیات drag & dropقابل ویرایش است.
 
+![IMG-1371: نمای ترتیب فیلدها در آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Arrange-fields-in-item-list-view.webp>)
+
 ##### امکان جابجا کردن ستون‌ها لیست
 
 با استفاده از اشاره گر‌ها می‌توانید ترتیب قرار گرفتن فیلد را تغییر دهید.
 
 کاربرانی که به لیست آیتم‌ها دسترسی دارند می‌توانند با عملیات drag & drop محل قرار گرفتن ستون‌های جدول را جابجا کنند.
+
+![IMG-1372: نحوه جابجایی ستوی‌های جدول لیست آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Changing-Fields-view-in-item-list.webp>)
 
  برای مثال در شکل بالا با کلیک روی ستون"مبلغ باقیمانده" و کشیدن به یک ردیف عقبتر، اشاره گر آبی رنگی نمایش داده می‌شود که به محل جدید قرارگرفتن ستون "مبلغ باقیمانده" اشاره می‌کند.
 
@@ -687,6 +753,8 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 > تنظیم قالب چاپی با استفاده از ابزار webclient tool انجام می‌شود. در صورتی که برای اولین بار می‌خواهید قالب چاپی یک آیتم را در نرم‌افزار تنظیم کنید، از لینک قرمز برای نصب این ابزار استفاده کنید. بر روی سیستم‌هایی که برای طراحی قالب چاپ و یا ارسال فکس/چاپ استفاده می‌شوند، این ابزار را باید نصب و راه‌اندازی کنید.
 >> تنظیم این قالب چاپ نیاز به نرم‌افزار MS-Word (2010/2013/2016) دارد.
 
+![IMG-1375: تنظیم قالب چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/print-preview-design.webp>)
+
 **1. قالب:** برای انتخاب یک قالب چاپ از  قالب‌های تعریف شده در[ بخش مدیریت قالب پیام ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Model-message-management/Model-message-management.md)ها  و یا تعریف یک قالب جدید با آپلود یک فایل برای قرارگیری در قالب چاپی، می‌توانید از این گزینه استفاده کنید.
 
 **2. محتوا:** جهت ویرایش متن (تنظیم قالب چاپ) از این گزینه استفاده کنید.
@@ -697,9 +765,15 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 
 **5. بازخوانی قالب پیش فرض:** برای برخی از آیتم‌های (مانند پیش‌فاکتور یا فاکتور فروش) یک قالب چاپی پیش‌فرض در نرم‌افزار پیام‌گستر طراحی شده است، با استفاده از این دکمه می‌توان قالب پیش‌فرض نرم‌افزار را جایگزین قالب چاپ فعلی کرد.
 
+![IMG-1376: قالب چاپ پیش‌فرض](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/print-preview-design-step1.webp>)
+
 ابتدا فایل محتوای پیام‌گستر (با پسوند pgcontent) را ذخیره کنید و سپس آن را باز کنید.
 
+![IMG-1377: مشاهده قالب چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/print-preview-design-step2.webp>)
+
 در مرحله بعد فایل ورد را باز کنید.
+
+![IMG-1378: ویراستار متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/print-preview-design-step3.webp>)
 
 **A. فایل:** با استفاده از این گزینه می‌توانید یک قالب (با فرمت ورد) را ذخیره و یا بازخوانی کرد.
 
@@ -708,6 +782,8 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 **C. ابزار ورد:** در این قسمت شما می‌توانید از تمامی‌ابزارهای ورد برای ویرایش قالب چاپی آیتم استفاده کنید.
 
 **D. ذخیره و ارسال به سرور:** پس از اتمام ویرایش، برای ارسال قالب آماده شده به سرور نرم‌افزار از این گزینه استفاده کنید. بعد از طراحی قالب و ذخیره آن، دکمه ذخیره کردن صفحه اصلی تنظیمات آیتم را نیز انتخاب کنید.
+
+![IMG-1379: بارگذاری قالب چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/print-preview-design-final-step.webp>)
 
 #### نکات مرتبط با قالب چاپ
 
@@ -720,6 +796,8 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 - فونت، شکل جداول، اندازه خانه‌ها، لوگو و همه چیز کاملاً قابل تغییر می‌باشد. تمامی موارد مذکور دقیقا مشابه یک فایل ورد می‌تواند ویرایش شود.
 
 - برای اینکه عدد‌های درج شده در پیش‌نمایش، با زبان مورد نظر (فارسی/انگلیسی) مطابقت داشته باشد لازم است فونت انتخابی آن، از همان زبان باشد. به عنوان مثال برای درج تعداد به زبان فارسی باید از یک فونت فارسی (مثل B-Nazanin) استفاده کنید. علاوه بر این برای درج فونت فارسی به راست‌چین بودن و برای برای درج فونت انگلیسی به چپ‌چین بودن تنظیمات ورد توجه نمایید.
+
+![IMG-1380: بارگذاری قالب چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/print-font-setting.webp>)
 
 - فرمت (شمسی/میلادی بودن) فیلدهای تاریخی پیش‌فرض آیتم‌ها (مثل تاریخ صدور در فاکتور، تاریخ ثبت و...) بر اساس فرمت تاریخ سرور در قالب چاپ نمایش داده می‌شود. اما در خصوص فیلدهای تاریخی اضافه شده در شخصی‌سازی، می‌توانید به هنگام افزودن، نوع آن را شمسی و یا میلادی انتخاب کنید. فرمت نمایش  داده شده در قالب چاپ مطابق با نوع فیلد انتخابی شما خواهد بود.
 - در جدول محصولات موجود در انواع فاکتورها، ردیف، نام محصول، تعداد، قیمت واحد و قیمت کل نمایش داده شده است. این جدول به طور کامل از پارامترهای هوشمند تشکیل شده و به طور خودکار به تعداد ردیف‌های جدول در قالب پیش‌نمایش و پرینت آن، اضافه می‌شود. بنا بر نیاز خود می‌توانید ستون‌هایی که مایل به درج آن‌ها در جدول نیستید را حذف نمایید. پارامترهای هوشمند مبالغ کلی مانند مبلغ کل، تخفیف، مالیات و ... را در سایر بخش‌های خارج از جدول نیز استفاده نمایید.
@@ -735,7 +813,11 @@ C. **استفاده از مشخصه موجود:** برای استفاده مجد
 
 **3.** پس از تنظیم کردن مکان و اندازه Text Box، بر روی آن راست کلیک کرده و سپس Format Shape را انتخاب کنید.
 
+![IMG-1381: افزودن امضا در قالب چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Sign-setting-in-print-preview-design.webp>)
+
 **4.** در قسمت Alt Text در قسمت توضیحات (Description) کلمه‌ی "sign" را تایپ کنید.
+
+![IMG-1382: تنظیمات امضا در قالب چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomizationCommonSettings/Images/Sign-setting-in-print-preview-design2.webp>)
 
 **5.** پس از ذخیره کردن و ارسال به سرور، فایل تصویری که در تنظیمات این آیتم به عنوان امضا وارد شده است، پس از تایید آیتم در پیش نمایش آن درج خواهد شد.
 

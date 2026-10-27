@@ -1,11 +1,13 @@
 # مستندات رسمی پیام‌گستر — Help-backup
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت پشتیبان گیری
 `مسیر سند: Help/backup/backup.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/backup/backup.md)
 
 مشاهده سرویس های در حال اجرای پیام گستر، شناسایی GSM مودم، مسیر نصب و سریال نرم افزار و پشتیبان گیری از نرم افزار در برنامه Payamgostar Agent Configuration Manager که در سرور (جایی که نرم افزار نصب شده است) وجود دارد، قابل دسترسی است.
+
+![IMG-1674](</kb-assets/kb-images/Help/backup/BackupVersion1.webp>)
 
 تنظیمات مربوط به پشتیبان گیری و یا همان بک آپ با از قسمت backup  انجام می‌شود .
 
@@ -19,6 +21,8 @@
 در این قسمت می توانید پشتیبان گیری را به دو صورت کامل (Full) و دیفرانسیلی (Differential) تنظیم کنید.
 
 زمان بندی (Schedule) پشتیبان گیری را نیز می توانید تعیین کنید.
+
+![IMG-1675](</kb-assets/kb-images/Help/backup/back-up/96.webp>)
 
 **1. BackUp Directory:** مسیر بک آپ گیری را انتخاب کنید.
 
@@ -42,6 +46,10 @@
 
 با استفاده از این منو میتوانید یک فایل پشتیبان با نام دلخواه در مسیر دلخواه ایجاد کنید.
 
+![IMG-1676](</kb-assets/kb-images/Help/backup/back-up/95.webp>)
+
 **Restore Database(بازیابی پایگاه داده):**
 
 با استفاده از این منو می توانید از فایل پشتیبان ذخیره شده قبلی برای بازگرداندن نرم افزار به زمان آن استفاده کنید.
+
+![IMG-1677](</kb-assets/kb-images/Help/backup/back-up/94.webp>)

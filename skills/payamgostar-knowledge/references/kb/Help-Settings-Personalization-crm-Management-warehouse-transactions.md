@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Management-warehouse-transactions
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## تنظیمات اختصاصی تراکنش های انبار
 `مسیر سند: Help/Settings/Personalization-crm/Management-warehouse-transactions/Management-warehouse-transactions.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Management-warehouse-transactions/Management-warehouse-transactions.md)
@@ -11,9 +11,13 @@
 
 در صورت نیاز می توانید از حواله ها و رسید های مختلف برای انبارهای مختلف استفاده کنید.
 
+![IMG-1415](</kb-assets/kb-images/Help/Settings/Personalization-crm/Management-warehouse-transactions/Warehousedraftmanagement1.webp>)
+
 ##### تنظیمات مشترک تراکنش های انبار به صورت زیر می باشد:
 
 > نکته: لطفا ابتدا [ تنظیمات مشترک آیتم های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md)  را در این خصوص مطالعه فرمایید.
+
+![IMG-1416](</kb-assets/kb-images/Help/Settings/Personalization-crm/Management-warehouse-transactions/Warehousedraftmanagement2.webp>)
 
 **1. نوع تراکنش انبار:** سه نوع رسید انبار (معمولی، انتقالی و مرجوعی) و چهار نوع حواله انبار (معمولی، انتقالی، فروش و مرجوعی) وجود دارد. نوع تراکنش را در این قسمت مشخص کنید. در تنظیمات رسید موجودی اولیه این تنظیمات وجود ندارد، زیرا انواع مختلف ندارد. برای آشنایی با کاربرد هریک از انواع تراکنش انبار، به قسمت انبار ها مراجعه کنید.
 
@@ -45,8 +49,12 @@
 - **حواله** انبار که می‌تواند در چهار نوع معمولی، فروش، انتقالی و مرجوعی تعریف شود.
 بنا بر نیاز سازمان، زیرنوع‌های مورد نیاز را ایجاد و طبق راهنمای زیر تنظیم نمایید.
 
+![IMG-1417: تراکنش‌های انبار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Management-warehouse-transactions/Images/warehouse-transactions-2.8.7.webp>)
+
 #### تنظیمات رسید و حواله
 هنگام ایجاد انواع رسید و حواله در نرم‌افزار، علاوه بر [تنظیمات مشترک موجودیت‌ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.8.6.md)، لازم است که تنظیمات اختصاصی تراکنش‌های انبار را نیز مشخص نمایید. در ادامه به بررسی تنظیمات قابل مشاهده در صفحه شخصی‌سازی رسید و حواله می‌پردازیم.
+
+![IMG-1418: شخصی‌سازی تراکنش‌های انبار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Management-warehouse-transactions/Images/warehouse-transaction-personalization-2.8.7.webp>)
 
 - **نوع تراکنش انبار:** نوع رسید یا حواله‌ای که در حال تنظیم زیرنوع آن هستید را مشخص کنید. چنانچه پیش‌تر به آن اشاره شد، سه نوع رسید انبار (معمولی، انتقالی و مرجوعی) و چهار نوع حواله انبار (معمولی، انتقالی، فروش و مرجوعی) می‌توانید در سیستم تعریف کنید. در صورت نیاز به کسب اطلاعات بیشتر در مورد هر یک از انواع رسید و حواله، به [راهنمای انبار](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Buy-warehouse-sales/Store/Store.md)، مراجعه نمایید. بدیهی است که این تنظیمات در رسید موجودی اولیه مشاهده نمی‌شود.
 - **شروع شماره‌گذاری:** در این قسمت می‌توانید مشخص کنید که شماره‌گذاری این آیتم از چه عددی شروع شود. در صورت خالی بودن این فیلد، آیتم از شماره‌ی ۱ شروع به شماره‌گذاری می‌کند.

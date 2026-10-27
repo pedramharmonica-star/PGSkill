@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-matn-hoshmand
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## استفاده از پارامترهای هوشمند
 `مسیر سند: Help/Marketing/matn-hoshmand/matn-hoshmand.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/matn-hoshmand/matn-hoshmand.md)
@@ -9,6 +9,10 @@
 
 برای مثال در شکل زیر متنی که مخاطبان پیام دریافت می کنند به جای پارامتر "نام کامل  مدیر " آنچه دریافت می کنند " جناب آقای+نام+نام خانوادگی" و در صورت مونث بودن مخاطب"سرکار خانم+نام+نام خانوادگی" است.
 
+![IMG-0812](</kb-assets/kb-images/Help/Marketing/matn-hoshmand/hoshmand2.webp>)
+
 **انتخاب از لیست پارامترها:** جهت استفاده از پارامترهای هوشمند در متن خودکافی است روی آن ها دوبار کلیک نمایید.
 
 > **نکته:**  لازم به ذکر است برای استفاده از پارامتر هایی که باید بصورت لینک نمایش داده شود برای مثال لینک ویرایش، آدرس ویرایش پروفایل و ... باید طبق دستور زیر در بخش html وارد گردد .
+
+![IMG-0813](</kb-assets/kb-images/Help/Marketing/matn-hoshmand/liink.webp>)

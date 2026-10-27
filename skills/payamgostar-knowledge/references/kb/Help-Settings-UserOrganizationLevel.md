@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-UserOrganizationLevel
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت  حکم‌های پرسنلی
 `مسیر سند: Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.5.6.md` · `نسخه سند: 2.5.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.5.6.md)
@@ -11,7 +11,11 @@
 
 برای ایجاد چارت سازمانی ابتدا قسمت [مدیریت شعب، دپارتمان و سمت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md)را مطالعه کرده و تنظیماتش را انجام دهید تا بتوانید در این قسمت هر کاربر را به سمت سازمانی مرتبط، تخصیص دهید.
 
+![IMG-1628: لیست حکم‌های پرسنلی](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelLists_2.5.6.webp>)
+
 با کلیک بر دکمه **افزودن** می‌توانید یک حکم پرسنلی جدید به یک کاربر تخصیص دهید.
+
+![IMG-1629: تخصیص حکم پرسنلی به کاربر](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelSettings_2.5.6.webp>)
 
 1. **کاربر:** نام کاربری که می خواهید حکم را به او اختصاص دهید، انتخاب کنید.
 2. **تاریخ شروع:** تاریخ شروع حکم را تعیین کنید.
@@ -35,7 +39,11 @@
 
 برای ایجاد چارت سازمانی ابتدا قسمت [مدیریت شعب، دپارتمان و سمت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md)را مطالعه کرده و تنظیماتش را انجام دهید تا بتوانید در این قسمت هر کاربر را به سمت سازمانی مرتبط، تخصیص دهید.
 
+![IMG-1630: لیست حکم‌های پرسنلی](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelLists_2.6.0.webp>)
+
 با کلیک بر دکمه **افزودن** می‌توانید یک حکم پرسنلی جدید به یک کاربر تخصیص دهید.
+
+![IMG-1631: تخصیص حکم پرسنلی به کاربر](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelSettings_2.6.0.webp>)
 
 1. **کاربر:** نام کاربری که می خواهید حکم را به او اختصاص دهید، انتخاب کنید.
 2. **تاریخ شروع:** تاریخ شروع حکم را تعیین کنید.

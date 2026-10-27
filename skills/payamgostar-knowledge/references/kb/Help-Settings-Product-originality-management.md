@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Product-originality-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت  اصالت کالا
 `مسیر سند: Help/Settings/Product-originality-management/Product-originality-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Product-originality-management/Product-originality-management.md)
@@ -8,6 +8,8 @@
  با استفاده از تنظیمات این صفحه نرم افزار قادر خواهد بود که پیامک حاوی سریال یک محصول را از طرف مشتری بر روی خط تنظیم شده دریافت نموده و پاسخ مناسب در خصوص اینکه آیا آن کالا از شما خریداری شده است یا خیر را ارسال کند.
 
 > نکته: برای استفاده از این امکان باید کالاهایی که توسط رسیدهای مختلف به انبارها اضافه می شوند دارای سریال باشند.  همچنین حداقل یک خط پیامکی با قابلیت دریافت بر روی نرم افزار باید تعریف شده باشد.
+
+![IMG-1619](</kb-assets/kb-images/Help/Settings/Product-originality-management/ProductAuthenticityManagement.webp>)
 
 **1. لیست اصالت کالا:** لیست گروه محصولاتی که پیام تشخیص اصالت کالا را برای آنها تنظیم کرده اید همراه با خط دریافت و ارسال پیام در این قسمت نمایش داده می شود، در صورت نیاز می توانید آنها را ویرایش یا حذف نمایید.
 

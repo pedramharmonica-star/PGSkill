@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — timenegar-TimeTrap
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## تحلیل نوار زمانی
 `مسیر سند: timenegar/TimeTrap/TimeTrap.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/timenegar/TimeTrap/TimeTrap.md)
@@ -9,7 +9,11 @@
 
 برای دسترسی به نوار زمانی از صفحه اصلی روی نوار زمانی کلیک کنید (تصویر شماره 1).
 
+![IMG-2010](</kb-assets/kb-images/timenegar/TimeTrap/1.webp>)
+
 تصویر شماره 1 – نمای صفحه اصلی نرم‌افزار
+
+![IMG-2011](</kb-assets/kb-images/timenegar/TimeTrap/2.webp>)
 
 تصویر شماره 2 – نوار زمانی
 
@@ -25,12 +29,18 @@
 
 با کلیک بر روی هر یک از نوارهای زمانی اطلاعات مرتبط در آن بازه‌ی زمانی نمایش داده میشود، زمان شروع و پایان تایم نگر و میزان کل کارکرد را میتوانید به ازای هر یک از پروژه‌ها (وظایف) مشاهده کنید.
 
+![IMG-2012](</kb-assets/kb-images/timenegar/TimeTrap/3.webp>)
+
 تصویر شماره 3 – نوار زمانی
 
 با کلیک بر روی هر یک از وظایف شما می‌توانید سایت و برنامه‌هایی که در آن بازه استفاده شده و میزان زمان سپری شده روی هر یک  را مشاهده نمایید. (تصویر شماره 4).
 
+![IMG-2013](</kb-assets/kb-images/timenegar/TimeTrap/4.webp>)
+
 تصویر شماره 4 – نوار زمانی
 
 همچنین تصاویر گرفته شده در آن بازه‌ی زمانی به همراه میزان استفاده از موس و کیبورد نیز در تصاویر صفحه نمایش قابل مشاهده می‌باشد (تصویر شماره 5).
+
+![IMG-2014](</kb-assets/kb-images/timenegar/TimeTrap/5.webp>)
 
 تصویر شماره 5 – نوار زمانی

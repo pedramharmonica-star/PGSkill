@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — sync-rahkaran
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## پیش‌فاکتور فروش، فاکتور فروش، برگشت از فروش
 `مسیر سند: sync/rahkaran/PishfactorFactorBargashAzForoosh.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/sync/rahkaran/PishfactorFactorBargashAzForoosh.md)
@@ -151,6 +151,8 @@
 
 ## تنظیمات پیشرفته همگام ساز راهکاران و پیام‌گستر
 `مسیر سند: sync/rahkaran/tanzimate-rahkaran.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/sync/rahkaran/tanzimate-rahkaran.md)
+
+![IMG-1922](</kb-assets/kb-images/sync/rahkaran/hamgaamsazRahkaran.webp>)
 
 #### پیش فاکتور
 

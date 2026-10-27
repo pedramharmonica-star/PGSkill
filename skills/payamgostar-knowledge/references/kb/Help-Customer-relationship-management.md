@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Customer-relationship-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## تاریخ‌های مرتبط
 `مسیر سند: Help/Customer-relationship-management/Related-dates/Related-dates.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Customer-relationship-management/Related-dates/Related-dates.md)
@@ -8,6 +8,8 @@
  لیست تمام ارسال های برنامه ریزی شده و زمانبندی شده برای اجرا که از قسمت تاریخ های مهم پروفایل ها تنظیم می کنید،در این قسمت قابل مشاهده است و می توانید با استفاده از فیلترهای مختلف، برنامه مورد نظر خود را جستجو و پیدا کنید.
 
 > **نکته:** کاربر دارای مجوز " مشاهده لیست تاریخ های مرتبط " می تواند کلیه برنامه ها را مشاهده نماید.
+
+![IMG-0186](</kb-assets/kb-images/Help/Customer-relationship-management/Related-dates/NotificationDates.webp>)
 
 **1. نوع فیلتر:** میتوانید فیلترهای اعمال شده را به عنوان یک فیلتر اختصاصی خود ذخیره کنید.
 
@@ -31,6 +33,8 @@
 در صورتی که ماژول نمایش تماس (ماژول مرکز تماس) نرم افزار تهیه و راه اندازی شده باشد، تمام تماس هایی که با خطوط شرکت انجام می شود  در این قسمت نمایش داده می شود.
 
 همانطور که در لیست تماس مشخص است مدت مکالمه با هر شماره در مقابل آن نمایش داده شده ا ست.
+
+![IMG-0188](</kb-assets/kb-images/Help/Customer-relationship-management/calls/CallsList.webp>)
 
 **1. نوع فیلتر:** میتوانید فیلترهای اعمال شده را به عنوان یک فیلتر اختصاصی خود ذخیره کرده و برای اخذ گزارشات بعدی از آن استفاده کنید.
 
@@ -67,6 +71,8 @@
 
 > نکته: لطفا قسمت [فیلترهای پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه فرمایید.
 
+![IMG-0180](</kb-assets/kb-images/Help/Customer-relationship-management/Allocation-of-findings/takhsisyaftea111.webp>)
+
 **1. وضعیت تخصیص:** مشخص کنید که قصد مشاهده لیست هویت های تخصیص یافته را دارید یا هویت های تخصیص نیافته.
 
 **2. نوع اپراتور:** از گزینه های کارشناس فروش، پشتیبانی یا متفرقه، اپراتور مورد نظر را انتخاب کنید.
@@ -86,11 +92,15 @@
 
 در این قسمت  کاربر در صورت دارا بودن مجوز مشاهده لیست نوع هویت‌ها، هویت‌هایی که به کاربران(مسئول فروش، پشتیبانی و متفرقه) اختصاص داده شده‌اند نمایش داده می‌شوند. هر کاربر می‌تواند پروفایل‌های اختصاص یافته به خود را مشاهده نماید.
 
+![IMG-0181: نمایش لیست تخصیص یافته‌ها](</kb-assets/kb-images/Help/Customer-relationship-management/Allocation-of-findings/Images/list-of-assigned-identity_2.8.3.webp>)
+
 مدیران سیستم می‌توانند تمامی مخاطبان تخصیص یافته و نیافته را مشاهده کنند. با استفاده از فیلترهای موجود در این قسمت می‌توانید گزارشات متفاوت مورد نیاز از وضعیت تخصیص هویت‌ها را دریافت کنید.
 
 > **نکته**
 
  لطفا قسمت [فیلترهای پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه فرمایید.
+
+![IMG-0182: فیلتر لیست تخصیص یافته](</kb-assets/kb-images/Help/Customer-relationship-management/Allocation-of-findings/Images/filter-of-assigned-identity_2.8.3.webp>)
 
 1. **وضعیت تخصیص:** مشخص کنید که قصد مشاهده لیست هویت‌های تخصیص یافته یا هویت‌های تخصیص نیافته را دارید.
 2. **نوع اپراتور:** از گزینه‌های کارشناس فروش، پشتیبانی یا متفرقه، اپراتور مورد نظر را انتخاب کنید.
@@ -107,6 +117,8 @@
 `مسیر سند: Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md)
 
 با استفاده از فیلترهای پیشرفته در قسمت های مختلف نرم افزار می توانید برای جستجوی سوابق مورد نظر خود پارمترهای مختلفی برای جستجو اعمال کنید و به این صورت گزارشات مورد نیاز خود را دریافت کنید. توجه داشته باشید که فیلترهای پیشرفته برای سوابق مختلف می تواند متفاوت باشد. به طور مثال فیلترهای پیشرفته فاکتورها با فرصت ها متفاوت است. فیلترهای مشترک برای تمامی موجودیت های CRM به شرح زیر می باشد:
+
+![IMG-0179](</kb-assets/kb-images/Help/Customer-relationship-management/Advanced-filter/AdvancedFilters.webp>)
 
 **1. وضعیت اپراتور:** می توانید تعیین کنید که هویت مرتبط با سابقه مورد نظر دارای اپراتور (مسئول پشتیبانی، فروش، متفرقه) هست و یا خیر.
 
@@ -141,12 +153,16 @@
 
 با دوبار کلیک بر روی هر کدام ،آیتم مورد نظر باز خواهد شد .
 
+![IMG-0187](</kb-assets/kb-images/Help/Customer-relationship-management/actionscalender/ActionsCalendar.webp>)
+
 ## لیست تمامی درخواست‌ها
 `مسیر سند: Help/Customer-relationship-management/requests/requests.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Customer-relationship-management/requests/requests.md)
 
 لیست تمام درخواست های ثبت شده در سیستم نمایش داده می شود و می توان اطلاعات جزئی هر کدام از درخواست ها را نیز مشاهده نمود. با استفاده از پارامترهای تعریف شده در قسمت فیلتر می توانید به راحتی جستجو نمایید و به نتیجه دلخواه خود برسید.
 
 > **نکته:** هر کاربر در این لیست درخواست های ثبت شده توسط خود را مشاهده می کند
+
+![IMG-0191](</kb-assets/kb-images/Help/Customer-relationship-management/requests/1.webp>)
 
 > نکته: لطفا ابتدا قسمت [فیلترهای پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه کنید.
 
@@ -187,6 +203,8 @@
 
 > **نکته:** هر کاربر می تواند تنها سوابقی را که خود ثبت نموده است مشاهده نماید و برای مشاهده سوابق ثبت شده توسط سایر کاربران برای هر کدام از آیتم ها باید مجوز "مشاهده لیست" را برای آن آیتم داشته باشد
 
+![IMG-0183](</kb-assets/kb-images/Help/Customer-relationship-management/CRM-History/2020-01-08_9-37-49.webp>)
+
 > نکته: لطفا ابتدا قسمت[  فیلترهای پیشرفته ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md)را مطالعه کنید.
 
 **1. نوع:** می توانید نوع آیتم دلخواه را برای فیلتر کردن مشخص کنید.
@@ -208,6 +226,8 @@
 
  هرکاربر در این قسمت لیست سرنخ های ایجاد شده توسط خود و در صورت دارا بودن مجوز مشاهده لیست نوع سرنخ ها، سرنخ هایی که به عنوان اپراتور مرتبط آن ها (کارشناس فروش، پشتیبانی و متفرقه) انتخاب شده باشد را مشاهده می کند. در واقع هر کاربر لیست سرنخ های مرتبط با خود را می تواند مشاهده کند و سایر سرنخ ها نمایش داده نمی شوند. توجه داشته باشید حتی ادمین و مدیران سیستم نیز از این قاعده مستثنی نیستند.
 
+![IMG-0184](</kb-assets/kb-images/Help/Customer-relationship-management/My-clues/takhsisyaftea112.webp>)
+
  **1. وضعیت تخصیص:** وضعیت تخصیص(تخصیص یافته یا تخصیص نیافته) سرنخ هایی که قصد مشاهده آن ها را دارید، را مشخص کنید.
 
 **2. نوع اپراتور:** از گزینه های کارشناس فروش، پشتیبانی یا متفرقه، اپراتور مورد نظر را انتخاب کنید.
@@ -226,6 +246,8 @@
 `مسیر سند: Help/Customer-relationship-management/My-work-calendar/My-work-calendar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Customer-relationship-management/My-work-calendar/My-work-calendar.md)
 
 در این قسمت تقویم‌هایی که مجوز خواندن آن‌ها را دارید و همچنین لیست قرار ملاقات‌هایی که در این تقویم‌ها برای شما تنظیم شده است یا دسترسی دیدن آنها را دارید، مشاهده خواهید کرد. این قرار ملاقات‌ها ممکن است توسط شما، سایر کاربران و یا حتی فرآیندها و چرخه‌های کاری تعریف شده در نرم افزار ایجاد شوند. این تقویم‌ها با رنگهای مختلف ایجاد می‌شوند که در دیدن لیست قرار ملاقات‌ها و برنامه ریزی به کاربر اجازه مشاهده قرار ملاقات افراد مختلف را می‌دهد.
+
+![IMG-0185](</kb-assets/kb-images/Help/Customer-relationship-management/My-work-calendar/WorkCalendar.jpg.webp>)
 
 **1.لیست تقویم‌ها:** لیست تقویم‌هایی که به آنها دسترسی دارید را می‌توانید مشاهده کنید، با فعال کردن هر تقویم لیست قرار ملاقات‌های تنظیم شده در آن نمایش داده می‌شود. هر تقویمی‌که در آن مجوز "فقط خواندن" یا "خواندن و نوشتن" داشته باشید در این لیست قابل مشاهده است.
 
@@ -267,6 +289,8 @@
 
 > نکته: هر کاربر در این لیست فرمهای ثبت شده توسط خود را مشاهده می کند و اگر مجوز مشاهده لیست فرم ها را داشته باشد می تواند فرم های ثبت شده توسط سایر کاربران  را مشاهده کند .
 
+![IMG-0189](</kb-assets/kb-images/Help/Customer-relationship-management/forms/1.webp>)
+
 > نکته: لطفا ابتدا قسمت [ فیلترهای پیشرفته ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه کنید.
 
 **1. نوع فیلتر:** میتوانید فیلترهای اعمال شده را به عنوان یک فیلتر اختصاصی خود ذخیره کنید.
@@ -286,6 +310,8 @@
 **7. مدیریت گزارش‌ها:**  با استفاده از این بخش میتوان از لیست درخواست ها با توجه به فیلتر های اعمال شده، گزارش گیری کرد. برای توضیحات بیشتر میتوانید به بخش [گزارش ساز جدید ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Report-Builder/Report-Builder.md)مراجعه کنید .
 
 **8.زیرنوع فرم:** با استفاده از این فیلد کشویی می توانید زیرنوع  فرم را تغییر دهید (فرم مورد نظر را انتخاب نمایید ).
+
+![IMG-0190](</kb-assets/kb-images/Help/Customer-relationship-management/forms/2.webp>)
 
 **کلیک راست:** با کلیک راست بر روی یک یا چند تا از فرم ها می توانید اقدام به ویرایش گروهی یا افزودن سابقه برای آن ها کنید.
 

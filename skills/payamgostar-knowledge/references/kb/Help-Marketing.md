@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## ارسال گروهی
 `مسیر سند: Help/Marketing/Send-group.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Send-group.md)
@@ -24,7 +24,11 @@
 
 در صفحه‌ی اصلی هویت‌ها امکان ارسال پیام به هویت، از طریق کلید ارسال سریع وجود دارد.
 
+![IMG-0712](</kb-assets/kb-images/Help/Marketing/sari1.jpg.webp>)
+
 با استفاده از این بخش صفحه‌ی ارسال سریع در دسترس قرار می‌گیرد، با انتخاب رسانه (پیام کوتاه، ایمیل، فکس و چاپ) و خط  در بخش تنظیمات رسانه و تنظیم متن ارسالی می‌توان پیام موردنظر را به هویت ارسال کرد.
+
+![IMG-0713](</kb-assets/kb-images/Help/Marketing/sari3.jpg.webp>)
 
 **1. پارامتر هوشمند:** برای تنظیم متن پیام میتوان از پارامترهای هوشمند استفاده کرد. برای استفاده از پارامتر هوشمند باید دو بار بر روی آن کلیک کرد. (برای مطالعه بیشتر به بخش [متن هوشمند](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/Parameters/MessageParameters.md) مراجعه کنید.)
 

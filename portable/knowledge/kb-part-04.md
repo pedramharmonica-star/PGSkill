@@ -1,10 +1,10 @@
 # مرکز دانش رسمی پیام‌گستر — بخش 4 از 5
 
-بخش‌های این فایل: Help-Settings-Personalization-crm-Overview-Process-design, Help-Settings-Personalization-crm-Overview-ViewOfWorkFlow283md, Help-Settings-Personalization-crm-Overview-WhatIsProcessInCRM283md, Help-Settings-Personalization-crm-Overview-WorkFlowEdition283md, Help-Settings-Personalization-crm-Task-management, Help-Settings-Personalization-crm-personalization-hoviat, Help-Settings-Price-list-management, Help-Settings-Product-originality-management, Help-Settings-SiteSetting, Help-Settings-UserOrganizationLevel, Help-Settings-Warehouse-management, Help-Settings-Warehousing, Help-Settings-sefaresh, Help-Settings, Help-Supplementary-modules, Help-Ticket, Help-backup, Help-connections, Help-home, Help-update, Other-Learning, Other-Mds, Other-PGXDocument, Other, Positions-Roadmap-Assistant, Positions-Roadmap-CEO-Position, Positions-Roadmap-CostumerCare, Positions-Roadmap-FinanceDepartman, Positions-Roadmap-IT-Man, Positions-Roadmap-SalesAssistance
+بخش‌های این فایل: Help-Settings-Personalization-crm-Overview-Process-design, Help-Settings-Personalization-crm-Overview-ViewOfWorkFlow283md, Help-Settings-Personalization-crm-Overview-WhatIsProcessInCRM283md, Help-Settings-Personalization-crm-Overview-WorkFlowEdition283md, Help-Settings-Personalization-crm-Task-management, Help-Settings-Personalization-crm-personalization-hoviat, Help-Settings-Price-list-management, Help-Settings-Product-originality-management, Help-Settings-SiteSetting, Help-Settings-UserOrganizationLevel, Help-Settings-Warehouse-management, Help-Settings-Warehousing, Help-Settings-sefaresh, Help-Settings, Help-Supplementary-modules, Help-Ticket, Help-backup, Help-connections, Help-home, Help-update, Other-Learning, Other-Mds, Other-PGXDocument, Other
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-Process-design
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### آشنایی با چرخه‌کاری در پیام‌گستر
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Concept-Process.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Concept-Process.md)
@@ -33,6 +33,8 @@
 
 ###### تصویر زیر نمونه‌ای از فرآیند طراحی شده می‌باشد:
 
+![IMG-1437](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process1.webp>)
+
 در این مثال مرحله اول فرآیند مذاکره با مشتری/صدور پیش‌فاکتور می‌باشد که توسط گروه فروش انجام میشود،گروه فروش با انجام این مرحله و اجرای اقدام "ارجاع به مدیر فروش" فرآیند را به مرحله بعد که مرحله تایید پیش‌فاکتور و مذاکرات می‌باشد، هدایت میکند، در این مرحله مدیر فروش با اقدام "تایید و ارجاع به مرحله ارسال پیش فاکتور" برای مشتری فرآیند را به پایان می‌رساند، در این فرآیند دو اقدام در مرحله اول در نظر گرفته شده است که در صورت عدم خرید مشتری فرآیند به مرحله رویت فروش ناموفق توسط مدیر فروش منتقل می‌شود.
 
 ### طراحی فرآیند(چرخه کاری)
@@ -60,6 +62,8 @@
 
 برای اطلاع از شیوه اضافه کردن فیلدها به [تنظیمات مشترک آیتم های سیستم ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/Add-features/Add-features.md)مراجعه کنید.
 
+![IMG-1438](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/ProcessDesignCycle5.webp>)
+
 ### مشاهده چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md)
 
@@ -77,6 +81,8 @@
 برای مشاهده گردش کار آیتم طبق مراحل زیر اقدام نمایید:
 1. آیتم مورد نظر خود را از لیست انتخاب و با دابل کلیک به صفحه مشخصات آن بروید.
 2. در تب **مشخصات** آیتم، روی **مشاهده چرخه‌کاری** کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت نمایش داده می‌شود.
+
+![IMG-1439: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/View-Item-process.webp>)
 
 > **نکته**
 
@@ -139,6 +145,8 @@
 
  به طور مثال در شکل زیر، کارتابل تایید پیش فاکتور و مذاکرات سه اقدام دارد، به این معنی که مدیر فروش در این مرحله سه اقدام مجاز دارد که می‌تواند فرآیند را جهت ارسال پیش فاکتور به مشتری به مرحله بعد هدایت کند که در این صورت یک فعالیت ارسال پیام کوتاه برای اطلاع رسانی به مشتری اجرا شده و پس از آن وارد کارتابل ارسال پیش فاکتور خواهد شد، همچنین می تواند کار را جهت انجام اصلاحات به کارتابل قبلی بازگرداند یا به دلیل عدم تایید مذاکرات، فرآیند را به حالت نهایی بفرستد.
 
+![IMG-1430: مثال اجزای فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/ex.sales-process_2.8.3.webp>)
+
 ### ویرایش چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/WorkFlowEdition.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/WorkFlowEdition.md)
 
@@ -155,7 +163,11 @@
 1. به صفحه مشخصات آیتمی که قصد ویرایش چرخه‌کاری آن را دارید، بروید (می‌توانید آن را در لیست مربوط به آن بیابید).
 2. در تب **مشخصات** آیتم، روی [مشاهده چرخه‌کاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md) کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را به همراه جزئیات هر مرحله، نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت فهرست می‌شود.
 
+![IMG-1440: مسیر مشاهده گردش کار در صفحه اطلاعات آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/View-Item-process-button.webp>)
+
 در صفحه پیش‌رو جزئیات مربوط به هر مرحله در اختیار شما قرار داده می‌شود.
+
+![IMG-1441: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Process-edition-overview.webp>)
 
   **A.** در این جدول لیست کارتابل و فعالیت‌های انتظار گذشته طی فرآیند را مشاهده خواهید کرد.
 
@@ -175,11 +187,17 @@
 
 با کلیک بر دکمه **افزودن** کارتابل/فعالیت مورد نظر خود را اضافه نمایید. زین پس فرآیند از مرحله اضافه شده ادامه‌ی مسیر می‌دهد.
 
+![IMG-1442: صفحه ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Add-Stage-in-Process-edition-page.webp>)
+
 - **تغییر مسئول آخرین کارتابل، در چرخه‌کاری**
 
 همانطور که در توضیحات بالا اشاره شد، امکان حذف آخرین کارتابل در بخش ویرایش چرخه‌کاری وجود ندارد و تنها می‌توانید مسئول **آخرین کارتابل** را تغییر دهید. برای این کار روی گزینه ویرایش کلیک کنید.
 
+![IMG-1443: نحوه تغییر مسئول کارتابل در ویرایش چرخه کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Edite-last-stage-in-process.webp>)
+
 در صفحه پیش رو زمان دقیق ورود به کارتابل، تخصیص به کاربر، مشاهده آیتم و خروج فرآیند از کارتابل کاربر نمایش داده می‌شود. درصورتی که بخواهید مسئول این کارتابل را تغییر دهید، می‌توانید نام کاربر مورد نظر خود را از لیست انتخاب نموده و تغییرات را ذخیره نمایید.
+
+![IMG-1444: تغییر مسئول آخرین کارتابل در ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/Change-user-in-cartable.webp>)
 
 > **نکته**
 
@@ -187,6 +205,8 @@
 
 ###### مشاهده سابقه تغییرات در ویرایش چرخه‌کاری
 برای هر دو حالت افزودن کارتابل/فعالیت جدید به انتهای فرآیند و ویرایش مسئول آخرین کارتابل، **نام ایجاد کننده**، **نام ویرایش کننده** و **زمان دقیق تغییرات** اعمال شده در لیست مراحل فرآیند، نمایش داده خواهد شد.
+
+![IMG-1445: مشاهده سابقه تغییرات ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/History-of-changes-in-process.webp>)
 
 ###### دسترسی‌های مورد نیاز برای ویرایش چرخه‌های کاری
 **مالک آیتم** و **مدیر سیستم** به طور کلی امکان ویرایش چرخه‌کاری را دارند. علاوه بر آن برخی مجوزهای مدیریتی (مثل مدیر مالی، مدیر فروش و ...) نیز دسترسی ویرایش چرخه‌کاری آیتم‌های مختلف را به کاربر می‌دهد که در ادامه به تفکیک توضیح داده می‌شود.
@@ -270,6 +290,8 @@
 
  به طور مثال در شکل زیر، کارتابل تایید پیش فاکتور و مذاکرات سه اقدام دارد، به این معنی که مدیر فروش در این مرحله سه اقدام مجاز دارد که می تواند فرآیند را جهت ارسال پیش فاکتور به مشتری به مرحله بعد هدایت کند که در این صورت یک فعالیت ارسال پیام کوتاه برای اطلاع رسانی به مشتری اجرا شده و پس از آن وارد کارتابل ارسال پیش فاکتور خواهد شد، همچنین می تواند کار را جهت انجام اصلاحات به کارتابل قبلی بازگرداند یا به دلیل عدم تایید مذاکرات، فرآیند را به حالت نهایی بفرستد.
 
+![IMG-1601](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/Action1.webp>)
+
 ### مفاهیم کلی فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/mafhom-bpms.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/mafhom-bpms.md)
 
@@ -286,6 +308,8 @@
 
 ###### برای نمونه فرآیند فروش در ابزار draw.io  به این صورت طراحی گردیده است:
 
+![IMG-1602](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/mafahim-bpms/flowchart_1.webp>)
+
 ### ذخیره و بارگذاری فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/Process-storage-and-loading.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/Process-storage-and-loading.md)
 
@@ -293,20 +317,32 @@
 
 در نظر داشته باشید برای ذخیره و بارگذاری یک فرایند در نرم افزار، یک درخواست به پنل مدیریتی شرکت پیام گستر ارسال خواهد شد و تنها در صورت تایید، می توانید ذخیره و بارگذاری را انجام دهید. پس از بارگذاری فرایند ذخیره شده، تمامی فیلدها به همراه فرایند استقرار داده شده روی آیتم، در قالب آیتم جدیدی در نرم افزار بارگذاری خواهند شد.
 
+![IMG-1589](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport1.webp>)
+
 **1. ذخیره فرآیند:** با کلیک بر روی این دکمه می توانید درخواست ذخیره فرایند را ثبت کنید. توضیحاتی در ارتباط با درخواست خود (دلیل ذخیره فرآیند) وارد کرده و روی دکمه ارسال کردن کلیک کنید. بعد از پذیرفته شدن درخواست فایل مربوط به این فرآیند ذخیره خواهد شد و می توانید در آینده آن را بارگذاری کنید.
 
+![IMG-1590](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport2.webp>)
+
 **2. بارگذاری فرآیند:** با کلیک بر روی این دکمه، می توانید فایلی که از قبل ذخیره کرده اید را بارگذاری کنید. برای انجام این کار نیز باید توضیحی برای درخواست بارگذاری وارد نمایید. در صورت پذیرفته شدن درخواست، صفحه زیر را مشاهده خواهید کرد.
+
+![IMG-1591](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport3.webp>)
 
 در قسمت انتخاب فایل، باید فایل ذخیره شده از فرایند را بارگذاری کرده و سپس روی دکمه بارگذاری فایل کلیک کنید. (این فایل دارای پسوند pgprocess می باشد)
 
 پس از بارگذاری فایل، مطابق شکل زیر کاربران و گروه های متناظر با کاربران و گروه های استفاده شده در فرایند ذخیره شده را مشخص کنید و روی دکمه ذخیره کردن کلیک کنید.
+
+![IMG-1592](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Process-storage-and-loading/ImportExport4.webp>)
 
 ### طراحی فرآیند به صورت شماتیک با ابزار پیام گستر
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md)
 
 با استفاده از این ابزار می‌توانید گردش کاری دلخواه را به صورت شماتیک ایجاد کرده و یا گردش کاری که در نرم افزار ایجاد کرده اید را مشاهده و بازبینی کنید .
 
+![IMG-1593](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/tarahi.webp>)
+
 با کلیک بر روی این گزینه یک صفحه ابزار طراحی فرآیند باز می‌شود.
+
+![IMG-1594](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/tarahi1.webp>)
 
 **1. ابزار طراحی فرآیند:** در این بخش شما می‌توانید لیست انواع فعالیت‌ها و کارتابل را مشاهده و برای طراحی فرآیند استفاده کنید .
 
@@ -344,15 +380,27 @@
 
 > نکته: به محل اتصال ورود و خروج اقدام توجه گردد
 
+![IMG-1595](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew3.webp>)
+
 **A**. به این معنی است که تعداد نامحدودی از اقدامات می‌تواند به کارتابل ختم شود و یا از آن آغاز گردد. (برای مثال در تصویر زیر یک اقدام به کارتابل "تایید پیش فاکتور" می‌رود و دو اقدام از آن خارج می‌شود.)
+
+![IMG-1596](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew4.webp>)
 
 **B**. تعداد نامحدودی اقدام می‌تواند به یک فعالیت از نوع تصمیم برسد اما تنها دو خروجی با نام‌های true (حالت بعدی در صورتی که شرط تصمیم برقرار باشد) و false (حالت بعدی در صورتی که شرط تصمیم برقرار نباشد) میتواند از آن خارج شود.
 
+![IMG-1597](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew5.webp>)
+
 **C**. تعداد نامحدودی اقدام می‌تواند به یک فعالیت از نوع وب سرویس برسد اما تنها دو خروجی با نام‌های success (حالت بعدی در صورت اجرای موفق وب سرویس) و fail (حالت بعدی در صورت خطای وب سرویس) می‌تواند از آن خارج شود. (برای مثال در تصویر زیر اگر وب سرویس "ثبت در سایت" به درستی عمل کند، گردش کاری آیتم به مرحله‌ی "پایان" و در صورت خطای وب سرویس به مرحله "فعالیت پیام کوتاه" می‌رود.)
+
+![IMG-1598](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew6.webp>)
 
 **D**. تعداد نامحدودی اقدام می‌تواند به یک فعالیت از نوع انتظار برسد اما تنها دو خروجی با نام‌های break (حالت بعدی در صورت برقرار شدن شرط انتظار) و expire (حالت بعدی در صورت منقضی شدن زمان انتظار) می‌تواند از آن خارج شود. (برای مثال در صورتی که شرط انتظار برقرار شود، گردش کار آیتم به مرحله "فعالیت انتظار بعد از خرید" و در صورت برقرار نشدن شرط انتظار، پس از پایان زمان انتظار به مرحله‌ی "فعالیت پیام کوتاه" می‌رود.)
 
+![IMG-1599](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew7.webp>)
+
 **E**. حالت نهایی به تعداد نامحدودی ورودی می‌پذیرد اما هیچ اقدامی ‌از آن خارج نمی‌شود.
+
+![IMG-1600](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/DesignProcessToolNew8.webp>)
 
 > نکته: به محل اتصال ورود و خروج اقدام توجه گردد.
 
@@ -374,11 +422,17 @@
 
 در این قسمت می توانید ترتیب گذاری مراحل مختلف فرآیند (کارتابل ها و انتظارها) را مشخص کنید. این ترتیب گذاری در گزارشات فرایندی، قسمت [نمایش کانبان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Process-reports/Kanban-Show/Kanban-Show.md) و همچنین پروسه نمایش داده شده در آیتم تحت فرایند تاثیرگذار است و ارتباطی با چگونگی گردش کار ندارد، زیرا چگونگی گردش کار فرآیند با استفاده از اقدام ها و تنظیمات فعالیت ها مشخص می گردد.
 
+![IMG-1603](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/tartibgozari-cartable/KanbanSorting3.webp>)
+
 > نکته: توجه داشته باشید یک فرایند در جریان، در یکی از کارتابل ها یا انتظار ها می باشد (زیرا سایر فعالیت های فرایند به سرعت انجام می شوند و پس از آن فرآیند به حالت بعدی هدایت خواهد شد)، به همین دلیل در این قسمت فقط ترتیب گذاری کارتابل ها و انتظارها را انجام می دهید.
 
 برای ترتیب گذاری در قسمت ویرایش چرخه کاری، روی دکمه ترتیب گذاری کارتابل ها و انتظارها کلیک کنید.
 
+![IMG-1604](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/tartibgozari-cartable/KanbanSorting1.webp>)
+
 با استفاده از کشیدن و رها کردن (Drag&Drop) و یا فلش های سبز رنگ، می توانید ترتیب بندی کانبان را برای این گردش کاری تعیین کنید.
+
+![IMG-1605](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/tartibgozari-cartable/KanbanSorting4.webp>)
 
 ### ساخت چرخه (Workflow) در نرم افزار:
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Create-a-work-cycle.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Create-a-work-cycle.md)
@@ -396,6 +450,8 @@
  صورت انجام آن ها فرایند به مرحله دیگر میرود. هر کارتابل می تواند چندین اقدام داشته باشد که بر اساس شرایط آن مرحله از کار و حالت های ممکن، ایجاد می گردند.
 
 **فعالیت:** مراحلی از گردش کار که به صورت خودکار توسط سیستم انجام می شوند. برای مثال فعالیت هایی مانند ارسال پیام کوتاه، ایمیل، تصمیم گیری سیستمی .....
+
+![IMG-1446: نمای کلی ایجاد چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Images/Work-flow-settings-over-view.webp>)
 
 **1. ابزار طراحی فرآیند جدید:** به [ ابزار طراحی فرآیند به صورت شماتیک با ابزار پیام گستر](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md) مراجعه کنید.
 
@@ -429,6 +485,8 @@
 
 **فعالیت:** مراحلی از گردش کار که به صورت خودکار توسط سیستم انجام می شوند. برای مثال فعالیت هایی مانند ارسال پیام کوتاه، ایمیل، تصمیم گیری سیستمی .....
 
+![IMG-1446: نمای کلی از ایجاد چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Images/Work-flow-settings-over-view.webp>)
+
 **1. ابزار طراحی فرآیند جدید:** به [ ابزار طراحی فرآیند به صورت شماتیک با ابزار پیام گستر](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/abzar-tarahi/abzar-tarahi.md) مراجعه کنید.
 
 **2. ابزار طراحی فرآیند:** به  ابزار طراحی فرآیند به صورت شماتیک با ابزار گوگل مراجعه کنید .
@@ -447,12 +505,16 @@
 ###### مشاهده سابقه تغییرات در تنظیمات چرخه‌کاری {#WorkFlowSettingChangLog}
 در همین صفحه سابقه تغییرات هرکدام از کارتال یا فعالیت‌ها اضافه شده که شما می‌توانید **تاریخ ایجاد**، **نام کاربر ایجاد کننده کارتابل یا فعالیت**، **تاریخ ویرایش** و **نام کاربر ویرایش کننده** اجزای چرخه‌کاری را مشاهده نمایید.
 
+![IMG-1447: سابقه تغییرات در تنظیمات چرخه کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Images/Change-log-in-process-setting.webp>)
+
 ### نحوه ایجاد فعالیت
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Activity.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Activity.md)
 
 در این بخش امکان انتخاب فعالیت موردنظر برای استقرار فرآیند وجود دارد.
 
 با انتخاب هر کدام از فعالیت ها، باید تنظیمات مربوط به آن را تعیین کرده و مشخص کنیم که فرآیند بعد از انجام عملیات، به چه مرحله ای هدایت شود ( حالت بعدی ).
+
+![IMG-1453](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Activity.webp>)
 
 با کلیک بر روی دکمه ایجاد فعالیت، می توانید یک فعالیت جدید به فرآیند خود اضافه کنید. لیست انواع فعالیت ها به شرح زیر می باشند:
 
@@ -521,6 +583,8 @@
 
 به طور مثال فرض کنید که یک فرایند روی آیتم فرم درخواست مرخصی طراحی کرده اید و میخواهید در انتهای فرایند یک پیگیری برای مسئول منابع انسانی جهت ثبت مرخصی در سیستم اتوماسیون یه صورت خودکار توسط سیستم ایجاد شود.
 
+![IMG-1505](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Keep-trackof-tracking/Setfollowup.webp>)
+
  برای ثبت این فعالیت، پس از تعیین نام، نوع مرحله ( معمولی/اولیه) و حالت بعدی این مرحله ، تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
 **1. مرتبط با:** کاربری که باید این پیگیری برای او ایجاد شود را تعیین کنید.
@@ -540,6 +604,8 @@
 
 ###### تنظیمات این فعالیت به صورت زیر می باشد:
 
+![IMG-1532](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Activity.webp>)
+
 **1. مدت انتظار:** در این قسمت مدت زمان انتظار را مشخص کنید، مدت انتظار می تواند یک مقدار مشخص یا متغیر (بر اساس فیلدهای از نوع عدد و تاریخ باشد که روی آیتم تحت چرخه هستند) باشد. در صورتی که مقدار متغیر برای مدت انتظار در نظر بگیرید در واقع مدت انتظار با توجه به مقادیری که در فیلدها توسط کاربران وارد می شود، مشخص می گردد. به طور مثال در شکل بالا مدت انتظار تا 2 هفته بعد از تاریخی است که در فیلد تاریخ ارسال کالا وارد گردد.
 
 **2. حالت بدون شرط:** در صورتی که این گزینه را انتخاب کنید، انتظار تنها با فرا رسیدن زمانی که در مرحله قبل مشخص کرده اید، به پایان خواهد رسید و به مرحله ای که در قسمت وضعیت در صورت انقضا مشخص کردید،  منتقل می گردد.(به استثناء خاتمه مستقیم انتظار)
@@ -551,6 +617,8 @@
 > نکته: در صورت برقراری شرط ممکن است که حداکثر تا یک ساعت برای عملکرد این شرط زمان نیاز باشد.
 
 **5.  خاتمه مستقیم انتظار:** در این قسمت می توانید یک کاربر/گروه و یا سمت را به عنوان مالک انتظار مشخص کنید، مالک انتظار می تواند قبل از فرا رسیدن مدت انقضای انتظار یا برقراری شرط، انتظار را به صورت دستی به پایان برساند (انتظار را بشکند) مالک انتظار می تواند یک کاربر مشخص، آخرین مسئول یکی از کارتابل های فرآیند یا یک فیلد از نوع لیست کاربر/گروه آیتم تحت چرخه باشد، در صورتی که گزینه فیلد را انتخاب کنید می توانید یک کاربر/گروه و یا مسئول پروفایل ها را به عنوان مالک انتظار در صورت خالی بودن فیلد مربوطه در نظر بگیرید.
+
+![IMG-1533](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Delay1.webp>)
 
 **6**. در صورتی که این گزینه فعال باشد، پس از اتمام دستی انتظار توسط کاربر مالک انتظار، صفحه آیتم مربوطه بسته خواهد شد.
 
@@ -571,6 +639,8 @@
 
 ###### تنظیمات این فعالیت به صورت زیر می باشد:{#TimingWatingActivity}
 
+![IMG-1532](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Activity.webp>)
+
 **1. مدت انتظار:** در این قسمت مدت زمان انتظار را مشخص کنید، مدت انتظار می تواند یک مقدار مشخص یا متغیر (بر اساس فیلدهای از نوع عدد و تاریخ باشد که روی آیتم تحت چرخه هستند) باشد. در صورتی که مقدار متغیر برای مدت انتظار در نظر بگیرید در واقع مدت انتظار با توجه به مقادیری که در فیلدها توسط کاربران وارد می شود، مشخص می گردد. به طور مثال در شکل بالا مدت انتظار تا 2 هفته بعد از تاریخی است که در فیلد تاریخ ارسال کالا وارد گردد.
 
 > **نکته**
@@ -588,6 +658,8 @@
 > در صورت برقراری شرط ممکن است که حداکثر تا یک ساعت برای عملکرد این شرط زمان نیاز باشد.
 
 **5.  خاتمه مستقیم انتظار:** در این قسمت می توانید یک کاربر/گروه و یا سمت را به عنوان مالک انتظار مشخص کنید، مالک انتظار می تواند قبل از فرا رسیدن مدت انقضای انتظار یا برقراری شرط، انتظار را به صورت دستی به پایان برساند (انتظار را بشکند) مالک انتظار می تواند یک کاربر مشخص، آخرین مسئول یکی از کارتابل های فرآیند یا یک فیلد از نوع لیست کاربر/گروه آیتم تحت چرخه باشد، در صورتی که گزینه فیلد را انتخاب کنید می توانید یک کاربر/گروه و یا مسئول پروفایل ها را به عنوان مالک انتظار در صورت خالی بودن فیلد مربوطه در نظر بگیرید.
+
+![IMG-1533](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Waiting/Delay1.webp>)
 
 **6**. در صورتی که این گزینه فعال باشد، پس از اتمام دستی انتظار توسط کاربر مالک انتظار، صفحه آیتم مربوطه بسته خواهد شد.
 
@@ -679,6 +751,8 @@
 ##### پیاده‌سازی تخصیص مقدار پیشرفته با استفاده از expression
 برای پیاده‌سازی تخصیص مقدار پیشرفته، پس از تعیین مبدا و مقصد و ایجاد فیلدهای مورد نیاز،‌ فعالیت تخصیص مقدار را در بخش مناسب فرآیند خود قرار دهید. برای تنظیم فعالیت، چک باکس **اعمال** و **عبارت** را فعال نمایید. سپس دستور expression مورد نیاز را در فیلد مربوطه وارد کنید. شیوه‌ی نوشتن دستورات در بخش  نوشتن expression برای تخصیص مقدار پیشرفته به صورت کامل توضیح داده شده است. بهتر است دستور را در صفحه Notepad نوشته و آن را در این قسمت paste نمایید.
 
+![IMG-1509: تنظیم expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/advanced-value-allocation-expression-code-2.8.0.webp>)
+
 به طور خلاصه برای استفاده از تخصیص مقدار پیشرفته باید مراحل زیر را طی کنید:
 
 1. فیلدهای مبدا و مقصد را مشخص کنید و در صورت نیاز فیلدهای آن‌ را ایجاد نمایید.
@@ -714,6 +788,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 @(this.Select(Identity/Parent/Children.Item.ExtendedFieldCode@ItemKey));
 ```
 تصویر زیر نیز قالب بالا را به زبان فارسی توضیح می‌دهد.
+
+![IMG-1510: expression tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-2.8.0.webp>)
 
 در این تصویر فوق:
 - استفاده از this به معنای ارجاع دادن به آیتم فعلی (آیتم مقصد که چرخه روی آن طراحی شده است) می‌باشد. این بخش ثابت بوده و در ابتدای هر دستوری درج می‌شود.
@@ -828,6 +904,8 @@ SettlementTerms از طریق شخصی‌سازی اضافه کرده‌اید. 
 - Take: آیتم nام از بین لیستی که به صورت صعودی یا نزولی مرتب شده انتخاب می‌شود.
 - TakeOrDefault: با استفاده از این دستور در صورت موجود نبودن nامین مورد انتخابی،‌ مقداری که به عنوان پیش‌فرض انتخاب شده است، به عنوان خروجی نمایش داده می‌شود.
 
+![IMG-1511: Order tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-for-order-2.8.0.webp>)
+
 به طور کلی برای استفاده از قالب قابل مشاهده در تصویر بالا استفاده می‌شود. قسمت آبی رنگ کد تنها در صورت پیش‌فرض نبودن فیلد مبدا و قسمت سبز رنگ در صورت پیش‌فرض نبودن فیلد مبنای مرتب‌سازی در دستور درج شود.
 
 **مثال ۸:**
@@ -927,6 +1005,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 @(this.Select(Identity/Parent/Children.Item.ExtendedFieldCode@ItemKey));
 ```
 تصویر زیر نیز قالب بالا را به زبان فارسی توضیح می‌دهد.
+
+![IMG-1510: expression tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-2.8.0.webp>)
 
 در تصویر فوق:
 - استفاده از this به معنای ارجاع دادن به آیتم فعلی (آیتم مقصد که چرخه روی آن طراحی شده است) می‌باشد. این بخش ثابت بوده و در ابتدای هر دستوری درج می‌شود.
@@ -1048,6 +1128,8 @@ SettlementTerms از طریق شخصی‌سازی اضافه کرده‌اید. 
 - OrderDes: برای مرتب کردن به صورت نزولی استفاده می‌شود. چنانچه شما فیلد تاریخی را به صورت نزولی مرتب نمایید، اولین مورد در حقیقت جدیدترین خواهد بود.
 - Take: آیتم nام از بین لیستی که به صورت صعودی یا نزولی مرتب شده انتخاب می‌شود.
 - TakeOrDefault: با استفاده از این دستور در صورت موجود نبودن nامین مورد انتخابی،‌ مقداری که به عنوان پیش‌فرض انتخاب شده است، به عنوان خروجی نمایش داده می‌شود.
+
+![IMG-1511: Order tempalate](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/expression-template-for-order-2.8.0.webp>)
 
 به طور کلی برای استفاده از قالب قابل مشاهده در تصویر بالا استفاده می‌شود. قسمت آبی رنگ کد تنها در صورت پیش‌فرض نبودن فیلد مبدا و قسمت سبز رنگ در صورت پیش‌فرض نبودن فیلد مبنای مرتب‌سازی در دستور درج شود.
 
@@ -1229,6 +1311,8 @@ CustomerTicket).OrderDes(Children.Ticket.EndDate@CustomerTicket).Take(1));
 #### پیاده‌سازی تخصیص مقدار پیشرفته با استفاده از expression
 برای پیاده‌سازی تخصیص مقدار پیشرفته، پس از تعیین مبدا و مقصد و ایجاد فیلدهای مورد نیاز،‌ فعالیت تخصیص مقدار را در بخش مناسب فرآیند خود قرار دهید. برای تنظیم فعالیت، چک باکس **اعمال** و **عبارت** را فعال نمایید. سپس دستور expression مورد نیاز را در فیلد مربوطه وارد کنید. شیوه‌ی نوشتن دستورات در بخش  نوشتن expression برای تخصیص مقدار پیشرفته به صورت کامل توضیح داده شده است. بهتر است دستور را در صفحه Notepad نوشته و آن را در این قسمت paste نمایید.
 
+![IMG-1509: تنظیم expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/advanced-value-allocation-expression-code-2.8.0.webp>)
+
 به طور خلاصه برای استفاده از تخصیص مقدار پیشرفته باید مراحل زیر را طی کنید:
 
 1. فیلدهای مبدا و مقصد را مشخص کنید و در صورت نیاز فیلدهای آن‌ را ایجاد نمایید.
@@ -1268,6 +1352,8 @@ CustomerTicket).OrderDes(Children.Ticket.EndDate@CustomerTicket).Take(1));
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1293,6 +1379,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ;Select @( Expression) نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 #### لیست فیلدهای قابل پشتیبانی جهت تعیین مقدار از طریق Expression:
 
@@ -1459,6 +1547,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 >در صورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1484,6 +1574,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ;Select @(Expression) نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 #### لیست فیلدهای قابل پشتیبانی جهت تعیین مقدار از طریق Expression:
 
@@ -1695,6 +1787,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1723,6 +1817,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@ در فعال
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ; (Expression)@ نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 ##### نمونه‌هایی از نحوه‌ی تعریف Expression
 در این قسمت با مثال‌هایی طریقه نوشتن Expression آموزش داده می‌شود:
@@ -1915,6 +2011,8 @@ Custom Expression شامل دستوراتی است که ساختار کلی آن
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -1943,6 +2041,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@ در فعال
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ; (Expression)@ نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 ##### نمونه‌هایی از نحوه‌ی تعریف Expression
 در این قسمت با مثال‌هایی طریقه نوشتن Expression آموزش داده می‌شود:
@@ -2092,6 +2192,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@ در فعال
 
 >درصورتی‌که بخواهید از اطلاعات موجودیت (هویت) Identity خروجی بگیرید، لزومی ندارد برای ارجاع دادن از عبارت Parent  استفاده کنید، درحالی‌که در سایر موجودیت‌ها باید از عبارت Parent استفاده کنید.
 
+![IMG-1512: Expression](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Customparent.webp>)
+
 **5. Where:** برای گذاشتن شرط از این دستور استفاده می‌شود.
 
 >**نکته**
@@ -2117,6 +2219,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > در فعالیت اجرای دستورات پایگاه‌داده، در صورت نیاز به استفاده از Expression باید به‌صورت ;Select @( Expression) نوشته شود.
+
+![IMG-1513: شیوه نوشتن دستور](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SQL/Expression1.webp>)
 
 #### لیست فیلدهای قابل پشتیبانی جهت تعیین مقدار از طریق Expression:{#ValidFieldInExpression}
 
@@ -2265,6 +2369,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در فرآیندهای کاری، فعالیت جدیدی به نام اطلاع رسانی به کاربر اضافه شده است که با استفاده از فعالیت اطلاع رسانی به کاربر، می‌توان بصورت خودکار نظری را بر روی آن آیتم به کاربر یا گروه کاربری ارسال نمود.
 
+![IMG-1500](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/Naam.webp>)
+
 **1. نام:** نام فعالیت را مشخص کنید.
 
 **2. نوع:** نوع فعالیت را مشخص کنید. در صورتی که فعالیت ابتدای فرآیند باشد نوع فعالیت را اولیه گذاشته و در غیر اینصورت نوع  معمولی را انتخاب کرده.
@@ -2272,6 +2378,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **3. کد:** در این قسمت یک کد برای فعالیت مربوطه مشخص کنید. کاربرد فیلد کد بمنظور استفاده در وب سرویس است.
 
 **4. توضیحات:** توضیحات تکمیلی را در این قسمت وارد نمایید.
+
+![IMG-1501](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/MasouleKartabl1.webp>)
 
 می‌توان از بین گروه/کاربر/سمت مشخص و آخرین مسؤل مشخص کرد کارتابل بدست چه کاربری برسد.
 
@@ -2281,11 +2389,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **6**. می‌توان کاربر را از بین کاربر، گروه و سمت مشخص کرد.
 
+![IMG-1502](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/MasouleKartabl2.webp>)
+
 ##### در صورت انتخاب آخرین مسؤل:
 
 **7**. می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه سمتی شود.
 
 **8. وضعیت:** مشخص کردن کارتابل مورد نظر.
+
+![IMG-1503](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/EtelaresaniBeKarbar/2.6.0/peyghamVahaalatebaadi.webp>)
 
 **9. پیغام:** در این قسمت متن نظر خود را وارد نمایید.
 
@@ -2297,6 +2409,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت می توانید در فرایند به صورت خودکار به هویت مرتبط با این آیتم تحت چرخه شماره مشتری اختصاص دهید، به طور مثال در فرایند فرصت فروش میخواهید پس از تایید فاکتور و دریافت مرتبط با فرصت، در صورت جدید بودن مشتری، شماره مشتری به او تخصیص داده شود. شماره مشتری هم می تواند به هویت مرتبط با آیتم و هم به هویت های متصل شده به فیلدهای از نوع شرکت/شخص تعریف شده در آیتم اختصاص داده شود.
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
+
+![IMG-1467](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocation-of-customer-number/AssignCustomerNo.webp>)
 
 **1**. در صورت فعال بودن این گزینه، به هویت مرتبط با آیتم تحت چرخه شماره مشتری اختصاص داده خواهد شد.
 
@@ -2315,7 +2429,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید، می خواهید در فرآیند فرصت پس از صدور پیش فاکتور فروش توسط کارشناس و تایید آن، پیش نمایش پیش فاکتور توسط دستگاه چاپگر مسئول بایگانی پرینت شود تا آن را در پرونده مشتری بایگانی کند.کافی است در قسمت تنظیمات متن، گزینه Send this  Field را انتخاب کرده و پس از آن فیلد پیش فاکتور را انتخاب کنید.
 
+![IMG-1514: تصویر تنظیمات Send this field در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-print-activity_2.5.6.webp>)
+
 > نکته: در صورتی که گزینه SpecificContent را انتخاب کنید، باید متن ارسالی را از طریق ابزار WebClientTool تنظیم کنید. برای اطلاع در خصوص تنظیم محتوای یک چاپ به قسمت تنظیم متن مراجعه کنید.
+
+![IMG-1515: تصویر تنظیمات Send Specific Content در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-specific-content-in-print-activity_2.5.6.webp>)
 
 ## فعالیت چاپ (Print)
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/PrintActivity_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/PrintActivity_2.7.5.md)
@@ -2354,6 +2472,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **توضیحات:** به تعداد زبان‌هایی که در تنظیمات زبان سیستم تعریف کرده باشید می‌توانید برای فعالیت چاپ، توضیحاتی ثبت نمایید که راهنمایی برای راهبری چرخه‌کاری باشد.
 
+![IMG-1516: تنظیمات نام و توضیحات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-fax-activity-set-name_2.7.5.webp>)
+
 ##### تنظیمات گیرنده/گیرندگان در فعالیت چاپ
 برای تعیین کردن گیرنده چاپ در طی فرآیند به روش‌های مختلفی می‌توانید عمل کنید.
 - **شرکت/فرد مرتبط**
@@ -2362,11 +2482,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
     دقت داشته باشید که **شماره چاپ پیش‌فرض** تعیین شده در اطلاعات هویت، برای چاپ در نظر گرفته می‌شود.
 
+![IMG-1517: شرکت/فرد مرتبط در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Related-contact_2.7.5.webp>)
+
 - **گیرنده دلخواه**
 
    با این گزینه می‌توانید یک شماره چاپ را در کادر نمایش داده شده ثبت کنید که هر بار فرآیند به این مرحله رسید، چاپ را به آن شماره ارسال کند.
 
    لازم به ذکر است که این شماره همیشه **ثابت** است و تنها **راهبر** یا **کاربر دارای مجوز شخصی‌سازی موجودیت‌ها**، می‌تواند شماره را در تنظیمات فعالیت چاپ تغییر دهد.
+
+![IMG-1518: گیرنده دلخواه در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Preffered-contact-send-message-activities_2.7.5.webp>)
 
 - **کاربر/سمت/گروه/دپارتمان**
 
@@ -2377,9 +2501,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
    فرض کنید سازمانی دارای چندین شعبه باشد و فرآیند ارزیابی سالانه‌ برای عملکرد شعب اجرا شده باشد.
  می‌توان با ایجاد یک گروه کاربری از مدیران شعب مختلف، تنظیمات گیرنده چاپ را روی این گزینه قرار داد و گروه کاربری مدیران شعب انتخاب شود. در این حالت بخشنامه ارزیابی سالیانه در این مرحله از فرآیند به گروه مدیران به صورت خودکار چاپ می‌شود.
 
+![IMG-1519: گیرنده کاربر، دپارتمان، سمت و گروه در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/User-Department-Group-Send-message-activities_2.7.5.webp>)
+
 - **فیلد**
 
    با انتخاب این گزینه گیرنده چاپ، از فیلد اضافه تعیین شده روی آیتم می‌خواند. فیلد اضافه تنها می‌تواند از نوع **کاربر** و **شرکت/شخص** باشد. در این حالت در طی فرآیند هویتی که در این فیلد تعیین شده باشد، گیرنده چاپ خواهد بود.
+
+![IMG-1520: فیلد گیرنده در تنظیمات فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/field-of-contact-in-send-message-activities_2.7.5.webp>)
 
 ##### تنظیمات متن پیام در فعالیت چاپ
 به روش‌های مختلفی می‌توانید متن ارسالی خود به پرینتر را تنظیم نمایید.
@@ -2389,6 +2517,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    در این قسمت تنظیمات متن پیام انجام می‌شود که به روش‌های بارگذاری فایل ورد، انتخاب قالب پیام آماده و نگارش در Web client tool می‌توانید اقدام نمایید.
 
+![IMG-1521: تصویر Specific content در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/send-specific-content-in-fax-activity_2.7.5.webp>)
+
 - **ارسال این آیتم (Send this object)**
 
    با انتخاب این گزینه، پیش‌نمایش (قالب چاپ تنظیم شده) همین آیتم، یعنی آیتمی که روی آن چرخه‌کاری پیاده‌سازی شده است، برای چاپ انتخاب می‌شود. (در فعالیت‌های ارسال پیام‌کوتاه و ارسال پیام شبکه اجتماعی این گزینه وجود ندارد)
@@ -2396,10 +2526,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    با انتخاب این گزینه می‌توانید **قالب چاپ** یکی از **فیلدهای اضافه‌ی CRM** پیوست شده به این آیتم (فیلدهایی مانند فرم، فاکتور، حواله انبار و ...) را برای چاپ در نظر بگیرید. (در فعالیت های ارسال پیام کوتاه و ارسال پیام شبکه اجتماعی قابل انتخاب نیست)
 
+![IMG-1522: send this field در فعالیت چاپ](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-fax-activity_2.7.5.webp>)
+
 ###### قابلیت کوتاه‌سازی لینک در متن پیام {#ShortlinkPrint}
 به کمک چک باکس **کوتاه‌سازی لینک‌های متن** می‌توانید لینک‌هایی که در متن پیام خود ارسال می‌کنید را کوتاه کرده و لینک کوتاه شده را در متن خود چاپ نمایید.
 
 این قابلیت برای "فعالیت‌های ارسال پیام کوتاه"، ا"رسال چاپ" و "چاپ" قابل استفاده است.
+
+![IMG-1523: کوتاه‌سازی لینک در متن پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/short-link-in-fax-activity_2.7.5.webp>)
 
 ##### تنظیمات خط در فعالیت چاپ
 در این قسمت پرینتری که با آن باید چاپ در طی فرآیند انجام شود را تعیین کنید. نحوه تنظیم آن به دو روش انتخابی و پیش‌فرض است که در ادامه شرح داده می‌شود:
@@ -2417,6 +2551,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
  قسمت تنظیمات گیرنده، گیرنده مورد نظر را مشخص کنید و در قسمت تنظیمات متن، نوع پیام ارسالی (که می تواند یک متن مشخص، پیش نمایش همین آیتم یا پیش نمایش یکی از
 
 فیلدهای رفرنسی آیتم باشد) را مشخص کنید.
+
+![IMG-1524: تنظیمات مشترک فعالیت‌های ارسال پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/CommunicationActivity123.webp>)
 
 #### A. تنظیمات گیرنده پیام:
 
@@ -2467,6 +2603,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید می خواهید پیش نمایش پیش فاکتور مشتری، در فرآیند فرصت فروش از طریق ایمیل برای او ارسال شود. کافی است در قسمت تنظیمات متن، گزینه Send this  Field را انتخاب کرده و پس از آن فیلد پیش فاکتور را انتخاب کنید.
 
+![IMG-1525: تصویر تنظیمات فعالیت ارسال ایمیل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-email-activity-preview-of-crmObject-field_2.5.6.webp>)
+
 ## فعالیت ارسال فکس
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActivity_2.5.6.md` · `نسخه سند: 2.5.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActivity_2.5.6.md)
 
@@ -2478,7 +2616,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید می خواهید پیش نمایش پیش فاکتور مشتری، در فرآیند فرصت فروش از طریق فکس برای او ارسال شود. کافی است در قسمت تنظیمات متن، گزینه Send this  Field را انتخاب کرده و پس از آن فیلد پیش فاکتور را انتخاب کنید.
 
+![IMG-1526: تصویر send this field در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-fax-activity-setting_2.5.6.webp>)
+
 > **نکته:** در صورتی که گزینه Specific Content را انتخاب کنید، باید متن ارسالی را از طریق ابزار WebClientTool تنظیم کنید. برای اطلاع در خصوص تنظیم محتوای یک فکس به قسمت تنظیم متن مراجعه کنید.
+
+![IMG-1527: تصویر Send specific content در فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-specific-content-in-fax-activity_2.5.6.webp>)
 
 ## فعالیت ارسال فکس
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActiviy_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendFaxActiviy_2.7.5.md)
@@ -2523,6 +2665,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **توضیحات:** به تعداد زبان‌هایی که در تنظیمات زبان سیستم تعریف کرده باشید می‌توانید برای فعالیت فکس، توضیحاتی ثبت نمایید که راهنمایی برای راهبری چرخه‌کاری باشد.
 
+![IMG-1516: تنظیمات نام و توضیحات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-fax-activity-set-name_2.7.5.webp>)
+
 ##### تنظیمات گیرنده/گیرندگان در فعالیت ارسال فکس
 برای تعیین کردن گیرنده فکس در طی فرآیند به روش‌های مختلفی می‌توانید عمل کنید.
 - **شرکت/فرد مرتبط**
@@ -2531,11 +2675,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
     دقت داشته باشید که **شماره فکس پیش‌فرض** تعیین شده در اطلاعات هویت، برای ارسال فکس در نظر گرفته می‌شود.
 
+![IMG-1517: شرکت/فرد مرتبط در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Related-contact_2.7.5.webp>)
+
 - **گیرنده دلخواه**
 
    با این گزینه می‌توانید یک شماره فکس را در کادر نمایش داده شده ثبت کنید که هر بار فرآیند به این مرحله رسید، فکس را به آن شماره ارسال کند.
 
    لازم به ذکر است که این شماره همیشه **ثابت** است و تنها **راهبر** یا **کاربر دارای مجوز شخصی‌سازی موجودیت‌ها**، می‌تواند شماره را در تنظیمات فعالیت ارسال فکس تغییر دهد.
+
+![IMG-1518: گیرنده دلخواه در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Preffered-contact-send-message-activities_2.7.5.webp>)
 
 - **کاربر/سمت/گروه/دپارتمان**
 
@@ -2546,9 +2694,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
    فرض کنید سازمانی دارای چندین شعبه باشد و فرآیند ارزیابی سالانه‌ برای عملکرد شعب اجرا شده باشد.
  می‌توان با ایجاد یک گروه کاربری از مدیران شعب مختلف، تنظیمات گیرنده فکس را روی این گزینه قرار داد و گروه کاربری مدیران شعب انتخاب شود. در این حالت بخشنامه ارزیابی سالیانه در این مرحله از فرآیند به گروه مدیران به صورت خودکار فکس می‌شود.
 
+![IMG-1519: گیرنده کاربر، دپارتمان، سمت و گروه در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/User-Department-Group-Send-message-activities_2.7.5.webp>)
+
 - **فیلد**
 
    با انتخاب این گزینه گیرنده فکس، از فیلد اضافه تعیین شده روی آیتم می‌خواند. فیلد اضافه تنها می‌تواند از نوع **کاربر** و **شرکت/شخص** باشد. در این حالت در طی فرآیند هویتی که در این فیلد تعیین شده باشد، گیرنده فکس خواهد بود.
+
+![IMG-1520: فیلد گیرنده در تنظیمات فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/field-of-contact-in-send-message-activities_2.7.5.webp>)
 
 ##### تنظیمات متن پیام در فعالیت ارسال فکس
 به روش‌های مختلفی می‌توانید متن پیام ارسالی خود را تنظیم نمایید.
@@ -2558,6 +2710,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    در این قسمت تنظیمات متن پیام انجام می‌شود که به روش‌های بارگذاری فایل ورد، انتخاب قالب پیام آماده و نگارش در Web client tool می‌توانید اقدام نمایید.
 
+![IMG-1521: تصویر Specific content در فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/send-specific-content-in-fax-activity_2.7.5.webp>)
+
 - **ارسال این آیتم (Send this object)**
 
    با انتخاب این گزینه، پیش‌نمایش (قالب چاپ تنظیم شده) همین آیتم، یعنی آیتمی که روی آن چرخه‌کاری پیاده‌سازی شده است، برای ارسال انتخاب می‌شود. (در فعالیت‌های ارسال پیام‌کوتاه و ارسال پیام شبکه اجتماعی این گزینه وجود ندارد)
@@ -2565,10 +2719,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    با انتخاب این گزینه می‌توانید **قالب چاپ** یکی از **فیلدهای اضافه‌ی CRM** پیوست شده به این آیتم (فیلدهایی مانند فرم، فاکتور، حواله انبار و ...) را برای ارسال در نظر بگیرید. (در فعالیت های ارسال پیام کوتاه و ارسال پیام شبکه اجتماعی قابل انتخاب نیست)
 
+![IMG-1522: send this field در فعالیت ارسال فکس](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-this-field-in-fax-activity_2.7.5.webp>)
+
 ###### قابلیت کوتاه‌سازی لینک در متن پیام {#ShortlinkFax}
 به کمک چک باکس **کوتاه‌سازی لینک‌های متن** می‌توانید لینک‌هایی که در متن پیام خود ارسال می‌کنید را کوتاه کرده و لینک کوتاه شده را در پیام برای مخاطب ارسال نمایید.
 
 این قابلیت برای "فعالیت‌های ارسال پیام کوتاه"، ا"رسال فکس" و "چاپ" قابل استفاده است.
+
+![IMG-1523: کوتاه‌سازی لینک در متن پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/short-link-in-fax-activity_2.7.5.webp>)
 
 ##### تنظیمات خط در فعالیت ارسال فکس
 در این قسمت خطی که با آن باید ارسال فکس در طی فرآیند انجام شود را تعیین کنید. نحوه تنظیم آن به دو روش انتخابی و پیش‌فرض است که در ادامه شرح داده می‌شود:
@@ -2588,6 +2746,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 به طور مثال فرض کنید می خواهید در فرآیند فرصت فروش، پس از ارسال کالا برای مشتری، اطلاعات ارسال برای او پیامک شود.
 
 > **نکته مهم:** درارسال پیامک امکان فرستادن قالب چاپ این آیتم (Send This Object) و فرستادن قالب چاپ یک فیلد وابسته (Send This Field) موجود نیست.
+
+![IMG-1528: تصویر تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-SMS-activity_2.5.6.webp>)
 
 ## فعالیت ارسال پیام کوتاه
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendSMSActivity_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/SendSMSActivity_2.7.5.md)
@@ -2628,6 +2788,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **توضیحات:** به تعداد زبان‌هایی که در تنظیمات زبان سیستم تعریف کرده باشید می‌توانید برای فعالیت پیام‌کوتاه، توضیحاتی ثبت نمایید که راهنمایی برای راهبری چرخه‌کاری باشد.
 
+![IMG-1516: تنظیمات نام و توضیحات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Send-fax-activity-set-name_2.7.5.webp>)
+
 ##### تنظیمات گیرنده/گیرندگان در فعالیت ارسال پیام‌کوتاه
 برای تعیین کردن گیرنده پیام‌کوتاه در طی فرآیند به روش‌های مختلفی می‌توانید عمل کنید.
 - **شرکت/فرد مرتبط**
@@ -2636,11 +2798,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
     دقت داشته باشید که **شماره پیام‌کوتاه پیش‌فرض** تعیین شده در اطلاعات هویت، برای ارسال پیام‌کوتاه در نظر گرفته می‌شود.
 
+![IMG-1517: شرکت/فرد مرتبط در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Related-contact_2.7.5.webp>)
+
 - **گیرنده دلخواه**
 
    با این گزینه می‌توانید یک شماره پیام‌کوتاه را در کادر نمایش داده شده ثبت کنید که هر بار فرآیند به این مرحله رسید، پیام‌کوتاه را به آن شماره ارسال کند.
 
    لازم به ذکر است که این شماره همیشه **ثابت** است و تنها **راهبر** یا **کاربر دارای مجوز شخصی‌سازی موجودیت‌ها**، می‌تواند شماره را در تنظیمات فعالیت ارسال پیام‌کوتاه تغییر دهد.
+
+![IMG-1518: گیرنده دلخواه در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Preffered-contact-send-message-activities_2.7.5.webp>)
 
 - **کاربر/سمت/گروه/دپارتمان**
 
@@ -2651,9 +2817,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
    فرض کنید سازمانی دارای چندین شعبه باشد و فرآیند ارزیابی سالانه‌ برای عملکرد شعب اجرا شده باشد.
  می‌توان با ایجاد یک گروه کاربری از مدیران شعب مختلف، تنظیمات گیرنده پیام‌کوتاه را روی این گزینه قرار داد و گروه کاربری مدیران شعب انتخاب شود. در این حالت بخشنامه ارزیابی سالیانه در این مرحله از فرآیند به گروه مدیران به صورت خودکار پیام‌کوتاه می‌شود.
 
+![IMG-1519: گیرنده کاربر، دپارتمان، سمت و گروه در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/User-Department-Group-Send-message-activities_2.7.5.webp>)
+
 - **فیلد**
 
    با انتخاب این گزینه گیرنده پیام‌کوتاه، از فیلد اضافه تعیین شده روی آیتم می‌خواند. فیلد اضافه تنها می‌تواند از نوع **کاربر** و **شرکت/شخص** باشد. در این حالت در طی فرآیند هویتی که در این فیلد تعیین شده باشد، گیرنده پیام‌کوتاه خواهد بود.
+
+![IMG-1520: فیلد گیرنده در تنظیمات فعالیت ارسال پیام‌کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/field-of-contact-in-send-message-activities_2.7.5.webp>)
 
 ##### تنظیمات متن پیام در فعالیت ارسال پیام‌کوتاه
 در فعالیت ارسال پیام‌کوتاه می‌توانید یک متن در تنظیمات به کمک پارامترهای هوشمند تنظیم کرد یا از متن  قالب‌های از پیش تنظیم شده استفاده نمایید.
@@ -2664,6 +2834,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ***به عنوان مثال***
 فرض کنید می خواهید در فرآیند فرصت فروش، پس از ارسال کالا برای مشتری، اطلاعات ارسال برای او پیامک شود.
+
+![IMG-1529: صفحه تنظیمات فعالیت ارسال پیام کوتاه](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/send-SMS-activity_2.7.5.webp>)
 
 > **نکته**
 
@@ -2676,6 +2848,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ***به عنوان مثال***
 فرض کنید می‌خواهید در پایان فرآیند فروش خود، لینک فرم نظرسنجی را برای مشتری خود ارسال کنید. برای اینکه تعداد کاراکتر متن پیام شما کوتاه شود، می‌توانید لینک فرم نظرسنجی خود را در متن پیام درج کرده و چک باکس **کوتاه‌سازی لینک‌های متن** را فعال نمایید.
+
+![IMG-1530: کوتاه‌سازی لینک در متن پیام](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/SendMessageActivities/Images/Example-for-Short-link-in-send-SMS-activity_2.7.5.webp>)
 
 ##### تنظیمات خط در فعالیت ارسال پیام‌کوتاه
 در این قسمت خطی که با آن باید ارسال پیام‌کوتاه در طی فرآیند انجام شود را تعیین کنید. نحوه تنظیم آن به دو روش انتخابی و پیش‌فرض است که در ادامه شرح داده می‌شود:
@@ -2692,13 +2866,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. میتوانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص میکند و با استفاده از فعالیت‌های تصمیم و قرار دادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرآیند در صورتی که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به صورت زیر خواهد بود)
 
+![IMG-1455](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Setavalue1.webp>)
+
  نحوه تخصیص مقدار به صورت زیر می‌باشد، کافیست نام، نوع و حالت بعدی فعالیت را مشخص کرده و تعیین کنید چه مقادیری به کدام فیلدها تخصیص پیدا کند.
+
+![IMG-1456](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Setavalue2.webp>)
 
 با وارد شدن فرآیند به این فعالیت، مقادیر وارد شده در هر یک از فیلدها که چک باکس "اعمال" برای آن‌ها فعال شده باشد، به فیلدها تخصیص پیدا می‌کند. (یعنی اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد)
 
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرآیند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش فاکتور، تایید پیش فاکتور، تایید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به صورت زیر)
+
+![IMG-1457](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Setavalue3.webp>)
 
 در مثال بالا، تاریخ اجرای فعالیت و همچنین ساعت اجرای آن به فیلدهای مشخص شده تخصیص می‌یابند.
 
@@ -2708,6 +2888,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت می‌توانید یک مقدار دلخواه را به یکی از فیلدهای آیتم تحت چرخه اختصاص دهید (این فیلدها می‌توانند فیلدهای پیش‌فرض و یا فیلدهای اضافه شده از قسمت شخصی‌سازی باشند)
 
 به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده‌اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. می‌توانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص می‌کند و با استفاده از فعالیت‌های تصمیم و قراردادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرایند درصورتی‌که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به‌صورت زیر خواهد بود)
+
+![IMG-1458: استفاده از فعالیت تخصیص مقدار در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Images/value-assignment-activity-flowchart.webp>)
 
 ##### تخصیص مقدار فیلدها از دو طریق انجام می‌شود:
 
@@ -2719,9 +2901,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد.
 
+![IMG-1459: استفاده از Expression در فعالیت تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Images/expression-in-assignment-value-activity.webp>)
+
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرایند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش‌فاکتور، تأیید پیش‌فاکتور، تأیید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به‌راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به‌صورت زیر)
+
+![IMG-1460: ثبت لحظه تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/Images/time-of-assignment-value.webp>)
 
 > **نکته:**
 
@@ -2764,6 +2950,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده‌اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. می‌توانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص می‌کند و با استفاده از فعالیت‌های تصمیم و قراردادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرایند درصورتی‌که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به‌صورت زیر خواهد بود)
 
+![IMG-1464: استفاده از فعالیت تخصیص مقدار در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.1/Set-value-in-progress.webp>)
+
 ##### تخصیص مقدار فیلدها از دو طریق انجام می‌شود:
 
 **1)**    با فعال‌کردن چک باکس اعمال و تعیین مقدار موردنظر، آن فیلد طی این فرایند مقداردهی می‌شود.
@@ -2772,9 +2960,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد.
 
+![IMG-1465: استفاده از Expression در فعالیت تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.1/Expression-in-set-value-activity.webp>)
+
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرایند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش‌فاکتور، تأیید پیش‌فاکتور، تأیید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به‌راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به‌صورت زیر)
+
+![IMG-1466: ثبت لحظه تخصیص مقدار](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.1/Time-of-set-value.webp>)
 
 > **نکته:**
 
@@ -2817,6 +3009,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید یک چرخه کاری روی آیتم فرم درخواست مرخصی طراحی کرده‌اید و می‌خواهید پس از ثبت درخواست، فرم به کارتابل مدیر دپارتمان مربوط به شخص درخواست دهنده برای رویت و بررسی ارجاع شود. می‌توانید با ساختن یک فیلد از نوع لیست برای انتخاب دپارتمان مربوطه، یک فیلد از نوع لیست کاربر برای مدیر مربوطه و فعالیت‌های تصمیم و تخصیص مقدار این کار را انجام دهید، نحوه عملکرد به این صورت است که شخص درخواست دهنده دپارتمان خود را مشخص می‌کند و با استفاده از فعالیت‌های تصمیم و قراردادن یک فعالیت تخصیص مقدار پس از هرکدام از تصمیم‌ها، فیلد مدیر مربوطه را به مدیر دپارتمان مربوط به شخص درخواست دهنده اختصاص می‌دهد. (فلوچارت این قسمت از فرایند درصورتی‌که سه دپارتمان استقرار، پشتیبانی و فروش داشته باشیم به‌صورت زیر خواهد بود)
 
+![IMG-1461](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.0/Setavalue1.webp>)
+
 ##### تخصیص مقدار فیلدها از دو طریق انجام می‌شود:
 
 **1)**    با فعال‌کردن چک باکس اعمال و تعیین مقدار موردنظر، آن فیلد طی این فرایند مقداردهی می‌شود.
@@ -2825,9 +3019,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** اگر برای یکی از فیلدها مقداری وارد نکنید و چک باکس "اعمال" را برای آن فعال کرده باشید، فیلد با اجرای این فعالیت خالی خواهد شد.
 
+![IMG-1462](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.0/allocate1.webp>)
+
 علاوه بر این، فعالیت تخصیص مقدار قابلیت "ثبت لحظه تخصیص" در فیلد از نوع تاریخ و ساعت را نیز داراست، به طور مثال فرض کنید بخواهید در فرایند فرصت فروش، تاریخ دقیق هریک از مراحل فروش (صدور پیش‌فاکتور، تأیید پیش‌فاکتور، تأیید دریافت، ارسال کالا، نظرسنجی و ...) را داشته باشید، به‌راحتی می‌توانید با استفاده از ساختن فیلدهای تاریخی مربوطه و استفاده از فعالیت تخصیص پس از هریک از مراحل فروش و تخصیص خودکار لحظه ورود به هریک از مراحل توسط سیستم، این کار را انجام دهید.
 
 برای ثبت لحظه تخصیص کافی است چک باکس‌های "اعمال" و "ثبت لحظه تخصیص" را برای فیلد مربوطه فعال کنید. (به‌صورت زیر)
+
+![IMG-1463](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Allocate-the-amount/2.6.0/allocate3.webp>)
 
 > **نکته:**
 
@@ -2878,6 +3076,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 تنظیمات این فعالیت به صورت زیر می باشد. کافیست نام فعالیت ، نوع و حالت بعدی فرآیند را تعیین کرده و مشخص کنید فیلد مرحله فروش به کدام مرحله تغییر کند.
 
+![IMG-1499](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Determining-the-stage/50.webp>)
+
 > نکته: برای تعریف و یا  ویرایش مراحل به قسمت به بخش مرحله بندی آیتم ها مراجعه کنید .
 
 ## فعالیت ایجاد کاربر باشگاه طی فرآیند
@@ -2888,6 +3088,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
  به طور مثال فرض کنید میخواهید در انتهای فرایند فرصت فروش در صورت جدید بودن مشتری و موفق شدن فرصت، یک کاربری برای این مشتری ایجاد شود.
 
 ##### تنظیمات این فعالیت به شرح زیر می باشد
+
+![IMG-1479](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Create-a-user/ejadkarbar.webp>)
 
 ابتدا نام و نوع فعالیت را مشخص کنید.
 
@@ -2909,6 +3111,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 فعالیت وب سرویس تنها فعالیتی است که می تواند به منابعی خارج از پیام گستر متصل شده و درواقع پلی بین پیام گستر و منبع خارجی مانند نرم افزار های دیگر باشد. همچنین زمانی که نتوانیم تمام نیازها را در قالب ماژول ها و فعالیت های موجود در فرآیند پیش ببریم می توانیم به راحتی از این فعالیت استفاده نماییم. پیش نیاز عملکرد این فعالیت، ایجاد وب سرویس و نوشتن آن توسط برنامه نویس، تعریف کلیدهای کاربر برای فیلدها و آیتم های مورد استفاده در وب سرویس ها می باشد. در نظر بگیرید زمانی که بخواهیم فرمی پس از رسیدن به مرحله ای فرم جدیدی را نیز ایجاد نموده و برخی از این فیلدهای فرم اول به داخل فرم دوم انتقال یابد. در این صورت پس از تعریف کردن کلیدهای کاربری و نوشتن سرویس مربوطه، این سرویس برروی آدرسی تحت عنوان آدرس سرویس پیاده سازی شده و این آدرس علاوه بر پارامترهای ورودی (فیلدها و فرم های درگیر در این سرویس) در فعالیت فراخوانی وب سرویس تعریف می گردند.
 
 در تنظیمات این فعالیت باید آدرس سرویس نوشته شده، نوع سرویس (Get یا Post) ، پارامترهای ورودی (مقادیری که از این آیتم به وب سرویس معرفی می شوند) و پارامترهای خروجی (مقادیری که به عنوان خروجی سرویس وارد فیلدهای آیتم می شوند) را وارد کرده و در انتها مشخص کنید که حالت بعدی فرآیند در صورت اجرای موفق وب سرویس و در صورت خطا کدام وضعیت ها باشد.
+
+![IMG-1468](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Call-service/Servicecall1.webp>)
 
 **آدرس سرویس:** آدرس سرویس مورد نظر برای فرآخوانی(تبادل اطلاعات) را وارد کنید .
 
@@ -2933,6 +3137,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 این فعالیت، لینک مربوط به قالب چاپ (پیش نمایش) آیتم تحت چرخه را به صورت خودکار ایجاد می کند تا برای اشتراک گذاری استفاده شود.
 
+![IMG-1534](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/ijad-link-eshtrakgozari/linkeshtrak.webp>)
+
 با استفاده از این لینک در مرورگر، قالب چاپ(پیش نمایش) آیتم مورد نظر قابل مشاهده است و امکان خروجی گرفتن از آن با فرمت PDF وجود دارد.
 
 > نکته: در نظر داشته باشید، لینک ایجاد شده در این قسمت مدت انقضا دارد و تا 2 ماه قابل استفاده است و بعد از اتمام مدت انقضا، آن لینک اعتباری ندارد و می بایست لینک اشتراک گذاری جدید ایجاد کنید.
@@ -2944,7 +3150,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای استفاده از این فعالیت از مسیر تنظیمات، شخصی‌سازی CRM، نمای کلی، ویرایش چرخه کاری اقدام نمایید. در این بخش با  انتخاب فعالیت جدید می‌توانید، از فعالیت اجرای دستورات پایگاه‌داده(SQL Activity) در فرایند استفاده کنید.
 
+![IMG-1480](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/63.webp>)
+
 در این فعالیت می‌بایست در ابتدا تعیین کنید در نظر دارید از پایگاه‌داده پیام‌گستر استفاده کنید یا می‌خواهید به پایگاه‌داده‌های دیگر متصل شوید. درصورتی‌که می‌خواهید از سایر پایگاه‌داده‌ها استفاده نمایید با انتخاب نوع پایگاه‌داده(در حال حاضر فقط SQL server پشتیبانی می‌گردد) و تعریف رشته اتصال (اطلاعات موردنیاز برای دسترسی به پایگاه اطلاعاتی) می‌توانید به آن پایگاه دسترسی داشته باشید.
+
+![IMG-1481](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/64.webp>)
 
  همانطور که در تصویر مشاهده می‌کنید برای نوشتن رشته اتصال باید اطلاعات پایگاه داده خود را وارد کنید.
 
@@ -2958,7 +3168,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  در صورتی که اطلاعات را به درستی وارد کرده باشید با کلیک بر روی گزینه تست باید تصویر زیر را مشاهده کنید.
 
+![IMG-1482](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/80.webp>)
+
 > در نظر داشته باشید درصورت استفاده از پایگاه‌داده پیام‌گستر نیازی به تعریف رشته اتصال نمی‌باشد و صرفاً می‌بایست دستور مدنظر را در بخش مربوطه وارد نمایید.
+
+![IMG-1483](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/65.webp>)
 
 برای نوشتن دستور در این فعالیت، علاوه بر دستورات SQL می‌توان از Custom Expression که به‌صورت مجزا در فایل پیوست شماره 5 توضیح داده شده است، استفاده نمایید.
 
@@ -2975,6 +3189,34 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 لازم به ذکر است در صورت عدم فعال‌بودن چک باکس "خروجی دارد"، فیلدی از آیتم جاری (تحت فرایند) مقداردهی نمی‌شود و اطلاعات به آیتم دیگر در پیام‌گستر یا به بانک اطلاعاتی موردنظر مطابق کوئری تعریف شده، منتقل می‌شود.
 
 ##### لیست فیلدهای پیش‌فرض موجودیت‌ها که امکان انتخاب آنها به‌عنوان پارامتر خروجی وجود دارد، به شرح زیر است:
+
+![IMG-1484](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/66.webp>)
+
+![IMG-1485](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/67.webp>)
+
+![IMG-1486](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/68.webp>)
+
+![IMG-1487](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/69.webp>)
+
+![IMG-1488](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/70.webp>)
+
+![IMG-1489](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/71.webp>)
+
+![IMG-1490](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/72.webp>)
+
+![IMG-1491](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/73.webp>)
+
+![IMG-1492](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/74.webp>)
+
+![IMG-1493](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/75.webp>)
+
+![IMG-1494](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/76.webp>)
+
+![IMG-1495](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/77.webp>)
+
+![IMG-1496](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/78.webp>)
+
+![IMG-1497](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/79.webp>)
 
 ##### لیست فیلدهای اضافه‌ی قابل پشتیبانی جهت انتخاب در پارامتر خروجی:
 
@@ -3039,7 +3281,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای استفاده از این فعالیت از مسیر تنظیمات، شخصی‌سازی CRM، نمای کلی، ویرایش چرخه کاری اقدام نمایید. در این بخش با  انتخاب فعالیت جدید می‌توانید، از فعالیت اجرای دستورات پایگاه‌داده(SQL Activity) در فرایند استفاده کنید.
 
+![IMG-1480](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/63.webp>)
+
 در این فعالیت می‌بایست در ابتدا تعیین کنید در نظر دارید از پایگاه‌داده پیام‌گستر استفاده کنید یا می‌خواهید به پایگاه‌داده‌های دیگر متصل شوید. درصورتی‌که می‌خواهید از سایر پایگاه‌داده‌ها استفاده نمایید با انتخاب نوع پایگاه‌داده(در حال حاضر فقط SQL server پشتیبانی می‌گردد) و تعریف رشته اتصال (اطلاعات موردنیاز برای دسترسی به پایگاه اطلاعاتی) می‌توانید به آن پایگاه دسترسی داشته باشید.
+
+![IMG-1481](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/64.webp>)
 
  همانطور که در تصویر مشاهده می‌کنید برای نوشتن رشته اتصال باید اطلاعات پایگاه داده خود را وارد کنید.
 
@@ -3053,7 +3299,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  در صورتی که اطلاعات را به درستی وارد کرده باشید با کلیک بر روی گزینه تست باید تصویر زیر را مشاهده کنید.
 
+![IMG-1482](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/80.webp>)
+
 > در نظر داشته باشید درصورت استفاده از پایگاه‌داده پیام‌گستر نیازی به تعریف رشته اتصال نمی‌باشد و صرفاً می‌بایست دستور مدنظر را در بخش مربوطه وارد نمایید.
+
+![IMG-1483](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/65.webp>)
 
 برای نوشتن دستور در این فعالیت، علاوه بر دستورات SQL می‌توان از Custom Expression که به‌صورت مجزا در فایل پیوست شماره 5 توضیح داده شده است، استفاده نمایید.
 
@@ -3072,6 +3322,34 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 لازم به ذکر است در صورت عدم فعال‌بودن چک باکس "خروجی دارد"، فیلدی از آیتم جاری (تحت فرایند) مقداردهی نمی‌شود و اطلاعات به آیتم دیگر در پیام‌گستر یا به بانک اطلاعاتی موردنظر مطابق کوئری تعریف شده، منتقل می‌شود.
 
 ##### لیست فیلدهای پیش‌فرض موجودیت‌ها که امکان انتخاب آنها به‌عنوان پارامتر خروجی وجود دارد، به شرح زیر است:
+
+![IMG-1484](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/66.webp>)
+
+![IMG-1485](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/67.webp>)
+
+![IMG-1486](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/68.webp>)
+
+![IMG-1487](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/69.webp>)
+
+![IMG-1488](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/70.webp>)
+
+![IMG-1489](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/71.webp>)
+
+![IMG-1490](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/72.webp>)
+
+![IMG-1491](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/73.webp>)
+
+![IMG-1492](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/74.webp>)
+
+![IMG-1493](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/75.webp>)
+
+![IMG-1494](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/76.webp>)
+
+![IMG-1495](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/77.webp>)
+
+![IMG-1496](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/78.webp>)
+
+![IMG-1497](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Data-Base/79.webp>)
 
 ##### لیست فیلدهای اضافه‌ی قابل پشتیبانی جهت انتخاب در پارامتر خروجی:
 
@@ -3138,6 +3416,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 پس از تعیین آیتمی که قصد تایید/رد آن را دارید، نام، نوع و حالت بعدی فعالیت را تعیین کرده و روی دکمه تایید کلیک کنید
 
+![IMG-1537](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/taid-rad-anbar/Approvingwarehouserecipt1.webp>)
+
 **1. همین آیتم:** در صورتی که چرخه کاری بر روی آیتم از نوع تراکنش انبار پیاده سازی شده است و قصد تایید/رد آن را دارید، این گزینه را انتخاب کنید.
 
 **2. فیلد:** یک فیلد وابسته از نوع رسید/حواله انبار را میتوانید برای تایید و یا رد شدن انتخاب کنید. در صورت انتخاب این گزینه فیلد مورد نظر خود را از لیست انتخاب کنید.
@@ -3150,6 +3430,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت می توانید یک وظیفه به صورت خودکار توسط سیستم ایجاد کنید و به یکی از کاربرها ارجاع دهید.
 
 به طور مثال فرض کنید که برای فروش محصول به مشتری وجود توافقنامه در سوابق آن الزامی است، میتوانید یک فعالیت ثبت وظیفه در فرایند ایجاد کنید که کاربر در صورت نبود توافقنامه برای مشتری، فرایند را به این فعالیت هدایت کند و یک وظیفه برای کاربر مسئول ثبت توافقنامه ایجاد شود. مزیت استفاده از این فعالیت نسبت به ثبت وظیفه به صورت دستی این است که میتوانید عنوان، توضیحات و پاراف وظیفه را از یکی از فیلدهای همین آیتم وارد کنید.
+
+![IMG-1504](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Job-registration/Settask.webp>)
 
 برای ایجاد این فعالیت، پس از تعیین نام، نوع و حالت بعدی فرآیند، سایر تنظیمات را مطابق توضیحات زیر انجام دهید :
 
@@ -3171,6 +3453,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Membership/Membership.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Membership/Membership.md)
 
 با استفاده از این فعالیت می توانید هویت مرتبط با این آیتم را به یک دسته بندی بانک اطلاعاتی/گروه هدف اضافه کنید و یا از آن دسته بندی/گروه هدف، هویت را حذف کنید. برای مثال فرض کنید یک فرایند برای فرم شرکت در سمینار طراحی کرده اید، می توانید در این فرایند با استفاده از یک فعالیت عضویت تمامی هویت هایی که این فرم برایشان ثبت می شود را به گروه هدف "دعوت به سمینار و همایش" اضافه کنید. و از این گروه برای اهداف تبلیغاتی استفاده کنید.
+
+![IMG-1507](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Membership/Membership.webp>)
 
 برای ایجاد این فعالیت، پس از تعیین نام، نوع و حالت بعدی فرآیند، سایر تنظیمات را مطابق توضیحات زیر انجام دهید:
 
@@ -3200,6 +3484,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
+![IMG-1478](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Convert-type/ConvertCrmObject.webp>)
+
 **1**. در این قسمت لیست زیرنوع های ایجاد شده در شخصی سازی  برای آیتم تحت چرخه نمایش داده می شود و باید مشخص کنید که این آیتم به کدام زیرنوع تبدیل شود.
 
 **2**. حالت بعدی در صورت اجرای موفق تبدیل نوع را مشخص کنید، توجه داشته باشید با توجه به اینکه پس از اجرای این فعالیت، این آیتم به زیرنوع دیگری تغییر می کند، در این قسمت تنها میتوانید یکی از حالت های نهایی فرآیند را انتخاب کنید.
@@ -3212,6 +3498,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این دو فعالیت می توانید یک آیتم crm که نیاز به تایید یا شماره گذاری دارد را به صورت خودکار در روال فرآیند، توسط سیستم تایید/شماره گذاری و یا رد کنید(این آیتم ها شامل پیش فاکتور/فاکتور، دریافت/پرداخت یا قرارداد مالی/حقوقی می باشند).
 
 به طور مثال فرض کنید میخواهید در فرایند طراحی شده روی آیتم فرصت، پیش فاکتور متصل شده به فیلد پیش فاکتور فروش آن، پس از رویت و تایید مدیر فروش به صورت خودکار توسط سیستم تایید و شماره گذاری شود، و مدیر فروش برای تایید آن به کارتابل خود رجوع نکند، برای انجام این کار می توانید با استفاده از این فعالیت پس از کارتابل مدیر فروش با استفاده از اقدام تایید پیش فاکتور چرخه را به این فعالیت هدایت کنید تا فاکتور تایید شود.
+
+![IMG-1538](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/taid-rad-item/Approvingfinancialitem1.webp>)
 
 **1**. با فعال بودن این گزینه، پس از اجرای این فعالیت، آیتم مربوطه تایید خواهد شد.
 
@@ -3227,6 +3515,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** در فعالیت رد آیتم مالی صرفا باید آیتم مورد نظر را از طرق بالا مشخص کنید و حالت بعدی فرآیند را تعیین کنید.
 
+![IMG-1539](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/taid-rad-item/Approvingfinancialitem2.webp>)
+
 > **نکته:** برای استفاده از این فعالیت تایید/رد آیتم های مالی باید در نظر داشت که در شخصی سازی آیتم های مالی باید چک باکس نیاز به تایید فعال باشد .
 
 > **نکته مهم:** در صورتی که چرخه کاری فعال روی آیتم های دارای قابلیت تایید و شماره گذاری (مانند فاکتور، قرارداد، دریافت/پرداخت) داشته باشید و در چرخه فعالیت تایید/ رد آیتم را استفاده کرده باشید، پس از صدور برای تایید در کارتابل های مربوطه نمایش داده نخواهند شد و با استفاده این فعالیت به صورت خودکار انجام میپذیرد.
@@ -3237,6 +3527,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 می توانید با استفاده از این فعالیت یک قرار ملاقات در سوابق هویت مرتبط با آیتم تحت چرخه یا یک هویت دیگر ایجاد کنید، به طور مثال فرض کنید در فرایند فرصت فروش، برای بعضی از مشتریان نیاز به جلسه پرزنت محصول احساس می شود، در این صورت می توانید با استفاده از این فعالیت، قرار ملاقات مرتبط با جلسه پرزنت فروش را به صورت خودکار توسط سیستم ایجاد کنید. توجه داشته باشید در صورتی که این نوع قرار ملاقات چرخه کاری فعال داشته باشد، با ایجاد قرار ملاقات چرخه کاری مربوط به آن نیز فعال خواهد شد.
 
   برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
+
+![IMG-1506](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Make-appointments/SetMeeting.webp>)
 
 **1**. نوع قرار ملاقاتی که قصد ثبت آن با استفاده از این فعالیت دارید را از بین انواع قرار ملاقات های تعریف شده در شخصی سازی انتخاب کنید.
 
@@ -3295,7 +3587,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، شرط مورد نظر خود را تنظیم کرده و مشخص کنید که حالت بعدی در صورت برقراری و عدم برقراری شرط کدامیک از مراحل فرآیند باشد
 
+![IMG-1472](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Condition/Condition1.webp>)
+
 #### انواع شرط
+
+![IMG-1473](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Condition/Condition2.webp>)
 
 **1** . این شرط، عضویت، هویت مرتبط با آیتم تحت چرخه را در  یک دسته بندی بانک اطلاعاتی را مورد بررسی قرار می دهد که آیا هویت در دسته بندی انتخاب شده وجود دارد یا خیر . در صورت انتخاب این شرط، دسته بندی مورد نظر خود را تعیین کنید.
 
@@ -3316,11 +3612,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال فرض کنید فرآیند فرصت فروش تمامی مخاطبانی که خواهان تخفیف هستند را با استفاده از یک فعالیت انتظار  تا زمان شروع جشنواره به حالت تعلیق در می آورید. در صورتی که یک فرآیند برای شروع کمپین های تبلیغاتی داشته باشید می توانید پس از پذیرش اجرای کمپین با فراخوانی یک رویداد تمامی فرصت های فروشی که در حالت انتظار از این نوع هستند را به صورت یکجا از حالت انتظار خارج کرده و به کارتابل کارشناس فروش جهت پیگیری هدایت کنید.
 
+![IMG-1469](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Call-the-event/51.webp>)
+
 **1**.  نامی به فعالیت اختصاص دهید.
 
 **2**.  از بین رویدادهای تعریف شده درلیست رویدادها تعریف کرده اید رویداد مورد نظر خود را انتخاب کنید.
 
 **3**. گستره اعمال رویداد را مشخص کنید.
+
+![IMG-1470](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Call-the-event/52.webp>)
 
 **A-** فعالیت فراخوانی رویداد  در صورت انتخاب این گزینه تمامی فرآیندهایی که در حالت انتظار قرار دارند و شرط شکستن آنها بروز این رویداد می باشد، از حالت انتظار خارج خواهند شد.
 
@@ -3349,6 +3649,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از مشخص کردن نام و نوع فعالیت و همچنین تعیین حالت بعدی فرآیند، کافیست نوع فرم مورد نظر و حالت شروع فرآیند مربوط به آن فرم را مشخص کنید
 
+![IMG-1531](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Start-the-process/StartProcess.webp>)
+
 **1**. در این قسمت، از لیست انواع فرم های ایجاد شده در قسمت [مدیریت فرم ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Form-management/Form-management.md) نوع فرم مورد نظر خود که قصد ایجاد آن با استفاده از این فعالیت را دارید، انتخاب کنید.
 
 **2**. در صورتی که فرم انتخاب شده در مرحله قبل چرخه کاری فعال داشته باشد، در این قسمت لیست وضعیت های فرآیند آن (کارتابل ها و فعالیت ها) را مشاهده می کنید و می توانید وضعیت مورد نظر خود را انتخاب کنید. توجه داشته باشید غیر فعال بودن این فیلد به معنی نداشتن چرخه کاری فعال برای فرم مربوطه می باشد.
@@ -3360,6 +3662,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید. توجه داشته باشید که این توضیحات شامل تفاوت های ایجاد لینک پرداخت با استفاده از این فعالیت و ایجاد آن به صورت دستی می باشد. برای آشنایی با سایر تنظیمات، [ایجاد لینک پرداخت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Create-payment-link.md)را مطالعه کنید.
 
+![IMG-1535](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/ijad-link-pardakht/CreatePaymentLink.webp>)
+
 **1**. برای تعیین مبلغ لینک پرداخت ایجاد شده از طریق این فعالیت، 4 روش وجود دارد:
 
 **مقدار:** می توانید یک مقدار ثابت (برای همه لینک های پرداخت ایجاد شده از طریق این فعالیت) وارد کنید.
@@ -3370,6 +3674,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **مبلغ نهایی:** این گزینه در صورتی کاربرد دارد که آیتم تحت چرخه مالی/حقوقی باشد (پیش فاکتور، فاکتور، دریافت/پرداخت و قرارداد) و مبلغ نهایی آیتم به عنوان مبلغ لینک پرداخت در نظر گرفته خواهد شد.
 
 **2**. برای تعیین زمان انقضای لینک پرداخت ایجاد شده از طریق این فعالیت، در صورت انتخاب هریک از گزینه های تاریخ یا روز، می توانید یک مقدار ثابت (برای همه لینک های پرداخت ایجاد شده از طریق این فعالیت) یا یکی از فیلدهای آیتم تحت چرخه را به عنوان زمان انقضای لینک پرداخت در نظر بگیرید. (فیلد عدد در صورت انتخاب روز و فیلد تاریخ شمسی در صورت انتخاب تاریخ)
+
+![IMG-1536](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/ijad-link-pardakht/CreatePaymentLink2.webp>)
 
 **3**. درصورتی که پیام حاوی لینک پرداخت از طریق پیام کوتاه ارسال می گردد، با استفاده از فعالیت لینک پرداخت، علاوه بر امکان ارسال پیام به مدیر، رابط، سمت مشخص و یک شماره مشخص (مشابه با ایجاد لینک پرداخت به صورت دستی) می توانید شماره وارد شده در یکی از فیلدهای از نوع متن آیتم تحت چرخه را به عنوان گیرنده پیام کوتاه در نظر بگیرید.
 
@@ -3384,6 +3690,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
+![IMG-1471](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Computer-field-update/ExternalResources.webp>)
+
 **1**. در این قسمت، تمامی فیلدهای محاسباتی (فیلدهای از نوع فایل اکسل و از نوع وب سرویس) ساخته شده برای آیتم تحت چرخه نمایش داده می شود و می توانید فیلد یا فیلدهایی که قصد بروزرسانی مقدار آن ها با استفاده از این فعالیت را دارید انتخاب نمایید.
 
 **2**. حالت بعدی فرآیند در صورت اجرای موفق فعالیت (بروزرسانی موفق مقدار فیلدها) و حالت بعدی در صورت بروز خطا را مشخص کنید.
@@ -3394,6 +3702,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 با استفاده از این فعالیت میتوانید یک فرصت برای هویت مرتبط با این آیتم ثبت کنید، به طور مثال فرض کنید یک فرایند روی آیتم سرنخ ایجاد کرده اید و میخواهید پس از تبدیل این سرنخ به مخاطب، یک فرصت هم به صورت خودکار توسط سیستم برای مشتری ثبت گردد. توجه داشته باشید در صورتی که برای آیتم فرصت چرخه طراحی کرده باشید، چرخه کاری آن نیز با ثبت فرصت فعال خواهد شد. مزیت استفاده از این فعالیت نسبت به ثبت دستی فرصت اینست که می توانید عنوان فرصت را از فیلدهای متنی آیتم تحت چرخه انتخاب کنید و همچنین فرصت را به یکی از فیلدهای از نوع لیست کاربر و یا آخرین مسئول یکی از کارتابل ها اختصاص دهید.
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
+
+![IMG-1508](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Register-Opportunity/CreateSaleOpportunity.webp>)
 
 **1**.  نوع فرصت مورد نظر که می خواهید با استفاده از این فعالیت برای هویت مرتبط با این آیتم ایجاد شود ، از بین لیست انواع فرصت های تعریف شده در شخصی سازی، انتخاب کنید.
 
@@ -3412,6 +3722,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد این فعالیت، پس از تعیین نام و نوع فعالیت و همچنین حالت بعدی فرآیند، سایر تنظیمات را مطابق با توضیحات زیر انجام دهید.
 
+![IMG-1454](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Ad-to-blacklist/AddtoBlackList.webp>)
+
 **1**. نوع رسانه مورد نظر که قصد افزودن هویت مرتبط با آیتم تحت چرخه به لیست سیاه ارسال/دریافت پیام‌های آن را دارید انتخاب کرده و پس از آن خط مورد نظر خود را نیز از بین خطوط تنظیم شده در نرم افزار تعیین کنید. یعنی مشخص کنید که هویت در لیست سیاه کدام خط قرار گیرد.
 
 **2**. در صورت فعال بودن این گزینه، هویت مرتبط با آیتم تحت چرخه در لیست سیاه ارسال خط تعیین شده قرار می‌گیرد و ازین پس، پیام‌های ارسالی از این خط در نرم افزار پیام گستر، به این هویت ارسال نخواهد شد.
@@ -3428,6 +3740,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 به طور مثال فرض کنید میخواهیم یک چرخه کاری روی فاکتور فروش داشته باشیم، با استفاده از یک فعالیت تصمیم می توانیم مبلغ نهایی فاکتور را بررسی کنیم و این شرط را اعمال کنیم که اگر مبلغ کمتر از 10 میلیون باشد فاکتور به صورت خودکار توسط سیستم (با استفاده از یک فعالیت تایید آیتم مالی) تایید شود و در غیر اینصورت برای تایید وارد کارتابل مدیر فروش شود .
 
 ##### تنظیمات این فعالیت به شرح زیر می باشد:
+
+![IMG-1498](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Decision/Decison.webp>)
 
 **1**. نام مناسبی برای فعالیت برگزینید.
 
@@ -3450,9 +3764,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 به طور مثال در فلوچارت زیر، می توان دو فعالیت تصمیم را با استفاده از یک تصمیم چند شرطی ادغام نمود.
 
+![IMG-1474](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/Setavalue1.webp>)
+
  توجه داشته باشید که شرط های این فعالیت باید روی یک فیلد باشد.
 
 ##### تنظیمات این فعالیت به شرح زیر می باشد:
+
+![IMG-1475](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/MultipleDecision2.webp>)
 
 **1**. فیلد شرط را تعیین کنید. توجه داشته باشید که پس از تعیین یک شرط، این فیلد غیرفعال خواهد شد (به این معنی که تمامی شرط ها باید روی یک فیلد باشد).
 
@@ -3460,11 +3778,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **3**. برای تعریف شرط جدید روی این گزینه کلیک کنید.
 
+![IMG-1476](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/MultipleDecision3.webp>)
+
 **A-** عنوانی برای این شرط برگزینید.
 
 **B-** عملگر شرط را تعیین کنید. در واقع در این قسمت مقدار فیلد برای این شرط تعیین می شود.
 
 در این بخش با فعال کردن چک باکس عبارت، می توان شرطی را از طریق نوشتن Custom Expression که به صورت مجزا در بخش Expression توضیح داده شده است، تعریف نمود.
+
+![IMG-1477](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Activity/Conditional-decision/MultipleDecision4.webp>)
 
 > **نکته:**:امکان استفاده از عبارت برای تعریف شرط در حال حاضر فقط بر روی آیتم‌هایی از نوع فرم، هویت، وظیفه، درخواست پشتیبانی و انواع فاکتور، پیش فاکتور و فاکتورهای برگشت از خرید و فروش قابل استفاده می باشد.
 
@@ -3507,12 +3829,18 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 فعالسازی فرآیند استقرار داده شده بر روی هر موجودیت باید از مسیر ذکر شده انجام شود. تا موجودیت پس از ذخیره در چرخه این فرآیند قرار گیرد.
 
+![IMG-1586](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/active-cycle/active-cycle.webp>)
+
 ## تعریف اقدام
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action.md)
 
 برای ساخت یک اقدام جدید، کارتابل مربوطه را انتخاب کرده و روی دکمه ایجاد عملیات جدید کلیک کنید.
 
+![IMG-1448](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action2.webp>)
+
 با کلیک بر روی این دکمه، پنجره زیر را مشاهده خواهید کرد.
+
+![IMG-1449](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action3.webp>)
 
 **1. نام اقدام:** یک نام مناسب برای اقدام برگزینید. از آنجایی که هر اقدام به صورت یک دکمه به کاربر نمایش داده می شود، این نام را به نحوی انتخاب کنید که کاربر معنی این اقدام را بداند. زیرا کاربران اطلاعی از جزئیات فرآیند پیاده سازی شده ندارند و صرفاً نام اقدام ها (و متن راهنمایی که برای اقدام ها می گذارید) مبنای تصمیم گیری آن ها برای انتخاب اقدام مناسب می باشد.
 
@@ -3526,6 +3854,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### نحوه نمایش اقدام ها و متون راهنمای تنظیم شده به صورت زیر می باشد:
 
+![IMG-1450](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action4.webp>)
+
 ## تنظیمات الزامی کردن فیلد در فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/elzam-feild.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/elzam-feild.md)
 
@@ -3535,7 +3865,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای تنظیم فیلدهای الزامی هر اقدام، روی دکمه الزام فیلدهای مربوط به آن اقدام کلیک کنید.
 
+![IMG-1451](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action5.webp>)
+
 با کلیک بر روی دکمه الزام فیلدها، لیست تمامی فیلدهایی که درکارتابل مربوط به این اقدام روی حالت نمایش قرار گرفته اند، نمایش داده خواهد شد و می توانید فیلدهای الزامی را تعیین کنید. توجه داشته باشید که در هر مرحله از فرآیند، تنها فیلدهایی قابل ویرایش هستند که روی حالت "نمایش" تنظیم شده باشند. برای اطلاع از چگونگی تنظیم حالت نمایش فیلدها، به توضیحات کارتابل مراجعه کنید.
+
+![IMG-1452](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Action/Action6.webp>)
 
 **1**. لیست فیلدهایی که در کارتابل مربوط به این اقدام روی حالت نمایش تنظیم شده اند به تفکیک گروه فیلدها در این قسمت نمایش داده می شوند و می توانید به راحتی با فعال کردن چک باکس مربوط به هریک از فیلدها، آن را برای این اقدام الزامی کنید.
 
@@ -3548,6 +3882,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ## ایجاد کارتابل
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardboard.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardboard.md)
 
+![IMG-1540](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable1.webp>)
+
 **A. نام:**
 
  نام کارتابل (مرحله گردش کار) مورد نظر را تعیین کنید. در واقع نام کارتابل، کاری است که باید در آن مرحله از گردش کار توسط کاربر انجام شود، بنابراین این نام را طوری برگزینید که کاربر هنگام مشاهده آن در کارتابل فرآیندها، مسئولیت خود در این مرحله را بداند.
@@ -3556,15 +3892,21 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر/گروه/سمت مشخص، آخرین مسئول یا فیلد تعیین کنید.
 
+![IMG-1541](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable2.webp>)
+
 **1.کاربر/گروه/سمت مشخص:** کاربر/گروه/سمت مرتبط را با انتخاب از لیست انتخاب می‌نمایید. ( برای ساخت کاربران و گروه‌های کاربری به مدیریت گروه‌ها و کاربران و برای ساخت سمت‌های جدید به قسمت [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) مراجعه کنید.
 
 ##### موارد 2 تا 7 فقط زمانی کاربرد دارند که مسئول کارتابل گروه یا سمتی باشد که به بیش از یک کاربر تخصیص داده شده است
 
 **2. قابلیت تخصیص به دیگران:** در صورت فعال بودن این گزینه، کاربر مسئول کارتابل می‌تواند کار را در همین مرحله به سایر کاربران عضو در گروه مسئول کارتابل تخصیص دهد.
 
+![IMG-1542](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable30.webp>)
+
 **3. تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
 **مثال1:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروش می‌باشد، بنابراین هریک از کارشناسان فروش می‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفاده می‌کنیم
+
+![IMG-1543](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable31.webp>)
 
 **4. تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی‌کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکار می‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیر می‌باشند:
 
@@ -3578,7 +3920,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **8. آخرین مسئول:**  در مواقعی استفاده می‌شود که در وسط چرخه می‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش داده می‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1544](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable32.webp>)
+
 مثال2: گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورت می‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1545](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئول می‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3586,7 +3932,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 شایان ذکر است می‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
+![IMG-1546](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable34.webp>)
+
 مثال3: گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)، می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1547](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable35.webp>)
 
 > نکته مهم: در صورتی که مسئول کارتابل را روی فیلد تنظیم می‌کنید، می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3602,13 +3952,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی‌(از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی‌مربوطه می‌باشد.
 
+![IMG-1548](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینه می‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1549](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینه می‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1550](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان، می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3618,9 +3974,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی‌برای مدیر دپارتمان و پس از 10 روز پیامی‌برای مدیر شعبه ارسال می‌گردد.)
 
+![IMG-1551](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیت می‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخص می‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاء می‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1552](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -3630,14 +3990,20 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع داده می‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1553](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable41.webp>)
+
 ## تنظیمات کارتابل در فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.7.5.3.md` · `نسخه سند: 2.7.5.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.7.5.3.md)
+
+![IMG-1554: صفحه تنظیمات کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable_2.7.5.3.webp>)
 
 ##### A. انتخاب نام کارتابل
  نام کارتابل (مرحله گردش کار) مورد نظر را تعیین کنید. در واقع نام کارتابل، کاری است که باید در آن مرحله از گردش کار توسط کاربر انجام شود، بنابراین این نام را طوری برگزینید که کاربر هنگام مشاهده آن در کارتابل فرآیندها، مسئولیت خود در این مرحله را بداند.
 
 ##### B. انتخاب مسئول کارتابل (مرتبط با)
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
+
+![IMG-1555: روش‌های انتخاب مسئول کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Assignment_2.7.5.3.webp>)
 
 ###### 1. انتخاب مستقیم
 در این روش به صورت مستقیم فرآیند را به کارتابل یک یا چند کاربر از پرسنل خود ارجاع می‌دهید.
@@ -3647,13 +4013,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    درصورتی که یکی از حالت‌های گروه کاربری، سمت و دپارتمان را انتخاب کنید، تنظیمات زیر نمایش داده می‌شود. گزینه‌های زیر این امکان را در اختیار شما می‌گذارد که در طی فرآیند مدیریت کارتابل بین افراد گروه به خوبی انجام شود.
 
+![IMG-1556: تنظیمات کارتابل در انتخاب گروهی کاربران](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-Cartable-to-other_2.7.5.3.webp>)
+
    **قابلیت تخصیص به دیگران:** در صورت فعال بودن این گزینه، کاربر مسئول کارتابل می‌تواند کار را در همین مرحله به سایر کاربران عضو در گروه مسئول کارتابل تخصیص دهد.
 
    **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
    **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
 
+![IMG-1557: مثال از تصویر فرآیند و کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Samlpe.webp>)
+
    **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
+
+![IMG-1558: تصویر حالت‌های مختلف تخصیص به آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/last-user-assignment-options.webp>)
 
    1. **صف برقرار شود:**  با فعال کردن این گزینه نرم افزار به صورت خودکار کاربری که کمترین کار را در این کارتابل دارد(بر اساس آیتم‌های موجود در کارتابل فرآیندها)، به عنوان مسئول کارتابل تعیین خواهد کرد.
    2. **اختصاص به کاربران حاضر:** اگر این گزینه فعال باشد، نرم افزار در اختصاص خودکار تنها کاربرانی را در نظر میگیرد که درروز جاری با نام کاربری خود وارد نرم افزار شده باشند.
@@ -3666,6 +4038,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### 2. انتخاب کاربر باشگاه مشتریان{#CustomerCartableSettingInClub}
 در این روش می‌توانید در حین فرآیند، در مواقعی که نیاز است مراحلی از کار توسط مشتری انجام شود، فرآیند را به کارتابل مشتری در بخش **باشگاه مشتریان** > **پیشخوان** ارجاع دهید.
 
+![IMG-1559: کارتابل مشتری در باشگاه مشتریان](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/User-Cartable-in-Club2.7.5.3.webp>)
+
 ###### 3. روش پیشرفته
 در این روش این امکان را دارید که مسئول کارتابل را بر اساس اطلاعاتی که در طی فرآیند ثبت می‌شوند، مسئول کارتابل را انتخاب نمایید.
 
@@ -3675,10 +4049,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل
 
+![IMG-1560: تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-last-user.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** در این قسمت کارتابلی که مسئول آن را به عنوان **آخرین مسئول** در نظر دارید، انتخاب کنید. دقت داشته باشید کارتابل انتخابی شما باید از بین مراحل گذشته انتخاب شود، زیرا باید آیتم در طی فرآیند یک بار از آن مراحل طی شده باشد.
 ###### تعیین مسئول کارتابل از طریق فیلد
+
+![IMG-1561: تعیین مسئول کارتابل از طریق فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-field.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -3689,6 +4067,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 شایان ذکر است می‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1547](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3706,9 +4086,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اگر مالک آیتم هم تعیین نشده بود، فرآیند به کارتابل کاربر تعیین شده در [**تنظیمات کلی** > **فرآیند**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Process/Process.md) ارجاع می‌دهد.
 
+![IMG-1562: تخصیص به مدیر آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/assign-cartabl-to-last-user-manager.webp>)
+
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1544](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1545](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3724,13 +4110,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1548](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1549](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1550](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3740,9 +4132,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1551](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1552](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -3752,14 +4148,20 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1553](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable41.webp>)
+
 ## تنظیمات کارتابل در فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.8.8.md` · `نسخه سند: 2.8.8` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cartable_2.8.8.md)
+
+![IMG-1554: صفحه تنظیمات کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable_2.7.5.3.webp>)
 
 ##### A. انتخاب نام کارتابل
  نام کارتابل (مرحله گردش کار) مورد نظر را تعیین کنید. در واقع نام کارتابل، کاری است که باید در آن مرحله از گردش کار توسط کاربر انجام شود، بنابراین این نام را طوری برگزینید که کاربر هنگام مشاهده آن در کارتابل فرآیندها، مسئولیت خود در این مرحله را بداند.
 
 ##### B. انتخاب مسئول کارتابل (مرتبط با)
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
+
+![IMG-1555: روش‌های انتخاب مسئول کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Assignment_2.7.5.3.webp>)
 
 ###### 1. انتخاب مستقیم
 در این روش به صورت مستقیم فرآیند را به کارتابل یک یا چند کاربر از پرسنل خود ارجاع می‌دهید.
@@ -3769,13 +4171,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
    درصورتی که یکی از حالت‌های گروه کاربری، سمت و دپارتمان را انتخاب کنید، تنظیمات زیر نمایش داده می‌شود. گزینه‌های زیر این امکان را در اختیار شما می‌گذارد که در طی فرآیند مدیریت کارتابل بین افراد گروه به خوبی انجام شود.
 
+![IMG-1556: تنظیمات کارتابل در انتخاب گروهی کاربران](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-Cartable-to-other_2.7.5.3.webp>)
+
    **قابلیت تخصیص به دیگران:** در صورت فعال بودن این گزینه، کاربر مسئول کارتابل می‌تواند کار را در همین مرحله به سایر کاربران عضو در گروه مسئول کارتابل تخصیص دهد.
 
    **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
    **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
 
+![IMG-1557: مثال از تصویر فرآیند و کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Cartable-Samlpe.webp>)
+
    **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به ایgن مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
+
+![IMG-1563: تصویر حالت‌های مختلف تخصیص به آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/automatic-allocation-2.8.8.webp>)
 
    1. **برقراری صف بین کاربران:**  با فعال کردن این گزینه نرم‌افزار به صورت خودکار کاربری که کم‌ترین کار را در کارتابل فرآیندها دارد به عنوان مسئول کارتابل تعیین خواهد کرد. با فعال کردن این گزینه می‌توانید در قسمت‌های بعد مشخص کنید که شمارش کارهای موجود در کارتابل بر اساس تعداد کارهای موجود در بین تمام فرآیندها یا صرفاً همین کارتابل انجام شود.
    2. **اختصاص به کاربران حاضر:** اگر این گزینه فعال باشد، نرم‌افزار در اختصاص خودکار تنها کاربرانی را در نظر می‌گیرد که در روز جاری با نام کاربری خود وارد نرم‌افزار شده باشند.
@@ -3789,6 +4197,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### 2. انتخاب کاربر باشگاه مشتریان{#CustomerCartableSettingInClub}
 در این روش می‌توانید در حین فرآیند، در مواقعی که نیاز است مراحلی از کار توسط مشتری انجام شود، فرآیند را به کارتابل مشتری در بخش **باشگاه مشتریان** > **پیشخوان** ارجاع دهید.
 
+![IMG-1559: کارتابل مشتری در باشگاه مشتریان](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/User-Cartable-in-Club2.7.5.3.webp>)
+
 ###### 3. روش پیشرفته
 در این روش این امکان را دارید که مسئول کارتابل را بر اساس اطلاعاتی که در طی فرآیند ثبت می‌شوند، مسئول کارتابل را انتخاب نمایید.
 
@@ -3798,10 +4208,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل
 
+![IMG-1560: تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-last-user.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** در این قسمت کارتابلی که مسئول آن را به عنوان **آخرین مسئول** در نظر دارید، انتخاب کنید. دقت داشته باشید کارتابل انتخابی شما باید از بین مراحل گذشته انتخاب شود، زیرا باید آیتم در طی فرآیند یک بار از آن مراحل طی شده باشد.
 ###### تعیین مسئول کارتابل از طریق فیلد
+
+![IMG-1561: تعیین مسئول کارتابل از طریق فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/Assign-cartable-user-by-field.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -3812,6 +4226,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 شایان ذکر است می‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1547](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3829,9 +4245,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اگر مالک آیتم هم تعیین نشده بود، فرآیند به کارتابل کاربر تعیین شده در [**تنظیمات کلی** > **فرآیند**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Process/Process.md) ارجاع می‌دهد.
 
+![IMG-1562: تخصیص به مدیر آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Images/assign-cartabl-to-last-user-manager.webp>)
+
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1544](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1545](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3847,13 +4269,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1548](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1549](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1550](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -3863,9 +4291,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1551](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1552](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -3874,6 +4306,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **3**. در این قسمت مشخص کنید که پس از منقضی شدن کارتابل، فرآیند به کدام وضعیت هدایت شود (می‌توانید یکی از کارتابل‌ها یا فعالیت‌ها را انتخاب کنید)
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
+
+![IMG-1553](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable41.webp>)
 
 > **نکته**
 
@@ -3890,7 +4324,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 >   نکته: نمایش فیلدها در هر مرحله‌ای که فرآیند باقی بماند نیز کاربرد دارد، مثل فعالیت انتظار که کار در مرحله مشخص شده باقی می‌ماند و می‌توان مشخص کرد که در این حالت انتظار چه فیلدهایی برای کاربر قابل نمایش باشند.
 
+![IMG-1564](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable42.webp>)
+
 با کلیک بر روی نمایش فیلدهای هر یک از کارتابل‌ها و فعالیت‌ها می توانید وضعیت نمایش هریک از فیلدها در آن مرحله را مشاهده کرده و آن ها را ویرایش کنید.
+
+![IMG-1565](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable43.webp>)
 
 **1**. برای هریک از گروه فیلدها مشخص کنید که در این مرحله به صورت باز شده، جمع شده و یا مخفی نمایش داده شود. توجه داشته باشید در صورتی که تمامی فیلدهای یک گروه فیلد، روی حالت مخفی باشند، گروه فیلد نیز به صورت خودکار مخفی خواهد شد.
 
@@ -3904,8 +4342,12 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **3**. با استفاده از دکمه های موجود در این قسمت، می توانید وضعیت کلیه فیلدهای یک گروه فیلد را به حالت نمایش، غیرفعال و مخفی تغییر دهید.
 
+![IMG-1566](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/Cardtable44.webp>)
+
 ## ایجاد کارتابل
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardboard.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardboard.md)
+
+![IMG-1567](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/1.webp>)
 
 **A. نام:**
 
@@ -3916,6 +4358,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
 
 ##### انتخاب مستقیم
+
+![IMG-1568](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/2.webp>)
 
 **کاربر /گروه /سمت / دپارتمان مشخص:** کاربر/ گروه/ سمت/ دپارتمان مرتبط را با انتخاب از لیست انتخابمی‌نمایید. ( برای ساخت کاربران و گروه‌های کاربری به مدیریت گروه‌ها و کاربران و برای ساخت سمت‌های جدید به قسمت [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) مراجعه کنید.
 
@@ -3931,11 +4375,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **در صورت غیر فعال بودن فیلد آخرین مسئول**:
 
+![IMG-1569](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/3.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** مشخص کردن کارتابل مورد نظر
 
 **در صورت فعال بودن فیلد آخرین مسئول**:
+
+![IMG-1570](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/4.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -3945,9 +4393,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > در صورت انتخاب مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل، اگر کارتابل به  چند سمت (کاربر) تخصیص داده شود همانند منطق گروه عمل می‌کند و وارد کارتابل همه در آن رده می‌شود که یک کابر باید کار را به خود اختصاص دهد. همچنین در صورت فعال بودن چک باکس اختصاص به صورت صف و کاربران حاضر، عملکرد سیستم همانند منطق گروه خواهد بود. لازم بذکر است بمنظور استفاده از مدیر آخرین مسؤل و رده بالایی آخرین مسؤل لازم است برای کاربرانی که چند حکم سازمانی فعال دارند، در مدیریت حکم‌های سازمانی، حکم پیش‌فرض را مشخص کرد تا اگر آخرین مسؤل دارای چند حکم سازمانی بود با توجه به حکم پیشفرض وی کار وارد کارتابل مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل شود. واضح است در صورت منقضی یا غیر فعال شدن حکم پیش‌فرض، فرآیند با خطا مواجه شده و لازم است حکم پیش‌فرض جدید تعیین شود.
 
+![IMG-1571](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/5.webp>)
+
 **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
 **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
+
+![IMG-1572](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable31.webp>)
 
 **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
 
@@ -3961,7 +4413,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1573](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1574](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -3969,7 +4425,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 شایان ذکر استمی‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
+![IMG-1575](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable34.webp>)
+
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1576](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -3985,13 +4445,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1577](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1578](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1579](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -4001,9 +4467,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1580](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1581](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -4013,8 +4483,12 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1582](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable41.webp>)
+
 ## ایجاد کارتابل
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/CartableSetting_2.6.5.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/CartableSetting_2.6.5.md)
+
+![IMG-1567: صفحه از تنظیمات کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/1.webp>)
 
 **A. نام:**
 
@@ -4025,6 +4499,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در این قسمت باید شخص و یا گروهی که مسئول رسیدگی به این کارتابل هستند را بر اساس یکی از سه روش کاربر / گروه / سمت / دپارتمان مشخص، آخرین مسئول یا فیلد تعیین کنید.
 
 ##### انتخاب مستقیم
+
+![IMG-1568: تصویر نحوه تعیین مسئول کارتابل در فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/2.webp>)
 
 **کاربر /گروه /سمت / دپارتمان مشخص:** کاربر/ گروه/ سمت/ دپارتمان مرتبط را با انتخاب از لیست انتخابمی‌نمایید. ( برای ساخت کاربران و گروه‌های کاربری به مدیریت گروه‌ها و کاربران و برای ساخت سمت‌های جدید به قسمت [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) مراجعه کنید.
 
@@ -4039,11 +4515,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل
 
+![IMG-1569: تعیین مسئول کارتابل از طریق آخرین مسئول کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/3.webp>)
+
 **انتخاب یکی از روابط:** می‌توان از بین آخرین مسؤل، مدیر آخرین مسؤل و رده بالایی آخرین مسؤل مشخص کرد کار وارد کارتابل چه کسی شود.
 
 **وضعیت:** در این قسمت کارتابلی که مسئول آن را به عنوان **آخرین مسئول** در نظر دارید، انتخاب کنید. دقت داشته باشید کارتابل انتخابی شما باید از بین مراحل گذشته انتخاب شود، زیرا باید آیتم در طی فرآیند یک بار از آن مراحل طی شده باشد.
 
 ###### تعیین مسئول کارتابل از طریق فیلد
+
+![IMG-1570: تعیین مسئول کارتابل از طریق فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/4.webp>)
 
 **انتخاب یکی از روابط:** می‌توان از بین فیلد، مدیر فیلد و رده بالایی فیلد مشخص کرد کار وارد کارتابل چه کسی شود
 
@@ -4055,6 +4535,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > در صورت انتخاب مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل، اگر کارتابل به چند سمت (کاربر) تخصیص داده شود همانند منطق گروه عمل می‌کند و وارد کارتابل همه در آن رده می‌شود که یک کابر باید کار را به خود اختصاص دهد. همچنین در صورت فعال بودن چک باکس اختصاص به صورت صف و کاربران حاضر، عملکرد سیستم همانند منطق گروه خواهد بود. لازم بذکر است بمنظور استفاده از مدیر آخرین مسؤل و رده بالایی آخرین مسؤل لازم است برای کاربرانی که چند حکم سازمانی فعال دارند، در مدیریت حکم‌های سازمانی، حکم پیش‌فرض را مشخص کرد تا اگر آخرین مسؤل دارای چند حکم سازمانی بود با توجه به حکم پیشفرض وی کار وارد کارتابل مدیر آخرین مسؤل یا رده بالایی آخرین مسؤل شود. واضح است در صورت منقضی یا غیر فعال شدن حکم پیش‌فرض، فرآیند با خطا مواجه شده و لازم است حکم پیش‌فرض جدید تعیین شود.
 
+![IMG-1571: تصویر حالت‌های مختلف تخصیص به آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/5.webp>)
+
 **انتخاب رده بالایی فیلد/ آخرین مسئول**{#TopLevel}
 
  هنگامی که مسئول کارتابل را روی **رده‌بالایی آخرین مسئول / رده بالایی فیلد** انتخاب کنید، چک باکسی با عنوان **تخصیص به نزدیکترین سطح سمت بالادستی، در صورت عدم یافتن کاربر در سطح سمت انتخابی** نمایش داده‌ می‌شود. اگر آن را فعال کنید، در حالتی که در سمت انتخاب شده (مثلا کارشناس ارشد) کاربری فعال نباشد، سیستم سمت بالاتر از آن را چک می‌کند. اگر باز هم در آن سمت کاربر فعال نباشد همینطور سطوح بالاتر آخرین مسئول را چک می‌کند تا به سمتی برسد که کاربر فعال داشته باشد.
@@ -4063,9 +4545,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اگر مالک آیتم هم تعیین نشده بود، فرآیند به کارتابل کاربر تعیین شده در [**تنظیمات کلی** > **فرآیند**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/Process/Process.md) ارجاع می‌دهد.
 
+![IMG-1583: تخصیص به مدیر آخرین مسئول](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/assign-cartabl-to-last-user-manager.webp>)
+
 **تخصیص به آخرین مسئول:** در صورتی که این آیتم در گردش کار، دوباره به این کارتابل بازگردد، مسئولیت آن به آخرین کاربری که به عنوان مسئول این آیتم بوده است، تخصیص داده خواهد شد.
 
 **مثال:** فرض کنید بخشی از گردش کار فروش به صورت شکل زیر باشد، مسئول کارتابل اول گروه فروشمی‌باشد، بنابراینهریک از کارشناسان فروشمی‌توانند مسئول این کارتابل باشند، در صورتی که یکی از کارشناسان پیش فاکتور را صادر کند و آن را به مرحله بعد ارجاع دهد و مدیر فروش آیتم را جهت اصلاح پیش فاکتور به این کارتابل برگرداند، کار باید به آخرین مسئول این کارتابل (کارشناس صادرکننده پیش فاکتور) ارجاع داده شود و نباید در کل گروه فروش پخش شود، به همین دلیل در این کارتابل از قابلیت تخصیص به آخرین مسئول استفادهمی‌کنیم
+
+![IMG-1572: مثال از تصویر فرآیند و کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable31.webp>)
 
 **تخصیص خودکار:** به صورت پیشفرض در صورتی که مسئول کارتابل یک گروه یا سمتی که به بیش از یک کاربر تخصیص داده شده است باشد، با وارد شدن گردش کار به این مرحله، آیتم در کارتابل تمامی کاربران آن گروه یا دارنده آن سمت مشاهده خواهد شد و یکی از کاربران باید کار را به خود اختصاص دهد و پس از آن، آیتم از کارتابل سایر کاربران خارج خواهد شد، با استفاده از قابلیت تخصیص خودکارمی‌توانید تنظیماتی اعمال کنید که کار به صورت خودکار توسط سیستم به یکی از کاربران عضو در گروه (یا دارنده سمت) اختصاص پیدا کند. برای تخصیص خودکار سه معیار وجود دارد که شرح زیرمی‌باشند:
 
@@ -4079,7 +4565,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **آخرین مسئول:**  در مواقعی استفادهمی‌شود که در وسط چرخهمی‌خواهید مسئول یک کارتابل کسی باشد که مسئول کارتابل دیگری قبل از این کارتابل در چرخه بوده است. با انتخاب این گزینه لیست کارتابل‌های تعریف شده نمایش دادهمی‌شود و باید از بین آنها کارتابل مورد نظر را انتخاب نمایید و آخرین مسئول آن کارتابل، به عنوان مسئول این کارتابل نیز در نظر گرفته میشود.
 
+![IMG-1573](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable32.webp>)
+
 **مثال:** گردش کار مثال قبل را در نظر بگیرید و تصور کنید که بعد از صدور پیش فاکتور و تایید آن توسط مدیر فروش، پیش فاکتور باید برای مشتری ارسال گردد و تایید آن از مشتری اخذ گردد و بخواهید مسئول ارسال پیش فاکتور، کارشناس صادرکننده آن باشد(مانند شکل پایین). در این صورتمی‌توانید مسئول کارتابل ارسال پیش فاکتور را روی آخرین مسئول کارتابل مذاکره/صدور پیش فاکتور تنظیم نمایید. (مانند شکل بالا)
+
+![IMG-1574](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable33.webp>)
 
 > **نکته مهم:** توجه داشته باشید در صورتی که مسئول کارتابل را روی آخرین مسئولمی‌گذارید، حتما چرخه کاری باید از کارتابل مربوطه رد شده باشد تا لاگ مسئول کارتابل ثبت شود.
 
@@ -4087,7 +4577,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 شایان ذکر استمی‌توان مسئول جایگزین را در صورت پر نشدن این فیلدها مشخص نمود.
 
+![IMG-1575](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable34.webp>)
+
 **مثال:** گردش کار مثال‌های قبل را در نظر بگیرید، فرض کنید در صورت ناموفق شدن فروش، کار به کارتابل مدیر فروش برای رویت ارجاع شود، اگر بخواهیم این امکان را برای مدیر فروش در نظر بگیریم که با توجه به شرایط مشتری و مذاکرات قبلی، کار را به کارشناس فروش دیگری جهت مذاکره مجدد ارجاع دهد(شکل پایین)،می‌توانیم یک فیلد به نام مذاکره کننده 2 در آیتم بسازیم و مسئول کارتابل مذاکره مجدد را روی فیلد مذاکره کننده2 تنظیم کنیم. (مانند شکل بالا)
+
+![IMG-1576](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable35.webp>)
 
 > **نکته مهم:** در صورتی که مسئول کارتابل را روی فیلد تنظیممی‌کنید،می‌توانید با استفاده از قابلیت الزام فیلدها روی اقدام از خالی بودن فیلد در زمان وارد شدن گردش کار به این مرحله جلوگیری کنید. اما در صورت خالی بودن نیز، کار وارد کارتابل کاربر/گروهی که در قسمت کاربر/گروه مرتبط در صورت خالی بودن فیلد مشخص کرده اید خواهد شد.
 
@@ -4103,13 +4597,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 میتوانید تعیین کنید که زمانی که گردش کار به این کارتابل وارد شد، نرم افزار به صورت خودکار، پیامی (از طریق پیامک، ایمیل، پیام سیستمی) برای کاربر/گروه مسئول کارتابل و یا شرکت/شخص مربوطه ارسال کند. دکمه ویرایش نمایش داده شده در کنار هریک از موارد، میانبر به صفحه ویرایش متن پیام سیستمی مربوطهمی‌باشد.
 
+![IMG-1577](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable36.webp>)
+
 **E. زمان یادآوری:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد.
 
+![IMG-1578](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable37.webp>)
+
 **F. زمان پایان:**
 
 با استفاده از این گزینهمی‌توانید تعیین کنید که پس از گذشتن مدت زمان مشخصی از ورود کار به کارتابل، یک پیام به کاربر مسئول آن ارسال گردد و یا روی آیتم مربوطه یک پیگیری برای او ایجاد گردد. در واقع با استفاده از این قابلیت، به پایان رسیدن زمان انجام کار را به مسئول آن یادآوری خواهید کرد.
+
+![IMG-1579](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable38.webp>)
 
 > نکته: در گزارشات فرآیندی، قسمت نمایش کانبان،می‌توانید با استفاده از فیلترهای موجود کارتابل‌هایی که زمان پایان آن‌ها فرا رسیده است را جستجو کنید.
 
@@ -4119,9 +4619,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته مهم:** زمان ارسال پیام به مدیر بالایی دو برابر زمان ارسال به پیام مدیر است. ( برای مثال در تصویر زیر بعد از 5 روز از ورود این چرخه به این کارتابل پیامی برای مدیر دپارتمان و پس از 10 روز پیامی برای مدیر شعبه ارسالمی‌گردد.)
 
+![IMG-1580](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable39.webp>)
+
 **H. شرایط انقضای کارتابل:**
 
 با استفاده از این قابلیتمی‌توانید تنظیماتی اعمال کنید که کارتابل بر اساس شرایطی که مشخصمی‌کنید منقضی شود و با فرا رسیدن زمان انقضاء، فرآیند به صورت خودکار از این کارتابل خارج شده و به وضعیت دیگری از فرآیند هدایت شود. شرایط انقضاءمی‌تواند مدت زمان مشخص باشد یا بر اساس مقادیر وارد شده در فیلدهای از نوع عدد یا تاریخ آیتم در طی فرآیند مشخص شود.
+
+![IMG-1581](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable40.webp>)
 
 **1**. برای فعال شدن انقضاء برای این کارتابل این گزینه را فعال کنید.
 
@@ -4131,6 +4635,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مثال4: گردش کار زیر که در مثال‌های قبلی نیز از آن استفاده شده بود را در نظر بگیرید. برای جلوگیری از توقف کار در کارتابل تایید دریافت/صدور فاکتور و تاخیر در تحویل کالا به مشتری، شرایط انقضاء برای این کارتابل فعال شده است و پس از دو روز به کارتابل مدیر مالی ارجاع دادهمی‌شود(نحوه تنظیم در شکل بالا). در واقع انقضاء یک خروجی از کارتابل(مانند اقدام‌ها) است، با این تفاوت که اختیار آن دست کاربر مسئول کارتابل نیست و در صورت فرا رسیدن زمان انقضاء به صورت خودکار توسط سیستم اعمال خواهد شد.
 
+![IMG-1582](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Cardboard/2.6.0/Cardtable41.webp>)
+
 ## استفاده از فرآیند
 `مسیر سند: Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade.md)
 
@@ -4138,9 +4644,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در صورتی که آیتم وارد کارتابل شود، آن آیتم برای مسئول آن کارتابل ارسال خواهد شد.(برای مطالعه بیشتر به بخش کارتابل مراجعه کنید.) سپس کاربر مسئول می‌تواند آن فرآیند را در کارتابل فرآیند‌های خود  مشاهده کند و بر اساس اقدام‌های تعریف شده بر روی آن کارتابل، فرآیند را به مسیر موردنظر هدایت کند.
 
+![IMG-1587](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade1.webp>)
+
 برای نمونه فرصت مناقصه‌ی ثبت شده، در مرحله‌ی بررسی پیش فاکتور توسط مدیر فروش میباشد.  این پیش فاکتور در این مرحله در کارتابل فرآیند‌های ادمین مقابل مشاهده است زیرا مسئول این مرحله ادمین می‌باشد.
 
 همچنین اقدام‌های تعریف شده برای این مرحله توسط ادمین قابل مشاهده و انجام می‌باشد.
+
+![IMG-1588](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/estefade/estefade.webp>)
 
  مراحل فرآیند می‌تواند کارتابل باشد که باید توسط کاربران بررسی و به مراحل دیگر منتقل گردد و یا فعالیت باشد که بصورت خودکار توسط سیستم انجام می شود و پس از انجام به مراحل تعیین شده پس از آن منتقل می‌گردد.
 
@@ -4151,7 +4661,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای هر فرآیند باید حداقل یک حالت نهایی ایجاد کنید. رسیدن فرآیند به حالت نهایی به معنی پایان یافتن فرآیند می باشد. پس از پایان فرآیند، آیتم در سوابق در جریان و کارتابل هیچ کاربری مشاهده نمی شود و تنها در سوابق هویت ها قابل مشاهده است. می توانید برای فرآیند چند حالت پایان نیز ایجاد کنید. (مثلاً در فرایند کاری درخواست مرخصی، دو حالت نهایی با نام های پایان تایید شده و پایان رد شده داشته باشید، تا هر زمان که سابقه مربوطه را پس از اتمام فرایند آن باز کنید، با یک نگاه نحوه به پایان رسیدن آن را مشاهده کنید
 
+![IMG-1584](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Final-mode/EndState1.webp>)
+
 ##### با کلیک بر روی دکمه افزودن حالت نهایی، پنجره زیر را مشاهده خواهید کرد.
+
+![IMG-1585](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Create-a-work-cycle/Final-mode/EndState2.webp>)
 
 **1**. نام مناسبی برای حالت نهایی فرآیند، برگزینید.
 
@@ -4159,7 +4673,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-ViewOfWorkFlow283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### مشاهده چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/ViewOfWorkFlow_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/ViewOfWorkFlow_2.8.3.md)
@@ -4178,6 +4692,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 برای مشاهده گردش کار آیتم طبق مراحل زیر اقدام نمایید:
 1. آیتم مورد نظر خود را از لیست انتخاب و با دابل کلیک به صفحه مشخصات آن بروید.
 2. در تب **مشخصات** آیتم، روی **مشاهده چرخه‌کاری** کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت نمایش داده می‌شود.
+
+![IMG-1428: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/View-Item-process_2.8.3.webp>)
 
 > **نکته**
 
@@ -4220,7 +4736,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-WhatIsProcessInCRM283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### فرآیند چیست؟
 `مسیر سند: Help/Settings/Personalization-crm/Overview/WhatIsProcessInCRM_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/WhatIsProcessInCRM_2.8.3.md)
@@ -4242,11 +4758,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 منظور از اقدام، خروجی کارتابل‌های فرآیند یا اقدامات مجاز مسئول کارتابل در آن مرحله می باشد. در واقع از طریق اقدام مشخص می‌شود، فرآیند پس از این کارتابل به کدام مرحله (سایر کارتابل ها، فعالیت ها و حالت های نهایی) ارجاع خواهد شد.
 
+![IMG-1429: اقدامات کارتابل](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/cartable-actions_2.8.3.webp>)
+
  به طور مثال در شکل زیر، کارتابل تایید پیش فاکتور و مذاکرات سه اقدام دارد، به این معنی که مدیر فروش در این مرحله سه اقدام مجاز دارد که می‌تواند فرآیند را جهت ارسال پیش فاکتور به مشتری به مرحله بعد هدایت کند که در این صورت یک فعالیت ارسال پیام کوتاه برای اطلاع رسانی به مشتری اجرا شده و پس از آن وارد کارتابل ارسال پیش فاکتور خواهد شد، همچنین می تواند کار را جهت انجام اصلاحات به کارتابل قبلی بازگرداند یا به دلیل عدم تایید مذاکرات، فرآیند را به حالت نهایی بفرستد.
+
+![IMG-1430: مثال اجزای فرآیند](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Process-design/Images/ex.sales-process_2.8.3.webp>)
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-WorkFlowEdition283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### ویرایش چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/WorkFlowEdition_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/WorkFlowEdition_2.8.3.md)
@@ -4264,7 +4784,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 1. به صفحه مشخصات آیتمی که قصد ویرایش چرخه‌کاری آن را دارید، بروید (می‌توانید آن را در لیست مربوط به آن بیابید).
 2. در تب **مشخصات** آیتم، روی [مشاهده چرخه‌کاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md) کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را به همراه جزئیات هر مرحله، نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت فهرست می‌شود.
 
+![IMG-1431: مسیر مشاهده گردش کار در صفحه اطلاعات آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/View-Item-process_2.8.3.webp>)
+
 در صفحه پیش‌رو جزئیات مربوط به هر مرحله در اختیار شما قرار داده می‌شود.
+
+![IMG-1432: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Process-edition-overview_2.8.3.webp>)
 
   **A.** در این جدول لیست کارتابل و فعالیت‌های انتظار گذشته طی فرآیند را مشاهده خواهید کرد.
 
@@ -4284,11 +4808,17 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با کلیک بر دکمه **افزودن** کارتابل/فعالیت مورد نظر خود را اضافه نمایید. زین پس فرآیند از مرحله اضافه شده ادامه‌ی مسیر می‌دهد.
 
+![IMG-1433: صفحه ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Add-Stage-in-Process-edition-page_2.8.3.webp>)
+
 - **تغییر مسئول آخرین کارتابل، در چرخه‌کاری**
 
 همانطور که در توضیحات بالا اشاره شد، امکان حذف آخرین کارتابل در بخش ویرایش چرخه‌کاری وجود ندارد و تنها می‌توانید مسئول **آخرین کارتابل** را تغییر دهید. برای این کار روی گزینه ویرایش کلیک کنید.
 
+![IMG-1434: نحوه تغییر مسئول کارتابل در ویرایش چرخه کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Edite-last-stage-in-process_2.8.3.webp>)
+
 در صفحه پیش رو زمان دقیق ورود به کارتابل، تخصیص به کاربر، مشاهده آیتم و خروج فرآیند از کارتابل کاربر نمایش داده می‌شود. درصورتی که بخواهید مسئول این کارتابل را تغییر دهید، می‌توانید نام کاربر مورد نظر خود را از لیست انتخاب نموده و تغییرات را ذخیره نمایید.
+
+![IMG-1435: تغییر مسئول آخرین کارتابل در ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Change-user-in-cartable_2.8.3.webp>)
 
 > **نکته**
 
@@ -4296,6 +4826,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ###### مشاهده سابقه تغییرات در ویرایش چرخه‌کاری
 برای هر دو حالت افزودن کارتابل/فعالیت جدید به انتهای فرآیند و ویرایش مسئول آخرین کارتابل، **نام ایجاد کننده**، **نام ویرایش کننده** و **زمان دقیق تغییرات** اعمال شده در لیست مراحل فرآیند، نمایش داده خواهد شد.
+
+![IMG-1436: مشاهده سابقه تغییرات ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/History-of-changes-in-process.webp>)
 
 ###### دسترسی‌های مورد نیاز برای ویرایش چرخه‌های کاری
 **مالک آیتم** و **مدیر سیستم** به طور کلی امکان ویرایش چرخه‌کاری را دارند. علاوه بر آن برخی مجوزهای مدیریتی (مثل مدیر مالی، مدیر فروش و ...) نیز دسترسی ویرایش چرخه‌کاری آیتم‌های مختلف را به کاربر می‌دهد که در ادامه به تفکیک توضیح داده می‌شود.
@@ -4330,7 +4862,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Task-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### شخصی سازی وظیفه‌ها
 `مسیر سند: Help/Settings/Personalization-crm/Task-management/2.6.0/Task-customize-setting.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Task-management/2.6.0/Task-customize-setting.md)
@@ -4341,11 +4873,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### وظیفه جدید
 
+![IMG-1606](</kb-assets/kb-images/Help/Settings/Personalization-crm/Task-management/2.6.0/1.webp>)
+
 با ایجاد یک وظیفه جدید علاوه بر[ تنظیمات مشترک آیتم های سیستم  ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md)می توانید در صورت فعال کردن چک باکس مخفی کردن مرتبط با،  نمایش هویت در قسمت مرتبط با وظیفه را مخفی کنید.
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-personalization-hoviat
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### شخصی‌سازی هویت‌ها
 `مسیر سند: Help/Settings/Personalization-crm/personalization-hoviat/Personalization-of-identities.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/personalization-hoviat/Personalization-of-identities.md)
@@ -4365,6 +4899,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 علاوه بر تنظیمات عمومی، تنظیمات اختصاصی هویت‌ها به شرح زیر می باشد.
 
+![IMG-1607](</kb-assets/kb-images/Help/Settings/Personalization-crm/personalization-hoviat/personalization-hoviat.webp>)
+
 **1. الگوی شماره گذاری:** الگوی شماره مشتری را از بین الگوهایی که قبلا ساخته شده اند انتخاب کنید یا الگوی جدیدی به آن اختصاص دهید.(برای مطالعه بیشتر به بخش [الگو شماره گذاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Numbering-template/Numbering-template.md) مراجعه کنید.)
 
 **2. انواع پروفایل:** به منظور آشنایی با این قسمت، بخش [انواع پروفایل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/mafahim/anva-hoviat.md) را مطالعه کنید.
@@ -4375,7 +4911,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Price-list-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### ثبت لیست قیمت‌ها از طریق اکسل
 `مسیر سند: Help/Settings/Price-list-management/ImportPriceListFromExcel_2.8.4.md` · `نسخه سند: 2.8.4` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Price-list-management/ImportPriceListFromExcel_2.8.4.md)
@@ -4399,6 +4935,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  اکسل مورد نظر را بر اساس فرمت مورد پذیرش نرم‌افزار تنظیم کنید. بدین منظور می‌توانید اکسلی با ستون‌هایی که در تصویر می‌بینید ایجاد کنید و یا از فایل نمونه استفاده نمایید. فایل نمونه در مرحله‌ی اول بارگذاری به شما ارائه می‌شود (جلوتر به آن می‌رسیم).
 
+![IMG-1608: تکمیل فایل اکسل نمونه لیست ‌قیمت‌ها](</kb-assets/kb-images/Help/Settings/Price-list-management/Images/pricelist-excel-sample_2.8.4.webp>)
+
 تصویر فوق،‌ ستون‌های مورد نیاز برای بارگذاری لیست‌ قیمت‌ها را نشان می‌دهد. چنانچه از فایل نمونه‌ای که نرم‌افزار به شما می‌دهد استفاده می‌کنید، این فیلدها به صورت خودکار در فایل اکسل قرار داده‌می‌شود.
 
 - **کد محصول**: این ستون شامل کد محصولات تعریف شده در بخش مدیریت محصولات در نرم‌افزار است
@@ -4419,12 +4957,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### بارگذاری فایل
 برای بارگذاری فایل اکسل از مسیر تب **تنظیمات** > **مدیریت لیست قیمت‌ها** را انتخاب کنید و وارد صفحه لیست قیمت‌ها شوید. بر روی کلید «ورود اطلاعات از اکسل» کلیک کنید تا صفحه بارگذاری به شما نمایش داده‌شود.
 
+![IMG-1609: بارگذاری فایل اکسل لیست قیمت](</kb-assets/kb-images/Help/Settings/Price-list-management/Images/pricelist-excel-upload_2.8.4.webp>)
+
 با کلیک بر روی کلید فایل نمونه (شماره ۱) می‌توانید قالب نمونه اکسل را دریافت نمایید. همان طور که پیش‌تر به آن اشاره شد، در این قالب ستون‌هایی برای درج لیست قیمت‌ها براساس کد محصولات تعبیه شده‌است.
 
 پس از تنظیم فایل اکسل، با کلیک بر روی کلید بارگذاری فایل (شماره ۲)، فایل مورد نظر را انتخاب و بارگذاری کنید. پس از اتمام بارگذاری، کلید مرحله‌ی بعد (شماره ۳) در پایین صفحه برای شما فعال می‌شود. با کلیک بر روی این کلید، برای اعمال تنظیمات به مرحله‌ی بعدی می‌روید.
 
 ###### تنظیمات بارگذاری فایل
 در این بخش باید تنظیمات لازم جهت تعیین روش ورود اطلاعات را مشخص کنید.
+
+![IMG-1610: تنظیمات بارگذاری فایل](</kb-assets/kb-images/Help/Settings/Price-list-management/Images/pricelist-excel-setting_2.8.4.webp>)
 
 **1. افزودن اطلاعات جدید**
 
@@ -4469,6 +5011,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در هر بار ورود اطلاعات تنها یک لیست قیمت را می‌توانید به هر کدام از نوع فاکتورها اختصاص دهید.
 
+![IMG-1611: نگاشت فیلدها در اکسل لیست قیمت](</kb-assets/kb-images/Help/Settings/Price-list-management/Images/pricelist-excel-sync_2.8.4.webp>)
+
 اگر نگاشت خود را به صورت دستی انجام داده‌اید، می‌توانید نگاشت خود را ذخیره نمایید (شماره ۴). در صورت استفاده مجدد از این اکسل یا اکسل مشابه برای بارگذاری، با کلیک بر روی نگاشت‌های من (شماره ۵)، نگاشت به صورت خودکار انجام می‌شود. شما می‌توانید نگاشت‌های پرکاربرد خود را در سیستم ذخیره نموده و در وقت خود صرفه‌جویی کنید. در لیست نگاشت‌های من امکان ویرایش یا حذف نگاشت ذخیره شده نیز وجود دارد.
 
 شما این امکان را دارید که برای هر فیلد مقداری را به عنوان مقدار پیش‌فرض (شماره ۶) در نظر بگیرید تا در صورت خالی بودن مقدار فیلد در اکسل، فیلد با مقدار پیش‌فرض که در این قسمت تعریف کرده‌اید پر می‌شود.
@@ -4478,6 +5022,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### شروع بارگذاری
 بارگذاری فایل ممکن است لحظاتی زمان ببرد. پس از اتمام فرآیند بارگذاری، در صورت بارگذاری موفق اکسل،‌ انجام موفقیت‌آمیز آن در این صفحه اعلام می‌شود. پیشنهاد می‌شود که پس از آن به صفحه‌ی لیست لیست قیمت‌ها بروید و نتیجه را برای هر لیست قیمت بررسی کنید.
 در منوی گزارش‌ها، بخش وضعیت عملیات انبوه می‌توانید نتایج ورود اطلاعات را مشاهده کنید. اگر فرآیند بارگذاری آغاز شود اما به هر دلیلی امکان بارگذاری برخی سطرها وجود نداشته‌باشد، با دانلود فایل اکسل از این بخش می‌توانید خطا و علت خطا را مشاهده نمایید. برای دانلود فایل، بر روی جزئیات رکورد مربوطه کلیک کرده و خروجی اکسل دریافت کنید. در اکسل دریافتی، سطرهای دارای مشکل با رنگ قرمز مشخص شده و در ستون آخر دلیل بروز خطا درج شده‌است.
+
+![IMG-1612: خطای بارگذاری اکسل](</kb-assets/kb-images/Help/Settings/Price-list-management/Images/pricelist-excel-upload-result_2.8.4.webp>)
 
 چنانچه بارگذاری فایل با خطا مواجه شده‌باشد و بارگذاری انجام نشود، پیغامی مشابه تصویر فوق به شما نمایش داده‌می‌شود. توجه داشته‌باشید که در این حالت، به سبب آغاز نشدن فرآیند بارگذاری، امکان دریافت فایل خطا از بخش گزارشات انبوه وجود ندارد. در چنین شرایطی فایل اکسل خود را مجدد بررسی و با فرمت راهنما مطابقت دهید. پس از رفع خطاهای فایل، مجدد اقدام به بارگذاری نمایید.
 
@@ -4494,9 +5040,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 [ مدیریت کلاس بندی مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Customer-classification-management/Customer-classification-management.md)
 
+![IMG-1613](</kb-assets/kb-images/Help/Settings/Price-list-management/Pricelistmanagement1.webp>)
+
 همان طور که مشاهده می کنید لیست قیمت های تعریف شده در این قسمت قابل مشاهده، ویرایش و حذف هستند. همچنین با کلیک بر روی دکمه اضافه کردن می توانید لیست قیمت جدیدی را ایجاد نمایید.
 
+![IMG-1614](</kb-assets/kb-images/Help/Settings/Price-list-management/Pricelistmanagement2.webp>)
+
 ابتدا عنوان دلخواهی برای لیست قیمت برگزینید و پس از آن مشخص کنید که این لیست قیمت برای کدام نوع از فاکتورها لحاظ گردد. پس از تعیین این موارد و ذخیره کردن لیست، می توانید با استفاده از کلید افزودن محصولات و سیاست قیمت گذاری آن ها در این لیست را تعریف کنید.
+
+![IMG-1615](</kb-assets/kb-images/Help/Settings/Price-list-management/Pricelistmanagement3.webp>)
 
 در این قسمت می توان  سیاست قیمت گذاری را به ازای هر محصول و یا برای یک دسته از محصول تعریف کنید .
 
@@ -4510,7 +5062,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** اگر درصد تعریف شده برای قیمت گذاری منفی باشد ، قیمت واحد محصول براساس این درصد کاهش می یابد و اگر مثبت باشد قیمت واحد براساس درصد تعریف شده افزایش می یابد .
 
+![IMG-1616](</kb-assets/kb-images/Help/Settings/Price-list-management/Pricelistmanagement4.webp>)
+
 می توانید سیاست قیمت گذاری متفاوتی برای محصولات مختلف در یک لیست قیمت در نظر بگیرید.
+
+![IMG-1617](</kb-assets/kb-images/Help/Settings/Price-list-management/Pricelistmanagement5.webp>)
 
 ### ورود لیست قیمت‌ها از طریق اکسل
 `مسیر سند: Help/Settings/Price-list-management/price-list-excel.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Price-list-management/price-list-excel.md)
@@ -4571,6 +5127,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 - 	در فایل اکسل در ستون لیست قیمت‌ها، سیاست قیمت گذاری هم می تواند به صورت درصد و هم به صورت مقدار باشد.
 
+![IMG-1618](</kb-assets/kb-images/Help/Settings/Price-list-management/price-list-excel.webp>)
+
 ##### 3.مجوز مورد نیاز برای ورود اطلاعات لیست قیمت‌ها
 
 - 	برای ورود اطلاعات لیست قیمت‌ها از طریق اکسل کاربر باید مجوز مدیریت محصولات را داشته باشد.
@@ -4593,7 +5151,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Product-originality-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### مدیریت  اصالت کالا
 `مسیر سند: Help/Settings/Product-originality-management/Product-originality-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Product-originality-management/Product-originality-management.md)
@@ -4601,6 +5159,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
  با استفاده از تنظیمات این صفحه نرم افزار قادر خواهد بود که پیامک حاوی سریال یک محصول را از طرف مشتری بر روی خط تنظیم شده دریافت نموده و پاسخ مناسب در خصوص اینکه آیا آن کالا از شما خریداری شده است یا خیر را ارسال کند.
 
 > نکته: برای استفاده از این امکان باید کالاهایی که توسط رسیدهای مختلف به انبارها اضافه می شوند دارای سریال باشند.  همچنین حداقل یک خط پیامکی با قابلیت دریافت بر روی نرم افزار باید تعریف شده باشد.
+
+![IMG-1619](</kb-assets/kb-images/Help/Settings/Product-originality-management/ProductAuthenticityManagement.webp>)
 
 **1. لیست اصالت کالا:** لیست گروه محصولاتی که پیام تشخیص اصالت کالا را برای آنها تنظیم کرده اید همراه با خط دریافت و ارسال پیام در این قسمت نمایش داده می شود، در صورت نیاز می توانید آنها را ویرایش یا حذف نمایید.
 
@@ -4620,7 +5180,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-SiteSetting
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### سایت‌ساز
 `مسیر سند: Help/Settings/SiteSetting/SiteSetting_2.8.7.1.md` · `نسخه سند: 2.8.7.1` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/SiteSetting/SiteSetting_2.8.7.1.md)
@@ -4654,7 +5214,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 2. در قسمت URL مرورگر، CSM/ را به انتهای آدرس URL نرم‌افزار خود اضافه کنید.
 3. صفحه را به‌روزرسانی کنید تا وارد سایت‌ساز شوید.
 
+![IMG-1620: سایت‌ساز](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/Website-management-2.8.7.1.webp>)
+
 برای ورود به بخش تنظیمات صفحات، از مسیر Website گزینه‌ی Management را انتخاب کنید و سپس بر روی آدرس نرم‌افزار خود (در سمت چپ تصویر) کلیک کنید. از این طریق می‌توانید به تنظیمات صفحه اولیه یا صفحات دیگری که قصد ایجاد آن‌ها را دارید، دسترسی داشته‌باشید. علاوه بر آن، موارد مشترک صفحات نظیر MasterPage و Module در بخش SiteCommon در دسترس هستند. برای مشاهده‌ی موارد موجود از هر یک از آن‌ها لازم است که بر روی دسته‌بندی آن کلیک کنید. به عنوان مثال بر روی Modules کلیک کنید تا تمامی Moduleهای تعریف شده به شما نمایش داده شوند.
+
+![IMG-1621: شخصی‌سازی صفحه اولیه در سایت‌ساز](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/site-customization-2.8.7.1.webp>)
 
 ##### ایجاد و ویرایش عناصر مورد نیاز برای طراحی سایت
 کلید بالای صفحه، امکان ایجاد پرتال و صفحات جدید را برای شما فراهم می‌سازد. با استفاده از فلش کنار کلید، گزینه‌هایی برای ایجاد انواع آیتم‌های مورد نیاز جهت طراحی صفحه در اختیار شما قرار داده‌می‌شود. با استفاده از این کلید می‌توانید اقدام به ایجاد موارد زیر نمایید:
@@ -4666,6 +5230,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - New Module
 
 با کلیک بر روی آدرس سایت (در ستون سمت چپ)، لیست تمامی صفحات (Pageها) به شما نمایش داده می‌شود. در واقع تمامی صفحاتی که ایجاد کرده‌اید یا قصد شخصی‌سازی آن‌ها را دارید، در این جدول قرار دارد. به صورت پیش‌فرض، دو صفحه‌ی اولیه تحت عناوین صفحه Welcome و Index به عنوان قالب اولیه به شما ارائه شده‌است. شما می‌توانید از همین قالب‌ها استفاده کرده و با شخصی‌سازی آن، صفحه مورد نظر خود را طراحی نمایید یا اینکه صفحه/صفحات مورد نظرتان را خودتان طراحی کنید. کلید OnSite که در ردیف مربوطه مشاهده می‌کنید، به شما این امکان را می‌دهد که نمایی از صفحه مشاهده کنید.
+
+![IMG-1622: Index](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/Index-2.8.7.1.webp>)
 
 عناصری که به صورت مشترک و تکرارشونده در صفحات و بخش‌های مختلف می‌توانند به کار گرفته‌شوند (مثلاً تصویر لوگو که در صفحات مختلف و به دفعات ممکن است استفاده شود)، در بخش SiteCommon به شما نمایش داده می‌شوند. از این طریق می‌توانید به Module و MasterPage مورد نظر دسترسی داشته‌باشید. به عنوان مثال Module لوگو در این بخش در دسترس شماست و می‌توانید اقدام به ویرایش آن نمایید.
 
@@ -4680,6 +5246,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### تنظیمات سیستم
 پس از ایجاد و تنظیمات صفحات مورد نیاز در سایت‌ساز و انتشار آن‌ها، لازم است که تنظیمات نرم‌افزار را برای نمایش این صفحه ویرایش نمایید. بدین منظور از مسیر **تنظیمات** > **تنظیمات کلی**  به صفحه **تنظیمات سیستم** بروید و عملکرد سیستم را روی حالت «سایت کامل» قرار دهید. به صورت پیش‌فرض، گزینه‌ی «پیام‌گستر» برای آن انتخاب شده‌است. در این حالت کاربر با درج آدرس URL نرم‌افزار، به صورت مستقیم به صفحه ورود به حساب کاربری (صفحه Login) هدایت می‌شود. با تغییر آن به گزینه‌ی «سایت کامل» صفحه‌ای که در سایت‌ساز تنظیم کرده‌اید به عنوان صفحه اولیه به کاربر نمایش داده می‌شود و از آن طریق می‌تواند به سایر صفحات یا صفحه ورود کاربر منتقل شود.
 
+![IMG-1623: تنظیمات سایت کامل](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/system-setting-2.8.7.1.webp>)
+
 به این موضوع توجه داشته‌باشید که در صورت تنظیم سیستم بر روی حالت «تنظیمات سیستم»، صفحه‌ی تنظیم شده در سایت‌ساز به عنوان صفحه اولیه به تمامی کاربران نرم‌افزار و باشگاه وفاداری نمایش داده می‌شود و مختص به گروه خاصی از کاربران نمی‌باشد.
 
 ### شخصی‌سازی باشگاه با سایت‌ساز
@@ -4691,6 +5259,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - بخش بنر را تغییر دهید.
 - بخش اسلایدر را شخصی‌سازی نمایید.
 
+![IMG-1624: پنل باشگاه](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/club-panel-2.8.7.1.webp>)
+
 > **نکته**
 
 > در صفحه پنل باشگاه، تنها سه بخش مذکور قابل ویرایش است و امکان شخصی‌سازی منوی کناری یا سایر اجزای صفحه فراهم نمی‌باشد.
@@ -4701,7 +5271,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 2. در قسمت URL مرورگر، CSM/ را به انتهای آدرس URL نرم‌افزار خود اضافه کنید.
 3. صفحه را به‌روزرسانی کنید تا وارد سایت‌ساز شوید.
 
+![IMG-1620: سایت‌ساز](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/Website-management-2.8.7.1.webp>)
+
 برای ورود به بخش تنظیمات باشگاه، از مسیر Website گزینه‌ی Management را انتخاب کنید و سپس بر روی بخش MY کلیک کنید. از این طریق می‌توانید به تنظیمات پنل باشگاه دسترسی داشته‌باشید.
+
+![IMG-1625: شخصی‌سازی باشگاه در سایت‌ساز](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/club-customization-2.8.7.1.webp>)
 
 در ردیف اول تا سوم جدول می‌توانید به ترتیب تنظیمات فوتر، بنر و اسلایدر را مشاهده نمایید.
 
@@ -4710,6 +5284,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### ویرایش بخشی از پنل
 با کلیک بر روی Edit، می‌توانید وارد صفحه ویرایش اطلاعات ردیف مربوطه شوید. به عنوان مثال برای ویرایش اطلاعات مندرج در بخش فوتر، بر روی Edit در ردیف اول جدول کلیک کنید تا وارد صفحه‌ی زیر شوید.
+
+![IMG-1626: ویرایش اطلاعات پنل](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/club-footer-editor-2.8.7.1.webp>)
 
 در این بخش می‌توانید محتوای مورد نظر را از طریق Text Editor و یا HTML Editor ویرایش نمایید. به عنوان مثال در تصویر بالا، صفحه‌ی ویرایش فوتر را مشاهده می‌کنید. فرض کنید که می‌خواهید در بخش فوتر، به جای کلید «مستندات» کلید «راهنما» را داشته‌باشید که نماینده/مشتری با کلیک بر روی آن، به صفحه‌ی راهنمای سایت شما هدایت شود. بدین منظور لازم است که عبارت «مستندات» را به «راهنما» تغییر دهید (هایلایت قرمز) و همچنین آدرس صفحه سایت مورد نظر را با لینک مندرج فعلی (هایلایت زرد) جایگزین کنید. توجه داشته‌باشید که تغییرات مورد نظر را در زبان انگلیسی نیز اعمال کنید (هایلایت بنفش).
 
@@ -4723,6 +5299,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 پس از بازگشت به صفحه اصلی، حال که تغییری در بخش (مثلاً فوتر) اعمال کرده‌اید، کلید Publish را ردیف مربوطه مشاهده می‌کنید. برای انتقال این تغییرات به پنل، لازم است که بر روی Publish کلیک کنید.
 
+![IMG-1627: انتشار تغییرات پنل](</kb-assets/kb-images/Help/Settings/SiteSetting/Images/club-customization-publish-2.8.7.1.webp>)
+
 چنانچه قصد بازگردانی تنظیمات آن بخش به حالت اولیه را دارید، روی Rollback کلیک کنید تا تنظیمات پیش‌فرض بازگردانی شود.
 
 > **نکته**
@@ -4731,7 +5309,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-UserOrganizationLevel
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### مدیریت  حکم‌های پرسنلی
 `مسیر سند: Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.5.6.md` · `نسخه سند: 2.5.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.5.6.md)
@@ -4742,7 +5320,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد چارت سازمانی ابتدا قسمت [مدیریت شعب، دپارتمان و سمت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md)را مطالعه کرده و تنظیماتش را انجام دهید تا بتوانید در این قسمت هر کاربر را به سمت سازمانی مرتبط، تخصیص دهید.
 
+![IMG-1628: لیست حکم‌های پرسنلی](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelLists_2.5.6.webp>)
+
 با کلیک بر دکمه **افزودن** می‌توانید یک حکم پرسنلی جدید به یک کاربر تخصیص دهید.
+
+![IMG-1629: تخصیص حکم پرسنلی به کاربر](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelSettings_2.5.6.webp>)
 
 1. **کاربر:** نام کاربری که می خواهید حکم را به او اختصاص دهید، انتخاب کنید.
 2. **تاریخ شروع:** تاریخ شروع حکم را تعیین کنید.
@@ -4766,7 +5348,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای ایجاد چارت سازمانی ابتدا قسمت [مدیریت شعب، دپارتمان و سمت ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md)را مطالعه کرده و تنظیماتش را انجام دهید تا بتوانید در این قسمت هر کاربر را به سمت سازمانی مرتبط، تخصیص دهید.
 
+![IMG-1630: لیست حکم‌های پرسنلی](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelLists_2.6.0.webp>)
+
 با کلیک بر دکمه **افزودن** می‌توانید یک حکم پرسنلی جدید به یک کاربر تخصیص دهید.
+
+![IMG-1631: تخصیص حکم پرسنلی به کاربر](</kb-assets/kb-images/Help/Settings/UserOrganizationLevel/Images/OrganizationLevelSettings_2.6.0.webp>)
 
 1. **کاربر:** نام کاربری که می خواهید حکم را به او اختصاص دهید، انتخاب کنید.
 2. **تاریخ شروع:** تاریخ شروع حکم را تعیین کنید.
@@ -4785,7 +5371,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Warehouse-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### مدیریت انبارها
 `مسیر سند: Help/Settings/Warehouse-management/Warehouse-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Warehouse-management/Warehouse-management.md)
@@ -4794,14 +5380,20 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > نکته: لطفا ابتدا محصولات خود را در قسمت[ مدیریت محصولات ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Product%20management/Product-management.md)دسته بندی و ایجاد کنید.
 
+![IMG-1632](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement1.webp>)
+
 **1. فیلتر:** می توانید با استفاده از فیلترهای موجود انبار مورد نظر خود را بیابید.
 
 **2. گروه انبار جدید:** می توانید یک گروه انباری جدید تعریف کنید، نام گروه انبار و کد دلخواه خود را وارد کرده و روی دکمه ذخیره کردن کلیک کنید.
+
+![IMG-1633](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement2.webp>)
 
 ### مدیریت محصولات انبار
 `مسیر سند: Help/Settings/Warehouse-management/manage-mahsool.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Warehouse-management/manage-mahsool.md)
 
 در این قسمت محصولاتی که می توانند در آن انبار باشند ( مجاز هستند) را تعیین کنید. از بین تمامی محصولات تعریف شده در مدیریت محصولات تنها این محصولات در حواله ها و رسید های این انبار قابل انتخاب خواهند بود.
+
+![IMG-1634](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement4.webp>)
 
 **A. اضافه کردن محصول:** از بین محصولات تعریف شده در قسمت مدیریت محصولات، محصول/محصولات مورد نظر خود که می خواهید به عنوان محصول مجاز این انبار تعیین گردد را انتخاب و به لیست اضافه کنید.
 
@@ -4818,7 +5410,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با استفاده از کلید مدیریت مجوزهای انبار می‌توان مجوزها کاربران در هر انبار را تعیین کرد.
 
+![IMG-1635](</kb-assets/kb-images/Help/Settings/Warehouse-management/mojavez1.webp>)
+
 > **نکته مهم:** توجه داشته باشید هر کاربری که بخواهد عملیات مرتبط با انبار مانند صدور، تایید یا قیمت گذاری تراکنش های انبار را انجام دهد، باید مجوز مربوطه را در آن انبار داشته باشد.
+
+![IMG-1636](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement5.webp>)
 
 **A. افزودن کاربر/گروه:** برای تعریف مجوزهای این انبار برای یک کاربر/گروه جدید، ابتدا و یا گروه مورد نظر را انتخاب کنید، مجوز های مورد نظر را انتخاب کرده و آن را اضافه کنید.
 
@@ -4845,7 +5441,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 پس از ایجاد گروه انبار مورد نظر، می‌توان با استفاده از کلید افزودن در این بخش انبار جدیدی را ایجاد کرد.
 
+![IMG-1637](</kb-assets/kb-images/Help/Settings/Warehouse-management/anbar-jadid1.webp>)
+
 با کلیک بر روی افزودن صفحه‌ی زیر برای تعریف انبار جدید مشاهده می‌شود.
+
+![IMG-1638](</kb-assets/kb-images/Help/Settings/Warehouse-management/Warehousemanagement3.webp>)
 
 **A. نام انبار:** نام انبار را تعیین کنید.
 
@@ -4871,7 +5471,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-Warehousing
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### تعیین گارانتی کالا
 `مسیر سند: Help/Settings/Warehousing/GuaranteeSetting.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Warehousing/GuaranteeSetting.md)
@@ -4881,6 +5481,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 برای ثبت گارانتی محصولات از طریق مسیر زیر اقدام نمایید:
 **تنظیمات**> **مدیریت محصولات**> **اعمال گارانتی**
 
+![IMG-1639: ثبت گارانتی برای محصولات](</kb-assets/kb-images/Help/Settings/Warehousing/gurantee.webp>)
+
 برای ثبت گارانتی ابتدا می‌بایست در قسمت مدیریت محصولات چک باکس مرتبط با **اعمال گارانتی** فعال باشد
 
 - **مدت گارانتی(ماه)**: برای ثبت مدت زمانی که محصول شامل گارانتی می‌شود، می‌توانید تعداد ماه‌ها را در این قسمت وارد کنید.
@@ -4889,7 +5491,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings-sefaresh
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### تعریف نقطه سفارش:
 `مسیر سند: Help/Settings/sefaresh/sefaresh.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/sefaresh/sefaresh.md)
@@ -4899,6 +5501,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > لازم به ذکر است تعداد تعیین شده در این بخش برای انبارداری تعدادی و همچنین بصورت پیش فرض برای انبار داری سریالی می‌باشند، برای تغییر نقطه سفارش محصولات در انبار داری سریالی می‌توان از مسیر دسترسی:  **تنظیمات** >**مدیریت انبارها** > **مدیریت محصولات انبار**نیز اقدام نمود.
 
 ##### تنظیمات نقطه سفارش:
+
+![IMG-1640](</kb-assets/kb-images/Help/Settings/sefaresh/Warehousing245.webp>)
 
 در این قسمت می توانید تنظیماتی اعمال کنید که در صورت رسیدن میزان موجودی محصولات به نقطه سفارشی که برای آن محصول تعریف کرده اید، عملیاتی خودکار توسط سیستم انجام شود، این عملیات می تواند ارسال پیام به یک کاربر/گروه/سمت مشخص یا ایجاد یک فرم (مثلاً فرم سفارش خرید) باشد.
 
@@ -4912,12 +5516,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Settings
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### راهنمای شروع به کار کاربر
 `مسیر سند: Help/Settings/AdminGetStarted.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/AdminGetStarted.md)
 
 تمامی اقداماتی که شما به عنوان راهبر نرم‌افزار باید در سیستم انجام دهید در این قسمت تعیین شده است. برای سهولت استفاده کاربران از سیستم لازم است برای هر مرحله اطلاعات کامل را ابتدا جمع‌آوری کرده سپس در سیستم طبق استانداردهای تعیین شده هر بخش، پیاده‌سازی کنید.
+
+![IMG-1083: تصویر مراحل شروع به کار ادمین](</kb-assets/kb-images/Help/Settings/Images/Admin-get-started.webp>)
 
 1. **تنظیمات اولیه سیستم:** شما به‌عنوان راهبر، باید در ابتدا یک سری تنظیمات اولیه مثل تنظیم زبان سیستم، تعریف اتاق‌ها برای جلسات، تقویم‌های کاری، تنظیمات امنیتی سیستم، مشخصات حساب‌های مالی و... را برای استفاده کاربران از سیستم انجام دهید.
 2. **تنظیمات مربوط به ثبت هویت:** اقدام بعدی تنظیمات اولیه برای ثبت هویت است. مثل تعیین نوع هویت پیش‌فرض (برای زمانی که به صورت خودکار هویتی ذخیره شود)، دسته‌بندی پیش‌فرض هویت (فضایی که به صورت خودکار هویت در آن ذخیره شود) و تنظیمات مخاطبان ناشناس.
@@ -4934,7 +5540,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Supplementary-modules
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### ماژول های تکمیلی
 `مسیر سند: Help/Supplementary-modules/Supplementary-modules.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/Supplementary-modules.md)
@@ -4961,21 +5567,35 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  مشتریان با نام کاربری و پسورد خود، وارد داشبورد پروفایل خود در باشگاه مشتریان می شوند، در این قسمت مشتریان می توانند اطلاعاتی مانند مانده حساب، سوابق ثبت شده (سوابقی که شما مجوز مشاهده توسط مشتریان را برای آن ها فعال کرده باشید) و وضعیت فرایند های در جریان مربوط به پروفایل خود را مشاهده کنند. همچنین امکان ثبت برخی از آیتم ها (آیتم هایی که شما مجوز ایجاد توسط مشتریان را برای آن ها فعال کرده باشید) و پرداخت آنلاین در این قسمت وجود دارد.
 
+![IMG-1645](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian1.webp>)
+
  **1. تاریخچه من:** در این قسمت مشتریان می توانند سوابق ثبت شده برای پروفایل خود را مشاهده نمایند. همچنین می توانند سوابق قابل ثبت را نیز برای خود ثبت نمایند.
 
 >  نکته: توجه داشته باشید که مشاهده و ایجاد سوابق توسط مشتریان در باشگاه (در تمامی قسمت ها اعم از تاریخچه من، فرایندهای من، درخواست های من، مالی و فروش)، بر اساس تنظیمات اعمال شده توسط شما در شخصی سازی آیتم ها تعیین می گردد.
+
+![IMG-1646](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian2.webp>)
 
 آیتم هایی که در قسمت شخصی سازی گزینه اول برای آن ها فعال شده باشد، در این قسمت نمایش داده خواهند شد، مشاهده فیلدهای اضافه شده به آیتم منوط به فعال بودن گزینه دوم می باشد.
 
 همچنین آیتم هایی که گزینه سوم برای آن ها فعال شده باشد، در لیست فرم های قابل ثبت نمایش داده خواهند شد. (توجه فرمایید که این آیتم ها محدود به فرم نمی شود و می تواند انواع موجودیت ها مانند فایل، درخواست، پیش فاکتور و ... را شامل ش
 
+![IMG-1647](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian3.webp>)
+
 **2. حساب کاربری:** در این قسمت مشتریان می توانند اطلاعات حساب کاربری خود را مشاهده کنند و یا رمز عبور و لوگوی کاربری خود را تغییر دهند، همچنین در صورت فعال بودن ماژول سیستم امتیازدهی می توانند امتیازات خود را نیز مشاهده نمای
+
+![IMG-1648](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian4.webp>)
 
 **3. فرایندهای من:** در صورتی که برای مشتری سابقه ای ثبت شده باشد و آن سابقه چرخه کاری فعال داشته باشد، در صورت فعال بودن مجوز مشاهده مشتریان برای آیتم مرتبط، مشتری می تواند در قسمت فرایندهای من، وضعیت فعلی چرخه کاری آیتم را مشاهده نماید و بدین صورت از نحوه رسیدگی به آن در سازمان شما مطلع گردد
 
+![IMG-1649](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian5.webp>)
+
 **4. درخواست‌های من:** در صورتی که ماژول مدیریت درخواست ها را تهیه کرده باشید، مشتریان می توانند در این قسمت لیست درخواست های ثبت شده برای خود را مشاهده کرده (درخواست هایی که مجوز مشاهده مشتریان برای آن ها فعال شده باشد) و یا درخواست جدیدی ثبت نمایند (درخواست هایی که مجوز ایجاد توسط مشتریان برای آن ها فعال شده باشد).
 
+![IMG-1650](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian6.webp>)
+
 **5. مالی و فروش:** در این قسمت فاکتورها، پیش فاکتورها، قراردادها و دریافت های مشتری قابل مشاهده است، همچنین مشتریان می توانند در صورت پرداخت نقدی، اطلاعات واریز را در این قسمت وارد کنند تا توسط شما مورد بررسی قرار گیرند، علاوه بر این در صورت فعال بودن ماژول پرداخت آنلاین می توانند از طریق درگاه پرداخت واسط حساب کاربری خود را به میزان دلخواه شارژ نمایند.
+
+![IMG-1651](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian7.webp>)
 
 **A. پرداخت‌های من:** در این قسمت تمامی دریافت های ثبت شده برای مشتریان (دریافت هایی که مجوز مشاهده مشتری برای آن ها فعال شده باشد) نمایش داده می شود، این دریافت ها ممکن است تایید شده، رد شده یا در انتظار باشند. این دریافت ممکن است توسط خود مشتری یا توسط کاربران سیستم ثبت شده باشند.
 
@@ -4985,9 +5605,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **D. پرداخت جدید:** در این قسمت مشتریان می توانند اطلاعات واریز نقدی خود را وارد کرده و یا پرداخت آنلاین انجام دهند.
 
+![IMG-1652](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian8.webp>)
+
 سه روش برای پرداخت در این قسمت وجود دارد، در قسمت پرداخت اینترنتی با وارد کردن مبلغ مورد نظر و کلیک روی دکمه پرداخت، مشتری به پنل پرداخت واسط هدایت می گردد تا پرداخت آنلاین انجام دهد و در قسمت واریز نقدی و انتقال از طریق کارت خودپرداز، صرفاً اطلاعات پرداخت توسط مشتری وارد می شود. پس از ثبت این اطلاعات توسط مشتری، یک دریافت در پروفایل او در پیام گستر ثبت می گردد تا توسط شما مورد بررسی و تایید قرار گ
 
 > نکته: حساب های مجاز به انتخاب در هریک از روش های پرداخت بستگی به تنظیمات اعمال شده برای هریک از حساب ها در قسمت [مدیریت حساب های مالی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Financial-account-management/Financial-account-management.md)دارد.
+
+![IMG-1653](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian9.webp>)
 
 ### ایجاد نام کاربری
 `مسیر سند: Help/Supplementary-modules/customer-club/Create-username/Create-username.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/customer-club/Create-username/Create-username.md)
@@ -5006,31 +5630,51 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **5)** همچنین می توان در تنظیمات کلی، قسمت امنیتی، امکان ثبت نام در باشگاه مشتریان را فعال نمود. در این صورت هر شخصی که آدرس URL نرم افزار شما را داشته باشد میتواند در باشگاه مشتریان ثبت نام کرده و از امکانات آن بهره مند گردد.
 
+![IMG-1641](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName6.webp>)
+
 با فعال کردن گزینه نمایش داده شده، در صفحه ورود به نرم افزار لینک ثبت نام نمایش داده خواهد شد، همن طور که مشاهده می کنید میتوانید وارد کردن برخی از فیلدها را در فرم ثبت نام اجباری کنید.
+
+![IMG-1642](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName7.webp>)
 
 ###### پس از اینکه مشتری بر روی ثبت نام کلیک کند صفحه زیر نمایش داده خواهد شد :
 
+![IMG-1643](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName8.webp>)
+
 برای مشتریانی که در باشگاه مشتریان ثبت نام می کنند، پروفایلی دردسته بندی که در تنظیمات کلی،بخش دسته بندی کاربران، تنظیم کرده اید ایجاد می شود .
+
+![IMG-1644](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName9.webp>)
 
 ### سایت ساز
 `مسیر سند: Help/Supplementary-modules/site/sitesaz.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/site/sitesaz.md)
 
 برای سفارشی سازی و تغییرات بر روی صفحه باشگاه مشتریان و وبسایتی که می توانید  تنظیم نمایید تا قبل از وارد شدن به نرم افزارتان نمایش داده شود، از این ابزار استفاده می شود.
 
+![IMG-1654](</kb-assets/kb-images/Help/Supplementary-modules/site/SiteSaz.webp>)
+
 ### ابزار سایت‌ساز
 `مسیر سند: Help/Supplementary-modules/site/abzar/abzar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/site/abzar/abzar.md)
+
+![IMG-1655](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz1.webp>)
 
 **1.** در این قسمت می توانید منوها و تنظیمات صفحه داشبورد من را تغییر دهید.
 
 همانطور که می بینید می توانید با دو ابزار HTML Editor و Text Editor تغییرات خود را اعمال نمایید. پس ازاعمال تغییرات حتما دکمه تیک سبز رنگ در پایین صفحه را زده تا تغییرات موقتا ذخیره گردد و به صفحه تایید نهایی هدایت شوید.
 
+![IMG-1656](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz2.webp>)
+
  Text Editor
+
+![IMG-1657](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz3.webp>)
+
+![IMG-1658](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz4.webp>)
 
 با زدن دکمه Publish تغییرات انجام شده در سایت اعمال می شود و با زدن دکمه Rollback تغییرات پاک شده و به حالت اولیه بر می گردد.
 
 **2.** می توانید قالب اصلی سایت خود را در این قسمت  تنظیم نمایید.
 
 **3.** در این قسمت می توانید لوگو خود را در سایت جایگذاری نمایید.
+
+![IMG-1659](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz5.webp>)
 
 **4.** در این قسمت می توانید اطلاعات و محتوا سایت خود را تغییر دهید.
 
@@ -5040,8 +5684,12 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای اضافه کردن صفحات دیگر باید از قسمت New Portal وارد شوید و نوع آبجکت مورد نیاز خود را اضافه نمایید.
 
+![IMG-1660](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz6.webp>)
+
 ### وارد شدن به ابزار سایت‌ساز
 `مسیر سند: Help/Supplementary-modules/site/varedeabzarsite/abzarsite.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/site/varedeabzarsite/abzarsite.md)
+
+![IMG-1661](</kb-assets/kb-images/Help/Supplementary-modules/site/varedeabzarsite/VaredShodanBeAbraz.webp>)
 
 **1.**  با وارد کردن عبارت CMS در جلوی آدرس CRM خود وارد ابزار سایت ساز می شوید.
 
@@ -5049,7 +5697,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-Ticket
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### درخواست پشتیبانی جدید
 `مسیر سند: Help/Ticket/NewTicketing_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Ticket/NewTicketing_2.8.3.md)
@@ -5064,15 +5712,25 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 - **ویجت دسترسی سریع** > **درخواست پشتیبانی**
 
+![IMG-1662: مسیر اول ثبت درخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/new-ticketing-method1_2.8.3.webp>)
+
 - **تب خدمات** > **درخواست‌ها** > **انتخاب زیرنوع موردنظر از درخواست ها**
+
+![IMG-1663: مسیر دوم ثبت درخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/new-ticketing-method2_2.8.3.webp>)
 
 - **صفحه اصلی پروفایل مخاطب** > **آیتم جدید** > **درخواست جدید**
 
 برای مشاهده لیست «آیتم‌های جدید» بر روی فلش کنار «تماس جدید» (قابل مشاهده در نوار سفید بالای صفحه) کلیک نمایید.
 
+![IMG-1664: مسیر سوم ثبت درخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/new-ticketing-method3_2.8.3.webp>)
+
 - **صفحه اصلی پروفایل مخاطب** > **تب سوابق** > **درخواست جدید**
 
+![IMG-1665: مسیر چهارم ثبت درخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/new-ticketing-method4_2.8.3.webp>)
+
 - **صفحه اصلی پروفایل مخاطب** > **تب درخواست‌ها** > **درخواست جدید**
+
+![IMG-1666: مسیر پنجم ثبتدرخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/new-ticketing-method5_2.8.3.webp>)
 
 > **نکته**
 
@@ -5082,6 +5740,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در صورت داشتن چند زیرنوع خواست، به انتخاب صحیح آن توجه داشته‌باشید. زیرنوع آیتم در قسمت بالای صفحه قابل مشاهده و قابل تغییر می‌باشد. در تصویر زیر، «درخواست پشتیبانی» برای ثبت نمونه انتخاب شده‌است.
 
 برای ثبت درخواست لازم است فیلدهای مورد نیاز آیتم را با اطلاعات موجود تکمیل و سپس ذخیره نمایید. مشخصات درخواست در پیام‌گستر به شرح زیر می‌باشد:
+
+![IMG-1667: ثبت درخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/new-ticketing_2.8.3.webp>)
 
 برای ثبت درخواست پشتیبانی می توانید زیرنوع مناسب با این درخواست را تعیین کنید
 
@@ -5118,9 +5778,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - از مسیر **تب خدمات** > **درخواست‌ها** > **انتخاب زیرنوع موردنظر از درخواست‌ها**
 با انتخاب یکی از زیرنوع‌های درخواست، وارد صفحه درخواست‌ها می‌شوید. در این حالت، تمامی درخواست‌های ثبت‌شده از زیرنوع انتخابی به شما نمایش داده‌می‌شود.
 
+![IMG-1668: مسیر اول نمایش لیست درخواست‌ها](</kb-assets/kb-images/Help/Ticket/Images/ticketing-list-method1-2.8.3.webp>)
+
 از قسمت بالای صفحه می‌توانید سایر زیرنوع‌ها و یا همه را برای نمایش انتخاب نمایید. با انتخاب «همه درخواست‌ها»، تمامی درخواست‌ها از همه زیرنوع‌ها در لیست به شما نمایش داده‌می‌شود.
 
 - از مسیر **تب بانک یکپارچه** > **تاریخچه CRM**  می توانید با اعمال فیلتر «نوع» بر روی درخواست‌ها و انتخاب زیرنوع مورد نظر/همه در فیلتر کناری، تمامی درخواست‌های ثبت شده را مشاهده نمایید.
+
+![IMG-1668: مسیر دوم نمایش لیست درخواست‌ها](</kb-assets/kb-images/Help/Ticket/Images/ticketing-list-method1-2.8.3.webp>)
 
 > **نکته**
 
@@ -5133,11 +5797,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 توجه داشته‌باشید که در این صفحه همه‌ی انواع درخواست‌ها به شما نمایش داده‌می‌شود. برای اینکه فقط درخواست‌های را مشاهده نمایید، با استفاده از فیلتر بالای صفحه، در قسمت نوع، «درخواست» را انتخاب نمایید.
 
+![IMG-1669: مسیر اول نمایش لیست درخواست‌های یک هویت](</kb-assets/kb-images/Help/Ticket/Images/customer-ticketing-list-method1-2.8.3.webp>)
+
 - از طریق صفحه **پروفایل مخاطب** > **تب سوابق** نیز می‌توانید به درخواست‌های ثبت شده برای مخاطب دسترسی داشته‌باشید. بدین منظور با استفاده از ویجت جستجوی سریع، وارد صفحه پروفایل هویت مورد نظر شوید. در صفحه اصلی پروفایل هویت، در تب سوابق، گزینه «پیش‌فاکتور» را در لیست «نوع آیتم» انتخاب نمایید تا پیش‌فاکتورهای فروش ثبت‌شده در فرآیند فروش هویت مورد نظر را مشاهده کنید.
+
+![IMG-1670: مسیر دوم نمایش لیست درخواست‌های یک هویت](</kb-assets/kb-images/Help/Ticket/Images/customer-ticketing-list-method2-2.8.3.webp>)
 
 - از طریق **تب خدمات** > **درخواست‌ها** > **زیرنوع درخواست** به صفحه لیست درخواست‌ها رفته و در صورت نیاز زیرنوع درخواست‌ها را به «همه درخواست‌های ایمیلی» تغییر دهید (از فلش کنار کادر قرمز بالا استفاده کنید). با استفاده از جستجوی «پروفایل مرتبط» درخواست‌‌های ثبت شده برای هویت مورد نظر را جدا کنید. بدین منظور کافیست نام هویت را در  قسمت مربوطه نوشته و Enter کنید.
 
+![IMG-1671: مسیر سوم نمایش لیست پیش‌فاکتورهای فروش یک هویت](</kb-assets/kb-images/Help/Ticket/Images/customer-ticketing-list-method3-2.8.3.webp>)
+
 - از طریق **تب بانک یکپارچه** > **تاریخچه CRM** با اعمال فیلتر(کادر قرمز بالا)،  درخواست‌ها را یافته  و با استفاده از جستجوی «پروفایل مرتبط» (کادر قرمز پایین) درخواست‌های هویت مورد نظر را جدا کنید. بدین منظور کافیست نام هویت را در قسمت مربوطه نوشته و Enter کنید.
+
+![IMG-1672: مسیر چهارم نمایش لیست پیش‌فاکتورهای فروش یک هویت](</kb-assets/kb-images/Help/Ticket/Images/customer-ticketing-list-method4-2.8.3.webp>)
 
 > **نکته**
 
@@ -5151,16 +5823,20 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### سوابق درخواست
 مشابه فرصت، موجودیت‌های مختلفی (از جمله پیش‌فاکتور، فاکتور، قرارداد، دریافت، قرارملاقات و سایر موارد) می‌توانند به درخواست شما متصل باشند. این آیتم‌‌ها علاوه بر سوابق هویت، در سوابق درخواستی که به آن متصل شده‌اند نیز قابل دسترس هستند. برای دسترسی به آن‌ها کافیست وارد صفحهدرخواست مورد نظر شوید و بر روی تب سوابق کلیک کنید.
 
+![IMG-1673: سوابق درخواست پشتیبانی](</kb-assets/kb-images/Help/Ticket/Images/ticketing-records_2.8.3.webp>)
+
 نوار بالایی تب سوابق درخواست، امکان ثبت سوابق جدید را به شما می‌دهد. سوابقی که از این بخش ثبت شوند، به درخواست مذکور متصل خواهند‌بود.
 
 ## مستندات رسمی پیام‌گستر — Help-backup
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### مدیریت پشتیبان گیری
 `مسیر سند: Help/backup/backup.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/backup/backup.md)
 
 مشاهده سرویس های در حال اجرای پیام گستر، شناسایی GSM مودم، مسیر نصب و سریال نرم افزار و پشتیبان گیری از نرم افزار در برنامه Payamgostar Agent Configuration Manager که در سرور (جایی که نرم افزار نصب شده است) وجود دارد، قابل دسترسی است.
+
+![IMG-1674](</kb-assets/kb-images/Help/backup/BackupVersion1.webp>)
 
 تنظیمات مربوط به پشتیبان گیری و یا همان بک آپ با از قسمت backup  انجام می‌شود .
 
@@ -5174,6 +5850,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در این قسمت می توانید پشتیبان گیری را به دو صورت کامل (Full) و دیفرانسیلی (Differential) تنظیم کنید.
 
 زمان بندی (Schedule) پشتیبان گیری را نیز می توانید تعیین کنید.
+
+![IMG-1675](</kb-assets/kb-images/Help/backup/back-up/96.webp>)
 
 **1. BackUp Directory:** مسیر بک آپ گیری را انتخاب کنید.
 
@@ -5197,18 +5875,24 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با استفاده از این منو میتوانید یک فایل پشتیبان با نام دلخواه در مسیر دلخواه ایجاد کنید.
 
+![IMG-1676](</kb-assets/kb-images/Help/backup/back-up/95.webp>)
+
 **Restore Database(بازیابی پایگاه داده):**
 
 با استفاده از این منو می توانید از فایل پشتیبان ذخیره شده قبلی برای بازگرداندن نرم افزار به زمان آن استفاده کنید.
 
+![IMG-1677](</kb-assets/kb-images/Help/backup/back-up/94.webp>)
+
 ## مستندات رسمی پیام‌گستر — Help-connections
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### پیام‌های ارسالی و دریافتی شبکه‌های پیام‌رسان
 `مسیر سند: Help/connections/SocialNetworkMessage/SocialNetworkMessageList.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/connections/SocialNetworkMessage/SocialNetworkMessageList.md)
 
 در بخش ارتباطات می‌توانید لیست پیام‌های ارسالی و دریافتی هر خط را به صورت مجزا مشاهده نمایید، به جزئیات آن‌ها دسترسی داشته‌باشید و در صورت لزوم از آن‌ها خروجی اکسل تهیه کنید.
+
+![IMG-1691: لیست پیام‌های شبکه‌های پیام‌رسان](</kb-assets/kb-images/Help/connections/SocialNetworkMessage/Image/social-network-message-list.webp>)
 
 > **نکته**
 
@@ -5223,6 +5907,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در این قسمت، لیست خطوط عمومی (منظور از خطوط عمومی خطوطی هستن که به کاربر خاصی اختصاص داده نشده است، یعنی کاربر در این قسمت لیست خطوطی رو مشاهده میکند  که به خودش اختصاص داده شده و یا به هیچ کاربر دیگری اختصاص داده نشده )   در اختیار قرار میگیرد تا با انتخاب آن، لیست فکس های ارسالی و دریافتی را ببینید.
 
+![IMG-1693](</kb-assets/kb-images/Help/connections/fax-conect/fax.webp>)
+
 در لیست دریافت هم  اطلاعات ارسال کننده ، خط دریافتی و محتوای پیام قابل مشاهده است .
 
 ### پیام کوتاه
@@ -5234,6 +5920,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در این قسمت، لیست  خطوط عمومی پیامک در اختیار قرار میگیرد (منظور از خطوط عمومی خطوطی هستن که به کاربر خاصی اختصاص داده نشده است، یعنی کاربر در این قسمت لیست خطوطی رو مشاهده میکند  که به خودش اختصاص داده شده و یا به هیچ کاربر دیگری اختصاص داده نشده ) در جدول مشخص شده، اطلاعاتی مانند، شماره دریافت کننده پیام و تاریخ ارسال به همراه وضعیت ارسال و وضعیت تحویل قابل مشاهده می باشد
 
+![IMG-1694](</kb-assets/kb-images/Help/connections/sms-connet/SMS.webp>)
+
  تا با انتخاب آن، لیست پیامک های ارسالی و دریافتی را ببینید.
 
 ### داشبورد مرکز تماس
@@ -5244,6 +5932,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در صورتی که از سیستم تلفنی سانترال برای ضبط مکالمه استفاده می‌کنید، برای ضبط مکالمات باید دستگاه تلسا را تهیه کنید. در سیستم سانترال امکان داشتن داشبورد مرکز تماس برای شما فراهم شده است. با استفاده از این داشبورد فقط امکان مشاهده وضعیت خطوط و شماره تماسی که با آن صحبت می‌شود، وجود دارد. در صورت استفاده از سیستم تلفنی ویپ شما علاوه بر داشتن داشبورد مرکزتماس قابلیت شنود و نجوا مکالمه را نیز دارید.
 
+![IMG-1678: داشبورد مرکز تماس](</kb-assets/kb-images/Help/connections/Contact-center-status/CallCenter.webp>)
+
 در سمت راست لیست خطوط و سمت چپ لیست داخلی‌ها نمایش داده می‌شود، داخلی‌هایی که در حال مکالمه باشند از این قسمت مشخص است و می‌توانید جزئیاتی مانند نام کاربر متناظر و مدت زمان مکالمه را مشاهده کنید.
 
 1. **شنود و نجوا:** با استفاده از دکمه‌های این قسمت می‌توانید مکالمه را شنود کنید و یا پیغامی را برای شخص در حال مکالمه نجوا کنید.
@@ -5253,8 +5943,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **شنود** قابلیتی است که در سیستم تلفنی ویپ قابل استفاده می‌باشد و با استفاده از آن می‌توان از طریق داشبورد مرکز تماس  روی یک داخلی، بدون اینکه کاربر مورد نظر متوجه شود، مکالمه آن را شنود کرد. به‌ این صورت که در داشبورد مرکزتماس روی تماس مورد نظر گزینه شنود را کلیک کرده و بعد از اینکه داخلی که برای کاربرمان تنظیم کرده‌ایم نمایش داده شد، شنود را مجدد می‌زنیم و داخلیمان زنگ میخورد و روی آن SPY هم دیده می‌شود. در صورت جواب دادن عملیات شنود صورت میپذیرد.
 
+![IMG-1679](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva.webp>)
+
+![IMG-1680](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva1.webp>)
+
 **نجوا** قابلیتی است در سیستم تلفنی ویپ قابل استفاده می‌باشد، که با استفاده از آن می‌توان از طریق داشبورد مرکز تماس روی یک داخلی نجوا انجام داد و به یک کارشناس در حال صحبت با مشتری یا شخص دیگر بدون متوجه شدن شخص ثالث راهنمایی کرد.
 به این صورت که روی تماس مورد نظر در داشبورد مرکزتماس روی گزینه ارسال پیغام به کارشناس کلیک کرده و بعد از اینکه داخلی که برای کاربرمان تنظیم کرده‌ایم نمایش داده شد نجوا را مجدد می‌زنیم و داخلیمان زنگ میخورد و روی آن Wisper هم دیده میشود. در صورت جواب دادن عملیات نجوا صورت می‌پذیرد.
+
+![IMG-1681](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva2.webp>)
+
+![IMG-1682](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva3.webp>)
 
 ### داشبورد مرکز تماس
 `مسیر سند: Help/connections/Contact-center-status/call-center.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/connections/Contact-center-status/call-center.md)
@@ -5262,6 +5960,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در این صفحه امکان مشاهده خطوط داخلی تعریف شده در  نرم افزار وجود دارد. علاوه بر نمایش وضعیت خطوط (مشغول، آزاد و ...)، امکان شنود مکالمه داخلی کاربران و همچنین امکان نجوا (مکالمه با کاربر بدون مطلع شدن فردی که با آن در حال مکالمه است) نیز وجود دارد.
 
 > در صورت استفاده از سیستم تلفنی سانترال که برای ضبط مکالمه از دستگاه تلسا استفاده شده باشد امکان داشتن داشبورد مرکز تماس وجود دارد.(فقط امکان مشاهده وضعیت خطوط و شماره تماسی که با آن صحبت می شود) در صورت استفاده ازسیستم تلفنی ویپ داشبورد مرکز تماس، قابلیت شنود و نجوا رانیز دارد.
+
+![IMG-1678](</kb-assets/kb-images/Help/connections/Contact-center-status/CallCenter.webp>)
 
 در سمت راست لیست خطوط و سمت چپ لیست داخلی ها نمایش داده می شود، داخلی هایی که در حال مکالمه باشند از این قسمت مشخص است و می توانید جزئیاتی مانند نام کاربر متناظر و مدت زمان مکالمه را مشاهده کنید.
 
@@ -5272,8 +5972,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **شنود** قابلیتی است که در سیستم تلفنی ویپ قابل استفاده می باشد و با استفاده از آن می توان از طریق داشبورد مرکز تماس  روی یک داخلی، بدون اینکه داخلی مورد نظر متوجه شود، مکالمه آن را شنود کرد.به این صورت که در داشبورد مرکزتماس روی تماس مورد نظرگزینه شنود را کلیک کرده و بعد از اینکه داخلی که برای کاربرمان تنظیم کرده ایم نمایش داده شد، شنود را مجدد می زنیم و داخلیمان زنگ میخورد و روی آن SPY هم دیده میشود.در صورت جواب دادن عملیات شنود صورت میپذیرد.
 
+![IMG-1679](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva.webp>)
+
+![IMG-1680](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva1.webp>)
+
 **نجوا** قابلیتی است در سیستم تلفنی ویپ قابل استفاده می باشد، که با استفاده از آن می توان از طریق داشبورد مرکز تماس روی یک داخلی نجوا انجام داد و به یک کارشناس در حال صحبت با مشتری یا شخص دیگر بدون متوجه شدن شخص ثالث راهنمایی در هنگام مکالمه داد.
 به این صورت که روی تماس مورد نظر در داشبورد مرکزتماس روی گزینه ارسال پیغام به کارشناس کلیک کرده و بعد از اینکه داخلی که برای کاربرمان تنظیم کرده ایم نمایش داده شد نجوا را مجدد می زنیم و داخلیمان زنگ میخورد و روی آن Wisper هم دیده میشود.در صورت جواب دادن عملیات نجوا صورت میپذیرد.
+
+![IMG-1681](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva2.webp>)
+
+![IMG-1682](</kb-assets/kb-images/Help/connections/Contact-center-status/shonod-najva3.webp>)
 
 ### لیست ایمیل‌ها
 `مسیر سند: Help/connections/email-conect/email-connect.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/connections/email-conect/email-connect.md)
@@ -5286,6 +5994,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در جدول مشخص شده، اطلاعاتی مانند، آدرس مقصد و تاریخ ارسال به همراه وضعیت ارسال و موضوع قابل مشاهده می باشد
 
+![IMG-1692](</kb-assets/kb-images/Help/connections/email-conect/mail.webp>)
+
 در رابطه با لیست دریافت هم اطلاعات ارسال کننده ، خط دریافت پیامک ، تاریخ دریافت و محتوای پیام قابل مشاهده است .
 
  درصورت نیاز می توان از لیست بالا، خروجی اکسل دریافت نمود.
@@ -5296,6 +6006,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 از قسمت تنظیمات کلی بخش،ایمیل می‌توانید ایمیل‌های شخصی خود را برای ارسال و دریافت در نرم افزار تنظیم نمایید.
 
 در این قسمت می‌توانید صندوق ارسال و دریافت تمامی ‌ایمیل‌هایی که با کاربری شما به اشتراک گذاشته شده‌اند را مشاهده و مدیریت کنید و همچنین ایمیل جدید ارسال کنید.
+
+![IMG-1683](</kb-assets/kb-images/Help/connections/Mailbox/MyEmails1.webp>)
 
 **1**. همانطور که در تصویر مشاهده می‌کنید، ایمیل‌های تنظیم شده در سمت راست نمایش داده می‌شود. هر کدام از ایمیل‌ها شامل Inbox، Outbox، Sent است .
 
@@ -5327,13 +6039,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 **11**. برای ارسال یک ایمیل جدید می‌توانید از منوی بالای صفحه بر روی Compose کلیک نمایید.
 
+![IMG-1684](</kb-assets/kb-images/Help/connections/Mailbox/MyEmails2.webp>)
+
 در قسمت "از" می‌توانید از بین ایمیل‌های به اشتراک گذاشته شده برای شما، یک ایمیل را به عنوان فرستنده انتخاب نمایید. در قسمت "به" آدرس ایمیل گیرنده یا گیرندگان مورد نظر خود را وارد کنید. در صورت نیاز به الصاق فایل (Attach) می‌توانید از گزینه انتخاب فایل استفاده کنید. سپس موضوع و محتوای ایمیل خود را مشخص کرده و روی دکمه "ارسال کردن" کلیک کنید.
 
 ##### گزینه‌های کلیک راست روی ایمیل
 
   کلیک راست بر روی هر کدام از ایمیل‌ها شامل گزینه‌های Reply، Forward ، حذف و مشاهده مخاطب مرتبط(جهت نمایش پروفایل هویت مرتبط با این آدرس ایمیل) می‌شود. همچنین کلیک راست روی ایمیل‌های صندوق ارسال (Sent) گزینه جزئیات ارسال را نیز دارد که در آن می‌توانید اطلاعاتی مانند وضعیت ارسال و تحویل یا کاربر ارسال کننده ایمیل را مشاهده کنید.
 
+![IMG-1685](</kb-assets/kb-images/Help/connections/Mailbox/MyEmails3.webp>)
+
 #####  جزئیات ارسال:
+
+![IMG-1686](</kb-assets/kb-images/Help/connections/Mailbox/MyEmails4.webp>)
 
 ### صندوق پست الکترونیک
 `مسیر سند: Help/connections/Mailbox/2.6.0/mailbox.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/connections/Mailbox/2.6.0/mailbox.md)
@@ -5341,6 +6059,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 از قسمت تنظیمات کلی بخش،ایمیل می‌توانید ایمیل‌های شخصی خود را برای ارسال و دریافت در نرم افزار تنظیم نمایید.
 
 در این قسمت می‌توانید صندوق ارسال و دریافت تمامی ‌ایمیل‌هایی که با کاربری شما به اشتراک گذاشته شده‌اند را مشاهده و مدیریت کنید و همچنین ایمیل جدید ارسال کنید.
+
+![IMG-1687](</kb-assets/kb-images/Help/connections/Mailbox/2.6.0/MyEmails1.webp>)
 
 **1**. همانطور که در تصویر مشاهده می‌کنید، ایمیل‌های تنظیم شده در سمت راست نمایش داده می‌شود. هر کدام از ایمیل‌ها شامل Inbox،  Sent است .
 
@@ -5374,6 +6094,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### ارسال یک ایمیل جدید
 
+![IMG-1688](</kb-assets/kb-images/Help/connections/Mailbox/2.6.0/MyEmails2.webp>)
+
 **از:** در این قسمت می‌توانید از بین ایمیل‌های به اشتراک گذاشته شده برای شما، یک ایمیل را به عنوان فرستنده انتخاب نمایید.
 
 **اصل:** در این قسمت آدرس ایمیل گیرنده یا گیرندگان مورد نظر خود را وارد کنید.
@@ -5390,11 +6112,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
   کلیک راست بر روی هر کدام از ایمیل‌ها شامل گزینه‌های Reply، Forward ، حذف و مشاهده مخاطب مرتبط(جهت نمایش پروفایل هویت مرتبط با این آدرس ایمیل) می‌شود. همچنین کلیک راست روی ایمیل‌های صندوق ارسال (Sent) گزینه جزئیات ارسال را نیز دارد که در آن می‌توانید اطلاعاتی مانند وضعیت ارسال و تحویل یا کاربر ارسال کننده ایمیل را مشاهده کنید.
 
+![IMG-1689](</kb-assets/kb-images/Help/connections/Mailbox/2.6.0/MyEmails3.webp>)
+
 #####  جزئیات ارسال:
+
+![IMG-1690](</kb-assets/kb-images/Help/connections/Mailbox/2.6.0/MyEmails4.webp>)
 
 ## مستندات رسمی پیام‌گستر — Help-home
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### دسترسی به باشگاه مشتریان
 `مسیر سند: Help/home/ClubUserAccount.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/ClubUserAccount.md)
@@ -5402,6 +6128,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 این صفحه داشبورد مرتبط با کاربری شما است. مشتریان در باشگاه مشتریان این صفحه را به عنوان تنها دسترسی خود به نرم افزار خواهند داشت.
 
 > **نکته:** توضیحات ارائه شده در این قسمت به صورت مختصر می باشد، برای توضیحات تکمیلی و اطلاع از جزئیات هر بخش از باشگاه مشتریان به[ داشبورد مشتریان ](https://github.com/1stco/PayamGostarDocs/tree/master/Help/Supplementary-modules/customer-club/Customer-dashboard/Customer-dashboard.md)مراجعه کنید.
+
+![IMG-1695: صفحه پروفایل من در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/MyProfile.webp>)
 
 **1**. تصویر و نام کاربری شما در این قسمت نمایش داده می شود.
 
@@ -5434,6 +6162,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### پیشخوان و انجام اقدامات حین فرآیند توسط مشتری{#ClubCartable}
 از طریق پیشخوان باشگاه مشتریان می‌توانید با مشتریان خود تعامل داشته باشید. یعنی می‌توانید در فرآیندهایی که نیاز است بخشی از اقدامات توسط مشتریان شما انجام شود، تنظیماتی لحاظ کنید که فرآیند را به کارتابل کاربری مشتری خود ارجاع دهید.
 
+![IMG-1696: نمایش کارتابل کاربر در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/User-Cartable-in-Club2.7.5.3.webp>)
+
 > **نکته**
 
 > لیستی که کاربر باشگاه مشتریان در بخش پیشخوان مشاهده می‌کند، فرآیندهایی است که مشتری مسئول مرحله‌ای از فرآیند است. بنابراین اگر مجوز «**مشتریان اجازه مشاهده این نوع را دارند**» را در تنظیمات شخصی‌سازی **فعال نکنید،** باز هم مشتری آن را در این بخش مشاهده می‌کند. بنابراین بخش پیشخوان از دسترسی‌ مشاهده در شخصی‌سازی آیتم مستثنا است.
@@ -5441,12 +6171,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### ثبت درخواست پشتیبانی و مشاهده لیست درخواست‌های کاربر
 درصورتی که ماژول درخواست‌های پشتیبانی را تهیه کرده باشید، می‌توانید دسترسی‌های **ایجاد** و **مشاهده** را برای درخواست پشتیبانی فعال کنید که مشتری شما از طریق باشگاه مشتریان بتواند درخواست پشتیبانی ثبت کرده و لیست درخواست‌های مرتبط با پروفایل خود را مشاهده نماید. این درخواست‌ها ممکن است توسط خود مشتری یا توسط شما در نرم‌افزار پیام‌گستر  (کاربران سیستم) ثبت شده باشند.
 
+![IMG-1697: لیست درخواست‌های پشتیبانی در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/Ticket-in-club2.7.5.3.webp>)
+
 ##### مشاهده لیست فاکتورهای فروش
 در این بخش کاربران فاکتورهایی که دسترسی **مشاهده** در تنظیمات شخصی‌سازی آن فعال شده است، را مشاهده می‌نمایند. این فاکتورهای فروش ممکن است توسط خود مشتری یا توسط شما در نرم‌افزار پیام‌گستر (کاربران سیستم) ثبت شده باشند.
 
 > **نکته**
 
 > فاکتورهای فروش **تایید شده** در این جدول قابل نمایش هستند.
+
+![IMG-1698: لیست فاکتورهای فروش در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/Sales-Invoice2.7.5.3.webp>)
 
 1. با کلیک روی گزینه **مشاهده** امکان دانلود قالب چاپ
 فاکتور فروش برای کاربر باشگاه مشتریان فراهم می‌شود.
@@ -5459,6 +6193,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > پیش‌فاکتورهای فروش **تایید شده** در این جدول قابل نمایش هستند.
 
+![IMG-1699: لیست پیش‌فاکتورهای فروش در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/Sales-Proforma-in-club2.7.5.3.webp>)
+
 1. با کلیک روی گزینه **مشاهده** امکان دانلود قالب چاپ پیش‌
 فاکتور فروش برای کاربر باشگاه مشتریان فراهم می‌شود.
 2. برای دانلود فایل یک Popup در مرورگر نمایش داده می‌شود که باید اجازه دانلود فایل را به سیستم داده تا فایل برای شما قابل مشاهده شود.
@@ -5469,6 +6205,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > **نکته**
 
 > قراردادهای **تایید شده** در این جدول قابل نمایش هستند.
+
+![IMG-1700: لیست قراردادها در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/Contract-in-club2.7.5.3.webp>)
 
 1. با کلیک روی گزینه **مشاهده** امکان دانلود قالب چاپ پیش‌
 فاکتور فروش برای کاربر باشگاه مشتریان فراهم می‌شود.
@@ -5481,6 +6219,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - **انتقال از طریق کارت خودپرداز**: اگر کاربر پرداخت وجهی از طریق خود پرداز انجام داده باشد، از این قسمت می‌‌تواند اطلاعات واریز وجه خود را ثبت نموده که یک سابقه دریافت در پرونده‌ی او در پیام‌گستر ثبت خواهد شد.
 
 کاربر باشگاه مشتریان از مسیر **مالی و فروش** > **پرداخت‌ها** لیست تمامی آیتم‌های دریافتی که در سابقه‌ی او ثبت شده باشد را مشاده می‌کند. لازم به ذکر است که باید مجوز «**مشتریان اجازه مشاهده این نوع را دارند**» برای آیتم فعال شده باشد. این دریافت ها ممکن است تایید شده، رد شده یا در انتظار باشند. این دریافت ممکن است توسط خود مشتری یا توسط کاربران سیستم ثبت شده باشند.
+
+![IMG-1701: لیست سوابق دریافت مشتری در باشگاه مشتریان](</kb-assets/kb-images/Help/home/Images/Payement-in-club2.7.5.3.webp>)
 
 > **نکته**
 
@@ -5510,6 +6250,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در هر بخش از نرم افزار که باشید، با کلیک بر آیکون «خانه» یا لوگوی پیام گستر به این صفحه منتقل می شوید. می توانید با استفاده از ویجت (Widget) های مختلفی که در این صفحه اضافه می شوند، داشبورد دلخواه خود را ایجاد کنید.
 
+![IMG-1702: نمایی از صفحه داشبورد کاربر](</kb-assets/kb-images/Help/home/Images/home.webp>)
+
 نوار ابزار نرم افزار، در این صفحه همواره نمایش داده می شود و شما می توانید به تنظیمات و راهنما و سایر موارد به راحتی دسترسی داشته باشید.
 
 **1**. در این قسمت تاریخ و ساعت نمایش داده می شود. (این ساعت بر اساس ساعت سرور پیام گستر تعیین می گردد.)
@@ -5519,6 +6261,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **3**. با استفاده از این دکمه می توانید تنظیمات ویجت مورد نظر را انجام دهید یا در صورت نیاز آن را حذف کنید.
 
 > نکته: رنگ و عنوان هر ویجت را می توانید به صورت دلخواه تعیین کنید.
+
+![IMG-1703: تنظیمات ویجت](</kb-assets/kb-images/Help/home/Images/Widget-setting.webp>)
 
 **4**. ویجت انتخاب شده را کوچک (Minimize) می کند.
 
@@ -5543,6 +6287,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 سپس با استفاده از **نام کاربری** (A) و **رمز عبور** (B) به حساب کاربری پیام‌گستر خود وارد شوید.
 
+![IMG-1704: صفحه ورود به نرم‌افزار پیام‌گستر](</kb-assets/kb-images/Help/home/Images/Login-view-2.8.6.webp>)
+
 > **نکته**
 
 > به صورت پیش‌فرض، نام کاربری مدیر سیستم **admin** و رمز عبور آن **dmin@dmin@** تعیین شده‌است که پس از ورود می‌توانید اقدام به تغییر آن نمایید. نام کاربری و رمز عبور سایر کاربران به هنگام تعریف کاربری‌هایشان توسط مدیر سیستم تعیین شده و از طرف ایشان به کاربران اعلام می‌شود.
@@ -5550,8 +6296,12 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### تغییر رمز عبور پس از اولین ورود
 پس از اولین ورود هر کاربر، درخواست تغییر رمز عبور برای او نمایش داده‌می‌شود. با مشاهده تصویر زیر باید رمز عبوری که با آن وارد شده‌اید را درج کنید و سپس رمز عبور مورد نظر خودتان را وارد و تکرار نمایید. سیستم شما را مجدد به صفحه ورود بازمی‌گرداند. از این پس می‌توانید با نام کاربری و رمز عبوری که تعریف کرده‌اید وارد حساب کاربری‌تان بشوید.
 
+![IMG-1705: صفحه تغییر رمز عبور کاربران](</kb-assets/kb-images/Help/home/Images/change-password-2.8.6.webp>)
+
 ##### فراموشی رمز عبور{#OTP}
 چنانچه رمز عبور خود را فراموش کردید، بر روی لینک مربوطه (C) کلیک کنید و در صفحه‌ی جدید، نام کاربری خود را وارد نمایید. پس از هدایت به صفحه زیر، یک کد یکبار مصرف (OTP) برای شما ارسال می‌شود. بنابر تنظیمات اعمال شده در نرم‌افزار، این پیام ممکن است از طریق پیامک و یا ایمیل برای شما ارسال شود. کد OTP را وارد کرده و رمز عبور جدید خود را درج و تکرار نمایید.
+
+![IMG-1706: فراموشی رمز عبور](</kb-assets/kb-images/Help/home/Images/OTP-code-2.8.6.webp>)
 
 اگر تغییر رمز شما با موفقیت انجام شود، مجدد به صفحه اول ورود منتقل می‌شوید و می‌توانید با رمز عبور جدیدتان وارد حساب کاربری خود شوید.
 
@@ -5562,6 +6312,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 سپس با استفاده از **نام کاربری** (A) و **پسورد** (B) به پنل کاربری پیام‌گستر خود وارد شوید.
 
+![IMG-1707: صفحه ورود به نرم‌افزار پیام‌گستر](</kb-assets/kb-images/Help/home/Images/Login-view.webp>)
+
 > **نکته**
 
 > به صورت پیش‌فرض، نام کاربری مدیر سیستم **admin** و رمز عبور آن **dmin@** تعیین شده است که پس از ورود می‌توانید اقدام به تغییر آن نمایید.
@@ -5570,6 +6322,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### تغییر رمز عبور پس از اولین ورود
 پس از اولین ورود هر کاربر، درخواست تغییر رمز عبور برای او نمایش داده می‌شود. با مشاهده تصویر زیر باید رمز عبوری که با آن وارد شده‌اید را درج کنید و سپس رمز عبور مورد نظر خودتان را وارد و تکرار نمایید. سیستم شما را مجدد به صفحه ورود بازمی‌گرداند. از این پس می‌توانید با نام کاربری و رمز عبوری که تعریف کرده‌اید وارد حساب کاربری‌تان بشوید.
+
+![IMG-1708: صفحه تغییر رمز عبور کاربران](</kb-assets/kb-images/Help/home/Images/change-password.webp>)
 
 > **نکته**
 
@@ -5594,6 +6348,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 تصویر زیر نمونه‌ای از داشبوردهای ایجاد شده توسط کاربر است.
 
+![IMG-1709: نمونه‌ای از چند داشبورد](</kb-assets/kb-images/Help/home/Images/Multi-dashboard-sample.webp>)
+
 > **نکته**
 
 > داشبورد اصلی، صفحه‌ای است که پس از ورود به نرم‌افزار به صورت پیش‌فرض نمایان می‌شود. می‌توانید به دلخواه خود آن را تنظیم کنید و حتی آن را از لیست داشبوردها حذف نمایید.
@@ -5603,13 +6359,19 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
  1. در منوی بالای نرم‌افزار، سمت راست روی علامت **+ سبز رنگ** کلیک کنید.
  2. نام داشبورد را وارد کنید. ما در این مثال داشبوردی از گزارش‌های پرکاربرد فروش، برای نظارت بر عملکرد تیم فروش می‌خواهیم ایجاد کنیم.
 
+![IMG-1710: ایجاد داشبورد جدید](</kb-assets/kb-images/Help/home/Images/create-dashboard.webp>)
+
  3. ویجت‌های مورد نیاز خود را از قسمت **اضافه کردن ویجت**، به صفحه اضافه کنید. برای آشنایی بیشتر با انواع ویجت‌ها، مقاله‌ی [**تعریف ویجت**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/WhatIsWidget-2.7.0.md) را مطالعه نمایید.
+
+![IMG-1711: نمونه‌ای از داشبورد کاربر](</kb-assets/kb-images/Help/home/Images/user-dashboard-sample.webp>)
 
 ###### ویرایش داشبورد کاری {#EditeDashboard}
 می‌توانید ویجت‌هایی که به صفحه داشبورد اضافه کرده‌اید را حذف و ویجت جدید را به آن اضافه نمایید. لازم به ذکر است در حال حاضر تغییر نام داشبورد امکان پذیر نمی‌باشد.
 
 ###### حذف داشبوردهای اضافی {#DeleteDashboard}
 از بین داشبوردهای ایجاد شده هر کدام که مورد استفاده نیستند را از لیست داشبوردها انتخاب کرده و با کلیک بر آیکن **سطل زباله** حذف نمایید.
+
+![IMG-1712: حذف داشبورد](</kb-assets/kb-images/Help/home/Images/Delete-dashboard.webp>)
 
 ### تنظیمات من
 `مسیر سند: Help/home/MySetting.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/MySetting.md)
@@ -5618,9 +6380,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  **1. کارتابل من:** تب های نمایش داده شده در[ کارتابل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Cardboard.md) خود را در این قسمت می توانید تعیین کنید.
 
+![IMG-1713: معرفی صفحه تنظظیمات من تنظیمات حساب کاربر](</kb-assets/kb-images/Help/home/Images/User-account-setting-introduction.webp>)
+
  **2. آخرین فعالیت:** سوابقی که در ویجت آخرین فعالیت نمایش داده می شود را می توانید تعیین کنید.
 
+![IMG-1714: تنظیمات آخرین فعالیت](</kb-assets/kb-images/Help/home/Images/Last-activity-setting2.5.6.webp>)
+
 **3. یادآوری:** می توانید تعیین کنید که هنگام دریافت کار جدیدی (وظیفه، فرایند و ...) در کارتابل، یک اعلان(notification) نشان داده شود یا خیر، و اینکه این اعلان با هشدار صوتی همراه باشد یا خیر
+
+![IMG-1715: تنظیمات پیام سیستمی حساب کاربر](</kb-assets/kb-images/Help/home/Images/Notification-setting2.5.6.webp>)
 
 **5. تماس‌ها:** می توانید تعیین کنید که هنگام دریافت یک تماس روی داخلی خود یکی از سه حالت زیر اتفاق بیافتد.
 
@@ -5636,9 +6404,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 تعداد تماس‌های نمایش داده شده در نوار تلفن را هم می‌توانید تعیین کنید
 
+![IMG-1716: صفحه تنظیمات تماس در تنظیمات من](</kb-assets/kb-images/Help/home/Images/User-call-setting2.5.6.webp>)
+
 **6. زبان سیستم:** از بین زبان های مجاز در نرم‌افزار میتوانید زبان دلخواه را انتخاب کنید.
 
 تعریف  زبان  برای سیستم از قسمت مدیریت زبان ها انجام می شود .
+
+![IMG-1717: انتخاب زبان سیستم در تنظیمات من](</kb-assets/kb-images/Help/home/Images/Language-setting-in-user-account.webp>)
 
 **7. لیست تقویم‌ها:** لیست تقویم‌هایی که به آن دسترسی دارید، در این قسمت به شما نمایش داده می‌شود. از این طریق می‌توانید با استفاده از لینک هر تقویم، آن را به برنامه‌ها و وبسایت‌هایی که از آن پشتیبانی می‌کنند، اضافه کنید. به عنوان مثال می‌توانید تقویم مورد نظر را به تقویم گوگل خود اضافه متصل کرده و جلسات تنظیم شده را در آن مشاهده نمایید. قرار ملاقات‌های تنظیم شده برای شما در تقویم مورد نظر، در تقویم گوگل شما نمایش داده خواهد شد.
 
@@ -5646,25 +6418,41 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ابتدا وارد بخش «تنظیمات من» شوید (از فلش سمت چپ بالای صفحه‌ی خانه می‌توانید به آن دسترسی داشته باشید) و لینک تقویم پیام‌گستر را کپی کنید.
 
+![IMG-1718: لیست تقویم‌های کاربر](</kb-assets/kb-images/Help/home/Images/User-calender-list.webp>)
+
 سپس وارد تقویم گوگل (Google Calendar) شوید.
+
+![IMG-1719: ارتباط تقویم‌های کاربر با Google calender](</kb-assets/kb-images/Help/home/Images/Connection-with-Google-Calendar.webp>)
 
 بر روی Other Calendars کلیک کنید و گزینه Add by URL را انتخاب کنید.
 
+![IMG-1720: انتخاب تقویم در Google calender](</kb-assets/kb-images/Help/home/Images/Select-calenser-in-Google-calender.webp>)
+
 لینک تقویم‌هایی که در پیام‌گستر دارید را یک به یک از این طریق اضافه کنید.
+
+![IMG-1721: اضافه کردن لینک تقویم کاربر در Google calender](</kb-assets/kb-images/Help/home/Images/Add-URL-of-calender-in-Google-calender.webp>)
 
 ### نمایش پیام‌های سیستمی
 `مسیر سند: Help/home/NotificationManagement2.5.6.md` · `نسخه سند: 2.5.6` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/NotificationManagement2.5.6.md)
 
+![IMG-1722: آیکن پیام‌های سیستمی](</kb-assets/kb-images/Help/home/Images/Notifications2.5.6.webp>)
+
 **1**.  هر کاربر هنگام دریافت پیام های سیستمی، به تعداد پیام های خوانده نشده عددی را در کنار آیکون زنگوله در صفحه بالای نرم افزار مشاهده می نماید. با کلیک بروی آیکون مورد نظر صفحه ای نمایش داده می شود و می توانید متن کامل پیام ها را مشاهده نمایید .
 
 **2. حذف کردن:** می توانید تمامی پیام های سیستمی انتخاب شده را حذف کنید.
+
+![IMG-1723: حذف پیام‌های سیستمی](</kb-assets/kb-images/Help/home/Images/Delete-notifications2.5.6.webp>)
 
 ### یادآوری‌های سیستم من
 `مسیر سند: Help/home/NotificationManagement2.6.0.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/NotificationManagement2.6.0.md)
 
+![IMG-1724: نمایش تعداد پیام‌های سیستمی](</kb-assets/kb-images/Help/home/Images/Notification-icon2.6.0.webp>)
+
 **1**.  هر کاربر هنگام دریافت پیام های سیستمی، به تعداد پیام های خوانده نشده عددی را در کنار آیکون زنگوله در صفحه بالای نرم افزار مشاهده می نماید. با کلیک بروی آیکون مورد نظر صفحه ای نمایش داده می شود و می توانید متن کامل پیام ها را مشاهده نمایید .
 
 **2. حذف کردن:** می توانید تمامی پیام های سیستمی انتخاب شده را حذف کنید.
+
+![IMG-1725: حذف پیام‌های سیستمی](</kb-assets/kb-images/Help/home/Images/Delete-notifications2.6.0.webp>)
 
 ### آشنایی با صفحه خانه
 `مسیر سند: Help/home/StandardHomePage_2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/StandardHomePage_2.7.5.md)
@@ -5676,6 +6464,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > تفاوت صفحه اولیه برای کاربران مختلف از دو دلیل ناشی می‌شود: ۱) میزان دسترسی کاربران با یکدیگر متفاوت است. ۲) صفحه اولیه و داشبوردها قابلیت شخصی‌سازی دارند. این بدین معناست که چیدمان صفحه و داشبوردها می‌تواند بر اساس نیاز و سلیقه کاربران تنظیم شود.
 
 به صورت عمومی صفحه خانه شامل موارد زیر می‌باشد:
+
+![IMG-1726](</kb-assets/kb-images/Help/home/Images/standard-home-page-2.7.5.webp>)
 
 1. **لوگوی نرم‌افزار**
 
@@ -5721,6 +6511,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** در نظر داشته باشید که اگر جانشین شما، آیتمی را ذخیره، حذف یا ویرایش کند، آن تغییر به نام شما ثبت خواهد شد.
 
+![IMG-1727: آموزش انتخاب کاربر جانشین](</kb-assets/kb-images/Help/home/Images/Select-surrogate-user2.5.6.webp>)
+
 **1. لیست جانشین من:** در این قسمت می‌توانید لیست کاربرانی که به عنوان جانشین خود تعیین کرده‌اید را مشاهده، ویرایش و حذف کنید.
 
 **2. لیست کاربرانی که من را به عنوان جانشین تعیین نموده‌اند:** در این قسمت می‌توانید مشاهده کنید که تا کنون چه کاربرانی در چه بازه‌های زمانی شما را به عنوان جانشین خود تعیین کرده‌اند.
@@ -5729,7 +6521,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 کاربری که بعنوان جانشین انتخاب شده است هنگام ورود به نرم افزار  تصویر زیر را مشاهده خواهد کرد و کاربر می تواند انتخاب کند که با کاربری خودش وارد شود یا با کاربری که دسترسی جانشین بودن آن را دارد.
 
+![IMG-1728: نمای ورد هنگام جانشین بودن](</kb-assets/kb-images/Help/home/Images/View-of-surrogate-user2.5.6.webp>)
+
 همچنین در تمامی قسمت های نرم افزار ، هشدار اینکه به عنوان جانشین شخص دیگری در نرم افزار وارد شده اید نمایش داده خواهد شد.
+
+![IMG-1729: پیامی که کاربر جانشین در صفحه می‌بیند](</kb-assets/kb-images/Help/home/Images/Message-for-surrogate-user2.5.6.webp>)
 
 ### تنظیمات تماس کاربر
 `مسیر سند: Help/home/UserCallSetting.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/UserCallSetting.md)
@@ -5748,6 +6544,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 تعداد تماس های نمایش داده شده در  نوار تلفن   را هم می توانید تعیین کنید
 
+![IMG-1716: تنظیمات تماس در تنظیمات من](</kb-assets/kb-images/Help/home/Images/User-call-setting2.5.6.webp>)
+
 ### انتخاب زبان نرم افزار توسط کاربر
 `مسیر سند: Help/home/UserLanguageSetting.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/UserLanguageSetting.md)
 
@@ -5755,12 +6553,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 تعریف  زبان  برای سیستم از قسمت مدیریت زبان ها انجام می شود .
 
+![IMG-1717: صفحه تنظیمات زبان حساب کاربر](</kb-assets/kb-images/Help/home/Images/Language-setting-in-user-account.webp>)
+
 ### تغییر رمز عبور
 `مسیر سند: Help/home/UserPasswordChange.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/UserPasswordChange.md)
 
 هر کاربر پس از ورود به سیستم می تواند رمز عبور خود را از این قسمت تغییر دهد. ابتدا رمز عبور فعلی خود را وارد کنید. سپس رمز عبور دلخواه را در کادرهای "رمز عبور جدید" و "تکرار رمز عبور جدید" وارد کنید.
 
 در نظر داشته باشید که این رمز عبور ممکن است حالت پیچیده داشته باشد، برای تعیین حالت پیچیده رمز عبور با دسترسی مدیر سیستم و یا کاربر دارای مجوز مدیریت تنظیمات به قسمت امنیتی مراجعه کنید. رمز عبور پیچیده باید شامل یک حرف بزرگ، یک حرف کوچک  و اعداد باشد.
+
+![IMG-1708: صفحه تغییر رمز عبور توسط کاربر](</kb-assets/kb-images/Help/home/Images/change-password.webp>)
 
 ### تنظیمات صفحه خانه و پروفایل من
 `مسیر سند: Help/home/homePage2.6.0.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/homePage2.6.0.md)
@@ -5781,6 +6583,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 4- برای دسترسی سریع به ابزارهای مختلف نرم‌افزار از میان‌برها یا **ویجت‌ها** بر روی صفحه خانه حساب کاربری خود استفاده نمایید و صفحه خانه نرم‌افزار خود را شخصی‌سازی کنید.
 .
 
+![IMG-1730: تصویر صفحه خانه](</kb-assets/kb-images/Help/home/Images/Homepage2.6.0.webp>)
+
 5- امکان دسترسی سریع جهت مشاهده لیست تماس‌های دریافتی و یا شماره‌گیری تماس، مشاهده لیست پیگیری و یادآوری‌هایی که برای خود ثبت کرده‌اید در **نوار دسترسی سریع** وجود دارد.
 
 ### برقراری تماس و مشاهده لیست تماس‌ها در نوار دسترسی
@@ -5788,15 +6592,21 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  قسمت تلفن در نوار دسترسی این امکان را به شما می‌دهد که در هر صفحه/بخش از نرم‌افزار بتوانید با شماره مورد نظر تماس بگیرید، تماس‌‌های جاری را مشاهده کنید و به لیست تماس‌های اخیر خود دسترسی داشته باشید.
 
+![IMG-1733: تب تلفن در نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Phone/Images/phone-view.webp>)
+
  امکانات این بخش به شرح ذیل می‌باشد:
 
 1. **سابقه تماس**
 
 این بخش ۱۰ تماس‌ دریافتی خاتمه‌یافته اخیر را نمایش می‌دهد. شما می‌توانید تعداد تماس‌های نمایش داده شده در این بخش را از طریق [**تنظیمات من**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/my-setting/my-setting.md) تغییر دهید. توجه داشته باشید تماس‌های ثبت شده در این بخش پس از بروزرسانی صفحه پاک خواهد شد.
 
+![IMG-1734: نمایش سابقه تماس‌ها در نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Phone/Images/call-history.webp>)
+
  2. **تماس‌های جاری**
 
 این بخش تماس‌هایی که در حال حاضر روی خط برقرار هستند را نشان می‌دهد.
+
+![IMG-1735: نمایش تماس‌های جاری در نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Phone/Images/current-calls.webp>)
 
 به هنگام دریافت تماس، با توجه به جدید بود و یا نبودن شماره تماس‌گیرنده حالت‌های زیر رخ می‌دهد:
 
@@ -5813,6 +6623,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
   با استفاده از شماره‌گیر می‌توانید مستقیما از نرم‌افزار با شماره مورد نظر خود تماس بگیرید. داخلی شما در کادر سمت راست تصویر قابل مشاهده می‌باشد.
 
+![IMG-1736: شماره‌گیری از طریق نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Phone/Images/phone-keypad.webp>)
+
 > **نکته**
 
 > استفاده از این قابلیت مستلزم تخصیص داخلی به کاربر و همچنین اعطای مجوز برقراری تماس به ایشان است.
@@ -5823,12 +6635,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در هر بخش/صفحه‌ای از نرم‌افزار با کلیک روی گزینه راهنما (A)، توضیح آیتم‌های موجود در صفحه به صورت تور نمایش داده می‌شود. هر تور شامل توضیح کلید‌های موجود در آن صفحه بوده و به ترتیب مراحلی که باید طی کنید بیان شده است. برای مشاهده توضیحات هر گام از کلید‌های قبل و بعد (B) استفاده کنید.
 
+![IMG-1732: تب راهنما در نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Help/help-in-access-bar.webp>)
+
 توجه داشته باشید که توضیحات ارائه شده در این بخش به صورت خلاصه نوشته شده‌ و برای دسترسی به توضیحات کامل باید به [**راهنمای پیام‌گستر**](https://help.payamgostar.com/docs) مراجعه نمایید.
 
 ### مشاهده لیست پیگیری‌ها در نوار دسترسی
 `مسیر سند: Help/home/Storytelling/Followup/followUpInAccessBar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/Storytelling/Followup/followUpInAccessBar.md)
 
 در هر بخش/صفحه‌ای از نرم‌افزار با کلیک روی گزینه پیگیری می‌توانید لیست پیگری‌ها و همچنین وظایف خود را به تفکیک زمان مقرر آن ببینید. این بخش در واقع امکان دسترسی به [ویجت پیگیری‌ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md) را در همه‌ی صفحه‌های نرم‌افزار فراهم می‌آورد.
+
+![IMG-1731: تب پیگیری در نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Followup/follow-up-in-access-bar.webp>)
 
 برای آگاهی از [**نحوه ثبت پیگیری**](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md) می‌توانید از مقاله موجود در بخش مربوطه استفاده نمایید.
 
@@ -5841,6 +6657,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  با انتخاب این گزینه در هر صفحه از نرم‌افزار، کادر یادآوری باز می‌شود (در صورت عدم شناخت کافی از قابلیت یادآوری ابتدا مقاله مربوط به [ثبت پیگیری و یادآوری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md) را مطالعه کنید).
 
+![IMG-1737: مشاهده یادآوری‌ها در نوار دسترسی](</kb-assets/kb-images/Help/home/Storytelling/Reminder/reminder-in-accessbar.webp>)
+
  در این کادر می‌توانید تمامی یادآوری‌هایی که به تعویق انداخته‌اید و یا بسته‌اید را مشاهده نمایید. به عبارت دیگر، تمامی یادآوری‌هایی که زمان آن‌ها فرارسیده و شما اتمام آن را اعلام نکرده باشید در این بخش نمایش داده می‌شود. به تعویق انداختن و یا نادیده گرفتن هر یک از یادآوری‌های ثبت شده، از همین بخش امکان‌پذیر می‌باشد.
 
 ### ویجت چارت
@@ -5848,7 +6666,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با استفاده از این ویجت، کارشناسان فروش می‌توانند چارت [فرصت فروش‌های باز](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Opportunities/Opportunities.md) که باید پیگیری کنند را به تفکیک مرحله‌ی آن‌ها مشاهده کنند و یا [لیست سرنخ‌](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/My-clues/My-clues.md)هایی که نیاز به پیگیری دارند را مشاهده کنند.
 
+![IMG-1738: فرصت‌های باز من در ویجت چارت](</kb-assets/kb-images/Help/home/widget/Images/My-on-Progress-Opportunities.webp>)
+
 برای مثال لیست فرصت‌های باز من به شکل زیر نمایش داده می‌شود. توجه داشته باشید که این فرصت‌ها باید پیگیری کننده (فیلد تخصیص داده شده به) با کاربری که از این ویجت استفاده می‌کند پر شده باشند تا در این چارت  برای کاربر نمایش داده شوند.
+
+![IMG-1739: نمودار قیف فروش در ویجت چارت](</kb-assets/kb-images/Help/home/widget/Images/Funnel-Chart.webp>)
 
 > نکته: فرصت‌های باز به فرصت‌هایی گفته می‌شود که به شما تخصیص داده شده و  اما  فیلد علت موفقیت و علت شکست آن ها انتخاب نشده است .
 
@@ -5872,7 +6694,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### انتخاب نوع گزارش در ویجت گزارش
 برای افزودن ویجت گزارش مورد نظر به داشبورد، مشابه آنچه در توضیحات کلی ویجت‌ها مطرح شد، از کلید اضافه کردن ویجت در پایین صفحه استفاده کنید. پس از انتخاب ویجت گزارش می‌توانید از بین لیست گزارش‌های موجود، نوع گزارش ویجت را مشخص کنید.
 
+![IMG-1740: انتخاب نوع گزارش در ویجت گزارش‌ها](</kb-assets/kb-images/Help/home/widget/Images/Add-report-widget.webp>)
+
 گزارش‌ها را در راستای هدفی که از داشبورد خود دارید، انتخاب کنید. مثلا برای ساخت داشبورد عملکرد تیم فروش، از بین گزارش‌های عملکردی فروش، در گزارش‌های پرکاربرد استفاده کنید. در تصویر زیر می‌توانید نمونه‌ای از یک داشبورد فروش را مشاهده نمایید.
+
+![IMG-1741: نمونه‌ای از ساخت داشبورد با ویجت گزارش](</kb-assets/kb-images/Help/home/widget/Images/user-dashboard-sample.webp>)
 
  گفتنی‌ است شما هیچ محدودت تعدادی برای اضافه کردن ویجت گزارش به صفحه داشبورد ندارید.
 
@@ -5921,13 +6747,21 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 {#AddNewWidget}
 برای اضافه کردن ویجت مورد نظر کافی است بر روی **«اضافه کردن ویجت»**، که در پایین صفحه داشبورد قابل مشاهده است، کلیک کنید.
 
+![IMG-1742: اضافه کردن ویجت](</kb-assets/kb-images/Help/home/widget/Images/Widget-identification2.7.0.webp>)
+
 از بین موارد موجود در صفحه جدید، ویجت مورد نظر خود را جهت افزودن به صفحه انتخاب نمایید.
+
+![IMG-1743: انتخاب ویجت جدید](</kb-assets/kb-images/Help/home/widget/Images/Add-a-widget.webp>)
 
 ##### ویرایش تنظیمات ویجت
 {#WidgetSetting}
 ویجت‌ها با داشتن قابلیت شخصی‌سازی، این امکان را به شما می‌دهند که اندازه و جایگاهشان در هر داشبورد را بر حسب نیاز خود تغییر دهید.
 
+![IMG-1744: تنظیمات ویجت‌ها](</kb-assets/kb-images/Help/home/widget/Images/Widget-setting-2.7.0.webp>)
+
 علاوه بر آن با استفاده از سه نقطه بالای هر ویجت (قابل مشاده در قسمت سمت چپ نوار بالای هر ویجت) و انتخاب **گزینه چرخ‌دنده** (آیکون A در تصویر) می توانید تنظیمات  آن را تغییر دهید. شما می‌توانید رنگ و عنوان هر ویجت را به دلخواه خود تعیین نمایید. در برخی از ویجت‌ها سایر تنظیمات نیز قابل تغییر می‌باشد که در توضیحات هر ویجت به آن‌ها اشاره شده است.
+
+![IMG-1745: ویرایش ویجت با تنظیمات دلخواه کاربر](</kb-assets/kb-images/Help/home/widget/Images/Widget-Customization.webp>)
 
 ##### حذف ویجت
 {#DeleteWidget}
@@ -5938,7 +6772,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ویجت‌ها جهت دسترسی سریع‌تر به برخی از قسمت‌های نرم افزار می‌توانند مورد استفاده قرار گیرند، همچنین برخی از ویجت‌ها مانند اعلان عمومی و قاب وب امکاناتی در اختیارتان قرار می‌دهند که صرفاً از طریق ویجت قابل انجام است.  هر کاربر بنا بر نیاز می‌تواند ویجت‌های مورد نظر خود را به صفحه اصلی کاربری خود در نرم افزار اضافه نماید.
 
+![IMG-1746: صفحه داشبورد کاربر](</kb-assets/kb-images/Help/home/widget/Images/Widget-identification.webp>)
+
 با استفاده سه نقطه بالای ویجت می توانید تنظیمات ویجت مورد نظر را انجام دهید یا در صورت نیاز آن را حذف کنید (1). شما می‌توانید رنگ و عنوان هر ویجت را به دلخواه خود تعیین کنید.
+
+![IMG-1745: ویرایش ویجت با تنظیمات دلخواه کاربر](</kb-assets/kb-images/Help/home/widget/Images/Widget-Customization.webp>)
 
 ویجت‌های مختلف را می‌توانید به صفحه خانه اضافه کنید (2).
 
@@ -5966,6 +6804,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با انتخاب این ویجت شما یک تقویم شمسی را که تنها ایام هفته و تاریخ را نمایش می‌دهد، روی داشبورد حساب کاربری خود اضافه خواهید کرد. لازم به ذکر است که مناسبت‌های تعریف شده در سیستم با این تقویم ارتباطی ندارد.
 
+![IMG-1749: ویجت تقویم](</kb-assets/kb-images/Help/home/widget/Calendar/Calendar-widget.webp>)
+
 > **نکته**
 
 >توجه داشته باشید که به جز روزهای جمعه، سایر تعطیلات در ویجت تقویم نمایش داده نمی‌شود. مناسبت‌‌های تعریف شده در سیستم در بخش «[مدیریت اعیاد و مناسبت‌ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Holiday-management-and-occasions/Holiday-management-and-occasions.md) » نیز صرفاً در تقویم کاری قابل رویت بوده و در ویجت تقویم‌ها تغییری ایجاد نمی‌کند.
@@ -5974,6 +6814,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Help/home/widget/QuickAccess/QuickAccessWidget.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/QuickAccess/QuickAccessWidget.md)
 
 با استفاده از این ویجت می‌توانید به راحتی اقدام به ثبت هویت و انواع آیتم‌های جدید کنید. برای ثبت هویت و آیتم‌ها/سوابق مرتبط با آن‌ها مسیرهای مختلفی در نرم‌افزار وجود دارد. این ویجت کوتاه‌ترین مسیر برای ثبت انواع آیتم به شمار می‌آید.
+
+![IMG-1790: ویجت دسترسی سریع](</kb-assets/kb-images/Help/home/widget/QuickAccess/Quick-access.webp>)
 
 > **نکته**
 
@@ -5989,6 +6831,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در ویجت دسترسی سریع، علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان که در «[ویجت چیست](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Widgets2.7.0.md#WidgetSetting) » توضیح داده شد، امکان تعیین موجودیت‌های نمایش داده شده نیز وجود دارد. در این بخش می‌توانید از بین **آیتم‌هایی که مجوز ذخیره اولیه آن‌ها را دارید**،‌ آیتم‌های مورد نظر خود را برای نمایش در ویجت دسترسی سریع انتخاب نمایید.
 
+![IMG-1791: تنظیمات ویجت دسترسی سریع](</kb-assets/kb-images/Help/home/widget/QuickAccess/Quick-access-setting.webp>)
+
 ### ویجت قرار ملاقات
 `مسیر سند: Help/home/widget/AppointmentWidget/AppointmentWidget.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/AppointmentWidget/AppointmentWidget.md)
 
@@ -5999,6 +6843,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 > جلسات هر روز تا قبل از **ساعت پایان** در این ویجت نمایش داده می‌شود. پس از گذشت ساعت پایان جلسه، از ویجت قرارملاقات خارج می‌شود.
 
 در نظر داشته باشید، ترتیب نمایش قرارملاقات‌ها در ویجت، به صورت صعودی بر اساس ساعت شروع آن‌ها است. به عبارت دیگر نزدیک‌ترین جلسه در بالاترین سطر و آخرین جلسه‌ی روز در سطر انتهایی نمایش داده می‌شود.
+
+![IMG-1748: ویجت قرارملاقات](</kb-assets/kb-images/Help/home/widget/AppointmentWidget/Appointment-widget.webp>)
 
 > **نکته**
 
@@ -6011,6 +6857,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  در ستون **مرتبط**، آیتمی که فعالیت ایجاد/حذف/ویرایش/مشاده در آن انجام شده است نمایش داده می‌شود. عبارت درج شده قابل کلیک بوده و با کلیک بر روی آن می‌توانید به آن آیتم دسترسی داشته باشید. در صورتی که فعالیت انجام گرفته،‌ در مورد یکی از آیتم‌های CRM باشد،‌ نام «مرتبط با» و «زیرنوع موجودیت» در این قسمت نمایش داده می‌شود؛ به عنوان مثال «علی رمضانی(پیش‌فاکتور فروش)». در صورتی که فعالیت بر روی صفحه هویت انجام گرفته باشد نام هویت در این قسمت درج می‌شود.
 
+![IMG-1785: ویجت فعالیت‌‌های من](</kb-assets/kb-images/Help/home/widget/MyActivities/My-activities.webp>)
+
 ترتیب فعالیت‌های نمایش داده شده در این جدول از جدیدترین فعالیت (سطرهای ابتدایی) تا قدیمی‌ترین فعالیت‌ها (سطرهای انتهایی) است.
 
 با استفاده از قسمت جستجو نیز می‌توانید به راحتی به فعالیت مورد نظر خود دسترسی داشته باشید.
@@ -6020,12 +6868,16 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 این ویجت نمایشی از بخش [یادآوری‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/NotificationManagement2.6.0.md) است که با آیکون زنگوله در بالای صفحه قابل مشاهده است. در این ویجت تمامی فعالیت‌هایی که برای آن‌ها پیام سیستمی تنظیم شده باشد، به شما اطلاع داده می‌شود. به صورت پیش‌فرض برای مواردی از قبیل دریافت نظر، تایید/رد آیتم مالی و اعلام وضعیت حضور در قرارملاقات پیام‌ سیستمی در نظر گرفته شده و رخداد این موارد از طریق یک پیام به کاربر مربوطه اطلاع داده می‌شود.
 
+![IMG-1786: ویجت یادآوری‌های سیستم](</kb-assets/kb-images/Help/home/widget/NotificationManagementWidget/NotificationWidget.webp>)
+
 > **نکته**
 
 > برای کسب اطلاعات بیشتر در خصوص نحوه تنظیم و ویرایش پیام‌های سیستم، به قسمت [مدیریت پیام های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Manage-system-messages/Manage-system-messages.md)  مراجعه نمایید.
 
 ##### ویرایش تنظیمات ویجت یادآوری‌های سیستم
 در ویجت ساعت، علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان که در «[ویجت چیست](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Widgets2.7.0.md#WidgetSetting) » توضیح داده شد، امکان تغییر بازه‌ی زمانی در نظر گرفته شده برای نمایش پیام‌‌های سیستم را تنظیم نمایید. به عنوان مثال با انتخاب گزینه‌ی امروز در این تنظیمات،‌صرفا پیام‌های سیتمی‌ای که در همان روز به شما رسیده است در این ویجت نمایش داده می‌شود. در این حالت برای دیدن پیام‌های قدیمی‌تر باید به بخش [یادآوری‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/NotificationManagement2.6.0.md) در بالای صفحه مراجعه نمایید.
+
+![IMG-1787: تنظیمات ویجت یادآوری‌های سیستم](</kb-assets/kb-images/Help/home/widget/NotificationManagementWidget/Notification-widget-setting.webp>)
 
 ### مشاهده‌ی ویجت نظرات
 `مسیر سند: Help/home/widget/Comments/Comments.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Comments/Comments.md)
@@ -6034,9 +6886,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > نکته: اگر در نظر خود نام کاربر/گروه خاصی را ذکر کنید (به اصطلاح کاربر دیگری را Mention کنید)، نظر ثبت شده تنها توسط همان کاربر(ها) قابل مشاهده خواهد بود و در غیر اینصورت، این نظر به عنوان یک نظر عمومی تلقی شده و توسط تمام کاربران در ویجت نظرات قابل مشاهده است.
 
+![IMG-1771](</kb-assets/kb-images/Help/home/widget/Comments/CommentsWidget.webp>)
+
 > نکته : اگر قصد اشاره به کاربر/گروه خاصی را در نظر خود دارید، کافی است علامت «@» را درج کنید. نرم افزار به صورت خودکار نام کاربران دیگر را در یک لیست نمایش می دهد که با کلیک بر روی هرکدام از اسامی می توانید نام آن کاربر را انتخاب نمایید.  و همچنین امکان انتخاب کاربران مسئول پروفایل  و با کاربرانی که آیتمی به آن ها تخصیص پیدا کرده است (برای مثال فروشنده در فاکتورها/پیش فاکتورها) بصورت (@کاربران مرتبط) وجود دارد .
 
+![IMG-1772](</kb-assets/kb-images/Help/home/widget/Comments/Mention.webp>)
+
 با استفاده از تنظیمات این ویجت می توانید فیلترهایی را جهت نحوه نمایش نظرات اعمال کنید
+
+![IMG-1773](</kb-assets/kb-images/Help/home/widget/Comments/CommentsSetting.webp>)
 
 ###### 1- فیلتر نظرات مرتبط
 
@@ -6053,11 +6911,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  ویجت نظرات ابزاری برای ارتباط کاربران با یکدیگر است. از این ویجت می‌توانید برای ارسال پیام به یک و یا گروهی از همکاران خود که در نرم‌افزار دارای کاربری هستند، استفاده نمایید. پیام‌هایی که در این مطلب در مورد آن توضیح داده شده، با عنوان **نظر** در نرم‌افزار معرفی می‌شود.
 
+![IMG-1774: ویجت نظرات](</kb-assets/kb-images/Help/home/widget/Comments/2.6.0/Comments-widget.webp>)
+
 برای ارسال پیام به همکار/همکاران خود، کافیست روی قسمت مربوطه (A) کلیک کرده و علامت"@" را تایپ نمایید. لیستی از کاربران، گروه‌ها و دپارتمان‌ها جهت انتخاب نمایش داده می‌شود. کاربر/کاربرانی مورد نظر (دریافت‌کننده پیام) را انتخاب کرده، پیام خود را نوشته و از آیکون ارسال در سمت چپ (B) برای ارسال استفاده نمایید. برای ارسال پیام از کلیدهای ترکیبی Enter + Ctrl نیز می‌توانید استفاده کنید.
 
 در صورتی که پیامی از همکاران خود دریافت کرده باشید، در همین ویجت می‌توانید آن را مشاهده نمایید. در تصویر فوق، کاربر ادمین پیامی از کاربری توکلی دریافت کرده است که در بخش C قابل مشاهده است.
 
 پیام‌هایی که ما پیش‌تر برای همکاران ارسال کرده‌ایم نیز در همین بخش قابل رویت است. در ابتدای پیام گیرنده‌‌ی پیام (D)‌ مشخص شده است.
+
+![IMG-1775: درج مخاطب پیام](</kb-assets/kb-images/Help/home/widget/Comments/2.6.0/Mention-types.webp>)
 
 چنانچه پیش‌تر به آن اشاره شد، با درج @، لیست اسامی کاربران نرم‌افزار به شما نمایش داده می‌شود. علاوه بر کاربران، شما می‌توانید یک گروه کاربری، سمت و یا دپارتمان را نیز مورد خطاب قرار دهید. در صورتی که نام گروه، سمت یا دپارتمان مورد نظر را در لیست مشاهده نمی‌کنید، کافیست حروف ابتدایی نام آن را بنویسید. لیست گروه‌های کاربری و سمت‌های موجود در سیستم، متناسب با عبارت مندرج به شما نمایش داده می‌شود. آیکون نمایش داده شده در کنار اسامی می‌تواند در فهمیدن نوع آن (کاربر/گروه/سمت/دپارتمان) به شما کمک کند. به عنوان مثال در تصویر فوق از بین کاربران علیرضا کاظمی، از بین گروه‌های کاربری گروه کاربران سیستم و از بین سمت‌ها کارشناس IT قابل مشاهده است.
 
@@ -6077,7 +6939,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 فرض کنید که می‌خواهید آماده بودن فاکتور یکی از مشتریان برای ارسال را به یکی از همکاران خود اعلام نمایید. کافیست در فاکتور مشتری،‌ از بخش نظرات، کاربر/همکار مورد نظر را انتخاب (منشن) کنید و پیام خود را برای او ارسال نمایید. در تصویر زیر، ادمین برای کاربری حسین امیری پیامی در خصوص فاکتور مشتری ارسال کرده و آماده بودن سفارشات فاکتور شماره ۹ پرهام قاسمی را اطلاع داده است.
 
+![IMG-1776: ثبت نظر در کنار آیتم‌ها](</kb-assets/kb-images/Help/home/widget/Comments/2.6.0/Item-comment-sample.webp>)
+
 کاربری که در نظر از او نام برده شده است (گیرنده پیام) پیام ارسال شده را در ویجت نظرات خود مشاهده می‌نماید. تصویر زیر ویجت نظرات کاربر گیرنده پیام (در مثال فوق کاربری حسین امیری) را نشان می‌دهد. همان طور که در تصویر مشخص است، در این حالت، لینک دسترسی به آیتمی که نظر بر روی آن ثبت شده، در بالای پیغام به کاربر نمایش داده می‌شود. کاربر با کلیک بر روی آن وارد صفحه فاکتور شماره ۹ پرهام قاسمی خواهد شد.
+
+![IMG-1777: مشاهده نظر شده در کنار آیتم‌ها](</kb-assets/kb-images/Help/home/widget/Comments/2.6.0/Item-comment-considering.webp>)
 
 > **نکته**
 
@@ -6089,6 +6955,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در صورتی که در نظری از شما نام برده شده باشد، علاوه بر ویجت نظرات، قسمت [یادآوری‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/NotificationManagement2.6.0.md) (آیکون زنگوله قابل مشاهده در بالای صفحه) نیز آن را به شما نمایش می‌دهد. تعداد پیام‌های جدید به صورت عددی بر روی زنگوله به شما اعلام می‌شود. با کلیک بر روی این بخش می‌توانید اطلاعات پیغام رسیده را مشاهده نمایید.
 
+![IMG-1778: مشاهده نظرها در یادآوری سیستم](</kb-assets/kb-images/Help/home/widget/Comments/2.6.0/Comments-notification.webp>)
+
 در صورتی که در نظری در کنار یکی از آیتم‌ها از شما نام برده شده باشد، لینک دسترسی به آیتم با عنوان «مشاهده آیتم» در زیر اطلاعات پیام در دسترس است (مانند ردیف اول در تصویر فوق). در صورتی که نظر از طریق ویجت نظرات روی صفحه داشبورد برای شما ارسال شده باشد صرفا اطلاعات پیام به شما نشان داده می‌شود (مانند ردیف دوم).
 
 ##### حذف نظر
@@ -6098,6 +6966,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### ویرایش تنظیمات ویجت نظرات
 در ویجت نظرات، علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان که در «[ویجت چیست](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Widgets2.7.0.md#WidgetSetting) » توضیح داده شد، امکان تغییر نظرات نمایش داده شده نیز وجود دارد.
+
+![IMG-1779: تنظیمات ویجت نظرات](</kb-assets/kb-images/Help/home/widget/Comments/2.6.0/Comments-setting.webp>)
 
 - **فقط نام برده شده از من:** برای اینکه نظرهایی که در آن از شما نام برده شده (منشن شده‌اید) در ویجت نظرات برایتان نمایش داده شود، این گزینه باید فعال باشد.
 
@@ -6120,12 +6990,18 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با استفاده از این ویجت می‌توانید محتواهای پرکاربرد خود را در قالب  یک محتوای HTML بر روی صفحه‌ی داشبوردتان داشته باشید. برای این کار کافیست متن مورد نظر را در کادر مربوطه نوشته و در صورت نیاز با استفاده از ابزارهای موجود، نحوه‌ی نمایش آن را تنظیم نمایید.
 
+![IMG-1781: تنظیمات محتوای HTML](</kb-assets/kb-images/Help/home/widget/HtmlContent/HtmL-content-setting.webp>)
+
 پس از ذخیره، محتوای ثبت شما به شکل تصویر پایین به شما نمایش داده می‌شود.
+
+![IMG-1782: ویجت محتوای HTML](</kb-assets/kb-images/Help/home/widget/HtmlContent/Html-content-widget.webp>)
 
 ### ویجت آخرین تماس‌ها
 `مسیر سند: Help/home/widget/RecentCalls/RecentCallsWidget.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/RecentCalls/RecentCallsWidget.md)
 
 در این ویجت لیست آخرین سوابق از نوع [تماس تلفنی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-phone-call/New-phone-call.md) که توسط کاربری شما ثبت شده باشد، نمایش داده می‌شود. در هر رکورد، عنوان درج شده در تماس تلفنی در کادر سبز رنگ و نام هویت مرتبط در زیر آن نمایش داده می‌شود.
+
+![IMG-1792: ویجت آخرین تماس](</kb-assets/kb-images/Help/home/widget/RecentCalls/Recent-calls.webp>)
 
 > **نکته**
 
@@ -6138,6 +7014,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 1. ویجت اعلان عمومی را در داشبورد خود باز کرده و بر روی آیکون ویرایش کلیک کنید.
 2.
+
+![IMG-1788: ویجت اعلان عمومی](</kb-assets/kb-images/Help/home/widget/PublicAnnouncement/Publi-cannouncement.webp>)
 
 > **نکته**
 
@@ -6154,6 +7032,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - اطلاع‌رسانی اخبار، مراسمات و یا تغییرات سازمان
 - ایجاد دسترسی به دستورالعمل‌های سازمان
 برای استفاده از این ویجت کافیست آن را بر روی داشبورد خود اضافه کنید. اطلاعاتی که پیش‌تر توسط مدیر سیستم در این صفحه قرار داده شده باشد به شما نمایش داده می‌شود
+
+![IMG-1789: ویجت اعلان عمومی](</kb-assets/kb-images/Help/home/widget/PublicAnnouncement/Public-announcement-widget.webp>)
 
 > **نکته**
 
@@ -6177,6 +7057,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > در این ویجت، پیگیری‌ها با آیکون پرچم قرمز رنگ و وظایف با آیکون یادداشت سبزرنگ نمایش داده می‌شوند.
 
+![IMG-1780: ویجت پیگیری‌ها](</kb-assets/kb-images/Help/home/widget/FollowUpWidget/Follow-up-widget.webp>)
+
 نحوه قرارگیری وظایف و پیگیری‌ها در هر کدام از بازه‌های زمانی این ویجت (معوقه، امروز، فردا و ....) بر اساس تاریخ وارد شده در قسمت موعد پیگیری و مهلت وظیفه می‌باشد. یعنی:
 
 - پیگیری‌ها بر اساس تاریخ «موعد» در گروه‌‌های مختلف زمان‌بندی قرار می‌گیرند.
@@ -6186,6 +7068,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Help/home/widget/AdvancedSearch/AdvancedSearchWidget.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/AdvancedSearch/AdvancedSearchWidget.md)
 
  با استفاده از ویجت جستجوی پیشرفته می‌توانید به راحتی هویت مورد نظر خود را با استفاده از نام خانوادگی/هویت حقوقی و یا شماره مشتری ایشان جستجو کنید.
+
+![IMG-1747: ویجت جستجوی پیشرفته](</kb-assets/kb-images/Help/home/widget/AdvancedSearch/Advanced-search.webp>)
 
  **1**. عبارت مورد نظر خود را در این قسمت وارد کنید. توجه داشته باشید که از این قسمت فقط امکان جستجو بر اساس **نام خانوادگی** هویت حقیقی، **نام هویت حقوقی** و **شماره مشتری** امکان‌پذیر است.
 
@@ -6204,6 +7088,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ویجت وضعیت کارتابل، نشانگر کارهای موجود در کارتابل شماست. این ویجت در واقع نمایی از [ویجت کارتابل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/2.6.0/CartableWidget.md) می‌باشد؛ با این تفاوت که در ویجت وضعیت کارتابل امکان انجام اقدام برای هیچ کدام از آیتم‌‌ها فراهم **نیست**.
 
+![IMG-1767: ویجت وضعیت کارتابل](</kb-assets/kb-images/Help/home/widget/CartableStatus/Cartable-status-widget.webp>)
+
 به مشابه ویجت کارتابل، عددی که رو به روی هر کارتابل نمایش داده می‌شود نشانگر نسبت تعداد کارهای مشاهده نشده‌‌ای است که امروز (از 12:01 بامداد) وارد آن کارتابل شده (عدد بالایی) به کل کارهایی که در آن کارتابل وجود دارد (عدد پایین) است.
 
 > نکته: تفاوت ویجت **کارتابل** و **وضعیت کارتابل** در این است که در ویجت وضعیت کارتابل تنها می‌توانید تعداد آیتم‌های موجود در هر قسمت از کارتابل خود را مشاهده کنید، اما در ویجت کارتابل می‌توانید لیست آن‌ها را نیز مشاهده کرده، فیلترهای مختلفی روی آن‌ها اعمال کنید و از همان قسمت به آن‌ها رسیدگی کنید.
@@ -6213,6 +7099,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 در ویجت وضعیت کارتابل نیز علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان، امکان تنظیم تب‌ها نیز وجود دارد.
 
 بر این اساس می‌توانید کارتابل‌های مورد نیاز خود را به منظور نمایش در این ویجت انتخاب کنید. در این حالت تنها وضعیت کارتابل‌هایی کخ انتخاب کرده‌اید در ویجت به شما نمایش داده می‌شود.
+
+![IMG-1768: تنظیمات ویجت وضعیت کارتابل](</kb-assets/kb-images/Help/home/widget/CartableStatus/Cartable-status-setting.webp>)
 
 به جهت اعمال شدن تغییرات و ویرایش‌های انجام شده در تنظیمات، بر روی **ذخیره** کلیک نمایید.
 
@@ -6225,9 +7113,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  برخلاف ویجت فعالیت‌های من، مشاهده‌ و حذف آیتم در این ویجت قابل رویت نیست.
 
+![IMG-1783: ویجت آخرین فعالیت](</kb-assets/kb-images/Help/home/widget/LastActivitiy/Last-activity.webp>)
+
 ##### ویرایش تنظیمات ویجت آخرین فعالیت
 
 در ویجت نظرات، علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان که در «[ویجت چیست](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Widgets2.7.0.md#WidgetSetting) » توضیح داده شد، امکان انتخاب آیتم‌های مورد نظر برای نمایش فعالیت‌های آن‌ها نیز وجود دارد.
+
+![IMG-1784: تنظیمات ویجت آخرین فعالیت](</kb-assets/kb-images/Help/home/widget/LastActivitiy/Last-activity-setting.webp>)
 
 در این قسمت می‌توانید انتخاب نمایید فعالیت‌های مذکور، در مورد کدام آیتم‌ها به شما نمایش داده شود. آیتم‌هایی که در این قسمت مشخص شده‌اند، آیتم‌هایی هستند که ایجاد و یا ویرایش آن‌ها در ویجت آخرین فعالیت به شما نمایش داده می‌شود. به عنوان مثال در صورتی که مایل هستید فقط فعالیت‌های انجام گرفته در خصوص فاکتورهای فروش را مشاهده نمایید، می‌توانید تمامی آیتم‌ها به جز فاکتور فروش را غیرفعال نمایید.
 
@@ -6236,10 +7128,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 با استفاده از ویجت ساعت می‌توانید زمان به وقت مناطق مختلف جغرافیایی را بر روی صفحه داشبورد خود مشاهده نمایید. در نتیجه اگر شما جز افرادی هستید که به مشاهده ساعت به وقت سایر کشورها نیاز دارید، می‌توانید به تعداد نیاز ویجت ساعت به داشبورد خود اضافه کرده و هر یک را بر اساس منطقه مورد نظر خود تنظیم نمایید.
 
+![IMG-1769: ویجت ساعت](</kb-assets/kb-images/Help/home/widget/Clock/Clock-widget.webp>)
+
 به هنگام اضافه کردن ویجت به صفحه، از شما خواسته می‌شود که منطقه جغرافیایی مورد نظر را انتخاب نمایید.
 
 ##### ویرایش تنظیمات ویجت ساعت
 در ویجت ساعت، علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان که در «[ویجت چیست](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Widgets2.7.0.md#WidgetSetting) » توضیح داده شد، امکان تغییر منطقه جغرافیایی که به هنگام اضافه کردن ویجت انتخاب کرده بودید نیز وجود دارد.
+
+![IMG-1770: تنظیمات ویجت ساعت](</kb-assets/kb-images/Help/home/widget/Clock/Clock-widget-setting.webp>)
 
 در قسمت سمت راست، منطقه انتخاب شده که ساعت بر اساس آن نمایش داده می‌شود قابل مشاهده است.
 
@@ -6250,11 +7146,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  > **نکته:** عددی که رو به روی هر کارتابل نمایش داده می‌شود نشانگر نسبت تعداد کارهایی است که  امروز (از 12:01 بامداد) وارد آن کارتابل شده (عدد بالایی) به کل کارهایی که در اون کارتابل وجود دارد .
 
+![IMG-1750](</kb-assets/kb-images/Help/home/widget/Cardboard/CourseOfPresentation.webp>)
+
 تب‌های مختلف این کارتابل بر اساس میزان دسترسی کاربر به قسمت‌های مختلف نرم افزار ممکن است تغییر پیدا کنند.
 
 ##### تنظیمات کارتابل
 
 در صورت نیاز می‌توانید در تنظیمات این ویجت، کارتابل پیشفرض و کارتابل‌های مختلفی که نمایش داده می‌شوند را انتخاب کنید.
+
+![IMG-1751](</kb-assets/kb-images/Help/home/widget/Cardboard/1.webp>)
 
 ### تایید و شماره گذاری آیتم‌های مالی
 `مسیر سند: Help/home/widget/Cardboard/Approved-items/Approved-items.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Cardboard/Approved-items/Approved-items.md)
@@ -6269,6 +7169,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  در این کارتابل امکان شماره گذاری و یا تایید/رد وجود دارد و همچنین با کلیک بر روی هر کدام از سطر ها، آیتم مربوط به مشتری بازخواهد شد و با زدن دکمه های شماره گذاری،تایید و رد در بالای صفحه ، همچنین می توانید آن را تایید/شماره گذاری یا رد نمایید .
 
+![IMG-1754](</kb-assets/kb-images/Help/home/widget/Cardboard/Approved-items/Cable2.webp>)
+
  >   **نکته:** می توانید برای اطلاع مسئول و یا ثبت کننده آیتم از تایید و یا رد آیتم موردنظر، پیامی را از طریق اطلاعات پایه ، [ مدیریت پیام های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Manage-system-messages/Manage-system-messages.md) تنظیم کنید.
 
 > **نکته:** کاربری که بر روی آیتم مورد نظر مجوز بازگشت به وضعیت در انتظار تایید را داشته باشد، میتواند آیتم را از وضعیت تایید خارج کند .
@@ -6280,6 +7182,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 می‌توان با کلیک بر روی آیتم موردنظر آن آیتم را مشاهده و از انتظار خارج کرد.
 
+![IMG-1764](</kb-assets/kb-images/Help/home/widget/Cardboard/entezar/22.webp>)
+
 ### کارتابل تراکنش‌های انبار در انتظار
 `مسیر سند: Help/home/widget/Cardboard/Warehouse-transactions-widget/Warehouse-transactions-widget.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Cardboard/Warehouse-transactions-widget/Warehouse-transactions-widget.md)
 
@@ -6287,9 +7191,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** برای اینکه بتوانید یک تراکنش انبار صادر شده را تایید کنید، باید مجوز تایید آن زیر نوع تراکنش (منظور از زیر نوع تراکنش برای مثال حواله انبار پیش فرض)  در قسمت مدیریت مجوزها و همچنین مجوز تایید آن نوع تراکنش (حواله) در قسمت مدیریت انبار ، مدیریت  مجوزهای انبار  مربوطه را داشته باشید
 
+![IMG-1760](</kb-assets/kb-images/Help/home/widget/Cardboard/Warehouse-transactions-widget/Cable3.webp>)
+
 همچنین  با دو بارکلیک بر روی هر کدام از تراکنش‌های موجود در کارتابل می‌توانید آن را مشاهده کنید.
 
 > به خاطر داشته باشید در حالت پیش‌فرض لیست تراکنش‌های یک‌ماه اخیر را مشاهده می‌کنید، برای مشاهده تراکنش‌های بیشتر باید همانند تصویر زیر از منوی فیلتر بازه‌‌ی زمان مورد نظر خود را اعمال کنید.
+
+![IMG-1761](</kb-assets/kb-images/Help/home/widget/Cardboard/Warehouse-transactions-widget/1.webp>)
 
 ### کارتابل تراکنش‌های در انتظار قیمت‌گذاری
 `مسیر سند: Help/home/widget/Cardboard/Warehouse-transactions-widget/gheymatgozari.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Cardboard/Warehouse-transactions-widget/gheymatgozari.md)
@@ -6298,9 +7206,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 توجه داشته باشید که این قیمت گذاری برای تعیین موجودی ریالی است و می تواند با قیمت خرید یا فروش شما متفاوت باشد
 
+![IMG-1762](</kb-assets/kb-images/Help/home/widget/Cardboard/Warehouse-transactions-widget/Cable4.webp>)
+
 با دو بار کلیک بر روی هرکدام از تراکنش‌ها می‌توانید آن را مشاهده کرده و قیمت گذاری را انجام دهید. توجه داشته باشید که برای قیمت گذاری رسید انبار ابتدا باید برای هر ردیف محصول قیمت گذاری را انجام دهید و سپس از دکمه قیمت گذاری در نوار ابزار استفاده کنید. اما قیمت گذاری حواله‌های انبار بر اساس فی میانگین موجودی ریالی انبار شما محاسبه خواهد شد و برای قیمت گذاری حواله ها صرفا باید دکمه قیمت گذاری را بزنید
 
 > به خاطر داشته باشید در حالت پیش‌فرض لیست تراکنش‌های یک‌ماه اخیر را مشاهده می‌کنید، برای مشاهده تراکنش‌های بیشتر باید همانند تصویر زیر از منوی فیلتر بازه‌‌ی زمان مورد نظر خود را اعمال کنید.
+
+![IMG-1763](</kb-assets/kb-images/Help/home/widget/Cardboard/Warehouse-transactions-widget/2.webp>)
 
 ### کارتابل رسیدگی به وظایف و پیگیری
 `مسیر سند: Help/home/widget/Cardboard/Task-tracking/Task-tracking.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Cardboard/Task-tracking/Task-tracking.md)
@@ -6310,6 +7222,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **حالت نمایش وظیفه‌ها:** وظایف به دو صورت کانبان و گرید نمایش داده میشود.
 
 در نمایش بصورت کانبان وضعیت وظیفه (درکارتابل،در دست اقدام و خاتمه یافته)  بصورت مراحل کانبان نمایش داده می شود .  در رابطه با وضعیت وظیفه جلوتر توضیح داده شده است .
+
+![IMG-1756](</kb-assets/kb-images/Help/home/widget/Cardboard/Task-tracking/Cable.webp>)
 
 **1. وظایف در دست اقدام:** وظیفه هایی که به کاربر ارجاع داده شده اند در این قسمت نمایش داده می شود.
 
@@ -6328,6 +7242,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 **2. وظایف ارجاع داده شده:** وظایفی که به دیگران ارجاع داده شده اند در این قسمت نمایش داده می شود.
 
 در این قسمت نمایش داده می شود ارجاع وظیفه به چه کسی بوده و نحوه ارجاع چگونه بوده  و همچنین مشاهده میکنید وظیفه ارجاع شده توسط کاربر ارجاع شونده در چه وضیعتی قرار دارد و گردش کار وظیفه مورد نظر هم قابل مشاهده است . (وضیعت ها همانند توضیح بالا)
+
+![IMG-1757](</kb-assets/kb-images/Help/home/widget/Cardboard/Task-tracking/cable1.webp>)
 
 **3. فیلتر:** برای یافتن یک وظیفه مشخص می توانید از فیلترهای مختلف استفاده کنید.
 
@@ -6352,6 +7268,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** تغییر رنگ آیتم‌ها در کارتابل‌های ذکر شده ربطی به ساعت تنظیم آن‌ها ندارد.
 
+![IMG-1758](</kb-assets/kb-images/Help/home/widget/Cardboard/Task-tracking/2.6.0/1.webp>)
+
 **1. وظایف در دست اقدام:** وظیفه‌هایی که به کاربر ارجاع داده شده اند در این قسمت نمایش داده می‌شود.
 
 وضعیت وظیفه به شرح زیر است:
@@ -6370,6 +7288,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 مشاهده وظیفه به چه کسی ارجاع داده شده، نحوه ارجاع چگونه بوده، وظیفه ارجاع شده توسط کاربر ارجاع کننده در چه وضیعتی قرار دارد و گردش کار وظیفه مورد نظر در این قسمت امکانپذیر است. (وضیعت‌ها همانند توضیح بالا)
 
+![IMG-1759](</kb-assets/kb-images/Help/home/widget/Cardboard/Task-tracking/2.6.0/2.webp>)
+
 **3. فیلتر:** برای یافتن یک وظیفه مشخص می‌توانید از فیلترهای مختلف استفاده کنید.
 
 **4. منوی راست کلیک:** با راست کلیک بر روی یک یا چند وظیفه امکان ارجاع، قفل کردن و ... بر روی آن‌ها وجود دارد.
@@ -6378,6 +7298,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Help/home/widget/Cardboard/widget-processes/widget-processes.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Cardboard/widget-processes/widget-processes.md)
 
  در این قسمت می توانید تمام فرآیندهایی که توسط [چرخه‌ها و گردش‌های کاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Category-docs/Process-management.md) برای شما ارسال شده است را مشاهده کنید.
+
+![IMG-1765](</kb-assets/kb-images/Help/home/widget/Cardboard/widget-processes/1.webp>)
 
  **1. در دست اجرا:** لیست آیتم‌های تحت چرخه که در مرحله جاری شما به‌عنوان مسئول آن انتخاب شده اید در این قسمت نمایش داده می‌شود .
 
@@ -6404,6 +7326,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در صورتی که از تاریخ یادآوری گذشته باشد، رنگ آیتم زرد خواهد شد.
 
+![IMG-1766](</kb-assets/kb-images/Help/home/widget/Cardboard/widget-processes/2.6.0/1.webp>)
+
  **1. در دست اجرا:** لیست آیتم‌های تحت چرخه که در مرحله جاری شما به‌عنوان مسئول آن انتخاب شده اید در این قسمت نمایش داده می‌شود .
 
 **2. ارجاع شده:** لیست آیتم‌های تحت چرخه که اقدام آن توسط شما انجام شده است و به مرحله دیگری منتقل گردیده است .
@@ -6422,6 +7346,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Help/home/widget/Cardboard/2.6.0/CartableWidget.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/Cardboard/2.6.0/CartableWidget.md)
 
  ویجت کارتابل را می‌توان به میز کار شما در نرم‌افزار شبیه دانست. این ویجت در واقع دسترسی آسان‌تر به بخش «کارتابل من» (موجود در نوار منو در بالای صفحه اصلی) را فراهم می‌آورد؛ با این تفاوت که امکان ایجاد آیتم جدید از طریق این ویجت وجود ندارد (این قابلیت در تب کارتابل من فراهم می‌باشد). در این قسمت کارهای ارجاع شده به شما (مانند تایید/رد آیتم‌های مالی، فرایندها و ... )  در دسته‌بندی‌هایی که در تصویر زیر قابل مشاهده است، نمایش داده می‌شوند.
+
+![IMG-1752: ویجت کارتابل](</kb-assets/kb-images/Help/home/widget/Cardboard/2.6.0/Cartable-widget.webp>)
 
 در قسمت بالایی ویجت، کارتابل‌ آیتم‌های مختلف (مانند فاکتور فروش، فرآیند و...) برای شما نمایش داده می‌شود. با کلیک بر روی هر یک از آن‌ها، در قسمت پایین ویجت، آیتم‌هایی که مسئولیتی برای انجام در آن دارید به شما نمایش داده می‌شود. به عنوان مثال با کلیک بر روی فاکتور فروش، فاکتورهای فروشی که برای تایید و شماره‌گذاری آن‌ها باید اقدام کنید به شما نمایش داده می‌شود. از همین بخش می‌توانید اقدامات لازم در خصوص هر یک را به انجام برسانید.
 
@@ -6465,6 +7391,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ##### ویرایش تنظیمات ویجت کارتابل
 در ویجت کارتابل، علاوه بر قابلیت تنظیم اندازه، جایگاه، رنگ و عنوان که در «[ویجت چیست](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Widgets2.7.0.md#WidgetSetting) » توضیح داده شد، امکان تعیین آیتم‌های نمایش داده شده نیز وجود دارد. بر این اساس در قسمت تنظیمات این ویجت، موارد نمایش داده شده در تصویر به شرح زیر می‌باشد:
 
+![IMG-1753: تنظیمات ویجت کارتابل](</kb-assets/kb-images/Help/home/widget/Cardboard/2.6.0/Cartable-setting.webp>)
+
 1. در حالت اولیه و به هنگام اضافه کردن ویجت کارتابل،‌ «وظیفه، پیگیری» به صورت پیش‌فرض در قسمت پایین ویجت برای شما نمایش داده می‌شود. این بدین معناست که قبل از کلیک بر روی کارتابل دیگر، کارتابل پیش‌فرض برای نمایش «وظیفه، پیگیری» می‌باشد. در صورت تمایل به تغییر آن می‌توانید کارتابل مورد نظر را از این قسمت انتخاب و تنظیمات خود را ذخیره نمایید.
 
 بدیهی است که انتخاب پرکاربردترین کارتابل به عنوان پیش‌فرض می‌تواند در سهولت بخشیدن به کار شما کمک کند.
@@ -6484,10 +7412,14 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 > **نکته:** در صورتی که کاربری درخواست حضور را تایید نکند، می توان آن کاربر را در قرار ملاقات دیگری در همان زمان دعوت کرد
 
+![IMG-1755](</kb-assets/kb-images/Help/home/widget/Cardboard/Meeting-card/MeetingCartable1.webp>)
+
 ### ویجت قاب وب
 `مسیر سند: Help/home/widget/WebFrame/WebFrameWidget.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/home/widget/WebFrame/WebFrameWidget.md)
 
 با استفاده از این ویجت می‌توانید یک صفحه وب را بر روی داشبورد خود به نمایش بگذارید. به عنوان مثال در صورت نیاز هر روزه به یک سایت آماری، می‌توانید با استفاده از این ویجت به آسان‌ترین روش به آن دسترسی مداوم داشته باشید.
+
+![IMG-1793: ویجت قاب وب](</kb-assets/kb-images/Help/home/widget/WebFrame/Web-frame-widget.webp>)
 
  صفحه‌ی وب نماش داده شده در این ویجت قابل کلیلک بوده و شما می‌توانید از طریق همین قاب به بخش‌های مختلف سایت دسترسی داشته باشید.
 
@@ -6495,9 +7427,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 زمان اضافه کردن ویجت قاب وب به صفحه، از شما خواسته می‌شود آدرس سایت مورد نظر را تعیین نمایید.
 
+![IMG-1794: تنظیم آدرس وب](</kb-assets/kb-images/Help/home/widget/WebFrame/Web-address-setting.webp>)
+
  آدرس URL وب سایت مورد نظر را در کادر مربوطه وارد نموده و ویجت را به صفحه اضافه نمایید.
 
 در صورتی که این ویجت را پیش‌تر به صفحه اضافه نموده‌اید و قصد ویرایش آدرس URL تعریف شده را دارید، بر روی سه نقطه موجود در بالای ویجت و آیکون تنظیمات کلیک کنید. از این طریق می‌توانید آدرس را ویرایش و مجدد ذخیره نمایید.
+
+![IMG-1795: تنظیمات ویجت قاب وب](</kb-assets/kb-images/Help/home/widget/WebFrame/Web-frame-setting.webp>)
 
 > **نکته**
 
@@ -6505,20 +7441,26 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Help-update
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### بروز رسانی
 `مسیر سند: Help/update/update.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/update/update.md)
 
 با توجه به اهمیت بالای اطلاعات دقیق در اثربخشی برنامه های تبلیغاتی، پرتال تجارت الکترونیک اول محتوای اطلاعات فهرست مشاغل اول را بطور پیوسته و هر روز بروز رسانی می کند. کاربران پیام گستر می توانند پس از اتصال به شبکه اینترنت، اطلاعات شغلی و همچنین اطلاعات عملکردی نرم افزار را به صورت دستی یا برنامه زمانی معین از روی پرتال اول بروز رسانی کنند
 
+![IMG-1796](</kb-assets/kb-images/Help/update/Update3.webp>)
+
 برای انجام عملیات بروزرسانی باید از طریق نرم افزار Septa Update Center که در هنگام نصب پیام گستر بر روی سیستم سرور نصب می شود، اقدام نمایید. با کلیک بر آیکون این برنامه پنجره زیر باز می شود .
+
+![IMG-1797](</kb-assets/kb-images/Help/update/Update2.webp>)
 
 **1. بروز رسانی تمامی محصولات:**با انتخاب برنامه و زدن کلید بروزرسانی محصولات عملیات بروزرسانی پیام گستر آغاز خواهد شد .
 
 **2. زمان بندی بروزرسانی:** این دکمه به شما این  امکان می دهد زمان بروز رسانی را انتخاب کنید. نرم افزار در روز و ساعت مشخص شده وجود بروزرسانی جدید را بررسی کرده و در صورت وجود بسته بروزرسانی جدید، آنها را بارگیری (دانلود) و نصب خواهد کرد.
 
 > نکته: بهتر است این زمان در هنگام استفاده نشدن از نرم افزار (اوقات غیر اداری) تنظیم گردد.
+
+![IMG-1798](</kb-assets/kb-images/Help/update/Update1.webp>)
 
 **3**. با زدن کلید  Update History می توانید تاریخچه بروزرسانی هایی که تا به حال برای هر محصول صورت گرفته است مشاهده نمایید.
 
@@ -6532,7 +7474,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Other-Learning
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### Approval-Numbering contract
 `مسیر سند: Other/Learning/Approval-Numbering contract.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/Learning/Approval-Numbering contract.md)
@@ -6555,17 +7497,29 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 برای ثبت قرارداد جدید در پیام گستر می توانید از طریق روش های زیر اقدام نمایید.
 1.	برای ثبت قرارداد جدید، پس از ورورد به صفحه اصلی هویت مشتری و سربرگ مشخصات می توانید آیتم قرارداد جدید را انتخاب نمایید. با ثبت اطلاعات مورد نظر می توانید برای مشتری خود قرار داد جدید ثبت کنید.
 
+![IMG-1799: ثبت قرارداد جدید 1](</kb-assets/kb-images/Other/Learning/Images/Contract-Registration1.webp>)
+
 2.	برای ثبت قرارداد جدید کافی است پروفایل مورد نظر را باز نمایید و در سربرگ سوابق مربوط به مشتری روی دکمه قرارداد جدید کلیک کنید. پس از پر کردن  و ذخیره کردن فیلدهای مربوطه می توانید قرارداد جدیدی برای مشتری خود ثبت کنید.
+
+![IMG-1800: ثبت قرارداد جدید 2](</kb-assets/kb-images/Other/Learning/Images/Contract-Registration2.webp>)
 
 3.	برای ثبت قرارداد جدید کافی است پروفایل مورد نظر را باز نمایید و در سربرگ قرارداد روی دکمه قرارداد یا افزودن کلیک کنید. پس از پر کردن  و ذخیره کردن فیلدهای مربوطه می توانید قرارداد جدیدی را برای مشتری خود ثبت کنید.
 
+![IMG-1801: ثبت قرارداد جدید 3](</kb-assets/kb-images/Other/Learning/Images/Contract-Registration3.webp>)
+
 4.	برای ثبت قرارداد جدید، می توانید از طریق ویجت دسترسی سریع به راحتی قرارداد جدید ثبت کنید.
 
+![IMG-1802: ثبت قرارداد جدید 4](</kb-assets/kb-images/Other/Learning/Images/Contract-Registration4.webp>)
+
 5. برای ثبت قرارداد جدید همچنین می توانید از طریق تب کارتابل من، قرارداد جدید ثبت نمایید.
+
+![IMG-1803: ثبت قرارداد جدید 5](</kb-assets/kb-images/Other/Learning/Images/Contract-Registration5.webp>)
 
 **نکته**: " قرارداد مالی" پس از ایجاد و تایید، مشتری را به میزان مبلغ قرارداد بدهکار می کند و این مبلغ در سوابق مشتری لحاظ خواهد شد اما در قراردادهای حقوقی اینگونه نیست.
 
 مشخصات قرارداد در پیام گستر به شرح زیر می‌باشد:
+
+![IMG-1804: مشخصات قرارداد جدید](</kb-assets/kb-images/Other/Learning/Images/NewContract.webp>)
 
 1. **وضعیت تایید و شماره گذاری:** در صورتی که در شخصی سازی آیتم های دارای قابلیت تایید و شماره گذاری قرارداد چک باکس های "نیاز به تایید دارد" و "نیاز به شماره گذاری دارد" غیر فعال باشند، پس از ذخیره آیتم، شماره گذاری و تایید به صورت خودکار انجام خواهد شد، اما اگر هرکدام از این چک باکس ها فعال باشند، پس از ذخیره آیتم باید توسط کاربران دارای مجوز، تایید و شماره گذاری شوند. در این قسمت می توانید وضعیت تایید و شماره گذاری این آیتم را مشاهده کنید. توجه داشته باشید که پس از تایید قرارداد، مبلغ آن در محاسبات مالی نرم افزار حساب می گردد و امضای تعریف شده نیز در قالب چاپ این قرارداد ظاهر می شود.
 
@@ -6599,20 +7553,26 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Other-Mds
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### اضافه کردن عضو (هویت) به گروه هدف
 `مسیر سند: Other/Mds/AddIdentityToTheTargetGroup.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/Mds/AddIdentityToTheTargetGroup.md)
 
 به‌منظور عضو‌دهی و اضافه کردن هویت به گروه هدف‌تان می‌بایست به صفحه‌ی گروه هدف موردنظرتان بروید و بر روی دکمه **افزودن هویت جدید** کلیک کنید.
 
+![IMG-1805: افزودن هویت به گروه هدف](</kb-assets/kb-images/Other/Images/AddingAnIdentityToTheTargetGroup.webp>)
+
 در مرحله‌ی بعدی یک پنجره باز می‌شود که آیکون‌های آن، امکان استفاده از **بانک اطلاعاتی** و **آیتم‌هایCRM** برای اضافه کردن هویت‌های مختلف به گروه هدف موردنظرتان را برای شما فراهم می‌کند.
+
+![IMG-1806: آیکون‌های کمکی برای انتخاب هویت برای گروه هدف](</kb-assets/kb-images/Other/Images/HelpIconsToChooseIdentity.webp>)
 
 **1)**  شما از این قسمت می‌توانید از هویت‌های حقیقی و حقوقی ثبت شده در **بانک اطلاعات یکپارچه** برای عضو دادن به گروه هدف‌تان استفاده کنید.
 
 **2)** شما با کمک گرفتن از گزینه‌های این آیکون می‌توانید از آیتم‌های مختلف **سیستم CRM** برای اضافه کردن اعضا به گروه هدف‌تان استفاده کنید؛ به‌طور مثال مشتریانی که تمامی پرداخت‌های آن‌ها نقدی بوده یا هیچ‌گونه بدهی به شما ندارند را در گروه هدف *مشتریان خوش‌حساب* اضافه کنید.
 
 اگر از آیکون بانک‌‌‌های اطلاعاتی برای اضافه کردن هویت به گروه هدف‌تان استفاده کنید و بر روی **درج از بانک یکپارچه پیام‌گستر** کلیک نمایید، یک صفحه برایتان باز می‌شود که می‌توانید از فیلد منبع (با باز کردن لیست کشویی) از بانک اطلاعاتی، اطلاعات سایر گروه‌های هدف، مشتریان و در نهایت با کمک گرفتن از جستجوی پیشرفته و فیلتر کردن روی اطلاعات خاص مدنظرتان برای گروه هدف خود، عضو انتخاب کنید. شما می‌توانید بعد از تیک زدن هویت مدنظرتان  بر روی دکمه **اضافه کردن و بستن** کلیک کنید  تا پس از اضافه شدن هویت، اتوماتیک از صفحه خارج شوید و به صفحه گروه هدف برگردید یا با کلیک بر روی **افزودن** بعد از این که هویت را به گروه هدف‌تان اضافه کردید همچنان در همان صفحه بمانید و مجدد سایر هویت‌های مدنظرتان را بتوانید انتخاب کنید.
+
+![IMG-1807: فیلدهای کمکی برای اضافه کردن هویت به گروه هدف](</kb-assets/kb-images/Other/Images/AuxiliaryFieldsToAddIdentityToTheTargetGroup.webp>)
 
 >**نکته**
 
@@ -6636,9 +7596,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 برای مثال در ادامه یک نمونه اکسل از شماره‌ی مشتری برخی از خریداران خوش‌حساب تهرانی که می‌خواهیم از طریق اکسل آن‌ها را به زیرگروه هدف **مشتریان خوش‌حساب تهرانی** اضافه کنیم، آورده شده است.
 
+![IMG-1808: نمونه اکسل برای افزودن هویت به گروه هدف](</kb-assets/kb-images/Other/Images/ExcelExampleToAddIdentityToTheTargetGroup.webp>)
+
 در گام بعدی می‌بایست به صفحه‌ی مربوط به گروه هدف برویم و بر روی گزینه‌ی **دریافت فایل** کلیک کنیم.
 
+![IMG-1809: گزینه افزودن اکسلی هویت به گروه هدف](</kb-assets/kb-images/Other/Images/TheOptionToAddExcelIdenTityToTheTargetGroup.webp>)
+
 در این مرحله پنجره‌ای برای شما باز می‌شود که می‌بایست اکسلی را که پیش‌تر آماده کرده بودید را از قسمت **Select**  انتخاب کنید. در قسمت بعدی مشخص می‌کنید که در اکسل‌تان از کدام نوع شناسه مشتری استفاده کرده‌اید و در فیلد نام ستون ورودی نیز باید عنوان سرستونی که در اکسل مقداردهی کردید را دقیقا یادداشت کنید؛ در این نمونه که برای مثال بیان شده، نام ستون ورودی می‌بایست **شماره مشتری** درج شود.
+
+![IMG-1810: مرحله آخر افزودن هویت به گروه هدف از طریق اکسل](</kb-assets/kb-images/Other/Images/TheLastStepIsToAddIdentityToTheTargetGroupThroughExcel.webp>)
 
 در نهایت با زدن دکمه **ورود اطلاعات**، هویت‌هایی که شماره مشتری آن‌ها در اکسل آورده شده بود، به زیرگروه هدف دلخواه شما اضافه می‌شود.
 
@@ -6649,7 +7615,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ‌برای ایجاد گروه هدف ابتدا باید از نوار بالای نرم‌افزار، بر روی گزینه‌‌های **بانک یکپارچه**>**گروه‌های هدف** کلیک کنید.
 
+![IMG-1811: انتخاب گزینه‌ی گروه‌های هدف](</kb-assets/kb-images/Other/Images/SelectingTheOptionOfTargetGroups.webp>)
+
 حالا بر روی گزینه‌ی **افزودن گروه جدید** کلیک کنید.
+
+![IMG-1812: ایجاد گروه هدف جدید](</kb-assets/kb-images/Other/Images/SelectTheOptionToAddaNewTargetGroup.webp>)
 
  در پنجره‌ی باز شده می‌بایست **نام** و **کلید کاربر** گروه جامعه هدف‌تان را وارد کرده و در نهایت بر روی دکمه **تایید** کلیک نمایید.
 
@@ -6659,7 +7629,11 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
  > پیشنهاد ما به شما برای پر کردن فیلد کلید کاربر، استفاده از روش Camel Case است. در این روش نگارشی فاصله بین کلمات حذف شده و برای جداسازی واژگان از یکدیگر، حرف اول هر واژه با حروف بزرگ نوشته می‌شود.
 
+![IMG-1813: تعریف نام گروه هدف جدید](</kb-assets/kb-images/Other/Images/NamingTheTargetGroup.webp>)
+
 در این مرحله نام گروه هدف‌تان (به‌طور مثال: مشتریان خوش‌حساب) در لیست مربوطه اضافه شده است. شما می‌توانید با کلیک‌راست روی هر گروه، برایش دسته‌بندی جدید (زیرگروه) ایجاد کنید، نامش را تغییر دهید، آن را به‌کل حذف نمایید (در صورتی که گروه هدف شما دسته‌بندی داشته باشد ابتدا باید زیرگروه‌های آن را حذف کنید) و یا به گروه اختصاصی برای خود (اگر قبلا آن را برای خود اختصاصی کرده باشید، می‌توانید به عمومی) تغییر دهید.
+
+![IMG-1814: گزینه‌های کلیک راست روی گروه هدف](</kb-assets/kb-images/Other/Images/RightClickOptionsOnTheTargetGroup.webp>)
 
 > **نکته**
 
@@ -6669,9 +7643,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 در صورتی که بخواهید برای گروه هدف‌تان یک زیرگروه (زیرشاخه/ساب‌گروپ) ایجاد کنید، می‌توانید  در صفحه‌ی گروه هدف‌تان، از گزینه‌ی افزودن گروه جدید استفاده کنید. به‌طور مثال یک مجموعه می‌خواهد گروه هدف مشتریان خوش‌حساب خود را با توجه به شهری که مشتریان در آن ساکن هستند تقسیم‌بندی کند؛ برای این منظور می‌بایست بعد از ایجاد گروه هدف مشتریان خوش‌حساب، چندین زیرگروه به تفکیک شهر یا استان ایجاد نماید مثلا زیرگروه مشتریان خوش‌حساب تهرانی، زیرگروه مشتریان خوش‌حساب یزدی و...
 
+![IMG-1815: ایجاد زیرگروه برای گروه هدف](</kb-assets/kb-images/Other/Images/CreateASubgroupForTheTargetGroup.webp>)
+
 در این مرحله نام و کلید کاربر زیرگروه هدف‌تان را وارد کرده و گزینه تایید را کلیک می‌کنید.
 
+![IMG-1816: تعریف نام زیرگروه هدف جدید](</kb-assets/kb-images/Other/Images/DefineTheNameOfTheNewTargetSubgroup.webp>)
+
 حال برای گروه هدف **مشتریان خوش‌حساب**، یک زیرگروه به‌نام **مشتریان خوش‌حساب تهرانی** دارید که می‌توانید به آن عضو اضافه کنید.
+
+![IMG-1817: اضافه شدن زیرگروه برای گروه هدف](</kb-assets/kb-images/Other/Images/AddedSubgroupForTargetGroup.webp>)
 
 ### مقدمه آموزش تدوین Documents
 `مسیر سند: Other/Mds/IntroductionToDocumentEditing training.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/Mds/IntroductionToDocumentEditing training.md)
@@ -6706,7 +7686,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Other-PGXDocument
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### درباره پیش‌فاکتور فروش
 `مسیر سند: Other/PGXDocument/Sales/AboutQuote.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/PGXDocument/Sales/AboutQuote.md)
@@ -7681,6 +8661,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 -   **فرصت‌ها** > **زیرنوع فرصت**
 با انتخاب یکی از زیرنوع‌های فرصت، وارد صفحه فرصت می‌شوید. در این حالت، تمامی فرصت‌های ثبت‌شده از زیرنوع انتخابی به شما نمایش داده می‌شود.
 
+![IMG-1818: مسیر اول نمایش لیست فرصت‌های ثبت شده](</kb-assets/kb-images/Other/PGXDocument/Opportunity/Images/all-opportunity-list-method1.2.8.3.webp>)
+
 از قسمت بالای صفحه می‌توانید سایر زیرنوع‌ها و یا همه را برای نمایش انتخاب نمایید. با انتخاب «همه فرصت‌ها»، تمامی فرصت‌ها از همه زیرنوع‌ها در لیست به شما نمایش داده‌می‌شود.
 
 > **نکته**
@@ -7692,9 +8674,15 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 - از طریق صفحه **پروفایل مخاطب** > **تب فرصت‌ها** می‌توانید به فرصت‌های مشتری دسترسی داشته‌باشید. بدین منظور با استفاده از ویجت جستجوی سریع، وارد صفحه پروفایل هویت مورد نظر شوید. در صفحه اصلی پروفایل هویت از قسمت «فرصت‌ها» می‌توانید تمامی فرصت‌های مخاطب را مشاهده نمایید.
 
+![IMG-1819: مسیر اول نمایش لیست فرصت‌‌های ثبت شده یک هویت](</kb-assets/kb-images/Other/PGXDocument/Opportunity/Images/customer-opportunity-list-method1-2.8.3.webp>)
+
 - از طریق صفحه **پروفایل مخاطب** > **تب سوابق** نیز می‌توانید به فرصت‌های ثبت شده برای مخاطب دسترسی داشته‌باشید. بدین منظور با استفاده از ویجت جستجوی سریع، وارد صفحه پروفایل هویت مورد نظر شوید. در صفحه اصلی پروفایل هویت، در تب سوابق، گزینه «فرصت» را در لیست «نوع آیتم» انتخاب نمایید تا فرصت‌های ثبت‌شده در فرآیند فروش هویت مورد نظر را مشاهده کنید.
 
+![IMG-1820: مسیر دوم نمایش لیست فرصت‌های ثبت شده یک هویت](</kb-assets/kb-images/Other/PGXDocument/Opportunity/Images/customer-opportunity-list-method2-2.8.3.webp>)
+
 - از طریق **تب فرصت** به صفحه لیست فرصت‌ها رفته و در صورت نیاز زیرنوع فرصت‌ها را به «همه فرصت‌ها» تغییر دهید (از فلش کنار کادر قرمز بالا استفاده کنید). با جستجوی «پروفایل مرتبط» فرصت‌های ثبت شده برای هویت مورد نظر را پیدا کنید. بدین منظور کافیست نام هویت را در  قسمت مربوطه نوشته و Enter کنید.
+
+![IMG-1821: مسیر سوم نمایش لیست فرصت‌‌های ثبت شده یک هویت](</kb-assets/kb-images/Other/PGXDocument/Opportunity/Images/customer-opportunity-list-method3-2.8.3.webp>)
 
 > **نکته**
 
@@ -7704,6 +8692,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 `مسیر سند: Other/PGXDocument/Opportunity/Opportunity'sRecords.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/PGXDocument/Opportunity/Opportunity'sRecords.md)
 
 چنانچه پیش‌تر به آن اشاره شد، موجودیت‌های مختلفی (از جمله پیش‌فاکتور، فاکتور، قرارداد، دریافت، قرارملاقات و سایر موارد) می‌توانند به فرصت متصل باشند. این آیتم‌‌ها علاوه بر سوابق هویت، در سوابق فرصتی که به آن متصل  شده‌اند نیز قابل دسترس هستند. برای دسترسی به آن‌ها کافیست وارد صفحه فرصت مورد نظر شوید و بر روی تب سوابق کلیک کنید.
+
+![IMG-1822: سوابق فرصت](</kb-assets/kb-images/Other/PGXDocument/Opportunity/Images/opportunities-records-2.8.3.webp>)
 
 نوار بالایی تب سوابق فرصت، امکان ثبت سوابق جدید را به شما می‌دهد. سوابقی که از این بخش ثبت شوند، به فرصت مذکور متصل خواهند‌بود.
 
@@ -7730,16 +8720,26 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 - **تب فروش** > **لینک پرداخت**
 
+![IMG-1823: مسیر اول ثبت لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/new-payment-link-method1.webp>)
+
 - **صفحه اصلی پروفایل مخاطب** > **ایجاد لینک پرداخت**
 
+![IMG-1824: مسیر دوم ثبت لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/new-payment-link-method2.webp>)
+
 - **صفحه اصلی پروفایل مخاطب** > **لینک‌های پرداخت** > **ایجاد لینک پرداخت**
+
+![IMG-1825: مسیر سوم ثبت لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/new-payment-link-method3.webp>)
 
 - **آیتم ثبت شده برای یک هویت** > **ایجاد لینک پرداخت**
 
 با ثبت یک آیتم CRM مثل انواع فاکتور،‌ قرارداد،‌ فرم و... کلید ایجاد لینک پرداخت در بالای صفحه به شما نمایش داده می‌شود. این کلید بر روی نوار بالای تمامی آیتم‌‌ها به جز آیتم‌های انبار قابل مشاهده می‌باشد.
 
+![IMG-1826: مسیر چهارم ثبت لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/new-payment-link-method4.webp>)
+
 ##### شیوه ایجاد و ارسال لینک پرداخت
  از طریق یکی از مسیرهای بالا برای ایجاد لینک پرداخت اقدام نمایید. نحوه تنظیم و ارسال لینک پرداخت در ادامه در چهار گام توضیح داده شده است:
+
+![IMG-1827: مشخصات لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/payment-link-information.webp>)
 
 ###### A. مشخصات لینک پرداخت
 برای ایجاد لینک پرداخت برای مشتری ابتدا مشخصات لینک را بر اساس راهنمایی‌های زیر تکمیل نمایید:
@@ -7773,15 +8773,21 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 ###### B. لیست گیرندگان
 در این قسمت مشخص می‌کنید که پیام ارسالی حاوی لینک پرداخت به چه شخصی ارسال گردد. همانطور که ملاحظه می‌کنید این پیام می‌تواند به مدیر، رابط یا هر سمت انتخابی دیگری از یک شرکت (هویت حقوقی) ارسال گردد. علاوه بر این، می‌توانید یک شماره موبایل یا ایمیل به صورت دستی در این قسمت به عنوان گیرنده پیام وارد کنید. توجه داشته باشید که این گزینه‌ها به صورت چک باکس هستند، بنابراین امکان انتخاب بیش از یک گزینه نیز وجود دارد.
 
+![IMG-1828: لیست گیرندگان لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/Payment-link-recipient.webp>)
+
 در صورت عدم انتخاب هیچ یک از گزینه‌ها، پیامک برای شماره موبایل پیش‌فرض و ایمیل برای آدرس ایمیل اول هویت ارسال می‌شود.
 
 ###### عملیات پس از تایید .C
 در صورتی که لینک پرداخت را روی یکی از آیتم‌ها مانند فاکتور، فرم یا ... ایجاد کنید و به این آیتم یک فیلد از نوع دریافت اضافه کرده باشید، می‌توانید در این قسمت تنظیماتی اعمال کنید که دریافت ثبت شده پس از پرداخت توسط مشتری (مورد ۳ و ۴ در بخش A) به فیلد دریافت اضافه شده به آیتم متصل گردد. به این منظور ابتدا چک باکس «اتصال به فیلد» را فعال کرده و سپس فیلد مورد نظر خود را انتخاب کنید.
 
+![IMG-1829: عملیات پس از تایید](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/Payment-link-after-confirmation.webp>)
+
 ###### پیام‌های ارسالی .D
 در این مرحله پیام ارسالی برای مشتری را تنظیم کنید
 1. **پیام پیش فرض:** در صورتی که این گزینه را انتخاب کنید، پیام تنظیم شده در قسمت [مدیریت پیام‌های سیستم](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Manage-system-messages/2.6.0/Manage-system-messages.md) برای **درگاه پرداخت واسط** برای مشتری ارسال خواهد شد.
 2. **پیام سفارشی:** در صورت انتخاب این گزینه می‌توانید یک پیام سفارشی برای این لینک پرداخت برای مشتری تنظیم و ارسال کنید. رسانه یا رسانه‌های مورد نظر خود را انتخاب کرده و سپس متن پیام را تنظیم کنید.
+
+![IMG-1830: پیام‌های ارسالی برای لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/Payment-linke-sending-message.webp>)
 
 ### مشاهده لیست لینک‌های پرداخت
 `مسیر سند: Other/PGXDocument/Receipt/PaymentLinksList_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/PGXDocument/Receipt/PaymentLinksList_2.8.3.md)
@@ -7796,9 +8802,13 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 برای مشاهده لیست همه لینک‌های پرداخت ثبت شده، از این طریق اقدام نمایید:
 - **تب فروش** > **لینک پرداخت**
 
+![IMG-1831: مشاهده لیست لینک‌های پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/all-payment-links.webp>)
+
 ##### مشاهده لیست لینک‌های پرداخت ارسال شده برای یک هویت{#customerPaymentLinks}
 برای مشاهده لیست لینک‌های پرداخت ارسال شده برای یک هویت، از این طریق  اقدام نمایید:
 -	 صفحه اصلی **پروفایل هویت** > **لینک‌های پرداخت**
+
+![IMG-1832: مشاهده لیست لینک‌های پرداخت یک هویت](</kb-assets/kb-images/Help/Receipt/Images/customer-payment-list-method1.webp>)
 
 >**نکته**
 
@@ -7806,6 +8816,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ##### اطلاعات لینک‌های پرداخت{#PaymentLinksInformation}
 لیست لینک‌های پرداخت ارسال شده در هر دو حالت (لیست تمامی لینک‌های پرداخت و لیست لینک‌های پرداخت یک هویت) در جدولی مشابه تصویر زیر به شما نمایش داده می‌شود. در این جدول تمامی اطلاعات مورد نیاز در خصوص لینک‌های ارسال شده در دسترس است.
+
+![IMG-1833: لیست لینک‌های پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/payment-link-status.webp>)
 
 - **مرتبط با:** مخاطبی که لینک پرداخت مرتبط با او ثبت شده است (نه شخصی که پیام برای او ارسال شده) در این قسمت نمایش داده می‌شود.
 - **آیتم مرتبط:** چنانچه لینک پرداخت به یکی از آیتم‌های CRM (مثل فاکتور) متصل باشد، آیتم مربوطه در این قسمت نمایش داده می‌شود.
@@ -7819,6 +8831,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - **بررسی:** در صورت نیاز به بروزرسانی وضعیت (بررسی مجدد وضعیت پرداخت)‌ بر روی آیکون نمایش داده شده در این ستون کلیک نمایید.
 - **پیام‌های ارسالی:** با کلیک بر روی این قسمت، پیام‌های ارسالی حامل لینک به شما نمایش داده می‌شود. اگر برای ارسال لینک از چند رسانه (به عنوان مثال هم پیامک هم ایمیل) استفاده کرده باشید،‌ تمامی پیام‌ها در این قسمت در دسترس است. با کلیک بر روی این آیکون، پیام‌های ارسال‌شده در صفحه‌ای مشابه تصویر زیر به شما نمایش داده می‌شود.
 
+![IMG-1834: پیام‌های لینک پرداخت](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/payment-link-messages.webp>)
+
 در صفحه لیست پیام‌های ارسالی،‌ اطلاعات زیر قابل رویت است:
 
 - **مخاطب:** در این قسمت نام مخاطب دریافت‌کننده پیام  که حاوی لینک پرداخت است (نه مرتبط با)، نمایش داده می‌شود.
@@ -7829,6 +8843,8 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 - **تحویل:** وضعیت تحویل پیام‌های ارسالی، در این ستون نمایش داده می‌شود.
 - **مشاهده:** برای مشاهده‌ی محتوای پیام‌های ارسالی و لینک پرداخت ایجاد شده بر روی این آیکون کلیک کنید.
 - **ارسال مجدد:** برای ارسال مجدد پیام‌های حاوی لینک پرداخت ایجاد شده، بر روی این آیکون کلیک کنید.
+
+![IMG-1835: ارسال مجدد پیام](</kb-assets/kb-images/Other/PGXDocument/Receipt/Images/resend-payment-link-message.webp>)
 
  برای ارسال مجدد پیام به گیرنده‌ی قبلی آن، گزینه انتخابی («ارسال مجدد به مخاطب مرتبط») را بدون تغییر باقی گذاشته و بر روی کلید ارسال کلیک نمایید. در صورت تمایل به ارسال پیام به شخص دیگری، حالت ارسال را به گزینه «ارسال به سایرین» تغییر داده و شماره موبایل/آدرس ایمیل (بنا بر نوع پیام) مورد نظر را وارد نمایید.
 
@@ -8429,7 +9445,7 @@ Expression موردنظر باید به‌صورت ; (Expression)@   در فعا
 
 ## مستندات رسمی پیام‌گستر — Other
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ### شرح تغییرات نسخه 2.6.4
 `مسیر سند: Other/CRMIndex.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Other/CRMIndex.md)
@@ -8568,372 +9584,4 @@ Product Type = Product Code
 Product Name = Product Name
 
 در کل ما از وب هوک برای اطلاع رسانی دیگر نرم‌افزارها استفاده می‌کنیم به این معنی که هر ویرایش یا تغییراتی که در نرم‌افزار نجام می‌دهیم توسط وب هوک به سایر نرم‌افزارهای متصل اطلاع داده می‌شود.
-
-## مستندات رسمی پیام‌گستر — Positions-Roadmap-Assistant
-
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
-
-### مسئول دفتر
-`مسیر سند: Positions-Roadmap/Assistant/Assistant.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/Assistant/Assistant.md)
-
-سمت مسئول دفتر، با توجه به استراتژی و نیاز‌های سازمان وظایف و مسئولیت‌های مختلفی را  بر عهده دارد. عموما  فعالیت‌ها و وظایفی که یک مسئول دفتر بر عهده دارد، به شرح ذیل می‌باشد:
-
-##### برنامه‌ریزی و هماهنگی جهت برگزاری قرار ملاقات
-
-مسئول دفتر برای ایجاد یک قرار ملاقات، می‌بایست در ابتدای کار، دسترسی‌های لازم برای خواندن و نوشتن تمام تقویم‌های نرم افزار را داشته باشد. بدین منظور با توجه به برنامه‌های کاری خود، می‌تواند تقویم‌های مختلفی مانند تقویم مدیران، تقویم کارکنان، تقویم مناسبت‌ها و ... را مشاهده کند و از وضعیت حضور افراد و اتاق‌ها در تقویم‌های مختلف مطلع شود.
-
-در قسمت [تقویم کاری من](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/My-work-calendar/My-work-calendar.md)، می‌تواند قرارهای ست شده در تقویم‌های مختلفی را که از قبل در نرم افزار تعریف شده است را مشاهده کند. همچنین با فیلدهایی که در این قسمت وجود دارد، این امکان را دارد بر اساس کاربران یا محل برگزاری یا روز مشخص، ‌قرار ملاقات‌های ست شده را فیلتر نماید. برای مثال، بررسی نماید آیا برای تاریخ و ساعت موردنظر، اتاق جلسات خالی وجود دارد یا خیر. در مثالی دیگر، قصد دارد مشاهده کند آیا مدیر مربوطه در قرار ملاقاتی دعوت شده است یا خیر.
- .
-در این قسمت، امکان ایجاد قرار ملاقات جدید وجود دارد. در هنگام ایجاد قرار ملاقات این توانایی را دارد که برای مدیران و حاضران در جلسه، پیام یادآوری و دعوت ارسال نماید. برای تنظیم پیام‌های قرار ملاقات می‌بایست به قسمت مدیریت پیام‌های سیستمی‌ مراجعه نماید. همچنین می‌تواند برای یادآوری قرار ملاقات برای خود، یادآوری و پیگیری ثبت نماید.
-
-برای این کار، به هنگام ایجاد آیتم قرار ملاقات، در قسمت بالای صفحه، امکان [ثبت یادآوری و پیگیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md) وجود دارد.
-
-برای مشاهده قرار ملاقات‌های ایجاد شده و وضعیت آنها، می‌تواند به  [قسمت کارتابل قرار ملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Meeting-card/Meeting-card.md) و [ویجت قرار ملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Appointment/AppointmentWidget.md) مراجعه کند.
-
-##### پیگیری کارهای محوله از طرف مدیر و ابلاغ دستورات به افراد سازمان
-
-مسئول دفتر، می‌بایست تمام کارهای محوله از طرف مدیر را پیگیری نماید و در صورت لزوم دستورات ابلاغ شده از طرف مدیر را در قالب وظیفه به افراد سازمان ارجاع دهد.
-
-در قسمت [وظیفه و پیگیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Task-tracking/2.6.0/Task-tracking.md)، این امکان را دارد اطلاعیه‌ها و ابلاغیه‌های سازمان را در قالب وظیفه ای جدید به کارکنان سازمان انتقال دهد. همچنین قادر خواهد بود وظیفه‌ی را که از سمت مدیر دریافت کرده، به فرد دیگری ارجاع دهد.
-
-برای مشاهده وظایف ثبت شده و ارجاع داده شده، می‌تواند به [کارتابل وظایف](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Task-tracking/2.6.0/Task-tracking.md) خود رجوع کند.
-
-مسئول دفتر می‌بایست، روزانه  امور محوله و فعالیت‌های در دست انجام را پیگیری نماید. جهت انجام این کار، می‌بایست هنگام ایجاد فعالیت موردنظر، در بالای همان صفحه، پیگیری و توضیحات لازم را برای خود ثبت نماید.
-
-لیست تمام پیگیری‌ها و وضعیت آنها در [کارتابل وظیفه و پیگیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Task-tracking/2.6.0/Task-tracking.md) قابل مشاهده است. همچنین در بخش مدیریت ارتباط با مشتریان،وظیفه و پیگیری، این امکان را دارد وضعیت وظیفه‌ها و پیگیری‌های مربوط به خود را مشاهده کند.
-
-در نظر داشته باشد، جهت یادآوری امور محوله به خود، می‌تواند بر روی هر آیتم، یادآوری ثبت کند و ساعت و روز یادآوری فعالیت مورد نظر را مشخص کند. یادآوری ثبت شده به صورت پاپ آپ یا هشدار صوتی به کاربر اطلاع داده می‌شود.
-
-##### تماس و پاسخگویی به مراجعین، کارکنان و مدیران
-
-مسئول دفتر، مسولیت پاسخگویی تماس‌ها و هماهنگی و ارتباط بین افراد سازمان و مدیران را برعهده دارد.
-
-جهت برقراری تماس با افراد سازمان و مشتریان، از دو طریق این امر میسر می‌باشد. اگر سیستم تلفنی ویپ داشته باشد، قادر خواهد بود از طریق تب مشخصات هویت با استفاده از [برقراری تماس با کلیک](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/calls-h/Click-to-call.md)، با هویت موردنظر ارتباط برقرارکند.در روش دیگر، با استفاده از نوار ابزار تلفن در صفحه اصلی نرم افزار، قادر به شماره گیری خواهد بود.در این قسمت لیست سابقه تماس‌هایی که گرفته شده یا دریافت شده قابل مشاهده است.
-
-کاربر در قسمت [تنظیمات من، تماس‌ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/my-setting/my-setting.md)، قادر به انجام تنظیماتی خواهد بود که هنگام تماس مخاطبان با شرکت، پروفایل مربوطه یا فرم مورد نظر به صورت خودکار نمایش داده شود.
-
-به ازای تماس تلفنی‌های برقرار شده، می‌بایست ثبت تماس انجام شود تا در آینده با توجه به جزئیات تماسی که ثبت کرده است، پیگیری‌های لازم را انجام دهد. برای این کار،پس از اتمام تماس، این امکان را دارد که از تب سوابق هویت مورد نظر، یک [تماس تلفنی جدید](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-phone-call/New-phone-call.md) ایجاد کند.
-
-##### پیگیری و انجام مکاتبات ارسالی و دریافتی درون سازمانی و برون سازمانی تا حصول نتیجه
-
-مسئول دفتر، می‌بایست به تمامی‌مکاتبات درون سازمان و برون سازمانی رسیدگی کند و در صورت نیاز مکاتبه جدیدی آغاز کند. به 3 روش فکس،ایمیل و پیام کوتاه، قادر خواهد بود با کارکنان و افراد درون سازمان و برون سازمان ارتباط برقرارکند. برای مکاتبات ارسالی و دریافتی از طریق فکس، به بخش ارتباطات، [فکس](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/fax/fax.md) دسترسی دارد. می‌تواند لیست تمام [فکس‌های ارسالی و دریافتی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/connections/fax-conect/fax-connect.md) خود را مشاهده کند و همچنین ارسال فکس جدیدی را ایجاد کند. برای مدیریت ایمیل‌های خود می‌تواند به قسمت [پست الکترونیکی من](https://github.com/1stco/PayamGostarDocs/blob/master/Help/connections/Mailbox/2.6.0/mailbox.md) مراجعه کند تا لیست ایمیل‌های دریافتی و ارسالی خود را مشاهده کند یا ایمیل جدید ارسال کند.
-
- لازم به ذکر است با استفاده از [ارسال سریع](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/ersal-sari.md)، این امکان را دارد تا پیام خود را به یکی از 3روش نامبرده برای مخاطب یا مخاطبین موردنظر، ارسال نماید. برای مشاهده لیست پیام‌های ارسالی و دریافتی خود از طریق پیام کوتاه، می‌بایست به قسمت پیام کوتاه ، [لیست ارسالی، دریافتی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/connections/sms-connet/sms-connect.md) مراجعه کند.لازم به ذکر است در صورت دارا بودن مجوز مشاهده لیست پیام‌های ارسالی یا دریافتی، امکان مشاهده تمامی‌پیام‌های ارسالی و دریافتی توسط کاربران دیگر نیز، وجود دارد
-
-#####  مشاهده و دسترسی به اطلاعات ثبت شده و سوابق مشتریان
-
-در نرم افزار پیام گستر، اصطلاح بایگانی معنایی ندارد. چراکه تمام فعالیت‌ها و آیتم‌های مالی و غیر مالی به همراه جزئیات آن‌ها در سیستم ثبت و ذخیره می‌شود.
-
-###### کاربر از 2 طریق ، می‌تواند به این اطلاعات دسترسی داشته باشد:
-
-**1-**	در صورتیکه قصد دارد  به سوابق و اطلاعات مربوط به هویت خاصی دسترسی داشته باشد، می‌بایست به تب مشخصات هویت،[سوابق](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md) رجوع کند تا تمام اطلاعاتی که تاکنون برای آن هویت ثبت شده است را مشاهده کند.
-
-**2-**	درصورتیکه قصد دارد به تمام آیتم‌ها و فعالیت‌هایی که در سیستم ذخیره کرده است، دسترسی داشته باشد، می‌بایست به قسمت [تاریخچه CRM](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/CRM-History/CRM-History.md) مراجعه کند. در این قسمت لیست تمام آیتم‌های CRM مانند قرار ملاقات، وظیفه،تماس تلفنی و ... قابل مشاهده است و این امکان را دارد بر اساس فیلتر‌های مختلف آیتم موردنظر را جستجو کند.
-
-## مستندات رسمی پیام‌گستر — Positions-Roadmap-CEO-Position
-
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
-
-### مروری بر آموزش‌های مدیر‌عامل
-`مسیر سند: Positions-Roadmap/CEO-Position/CEO-roadmap.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/CEO-Position/CEO-roadmap.md)
-
-مدیرعامل، نقشی کلیدی در هدایت سازمان به سمت پیروزی و موفقیت دارد. اگر وظایف مدیرعامل به خوبی اجرا شود، سازمان در جهت سود و رونق بیشتر حرکت خواهد کرد و اهداف مثبت یکی پس از دیگری به وقوع می‌پیوندند.
-
- از مهم ترین وظایفی که یک مدیر عامل بر عهده دارد، به شرح ذیل می‌باشد:
-
- - ایجاد، ترویج و اجرای اهداف سازمانی وهدایت سازمان به سمت توسعه و اجرای راهبردهای کلی سازمان.
- - نظارت بر عملکرد وضعیت سازمان و کارکنان و شناسایی نقاظ ضعف و نیاز‌های سازمان
- - تعیین شاخص عملکردی و برنامه ریزی و هدایت امور در جهت ارتقا و پیشرفت سازمان
- - ارتباط مستمر و موثر با تمام واحدهای سازمان و رفع کمبود‌ها و خلاء‌های موجود
- - نظارت بر کلیه امور و عملیات سازمان و اجرای درست فرآیندهای سازمان
-
-مدیر عامل، می‌بایست اهداف و استراتژی سازمان را طراحی و تعیین کند. برای پیاده سازی اهداف خود که در راستای افزایش بازدهی سازمان و فروش بیشتر و جذب و حفظ مشتریان است، لازم به یک سیستم حرفه ای CRM جهت مدیریت کارامد و بهینه تر امور و عملیات داخل سازمان می‌باشد.
-
-یک مدیر می‌بایست ابتدا با مفاهیم CRM  آشنا باشد تا پس از شناسایی نیاز‌ها و کمبود‌های سازمان، از رویکرد CRM  در بخش‌های مختلف سازمان استفاده کند.
-
-CRM پیام گستر، به عنوان پیشرفته‌ترین و کاربردی ترین پلتفرم مدیریت ارتباط با مشتری با طراحی ساده و کاربر پسند، باعث بهبود عملکرد، افزایش بهره‌وری و مشتری‌مداری در سازمان شما می‌شود.
-
-در قسمت [معرفی نرم افزار پیام‌گستر](https://github.com/1stco/PayamGostarDocs/blob/master/Positions-Roadmap/CEO-Position/crm-payamgostar.md)، توضیحات مختصری در مورد قابلیت‌ها و ویژگی‌های این نرم افزار گفته شده است.
-
-از دیگر وظایف مدیر عامل، نظارت بر وضعیت عملکرد سازمان و ارزیابی فعالیت‌های سازمان است. برای دسترسی به وضعیت عملکرد سازمان در بخش گزارشات میتواند عملکرد شرکت و کاربران را مشاهده کند و با ارزیابی وضعیت آن‌ها برای آینده شرکت، تصمیمات لازم را  اتخاذ کند.
-
-در قسمت چارت سازمانی، قادر به مشاهده چارت سازمان و فعالیت‌های انجام شده در هر دپارتمان است.
-
-مدیر عامل، می‌بایست در جریان کمپین‌های تبلیغاتی درحال اجرا باشد و با تحلیل و بررسی نتیجه کمپین‌ها، برای آینده تصمیمات موثری اتخاذ نماید. در قسمت بازاریابی و فروش، قادر به  مشاهده نمودار اطلاعات مربوط جذب مشتریان و نحوه آشنایی مخاطبان می‌باشد. در نمودار تحلیل کمپین، می‌تواند میزان هزینه‌ها و درآمد‌های حاصله از هر کمپین را مشاهده کند. در قسمت بازاریابی و فروش، با تحلیل و بررسی نمودار آن، این نتیجه حاصل می‌شود که کدام برنامه تبلیغاتی برای چه مخاطبانی موثر تر بوده و  کدام یک بازدهی بیشتری برای سازمان داشته است.
-
-مدیر عامل می‌بایست از وضعیت فروش سازمان و میزان درآمدها مطلع  باشد. در قسمت فرصت‌ها، می‌تواند تعداد فرصت‌های ثبت شده به همراه جزئیات آن را مشاهده کند و با ارزیابی نمودار‌های مربوطه، کارشناسان فروش سازمان را به سمت پیشبرد اهداف سازمان و فروش بیشتر هدایت نماید.
-
-در گزارشات فروش، امکان مشاهده جزئیات و مجموع فروش و همچنین فروش به تفکیک محصولات یا کارشناسان وجود دارد. با بررسی این گزارشات نقاط ضعف و کمبود‌های سازمان قابل شناسایی است و مدیر عامل می‌بایست برای رفع این مشکلات تصمیمات و تغییرات مهم را اعمال نماید.
-
-در بخش گزارشات فرایندی، می‌تواند دید کلی نسبت به فرایندهای در حال اجرا سازمان به دست آورد. در واقع وظیفه دارد بر اجرای درست فرآیندها نظارت داشته باشد و در صورت به وجود امدن مشکل،در جهت رفع آن بکوشد. اطلاعات مربوط به فرآیند‌ها را بر حسب نیاز می‌تواند با استفاده از نمودار‌های دیاگرام، کانبان، به تفکیک فعالیت‌ها و بر اساس کاربر مشاهده نماید.
-
-### مفهوم CRM
-`مسیر سند: Positions-Roadmap/CEO-Position/crm-concept.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/CEO-Position/crm-concept.md)
-
-کلمه‌ی CRM مخفف عبارتCustomer Relationship Management به معنای مدیریت ارتباط با مشتری می‌باشد.
-
-CRM یک استراتژی برنامه ریزی شده برای مدیریت ارتباط با مشتریان فعلی و مشتریان آتی کسب و کار‌ها می‌باشد. در واقع هر رویکردی که با استفاده از داده‌ها به ساختن، بهبود و مدیریت تعامل با مشتریان بپردازد، مفهوم CRM را تداعی می‌کند.
-
-نباید CRM را صرفا به فروش و بازاریابی محدود نمود، بلکه به منظور بهره وری هر چه بیشتر، این رویکرد می‌بایست در کلیه بخش‌های سازمان از جمله خدمات پس از فروش، مدیریت زنجیره تامین، امور مالی و منابع انسانی جاری باشد.
-
-#####  نرم افزار CRM
-
-نرم افزار‌های CRM ، ابزاری هوشمند جهت پیاده سازی رویکرد CRM برای مدیران در سازمان‌ها هستند تا به کمک آن‌ها تمام اهداف سازمانی به صورت سیستماتیک و برنامه ریزی شده محقق شوند. به بیانی دیگر، ابزاری برای درک وضعیت فعلی سازمان و برنامه ریزی برای آینده‌ی آن می‌باشد. از مهم ترین مزایای نرم افزار CRM می‌توان به بازاریابی و تبلیغات موثر، افزایش راندمان و بهبود عملکرد، افزایش فروش و مدیریت کامل سازمان اشاره کرد.
-
-نرم افزار CRM پیام گستر شامل ماژول‌های متنوع ارتباط با مشتری، خدمات پس از فروش، تبلیغات، خرید و فروش، انبارداری، اتوماسیون اداری، مدیریت فرایندها، تحلیل داده و هوش تجاری، مرکز تماس، باشگاه وفاداری مشتریان، فرم ساز و ... می‌باشد.
-
-استفاده از CRM در سازمان به شما کمک می‌کند هم به مشتری ارزش دهید و هم برای او ارزش ایجاد کنید.
-CRM در تیم فروش باعث شناخت بهتر و درک مشتری می‌شود؛ به تیم مارکتینگ در پیش‌بینی‌های دقیق‌تر کمک می‌کند؛ تیم پشتیبانی با استفاده از CRM می‌توانند، گفت‌و‌گوها و ارتباطات با مشتری را از کانال‌های مختلف پیگیری کنند و تعامل سازنده‌تری با آن‌ها داشته باشند و در نهایت CRM به تیم منابع انسانی کمک می‌کندتا بر عملکرد کارکنان نظارت داشته باشند.
-
-### پیام‌گستر چیست؟
-`مسیر سند: Positions-Roadmap/CEO-Position/crm-payamgostar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/CEO-Position/crm-payamgostar.md)
-
-نرم‌ افزار CRM پیام‌گستر، به عنوان پیشرفته‌ترین و کاربردی ترین پلتفرم مدیریت ارتباط با مشتری با طراحی ساده و کاربر پسند، باعث بهبود عملکرد، افزایش بهره‌وری و مشتری‌مداری در سازمان شما می‌شود.
-
- با استفاده از سیستم CRM  پیامگستر، مدیر عامل قادر است اهداف و تصمیمات خود را در سازمان پیاده سازی و توسعه دهد. نظارت کامل بر تمام فعالیت‌های سازمان داشته باشد و در نتیجه بتواند به صورت شفاف برای آینده سازمان برنامه‌ریزی کند.
-
- ارتباط با مشتری پایه و اساس موفقیت هر نوع کسب و کاری است. چگونگی مدیریت این رابطه برای ایجاد تجربه مشتری حرفه‌ای به وضعیت CRM شما بستگی دارد. کسب و کارها باید به دانشی عمیق از مشتریان خود دسترسی داشته باشند و در طول راه از آن دانش استفاده نمایند. این ابزار به شما امکان انجام این کار را می‌دهد بدین ترتیب که شما را قادر می‌سازد اطلاعات مربوط به هر یک از مشتریان خود را در نرم افزار گرد‌آوری و مدیریت نمایید و قدم به قدم مراحل ارتباط با مشتری را به یک فرآیند یکپارچه تبدیل کنید.
-
- همچنین این سیستم کمک میکند در راستای جذب مشتری و فروش بیشتر، تبلیغات موثر و کمپین‌های دقیقی را راه اندازی کند و به طور حرفه‌ای نظارت و تجزیه و تحلیل نماید.
-
- به کمک این نرم افزار،اطلاعات به صورت کامل و جامع ثبت می‌شود و وابستگی سازمان به نیروی انسانی کم شده و برای تمام افراد اطلاعات همواره در دسترس و قابل استفاده باشد.
-
- یکی دیگر از مزایای استفاده از پیام‌گستر، افزایش راندمان کاری با برنامه‌ریزی و سازماندهی وظایف است.در واقع با استفاده از این نرم افزار، امکان مدیریت سیستماتیک وظایف، جلسات، پیگیری و یادآوری‌ها در سیستم وجود دارد.
-
-### تعیین اهداف و استراتژی سازمان بر اساس رویکرد CRM
-`مسیر سند: Positions-Roadmap/CEO-Position/target-system.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/CEO-Position/target-system.md)
-
- از مهم ترین مسئولیت‌های یک مدیرعامل می‌توان به تصمیم‌گیری در مورد استراتژی و سیاست‌های سازمان و مدیریت و نظارت بر اجرای آن، اشاره کرد.
-
- با در نظر گرفتن استراتژی سازمان، می‌بایست شاخص‌های عملکرد سازمان را تعریف نماید. شاخص عملکرد به مدیر عامل کمک می‌کند تا تمرکز و فعالیت‌های سازمان در راستای اهداف تعریف شده پیش رود.
-
- هر مدیر عاملی نیاز دارد تا با ارزیابی به‌موقع عملکرد سازمان، از کارکرد صحیح واحدهای مختلف آگاهی پیدا کند و بتواند حرکت خود در راستای استراتژی‌های تعیین شده را در صورت لزوم اصلاح کند.
-
- مدیر عامل در جهت بهبود ارتباط با مشتریان‌، افزایش فروش سازمان و ارزیابی کار افراد سازمان، نیاز  به پیاده سازی رویکرد crm  در بخش‌های مختلف سازمان، در راستای پیشبرد اهداف خود دارد.
-
- مدیر عامل موفق می‌بایست توانایی پیاده سازی رویکرد  crm استراتژیک را در سازمان خود داشته باشد. این رویکرد، در واقع استراتژی کسب و کار سازمان در زمینه مشتری محوری را شکل می‌دهد و به سازمان کمک می‌کند تا مشتریان جدید جذب نموده و مشتریان فعلی خود را راضی و سود آور نگه دارد. این استراتژی نقش بسیار پر‌رنگی در سازمان‌ها بازی می‌کند چرا که موجب می‌شود فرآیند‌ها و فرهنگ سازمانی صحیح مشتری محوری در کسب و کار شما شکل بگیرد.
-
-## مستندات رسمی پیام‌گستر — Positions-Roadmap-CostumerCare
-
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
-
-### واحد امور مشتریان
-`مسیر سند: Positions-Roadmap/CostumerCare/CostumerCare.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/CostumerCare/CostumerCare.md)
-
-شرکت‌ها با توجه به نیاز و استراتژی‌های خود وظایف را برای واحدهای مختلف تنظیم می‌کنند. در حالت کلی وظیفه واحد امور مشتریان رسیدگی به شکایات مشتریان می‌باشد و به دلیل در ارتباط بودن با مشتری لازم است با اکثر واحدهای شرکت مستقیماً در ارتباط باشند. به این منظور واحد امور مشتریان برای شروع به کار با نرم افزار پیام گستر می‌تواند طبق مراحل زیر پیش برود.
-
-##### 1.	مشاهده اطلاعات مشتریان
-
-###### برای دسترسی به پرونده مشتریان در پیام‌گستر روش‌های متفاوتی وجود دارد که به شرح زیر می‌باشند:
-
-•[بانک اطلاعاتی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/list-hoviat/list-hoviat.md): کارشناس مربوطه می‌تواند از طریق بانک اطلاعاتی به پرونده مشتریان دسترسی داشته باشد. لازم بذکر است در بانک اطلاعاتی با توجه به سطح دسترسی که کارشناس دارد می‌تواند دسته‌بندی‌ها و مشتریانی که در سیستم ذخیره شده‌اند را مشاهده کند.
-
-•[لیست مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Customers/Customers.md): اگر هویت مورد نظر دارای شماره مشتری است در پیا‌م‌گستر بعنوان مشتری در نظر گرفته شده و می‌توان از طریق لیست مشتریان هویت مورد نظر را جست و جو کرد.
-
-•[لیست هویت‌های تخصیص یافته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Allocation-of-findings/Allocation-of-findings.md): در صورتی که هویتی به کارشناسی در سیستم تخصیص داده شده باشد، نام هویت در این لیست برای کارشناس مربوطه قرار می‌گیرد. واضح است که در این لیست کارشناسان تنها هویت‌هایی که به کاربری خودشان تخصیص یافته است را مشاهده خواهند کرد.
-
-•	 [ویجت جست و جو پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/AdvancedSearch/AdvancedSearchWidget.md): در نرم‌افزار پیام‌گستر از طریق ویجت‌ها می‌توان دسترسی سریع‌ تر و راحت تر به قسمت‌های مختلف نرم‌افزار داشت. به همین منظور برای پیدا کردن هویت می‌توان نام هویت را در این ویجت جست و جو کرد و مستقیم وارد پرونده وی شد.
-
-•	 [ [صفحه جست و جو پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Advanced-search/Advanced-search.md): با استفاده از فیلترهای متنوعی که در این صفحه وجود دارد می‌توان فیلتر مد نظر را اعمال و به راحتی هویت مورد نظر را جست و جو کرد.
-
-##### 2.	معرفی صفحات هویت
-
-کارشناس مربوطه پس از وارد شدن به پرونده مشتری می‌تواند تمامی سوابقی که از قبل برای مشتری ثبت شده است راکارشناس مربوطه پس از وارد شدن به پرونده مشتری می‌تواند تمامی سوابقی که از قبل برای مشتری ثبت شده است را مشاهده کند. منظور از سوابق مشتری تمامی آیتم‌های crm ای است که به هویت مربوطه مرتبط شده است. آیتم‌های crm  ای شامل: لیست تماس‌های دریافتی و خروجی مشتری، فرصت‌های فروش، امتیازات باشگاه مشتریان، لیست انواع فاکتورها/ پیش‌فاکتورها/ فاکتورهای برگشتی، لیست دریافتها و پرداختها، درخواست‌های پشتیبانی، لینک‌های پرداخت مشتری، یادداشت‌ها و فایل‌‌ها می‌باشد.
-
-##### 3.	تماس‌ها
-
-•	**پاسخ دادن تماس مشتری:** از طریق قسمت  [نوار ابزار تلفن](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/calls-h/shomaregir.md) می‌توان تمامی تماس‌هایی که در لحظه با  با داخلی کارشناس گرفته میشود را پاسخ داد. همچنین در نوار ابزار تلفن کارشناس می‌تواند تماس‌های از دست رفته مشتری یا تماس‌هایی که کارشناس گرفته را مشاهده کند. واضح هر کارشناس تنها تماس‌هایی که با داخلی وی انجام شده را مشاهده می‌کند.
-
-•	**سوابق تماس:** واحد امور مشتریان به دلیل در ارتباط بودن با مشتری می‌تواند اطلاعات جدیدی که از مشتری کسب کرده را در پرونده وی ثبت کند. بعنوان مثال اگر مشتری با شماره جدیدی تماس گرفته باشد می‌توان آن را به پروفایل مشتری اضافه کرد یا پس از اتمام صحبت با مشتری کارشناس می‌تواند با ایجاد کردن یک تماس جدید، اطلاعاتی که در آن تماس بدست آورده را ثبت کرده و  [فایل ضبط شده مکالمات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/calls-h/zabt-mokale.md) نیز پیوست داده شود.
-
-•	**برقراری تماس با مشتری:** برای تماس گرفتن با مشتری می‌توان از طریق [نوار ابزار تلفن](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/calls-h/shomaregir.md)  و  [پرونده مشتری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/calls-h/Click-to-call.md) اقدام کرد.
-
-##### 4.	ارسال پیام
-
-بمنظور در ارتباط بودن با مشتریان بجز تماس تلفنی می‌توان از طریق پیام‌کوتاه، ایمیل و فکس نیز با مشتریانبمنظور در ارتباط بودن با مشتریان بجز تماس تلفنی می‌توان از طریق پیام‌کوتاه، ایمیل و فکس ( [ارسال سریع](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/ersal-sari.md)) نیز با مشتریان در ارتباط بود.
-
-##### 5.	ایجاد سابقه برای مشتری
-
-بمنظور ایجاد سابقه جدید برای مشتریان می‌توان از طریق  [ویجت دسترسی سریع](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/QuickAccess/QuickAccessWidget.md)، صفحه هویت و بانک اطلاعاتی اقدام کرد. با استفاده از آیتم‌های crm موجود در پیام‌گستر می‌توان برای هر مشتری سابقه جدید ایجاد کرد که در ادامه به تفصیل توضیح داده خواهند شد.
-
-•	 [قرارملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-appointment/new-appointment.md): به منظور ایجاد جلسه با مشتری و افراد سازمان می‌توان از این آیتم استفاده کرد. کارشناس بمنظور مشاهده قرارملاقات‌هایی که در هر روز دارد می‌تواند از طریق  [کارتابل قرارملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Meeting-card/Meeting-card.md)، قرارهای روز جاری خود را مشاهده کند.
-
-•	[وظیفه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-task/New-task.md): در صورتی که قرار باشد کارشناس یک کار (تسک) جدید انجام دهد یا کاری را کارشناس به فرد دیگری در سازمان ارجاع دهد لازم است در پیامگستر یک وظیفه جدید ایجاد شود. در واقع با ایجاد کردن وظیفه در سیستم برای شخصی که مسوول آن است، فرد از کار جدیدش آگاه می‌شود. بمنظور مشاهده وظیفه‌های جدیدی که باید انجام شود یا وظیفه‌هایی که کارشناس ارجاع داده، می‌توان از طریق  [کارتابل وظیفه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Task-tracking/2.6.0/Task-tracking.md) اقدام کرد.
-
-•	[یاددشت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-notes/New-notes.md): برای ثبت کردن برخی از اطلاعات کلی درباره مشتری می‌توان با ایجاد یک یادداشت جدید، اطلاعات را در پروفایل مشتری ذخیره کرد.
-
-•	[فایل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-file/Records.md): برای پیوست کردن فایل‌های مربوط با مشتری می‌توان از آیتم فایل استفاده کرد.
-
-##### 6.	ایجاد پیگیری و یادآوری
-
-بر روی تمامی آیتم‌های crm می‌توان  [پیگیری و یادآوری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md) تنظیم کرد. به عنوان مثال قرار است کارشناس یک موضوعی را پیگیری کند، می‌تواند کاری که قرار است پیگیری کند را در قالب یک وظیفه برای خود ایجاد کرده و بر روی وظیفه پیگیری و یادآوری برای خود ایجاد کند. برای مشاهده تمامی پیگیری‌ها می‌توان از طریق  [ویجت پیگیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/FollowUpWidget/FollowUpWidget.md)‌ تمامی پیگیری‌های ایجاد شده بر اساس تاریخ را مشاهده کرد و یادآوری ها در زمان تنظیم شده به حالت پاپ آپ بر روی صفحه نمایش داده خواهند شد. واضح است پیگیری و یادآوری تنظیم شده بر روی آیتم‌ها برای یادآوری به خود کارشناس است نه کارشناسان دیگر.
-
-##### 7.	ارتباط درون سازمانی
-
-بر روی تمامی آیتم‌های crm، باکس [نظرات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Comments-home/Comments-home.md)
- وجود دارد و می‌توان از آن برای ارتباط با کاربران سیستم استفاده کرد. بعنوان مثال کارشناسی می‌خواهد به واحد دیگری موضوعی را یادآوری کند، کاربر می‌تواند بر روی آیتم مرتبط، واحد یا فرد مورد نظر را در قسمت نظرات ذکر و پیام خود را برای وی ثبت کند. کاربر سیستم برای مشاهده تمامی نظراتی که در آن منشن شده است می‌تواند از طریق [ویجت نظرات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Comments/2.6.0/Comments.md)
- پیام‎ها را مشاهده کند.
-
-برای آشنایی بیشتر با ویژگی‌های پیام‌گستر دسته‌بندی‌های  [مباحث پایه ارتباط با مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Category-docs/Crm-basic.md)  و  [مدیریت بانک اطلاعاتی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Category-docs/Database-management.md)
-  مطالعه شود.
-
-## مستندات رسمی پیام‌گستر — Positions-Roadmap-FinanceDepartman
-
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
-
-### واحد مالی
-`مسیر سند: Positions-Roadmap/FinanceDepartman/FinanceDepartman.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/FinanceDepartman/FinanceDepartman.md)
-
-شرکت‌ها استراتژی‌های متفاوتی برای فرآیند مالی خود دارند، اگر در حالت کلی در نظر بگیریم وظایف واحد مالی تایید سندهای صادر شده و بررسی گزارشات مالی، تنظیمات شخصی سازی مرتبط با آیتم‌های مالی مثل ساخت انواع فاکتورها، دریافت‌ها و قراردادها است. واحد مالی برای شروع به کار با نرم افزار پیام گستر می‌تواند طبق روال زیر پیش برود.
-
-##### 1.	تنظیمات واحد مالی
-
-در ابتدا لازم است واحد مالی [حساب‌های شرکت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Financial-account-management/Financial-account-management.md) را در سیستم تعریف کرده و [تنظیمات لینک پرداخت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/payment-pg/payment-pg.md) مشتریان را انجام دهد.
-
-##### 2.	بررسی و مدیریت آیتم‌های مالی
-
-انواع فاکتورها، قراردادهای مالی، دریافت‌ها و پرداخت‌‌ها توسط کارشناسان مربوطه در پیام‌گستر صادر می‌شوند و برای تایید، رد و شماره‌گذاری به مدیر واحد مالی ارسال می‌شوند. همچنین با توجه به اینکه می‌توان وجه را به روش‌های مختلفی واریز کرد، پیگیری تسویه حساب‌های اعتباری و چکی، واریز و دریافت وجه نیز به واحد مالی ارسال می‌شوند. بمنظور مشاهده آیتم‌هایی که لازم است تایید و شماره‌گذاری شوند می‌توان از طریق کارتابل تراکنش مربوطه، آیتم‌هایی که در انتظار تایید و شماره‌گذاری هستند را تایید یا رد کرد. به عنوان مثال برای مشاهده فاکتورهای فروش در انتظار می‌توان از طریق کارتابل فاکتور فروش، تایید و شماره‌گذاری فاکتورهارا انجام داد. لازم بذکر است بعد از تایید آیتم‌ مالی مبلغ در مانده حساب مشتری لحاظ شده و به معنای دیگر مشتری بدهکار یا بستانکار خواهد شد.
-همچنین برای مشاهده آیتم‌های صادر شده می‌توان از طریق تب خرید، فروش و انبار لیست آیتم مورد نظر را مشاهده کرد.
-
-##### 3.	همگام‌ساز مالی
-
-پیام‌گستر قابلیت سینک با نرم‌افزارهای مالی سپیدار، تدبیر، پیوست، راهکاران و همکاران را دارد و در صورت استفاده از ماژول همگام‌ساز مالی بررسی وضعیت سینک آیتم‌ها با واحد مالی می‌باشد.
-
-##### 4.	ایجاد سابقه عمومی
-
-جهت ارتباطات درون سازمانی، پیگیری کارهای خود، مدیریت اسناد و سوابق مالی با استفاده از آیتم‌های crm موجود در پیام‌گستر امکان‌پذیر است. همچنین می‌توان برای هر هویت یا آیتم crm، سابقه‌های جدید ایجاد کرد که در ادامه به تفصیل توضیح داده خواهند شد.
-
-•		[قرارملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-appointment/new-appointment.md): به منظور ایجاد جلسه با افراد شرکت می‌توان از این آیتم استفاده کرد. کارشناس بمنظور مشاهده قرارملاقات‌هایی که در هر روز دارد می‌تواند از طریق   [کارتابل قرارملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Meeting-card/Meeting-card.md)، قرارهای روز جاری خود را مشاهده کند.
-
-•	[وظیفه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-task/New-task.md): در صورتی که قرار باشد کارشناس یک کار (تسک) جدید انجام دهد یا کاری را کارشناس به فرد دیگری در سازمان ارجاع دهد لازم است در پیامگستر یک وظیفه جدید ایجاد شود. در واقع با ایجاد کردن وظیفه در سیستم برای شخصی که مسوول آن است، فرد از کار جدیدش آگاه می‌شود. بمنظور مشاهده وظیفه‌های جدیدی که باید انجام شود یا وظیفه‌هایی که کارشناس ارجاع داده، می‌توان از طریق [کارتابل وظایف](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Cardboard/Task-tracking/2.6.0/Task-tracking.md) اقدام کرد.
-
-•	[یادداشت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-notes/New-notes.md): برای ثبت کردن برخی از اطلاعات کلی می‌توان با ایجاد یادداشت جدید، اطلاعات را در سابقه آیتم مورد نظر ذخیره کرد.
-
-•	[فایل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-file/Records.md): برای پیوست کردن فایل‌ها می‌توان از این آیتم استفاده کرد.
-
-•	[نظرات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Comments-home/Comments-home.md): بر روی تمامی آیتم‌های crm، باکس نظرات وجود دارد و می‌توان از آن برای ارتباط با کاربران سیستم استفاده کرد( ارتباطات درون سازمانی). بعنوان مثال کارشناسی می‌خواهد به واحد دیگری موضوعی را یادآوری کند، کاربر می‌تواند بر روی آیتم مرتبط، واحد یا فرد مورد نظر را در قسمت نظرات ذکر و پیام خود را برای وی ثبت کند. کاربر سیستم برای مشاهده تمامی نظراتی که در آن مخاطب واقع شده است می‌تواند از طریق  [ویجت نظرات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/Comments/2.6.0/Comments.md) پیام‎ها را مشاهده کند.
-
-##### 5.	ایجاد پیگیری و یادآوری
-
-بر روی تمامی آیتم‌های crm می‌توان [پیگیری و یادآوری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md) تنظیم کرد. به عنوان مثال قرار است کارشناس تسویه حساب مشتری یا تامین کننده‌ای را پیگیری کند، می‌تواند بر روی فاکتور مربوطه تنظیمات پیگیری و یادآوری را ایجاد کند. همچنین برای مشاهده تمامی پیگیری‌ها می‌توان از طریق [ویجت پیگیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/FollowUpWidget/FollowUpWidget.md) تمامی پیگیری‌های ایجاد شده بر اساس تاریخ را مشاهده کرد و یادآوری‌ها در زمان تنظیم شده به حالت پاپ آپ بر روی صفحه نمایش داده خواهند شد. واضح است پیگیری و یادآوری تنظیم شده بر روی آیتم‌ها برای یادآوری به خود کارشناس است نه کارشناسان دیگر.
-
-##### 6.	گزارشات مالی
-
-با استفاده از گزارشات موجود در پیام‌گستر می‌توان انواع گزارشات فروش، خرید، قرارداد، دریافت، پرداخت، درآمد، مانده حساب مشتریان و محاسبه پورسانت را دریافت کرد. لازم بذکر است گزارشات ذکر شده گزارشات آماده سیستمی می‌باشند و در صورت تهیه ماژول گزارش ساز می‌توان گزارش مد نظر خود را ساخته و استفاده کنید.
-
-## مستندات رسمی پیام‌گستر — Positions-Roadmap-IT-Man
-
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
-
-### کارشناس IT
-`مسیر سند: Positions-Roadmap/IT-Man/IT-man.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/IT-Man/IT-man.md)
-
-کارشناس IT، با توجه به استراتژی و نیازهای سازمان وظایف و مسئولیت‌های مختلفی  را در حوزه‌ی ارتباطات و اطلاعت بر عهده دارد، عموما  فعالیت‌ها و وظایفی که یک کارشناس IT در یک سازمان بر عهده دارد، به شرح ذیل می‌باشد:
-
-##### •	ایجاد دسترسی مورد نیاز سازمان به نرم‌افزار
-
-نصب و راه اندازی نرم افزارها و اقدامات لازم برای دسترسی کاربران به نرم افزارهای مورد نیاز از وظایف کارشناس IT  سازمان میباشد. کارشناس IT  میبایست اقدامات لازم به منظور دسترسی کاربران به نرم افزار پیام گستر از طریق شبکه درون سازمانی و یا در صورت نیاز خارج از سازمان را انجام دهد، دسترسی داخلی نرم افزار پیام گستر به دلیل تحت وب بودن نرم افزار توسط شبکه Local روی IP و Port مورد نظر امکان پذیر هست و برای ایجاد دسترسی به نرم افزار خارج از شبکه داخلی پس از تهیه [IP Static](https://help.payamgostar.com/docs/RuleBasedDocs/%D8%AA%D9%86%D8%B8%DB%8C%D9%85%D8%A7%D8%AA-%D8%A2%DB%8C-%D9%BE%DB%8C-%D9%BE%D8%A7%D8%A8%D9%84%DB%8C%DA%A9_di19dd8244-4b63-4a9f-ac7c-ccbfc82f491e)، باید IP روی سرور پیام گستر تعریف شود تا کاربران خارج از شبکه داخلی با استفاده از IP Static دسترسی به نرم افزار داشته باشند.
-
-##### •	بروزرسانی‌های مرتبط با نرم‌افزار
-
-چک کردن و بروزرسانی نرم‌افزار یکی دیگر از وظایف کارشناس IT است با توجه به اهمیت رفع ایرادات موجود در نسخه‌های قدیمی نرم افزار و ارایه قابلیت‌های جدید در نسخه‌های به روز شده پیام‌گستر، پیشنهاد می‌شود همیشه از نسخه‌های بروز شده استفاده نمایید، همچنین در صورت داشتن ماژول فهرست مشاغل اول با توجه به اهمیت بالای اطلاعات دقیق در اثربخشی برنامه‌های تبلیغاتی، پرتال تجارت الکترونیک اول محتوای اطلاعات فهرست مشاغل اول را به صورت دوره‌ای  بروزرسانی می‌کند.
- کارشناس IT باید اطلاعات فهرست مشاغل اول و همچنین سایر بروزرسانی‌های مرتبط با نرم افزار را به صورت دستی یا به صورت خودکار توسط برنامه زمانی معین، از طریق سپتا[آپدیت سنتر](https://github.com/1stco/PayamGostarDocs/blob/master/Help/update/update.md)روی سرور پیام‌گستر دریافت کند.
-
-##### •	پشتیبان گیری از اطلاعات
-
-نظارت بر پشتیبان گیری دوره‌ای از داده‌های نرم افزار از وظایف مرتبط با کارشناس IT است، کارشناس IT  باید به منظور حفظ داده‌های نرم افزاری و جلوگیری از، از دست دادن اطلاعات در یک سازمان در زمان‌های معین به صورت دوره‌ای اقدام به پشتیبان گیری کامل از اطلاعات نرم افزار کند، [پشتیبان گیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/backup/back-up/back-up.md) از روی سرور پیام گستر به صورت دستی و خودکار قابل اجراست.
-در صورتی که فایل‌هایی که توسط نرم‌افزار پشتیبان‌گیری شده روی سرور موجود باشد، کارشناس IT میتواند هنگام بروز هرگونه مشکل در پایگاه داده، اطلاعات مورد نیاز را مجدد از طریق نرم افزار بازیابی کند.
-
-##### •	مدیریت سیستم‌های تلفنی
-
-کارشناس IT  با توجه به سیستم تلفنی در دسترس سازمان باید تنظیمات نرم افزاری سیستم تلفنی و در صورت نیاز اتصالات سخت افزاری را روی سرور پیام گستر برقرار کند، پس از تعریف سیستم تلفنی روی سرور پیام گستر به منظور تعریف سیستم تلفنی برای شعبه مورد نظر میبایست از [صفحه‌ی اصلی مدیریت سیستم‌های تلفنی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Telephone-systems/telephone-systems-Management/telephone-systems-Management.md)، [سیستم تلفنی جدید](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Telephone-systems/telephone-systems-Management/add-systemtelephony.md)را اضافه کند، همچنین این امکان وجود دارد که [خطوط تلفنی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Telephone-systems/telephone-systems-Management/add-line.md) و [داخلی‌](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Telephone-systems/telephone-systems-Management/add-Internal.md‌)های متناظر با هر کاربر را تعریف کند، درصورتی که کاربر دسترسی به خطوط تلفنی را داشته باشد میتواند برای برقراری تماس از طریق نرم افزار اقدام کند.
-
-##### •	مدیریت خطوط پیام کوتاه
-
-برای ارسال پیام‌کوتاه به مخاطبان به صورت تکی و یا گروهی باید ابتدا خطوط پیام کوتاه در نرم‌افزار تعریف شود، کارشناس IT  با توجه به [اپراتورهای قابل پشتیبانی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/payamak/line-support.md) پیام کوتاه توسط نرم‌افزار، می‌تواند اطلاعات هر یک از [خطوط پرتال اول](https://github.com/1stco/PayamGostarDocs/blob/master/Help/1st/2.6.0/1st.md)، [مگفا](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/payamak/magfa.md) و [url](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/payamak/url.md)  خود را در تنظیمات کلی سیستم تعریف کند. پس از تعریف خطوط پیام کوتاه در بخش‌های مختلف نرم‌افزار به منظور اطلاع رسانی، تبلیغات و ... میتوان از خطوط تعریف شده پیام کوتاه ارسال کرد.
-
-##### •	مدیریت خطوط ایمیل
-
-برای ارسال ایمیل به مخاطبان به صورت تکی و یا گروهی باید ابتدا خطوط ایمیل در نرم‌افزار تعریف شود، کارشناس IT میبایست خطوط ایمیل مورد نیاز سازمان را با توجه به [پروتکل‌های قابل پشتیبانی،](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/gsm/modem-gsm.md‌)در تنظیمات کلی سیستم تعریف کند. پس از تعریف ایمیل‌‌ها و اعمال مجوزهای مربوط به صندوق پست الکترونیکی و ارسال و دریافت پیام، مشاهده ایمیل‌های دریافتی در صندوق پست الکترونیکی و استفاده از خطوط جهت ارسال پیام، برای کاربران امکان پذیر است.
-
-##### •	مدیریت فکس
-
-به منظور دریافت و ارسال فکس از طریق نرم‌افزار، میبایست کارشناس IT [خطوط فکس](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/fax-s/fax-s.md) را روی سرور پیام گستر تعریف کند. پس از تعریف خطوط میتوان در قسمت های مختلف نرم افزار با توجه به نیاز سازمان از خطوط فکس استفاده کرد.
-
-##### •	مدیریت چاپ
-
-برای چاپ محتوا از طریق نرم‌افزار، باید تنظیمات مرتبط با پرینترهای متصل به سرور پیام گستر توسط کارشناس IT انجام شود، پس از [تعریف پرینتر](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/General-settings/printer/tarifePRINTERmd.md)روی سرور پیام گستر با انتخاب پرینتر در نرم افزار میتوان آیتم‌های مورد نیاز را به صورت تکی و یا گروهی در بخش‌های مختلف چاپ کند.
-
-## مستندات رسمی پیام‌گستر — Positions-Roadmap-SalesAssistance
-
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
-
-### کارشناس فروش
-`مسیر سند: Positions-Roadmap/SalesAssistance/SalesAssistance.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Positions-Roadmap/SalesAssistance/SalesAssistance.md)
-
-شرکت‌ها استراتژی‌های متفاوتی برای فرآیند فروش دارند، ولی اگر در حالت کلی در نظر بگیریم وظایف اصلی کارشناس فروش کسب اطلاعات لازم درباره مشتری‌ها، مذاکره با افراد و در نهایت فروش محصولات یا خدمات به افراد است.کارشناس فروش برای شروع به کار با نرم افزار پیام گستر می‌تواند طبق روال زیر پیش برود.
-
-##### مدیریت سرنخ‌ها و مخاطبان
-
-**1.** در ابتدا باید اطلاعات هویت‌ها را در بانک اطلاعاتی به عنوان سرنخ یا مخاطب وارد کرد. در پیامگستر چند نوع عملکرد برای هویت‌ها وجود دارد. در حالتی که به عنوان مثال تنها یک شماره تماس یا یک وبسایت داریم و اطلاعات بیشتری در اختیارمان نمی‌باشد یا حتی مطمئن نیستیم که بتوانیم در آینده با این شخص همکاری داشته باشیم، یک سرنخ ثبت می‌کنیم. پس از کسب اطلاعات لازم درباره سرنخ و تائید شدن صلاحیت سرنخ برای همکاری با ما، می‌توانیم عملکرد هویت را از سرنخ به مخاطب تبدیل کنیم.
-
-پس از ذخیره اطلاعات اولیه سرنخ‌ها، نوار ابزاری در [صفحه هویت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/General-specifications.md) ایجاد می‌شود که دارای صفحات متفاوتی است مثل صفحه جزئیات، سوابق، فرصت‌ها و ... . به عنوان مثال از صفحه جزئیات می‌توان اطلاعات بیشتری به هویت اضافه کرد و این ویژگی به ما کمک می‌کند در برخوردهای بعدی با هویت عملکرد بهتری داشته باشیم. یا از صفحه سوابق می‌توان تمام آیتم‌هایی را که برای هویت ایجاد شده است را مشاهده کنید.
-
-زمانی که برای ما صلاحیت سرنخ برای تبدیل شدن به مخاطب تایید شد، می‌توان از طریق کلیک تبدیل هویت در [نوار ابزار مشخصات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Specifications-toolbar.md)، هویت را از سرنخ به مخاطب تغییر داد. اگر سرنخ مورد تایید برای ما نباشد، کلیک عدم کفایت سرنخ را زده و در حالت نامشخص قرار می‌گیرد.
-
-**2.** برای مشاهده‌ی هویت‌های ثبت شده در بانک اطلاعاتی سه روش وجود دارد:
-
-a. در بانک اطلاعاتی وارد دسته‌بندی مورد نظر شوید و هویت مورد نظر را انتخاب کنید.
-
-b. از طریق ویجت جست و جوی پیشرفته نام هویت مورد نظر را جست و جو کنید.
-
-c. از طریق صفحه جست و جوی پیشرفته هویت مورد نظر را جست جو کنید.
-
-(برای آشنایی بیشتر به مشاهده و جست و جوی هویت‌ها به دسته بندی سرنخ‌‌ها و مخاطبان مراجعه شود.)
-
-##### تبدیل فرصت فروش به معاملات
-
-**1.**پس از ایجاد هویت‌ها در بانک اطلاعاتی، می‌توان با ایجاد فرصت فروش جدید برای هویت‌ مورد نظر فرآیند فروش را شروع کرد. کارشناس فروش طبق مراحلی که از قبل برای فرصت فروش تعیین شده، مراحل را انجام می‌دهد و نتایج هر مرحله را در [سوابق فرصت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Opportunities/Opportunities.md) ثبت می‌کند . به عنوان مثال اگر مرحله اول برقراری تماس با هویت باشد کارشناس پس از ایجاد تماس، نتیجه گفت و گو را در صفحه برقراری تماس در سوابق فرصت ثبت می‌کند.
-
-###### برخی از  سوابقی که می‌توان ثبت کرد به شرح زیر می‌باشد:
-
--	ثبت [قرارملاقات](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-appointment/new-appointment.md) با مشتری
-
--	[برقراری تماس](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/calls-h/Click-to-call.md) با مشتری و[ثبت نتیجه تماس تلفنی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-phone-call/New-phone-call.md)
-
--	[ایجاد یادآوری و پیگیری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Reminder-and-follow-up/Reminder-and-follow-up.md)
-
--	[ایجاد یادداشت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-notes/New-notes.md)
-
--	[ایجاد وظیفه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-task/New-task.md)
-
--	[ایجاد فایل](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/new-file/Records.md)
-
-پس از ثبت سوابق فرصت، در آخرین مرحله کارشناس موفق بودن یا ناموفق بودن فرصت فروش را مشخص می‌کند. موفق یا ناموفق بودن فرصت فروش و دلایل موفقیت یا شکست فرصت را می‌توان در گزارش‌‌های سازمانی استخراج نمود. کارشناس فروش می‌تواند تمامی فرصت هایی را که تاکنون پایان نیافته‌ یا به اصطلاح [فرصت باز](https://github.com/1stco/PayamGostarDocs/blob/master/Help/home/widget/ChartWidget_2.5.6.md) هستند و [تمامی فرصت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Opportunities/Opportunities.md) فروش‌هایی را که ایجاد کرده را ببیند.
-
-**2.** کارشناس فروش پس از طی کردن مراحل فرصت فروش و موفق شدن در مذاکره با مشتری، حال باید طبق سیاست‌های سازمان اقدامات لازم درخصوص صدور آیتم‌های مالی صورت گیرد. در حالت کلی قابلیت‌های پیامگستر برای شروع معاملات به شرح زیر می‌باشد (لازم به ذکر است هر شرکت باتوجه به استراتژی خود از این قابلیت‌ها استفاده می‌کند، به عنوان مثال در برخی از شرکت‌ها بجای صدور فاکتور فروش، قرارداد مالی تنظیم می‌شود).
-
-**1. صدور پیش‌فاکتور فروش:** در پیامگستر از چند طریق می‌توان پیش‌فاکتور فروش را برای مشتری صادر کرد. ساده‌ترین و سریع‌‎ترین راه در صورت استفاده از [فرصت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-opportunity/mafhom-opportunity.md)، صدور پیش‌فاکتور از روی فرصت فروش می‌باشد. یه معنای دیگر ایجاد [ایجاد سابقه برای فرصت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Opportunity/NewOpportunity.md) (پیش‌فاکتور فروش)  است.
-
-روش‌های دیگر ایجاد صدور [پیش‌فاکتور فروش](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Pre-invoice-new-invoice/Pre-invoice-new-invoice.md):
-
--	از طریق صفحه هویت > تماس جدید > پیش‌فاکتور جدید
-
--	از طریق سربرگ کارتابل من > پیش‌فاکتور فروش جدید
-
--	از طریق سربرگ خرید، فروش، انبار > پیش‌فاکتور فروش
-
-**2.** [صدور فاکتور فروش](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Pre-invoice-new-invoice/Pre-invoice-new-invoice.md): همانند صدور پیش‌فاکتور فروش است.
-
-**3. ایجاد قرارداد:**  برای آشنایی کامل با صدور قرارداد مالی به دسته‌بندی [قرارداد](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/New-contract/New-contract.md) مراجعه کنید.
-
-**4. [دریافت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Get-new/Get-new.md) پول از مشتری:** مشتری می‌تواند به روش‌های مختلفی وجه را پرداخت کند، به عنوان مثال پرداخت کارت به کارت، [لینک دریافت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Payment-links/Create-payment-link/Create-payment-link.md)، چکی، اعتباری و ... . با توجه به نوع پرداختی که مشتری انجام داده لازم است در سیستم یک دریافت برای فاکتور مربوطه صادر شود. لازم بذکر است در صورت استفاده از لینک پرداخت، یک دریافت خودکار در سیستم ثبت ‌می‌شود.
-
-**برگشت از فروش(کالای مرجوعی):** اگر روند فروش در شرکت شما بصورتی باشد که در عوض صدور فاکتور فروش قرارداد مالی صادر شود، می‌بایست برای لغو قرارداد تاریخ پایان قرارداد را تغییر دهید.
-
-برای آشنایی کامل با صدور فاکتور برگشت از فروش و پرداخت پول به مشتری به دسته بندی [برگشت از فروش](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Return-invoice-from-sales/Return-invoice-from-sales.md) (کالای مرجوعی) مراجعه کنید.
-
-بمنظور آشنایی بیشتر می‌توانید مباحث [مدیریت بانک اطلاعاتی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Category-docs/Database-management.md)
-، راهنمای شروع به کار کاربر
- و [مباحث پایه مدیریت ارتباط با مشتریان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Category-docs/Crm-basic.md) را مطالعه کنید.
 

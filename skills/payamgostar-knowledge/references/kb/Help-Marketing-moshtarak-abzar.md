@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-moshtarak-abzar
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## اطلاعات مشترک بین ابزار ها
 `مسیر سند: Help/Marketing/moshtarak-abzar/moshtarak-abzar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md)
@@ -20,6 +20,8 @@
 #### پس از اجرای هر برنامه:
 
 بعد از اجرای هر برنامه در صفحه مدیریت انواع ارسال ها در لیست برنامه ها ، می توانید برنامه ایجاد شده  را مانند تصویر مشاهده نمایید که در لیست برنامه قرار گرفته شده است. (در اینجا لیست ارسال گروهی در نظر گرفته شده است)
+
+![IMG-0814](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/1.webp>)
 
 **1. ارسال گروهی جدید:** میتوانید یک ارسال گروهی جدید را آغاز کنید.
 
@@ -45,6 +47,8 @@
 
 **کلیک راست:**  در ارسال گروهی راست کلیک بر روی یک برنامه شامل موارد زیر می باشد :
 
+![IMG-0815](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/2.webp>)
+
 **Forward:** اجرای این برنامه با مخاطبان جدید
 
 **Reply:** اجرای برنامه جدید به مخاطبان این برنامه
@@ -61,6 +65,8 @@
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-yk/gam-yk.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-yk/gam-yk.md)
 
 در این گام باید اطلاعات مربوط به برنامه مورد نظر ، همچنین خط مورد استفاده و  زمان اجرای برنامه  را تعیین کنید.
+
+![IMG-0842](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-yk/advertise-tools7.webp>)
 
 **1. عنوان:** عنوان ارسال را می توانید به دلخواه تغییر دهید.
 
@@ -89,13 +95,19 @@
 
 با توجه به گزینه های مطرح شده در کادر بالای این گام که به دو دسته بانک های اطلاعاتی و سیستم CRM تقسیم شده است، با کلیک بر روی هر کدام از این دو کادر زیرشاخه های آن ها نمایش داده می شود و می توانید مخاطبان برنامه تبلیغاتی خود را به راحتی انتخاب نمایید.
 
+![IMG-0826](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/1.webp>)
+
 **بانک اطلاعاتی:** بطور کامل جلوتر توضیح داده شده است .
 
 **سیستم crm:**   با زدن دکمه سیستم CRM می توانید مخاطبان مرتبط با آیتم های مختلف نرم افزار (فاکتورها، فرصت ها و ...) را از منوهای این دسته بندی انتخاب کنید.
 
+![IMG-0827](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/9.webp>)
+
 با استفاده از این قابلیت می توان هویت هایی که به آیتم های مختلف مرتبط شدن  را بعنوان مخاطب برنامه انتخاب نمود و همچنین امکان اعمال فیلتر ها برای انتخاب دقیق تر مخاطب ها وجود دارد
 
 برای مثال می شود مخاطب هایی که برای آن ها فاکتور فروش صادر شده است  انتخاب کرد و یا هویت هایی که در یک تاریخ مشخص یک نوع فرم خاص براشون ایجاد شده فیلتر و بعنوان مخاطب برنامه انتخاب کرد .
+
+![IMG-0828](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/10.webp>)
 
 ## برنامه‌های اجرا شده
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-se/program-running/program-running.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-se/program-running/program-running.md)
@@ -112,9 +124,13 @@
 
 **5**. با کلیک بر روی انتخاب مخاطبین، وارد صفحه تنظیمات مخاطبان خواهید شد که پایینتر توضیح داده شده است.
 
+![IMG-0839](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/program-running/advertise-Step3SelectAudiences-bank5.webp>)
+
 با انتخاب برنامه مورد نظر این صفحه نمایش داده می شود
 
 #### انتخاب مخاطبان برنامه:
+
+![IMG-0840](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/program-running/advertise-Step3SelectAudiences-bank6.webp>)
 
 **1**. همه مخاطبان،برای ارسال به تمامی مخاطبانی که لیست ارسال برای آنها تشکیل شده است و انتخاب بر اساس نتایج مخاطبان، بر اساس وضعیت ارسال به مخاطب فیلتر کنید.
 
@@ -129,6 +145,8 @@
 
 **2**. پس از درج شماره ها بصورت دستی، با زدن دکمه بعلاوه، شماره ها و آدرس های ایمیل به لیست ارسال افزوده خواهد شد.
 
+![IMG-0836](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/manual-insert/advertise-Step3SelectAudiences-bank7.webp>)
+
 ## شماره اتفاقی و سریال
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-se/etefaghi-serial/etefaghi-serial.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-se/etefaghi-serial/etefaghi-serial.md)
 
@@ -138,16 +156,22 @@
 
 **3**. در نهایت، پس از انتخاب شماره ها، با زدن این دکمه، شماره ها به لیست شما افزوده خواهند شد.
 
+![IMG-0832](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/etefaghi-serial/advertise-Step3SelectAudiences-bank8.webp>)
+
 ## بانک یکپارچه
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-se/bank-ykparche/bank-ykparche.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-se/bank-ykparche/bank-ykparche.md)
 
 از این صفحه می توانید به تمام مخاطبان بانک اطلاعاتی، دسترسی پیدا کنید. کافی است با تغییر منبع، به اطلاعات موردنیاز خود در هر بخش دسترسی داشته باشید.
+
+![IMG-0830](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/bank-ykparche/advertise-Step3SelectAudiences-bank1.webp>)
 
 در مورد انتخاب از دسته بندی ها تنها قادر خواهید بود دسته بندی های سطح آخر را انتخاب نمایید. البته امکان انتخاب همزمان چند دسته بندی برای شما وجود دارد. کافی است با کشیدن کلیک موس بر روی تعدادی از دسته بندی ها آن ها را انتخاب کرده و دکمه اضافه کردن را کلیک نمایید.
 
 **1. منبع:**  امکان انتخاب مخاطبان از بخش های مختلف بانک وجود دارد.
 
 اگر که هویت و یا هویت های انتخاب شده از نوع حقوقی باشند هنگام انتخاب می شود مشخص کرد که پیام تنظیم شده برای چه کسی ارسال شود .
+
+![IMG-0831](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/bank-ykparche/advertise-Step3SelectAudiences-bank2.webp>)
 
 **a**. خود شرکت به فهرست اضافه می گردد.
 
@@ -178,10 +202,14 @@
 
 **4**.با گزینه انتخاب دسته بندی انتخاب شده به لیست ارسال اضافه خواهد شد .
 
+![IMG-0835](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/job-class/advertise-Step3SelectAudiences-bank3.webp>)
+
 ## بانک های مکمل
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-se/bank-mokamel/bank-mokamel.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-se/bank-mokamel/bank-mokamel.md)
 
 می توانید از بانک هایی که درکنار برنامه ارائه می شود و مشتریان با توجه به نیاز خود آن ها را تهیه و نصب می نمایند، استفاده کنید.
+
+![IMG-0829](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/bank-mokamel/1.webp>)
 
 **1. همه موارد:** تمامی شماره تلفن های بانک انتخاب شده را درج میکند.
 
@@ -216,16 +244,24 @@
 
 > نکته: دراین حالت نمیتوانید از متن هوشمند استفاده کنید و برای استفاده از [متن هوشمند ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/Parameters/MessageParameters.md)می توان از اکسل پیشرفته استفاده کرد.
 
+![IMG-0833](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/excel/advertise-Step3SelectAudiences-bank9.webp>)
+
 **فایل اکسل پیشرفته:** که شامل پارامترهای هوشمندی است که در تنظیم متن به کار برده شده است.
 
  **1**. ابتدا فایل Excel  خود را تهیه نمایید. سپس از قسمت مسیر فایل Excel آن را انتخاب کنید. برای تهیه فایل اکسل می توانید از فایل نمونه استفاده نمایید. نکته مهم در تهیه فایل نمونه، عنوان ستون هاست که باید دقیقا مطابق با فایل نمونه باشد. همچنین نیازی به تکمیل کل ستون ها نیست و فقط می توانید ستون های موردنظر خود را تکمیل و سایر ستون های اضافه را پر نکنید.
+
+![IMG-0834](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/excel/advertise-Step3SelectAudiences-bank10.webp>)
 
 ## بانک مناطق پستی تهران
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-se/postal-areas/portal-areas.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-se/postal-areas/portal-areas.md)
 
 در صورتی که بانک مناطق پستی راتهیه و نصب کرده باشید، می توانید مخاطبان خود را بر اساس مناطق پستی و یا شهرداری انتخاب نمایید .
 
+![IMG-0837](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/postal-areas/TehranPostPart1.webp>)
+
 با انتخاب هر یک از مناطق پنجره زیر نمایش داده می شود که در آن می توانید مناطق جزئی تر را به همراه فیلترهای مختلف انتخاب نمایید.
+
+![IMG-0838](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/postal-areas/TehranPostPart2.webp>)
 
 به طور مثال می توانید یکی از ناحیه ها را انتخاب و شماره های آن را به شماره هایی که با 0912 شروع می شوند محدود نمایید .
 
@@ -241,6 +277,8 @@
 **2**.  با انتخاب یک دسته بندی تعداد رسانه موجود در آن را در پایین صفحه نمایش می دهد .
 
 **3**. می توانید تعداد موردنظر خود را در کادر تعداد وارد نمایید تا به صورت تصادفی به تعدادی از مخاطبان ارسال شود و در نهایت با زدن دکمه انتخاب، مخاطبان به لیست ارسال افزوده خواهند شد .
+
+![IMG-0841](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-se/target-group/advertise-Step3SelectAudiences-bank4.webp>)
 
 ## محتوای پیام ارسال گروهی پیامک
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-do/gam-do.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-do/gam-do.md)
@@ -261,11 +299,15 @@
 
 در این نوع ارسال می توانید از  [متن هوشمند](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/Parameters/MessageParameters.md) استفاده کنید.
 
+![IMG-0816](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/advertise-tools8.webp>)
+
 **محتوای ایمیل (رایانامه):** نوع پیام قابل استفاده از نوع  HTML
 
 در این نوع از محتوا علاوه بر متن هوشمند می توانید از عکس و یا لینک های ویژه Hyperlink نیز استفاده کنید.
 
 برای اضافه کردن تصویر به ایمیل ارسالی به قسمت طریقه  [ایمیل عکس دار](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/email/Photo-email/Photo-email.md) مراجعه کنید .
+
+![IMG-0817](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/7.webp>)
 
 **1**. با استفاده از این گزینه می توانید یک لینک به ایمیل خود اضافه کنید(مانند HTTP://PAYAMGOSTAR.COM)
 
@@ -277,7 +319,11 @@
 
 نحوه ویرایش یک پیام برای فکس و پرینت را همانند تنظیم قالب چاپ میتوانید انجام دهید.
 
+![IMG-0818](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/advertise-tools10.webp>)
+
 **2**. می توان  فایل مورد نظر خود را انتخاب و یا از قالب های از پیش تعریف شده (با دو بار کلیک روی قالب مورد نظر )  برای   ارسال استفاده کنید .
+
+![IMG-0819](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/8.webp>)
 
  **3**.  [تنظیم قالب چاپ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/PrintTemplateSetting/PrintTemplateSetting.md) می توانید قالب مورد نظر برای ارسال را ایجاد کنید .  (نحوه ویرایش یک پیام برای فکس و پرینت را همانند
 
@@ -288,6 +334,8 @@
 
 ابتدا آیکون پوشه را انتخاب کنید.
 
+![IMG-0823](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/ghaleb-payam/TemplateSelection1.webp>)
+
 سپس بر روی قالب دلخواه خود دوبار کلیک کرده تا متن آن در پیام شما درج شود.
 
 **1-** از طریق فیلد رسانه می توانید، نوع رسانه، پیامک، ایمیل، فکس و چاپ  را جهت فیلتر کردن انتخاب نمایید.
@@ -295,6 +343,8 @@
 **2-** با کلیک بر روی دکمه اضافه، نوع رسانه انتخاب و عنوان تعیین میگردد.
 
 **3-** در قسمت قالب ها با کلیک بر روی اضافه کردن، با توجه به نوع رسانه قبلی، متن مورد نظر را ایجاد و یا ویرایش می نمایید.
+
+![IMG-0824](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/ghaleb-payam/TemplateSelection2.webp>)
 
 همچنین می توانید فایل خود را به عنوان یک قالب استفاده کنید. این فایل باید با رسانه شما منطبق باشد .
 
@@ -308,6 +358,8 @@
 
 **4. چاپ:** فرمت مایکروسافت ورد (doc یا docx)
 
+![IMG-0825](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/ghaleb-payam/TemplateSelection3.webp>)
+
 ## اضافه کردن امضا
 `مسیر سند: Help/Marketing/moshtarak-abzar/gam-do/add-a-signature/add-a-sign.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/moshtarak-abzar/gam-do/add-a-signature/add-a-sign.md)
 
@@ -315,8 +367,14 @@
 
 > نکته: هر امضا تنها برای کاربری که آن را تعریف کرده است قابل نمایش است.
 
+![IMG-0820](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/add-a-signature/Sign1.webp>)
+
 با دوبار کلیک بر روی هر امضا، متن آن به پیام اضافه می شود.
 
 با استفاده از این گزینه می توانید یک امضای جدید را اضافه کنید.
 
+![IMG-0821](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/add-a-signature/Sign2.webp>)
+
 در این قسمت ابتدا عنوان امضا را انتخاب کرده و سپس متن امضا را می نویسید و در نهایت جهت ثبت در سیستم، دکمه ذخیره کردن را کلیک می نمایید.
+
+![IMG-0822](</kb-assets/kb-images/Help/Marketing/moshtarak-abzar/gam-do/add-a-signature/Sign3.webp>)

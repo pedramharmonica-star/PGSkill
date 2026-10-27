@@ -1,11 +1,13 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-Advertising-campaign-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مشاهده و ایجاد کمپین‌های تبلیغاتی
 `مسیر سند: Help/Marketing/Advertising-campaign-management/Advertising-campaign-management.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-campaign-management/Advertising-campaign-management.md)
 
  کمپین تبلیغاتی برای مدیریت بهتر برنامه های تبلیغاتی  و بررسی بهتر نتایج این برنامه ها در نظر گرفته شده است. می توان در این قسمت تمام کمپین هایی که اجرا شده و یا در حال اجرا هستند را مدیریت نمود و بر اساس تاریخ شروع و پایان  و یا نام کمپین فیلتر نمود.  تمام اطلاعات مربوط به کمپین ، برنامه های تبلیغاتی و دیجیتال تعریف شده برای این کمپین را نمایش می دهد .
+
+![IMG-0744](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/16.webp>)
 
  **تاریخ شروع از/تا:** می توان براساس بازه تاریخ شروع  کمپین ، فیلتر مورد نظر را اعمال کرد .
 
@@ -13,22 +15,34 @@
 
 **نام کمپین:**  می توان براساس نام کمپین فیلتر مورد نظر را اعمال کرد .
 
+![IMG-0745](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/17.webp>)
+
 **نمودار:** با نگه داشتن نشانگر موس، می توانید مشخصات هر کمپین مانند تاریخ شروع و پایان آن ، برنامه های تنظیم شده برای آن کمپین را مشاهده نمایید و در صورت کلیک بر روی کمپین مورد نظر در نمودار، وارد تنظیمات آن کمپین خواهید شد.
 
 **اضافه کردن:** با کلیک بر روی دکمه اضافه کردن پنجره زیر برای شما باز خواهد شد و می توانید کمپین تبلیغاتی و بازه اجرای آن را تعریف کنید .
+
+![IMG-0746](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/18.webp>)
 
 > **نکته:** طبق عکس بالا، با نوشتن نام کمپین و تاریخ شروع و پایان، می توانید یک کمپین تعریف نمایید. فیلد توضیحات جهت شرح اطلاعات اولیه و مورد نیاز درباره کمپین تعبیه شده است.
 
 با دوبار کلیک به روی هر کمپین به صفحه تنظیمات آن کمپین طبق تصویر زیر وارد می شوید.
 
+![IMG-0747](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/23.webp>)
+
 **1.اطلاعات:** در این قسمت، اطلاعات کمپین مانند تاریخ شروع و پایان و نام آن را مشاهده میکنید.
 
 **2.نمودار برنامه های تبلیغاتی:** برنامه های تبلیغاتی که برای این کمپین تعریف شده است بصورت بازه زمانی در این نمودار نمایش داده می شود. و با کلیک بر روی هرکدام، پنجره ای به شکل زیر جهت تدوین برای شما باز میگردد
 
+![IMG-0748](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/20.webp>)
+
 ## تعریف برنامه‌های تبلیغاتی
 `مسیر سند: Help/Marketing/Advertising-campaign-management/Barname-tablighati.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-campaign-management/Barname-tablighati.md)
 
+![IMG-0749](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/26.webp>)
+
 **1.فعالیت تبلیغاتی:** بازدن این دکمه وارد پنجره تعریف برنامه تبلیغاتی غیر دیجیتال خواهید شد.(منظور از  فعالیت اهای غیر دیجیتال، برنامه های تبلیغاتی است که در پیام گستر انجام و ارسال نمی شوند.)
+
+![IMG-0750](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/21.webp>)
 
 **a.نام فعالیت:** در این فیلد نام تبلیغات مورد نظر نوشته می شود.
 
@@ -41,6 +55,8 @@
 **e.توضیحات:** توضیحات مرتبط با تبلیغ کمپین را در این قسمت بنویسید. (مانند نوع ابزار تبلیغ و نحوه کاربری و اجرای تبلیغ)
 
 **4.ثبت تبلیغات دیجیتال:** با کلیک بر روی این دکمه، امکان انتخاب یکی از روش های تبلیغات در نرم افزار مانند: پیامک، ایمیل، فکس و چاپ می باشد. پس از انتخاب وارد صفحه مدیریت  همان ابزار تبلیغاتی  جهت تنظیم ارسال(که در بخش[ اطلاعات مشترک ابزار](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md) کامل توضیح داده شده) خواهیم شد.
+
+![IMG-0751](</kb-assets/kb-images/Help/Marketing/Advertising-campaign-management/22.webp>)
 
 **5.مشاهده کمپین‌‌‌ها:**
 

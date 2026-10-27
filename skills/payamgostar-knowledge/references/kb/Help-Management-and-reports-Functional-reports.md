@@ -1,11 +1,13 @@
 # مستندات رسمی پیام‌گستر — Help-Management-and-reports-Functional-reports
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## گزارشات عملکردی
 `مسیر سند: Help/Management-and-reports/Functional-reports/Functional-reports.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/Functional-reports.md)
 
 در این قسمت می توانید گزارشات مرتبط با عملکرد کاربران نرم افزار را مشاهده کنید.
+
+![IMG-0528](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/PreGozareshateAmalkardi.webp>)
 
 توجه داشته باشید دریافت گزارشات عملکردی هر کاربر منوط به داشتن حکم پرسنلی مربوطه می باشد. به طور مثال برای دریافت گزارش عملکرد یک کارشناس فروش باید حکم مدیر فروش یا حکمی با سطح بالاتر از آن را داشته باشید. همچنین باید به کاربر مربوطه نیز ابتدا حکم تخصیص داده شده باشد.
 
@@ -24,10 +26,14 @@
 
  گزارش چارت سازمانی از مسیر **گزارش‌های سیستمی** > **گزارش‌های عملکردی** قابل‌دسترسی است.
 
+![IMG-0529: چارت سازمانی](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/organizatioal-chart.webp>)
+
 > **نکته:**
 برای دریافت این گزارش بایستی مجوز مدیریت شعب و دفاتر را داشته باشید.
 
  برای مشاهده چارت سازمانی، **شعبه** موردنظر خود را انتخاب کنید.
+
+![IMG-0530: انتخاب شعبه](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/select-branch.webp>)
 
  تنظیمات و ویرایش چارت سازمانی از طریق منوی[ مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) صورت می‌گیرد. مجموع تعداد وظایف، پیگیری‌ها،
  قرارملاقات‌ها و فرآیندهای هر دپارتمان‌ در یک چارت نمایش داده می‌شود.
@@ -35,10 +41,14 @@
 > **نکته:**
  توجه داشته باشید که آیتم‌های وظیفه، پیگیری، قرار ملاقات و فرایند موجود در کارتابل کاربرانی که به آنها حکم سازمانی تخصیص نداده‌اید در محاسبات این گزارش لحاظ **نخواهد شد**.
 
+![IMG-0531: گزارش چارت سازمانی](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/organizational-chart-report.webp>)
+
 ## گزارش‌های عملکردی
 `مسیر سند: Help/Management-and-reports/Functional-reports/PerformanceReport_2.7.0.md` · `نسخه سند: 2.7.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/PerformanceReport_2.7.0.md)
 
 در این قسمت می توانید گزارش‌های مرتبط با عملکرد کاربران نرم افزار  را مشاهده کنید.
+
+![IMG-0532: گزارش‌های عملکردی](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/performance-report-access.webp>)
 
 گزارش‌های عملکردی شامل موارد زیر است:
 
@@ -60,10 +70,14 @@
 
 گزارش تقویم عملیاتی کاربران از مسیر گزارش‌های سیستمی > گزارش‌های عملکردی قابل‌دسترسی است.
 
+![IMG-0533: تقویم عملیاتی کاربران](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/user-operational-calendar.webp>)
+
 > **نکته:**
  تنظیمات واحدها، سمت‌ها و حکم‌های پرسنلی از قبل باید در  مدیریت شعب، دپارتمان و سمت و مدیریت حکم‌های پرسنلی انجام شود.
 
 در این قسمت، مدیر هر واحد با توجه به سمت و حکمی که به او داده شده است، امکان مشاهده عملیات اجرا شده از سوی کاربران واحد خود را دارد. به این منظور ابتدا حکم خود و سپس سمت و کاربری که قصد دریافت گزارش از او را دارید انتخاب کنید. در انتها  روی دکمه **برو به** کلیک کنید تا تقویم عملیاتی کاربر مربوطه را در بازه زمانی موردنظرتان مشاهده کنید.
+
+![IMG-0534: گزارش تقویم عملیاتی کاربران](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/users-operational-calendar-report.webp>)
 
 > **نکته:**
  تمام سوابقی که کاربران ایجاد و یا ویرایش می‌کنند در این قسمت نمایش داده می‌شود. در واقع لیست عملیاتی که کاربر بر روی آیتم‌های CRM اجرا کرده قابل مشاهده است.
@@ -73,9 +87,13 @@
 
 گزارش کارتابل فرایندهای کاربران از مسیر گزارش‌های سیستمی > گزارش‌های عملکردی قابل‌دسترسی است.
 
+![IMG-0535: کارتابل فرایندهای کاربران](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/user-processes-cartable.webp>)
+
 در این قسمت مدیر هر واحد می تواند، کارتابل فرآیندهای کاربران زیرمجموعه خود را مشاهده کند. پس از انتخاب حکم خود، سمت و نام کاربر مورد نظر، فرآیندهای در حال اجرای آن کاربر را می توانید مشاهده نمایید.
 
 با استفاده از فیلتر می‌توان جستجوی دقیق‌تری از فرآیندهای کاربر مورد نظر داشت و آنها را بر اساس پارامترهایی که در ادامه به آنها اشاره می‌شود فهرست کرد.
+
+![IMG-0536: فیلتر فرایندهای کاربر](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/user-processes-cartable-filter.webp>)
 
 1. نامی که به آیتم تحت چرخه اختصاص داده‌اید در **عنوان** جستجو کنید.
 2. شرکت یا شخص مرتبط با آیتم تحت چرخه را در **شرکت/شخص مرتبط** وارد کنید.
@@ -94,6 +112,8 @@
 
    در صورتی که قصد ذخیره فیلتر مورد نظر خود را دارید، کافی است پس از انتخاب فیلدهای جستجو بر روی دکمه ذخیره کلیک کنید و در پنجره باز شده یک نام برای جستجوی خود انتخاب کنید. از این پس با استفاده از منوی فیلترهای ذخیره‌شده می‌توان همان تنظیمات جستجو را فراخوانی کرد.
 
+![IMG-0537: ذخیره فیلتر کارتابل فرایندهای کاربر](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/save-user-processes-cartable-filter.webp>)
+
 > **نکته:**
  تنظیمات واحدها، سمت ها و حکم های پرسنلی از قبل باید در  [مدیریت شعب، دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/2.6.0/branches-department.md) و[  مدیریت حکم های پرسنلی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personnel-command-management/2.6.0/Personnel-command-management.md)انجام شود.
 
@@ -101,6 +121,8 @@
 `مسیر سند: Help/Management-and-reports/Functional-reports/UserTasksCartableReport_2.7.0.md` · `نسخه سند: 2.7.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/UserTasksCartableReport_2.7.0.md)
 
  گزارش کارتابل وظایف کاربران از مسیر گزارش‌های سیستمی > گزارش‌های عملکردی قابل‌دسترسی است.
+
+![IMG-0538: گزارش کارتابل وظایف کاربران](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/user-tasks-cartable.webp>)
 
 در این قسمت هر کاربر بر اساس حکم خود و سمت و نام کاربران زیرمجموعه‌اش می‌تواند کارتابل وظایف آنها را مشاهده کند.
 
@@ -110,7 +132,11 @@
  در این نوع گزارش، به‌صورت پیش‌فرض کارتابل وظایف شخصی که در حال گزارش‌گیری است نمایش داده می‌شود.
  برای مشاهده گزارش کارتابل کاربران، ابتدا حکم خود و سپس سمت و نام کاربری را که می‌خواهید از کارتابل او گزارش‌گیری کنید انتخاب  و بر روی دکمه **برو به** کلیک کنید.
 
+![IMG-0539: مشاهده گزارش کارتابل وظایف کاربران](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/user-tasks-and-follow-cartable.webp>)
+
  دکمه **فیلتر** شما را در جستجوی بهتر یاری می‌کند. با کلیک بر روی آن می‌توانید وظایف و پیگیری‌ها را بر اساس فیلدهای موضوع، کاربر، نحوه ارسال، وضعیت، نحوه خاتمه، نوع، نام مخاطب یا شرکت و تگ‌ها جستجو کنید. فیلد نوع با توجه به نوع آیتم (پیگیری و یا وظیفه) جستجو را محدود می‌کند.
+
+![IMG-0540: فیلتر وظایف و پیگیری‌ها](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Images/user-tasks-and-follow-cartable-filter.webp>)
 
 > **نکته:**
  تنظیمات واحدها، سمت ها و حکم های پرسنلی از قبل باید در  [مدیریت شعب،دپارتمان و سمت  ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/2.6.0/branches-department.md)و  [مدیریت حکم های پرسنلی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personnel-command-management/2.6.0/Personnel-command-management.md)انجام شود.
@@ -118,7 +144,11 @@
 ## تقویم عملیاتی کاربران
 `مسیر سند: Help/Management-and-reports/Functional-reports/User-Operating-Calendar/User-Operating-Calendar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/User-Operating-Calendar/User-Operating-Calendar.md)
 
+![IMG-0547](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/User-Operating-Calendar/GozareshateAmalkardi1new.webp>)
+
 در این قسمت، مدیر هر واحد با توجه به سمت و حکمی که به وی داده شده، امکان مشاهده عملیات اجرا شده از سوی کاربران واحد خود را دارد. ابتدا شما باید حکم خود و سپس سمت و کاربری که قصد دریافت گزارش از وی دارید را انتخاب نمایید. در انتها روی دکمه "برو به" کلیک کنید تا تقویم عملیاتی کاربر مربوطه را مشاهده نمایید.
+
+![IMG-0548](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/User-Operating-Calendar/GozareshateAmalkardi2new.webp>)
 
 > نکته:  تنظیمات واحدها، سمت ها و حکم های پرسنلی از قبل باید در  مدیریت شعب،دپارتمان و سمت  و  مدیریت حکم های پرسنلی انجام شود.
 
@@ -127,12 +157,18 @@
 ## گزارش کارتابل فرآیندهای کاربران
 `مسیر سند: Help/Management-and-reports/Functional-reports/Cardboard-user-processes/Cardboard-user-processes.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/Cardboard-user-processes/Cardboard-user-processes.md)
 
+![IMG-0541](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Cardboard-user-processes/kartableFarayand1.webp>)
+
 در این قسمت مدیر هر واحد می تواند، کارتابل فرآیندهای کاربران زیرمجموعه خود را مشاهده نماید. پس از انتخاب حکم خود، سمت و نام کاربر مورد نظر، فرآیندهای در حال اجرای آن کاربر را می توانید مشاهده نمایید. با استفاده از منوی فیلتر می توان جستجوی دقیقتری از فرآیندهای کاربر مورد نظر داشت. طبق شکل (ترتیب شماره های مشخص شده) در صورتی که قصد ذخیره فیلتر مورد نظر خود را داریم، کافی است پس از انتخاب فیلدهای جستجو در مرحله 2، دکمه ذخیره را زده(3) و سپس، در منوی باز شده، به جستجوی خود یک نام اختصاص دهیم. از این پس با استفاده از منوی فیلترهای ذخیره شده می توان همان تنظیمات جستجو را فراخوانی کرد(4).
+
+![IMG-0542](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Cardboard-user-processes/kartableFarayand2.webp>)
 
 > **نکته:** تنظیمات واحدها، سمت ها و حکم های پرسنلی از قبل باید در  [مدیریت شعب،دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) و[  مدیریت حکم های پرسنلی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.6.0.md)انجام شود.
 
 ## گزارش چارت سازمانی
 `مسیر سند: Help/Management-and-reports/Functional-reports/Chart/Chart.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/Chart/Chart.md)
+
+![IMG-0545](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Chart/chart.webp>)
 
 تنظیمات و ویرایش چارت سازمانی از طریق منوی[ مدیریت شعب،دپارتمان و سمت](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md) صورت میگیرد و بصورت یک چارت در این گزارش قابل مشاهده خواهد بود. تعداد وظایف، پیگیری ها،
 
@@ -142,9 +178,15 @@
 
 > نکته: برای دریافت این گزارش بایستی مجوز مدیریت شعب و دفاتر را داشته باشید.
 
+![IMG-0546](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Chart/chart2.webp>)
+
 ## گزارش کارتابل وظایف کاربران
 `مسیر سند: Help/Management-and-reports/Functional-reports/Cardboard-user-tasks/Cardboard-user-tasks.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Functional-reports/Cardboard-user-tasks/Cardboard-user-tasks.md)
 
+![IMG-0543](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Cardboard-user-tasks/KartableVazayef1.webp>)
+
 در این قسمت با توجه به حکم خود و سمت و نام کاربر مورد نظر می توانید کارتابل وظایف همان کاربر را مشاهده فرمایید. در این نوع از گزارش گیری، بصورت پیش فرض کارتابل وظایف شخصی که در حال گزارش گیری است، نمایش داده می شود. دکمه فیلترهای پیشرفته می تواند شما را در جستجوی بهتر یاری نماید. با کلیلک بر روی آن، فیلدهای وضعیت وظیفه، نحوه خاتمه و نام مخاطب قابل جستجو می باشد. فیلد نوع می تواند با توجه به نوع آیتم (پیگیری و یا وظیفه) جستجو را محدود نماید.
+
+![IMG-0544](</kb-assets/kb-images/Help/Management-and-reports/Functional-reports/Cardboard-user-tasks/KartableVazayef2.webp>)
 
 > نکته:  تنظیمات واحدها، سمت ها و حکم های پرسنلی از قبل باید در  [مدیریت شعب،دپارتمان و سمت  ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/branches-department/branches-department.md)و  [مدیریت حکم های پرسنلی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/UserOrganizationLevel/UserOrganizationLevel_2.6.0.md)انجام شود.

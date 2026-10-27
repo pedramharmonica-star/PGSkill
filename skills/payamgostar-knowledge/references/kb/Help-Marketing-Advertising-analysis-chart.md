@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-Advertising-analysis-chart
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## نمودارهای تحلیلی نتایج برنامه تبلیغاتی
 `مسیر سند: Help/Marketing/Advertising-analysis-chart/Advertising-analysis-chart.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-analysis-chart/Advertising-analysis-chart.md)
@@ -8,6 +8,8 @@
 شامل نمودارهای تحلیلی است که بر اساس نتایج به دست آمده از برنامه اجرا شده، تشکیل و نمایش داده می شوند. این قسمت از سه بخش اطلاعات رویداد تبلیغاتی، اجرای
 
 رویداد تبلیغاتی ونتایج اجرا تکیل شده است.
+
+![IMG-0727](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/kampein1.webp>)
 
 **a.اطلاعات رویداد تبلیغاتی:** در این بخش، نوع رسانه، شماره و یا آدرس رسانه، تعداد دفعات تکرار و تعداد مخاطبان ، مشخص می شود.
 
@@ -27,23 +29,37 @@
 
 در رابطه با مابقی المان های نتایج اجرا در قسمت نتایج اجرای برنامه ارسال گروه توضیح داده شده است .
 
+![IMG-0728](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/25.webp>)
+
 **نظرسنجی:** در برنامه های نظرسنجی نتایج اجرا بصورت نتایج نظرسنجی،نتایج دعوت نامه ، آمارشرکت کنندگان قابل بررسی می باشد .
 
   در این گزارش می توان مشاهده کرد که از  هر گزینه چه تعداد توسط مخاطبان انتخاب شده است و همچنین چه تعداد پاسخ هایی ارسال شده که شامل این گزینه ها نیست .
 
+![IMG-0729](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/26.webp>)
+
   **نتایج دعوت نامه:**
+
+![IMG-0730](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/27.webp>)
 
 **درصد پوشش =** درصد پوشش برای تاکید بر انتخاب شما می باشد و نشان می دهد از تمام مخاطبانی که می توانستید در برنامه تبلیغاتی حاضر شرکت دهید و با رسانه مورد نظر برای آنها پیام ارسال کنید، چه حجمی را انتخاب کرده و در واقع پوشش تبلیغاتی داده اید. حاصل نسبت مخاطبان هدف  به جامعه در دسترس  نشان دهنده میزان مخاطبان پوشش داده شده در یک تبلیغ است.
 
+![IMG-0731](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/28.webp>)
+
 **درصد موفقیت =** حاصل نسبت تعداد پیام های رسیده به مخاطبان هدف انتخاب شده نشان دهنده موفقیت ارسال پیام و تحویل به مخاطبان مورد نظر می باشد.
+
+![IMG-0732](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/29.webp>)
 
 **درصداثربخشی:** حاصل نسبت مخاطبان پاسخ داده به دریافت کنندگان پیام را نمایش می دهد .
 
 **آمار شرکت کنندگان:** در این قسمت می توان مشاهده کرد چه تعداد از مخاطبان پاسخ داده اند و چه تعداد از پاسخ ها قابل قبول میباشد یعنی پاسخ ارسالی از میان گزینه تعریف شده است  و چه تعداد از پاسخ ها غیر قابل قبول است یعنی پیام ارسالی در بین گزینه ها نبوده است .
 
+![IMG-0733](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/30.webp>)
+
 **مسابقه:**  در برنامه های مسابقه نتایج اجرا بصورت نتایج مسابقه ، نتایج دعوت نامه و آمار شرکت کنندگان قابل بررسی می باشد
 
  در این قسمت می توان مشاهده کرد که از هر گزینه از مسابقه چه تعداد انتخاب شده است و چه تعداد پاسخ هایی  داده شده در میان گزینه ها وجود ندارد
+
+![IMG-0734](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/31.webp>)
 
  **نتایج دعوت نامه:** به نتایج دعوت نامه مراجعه کنید .
 
@@ -70,6 +86,8 @@
 ## د - پیشنهاد ما
 `مسیر سند: Help/Marketing/Advertising-analysis-chart/advertising-oursuggestion/advertising-oursuggestion.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-analysis-chart/advertising-oursuggestion/advertising-oursuggestion.md)
 
+![IMG-0741](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-oursuggestion/advertising-oursuggestion.webp>)
+
 #### 1) مقایسه درصد دسترسی به جامعه هدف از طریق رسانه های مختلف
 
 در این مقایسه، بررسی می شود که جامعه هدف بر اساس رسانه های مختلف موبایل، ایمیل و فکس تا چه حد در دسترس بوده و استفاده از کدام رسانه برای ارتباط با این بخش از مخاطبان احتمالی مناسب تر می باشد .
@@ -84,8 +102,12 @@
 
 طبیعتا هرچه تعداد مخاطبان هدف یک برنامه از جامعه در دسترس کمتر باشد، درصد موفقیت اجرای برنامه در کل جامعه در دسترس نسبت به حالت فعلی کمتر خواهد بود .
 
+![IMG-0742](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-oursuggestion/Advices2.webp>)
+
 ## الف - اطلاعات کلی
 `مسیر سند: Help/Marketing/Advertising-analysis-chart/etelat-koli/etelatkoli.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-analysis-chart/etelat-koli/etelatkoli.md)
+
+![IMG-0743](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/etelat-koli/24.webp>)
 
 **ستون اول:** جامعه هدف تعیین کننده تمام مخاطبانی است که برای ارسال پیام تبلیغاتی خود، آن ها را انتخاب می کنید.
 
@@ -104,17 +126,29 @@
 ## ب - نسبت‌های مهم
 `مسیر سند: Help/Marketing/Advertising-analysis-chart/advertising-importantbalance/advertising-importantbalance.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-analysis-chart/advertising-importantbalance/advertising-importantbalance.md)
 
+![IMG-0735](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-importantbalance/advertising-importantbalance.webp>)
+
 ####  درصد پوشش
 درصد پوشش برای تاکید بر انتخاب شما می باشد و نشان می دهد از تمام مخاطبانی که می توانستید در برنامه تبلیغاتی حاضر شرکت دهید و با رسانه مورد نظر برای آنها پیام ارسال کنید، چه حجمی را انتخاب کرده و در واقع پوشش تبلیغاتی داده اید. حاصل نسبت مخاطبان هدف (ستون 3) به جامعه در دسترس (ستون 2) نشان دهنده میزان مخاطبان پوشش داده شده در یک تبلیغ است.
+
+![IMG-0736](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-importantbalance/darsadPoshesh.webp>)
 
 ####  درصد موفقیت
 حاصل نسبت تعداد پیام های رسیده (ستون 5) به مخاطبان هدف انتخاب شده (ستون 3) نشان دهنده موفقیت ارسال پیام و تحویل به مخاطبان مورد نظر می باشد.
 
+![IMG-0737](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-importantbalance/DarsadMovafagh.webp>)
+
 ## گزارش نتایج خطای برنامه‌های تبلیغاتی
 `مسیر سند: Help/Marketing/Advertising-analysis-chart/advertising-importanterrors/advertising-importanterrors.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/Advertising-analysis-chart/advertising-importanterrors/advertising-importanterrors.md)
+
+![IMG-0738: نمودارهای نتایج خطای برنامه تبلیغاتی](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-importanterrors/advertising-importanterrors.webp>)
 
 #### خطای اطلاعات
 به خطایی اشاره دارد که ممکن است بر اثر اطلاعات نادرست در ارتباط با مخاطبان رخ داده باشد. اختلاف تعداد پیام های ارسال شده (ستون 4) نسبت به تعداد مخاطبان هدف (ستون 3) ناشی از همین خطا و تعداد پیام هایی است که ارسال نشده اند.
 
+![IMG-0739: فرمول خطای اطلاعات در برنامه تبلیغاتی](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-importanterrors/Errors2.webp>)
+
 #### خطای اجرا
 به خطایی اشاره می کند که در نتیجه مشکلی از سوی مخاطبان، پیام ارسالی به مخاطب تحویل داده نمی شود. اختلاف تعداد پیام های رسیده به مخاطبان (ستون 5) و تعداد پیام های ارسال شده (ستون 4) که این خطا را ممکن می سازد، می تواند از عواملی مانند مشاهده نکردن ایمیل های تبلیغاتی، خاموش بودن دستگاه فکس یا موبایل و مشکلات مشابه از جانب مخاطب ناشی شود.
+
+![IMG-0740: فرمول خطای اجرا در برنامه تبلیغاتی](</kb-assets/kb-images/Help/Marketing/Advertising-analysis-chart/advertising-importanterrors/Errors3.webp>)

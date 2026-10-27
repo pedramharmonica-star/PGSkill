@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Buy-warehouse-sales
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## لیست قراردادها
 `مسیر سند: Help/Buy-warehouse-sales/Contracts/Contracts.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Contracts/Contracts.md)
@@ -8,6 +8,8 @@
 تمام قراردادهای تنظیم شده برای هویت های موجود، نمایش داده می شود. می توانید بر اساس پارامترهای مختلف جستجو نمایید و قرارداد موردنظر خود را پیدا نمایید. همچنین امکان ایجاد قرارداد جدید یا ویرایش قراردادهای موجود نیز در این قسمت وجود دارد.
 
 > نکته: هر کاربر می تواند تنها قراردادهایی که خود ثبت نموده است مشاهده نماید و تنها کاربر دارای مجوز "مشاهده لیست" قراردادها می تواند کلیه قراردادهای ثبت شده توسط سایر کاربران سیستم را مشاهده نماید.
+
+![IMG-0090](</kb-assets/kb-images/Help/Buy-warehouse-sales/Contracts/ghardad.webp>)
 
 > نکته: لطفا ابتدا قسمت[  فیلتر پیشرفته ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه کنید .
 
@@ -125,6 +127,8 @@
 
 در این قسمت فیلدهای ثبت یک حواله یا رسید توضیح داده شده است، برای مثال این قسمت رسید موجودی اولیه (که هنوز تایید نشده است) انتخاب گردیده است.
 
+![IMG-0125: صفحه ثبت اطلاعات رسید-حواله](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/sabthavale-resid/InitialInventory.webp>)
+
 > **نکته:**
 
 > هر حواله یا رسید در انبار ابتدا ذخیره می‌شود، سپس باید به تایید رسیده و بعد از آن باید قیمت گذاری روی آن انجام شود. می‌توانید در رسید یا حواله‌های ثبت شده، سریال اقلام کالا را نیز وارد کنید.
@@ -192,7 +196,11 @@
 
 پس از اضافه کردن محصولات به تراکنش های انبار می توانید سریال اقلام کالا را نیز وارد کنید. وارد کردن سریال ها به شما کمک می کند تا با جستجوی سریال ها در قسمت[ جستجو قلم کالا  ،](https://github.com/1stco/PayamGostarDocs/blob/master/Help/InventoryManagement/WarehouseProducts'%20list.md) وضعیت کالا (موجود بودن آن در انبار، وضعیت گارانتی و ...) را به سادگی مشاهده نمایید. پس از اضافه نمودن محصولات به تراکنش های انبار، به ازای هر ردیف محصول، می توانید با کلیک بر روی مدیریت اقلام کالا نسبت به افزودن سریال ها اقدام نمایید.
 
+![IMG-0126](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/sabthavale-resid/SerialHint.webp>)
+
 **با کلیک بر روی این دکمه صفحه زیر را مشاهده خواهید نمود:**
+
+![IMG-0127](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/sabthavale-resid/SerialPicker.webp>)
 
 **1. نام محصول:** نام محصولی که قصد وارد کردن سریال اقلام آن را دارید در این قسمت نمایش داده می شود.
 
@@ -236,6 +244,8 @@
 `مسیر سند: Help/Buy-warehouse-sales/Store/sabthavale-resid/moshtarak-resid-havale.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/sabthavale-resid/moshtarak-resid-havale.md)
 
 در این قسمت فیلدهای ثبت یک حواله یا رسید توضیح داده شده است، برای مثال این قسمت رسید موجودی اولیه (که هنوز تایید نشده است) انتخاب گردیده است.
+
+![IMG-0125](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/sabthavale-resid/InitialInventory.webp>)
 
 > **نکته:** هر حواله یا رسید در انبار ابتدا ذخیره می‌شود، سپس باید به تایید رسیده و بعد از آن باید قیمت گذاری روی آن انجام شود. می‌توانید در رسید یا حواله‌های ثبت شده، سریال اقلام کالا را نیز وارد کنید.
 
@@ -294,6 +304,8 @@
 
 [مدیریت اقلام کالا](https://github.com/1stco/PayamGostarDocs/blob/master/Help/InventoryManagement/GeneratingWarehouseRecieptSerialNumbers.md)
 
+![IMG-0128](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/sabthavale-resid/InventoryTransaction1.webp>)
+
 **1. مدیریت گزارش‌ها:**  با استفاده از این بخش میتوان از لیست درخواست ها با توجه به فیلتر های اعمال شده، گزارش گیری کرد. برای توضیحات بیشتر میتوانید به بخش [گزارش ساز جدید](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Report-Builder/Report-Builder.md) مراجعه کنید.
 
 #### قابلیت صدور حواله/رسید از روی اسناد دیگر
@@ -303,6 +315,8 @@
 عملکرد به این صورت می باشد که روی حواله یا رسید مورد نظر راست کلیک کرده و سند انبار را کپی می کنیم.
 
   با راست کلیک روی سند انبار و کپی گرفتن از آن، حواله یا رسید جدیدی  برای کاربر باز می شود که فقط شامل ردیف محصولات تراکنش مبدا می باشد.(نوع تراکنش بسته به سند انتخاب شده دارد ، برای مثال اگر رسید بعنوان تراکنش مبدا انتخاب شده باشد،رسید جدید باز خواهد شد )
+
+![IMG-0129](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/sabthavale-resid/InventoryTransaction2.webp>)
 
 **2. زیر نوع سند انبار:** نوع رسید و حواله مقصد طبق سند مبدا مشخص می شود اما امکان انتخاب زیر نوع سند انبار وجود دارد .
 
@@ -316,6 +330,8 @@
 `مسیر سند: Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/gheymatgozari.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/gheymatgozari.md)
 
 تمامی حواله ها و رسید ها پس از تایید به کارتابل کاربر یا کاربرانی که مجوز قیمت گذاری رسید/حواله در انبار مربوطه به آنها داده شده می روند تا عملیات قیمت گذاری بر روی آنها انجام شود. برای ویرایش مجوز قیمت گذاری کاربران در انبارها به قسمت مدیریت مجوزهای انبار در [مدیریت انبارها ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Warehouse-management/Warehouse-management.md)مراجعه کنید.
+
+![IMG-0096](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/GheymatGozari.webp>)
 
 **با دوبار کلیک روی هر سطر می توان قیمت گذاری را انجام داد.**
 
@@ -348,13 +364,21 @@
 
 **قیمت گذاری:** به صورت دستی و یا از روی فاکتور خرید قیمت گذاری می شود.
 
+![IMG-0116](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid/WarehouseReceiptPricing.webp>)
+
 **1. قیمت گذاری دستی:** در هر ردیف  با انتخاب کلید قیمت گذاری دستی می توانید تعداد کالا و قیمت آن را تعیین کنید.
 
 میتوانید برای تعداد دلخواه قیمت متفاوت اعمال کنید. (برای مثال در تصویر 100 تا از کالاها قیمت 12000 ریال دارند در حالی که سایر آن ها می توانند با مبلغ متفاوتی قیمت گذاری شوند.)
 
+![IMG-0117](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid/InitialInventoryStocks1.webp>)
+
 **2. قیمت گذاری از فاکتور خرید:** لیست فاکتورهایی که این کالا ( در این مثال خودکار فابرکاستل آبی) در آن وجود دارد را نرم افزار نمایش می دهد و از بین آنها می توانید انتخاب کنید که چه تعداد از کالاهایی که در این رسید موجود است، مرتبط با کدام فاکتورهاست.
 
+![IMG-0118](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid/WarehouseReceiptPricing2.webp>)
+
 **3. نگاشت خودکار قیمت‌ها:** اگر تمامی اقلام موجود در این رسید مرتبط با یک فاکتور خرید به خصوص است، میتوانید با استفاده از نگاشت خودکار قیمت، نام فاکتور خرید مرتبط را انتخاب کنید تا نرم افزار قیمت های رسید را از روی آن نگاشت کند.
+
+![IMG-0119](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid/WarehouseReceipt3.webp>)
 
 **4. دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا، با کلیک بر روی این علامت قیمت گذاری روی رسید انجام می شود. توجه داشته باشید در صورتی که قیمت گذاری برای تمام ردیف های کالا انجام نشود، امکان قیمت گذاری و استفاده از این دکمه وجود ندارد.
 
@@ -362,12 +386,18 @@
 
 پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
 
+![IMG-0120](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid/WarehouseReceiptPricing4.webp>)
+
 ## تراکنش های انبار
 `مسیر سند: Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/beyn-anbar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/beyn-anbar.md)
 
 در تراکنش بین انباری، کالا از انباری به انبار دیگر منتقل می شود. پس از ثبت انتقال بین انباری، سیستم یک حواله در انبار مبداء و یک رسید در انبار مقصد ثبت خواهد کرد.
 
+![IMG-0097](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/TransferBetweenWarehouses113.webp>)
+
 پس از انتخاب انبار مبدا و مقصد و مشخص کردن نوع حواله و رسید صفحه زیر باز می شود
+
+![IMG-0098](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/TransferBetweenWarehouses33.webp>)
 
 **1 . انبار مبدا:** در این قسمت انبار مبدا نمایش داده می شود.
 
@@ -386,9 +416,13 @@
 
 	فی میانگین = (5*10000+ 15*20000)/20= 17500
 
+![IMG-0099](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/havale-enteghali/TransferReciept1.webp>)
+
 **دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا، با کلیک بر روی این علامت قیمت گذاری روی حواله انجام می شود.
 
 پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
+
+![IMG-0100](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/havale-enteghali/TransferReciept2.webp>)
 
 ## قیمت گذاری رسید انتقالی
 `مسیر سند: Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/resid-enteghali/resid-enteghali.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/resid-enteghali/resid-enteghali.md)
@@ -397,13 +431,21 @@
 
 **قیمت گذاری:** به صورت دستی یا از روی حواله انتقالی انجام می شود.
 
+![IMG-0101](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/resid-enteghali/TransferBetweenWarehouses1.webp>)
+
 **1.  قیمت گذاری دستی:** در هر ردیف تعداد کالا و قیمت آن را تعیین کنید
 
+![IMG-0102](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/resid-enteghali/TransferReciept3.webp>)
+
 **2.قیمت گذاری از حواله:** می توانید از لیست حواله های انتقالی قیمت گذاری شده که شامل این محصول هستند، مشخص کنید که چه تعداد کالا از روی کدام حواله ها قیمت گذاری شوند.
+
+![IMG-0103](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/resid-enteghali/TransferReciept4.webp>)
 
 **3. دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا،با کلیک بر روی این علامت قیمت گذاری روی رسید انجام میشود.
 
  پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
+
+![IMG-0104](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/beyne-anbar/resid-enteghali/TransferReciept5.webp>)
 
 ## قیمت گذاری حواله مرجوعی
 `مسیر سند: Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-marjoi/havale-marjoi.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-marjoi/havale-marjoi.md)
@@ -412,13 +454,19 @@
 
 **قیمت گذاری:**  از آنجایی که حواله مرجوعی در صورت مرجوع کردن کالاهای وارد شده (رسید شده) به انبار استفاده می شود، می توان مشخص کرد که هرکدام از محصولات حواله مرتبط با کدام رسید انبار می باشد. برای قیمت گذاری باید ابتدا تمام محصولات را به یکی از رسیدهای انبار شامل این محصول متصل کنید.
 
+![IMG-0110](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-marjoi/RefundStockTransferPricing.webp>)
+
 **1. اتصال به رسید:** می توانید انتخاب کنید که تعداد موجود در این حواله مرجوعی مرتبط با کدام رسید ها است.
+
+![IMG-0111](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-marjoi/RefundStockTransferPricing2.webp>)
 
 **2. دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا، با کلیک بر روی این علامت قیمت گذاری روی حواله انجام میشود.
 
 > نکته: توجه داشته باشید تا زمانی که تمامی ردیف های کالا به رسیدهای انبار متصل نشوند، امکان قیمت گذاری حواله مرجوعی وجود ندارد.
 
 پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
+
+![IMG-0112](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-marjoi/RefundStockTransferPricing3.webp>)
 
 ## قیمت گذاری و اتصال حواله فروش
 `مسیر سند: Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-forosh/havale-forosh.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-forosh/havale-forosh.md)
@@ -431,15 +479,21 @@
 
 	فی میانگین = (5*10000+ 15*20000)/20= 17500
 
+![IMG-0107](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-forosh/StockTransferSalePricing.webp>)
+
 **1.** با استفاده از کلید قیمت گذاری حواله فروش قیمت گذاری می شود.
 
 پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
+
+![IMG-0108](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-forosh/StockTransferSalePricing2.webp>)
 
 **اتصال:** از آنجایی که حواله فروش در صورت خارج کردن محصولات به فروش رفته از انبار استفاده می شود، می توان مشخص کرد که هرکدام از محصولات حواله مرتبط با کدام فاکتور فروش می باشد. این اتصال در [گزارشات افتراق ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Management-and-reports/Sales-reports/Differentiation-reports/Differentiation-reports.md) نرم افزار تاثیر گذار است.
 
 **2. اتصال به فاکتور فروش:** می توانید تعیین کنید که کالاهای این حواله فروش مرتبط با کدام فاکتورهای فروش می شود.
 
 > نکته: یک حواله می تواند برای چند فاکتور مختلف باشد.(یعنی محصولات موجود در حواله مربوط به فاکتور فروش های مختلف باشد ، برای مثال اگر محصول خودکار در حواله مقدار 10 باشد می تواند 5 خودکار مربوط به یک فاکتور فروش و 5 تای دیگر مربوط به فاکتور فروش دیگر باشد)
+
+![IMG-0109](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-forosh/StockTransferSalePricing3.webp>)
 
 ابتدا مشخص کنید که چه تعداد از کالا مرتبط با کدام فاکتور فروش می باشد و در انتها روی دکمه تایید کلیک کنید.
 
@@ -450,13 +504,21 @@
 
 **قیمت گذاری:** به صورت دستی و یا از روی حواله فروش انجام میشود.
 
+![IMG-0121](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid-marjoi/RefundRecieptPricing.webp>)
+
 **1. قیمت گذاری دستی:** در هر ردیف تعداد کالا و قیمت آن را تعیین کنید.
 
+![IMG-0122](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid-marjoi/RefundRecieptPricing2.webp>)
+
 **2. قیمت گذاری از حواله:** از بین لیست حواله های قیمت گذاری شده که شامل این محصول هستند، می توانید انتخاب کنید که اقلام موجود در این رسید مرجوعی مرتبط با کدام حواله ها است.
+
+![IMG-0123](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid-marjoi/RefundRecieptPricing3.webp>)
 
 **3. دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا، با کلیک بر روی این علامت قیمت گذاری روی رسید انجام میشود.
 
  پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
+
+![IMG-0124](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/resid-marjoi/RefundRecieptPricing4.webp>)
 
 ## قیمت گذاری حواله انبار
 `مسیر سند: Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-anbar/untitled.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-anbar/untitled.md)
@@ -469,13 +531,19 @@
 
 	فی میانگین = (5*10000+ 15*20000)/20= 17500
 
+![IMG-0105](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-anbar/StockTransfer.webp>)
+
 **A. دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا، با کلیک بر روی این علامت قیمت گذاری روی حواله انجام میشود.
 
 پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
 
+![IMG-0106](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/havale-anbar/StockTransfer2.webp>)
+
 ### قیمت گذاری
 
 تمامی حواله ها و رسید ها پس از تایید به کارتابل کاربر یا کاربرانی که مجوز قیمت گذاری رسید/حواله در انبار مربوطه به آنها داده شده می روند تا عملیات قیمت گذاری بر روی آنها انجام شود. برای ویرایش مجوز قیمت گذاری کاربران در انبارها به قسمت مدیریت مجوزهای انبار در [مدیریت انبارها ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Warehouse-management/Warehouse-management.md)مراجعه کنید.
+
+![IMG-0096](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/GheymatGozari.webp>)
 
 **با دوبار کلیک روی هر سطر می توان قیمت گذاری را انجام داد.**
 
@@ -518,6 +586,8 @@
 ### قیمت گذاری
 
 تمامی حواله ها و رسید ها پس از تایید به کارتابل کاربر یا کاربرانی که مجوز قیمت گذاری رسید/حواله در انبار مربوطه به آنها داده شده می روند تا عملیات قیمت گذاری بر روی آنها انجام شود. برای ویرایش مجوز قیمت گذاری کاربران در انبارها به قسمت مدیریت مجوزهای انبار در [مدیریت انبارها ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Warehouse-management/Warehouse-management.md)مراجعه کنید.
+
+![IMG-0096](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/GheymatGozari.webp>)
 
 **با دوبار کلیک روی هر سطر می توان قیمت گذاری را انجام داد.**
 
@@ -570,15 +640,21 @@
 
 قیمت گذاری رسید موجود اولیه باید به صورت دستی برای هر ردیف کالا انجام شود.
 
+![IMG-0113](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/mojodi-avalie/InitialInventoryStocks4.webp>)
+
 **1. قیمت گذاری دستی:** در هر ردیف  با انتخاب کلید قیمت گذاری دستی می توانید تعداد کالا و قیمت آن را تعیین کنید.
 
 میتوانید برای تعداد دلخواه قیمت متفاوت اعمال کنید. (برای مثال در تصویر 100 تا از کالاها قیمت 12000 ریال دارند در حالی که سایر آن ها می توانند با مبلغ متفاوتی قیمت گذاری شوند.)
+
+![IMG-0114](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/mojodi-avalie/InitialInventoryStocks2.webp>)
 
 **2. دکمه قیمت گذاری:** پس از قیمت گذاری برای تمام ردیف های کالا، با کلیک بر روی این علامت قیمت گذاری روی رسید انجام می شود. توجه داشته باشید در صورتی که قیمت گذاری برای تمام ردیف های کالا انجام نشود، امکان قیمت گذاری و استفاده از این دکمه وجود ندارد.
 
 > **نکته:** پس از قیمت گذاری ردیف ها حتما باید دکمه قیمت گذاری زده شود در غیر این صورت قیمت گذاری انجام نشده است .
 
 پس از انجام قیمت گذاری، می توانید با استفاده از دکمه لغو قیمت گذاری، تراکنش را به حالت قیمت گذاری نشده برگردانید.
+
+![IMG-0115](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/gheymatgozari-etesal/mojodi-avalie/InitialInventoryStocks3.webp>)
 
 ## قابلیت صدور رسید/حواله از روی رسید/حواله دیگر
 `مسیر سند: Help/Buy-warehouse-sales/Store/copy/copy.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/copy/copy.md)
@@ -587,7 +663,11 @@
 
 عملکرد به این صورت می باشد که روی حواله یا رسید مورد نظر راست کلیک کرده و سند انبار را کپی می کنیم، صدور حواله/ رسید از روی اسناد دیگر ربطی به تایید و یا عدم تایید سند مبدا ندارد.
 
+![IMG-0094](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/copy/copy.webp>)
+
  با راست کلیک روی سند انبار و کپی گرفتن از آن، حواله یا رسید جدیدی  برای کاربر باز می شود که فقط شامل ردیف محصولات تراکنش مبدا می باشد.(نوع تراکنش بسته به سند انتخاب شده دارد ، برای مثال اگر رسید بعنوان تراکنش مبدا انتخاب شده باشد،رسید جدید باز خواهد شد )
+
+![IMG-0095](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/copy/copy1.webp>)
 
  **1. زیر نوع سند انبار:** نوع رسید و حواله مقصد طبق سند مبدا مشخص می شود اما امکان انتخاب زیر نوع سند انبار وجود دارد .
 
@@ -605,6 +685,8 @@
 `مسیر سند: Help/Buy-warehouse-sales/Store/transfer/transfer.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/Store/transfer/transfer.md)
 
 برای انجام انتقال بین انبارهای خود از این گزینه استفاده نمایید. پس از ثبت انتقال بین انباری، سیستم یک حواله در انبار مبداء و یک رسید در انبار مقصد ثبت خواهد کرد.
+
+![IMG-0130](</kb-assets/kb-images/Help/Buy-warehouse-sales/Store/transfer/Transfer.webp>)
 
 می توانید این تراکنش را در انبار مبداء یا مقصد ثبت نمایید، پس از کلیک بر روی دکمه انتقال بین انباری، باید جزئیات زیر را تعیین نمایید:
 
@@ -630,6 +712,8 @@
 لیست تمام دریافت/پرداخت های ثبت شده در سیستم نمایش داده می شود و می توان اطلاعات جزئی هر کدام از دریافت ها را نیز مشاهده نمود .
 
 > **نکته:** هر کاربر می تواند تنهاسوابقی (دریافت/پرداخت) که خود ثبت نموده است مشاهده نماید و تنها کاربر دارای مجوز "مشاهده لیست" مربوط به هر  آیتم می تواند کلیه سوابق (دریافت/پرداخت) ثبت شده توسط سایر کاربران سیستم را مشاهده نماید .
+
+![IMG-0132](</kb-assets/kb-images/Help/Buy-warehouse-sales/receiving-payment/daryaft.webp>)
 
 > نکته: لطفا ابتدا قسمت [ فیلتر پیشرفته ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه کنید .
 
@@ -688,7 +772,11 @@
 
 سریال های موجود در این قسمت بر اساس سریال های تعریف شده در  رسید هایی که کالاهای انبار به وسیله آن ها تامین شده است نمایش داده می شود و با استفاده از این قسمت امکان مشاهده تراکنش های انباری ثبت شده برای هر سریال و مشاهده وضعیت موجود بودن و یا نبودن سریال محصولات  وجود دارد .
 
+![IMG-0092](</kb-assets/kb-images/Help/Buy-warehouse-sales/Search-for-item-pen/ProductSerial.webp>)
+
 **1 . جستجوی سریال:** با وارد کردن قسمتی از سریال کالا، سریال های مشابه با آن نمایش داده می شود و با کلیک بر روی هر کدام از آنها صفحه ویرایش آن قلم کالا و تراکنش های انباری ثبت شده برای اون سریال نمایش  داده می شود. اطلاعاتی که در هنگام ثبت قلم کالا در رسید وارد کرده اید نمایش داده می شوند و در صورت نیاز می توانید برخی از آنها را طبق توضیحات زیر تغییر دهید
+
+![IMG-0093](</kb-assets/kb-images/Help/Buy-warehouse-sales/Search-for-item-pen/ProductSerialEdit.webp>)
 
 **A. نام محصول:** نام محصول انتخاب شده را نمایش می دهد.
 
@@ -745,6 +833,8 @@
 
 > **نکته: هر کاربر می‌تواند تنها سوابقی (پیش فاکتور/فاکتور/فاکتور برگشتی) که خود ثبت نموده است مشاهده نماید و تنها کاربر دارای مجوز "مشاهده لیست سابقه (پیش فاکتور یا فاکتور یا فاکتور برگشتی) می‌تواند کلیه سوابق (پیش فاکتور یا فاکتور یا فاکتور برگشتی) ثبت شده توسط سایر کاربران سیستم را مشاهده نماید.**
 
+![IMG-0091](</kb-assets/kb-images/Help/Buy-warehouse-sales/Factors/FAKTOR12.webp>)
+
 > نکته: لطفا ابتدا قسمت[ فیلترهای پیشرفته](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Customer-relationship-management/Advanced-filter/Advanced-filter.md) را مطالعه کنید.
 
 **1.** **زیر نوع آیتم:** زیرنوع فاکتورها و پیش فاکتورها از این قسمت قابل تغییر است.
@@ -799,6 +889,8 @@
 `مسیر سند: Help/Buy-warehouse-sales/link-pardakht/PaymentlinkList.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Buy-warehouse-sales/link-pardakht/PaymentlinkList.md)
 
 در این قسمت تمامی لینک های پرداخت ایجاد شده در سیستم توسط کاربران نمایش داده می شود و می توانید جزئیات مربوط به هرکدام را مشاهده کنید، با استفاده از پارامترهای مختلف لینک پرداخت مورد نظر خود را جستجو کنید و یا لینک پرداخت جدیدی ایجاد کنید.
+
+![IMG-0131](</kb-assets/kb-images/Help/Buy-warehouse-sales/link-pardakht/PaymentlinkList.webp>)
 
 **1. نوع فیلتر:** میتوانید فیلترهای اعمال شده را به عنوان یک فیلتر اختصاصی خود ذخیره کنید.
 

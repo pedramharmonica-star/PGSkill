@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Overview-WorkFlowEdition283md
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## ویرایش چرخه‌کاری آیتم‌های جاری
 `مسیر سند: Help/Settings/Personalization-crm/Overview/WorkFlowEdition_2.8.3.md` · `نسخه سند: 2.8.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Overview/WorkFlowEdition_2.8.3.md)
@@ -18,7 +18,11 @@
 1. به صفحه مشخصات آیتمی که قصد ویرایش چرخه‌کاری آن را دارید، بروید (می‌توانید آن را در لیست مربوط به آن بیابید).
 2. در تب **مشخصات** آیتم، روی [مشاهده چرخه‌کاری](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/Process-design/ViewWorkflowItems.md) کلیک کنید. صفحه‌ی پیش روی شما گردش کاری که آیتم تاکنون داشته را به همراه جزئیات هر مرحله، نشان می‌دهد که تنها لیست **کارتابل‌ها** و **فعالیت‌های انتظار** در این قسمت فهرست می‌شود.
 
+![IMG-1431: مسیر مشاهده گردش کار در صفحه اطلاعات آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/View-Item-process_2.8.3.webp>)
+
 در صفحه پیش‌رو جزئیات مربوط به هر مرحله در اختیار شما قرار داده می‌شود.
+
+![IMG-1432: صفحه مشاهده چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Process-edition-overview_2.8.3.webp>)
 
   **A.** در این جدول لیست کارتابل و فعالیت‌های انتظار گذشته طی فرآیند را مشاهده خواهید کرد.
 
@@ -38,11 +42,17 @@
 
 با کلیک بر دکمه **افزودن** کارتابل/فعالیت مورد نظر خود را اضافه نمایید. زین پس فرآیند از مرحله اضافه شده ادامه‌ی مسیر می‌دهد.
 
+![IMG-1433: صفحه ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Add-Stage-in-Process-edition-page_2.8.3.webp>)
+
 - **تغییر مسئول آخرین کارتابل، در چرخه‌کاری**
 
 همانطور که در توضیحات بالا اشاره شد، امکان حذف آخرین کارتابل در بخش ویرایش چرخه‌کاری وجود ندارد و تنها می‌توانید مسئول **آخرین کارتابل** را تغییر دهید. برای این کار روی گزینه ویرایش کلیک کنید.
 
+![IMG-1434: نحوه تغییر مسئول کارتابل در ویرایش چرخه کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Edite-last-stage-in-process_2.8.3.webp>)
+
 در صفحه پیش رو زمان دقیق ورود به کارتابل، تخصیص به کاربر، مشاهده آیتم و خروج فرآیند از کارتابل کاربر نمایش داده می‌شود. درصورتی که بخواهید مسئول این کارتابل را تغییر دهید، می‌توانید نام کاربر مورد نظر خود را از لیست انتخاب نموده و تغییرات را ذخیره نمایید.
+
+![IMG-1435: تغییر مسئول آخرین کارتابل در ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/Change-user-in-cartable_2.8.3.webp>)
 
 > **نکته**
 
@@ -50,6 +60,8 @@
 
 ##### مشاهده سابقه تغییرات در ویرایش چرخه‌کاری
 برای هر دو حالت افزودن کارتابل/فعالیت جدید به انتهای فرآیند و ویرایش مسئول آخرین کارتابل، **نام ایجاد کننده**، **نام ویرایش کننده** و **زمان دقیق تغییرات** اعمال شده در لیست مراحل فرآیند، نمایش داده خواهد شد.
+
+![IMG-1436: مشاهده سابقه تغییرات ویرایش چرخه‌کاری](</kb-assets/kb-images/Help/Settings/Personalization-crm/Overview/Images_Process/History-of-changes-in-process.webp>)
 
 ##### دسترسی‌های مورد نیاز برای ویرایش چرخه‌های کاری
 **مالک آیتم** و **مدیر سیستم** به طور کلی امکان ویرایش چرخه‌کاری را دارند. علاوه بر آن برخی مجوزهای مدیریتی (مثل مدیر مالی، مدیر فروش و ...) نیز دسترسی ویرایش چرخه‌کاری آیتم‌های مختلف را به کاربر می‌دهد که در ادامه به تفکیک توضیح داده می‌شود.

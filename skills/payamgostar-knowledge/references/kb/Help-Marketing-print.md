@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-print
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت ارسال گروهی
 `مسیر سند: Help/Marketing/print/group-sending-print/Group-sending-print.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/print/group-sending-print/Group-sending-print.md)
@@ -21,15 +21,21 @@
 
 [گام3-انتخاب مخاطبان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/print/group-sending-print/3-mokhatab-print/3-mokhatab-print.md)
 
+![IMG-0843](</kb-assets/kb-images/Help/Marketing/print/group-sending-print/advertising-sendingprint-home.webp>)
+
 ## گام 1 - اطلاعات اولیه
 `مسیر سند: Help/Marketing/print/group-sending-print/1-avalie-print/1-avalie-print.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/print/group-sending-print/1-avalie-print/1-avalie-print.md)
 
 به گام اول - اطلاعات پیام در[ اطلاعات مشترک ابزارها ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/gam%20yk/gam-yk.md)مراجعه کنید
 
+![IMG-0844](</kb-assets/kb-images/Help/Marketing/print/group-sending-print/1-avalie-print/advertising-sendingprint-firststep.webp>)
+
 ## گام 3 - انتخاب مخاطبان
 `مسیر سند: Help/Marketing/print/group-sending-print/3-mokhatab-print/3-mokhatab-print.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/print/group-sending-print/3-mokhatab-print/3-mokhatab-print.md)
 
 برای اطلاعات بیشتر به لینک [انتخاب مخاطبان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/gam-se/select-Audience.md) در برنامه پیام کوتاه مراجعه نمایید.
+
+![IMG-0846](</kb-assets/kb-images/Help/Marketing/print/group-sending-print/3-mokhatab-print/advertising-sendingprint-thirdstep.webp>)
 
 ## گام2  - محتوای پیام
 `مسیر سند: Help/Marketing/print/group-sending-print/2-tanzimmatn-print/2-tanzimmatn-print.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/print/group-sending-print/2-tanzimmatn-print/2-tanzimmatn-print.md)
@@ -38,9 +44,13 @@
 
 > نکته: در هنگام استفاده از چاپ چندتایی، در مرحله تنظیم متن ( جهت ویرایش متن اینجا کلیک کنید) باید صفحه word  خود را به اندازه ای کوچک نمایید که به اندازه یک قسمت از تقسیم بندی باشد که هنگام تعریف پرینتر مشخص کردیم باشد .
 
+![IMG-0845](</kb-assets/kb-images/Help/Marketing/print/group-sending-print/2-tanzimmatn-print/advertising-sendingprint-secondstep.webp>)
+
 ## لیست موارد چاپ شده
 `مسیر سند: Help/Marketing/print/send-list-print/send-list-print.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/print/send-list-print/send-list-print.md)
 
  از طریق این صفحه می توانید لیست تمام موارد چاپ شده را مشاهده کنید. تاریخ چاپ، نام چاپگر، فاکتورهایی هستند که می توانید بر اساس آن ها لیست را محدود نمایید.
 
 > نکته: برای اطلاعات بیشتر در خصوص لیست ارسال ها به قسمت[ اطلاعات مشترک لیست ارسال ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md)پیام مراجعه کنید.
+
+![IMG-0847](</kb-assets/kb-images/Help/Marketing/print/send-list-print/advertising-sendingprint-list.webp>)

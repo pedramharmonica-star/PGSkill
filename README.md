@@ -5,7 +5,7 @@
 
 > ⚠️ **محرمانه، فقط برای استفاده داخلی.** این مخزن شامل اسناد داخلی است (RFI تأییدشده، سند فنی PGX، یادداشت‌های تناقض و محدودیت). آن را خصوصی نگه دارید.
 
-نسخه: **0.10.1** · دانش مرکز دانش تا نسخه نرم‌افزار **2.8.8.2** (برداشت ۱۴۰۵/۰۶/۱۴) · نگهدارنده: Pedram Berenji
+نسخه: **0.11.0** · دانش مرکز دانش تا نسخه نرم‌افزار **2.8.8.2** (برداشت ۱۴۰۵/۰۶/۱۴) · نگهدارنده: Pedram Berenji
 
 ---
 
@@ -47,7 +47,7 @@ PGSkill/
 │   ├── payamgostar-knowledge/
 │   │   ├── SKILL.md                ← قواعد، اولویت منابع، وضعیت‌ها، روش پاسخ
 │   │   ├── references/             ← دانش: ۲۰ فایل موضوعی + kb/ (۱۰۱۲ مقاله) + kb-evidence/ + نمایه‌ها
-│   │   └── scripts/                ← find.py (جست‌وجو)، search_kb.py، read_source.py، convert_kb.py
+│   │   └── scripts/                ← find.py (جست‌وجو)، find_image.py (تصویر)، search_kb.py، read_source.py، convert_kb.py
 │   ├── payamgostar-rfp-matcher/
 │   │   ├── SKILL.md                ← گردش کار ۵ گامی تطبیق RFP و کنترل کیفیت
 │   │   └── scripts/candidates.py   ← کاندیدای شاهد برای هر ردیف RFP
@@ -60,6 +60,7 @@ PGSkill/
 │       ├── templates/              ← ۴ قالب رسمی DOCX بی‌نام‌شده + متن md
 │       ├── references/             ← سیاست قراردادها، ساختار پیش‌فاکتور
 │       └── scripts/fill_contract.py ← پرکردن قالب و عدد به حروف
+├── kb-assets/                      ← ۲۰۲۶ اسکرین‌شات رسمی مرکز دانش (WebP، ~۴۸MB)؛ فقط در مخزن، نه در بسته پلاگین
 ├── portable/                       ← نسخه مستقل از مدل (ChatGPT، Gemini، Copilot، RAG)
 │   ├── SYSTEM_PROMPT.md            ← دستورالعمل کوتاه (کمتر از ۸۰۰۰ کاراکتر)
 │   ├── PayamGostar-Skill-Complete.md ← اسکیل کامل در یک فایل
@@ -76,14 +77,14 @@ PGSkill/
 ## نصب و استفاده
 
 ### ۱) Claude (اپ Claude، Claude Code، Cowork)
-فایل `dist/payamgostar-knowledge-v0.10.1.plugin` را دانلود و در Claude نصب کنید، یا پوشه را به‌عنوان پلاگین اضافه کنید. اسکیل‌ها خودکار فعال می‌شوند؛ کافی است بپرسید یا فایل RFP را بدهید.
+فایل `dist/payamgostar-knowledge-v0.11.0.plugin` را دانلود و در Claude نصب کنید، یا پوشه را به‌عنوان پلاگین اضافه کنید. اسکیل‌ها خودکار فعال می‌شوند؛ کافی است بپرسید یا فایل RFP را بدهید.
 > اگر اسکیل جداگانه `payamgostar-rfp-response` را قبلاً نصب کرده‌اید، بعد از نصب این پلاگین غیرفعالش کنید. `payamgostar-proposal` جایگزین آن است و دو اسکیل هم‌کار با هم تداخل می‌کنند.
 
 ### ۲) ایجنت‌های سازگار با Agent Skills (OpenAI Codex، Gemini CLI، Cursor، GitHub Copilot، VS Code و …)
 SKILL.md یک استاندارد باز است. هر سه پوشه زیر `skills/` را (کنار هم، چون به هم ارجاع می‌دهند) در پوشه اسکیل‌های ابزار کپی کنید (مثلاً `.agents/skills/`، `.codex/skills/` یا `.github/skills/`، طبق مستندات همان ابزار). اگر ابزار فقط `AGENTS.md` را می‌خواند، کل مخزن را باز کنید.
 
 ### ۳) چت‌بات‌های بدون فایل‌سیستم (ChatGPT، Gemini Gem، Copilot Studio، DeepSeek، مدل لوکال)
-از پوشه `portable/` (یا فایل فشرده `dist/payamgostar-portable-v0.10.1.zip`) استفاده کنید. راهنمای قدم‌به‌قدم هر پلتفرم در [`portable/README.md`](portable/README.md) است.
+از پوشه `portable/` (یا فایل فشرده `dist/payamgostar-portable-v0.11.0.zip`) استفاده کنید. راهنمای قدم‌به‌قدم هر پلتفرم در [`portable/README.md`](portable/README.md) است.
 
 ### ۴) ایجنت اختصاصی (هر LLM از طریق API)
 ```bash

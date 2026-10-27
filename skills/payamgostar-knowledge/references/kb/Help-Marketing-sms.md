@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Marketing-sms
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## پیام کوتاه
 `مسیر سند: Help/Marketing/sms/sms.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/sms.md)
@@ -10,6 +10,8 @@
 **نمودار پیام کوتاه های ارسالی در ماه های گذشته:**  بصورت خودکار سه ماه گذشته نمایش داده می شود ، که در هر کدام از این ماه ها چه تعداد پیام ارسال شده و چه تعداد به مخاطب رسیده است .
 
 **نمودار پیام کوتاه های ارسالی در 90 روز گذشته:**  در این قسمت گزارش نموداری ارسال پیام ها در 90 روز گذشته نمایش داده می شود ، که در هر روز چه تعداد پیام ارسال شده و چه تعداد پیام رسیده به مخاطب داشتیم .
+
+![IMG-0848](</kb-assets/kb-images/Help/Marketing/sms/advertising-sms.webp>)
 
 [مدیریت ارسال گروهی پیامک](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/send-group/send-group.md)
 
@@ -46,6 +48,8 @@
 
 گام 4-  [مخاطبین دعوتنامه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/Autoresponder/4-mokhatab-pasokh-khodkar/4-mokhatab-pasokh-khodkar.md)
 
+![IMG-0858](</kb-assets/kb-images/Help/Marketing/sms/Autoresponder/advertising-sendingautoanswer.webp>)
+
 ## انتخاب مخاطبان دعوتنامه پاسخگو خودکار
 `مسیر سند: Help/Marketing/sms/Autoresponder/4-mokhatab-pasokh-khodkar/4-mokhatab-pasokh-khodkar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Autoresponder/4-mokhatab-pasokh-khodkar/4-mokhatab-pasokh-khodkar.md)
 
@@ -60,6 +64,8 @@
 در این قسمت با زدن تیک، مخاطبان پاسخگوی خودکار فقط افرادی هستند که در این دعوتنامه برایشان پیام می فرستید و
 
 مخاطبان دیگر نمی توانند از پاسخگوی خودکار استفاده کنند .
+
+![IMG-0862](</kb-assets/kb-images/Help/Marketing/sms/Autoresponder/4-mokhatab-pasokh-khodkar/advertising-sendingautoanswer-fourthstep.webp>)
 
 ## گام 1 - اطلاعات اولیه پاسخگو خودکار
 `مسیر سند: Help/Marketing/sms/Autoresponder/1-avalie-khodkar/1-avalie-khodkar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Autoresponder/1-avalie-khodkar/1-avalie-khodkar.md)
@@ -80,6 +86,8 @@
 
 **8. پیام پیش فرض:** می شود مشخص کرد هنگامی که مخاطب عددی بغیر از ، گزینه های تعیین شده ارسال کند ، متن تعریف شده در این قسمت  برایش ارسال شود .
 
+![IMG-0859](</kb-assets/kb-images/Help/Marketing/sms/Autoresponder/1-avalie-khodkar/advertising-sendingautoanswer-firststep.webp>)
+
 ## گام 2 - نحوه اجرا پاسخگو خودکار
 `مسیر سند: Help/Marketing/sms/Autoresponder/2-nahveejra-khodkar/2-nahveejra-pasokh-khodkar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Autoresponder/2-nahveejra-khodkar/2-nahveejra-pasokh-khodkar.md)
 
@@ -91,12 +99,16 @@
 
  در بازه اجرا خط مورد نظر نباید در برنامه دیگری مانند مسابقه و پاسخگوی خودکار و .... استفاده شود .  با استفاده از این کلید می شود بررسی کرد که خط مورد نظر مشغول است یا خیر .
 
+![IMG-0860](</kb-assets/kb-images/Help/Marketing/sms/Autoresponder/2-nahveejra-khodkar/advertising-sendingautoanswer-secondstep.webp>)
+
 ## گام 3 - دعوتنامه پاسخگو خودکار
 `مسیر سند: Help/Marketing/sms/Autoresponder/3-davatname-pasokh-khodkar/3-davatname-pasokh-khodkar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Autoresponder/3-davatname-pasokh-khodkar/3-davatname-pasokh-khodkar.md)
 
 در این گام در صورت نیاز می توانید برای آغاز به کار پاسخگوی خودکار دعوتنامه تعیین و به مخاطبان دلخواه ارسال کنید تا از امکانات آن مطلع گردند.
 
 در بالای کادر[ متن هوشمند ، ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/Parameters/MessageParameters.md)تیک ارسال دعوتنامه را فعال کنید تا امکان استفاده از متن هوشمند (به عنوان یکی از ویژگی های خاص پیام گستر) در این گام برای شما فراهم شود. با فعال شدن متن، به طور پیش فرض عنوان و محتوای پاسخگو نمایان می شود که قابل ویرایش است.
+
+![IMG-0861](</kb-assets/kb-images/Help/Marketing/sms/Autoresponder/3-davatname-pasokh-khodkar/advertising-sendingautoanswer-thirdstep.webp>)
 
 ## صفحه‌ی اصلی مسابقه
 `مسیر سند: Help/Marketing/sms/Competition/compertition.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Competition/compertition.md)
@@ -117,6 +129,8 @@
 
 گام 5-  [مخاطبین دعوتنامه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/Competition/5-entekhabmokhatab-mosabeghe/5-mokhatab-mosabeghe.md)
 
+![IMG-0863](</kb-assets/kb-images/Help/Marketing/sms/Competition/advertising-sendingcompetitionsms.webp>)
+
 ## گام 1 -اطلاعات اولیه مسابقه
 `مسیر سند: Help/Marketing/sms/Competition/1-avalie-mosabeghe/1-avalie-mosabeghe.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Competition/1-avalie-mosabeghe/1-avalie-mosabeghe.md)
 
@@ -136,6 +150,8 @@
 
 **8**. با زدن گام 2 به مرحله بعد خواهید رفت.
 
+![IMG-0864](</kb-assets/kb-images/Help/Marketing/sms/Competition/1-avalie-mosabeghe/advertising-sendingcompetitionsms-firststep.webp>)
+
 ## گام 4 - دعوتنامه مسابقه
 `مسیر سند: Help/Marketing/sms/Competition/4-davatname-mosabeghe/4-davatname-mosabeghe.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Competition/4-davatname-mosabeghe/4-davatname-mosabeghe.md)
 
@@ -145,12 +161,16 @@
 
 > نکته: در صورتی که ارسال دعتونامه را در این قسمت فعال کرده باشید، این برنامه حداقل باید یک مخاطب داشته باشد تا اجرا شود.
 
+![IMG-0867](</kb-assets/kb-images/Help/Marketing/sms/Competition/4-davatname-mosabeghe/advertising-sendingcompetitionsms-fourthstep.webp>)
+
 ## گام 3 - پیام تاییدیه مسابقه
 `مسیر سند: Help/Marketing/sms/Competition/3-payamtaid-mosabeghe/3-payamtaid-mosabeghe.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Competition/3-payamtaid-mosabeghe/3-payamtaid-mosabeghe.md)
 
 در این گام می توان برای شرکت کنندگان، پیام تاییدیه شرکت در مسابقه را ارسال نمود.
 
 در بالای کادر، تیک ارسال پیام تاییدیه را فعال کنید تا امکان نوشتن متن در این گام برای شما فراهم شود. می توانید به شرکت کنندگان اطمینان دهید که پیام آنها رادریافت کرده اید .
+
+![IMG-0866](</kb-assets/kb-images/Help/Marketing/sms/Competition/3-payamtaid-mosabeghe/advertising-sendingcompetitionsms-thirddstep.webp>)
 
 ## گام 2 - نحوه اجرا مسابقه
 `مسیر سند: Help/Marketing/sms/Competition/2-nahveejra-mosabeghe/2-nahveejra-mosabeghe.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Competition/2-nahveejra-mosabeghe/2-nahveejra-mosabeghe.md)
@@ -163,6 +183,8 @@
 
  در بازه اجرا خط مورد نظر نباید در برنامه دیگری مانند مسابقه و پاسخگوی خودکار و .... استفاده شود .  با استفاده از این کلید می شود بررسی کرد که خط مورد نظر مشغول است یا خیر
 
+![IMG-0865](</kb-assets/kb-images/Help/Marketing/sms/Competition/2-nahveejra-mosabeghe/advertising-sendingcompetitionsms-secondstep.webp>)
+
 ## گام 5 - انتخاب مخاطبان مسابقه
 `مسیر سند: Help/Marketing/sms/Competition/5-entekhabmokhatab-mosabeghe/5-mokhatab-mosabeghe.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Competition/5-entekhabmokhatab-mosabeghe/5-mokhatab-mosabeghe.md)
 
@@ -171,6 +193,8 @@
 برای اطلاعات بیشتر به قسمت[ انتخاب مخاطبان](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/gam%20se/select-Audience.md) ارسال گروهی پیام کوتاه مراجعه نمایید.
 
 این مخاطبان باید شامل پروفایل هایی باشند که شماره تلفن همراه در آن ها وجود داشته باشد
+
+![IMG-0868](</kb-assets/kb-images/Help/Marketing/sms/Competition/5-entekhabmokhatab-mosabeghe/advertising-sendingcompetitionsms-fifthstep.webp>)
 
 با فعال کردن این گزینه فقط مخاطبانی که دعوت نامه را دریافت می کنند می توانند در مسابقه شرکت کنند.
 
@@ -191,6 +215,8 @@
 
 گام 5-  [مخاطبین دعوتنامه](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/sms/survey/5-mokhatab-davatname/5-entekhabmokhatab-nazarsanji.md)
 
+![IMG-0882](</kb-assets/kb-images/Help/Marketing/sms/survey/advertising-sendingqustionary-firststep.webp>)
+
 ## گام 4 - دعوتنامه نظرسنجی
 `مسیر سند: Help/Marketing/sms/survey/4-davatname-nazarsanji/untitled.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/survey/4-davatname-nazarsanji/untitled.md)
 
@@ -198,12 +224,16 @@
 
 در بالای کادر متن هوشمند، تیک ارسال دعوتنامه را فعال کنید تا امکان استفاده از متن هوشمند (به عنوان یکی از ویژگی های خاص پیام گستر) در این گام برای شما فراهم شود .
 
+![IMG-0886](</kb-assets/kb-images/Help/Marketing/sms/survey/4-davatname-nazarsanji/advertising-nazarsanji-5.webp>)
+
 ## گام 3 - پیام تایید نظرسنجی
 `مسیر سند: Help/Marketing/sms/survey/3-taid-nazarsanji/3-taid-nazarsanji.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/survey/3-taid-nazarsanji/3-taid-nazarsanji.md)
 
 در این گام می توان برای شرکت کنندگان، پیام تاییدیه شرکت در نظرسنجی را ارسال نمود .
 
 در بالای کادر، تیک ارسال پیام تاییدیه را فعال کنید تا امکان نوشتن متن در این گام برای شما فراهم شود. می توانید به شرکت کنندگان اطمینان دهید که پیام آنها رادریافت کرده اید
+
+![IMG-0885](</kb-assets/kb-images/Help/Marketing/sms/survey/3-taid-nazarsanji/advertising-nazarsanji-4.webp>)
 
 ## گام 2 - نحوه اجرا نظرسنجی
 `مسیر سند: Help/Marketing/sms/survey/2-nahveajra-nazaesanji/2-nahve-ejra-nazarsanji.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/survey/2-nahveajra-nazaesanji/2-nahve-ejra-nazarsanji.md)
@@ -218,6 +248,8 @@
 
 با کلیک بر روی گام 3 وارد مرحله بعدی خواهیم شدیم.
 
+![IMG-0884](</kb-assets/kb-images/Help/Marketing/sms/survey/2-nahveajra-nazaesanji/advertisingNAZARSANJI.webp>)
+
 ## گام 5 - انتخاب مخاطبان دعوتنامه نظرسنجی
 `مسیر سند: Help/Marketing/sms/survey/5-mokhatab-davatname/5-entekhabmokhatab-nazarsanji.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/survey/5-mokhatab-davatname/5-entekhabmokhatab-nazarsanji.md)
 
@@ -226,6 +258,8 @@
 در قسمت انتخاب مخاطبان توضیح داده شده است.
 
 > نکته: در صورتی که ارسال دعتونامه را در این قسمت فعال کرده باشید، این برنامه حداقل باید یک مخاطب داشته باشد تا اجرا شود.
+
+![IMG-0887](</kb-assets/kb-images/Help/Marketing/sms/survey/5-mokhatab-davatname/advertising-sendingnewssms-thirdstep.webp>)
 
 ## گام1 - اطلاعات اولیه نظر سنجی
 `مسیر سند: Help/Marketing/sms/survey/1-avalie-nazarsanji/avalie-nazarsanji.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/survey/1-avalie-nazarsanji/avalie-nazarsanji.md)
@@ -244,6 +278,8 @@
 
 با کلیک بر روی گام 2 وارد مرحله بعد می شویم.
 
+![IMG-0883](</kb-assets/kb-images/Help/Marketing/sms/survey/1-avalie-nazarsanji/advertising-sendingqustionary-secondstep.webp>)
+
 ## رویداد تبلیغاتی پیامک
 `مسیر سند: Help/Marketing/sms/Advertising-event/advertising-event.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Advertising-event/advertising-event.md)
 
@@ -261,12 +297,16 @@
 
 گام 4-  انتخاب مخاطبان
 
+![IMG-0849](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/advertising-sendingeventsms.webp>)
+
 ## گام 3 -  محتوای پیام رویداد تبلیغاتی پیامک
 `مسیر سند: Help/Marketing/sms/Advertising-event/3-tanzim-matn/tanzim-matn.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Advertising-event/3-tanzim-matn/tanzim-matn.md)
 
   لطفا ابتدا به [گام دوم - محتوای پیام](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/gam%20do/gam-do.md) در اطلاعات مشترک ابزارها مراجعه کنید.
 
  **1. حالت رویداد:** در حالت تک متنی برای کلیه تاریخ های انتخابی فقط یک متن ارسال می شود و در حالت چند متنی می توانید برای هر تاریخ یک متن مشخص را ویرایش نمایید.
+
+![IMG-0854](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/3-tanzim-matn/advertising-roydad-4-sms.webp>)
 
  **1.حالت پیام ارسالی:**  در حالت تک متنی برای کلیه تاریخ های انتخابی فقط یک متن ارسال می شود و در حالت چند متنی می توانید برای هر تاریخ یک متن مشخص تنظیم نمایید .
 
@@ -278,7 +318,11 @@
 
 **3. افزودن از لیست اعیاد:** میتوانید یکی از اعیادی که در بازه زمانی شروع و پایان انتخاب شده قرار گرفته اند را انتخاب کنید.
 
+![IMG-0855](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/3-tanzim-matn/Step3p2.webp>)
+
 **4. افزودن تاریخ دستی:**  میتوانید تاریخ های مورد نظر را بصورت دستی وارد لیست تاریخ ها کنید.
+
+![IMG-0856](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/3-tanzim-matn/advertisingSending.webp>)
 
 **5. لیست پارامترها:** از بین پارامترهای هوشمند، میتوانید پارامترهای متغیر در هر مخاطب را انتخاب و با دوبار کلیک آن را به متن پیام اضافه نمایید.
 
@@ -291,10 +335,14 @@
 
 این مخاطبان باید شامل پروفایل هایی باشند که شماره تلفن همراه در آن ها وجود داشته باشد .
 
+![IMG-0857](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/4-entekhab-mokhatab/advertising-sendingeventsms-fourthstep.webp>)
+
 ## گام 2 -  زمان اجرا رویداد تبلیغاتی پیامک
 `مسیر سند: Help/Marketing/sms/Advertising-event/2-zaman-bandi/zaman-bandi.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Advertising-event/2-zaman-bandi/zaman-bandi.md)
 
 **در این گام، سه نوع زمان بندی برای اجرای برنامه پیشنهاد می شود:**
+
+![IMG-0851: صفحه زمان اجرای رویداد تبلیغاتی پیامکی](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/Images/Timing-for-Event-marketing-sms.webp>)
 
 1. **زمان‌بندی دوره‌ای**
 
@@ -309,6 +357,8 @@
 
    تمامی مناسبت‌هایی که در بخش اعیاد و مناسبت‌ها تعیین کرده‌اید را در این قسمت نمایش داده و این برنامه را برای همه‌ی آن مناسبت‌ها اجرا می‌کند.
 
+![IMG-0852: کل مناسبت‌ها برای زمان‌بندی رویداد تبلیغاتی پیامکی](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/Images/all-Events.webp>)
+
 > **نکته**
 
 > اگر در [مدیریت اعیاد و مناسبت‌ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Holiday-management-and-occasions/Holiday-management-and-occasions.md) برای مناسبت‌های تعریف شده پیامی تنظیم شده باشد ، زمانی که تاریخ مورد نظر انتخاب شود برای ارسال رویداد، متن پیام تعریف شده نمایش داده خواهد شد که می‌توانید متن آن را ویرایش کرده و در برنامه استفاده نمایید.
@@ -316,6 +366,8 @@
 4. **مناسبت‌های انتخابی**
 
    در این حالت لیست تمامی مناسبت‌هایی که در بخش [مدیریت اعیاد و مناسبت‌ها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Holiday-management-and-occasions/Holiday-management-and-occasions.md) تعیین کرده‌اید را نمایش داده ولی چک باکس همه‌ی آن‌ها انتخاب شده نیست و می‌توانید هرکدام از آن مناسبت‌ها را برای رویداد خود انتخاب نمایید.
+
+![IMG-0853: مناسبت‌های انتخابی در رویداد پیامکی](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/Images/Event-Optional.webp>)
 
 5. **تاریخ‌های انتخابی**
 
@@ -331,6 +383,8 @@
 `مسیر سند: Help/Marketing/sms/Advertising-event/1-avalie/avalie-roydad.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Advertising-event/1-avalie/avalie-roydad.md)
 
   به گام اول - اطلاعات پیام در[ اطلاعات مشترک ابزارها](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/gam%20yk/gam-yk.md) مراجعه کنید.
+
+![IMG-0850](</kb-assets/kb-images/Help/Marketing/sms/Advertising-event/1-avalie/advertising-sendingeventsms-firststep.webp>)
 
  **1-** دراین فیلد عنوان رویداد مشخص می شود
  **2-** اپراتور ارسال و رسانه ارسال از طریق این دو فیلد مشخص می شود
@@ -362,6 +416,8 @@
 
 در این مرحله پس از انتخاب مخاطبان از بانک های اطلاعاتی، یک لیست از مخاطبان هدف ساخته می شود که با زدن دکمه ثبت، خبرنامه ایجاد و برنامه ی آن شروع به کار میکند.
 
+![IMG-0871](</kb-assets/kb-images/Help/Marketing/sms/Newsletters/3-entekhab-mokhatab/advertising-sendingnewssms-thirdstep.webp>)
+
 >   نکته:  با زدن دکمه سیستم CRM میتوانید مخاطبان هدف خود را از هویت هایی که قبلا برای آن ها آیتم crm ثبت شده است انتخاب کنید .
 
 ## گام 2 - محتوای پیام خبرنامه پیامک
@@ -375,8 +431,12 @@
 
 در ابتدا تاریخ پیام ها و سپس متن پیام را می نویسیم و در نهایت با کلیک بر روی دکمه گام سوم وارد مرحله نهایی می شویم.
 
+![IMG-0870](</kb-assets/kb-images/Help/Marketing/sms/Newsletters/2-tanzim-matn/advertising-sendingnewssms-secondstep.webp>)
+
 ## گام 1 -  اطلاعات پیام خبرنامه پیامک
 `مسیر سند: Help/Marketing/sms/Newsletters/1-avalie/avalie-khabar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Newsletters/1-avalie/avalie-khabar.md)
+
+![IMG-0869](</kb-assets/kb-images/Help/Marketing/sms/Newsletters/1-avalie/advertising-khabarnameh-2.webp>)
 
 **1. شروع ارتباط با مشتریان:** در صورت تمایل، می توان کمپین تبلیغاتی مشخصی را به این خبرنامه متصل کرد تا تعداد پیام های ارسالی در هزینه های آن کمپین محاسبه گردد.
 
@@ -405,10 +465,14 @@
 
 > نکته: برای اطلاعات بیشتر در خصوص لیست ارسال ها به قسمت اطلاعات [مشترک لیست ارسال پیام ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Marketing/moshtarak-abzar/moshtarak-abzar.md)مراجعه کنید.
 
+![IMG-0872](</kb-assets/kb-images/Help/Marketing/sms/Send-ist/advertising-smssendinglist.webp>)
+
 ## اطلاعات مشترک لیست ارسال پیام
 `مسیر سند: Help/Marketing/sms/Send-ist/moshtarake-liste-ersal.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/Send-ist/moshtarake-liste-ersal.md)
 
 اطلاعات مشترک لیست ارسال پیام
+
+![IMG-0873](</kb-assets/kb-images/Help/Marketing/sms/Send-ist/connections-samesettings-1.webp>)
 
 **1. وضعیت ارسال:** انواع وضعیت ارسال ها به شرح ذیل می باشد:
 
@@ -456,6 +520,8 @@
  در برنامه های دوطرفه مانند پاسخگو، مسابقه، نظرسنجی که علاوه بر ارسال پیام، قابلیت دریافت پیام را نیز دارا هستند با تغییر لیست ارسال به لیست دریافت، امکان مشاهده پیام هایی که از سمت مشتریان و مخاطبان برای پاسخ به این برنامه ارسال شده است وجود دارد .
 
 برای مشاهده لیست ارسال و یا لیست دریافت ، کاربر نیاز به مجوز مشاهده ليست پيام هاي ارسالي  دريافتي دارد .
+
+![IMG-0874](</kb-assets/kb-images/Help/Marketing/sms/Send-ist/6.webp>)
 
 **1. وضعیت ارسال:**  انواع وضعیت ارسال ها به شرح ذیل می باشد
 
@@ -521,7 +587,11 @@
 
 ##### کلیک راست بر روی یک پیام شامل موارد زیر است:
 
+![IMG-0875](</kb-assets/kb-images/Help/Marketing/sms/Send-ist/send2.webp>)
+
 **جزئیات ارسال:** در این قسمت جزییات مرتبط با ارسال پیام مانند کد رهگیری و وضعیت تحویل و ارسال را می توانید مشاهده کنید.
+
+![IMG-0876](</kb-assets/kb-images/Help/Marketing/sms/Send-ist/send3.webp>)
 
 **سعی در ارسال دوباره:** این پیام دوباره ارسال خواهد شد .
 
@@ -547,6 +617,10 @@
 > نکته: با توجه به اینکه GSM مودم روی سرورهای مجازی شناسایی نمی شود حتما باید روی سرور پیام گستر به صورت فیزیکی باشد.
 
 لازم به ذکر است GSM مودم می‌بایست به صورت DONGLE باشد. مانند تصاویر زیر:
+
+![IMG-0877](</kb-assets/kb-images/Help/Marketing/sms/gsm/gsm1.webp>)
+
+![IMG-0878](</kb-assets/kb-images/Help/Marketing/sms/gsm/gsm2.webp>)
 
 ## تنظیم GSM مودم
 `مسیر سند: Help/Marketing/sms/gsm/modm-gsm-set.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Marketing/sms/gsm/modm-gsm-set.md)
@@ -586,6 +660,8 @@ Gsm Modem می بایست حتما به پورت های Usb پشت سرور پی
 
 در این پنجره تمام پیام کوتاه‌هایی که به شماره شما ارسال شده است، شماره خط دریافتی، ارسال کننده، شماره آن و همچنین تاریخ دریافت نمایش داده می شود.
 
+![IMG-0879: لیست پیام‌های دریافتی](</kb-assets/kb-images/Help/Marketing/sms/resive-list/ListofReceivingMessages.webp>)
+
 **1.محتوای پیام**: با استفاده از این گزینه محتوای پیام‌های دریافتی قابل مشاهده است.
 
 **2. حذف**: برای حذف سابقه پیام دریافت‌شده کافی است پیام‌های مورد نظر را با تیک انتخاب و سپس دکمه حذف را کلیک کنید.
@@ -601,6 +677,8 @@ Gsm Modem می بایست حتما به پورت های Usb پشت سرور پی
 **اضافه به گروه**: در صورتی که شماره مربوط به یک پروفایل در پیام گستر باشد، می‌توان از همین بخش آن را به گروه هدف خاصی برای پیگیری‌های آینده اضافه نمود.
 
  می‌توان لیست پیام‌ها را با فاکتورهایی مانند تاریخ دریافت، یا بازه‌ای بین دو تاریخ، شماره خط ارسال‌کننده، خط دریافتی فیلتر کرد.
+
+![IMG-0880: فیلتر پیام‌های دریافتی](</kb-assets/kb-images/Help/Marketing/sms/resive-list/FilterReceivingMessage.webp>)
 
 **1.خط**: خط دریافت‌کننده پیامک را در این قسمت مشخص کنید.
 
@@ -630,6 +708,8 @@ Gsm Modem می بایست حتما به پورت های Usb پشت سرور پی
 برای اجرای یک برنامه جدید باید بر روی دکمه"ارسال گروهی جدید" در سمت راست و بالای صفحه کلیک کرده و با گذراندن چند گام ساده، برنامه را به راحتی اجرا کنید.
 
 لیست برنامه های تنظیم شده ی قبلی  در کادر پایین صفحه نمایش داده می شود و از همین قسمت می توانید تاریخ اجرا، وضعیت برنامه را مشاهده کنید و همچنین با کلیک بر روی مشاهده تحلیل نتایج برنامه ، نتایج ارسال و نمودارهای تحلیلی برنامه را مشاهده کنید.
+
+![IMG-0881](</kb-assets/kb-images/Help/Marketing/sms/send-group/advertising-sendinggroupsms.webp>)
 
 > نکته:  برنامه هایی که وضعیت آن ها تمام شده است قابلیت ویرایش ندارند و ویرایش تنها برای برنامه های تازه درج شده است.
 

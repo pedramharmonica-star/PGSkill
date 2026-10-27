@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — timenegar-SiteAppsManager
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## مدیریت وبسایت‌ها و برنامه‌های کاربردی
 `مسیر سند: timenegar/SiteAppsManager/SitesAppManager.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/timenegar/SiteAppsManager/SitesAppManager.md)
@@ -9,9 +9,13 @@
 
 به منظور تعریف وضعیت کاربردی، غیرکاربرد و خنثی وبسایت‌ها و برنامه‌ها طبق مراحل زیر عمل می‌کنیم:
 
+![IMG-2008](</kb-assets/kb-images/timenegar/SiteAppsManager/1.webp>)
+
 تصویر شماره 1 – نمای صفحه اصلی نرم‌افزار
 
 با توجه به تصویر شماره 1  ابتدا باید از صفحه‌ی اصلی نرم‌افزار وارد بخش تنظیمات نرخ بهینه عملکرد شویم.
+
+![IMG-2009](</kb-assets/kb-images/timenegar/SiteAppsManager/2.webp>)
 
 تصویر شماره 2 – مدیریت سایت‌ها و نرم‌افزارها
 

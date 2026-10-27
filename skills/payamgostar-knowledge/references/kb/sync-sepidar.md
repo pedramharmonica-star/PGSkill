@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — sync-sepidar
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## پیش‌فاکتور فروش
 `مسیر سند: sync/sepidar/PishfactorAzPayamgostar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/sync/sepidar/PishfactorAzPayamgostar.md)
@@ -111,6 +111,8 @@
 `مسیر سند: sync/sepidar/hamgaamsazSepidar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/sync/sepidar/hamgaamsazSepidar.md)
 
 **پیش‌فاکتور:**  در سیستم سپیدار امکان تعریف پیش‌فاکتور و فاکتورهای فروش با برنامه فروش‌های مختلف وجود دارد (حتی با شماره‌های تکراری). برای انتقال این آیتم‌ها بر اساس برنامه فروش به پیام‌گستر حتماً باید بر اساس کد برنامه فروش پیش‌فاکتور و فاکتورهای متناظر در پیام‌گستر ایجاد و تنظیمات مربوط انجام شود.
+
+![IMG-1923](</kb-assets/kb-images/sync/sepidar/hamgaamsazSepidar.webp>)
 
 **1.استفاده از کد برنامه فروش معادل:** اگر استفاده از برنامه فروش معادل فعال شود باید به‌ازای هر برنامه فروش یک فاکتور فروش یا پیش‌فاکتور فروش در پیام‌گستر ایجاد شود و در تنظیمات کدهای این آیتم‌ها، کد برنامه فروشی که از سپیدار در تنظیمات پیشرفته وجود دارد وارد می‌شود.
 

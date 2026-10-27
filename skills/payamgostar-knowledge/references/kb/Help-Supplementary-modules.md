@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Supplementary-modules
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## ماژول های تکمیلی
 `مسیر سند: Help/Supplementary-modules/Supplementary-modules.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/Supplementary-modules.md)
@@ -27,21 +27,35 @@
 
  مشتریان با نام کاربری و پسورد خود، وارد داشبورد پروفایل خود در باشگاه مشتریان می شوند، در این قسمت مشتریان می توانند اطلاعاتی مانند مانده حساب، سوابق ثبت شده (سوابقی که شما مجوز مشاهده توسط مشتریان را برای آن ها فعال کرده باشید) و وضعیت فرایند های در جریان مربوط به پروفایل خود را مشاهده کنند. همچنین امکان ثبت برخی از آیتم ها (آیتم هایی که شما مجوز ایجاد توسط مشتریان را برای آن ها فعال کرده باشید) و پرداخت آنلاین در این قسمت وجود دارد.
 
+![IMG-1645](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian1.webp>)
+
  **1. تاریخچه من:** در این قسمت مشتریان می توانند سوابق ثبت شده برای پروفایل خود را مشاهده نمایند. همچنین می توانند سوابق قابل ثبت را نیز برای خود ثبت نمایند.
 
 >  نکته: توجه داشته باشید که مشاهده و ایجاد سوابق توسط مشتریان در باشگاه (در تمامی قسمت ها اعم از تاریخچه من، فرایندهای من، درخواست های من، مالی و فروش)، بر اساس تنظیمات اعمال شده توسط شما در شخصی سازی آیتم ها تعیین می گردد.
+
+![IMG-1646](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian2.webp>)
 
 آیتم هایی که در قسمت شخصی سازی گزینه اول برای آن ها فعال شده باشد، در این قسمت نمایش داده خواهند شد، مشاهده فیلدهای اضافه شده به آیتم منوط به فعال بودن گزینه دوم می باشد.
 
 همچنین آیتم هایی که گزینه سوم برای آن ها فعال شده باشد، در لیست فرم های قابل ثبت نمایش داده خواهند شد. (توجه فرمایید که این آیتم ها محدود به فرم نمی شود و می تواند انواع موجودیت ها مانند فایل، درخواست، پیش فاکتور و ... را شامل ش
 
+![IMG-1647](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian3.webp>)
+
 **2. حساب کاربری:** در این قسمت مشتریان می توانند اطلاعات حساب کاربری خود را مشاهده کنند و یا رمز عبور و لوگوی کاربری خود را تغییر دهند، همچنین در صورت فعال بودن ماژول سیستم امتیازدهی می توانند امتیازات خود را نیز مشاهده نمای
+
+![IMG-1648](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian4.webp>)
 
 **3. فرایندهای من:** در صورتی که برای مشتری سابقه ای ثبت شده باشد و آن سابقه چرخه کاری فعال داشته باشد، در صورت فعال بودن مجوز مشاهده مشتریان برای آیتم مرتبط، مشتری می تواند در قسمت فرایندهای من، وضعیت فعلی چرخه کاری آیتم را مشاهده نماید و بدین صورت از نحوه رسیدگی به آن در سازمان شما مطلع گردد
 
+![IMG-1649](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian5.webp>)
+
 **4. درخواست‌های من:** در صورتی که ماژول مدیریت درخواست ها را تهیه کرده باشید، مشتریان می توانند در این قسمت لیست درخواست های ثبت شده برای خود را مشاهده کرده (درخواست هایی که مجوز مشاهده مشتریان برای آن ها فعال شده باشد) و یا درخواست جدیدی ثبت نمایند (درخواست هایی که مجوز ایجاد توسط مشتریان برای آن ها فعال شده باشد).
 
+![IMG-1650](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian6.webp>)
+
 **5. مالی و فروش:** در این قسمت فاکتورها، پیش فاکتورها، قراردادها و دریافت های مشتری قابل مشاهده است، همچنین مشتریان می توانند در صورت پرداخت نقدی، اطلاعات واریز را در این قسمت وارد کنند تا توسط شما مورد بررسی قرار گیرند، علاوه بر این در صورت فعال بودن ماژول پرداخت آنلاین می توانند از طریق درگاه پرداخت واسط حساب کاربری خود را به میزان دلخواه شارژ نمایند.
+
+![IMG-1651](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian7.webp>)
 
 **A. پرداخت‌های من:** در این قسمت تمامی دریافت های ثبت شده برای مشتریان (دریافت هایی که مجوز مشاهده مشتری برای آن ها فعال شده باشد) نمایش داده می شود، این دریافت ها ممکن است تایید شده، رد شده یا در انتظار باشند. این دریافت ممکن است توسط خود مشتری یا توسط کاربران سیستم ثبت شده باشند.
 
@@ -51,9 +65,13 @@
 
 **D. پرداخت جدید:** در این قسمت مشتریان می توانند اطلاعات واریز نقدی خود را وارد کرده و یا پرداخت آنلاین انجام دهند.
 
+![IMG-1652](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian8.webp>)
+
 سه روش برای پرداخت در این قسمت وجود دارد، در قسمت پرداخت اینترنتی با وارد کردن مبلغ مورد نظر و کلیک روی دکمه پرداخت، مشتری به پنل پرداخت واسط هدایت می گردد تا پرداخت آنلاین انجام دهد و در قسمت واریز نقدی و انتقال از طریق کارت خودپرداز، صرفاً اطلاعات پرداخت توسط مشتری وارد می شود. پس از ثبت این اطلاعات توسط مشتری، یک دریافت در پروفایل او در پیام گستر ثبت می گردد تا توسط شما مورد بررسی و تایید قرار گ
 
 > نکته: حساب های مجاز به انتخاب در هریک از روش های پرداخت بستگی به تنظیمات اعمال شده برای هریک از حساب ها در قسمت [مدیریت حساب های مالی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Basic-Information/Financial-account-management/Financial-account-management.md)دارد.
+
+![IMG-1653](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Customer-dashboard/DashboardeMoshtarian9.webp>)
 
 ## ایجاد نام کاربری
 `مسیر سند: Help/Supplementary-modules/customer-club/Create-username/Create-username.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/customer-club/Create-username/Create-username.md)
@@ -72,31 +90,51 @@
 
 **5)** همچنین می توان در تنظیمات کلی، قسمت امنیتی، امکان ثبت نام در باشگاه مشتریان را فعال نمود. در این صورت هر شخصی که آدرس URL نرم افزار شما را داشته باشد میتواند در باشگاه مشتریان ثبت نام کرده و از امکانات آن بهره مند گردد.
 
+![IMG-1641](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName6.webp>)
+
 با فعال کردن گزینه نمایش داده شده، در صفحه ورود به نرم افزار لینک ثبت نام نمایش داده خواهد شد، همن طور که مشاهده می کنید میتوانید وارد کردن برخی از فیلدها را در فرم ثبت نام اجباری کنید.
+
+![IMG-1642](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName7.webp>)
 
 ##### پس از اینکه مشتری بر روی ثبت نام کلیک کند صفحه زیر نمایش داده خواهد شد :
 
+![IMG-1643](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName8.webp>)
+
 برای مشتریانی که در باشگاه مشتریان ثبت نام می کنند، پروفایلی دردسته بندی که در تنظیمات کلی،بخش دسته بندی کاربران، تنظیم کرده اید ایجاد می شود .
+
+![IMG-1644](</kb-assets/kb-images/Help/Supplementary-modules/customer-club/Create-username/CreateUserName9.webp>)
 
 ## سایت ساز
 `مسیر سند: Help/Supplementary-modules/site/sitesaz.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/site/sitesaz.md)
 
 برای سفارشی سازی و تغییرات بر روی صفحه باشگاه مشتریان و وبسایتی که می توانید  تنظیم نمایید تا قبل از وارد شدن به نرم افزارتان نمایش داده شود، از این ابزار استفاده می شود.
 
+![IMG-1654](</kb-assets/kb-images/Help/Supplementary-modules/site/SiteSaz.webp>)
+
 ## ابزار سایت‌ساز
 `مسیر سند: Help/Supplementary-modules/site/abzar/abzar.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/site/abzar/abzar.md)
+
+![IMG-1655](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz1.webp>)
 
 **1.** در این قسمت می توانید منوها و تنظیمات صفحه داشبورد من را تغییر دهید.
 
 همانطور که می بینید می توانید با دو ابزار HTML Editor و Text Editor تغییرات خود را اعمال نمایید. پس ازاعمال تغییرات حتما دکمه تیک سبز رنگ در پایین صفحه را زده تا تغییرات موقتا ذخیره گردد و به صفحه تایید نهایی هدایت شوید.
 
+![IMG-1656](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz2.webp>)
+
  Text Editor
+
+![IMG-1657](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz3.webp>)
+
+![IMG-1658](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz4.webp>)
 
 با زدن دکمه Publish تغییرات انجام شده در سایت اعمال می شود و با زدن دکمه Rollback تغییرات پاک شده و به حالت اولیه بر می گردد.
 
 **2.** می توانید قالب اصلی سایت خود را در این قسمت  تنظیم نمایید.
 
 **3.** در این قسمت می توانید لوگو خود را در سایت جایگذاری نمایید.
+
+![IMG-1659](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz5.webp>)
 
 **4.** در این قسمت می توانید اطلاعات و محتوا سایت خود را تغییر دهید.
 
@@ -106,8 +144,12 @@
 
 برای اضافه کردن صفحات دیگر باید از قسمت New Portal وارد شوید و نوع آبجکت مورد نیاز خود را اضافه نمایید.
 
+![IMG-1660](</kb-assets/kb-images/Help/Supplementary-modules/site/abzar/AbzareSiteSaz6.webp>)
+
 ## وارد شدن به ابزار سایت‌ساز
 `مسیر سند: Help/Supplementary-modules/site/varedeabzarsite/abzarsite.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Supplementary-modules/site/varedeabzarsite/abzarsite.md)
+
+![IMG-1661](</kb-assets/kb-images/Help/Supplementary-modules/site/varedeabzarsite/VaredShodanBeAbraz.webp>)
 
 **1.**  با وارد کردن عبارت CMS در جلوی آدرس CRM خود وارد ابزار سایت ساز می شوید.
 

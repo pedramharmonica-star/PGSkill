@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-Form-management
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## تنظیم ایجاد فرم از طریق پیام‌ها
 `مسیر سند: Help/Settings/Personalization-crm/Form-management/Create-forms-through-incoming-message.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Form-management/Create-forms-through-incoming-message.md)
@@ -8,6 +8,8 @@
 در شخصی سازی هر نوع فرم با فعال کردن چک باکس "ایجاد فرم از طریق ایمیل / پیام‌کوتاه / فکس" و تعیین خط دریافتی برای آن‌ها با دریافت هر ایمیل، فکس و یا پیام کوتاه بر روی خط مورد نظر،  فرم مربوطه در پروفایل شخص ارسال کننده‌ی پیام ایجاد می‌گردد.
 
 ##### همچنین در این بخش باید فیلدی برای ذخیره محتوای ایمیل، فکس و یا پیام کوتاه ارسال شده انتخاب گردد:
+
+![IMG-1391](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/4.webp>)
 
 **1**. برای ذخیره محتوای ایمیل در یک فیلد، نوع فیلد باید Html انتخاب شود.
 
@@ -30,6 +32,8 @@
 
 #### فرم جدید
 
+![IMG-1392](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/1.webp>)
+
 با ایجاد یک فرم جدید علاوه بر[ تنظیمات مشترک آیتم های سیستم  ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md)می توانید تنظیماتی اعمال کنید که این فرم توسط مخاطبان شما ثبت شود، ثبت فرم توسط مخاطبان می تواند از طریق [فرم عمومی](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Form-management/General-form.md) یا [دریافت پیام از طریق رسانه های مختلف (پیام کوتاه، ایمیل و فکس)](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Form-management/Create-forms-through-incoming-message.md) باشد.
 
 ## تنظیم فرم عمومی
@@ -42,6 +46,8 @@
 > بنابراین این ویژگی مناسب کاربردهایی است که هنوز هویت مرتبط با آن در نرم  افزار ایجاد نشده باشد (مانند فرم استخدام، فرم درخواست نمایندگی و ...) ، برای ثبت فرم توسط مشتریان و ذخیره آن در پروفایل های موجود در بانک اطلاعاتی (مانند فرم نظرسنجی، نارضایتی و ...) می توانید از [باشگاه مشتریان ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Supplementary-modules/customer-club/Customer-dashboard/Customer-dashboard.md)استفاده کنید
 
 . برای ایجاد فرم حتما باید فرم ایجاد شده در مدیریت فرم ها یکبار ذخیره شود تا به آن آدرس تعلق گیرد
+
+![IMG-1393](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/2.webp>)
 
 **A. مسیر ذخیره هویت های حقیقی:** در این قسمت مشخص کنید که در صورت ثبت فرم توسط یک شخص حقیقی، پروفایل متناظر با این شخص در چه مسیری از بانک اطلاعاتی ذخیره شود.
 
@@ -59,6 +65,8 @@
 
 **H. خالی کردن فرم پس از ثبت:** در صورت فعال بودن این گزینه، پس از ثبت موفق فرم، مقادیر وارد شده در فیلدهای آن خالی می شوند تا بتوانید فرم جدیدی ثبت کنید. توجه داشته باشید برای استفاده از این قابلیت، باید "لینک صفحه بعد از ثبت فرم"را خالی بگذارید. در غیر این صورت پس از ثبت فرم، به لینک تعیین شده هدایت می شوید و امکان ثبت فرم جدید وجود ندارد.
 
+![IMG-1394](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/3.webp>)
+
 > نکته: توجه داشته باشید در صورت فعال بودن چرخه کاری روی فرم، در هنگام ثبت، فیلدهایی که در وضعیت (کارتابل یا فعالیت) اولیه فرایند، روی حالت نمایش تنظیم شده اند، به مخاطب نمایش داده خواهند شد.
 
 > نکته: توجه داشته باشید در صورتی که از قسمت تنظیمات کلی جلوگیری از ایجاد هویت با اطلاعات تماسی تکراری را فعال کرده باشید، مخاطب در صورت وارد نمودن اطلاعات تماسی یکی از هویت های موجود در بانک اطلاعاتی، قادر به ثبت فرم نیست.
@@ -73,6 +81,8 @@
 ##### تنظیمات اختصاصی فرم عمومی
 با فعال کردن **چک باکس فرم عمومی**، به این نوع فرم آدرسی (URL) اختصاص داده می‌شود که می‌توانید از این آدرس در سایت خود (یا ارسال آدرس برای مخاطبان) برای اهداف مختلف استفاده کنید. در اصل این فرم برای مواقعی که می‌خواهید مخاطبان یا سرنخ‌هایتان بدون ورود به نرم‌افزار اطلاعاتی را تکمیل کنند، کاربرد دارد.
 
+![IMG-1395: صفحه تنظیمات فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/GeneralForm.webp>)
+
 ###### تنظیمات هویت مرتبط فرم عمومی {#IdentityInGeneralForm}
 برای استفاده از فرم عمومی می‌توانید تعیین کنید که هنگام ذخیره، فرم پروفایل مرتبط داشته باشد. این امکان وجود دارد که اگر هویت مرتبط از قبل در سیستم موجود باشد، فرم در سوابق آن ذخیره شود و در غیر این صورت سرنخ جدید به ازای فرم ثبت شده ایجاد می‌گردد.
 
@@ -80,19 +90,31 @@
 
    اگر چک باکس **دارای هویت مرتبط** را فعال نکنید فرم در هر صورت بدون هیچ هویتی و تنها با فیلدهای اضافه‌ای که در آن تنظیم کرده‌اید، ذخیره می‌شود بنابراین صفحه‌ای که مخاطب شما از فرم مشاهده می‌کند به شکل زیر خواهد بود (فیلدهای اطلاعات تماسی را ندارد).
 
+![IMG-1396: صفحه فرم عمومی بدون اطلاعات تماسی هویت](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-Form-Without-Identity.webp>)
+
 فرم‌های عمومی‌ای که ذخیره می‌شوند را در قسمت **اتوماسیون و فرآیندهای سازمانی** > **فرم‌ها** > **زیرنوع مورد نظر** می‌توانید مشاهده کنید. لازم به ذکر است همانطور که در تصویر زیر مشاهده می‌کنید فرم عمومی بدون هویت مرتبط در لیست فرم‌ها نیز پروفایل مرتبط نخواهد داشت.
+
+![IMG-1397: لیست فرم عمومی بدون هویت مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/ListOfFormWithoutIdentity.webp>)
 
 - **ذخیره فرم با پروفایل مرتبط**
 
    برای اینکه فرم عمومی شما حتما با یک پرفایل مرتبط ذخیره شود، لازم است چک باکس **دارای هویت مرتبط** را فعال کنید. در این‌ صورت هنگام ذخیره فرم در سایت، فیلدهای اطلاعات هویتی و تماسی بر اساس نوع هویت تعیین شده (حقیقی یا حقوقی) در قسمت **نوع سرنخ جدید در صورت عدم یافتن هویت مرتبط** نمایش داده می‌شود.
 
+![IMG-1398: تنظیمات هویت مرتبط در شخصی‌سازی فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Identity-in-general-form.webp>)
+
 > **نکته**
 
 > هویتی که از طریق فرم عمومی ذخیره می‌شود تنها به صورت **سرنخ حقیقی یا حقوقی** بوده که باید از قبل زیرنوع سرنخ مورد نظر خود را در بخش شخصی‌سازی CRM ایجاد کرده باشید.
 
+![IMG-1399: انتخاب نوع سرنخ حقیقی یا حقوقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/TypeOfIdentityInGeneralForm.webp>)
+
 اگر نوع هویت را **سرنخ حقوقی** انتخاب کنید صفحه‌ای که مخاطب شما در سایت مشاهده می‌کند به شکل زیر خواهد بود.
 
+![IMG-1400: اطلاعات سرنخ حقوقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Organization-Identity-In-General-Form.webp>)
+
 و در صورت انتخاب نوع **سرنخ حقیقی**، اطلاعات تماسی هویت در فرم عمومی همراه با نام و نام خانوادگی خواهد بود.
+
+![IMG-1401: اطلاعات سرنخ حقیقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Person-In-General-Form.webp>)
 
 - **الزامی کردن اطلاعات تماسی**
 
@@ -102,6 +124,8 @@
 - **تنظیمات جستجوی پروفایل مرتبط**
 
    از طریق **انتخاب نوع هویت مورد جستجو** می‌توانید تعیین کنید اطلاعاتی که سرنخ شما هنگام ذخیره فرم عمومی تکمیل کرده است، در کدام یک از انواع هویت (سرنخ‌ها، شخص و هویت حقوقی) جستجو شود. در نتیجه‌ی جستجو، اگر هویت مرتبط اطلاعاتش قبلا در سیستم موجود بود فرم عمومی در سوابق آن ذخیره می‌شود در غیراینصورت یک سرنخ جدید با این اطلاعات ایجاد می‌کند. لازم به ذکر است می‌توانید از گزینه‌های **سرنخ‌ها**، **شخص** و **هویت حقوقی** یک یا هر سه گزینه را انتخاب نمایید.
+
+![IMG-1402: جستجوی هویت مرتبط در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Search-Identity-In-General-Form.webp>)
 
 > **نکته**
 
@@ -135,11 +159,15 @@
 
    در صورت فعال بودن این گزینه، پس از ثبت موفق فرم، مقادیر وارد شده در فیلدهای آن خالی می شوند تا بتوانید فرم جدیدی ثبت کنید. توجه داشته باشید برای استفاده از این قابلیت، باید "لینک صفحه بعد از ثبت فرم"را خالی بگذارید. در غیر این صورت پس از ثبت فرم، به لینک تعیین شده هدایت می شوید و امکان ثبت فرم جدید وجود ندارد.
 
+![IMG-1403: صفحه شخصی‌سازی فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-form-customization.webp>)
+
 > **نکته**
 
 > توجه داشته باشید در صورت فعال بودن چرخه کاری روی فرم، در هنگام ثبت، فیلدهایی که در وضعیت (کارتابل یا فعالیت) اولیه فرایند، روی حالت نمایش تنظیم شده اند، به مخاطب نمایش داده خواهند شد.
 
 در نهایت پس از اعمال تغییرات مورد نظر خود، آیتم فرم را ذخیره نمایید. فرمی که ایجاد کرده‌اید برای مخاطب/سرنخ شما به شکل زیر خواهد بود.
+
+![IMG-1404: نمای فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/View-of-general-form.webp>)
 
 ## تنظیمات فرم عمومی
 `مسیر سند: Help/Settings/Personalization-crm/Form-management/GeneralForm2.7.5.3.md` · `نسخه سند: 2.7.5.3` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Form-management/GeneralForm2.7.5.3.md)
@@ -152,27 +180,43 @@
 #### تنظیمات اختصاصی فرم عمومی
 با فعال کردن **چک باکس فرم عمومی**، به این نوع فرم آدرسی (URL) اختصاص داده می‌شود که می‌توانید از این آدرس در سایت خود (یا ارسال آدرس برای مخاطبان) برای اهداف مختلف استفاده کنید. در اصل این فرم برای مواقعی که می‌خواهید مخاطبان یا سرنخ‌هایتان بدون ورود به نرم‌افزار اطلاعاتی را تکمیل کنند، کاربرد دارد.
 
+![IMG-1405: صفحه تنظیمات فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-form_2.7.5.webp>)
+
 ##### تنظیمات هویت مرتبط فرم عمومی {#IdentityInGeneralForm}
 برای استفاده از فرم عمومی می‌توانید تعیین کنید که هنگام ذخیره، فرم پروفایل مرتبط داشته باشد. این امکان وجود دارد که اگر هویت مرتبط از قبل در سیستم موجود باشد، فرم در سوابق آن ذخیره شود و در غیر این صورت سرنخ جدید به ازای فرم ثبت شده ایجاد می‌گردد.
 
 ###### ذخیره فرم بدون پروفایل مرتبط
 اگر چک باکس **دارای هویت مرتبط** را فعال نکنید فرم در هر صورت بدون هیچ هویتی و تنها با فیلدهای اضافه‌ای که در آن تنظیم کرده‌اید، ذخیره می‌شود بنابراین صفحه‌ای که مخاطب شما از فرم مشاهده می‌کند به شکل زیر خواهد بود (فیلدهای اطلاعات تماسی را ندارد).
 
+![IMG-1396: صفحه فرم عمومی بدون اطلاعات تماسی هویت](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-Form-Without-Identity.webp>)
+
 فرم‌های عمومی‌ای که ذخیره می‌شوند را در قسمت **اتوماسیون و فرآیندهای سازمانی** > **فرم‌ها** > **زیرنوع مورد نظر** می‌توانید مشاهده کنید. لازم به ذکر است همانطور که در تصویر زیر مشاهده می‌کنید فرم عمومی بدون هویت مرتبط در لیست فرم‌ها نیز پروفایل مرتبط نخواهد داشت.
+
+![IMG-1397: لیست فرم عمومی بدون هویت مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/ListOfFormWithoutIdentity.webp>)
 
 ###### ذخیره فرم با پروفایل مرتبط به نام ایجادکننده
 برای اینکه فرم عمومی شما حتما با یک پرفایل مرتبط ذخیره شود، لازم است چک باکس **دارای هویت مرتبط** را فعال کنید. در این‌ صورت هنگام ذخیره فرم در سایت، فیلدهای اطلاعات هویتی و تماسی بر اساس نوع هویت تعیین شده (حقیقی یا حقوقی) در قسمت **نوع سرنخ جدید در صورت عدم یافتن هویت مرتبط** نمایش داده می‌شود.
+
+![IMG-1398: تنظیمات هویت مرتبط در شخصی‌سازی فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Identity-in-general-form.webp>)
 
 > **نکته**
 
 > هویتی که از طریق فرم عمومی ذخیره می‌شود تنها به صورت **سرنخ حقیقی یا حقوقی** بوده که باید از قبل زیرنوع سرنخ مورد نظر خود را در بخش شخصی‌سازی CRM ایجاد کرده باشید.
 
+![IMG-1406: انتخاب نوع سرنخ حقیقی یا حقوقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Type-of-identityI-general-form-2.7.5.webp>)
+
 اگر نوع هویت را **سرنخ حقوقی** انتخاب کنید صفحه‌ای که مخاطب شما در سایت مشاهده می‌کند به شکل زیر خواهد بود.
+
+![IMG-1400: اطلاعات سرنخ حقوقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Organization-Identity-In-General-Form.webp>)
 
 و در صورت انتخاب نوع **سرنخ حقیقی**، اطلاعات تماسی هویت در فرم عمومی همراه با نام و نام خانوادگی خواهد بود.
 
+![IMG-1401: اطلاعات سرنخ حقیقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Person-In-General-Form.webp>)
+
 ###### تنظیمات جستجوی پروفایل مرتبط
 از طریق **انتخاب نوع هویت مورد جستجو** می‌توانید تعیین کنید اطلاعاتی که سرنخ شما هنگام ذخیره فرم عمومی تکمیل کرده است، در کدام یک از انواع هویت (سرنخ‌ها، شخص و هویت حقوقی) جستجو شود. در نتیجه‌ی جستجو، اگر هویت مرتبط اطلاعاتش قبلا در سیستم موجود بود فرم عمومی در سوابق آن ذخیره می‌شود در غیراینصورت یک سرنخ جدید با این اطلاعات ایجاد می‌کند. لازم به ذکر است می‌توانید از گزینه‌های **سرنخ‌ها**، **شخص** و **هویت حقوقی** یک یا هر سه گزینه را انتخاب نمایید.
+
+![IMG-1402: جستجوی هویت مرتبط در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Search-Identity-In-General-Form.webp>)
 
 > **نکته**
 
@@ -196,10 +240,14 @@ link&identityid={prop{Identity.Id}}
 
 > پارامتر هوشمند **شناسه** را از لیست اطلاعات هویت مرتبط انتخاب کنید و به عبارت انگلیسی **Idemtity.Id** دقت نمایید.
 
+![IMG-1407: تصویر متن پیام اشتراک لینک فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Sample-share-link-of-General-form_2.7.5.3.webp>)
+
 ###### نمایش لوگوی مشتری هنگام ثبت فرم عمومی{#LogoInGeneralForm}
 اگر برای مشتریانتان تصویر پروفایل تنظیم کرده باشید، هنگام تکمیل فرم عمومی تصویر خود را در قسمت مشخصات فرم مشاهده خواهند کرد.
 
 برای تنظیم تصویر پروفایل دو حالت وجود دارد؛ یا مشتری شما از طریق باشگاه مشتریان برای حساب کاربری خود عکس/لوگو بارگذاری کرده باشد یا شما از مسیر **پروفایل هویت** > **سربرگ جزئیات** عکس/لوگو تنظیم کرده باشید.
+
+![IMG-1408: نمایش لوگوی هویت مرتبط در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/logo-in-general-form.webp>)
 
 ###### ذخیره فرم عمومی در سابقه‌ی یکی از سوابق هویت (تعیین سابقه‌ی پدر برای فرم عمومی){##GeneralFormForSpecificParent}
 
@@ -263,11 +311,15 @@ link&&IdentityId={prop{Identity.Id}}&&ParentId={prop{Id}}
 
    در صورت فعال بودن این گزینه، پس از ثبت موفق فرم، مقادیر وارد شده در فیلدهای آن خالی می شوند تا بتوانید فرم جدیدی ثبت کنید. توجه داشته باشید برای استفاده از این قابلیت، باید "لینک صفحه بعد از ثبت فرم"را خالی بگذارید. در غیر این صورت پس از ثبت فرم، به لینک تعیین شده هدایت می شوید و امکان ثبت فرم جدید وجود ندارد.
 
+![IMG-1409: صفحه شخصی‌سازی فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-form-customization-2.7.5.webp>)
+
 > **نکته**
 
 > توجه داشته باشید در صورت فعال بودن چرخه کاری روی فرم، در هنگام ثبت، فیلدهایی که در وضعیت (کارتابل یا فعالیت) اولیه فرایند، روی حالت نمایش تنظیم شده اند، به مخاطب نمایش داده خواهند شد.
 
 در نهایت پس از اعمال تغییرات مورد نظر خود، آیتم فرم را ذخیره نمایید. فرمی که ایجاد کرده‌اید برای مخاطب/سرنخ شما به شکل زیر خواهد بود.
+
+![IMG-1404: نمای فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/View-of-general-form.webp>)
 
 ## تنظیمات فرم عمومی
 `مسیر سند: Help/Settings/Personalization-crm/Form-management/GeneralForm2.7.5.md` · `نسخه سند: 2.7.5` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Form-management/GeneralForm2.7.5.md)
@@ -280,6 +332,8 @@ link&&IdentityId={prop{Identity.Id}}&&ParentId={prop{Id}}
 ##### تنظیمات اختصاصی فرم عمومی
 با فعال کردن **چک باکس فرم عمومی**، به این نوع فرم آدرسی (URL) اختصاص داده می‌شود که می‌توانید از این آدرس در سایت خود (یا ارسال آدرس برای مخاطبان) برای اهداف مختلف استفاده کنید. در اصل این فرم برای مواقعی که می‌خواهید مخاطبان یا سرنخ‌هایتان بدون ورود به نرم‌افزار اطلاعاتی را تکمیل کنند، کاربرد دارد.
 
+![IMG-1405: صفحه تنظیمات فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-form_2.7.5.webp>)
+
 ###### تنظیمات هویت مرتبط فرم عمومی {#IdentityInGeneralForm}
 برای استفاده از فرم عمومی می‌توانید تعیین کنید که هنگام ذخیره، فرم پروفایل مرتبط داشته باشد. این امکان وجود دارد که اگر هویت مرتبط از قبل در سیستم موجود باشد، فرم در سوابق آن ذخیره شود و در غیر این صورت سرنخ جدید به ازای فرم ثبت شده ایجاد می‌گردد.
 
@@ -287,23 +341,37 @@ link&&IdentityId={prop{Identity.Id}}&&ParentId={prop{Id}}
 
    اگر چک باکس **دارای هویت مرتبط** را فعال نکنید فرم در هر صورت بدون هیچ هویتی و تنها با فیلدهای اضافه‌ای که در آن تنظیم کرده‌اید، ذخیره می‌شود بنابراین صفحه‌ای که مخاطب شما از فرم مشاهده می‌کند به شکل زیر خواهد بود (فیلدهای اطلاعات تماسی را ندارد).
 
+![IMG-1396: صفحه فرم عمومی بدون اطلاعات تماسی هویت](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-Form-Without-Identity.webp>)
+
 فرم‌های عمومی‌ای که ذخیره می‌شوند را در قسمت **اتوماسیون و فرآیندهای سازمانی** > **فرم‌ها** > **زیرنوع مورد نظر** می‌توانید مشاهده کنید. لازم به ذکر است همانطور که در تصویر زیر مشاهده می‌کنید فرم عمومی بدون هویت مرتبط در لیست فرم‌ها نیز پروفایل مرتبط نخواهد داشت.
+
+![IMG-1397: لیست فرم عمومی بدون هویت مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/ListOfFormWithoutIdentity.webp>)
 
 - **ذخیره فرم با پروفایل مرتبط به نام ایجادکننده**
 
    برای اینکه فرم عمومی شما حتما با یک پرفایل مرتبط ذخیره شود، لازم است چک باکس **دارای هویت مرتبط** را فعال کنید. در این‌ صورت هنگام ذخیره فرم در سایت، فیلدهای اطلاعات هویتی و تماسی بر اساس نوع هویت تعیین شده (حقیقی یا حقوقی) در قسمت **نوع سرنخ جدید در صورت عدم یافتن هویت مرتبط** نمایش داده می‌شود.
 
+![IMG-1398: تنظیمات هویت مرتبط در شخصی‌سازی فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Identity-in-general-form.webp>)
+
 > **نکته**
 
 > هویتی که از طریق فرم عمومی ذخیره می‌شود تنها به صورت **سرنخ حقیقی یا حقوقی** بوده که باید از قبل زیرنوع سرنخ مورد نظر خود را در بخش شخصی‌سازی CRM ایجاد کرده باشید.
 
+![IMG-1406: انتخاب نوع سرنخ حقیقی یا حقوقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Type-of-identityI-general-form-2.7.5.webp>)
+
 اگر نوع هویت را **سرنخ حقوقی** انتخاب کنید صفحه‌ای که مخاطب شما در سایت مشاهده می‌کند به شکل زیر خواهد بود.
 
+![IMG-1400: اطلاعات سرنخ حقوقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Organization-Identity-In-General-Form.webp>)
+
 و در صورت انتخاب نوع **سرنخ حقیقی**، اطلاعات تماسی هویت در فرم عمومی همراه با نام و نام خانوادگی خواهد بود.
+
+![IMG-1401: اطلاعات سرنخ حقیقی در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Person-In-General-Form.webp>)
 
 **تنظیمات جستجوی پروفایل مرتبط**
 
    از طریق **انتخاب نوع هویت مورد جستجو** می‌توانید تعیین کنید اطلاعاتی که سرنخ شما هنگام ذخیره فرم عمومی تکمیل کرده است، در کدام یک از انواع هویت (سرنخ‌ها، شخص و هویت حقوقی) جستجو شود. در نتیجه‌ی جستجو، اگر هویت مرتبط اطلاعاتش قبلا در سیستم موجود بود فرم عمومی در سوابق آن ذخیره می‌شود در غیراینصورت یک سرنخ جدید با این اطلاعات ایجاد می‌کند. لازم به ذکر است می‌توانید از گزینه‌های **سرنخ‌ها**، **شخص** و **هویت حقوقی** یک یا هر سه گزینه را انتخاب نمایید.
+
+![IMG-1402: جستجوی هویت مرتبط در فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Search-Identity-In-General-Form.webp>)
 
 > **نکته**
 
@@ -326,6 +394,8 @@ link&&IdentityId={prop{Identity.Id}}&&ParentId={prop{Id}}
     > **نکته**
 
     پارامتر هوشمند **شناسه** را از لیست اطلاعات هویت مرتبط انتخاب کنید و به عبارت انگلیسی **Identity.Id** دقت نمایید.
+
+![IMG-1407: تصویر متن پیام اشتراک لینک فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/Sample-share-link-of-General-form_2.7.5.3.webp>)
 
 - **ذخیره فرم عمومی در سابقه‌ی یکی از سوابق هویت (تعیین سابقه‌ی پدر برای فرم عمومی)**{##GeneralFormForSpecificParent}
 
@@ -389,11 +459,15 @@ link&&IdentityId={prop{Identity.Id}}&&ParentId={prop{Id}}
 
    در صورت فعال بودن این گزینه، پس از ثبت موفق فرم، مقادیر وارد شده در فیلدهای آن خالی می شوند تا بتوانید فرم جدیدی ثبت کنید. توجه داشته باشید برای استفاده از این قابلیت، باید "لینک صفحه بعد از ثبت فرم"را خالی بگذارید. در غیر این صورت پس از ثبت فرم، به لینک تعیین شده هدایت می شوید و امکان ثبت فرم جدید وجود ندارد.
 
+![IMG-1409: صفحه شخصی‌سازی فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/General-form-customization-2.7.5.webp>)
+
 > **نکته**
 
 > توجه داشته باشید در صورت فعال بودن چرخه کاری روی فرم، در هنگام ثبت، فیلدهایی که در وضعیت (کارتابل یا فعالیت) اولیه فرایند، روی حالت نمایش تنظیم شده اند، به مخاطب نمایش داده خواهند شد.
 
 در نهایت پس از اعمال تغییرات مورد نظر خود، آیتم فرم را ذخیره نمایید. فرمی که ایجاد کرده‌اید برای مخاطب/سرنخ شما به شکل زیر خواهد بود.
+
+![IMG-1404: نمای فرم عمومی](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/Images/View-of-general-form.webp>)
 
 ## شخصی سازی فرم‌ها
 `مسیر سند: Help/Settings/Personalization-crm/Form-management/2.6.0/Form-customize-setting.md` · `نسخه سند: 2.6.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/Form-management/2.6.0/Form-customize-setting.md)
@@ -403,6 +477,8 @@ link&&IdentityId={prop{Identity.Id}}&&ParentId={prop{Id}}
  لطفا ابتدا قسمت[ اطلاعات کلی ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/Overview/General-information/General-information.md) را در این خصوص مطالعه فرمایید.
 
 #### فرم جدید
+
+![IMG-1410](</kb-assets/kb-images/Help/Settings/Personalization-crm/Form-management/2.6.0/1.webp>)
 
 با ایجاد یک فرم جدید علاوه بر[ تنظیمات مشترک آیتم های سیستم  ](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Settings/Personalization-crm/CustomizationCommonSettings/ItemsCommonCustomizationSettings_2.7.5.3.md)می توانید تنظیماتی اعمال کنید
 

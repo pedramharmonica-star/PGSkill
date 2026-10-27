@@ -1,16 +1,22 @@
 # مستندات رسمی پیام‌گستر — Help-Management-and-reports-Report-Builder
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## افزودن منبع اطلاعاتی جدید
 `مسیر سند: Help/Management-and-reports/Report-Builder/AddNewDataSet_2.7.0.md` · `نسخه سند: 2.7.0` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Report-Builder/AddNewDataSet_2.7.0.md)
 
 در صورت داشتن ماژول گزارش‌ساز پیشرفته می‌توان از منابع مختلف برای تهیه گزارش استفاده کرد. برای این منظور بر روی کلید **ایجاد منابع** کلیک کنید.
 
+![IMG-0561: ایجاد منابع](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/create-source.webp>)
+
  منبع موردنظر خود را برای تهیه گزارش از بین گزینه‌های زیر انتخاب کنید.
+
+![IMG-0562: انتخاب منبع](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/select-source.webp>)
 
 #### 1.بانک اطلاعاتی پیام‌گستر
 از منابع پیام‌گستر زمانی استفاده می‌شود که بخواهیم علاوه بر موجودیتی که در حال گزارش‌گیری از آن هستیم از  تمام موجودیت‌های و بخش‌های دیگر پیام گستر نیز در گزارش خود استفاده کنیم.
+
+![IMG-0563: بانک اطلاعاتی پیام گستر](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/payam-gostar-query-building.webp>)
 
 در این بخش امکان انتخاب منابع اطلاعاتی پیام گستر فراهم شده است. شما می‌توانید منبع و فیلدهای موردنظر خود در آن را از بین دسته‌بندی‌های زیر انتخاب کنید تا در مرحله بعد برای گزارش‌گیری مورد استفاده قرار گیرد:
 
@@ -28,9 +34,13 @@
 
 برای ایجاد ارتباط بین منابع اطلاعاتی، از منوی Database موجودیت(های) موردنظر خود را انتخاب کنید، لیست فیلد‌های آن(ها) در منوی Main به‌صورت جدول، نمایش داده می‌شود. فیلدهای موردنیاز در هر جدول با فعال کردن چک باکس آنها قابل انتخاب است. در صورتی که تمام فیلدها مورد نیاز است چک باکس ستاره (*) را تیک بزنید.
 
+![IMG-0564: انتخاب تمام فیلدها](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/select-all-fields.webp>)
+
 همه موجودیت‌های CRM در جدول خود فیلدهای مربوط به هویت دارند، مانند ایجادکننده آیتم (CreatorId)، هویت مرتبط (IdentityId)، مسئول مرتبط (AssignedToId) و ویرایش‌کننده آیتم (ModifierId). برای استفاده از اطلاعات هویتی هر کدام از این موارد (مانند موبایل یا ایمیل)، باید جدول هویت (Identity) را نیز به Data set اضافه و Id آن را به Id هرکدام از فیلدهای ذکرشده (مانند CreatorId) متصل کنید.
 
 برای این منظور با کلیک بر روی علامت مشخص‌شده در تصویر، جدول ویژگی‌های آن فیلد باز می‌شود و می‌توان اطلاعاتی را که از هویت موردنیاز است انتخاب و به موجودیت متصل کرد. برای مثال ایمیل هویت مرتبط با فرم انتخاب‌شده را مطابق شکل زیر در گزارش خواهیم داشت.
+
+![IMG-0565: استفاده از فیلدهای مرتبط با هویت در گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/join-tables.webp>)
 
    در انتهای صفحه ایجاد منابع، ستون‌هایی برای مدیریت فیلدها قرار دارد که در ادامه شرح داده می‌شوند:
 
@@ -46,10 +56,14 @@
 
 هنگام استفاده از این محیط پس از اضافه کردن تغییرات موردنظر حتماً باید کلید به‌روز رسانی زده شود، تا موارد اعمال شده در جدول قرار گیرد.
 
+![IMG-0566: افزودن فیلتر با کدنویسی در SQL](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/sql-code-for-more-filter.webp>)
+
 #### 2.سایر بانک‌های اطلاعاتی
 استفاده از قابلیت بانک اطلاعاتی این امکان را به کاربر می‌دهد تا برای ساخت گزارش مدنظر خود اطلاعات موردنیازش را از بانک‌های اطلاعاتی دیگر به منابع گزارش اضافه کند. به‌عنوان مثال کاربر می‌تواند از دیتابیس نرم‌افزار حسابداری، موجودیت‌های حسابداری موردنظر خود را به پیام‌گستر متصل کند و گزارشی داخل پیام‌گستر داشته باشد.
 
 فرض کنید می‌خواهید گزارشی از دستمزد کاربران داشته باشید. کاربران در پیام‌گستر و حقوق کاربران در سیستم حسابداری تعریف شده است. با استفاده از این امکان می‌توان اطلاعات موردنظر را از سیستم حسابداری به این گزارش منتقل کرد.
+
+![IMG-0567: اتصال به سایر بانک‌های اطلاعاتی](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/use-other-database.webp>)
 
 برای افزودن بانک اطلاعاتی به منابع گزارش لازم است فیلدهای زیر تکمیل شود:
 
@@ -61,6 +75,8 @@
 
 1. **Windows Authentication:**      از طریق کاربری که لاگین است.
 2. **SQL Server Authentication:** از طریق نام کاربری و رمز عبور مشخص‌شده در دیتابیس.
+
+![IMG-0568: دسترسی به دیتابیس](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/authentication-type.webp>)
 
 **بانک اطلاعاتی:** نام بانک اطلاعاتی موردنظر باید وارد شود، زیرا ممکن است در آدرس واردشده چندین بانک اطلاعاتی وجود داشته باشد.
 
@@ -76,6 +92,8 @@
 > **نکته:**
 توجه داشته باشید عنوان ستون‌های اکسل باید حتما انگلیسی و بدون فاصله باشد.
  به‌عنوان مثال عنوان ستون کارشناس فروش باید SalesPerson باشد.
+
+![IMG-0569](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/add-excel-source.webp>)
 
 برای افزودن فایل اکسل به منابع گزارش مراحل زیر را انجام دهید:
 1. در فیلد **نام**، منبع را نام‌گذاری کنید.
@@ -100,11 +118,19 @@
 
  1.  در دسته‌بندی اصلی **همه گزارش‌ها** بر روی **+** کلیک کنید.
 
+![IMG-0570: ایجاد دسته‌بندی جدید](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/create-new-report-category.webp>)
+
 2.  در پنجره‌ای که باز می‌شود نام دسته‌بندی و توضیحات موردنظر خود را وارد و بر روی **ذخیره‌کردن** کلیک کنید.
+
+![IMG-0571: نامگذاری دسته‌بندی گزارش و درج توضیحات](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report-category-naming-and-explanation.webp>)
 
 3. با قرار گرفتن بر روی نام دسته‌بندی ایجادشده و کلیک بر روی آیکون‌های مربوطه امکان حذف و ویرایش نام دسته‌بندی وجود دارد.
 
+![IMG-0572: ویرایش و حذف دسته‌بندی گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/edit-and-delete-report-category.webp>)
+
 4. در این قسمت می‌توانید بر اساس نام گزارش جستجو را انجام دهید.
+
+![IMG-0573: جستجوی گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report-search.webp>)
 
 >**نکته**
 
@@ -120,16 +146,28 @@
 
 در صورت داشتن ماژول گزارش‌ساز پیشرفته، امکان افزودن  این گزارش به گزارش‌های ساخته‌شده قبلی از طریق دکمه **افزودن به** وجود دارد.
 
+![IMG-0574: ایجاد گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/build-report.webp>)
+
 برای ایجاد گزارش بر اساس پارامترهای مدنظرتان می‌توانید از **فیلتر** استفاده کنید. پس از انتخاب پارامترها، روی گزینه **ایجاد گزارش** کلیک کنید تا داده‌های گزارش فیلتر شود.
 
+![IMG-0575: فیلتر داده‌های گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/filter-report.webp>)
+
 در ادامه صفحه‌ای نمایش داده می‌شود که می‌توان در آن نام گزارش را ویرایش و توضیحات لازم را به آن اضافه کرد.
+
+![IMG-0576: ویرایش نام گزارش و اضافه کردن توضیحات](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/edit-report-name-add-description.webp>)
 
 #### ورود اطلاعات پایه از مسیر منوی گزارش‌ها
 برای ورود اطلاعات پایه با استفاده از این روش، در منوی **گزارش‌ها** بر روی **لیست گزارش‌ها** کلیک کنید.
 
+![IMG-0577: لیست گزارش‌ها](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/reports-list.webp>)
+
  دسته‌بندی موردنظر خود را انتخاب و بر روی **گزارش جدید** کلیک کنید.
 
+![IMG-0578: ایجاد گزارش جدید](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/create-new-report.webp>)
+
 نام گزارش و در صورت لزوم توضیحات خود را وارد و بر روی دکمه **بعدی** کلیک کنید.
+
+![IMG-0579: نام گزارش و توضیحات](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report-name-and-description.webp>)
 
 ## گزارش‌گیری با استفاده از گزارش‌ساز
 `مسیر سند: Help/Management-and-reports/Report-Builder/Report-Builder.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Report-Builder/Report-Builder.md)
@@ -146,7 +184,11 @@
 
 > برای ایجاد گزارش جدید از آیتم موردنظر بایستی در لیست آن آیتم روی گزینه ایجاد گزارش کلیک کنید. اگر می‌خواهید بر اساس پارامتر یا پارامتر‌های خاصی این گزارش را بسازید می‌توان ابتدا بر اساس پارامتر‌های مد نظرتان این لیست را فیلتر کنید و سپس روی گزینه ایجاد گزارش کلیک کنید که این راه یک راه برای فیلتر دیتاهای گزارش مورد نظرتان است.
 
+![IMG-0580](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/Create-Report-of-CRM-Items-List.webp>)
+
 با کلیک بر روی ایجاد گزارش مراحل ایجاد گزارش آغاز می‌شود.
+
+![IMG-0581](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/reportnew2.webp>)
 
 **A.افزودن هویت‌های مرتبط:** برای ساخت گزارش جدید در گام اول، امکان افزودن فیلد‌های، هویت‌های مرتبط با آیتم در اختیار کاربر قرار می‌گیرد و به‌این‌ترتیب کاربر می‌تواند این داده‌ها را نیز به مجموعه‌داده‌های موردنظر برای دریافت گزارش بیفزاید.
 
@@ -160,7 +202,11 @@
 
 **D.ویرایش:** با استفاده از این قسمت می‌توان دیتا سورس انتخاب شده برای گزارش‌گیری را ویرایش کرد و آیتم دیگری را برای گزارش موردنظر انتخاب کرد.
 
+![IMG-0582](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/reportnew3.webp>)
+
 **1.بانک اطلاعاتی پیام‌گستر:** از منابع پیام‌گستر زمانی استفاده می‌شود که بخواهیم علاوه بر موجودیتی که در حال گزارش‌گیری آن هستیم از موجودیت‌های دیگری در این گزارش استفاده کنیم.
+
+![IMG-0583](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report4.webp>)
 
 در این بخش امکان انتخاب موجودیت‌های اصلی (مثلاً تمام فرم‌ها) و یا زیر نوع تعریف شده برای موجودیت (مثلاً فرم مرخصی) را فراهم می‌کند. در اصل در این قسمت فیلد‌های موردنیاز از هر موجودیت انتخاب می‌شود تا در مرحله بعد برای گزارش‌گیری مورداستفاده قرار گیرد.
 
@@ -171,6 +217,8 @@
 در انتخاب فیلد موجودیت‌ها، برای فیلد‌هایی که از جنس هویت هستند (مانند مرتبط با (identityid) و یا ایجادکننده آیتم (creatorid) و...  ) اگر بخواهیم فیلد خاصی از آن هویت رو در این منبع داشته باشیم تا در گزارش استفاده کنیم، می‌توانیم با بازکردن ویژگی‌های آن فیلد (1) اطلاعاتی که از آن هویت نیاز است را انتخاب و به آن موجودیت متصل کنیم، در گزارش داشته باشیم.
 
  برای مثال می‌خواهیم طبق تصویر،‌ایمیل هویت مرتبط با این فرم رو در گزارش داشته باشیم از این روش استفاده می‌کنیم.
+
+![IMG-0584](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report5.webp>)
 
 **visible:** از این بخش امکان انتخاب و یا حذف فیلد‌های انتخاب شده وجود دارد.
 
@@ -185,11 +233,15 @@
 
 هنگام استفاده از این محیط پس از اضافه نمودن تغییرات موردنظر حتماً باید کلید بروز رسانی زده شود، تا موارد اعمال شده در جدول قرار گیرد.
 
+![IMG-0585](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report6.webp>)
+
 **2.سایر بانک‌های اطلاعاتی:** استفاده از این قابلیت، این امکان را به کاربر خواهد داد تا برای ساخت گزارش مدنظر اطلاعات موردنیاز خود از سایر بانک‌های اطلاعاتی دیگر به منابع این گزارش اضافه کند.
 
 به‌عنوان‌مثال کاربر می‌تواند از دیتابیس نرم‌افزار حسابداری موجودیت‌های حسابداری موردنظر رو به پیام‌گستر متصل کند و گزارشی داخل پیام‌گستر داشته باشد.
 
 برای نمونه می‌خواهید گزارشی از دستمزد کاربران داشته باشید، کاربران در پیام‌گستر و حقوق کاربران در سیستم حسابداری تعریف شده است، با استفاده از این امکان می‌تواند اطلاعات موردنظر برای این گزارش را از سیستم حسابداری به این گزارش منتقل کند.
+
+![IMG-0586](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report7.webp>)
 
 **نام:**  یک نام برای این منبع بانک اطلاعاتی انتخاب کنید.
 
@@ -200,6 +252,8 @@
 **1. Windows Authentication:**      از طریق user که لاگین است.
 
 **2. SQL Server Authentication:** از طریق user و پسورد مشخص دیتابیس.
+
+![IMG-0587](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/REPORT223.webp>)
 
 **بانک اطلاعاتی:** نام بانک اطلاعاتی موردنظر باید وارد شود، زیرا ممکن است در آن آدرس وارد شده چندین بانک اطلاعاتی وجود داشته باشد.
 
@@ -234,19 +288,33 @@
 
 > نکته:  در گزارش‌گیری از فایل اکسل، اطلاعات موجود در فایل اکسل در همان لحظه گزارش داده می‌شود، نه زمانی که فایل اکسل به گزارش اضافه شده است.
 
+![IMG-0588](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report9.webp>)
+
 پس از انتخاب منابع موردنیاز با دکمه "بعدی" وارد گام دوم از ساخت گزارش می‌شوید:
 
 شما با کلیک کردن بر روی تب(1) Data می‌توانید منابع داده‌ای اضافه شده به این گزارش را مشاهده کنید.
+
+![IMG-0589](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report10.webp>)
 
 محیطی که در اختیار دارید محیط طراحی گزارش می‌باشد و امکانات زیر را در اختیار خواهید داشت:
 
 برای فعال‌سازی Header و Footer به گزارش، می‌توان از آیکون‌های زیر استفاده نمود:
 
+![IMG-0590](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report11.webp>)
+
+![IMG-0591](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report12.webp>)
+
   برای ایجاد یک نمونه گزارش لیستی از ToolBox   بخش  DataRegions می‌توان یک  table به صفحه اضافه کرد.
+
+![IMG-0592](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report13.webp>)
 
   برای پرکردن table که به صفحه افزوده‌اید، باید روی تب Properties(1)کلیک کرده سپس از منوی باز شده روی بخش Data(2)  کلیک کنید
 
+![IMG-0593](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report14.webp>)
+
 در بخش Data، داده‌های مربوط به موجودیتی که روی آن اقدام به گزارش‌سازی کرده‌ایم، نمایش داده می‌شود و یا می‌توان از (1) منابع اضافه شده به گزارش را برای تهیه گزارش انتخاب نمود. برای برقراری ارتباط بین منبع‌های افزوده شده جلوتر توضیح داده خواهد شد.
+
+![IMG-0594](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report15.webp>)
 
 #####  این داده‌ها در دو بخش زیر نمایش داده می‌شوند:
 
@@ -256,9 +324,15 @@
 **2.Dimensions**
 در این گروه تمام فیلد‌هایی با ماهیت غیر عددی نمایش داده می‌شوند.
 
+![IMG-0595](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/REPORT166.webp>)
+
 قابل‌ذکر است که داده‌های مربوط به هویت‌ها در این مرحله در دسترس نیستند و در بخش Expression در دسترس قرار خواهند گرفت. این بخش توضیح داده خواهد شد.
 
 تنها فیلد‌های اضافه‌ای که دارای کلید کاربر هستند در داده‌های قابل گزارش‌گیری قابل‌مشاهده و استفاده هستند.
+
+![IMG-0596](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report17.webp>)
+
+![IMG-0597](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report16.webp>)
 
 > نکته: برخی فیلد‌ها به دو صورت قابل‌استفاده‌اند.
 > استفاده از مقدار آنها و یا مقدار نمایشی آنها؛ بنابراین برای تمایز بین این مقادیر کلمه preview به انتهای فیلد نمایشی اضافه شده است.
@@ -277,7 +351,11 @@
 
 برای دسترسی به داده‌های هویت و همچنین برقراری ارتباط و در دسترس قرار دادن داده‌های ترکیبی، باید از نوشتن عبارات RDL استفاده کنیم. برای این کار، روی چرخ دنده کنار فیلد کلیک کرده و روی گزینه Experssion  کلیک می‌کنیم.
 
+![IMG-0598](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report20.webp>)
+
 با کلیک روی گزینه Expression، فرم زیر را در اختیار خواهیم داشت:
+
+![IMG-0599](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report21.webp>)
 
 در قسمت اول در بالای صفحه (3)، می‌توان دستورات RDL را وارد کرد.
 
@@ -301,6 +379,10 @@
 
 **Parameters:**  با استفاده از کلید new parameter میتوان پارامتر جدیدی را برای فیلتر گزارش و یا مرتب سازی گزارش استفاده کرد. نحوه استفاده از این پارامتر برای فیلتر و مرتب سازی گزارش جلوتر توضیح داده خواهد شد.
 
+![IMG-0600](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report22.webp>)
+
+![IMG-0601](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report23.webp>)
+
 **Name:**  نام پارامتر موردنظر خود را به انگلیسی وارد کنید.
 
 **Prompt:**  نامی که برای دسترسی به این پارامتر می‌خواهید تعریف کنید را وارد کنید.
@@ -321,7 +403,13 @@
 
 پس از انتخاب فیلد‌های موردنظر برای گزارش‌گیری از تب data، از بخش properties می‌توان فیلتر و یا نحوه مرتب‌سازی خود را تعریف کنید
 
+![IMG-0602](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report24.webp>)
+
 **Set filters:** با کلیک بر روی دکمه add می‌توانید یک فیلتر جدید تعریف کنید.
+
+![IMG-0603](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report25.webp>)
+
+![IMG-0604](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report26.webp>)
 
 **choose field:** فیلدی که می‌خواهید بر اساس آن گزارش خود را فیلتر کنید از این بخش انتخاب کنید.
 
@@ -339,6 +427,10 @@
 
 **Set sorts:** با کلیک بر روی دکمه add می‌توانید یک نحوه مرتب‌سازی جدید تعریف کنید.
 
+![IMG-0605](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report27.webp>)
+
+![IMG-0606](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report28.webp>)
+
 **choose field:** فیلدی که می‌خواهید بر اساس آن رکوردهای خود را مرتب کنید از این بخش انتخاب کنید.
 
 **reset:**  با reset  می‌توان فیلد انتخاب شده را حذف کرد.
@@ -353,6 +445,10 @@
 
 برای مشاهده خروجی گزارش طراحی شده از گزینه Preview  استفاده کنید. قابل‌ذکر است که در حالت طراحی زمانی که روی دکمه Preview کلیک می‌کنید فقط 10 رکورد از خروجی موردنظر را مشاهده خواهید کرد. ولی در زمان اجرای گزارش، خروجی‌های کامل را در اختیار خواهید داشت.
 
+![IMG-0607](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report29.webp>)
+
+![IMG-0608](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report30.webp>)
+
 اعمال تغییرات روی ستون‌های گریدی که در طراحی به گزارش افزوده شده
 
 بدیهی است که ممکن است قصد ویرایش گرید وارد شده به طراحی گزارش را داشته باشید.
@@ -361,9 +457,17 @@
 
 به‌عنوان‌مثال برای تغییر عنوان ستون‌ها کافی است در بخش Column Setting، از گزینه (1) ChooseColumn برای انتخاب ستون موردنظر و در بخش پایین آن (2) نام موردنظر را وارد کنیم.
 
+![IMG-0609](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report31.webp>)
+
 > نکته: در صورت ویرایش ستون‌های گزارش، ترتیب ستون‌ها در بخش تنظیمات مربوط به نام نمایش ستون‌ها (column setting) جابه‌جا شده و باید دوباره مرتب شود.
 
+![IMG-0610](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report32.webp>)
+
+![IMG-0611](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report33.webp>)
+
 با کلیک بر روی دکمه ارسال کردن به گام بعدی منتقل می‌شوید.
+
+![IMG-0612](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report35.webp>)
 
 ##### گام سوم: ذخیره گزارش
 
@@ -378,6 +482,8 @@
 
 شما می‌توانید در هر طراحی یک گزارش یکبار آن را در مود راست به چپ و یکبار آن را مود چپ به راست ذخیره کنید. به‌این‌ترتیب طراحی راست به چپ در زبان فارسی و طراحی چپ به راست در زبان انگلیسی در اختیار خواهند
 
+![IMG-0613](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report39.webp>)
+
 افزودن سورس داده‌ای به یک گزارش ازپیش‌ساخته شده
 در صفحات لیست با کلیک روی دکمه مدیریت گزارش‌ها و بعد انتخاب یکی از گزارش‌های از قبل ساخته شده، این امکان وجود دارد که این لیست نیز به‌عنوان یک منبع داده‌ای به گزارش موردنظر افزوده شود.  این داده‌ها در بخش Expression طراحی گزارش و در بخش Date در اختیار قرار می‌گیرند.
 
@@ -388,6 +494,8 @@
 برای این کار درصورتی‌که گزارشی از قرار داده ایجاد کرده باشیم می‌توانیم در لیست فرم‌ها در مدیریت گزارش، این گزارش را به گزارش تهیه شده از قرارداد بیفزاییم. حال در گزارش قرارداد، منبع گزارش فرم‌ها هم اضافه شده است که می‌توانیم با EXPRESSION  روی فیلد کلید که در این مثال موجودیت پدر (Parentcrmobjectid) می‌باشد این ارتباط را برقرار کنیم.
 
 نمونه کد مربوط به این مثال
+
+![IMG-0614](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report41.webp>)
 
 ## معرفی گزارش‌ساز پیام‌گستر
 `مسیر سند: Help/Management-and-reports/Report-Builder/ReportBuilderIntroduction.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Report-Builder/ReportBuilderIntroduction.md)
@@ -415,26 +523,46 @@
 
 در صورت داشتن ماژول گزارش‌ساز پیشرفته، امکان افزودن  این گزارش به گزارش‌های ساخته‌شده قبلی از طریق دکمه **افزودن به** وجود دارد.
 
+![IMG-0574: ایجاد گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/build-report.webp>)
+
 برای ایجاد گزارش بر اساس پارامترهای مدنظرتان می‌توانید از فیلتر استفاده کنید. پس از انتخاب پارامترها، روی گزینه **ایجاد گزارش** کلیک کنید تا داده‌های گزارش فیلتر شود.
 
+![IMG-0575: فیلتر داده‌های گزارش](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/filter-report.webp>)
+
 در ادامه صحفه‌ای نمایش داده می‌شود که می‌توان در آن نام گزارش را ویرایش و توضیحات لازم را به آن اضافه کرد.
+
+![IMG-0576: ویرایش نام گزارش و اضافه کردن توضیحات](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/edit-report-name-add-description.webp>)
 
 ###### 2. دریافت اطلاعات پایه با استفاده از مسیر منوی گزارش‌ها
 برای دریافت اطلاعات پایه با استفاده از این روش در منوی **گزارش‌ها** بر روی **لیست گزارش‌ها** کلیک کنید.
 
+![IMG-0577: لیست گزارش‌ها](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/reports-list.webp>)
+
  دسته‌بندی موردنظر خود را انتخاب و بر روی **گزارش جدید** کلیک کنید.
 
+![IMG-0578: ایجاد گزارش جدید](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/create-new-report.webp>)
+
 نام گزارش و در صورت لزوم توضیحات خود را وارد و بر روی دکمه **بعدی** کلیک کنید.
+
+![IMG-0579: نام گزارش و توضیحات](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report-name-and-description.webp>)
 
 ##### مرحله دوم: افزودن منبع اطلاعاتی جدید
 در صورت داشتن ماژول گزارش‌ساز پیشرفته می‌توان از منابع مختلف برای تهیه گزارش استفاده کرد. برای این منظور بر روی کلید **ایجاد منابع** کلیک کنید.
 
+![IMG-0561: ایجاد منابع](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/create-source.webp>)
+
 در این مرحله می‌توانید منبع موردنظر خود را برای تهیه گزارش از بین گزینه‌های ارائه‌شده انتخاب کنید.
+
+![IMG-0562: انتخاب منبع](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/select-source.webp>)
 
 #### ایجاد گزارش جدید
 > برای ایجاد گزارش جدید از آیتم موردنظر بایستی در لیست آن آیتم روی گزینه ایجاد گزارش کلیک کنید. اگر می‌خواهید بر اساس پارامتر یا پارامتر‌های خاصی این گزارش را بسازید می‌توان ابتدا بر اساس پارامتر‌های مد نظرتان این لیست را فیلتر کنید و سپس روی گزینه ایجاد گزارش کلیک کنید که این راه یک راه برای فیلتر دیتاهای گزارش مورد نظرتان است.
 
+![IMG-0580](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/Create-Report-of-CRM-Items-List.webp>)
+
 با کلیک بر روی ایجاد گزارش مراحل ایجاد گزارش آغاز می‌شود.
+
+![IMG-0581](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/reportnew2.webp>)
 
 **A.افزودن هویت‌های مرتبط:** برای ساخت گزارش جدید در گام اول، امکان افزودن فیلد‌های، هویت‌های مرتبط با آیتم در اختیار کاربر قرار می‌گیرد و به‌این‌ترتیب کاربر می‌تواند این داده‌ها را نیز به مجموعه‌داده‌های موردنظر برای دریافت گزارش بیفزاید.
 
@@ -448,7 +576,11 @@
 
 **D.ویرایش:** با استفاده از این قسمت می‌توان دیتا سورس انتخاب شده برای گزارش‌گیری را ویرایش کرد و آیتم دیگری را برای گزارش موردنظر انتخاب کرد.
 
+![IMG-0582](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/reportnew3.webp>)
+
 **1.بانک اطلاعاتی پیام‌گستر:** از منابع پیام‌گستر زمانی استفاده می‌شود که بخواهیم علاوه بر موجودیتی که در حال گزارش‌گیری آن هستیم از موجودیت‌های دیگری در این گزارش استفاده کنیم.
+
+![IMG-0583](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report4.webp>)
 
 در این بخش امکان انتخاب موجودیت‌های اصلی (مثلاً تمام فرم‌ها) و یا زیر نوع تعریف شده برای موجودیت (مثلاً فرم مرخصی) را فراهم می‌کند. در اصل در این قسمت فیلد‌های موردنیاز از هر موجودیت انتخاب می‌شود تا در مرحله بعد برای گزارش‌گیری مورداستفاده قرار گیرد.
 
@@ -459,6 +591,8 @@
 در انتخاب فیلد موجودیت‌ها، برای فیلد‌هایی که از جنس هویت هستند (مانند مرتبط با (identityid) و یا ایجادکننده آیتم (creatorid) و...  ) اگر بخواهیم فیلد خاصی از آن هویت رو در این منبع داشته باشیم تا در گزارش استفاده کنیم، می‌توانیم با بازکردن ویژگی‌های آن فیلد (1) اطلاعاتی که از آن هویت نیاز است را انتخاب و به آن موجودیت متصل کنیم، در گزارش داشته باشیم.
 
  برای مثال می‌خواهیم طبق تصویر،‌ایمیل هویت مرتبط با این فرم رو در گزارش داشته باشیم از این روش استفاده می‌کنیم.
+
+![IMG-0584](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report5.webp>)
 
 **visible:** از این بخش امکان انتخاب و یا حذف فیلد‌های انتخاب شده وجود دارد.
 
@@ -473,11 +607,15 @@
 
 هنگام استفاده از این محیط پس از اضافه نمودن تغییرات موردنظر حتماً باید کلید بروز رسانی زده شود، تا موارد اعمال شده در جدول قرار گیرد.
 
+![IMG-0585](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report6.webp>)
+
 **2.سایر بانک‌های اطلاعاتی:** استفاده از این قابلیت، این امکان را به کاربر خواهد داد تا برای ساخت گزارش مدنظر اطلاعات موردنیاز خود از سایر بانک‌های اطلاعاتی دیگر به منابع این گزارش اضافه کند.
 
 به‌عنوان‌مثال کاربر می‌تواند از دیتابیس نرم‌افزار حسابداری موجودیت‌های حسابداری موردنظر رو به پیام‌گستر متصل کند و گزارشی داخل پیام‌گستر داشته باشد.
 
 برای نمونه می‌خواهید گزارشی از دستمزد کاربران داشته باشید، کاربران در پیام‌گستر و حقوق کاربران در سیستم حسابداری تعریف شده است، با استفاده از این امکان می‌تواند اطلاعات موردنظر برای این گزارش را از سیستم حسابداری به این گزارش منتقل کند.
+
+![IMG-0586](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report7.webp>)
 
 **نام:**  یک نام برای این منبع بانک اطلاعاتی انتخاب کنید.
 
@@ -488,6 +626,8 @@
 **1. Windows Authentication:**      از طریق user که لاگین است.
 
 **2. SQL Server Authentication:** از طریق user و پسورد مشخص دیتابیس.
+
+![IMG-0587](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/REPORT223.webp>)
 
 **بانک اطلاعاتی:** نام بانک اطلاعاتی موردنظر باید وارد شود، زیرا ممکن است در آن آدرس وارد شده چندین بانک اطلاعاتی وجود داشته باشد.
 
@@ -522,19 +662,33 @@
 
 > نکته:  در گزارش‌گیری از فایل اکسل، اطلاعات موجود در فایل اکسل در همان لحظه گزارش داده می‌شود، نه زمانی که فایل اکسل به گزارش اضافه شده است.
 
+![IMG-0588](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report9.webp>)
+
 پس از انتخاب منابع موردنیاز با دکمه "بعدی" وارد گام دوم از ساخت گزارش می‌شوید:
 
 شما با کلیک کردن بر روی تب(1) Data می‌توانید منابع داده‌ای اضافه شده به این گزارش را مشاهده کنید.
+
+![IMG-0589](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report10.webp>)
 
 محیطی که در اختیار دارید محیط طراحی گزارش می‌باشد و امکانات زیر را در اختیار خواهید داشت:
 
 برای فعال‌سازی Header و Footer به گزارش، می‌توان از آیکون‌های زیر استفاده نمود:
 
+![IMG-0590](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report11.webp>)
+
+![IMG-0591](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report12.webp>)
+
   برای ایجاد یک نمونه گزارش لیستی از ToolBox   بخش  DataRegions می‌توان یک  table به صفحه اضافه کرد.
+
+![IMG-0592](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report13.webp>)
 
   برای پرکردن table که به صفحه افزوده‌اید، باید روی تب Properties(1)کلیک کرده سپس از منوی باز شده روی بخش Data(2)  کلیک کنید
 
+![IMG-0593](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report14.webp>)
+
 در بخش Data، داده‌های مربوط به موجودیتی که روی آن اقدام به گزارش‌سازی کرده‌ایم، نمایش داده می‌شود و یا می‌توان از (1) منابع اضافه شده به گزارش را برای تهیه گزارش انتخاب نمود. برای برقراری ارتباط بین منبع‌های افزوده شده جلوتر توضیح داده خواهد شد.
+
+![IMG-0594](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report15.webp>)
 
 #####  این داده‌ها در دو بخش زیر نمایش داده می‌شوند:
 
@@ -544,9 +698,15 @@
 **2.Dimensions**
 در این گروه تمام فیلد‌هایی با ماهیت غیر عددی نمایش داده می‌شوند.
 
+![IMG-0595](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/REPORT166.webp>)
+
 قابل‌ذکر است که داده‌های مربوط به هویت‌ها در این مرحله در دسترس نیستند و در بخش Expression در دسترس قرار خواهند گرفت. این بخش توضیح داده خواهد شد.
 
 تنها فیلد‌های اضافه‌ای که دارای کلید کاربر هستند در داده‌های قابل گزارش‌گیری قابل‌مشاهده و استفاده هستند.
+
+![IMG-0596](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report17.webp>)
+
+![IMG-0597](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report16.webp>)
 
 > نکته: برخی فیلد‌ها به دو صورت قابل‌استفاده‌اند.
 > استفاده از مقدار آنها و یا مقدار نمایشی آنها؛ بنابراین برای تمایز بین این مقادیر کلمه preview به انتهای فیلد نمایشی اضافه شده است.
@@ -565,7 +725,11 @@
 
 برای دسترسی به داده‌های هویت و همچنین برقراری ارتباط و در دسترس قرار دادن داده‌های ترکیبی، باید از نوشتن عبارات RDL استفاده کنیم. برای این کار، روی چرخ دنده کنار فیلد کلیک کرده و روی گزینه Experssion  کلیک می‌کنیم.
 
+![IMG-0598](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report20.webp>)
+
 با کلیک روی گزینه Expression، فرم زیر را در اختیار خواهیم داشت:
+
+![IMG-0599](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report21.webp>)
 
 در قسمت اول در بالای صفحه (3)، می‌توان دستورات RDL را وارد کرد.
 
@@ -589,6 +753,10 @@
 
 **Parameters:**  با استفاده از کلید new parameter میتوان پارامتر جدیدی را برای فیلتر گزارش و یا مرتب سازی گزارش استفاده کرد. نحوه استفاده از این پارامتر برای فیلتر و مرتب سازی گزارش جلوتر توضیح داده خواهد شد.
 
+![IMG-0600](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report22.webp>)
+
+![IMG-0601](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report23.webp>)
+
 **Name:**  نام پارامتر موردنظر خود را به انگلیسی وارد کنید.
 
 **Prompt:**  نامی که برای دسترسی به این پارامتر می‌خواهید تعریف کنید را وارد کنید.
@@ -609,7 +777,13 @@
 
 پس از انتخاب فیلد‌های موردنظر برای گزارش‌گیری از تب data، از بخش properties می‌توان فیلتر و یا نحوه مرتب‌سازی خود را تعریف کنید
 
+![IMG-0602](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report24.webp>)
+
 **Set filters:** با کلیک بر روی دکمه add می‌توانید یک فیلتر جدید تعریف کنید.
+
+![IMG-0603](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report25.webp>)
+
+![IMG-0604](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report26.webp>)
 
 **choose field:** فیلدی که می‌خواهید بر اساس آن گزارش خود را فیلتر کنید از این بخش انتخاب کنید.
 
@@ -627,6 +801,10 @@
 
 **Set sorts:** با کلیک بر روی دکمه add می‌توانید یک نحوه مرتب‌سازی جدید تعریف کنید.
 
+![IMG-0605](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report27.webp>)
+
+![IMG-0606](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report28.webp>)
+
 **choose field:** فیلدی که می‌خواهید بر اساس آن رکوردهای خود را مرتب کنید از این بخش انتخاب کنید.
 
 **reset:**  با reset  می‌توان فیلد انتخاب شده را حذف کرد.
@@ -641,6 +819,10 @@
 
 برای مشاهده خروجی گزارش طراحی شده از گزینه Preview  استفاده کنید. قابل‌ذکر است که در حالت طراحی زمانی که روی دکمه Preview کلیک می‌کنید فقط 10 رکورد از خروجی موردنظر را مشاهده خواهید کرد. ولی در زمان اجرای گزارش، خروجی‌های کامل را در اختیار خواهید داشت.
 
+![IMG-0607](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report29.webp>)
+
+![IMG-0608](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report30.webp>)
+
 اعمال تغییرات روی ستون‌های گریدی که در طراحی به گزارش افزوده شده
 
 بدیهی است که ممکن است قصد ویرایش گرید وارد شده به طراحی گزارش را داشته باشید.
@@ -649,9 +831,17 @@
 
 به‌عنوان‌مثال برای تغییر عنوان ستون‌ها کافی است در بخش Column Setting، از گزینه (1) ChooseColumn برای انتخاب ستون موردنظر و در بخش پایین آن (2) نام موردنظر را وارد کنیم.
 
+![IMG-0609](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report31.webp>)
+
 > نکته: در صورت ویرایش ستون‌های گزارش، ترتیب ستون‌ها در بخش تنظیمات مربوط به نام نمایش ستون‌ها (column setting) جابه‌جا شده و باید دوباره مرتب شود.
 
+![IMG-0610](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report32.webp>)
+
+![IMG-0611](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report33.webp>)
+
 با کلیک بر روی دکمه ارسال کردن به گام بعدی منتقل می‌شوید.
+
+![IMG-0612](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report35.webp>)
 
 ##### گام سوم: ذخیره گزارش
 
@@ -666,6 +856,8 @@
 
 شما می‌توانید در هر طراحی یک گزارش یکبار آن را در مود راست به چپ و یکبار آن را مود چپ به راست ذخیره کنید. به‌این‌ترتیب طراحی راست به چپ در زبان فارسی و طراحی چپ به راست در زبان انگلیسی در اختیار خواهند
 
+![IMG-0613](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report39.webp>)
+
 افزودن سورس داده‌ای به یک گزارش ازپیش‌ساخته شده
 در صفحات لیست با کلیک روی دکمه مدیریت گزارش‌ها و بعد انتخاب یکی از گزارش‌های از قبل ساخته شده، این امکان وجود دارد که این لیست نیز به‌عنوان یک منبع داده‌ای به گزارش موردنظر افزوده شود.  این داده‌ها در بخش Expression طراحی گزارش و در بخش Date در اختیار قرار می‌گیرند.
 
@@ -677,6 +869,8 @@
 
 نمونه کد مربوط به این مثال
 
+![IMG-0614](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Images/report41.webp>)
+
 ## موارد پرکاربرد در ساخت گزارش
 `مسیر سند: Help/Management-and-reports/Report-Builder/Frequently-used-items-in-report-builder/Frequently-used-items-in-report-builder.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Management-and-reports/Report-Builder/Frequently-used-items-in-report-builder/Frequently-used-items-in-report-builder.md)
 
@@ -684,7 +878,11 @@
 
 برای مثال لیست تمامی فاکتورها صادر شده به‌ازای هر کارشناس را در نظر بگیرید، برای تهیه این لیست ابتدا روی سلول موردنظر از جدول کلیک راست کرده و Row Group را انتخاب و روی  Paren Group کلیک کنید
 
+![IMG-0615](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Frequently-used-items-in-report-builder/3.webp>)
+
 در صفحه باز شده از قسمت Choose Field  فیلد موردنظر را انتخاب کنید. در این حالت باتوجه‌به فیلد انتخاب شده، گروه‌بندی مقادیر انجام شده و لیست مرتب شده را نمایش می‌دهد.
+
+![IMG-0616](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Frequently-used-items-in-report-builder/4.webp>)
 
 ####  Aggregate توابع
 
@@ -692,6 +890,10 @@
 
 برای مثال شمارش تعداد فاکتورها را در نظر بگیرید برای شمارش کافی است در صفحه Expression از منوی options  روی Aggregate کلیک کرده و Count را انتخاب کنید و از لیست data  روی فیلد موردنظر کلیک کنید. در این حالت باتوجه‌به فیلد انتخاب شده، تعداد را محاسبه و مقدار آن را نمایش می‌دهد.
 
+![IMG-0617](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Frequently-used-items-in-report-builder/1.webp>)
+
 #####  (Sum) جمع‌کردن مقادیر فیلدها
 
 برای مثال مجموع قیمت فاکتورها را در نظر بگیرید برای شمارش کافی است در صفحه Expression از منوی options  روی Aggregate کلیک کرده و Sum را انتخاب کنید و از لیست data  روی فیلد موردنظر کلیک کنید. در این حالت باتوجه‌به فیلد انتخاب شده، مقادیر فیلد را با هم جمع کرده و مقدار آن را نمایش می‌دهد.
+
+![IMG-0618](</kb-assets/kb-images/Help/Management-and-reports/Report-Builder/Frequently-used-items-in-report-builder/2.webp>)

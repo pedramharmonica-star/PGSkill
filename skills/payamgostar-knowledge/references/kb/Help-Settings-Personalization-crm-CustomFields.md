@@ -1,6 +1,6 @@
 # مستندات رسمی پیام‌گستر — Help-Settings-Personalization-crm-CustomFields
 
-منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر حذف شده‌اند؛ جزئیات داخل تصویر در این متن نیست.
+منبع: مخزن رسمی 1stco/PayamGostarDocs (commit e6143c66b174، ۱۴۰۵/۰۶/۱۴) — متن مقاله‌های help.payamgostar.com/docs. تصاویر به‌صورت پیوند `![IMG-…](</kb-assets/kb-images/…>)` (مسیر از ریشه مخزن PGSkill) آمده‌اند؛ متن داخل تصویر جست‌وجو نمی‌شود. فهرست تصاویر: `references/kb-images-index.csv`.
 
 ## اضافه کردن فیلد (افزودن مشخصه)
 `مسیر سند: Help/Settings/Personalization-crm/CustomFields/CustomFields.md` · [منبع](https://github.com/1stco/PayamGostarDocs/blob/e6143c66b1746f251ae840745e7fe070607aee10/Help/Settings/Personalization-crm/CustomFields/CustomFields.md)
@@ -16,6 +16,8 @@
 > نکته: فیلدهایی که به هویت‌های اضافه می‌شوند در قسمت جستجوی پیشرفته می‌توانند مورد استفاده قرار بگیرند. (برای مثال اگر یک فیلد برای کد/شناسه ملی اضافه کنید، در جستجوی پیشرفته می‌توانید بر اساس آن بین مخاطبان و سرنخ‌های خود جستجو انجام دهید)
 
 > نکته: لازم به ذکر است حداکثر تعداد فیلدهای قابل ایجاد بر روی آیتم 200 فیلد می‌باشد.
+
+![IMG-1284: تنظیمات فیلداضافه در شخصی سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Fields-and-group-fields-customization.webp>)
 
 **1  . اضافه کردن گروه:** می‌توانید گروه فیلدی جدید اضافه کنید. برای نمایش نحوه ایجاد و استفاده گروه فیلد بهتر است از گیف استفاده شود .
 
@@ -49,7 +51,11 @@
 
 یک فیلد متنی با قابلیت استفاده از ابزارهای HTML می‌توانید بیافزایید.
 
+![IMG-1285: افزودن فیلد از نوع HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field.webp>)
+
 ***نمونه:***
+
+![IMG-1286: نمونه فیلد HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field-sample.webp>)
 
 **برچسب:**
 
@@ -57,28 +63,46 @@
 
 برای نمایش متن مورد نظر باید از گزینه نمایش عنوان و برای نمایش یک آیکون از گزینه نمایش آیکون استفاده کرد .
 
+![IMG-1287: افزودن فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field.webp>)
+
 ***نمونه برای نمایش برچسب از نوع عنوان:***
 
+![IMG-1288: نمونه فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-sample.webp>)
+
 ***نمونه برای نمایش آیکون:***
+
+![IMG-1289: نمونه فیلد برچسب از نوع آیکن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-sample2.webp>)
 
  **پول:**
 یک فیلد برای وارد کردن مقادیر مثبت و منفی پولی را می‌توانید اضافه کنید
 
+![IMG-1290: افزودن فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field.webp>)
+
 ***نمونه فیلد از نوع پول:***
+
+![IMG-1291: نمونه فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field-sample.webp>)
 
  **تاریخ شمسی:**
 
  یک فیلد از نوع تاریخ شمسی می‌توانید اضافه کنید .
 
+![IMG-1292: افزودن فیلد تاریخ شمسی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Persian-date-field.webp>)
+
 **تاریخ میلادی:**
 
 یک فیلد از نوع تاریخ میلادی می‌توانید اضافه کنید.
+
+![IMG-1293: افزودن فیلد تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-field.webp>)
 
 **تصویر:**
 
 یک فیلد برای انتخاب تصویر اضافه می‌کند. میتوانید اندازه، پسوندهای مجاز و اندازه نمایش تصویر در صفحه را مشخص کنید.
 
+![IMG-1294: افزودن فیلد تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field.webp>)
+
 ***نمونه فیلد از نوع تصویر:***
+
+![IMG-1295: نمونه فیلد اضافه تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field-sample.webp>)
 
 **دپارتمان:**
 
@@ -88,9 +112,13 @@
 
 فیلدی با قابلیت انتخاب ساعت را می‌توانید بیافزایید.
 
+![IMG-1296: افزودن فیلد ساعت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Clock-field.webp>)
+
 **سمت:**
 
 این فیلد لیست سمت‌های تعریف شده در مدیریت دپارتمان‌ها و سمت‌ها را شامل می‌شود که کاربر می‌تواند یکی از سمت‌ها را از لیست انتخاب کند.
+
+![IMG-1297: افزودن فیلد سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-position-field.webp>)
 
 **شناسه خودکار:**
 
@@ -100,7 +128,11 @@
 
 > نکته: برای استفاده از فیلد شماره خودکار نیاز به ماژول فرم ساز پیش رفته می‌باشد .
 
+![IMG-1298: افزودن فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field.webp>)
+
 ***نمونه فیلد از نوع شناسه خودکار:***
+
+![IMG-1299: نمونه فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-sample.webp>)
 
 **عدد:**
 
@@ -108,13 +140,21 @@
 
 زمانی که در تنظیمات فیلد از نوع عدد مشخص شود تعداد ارقام صحیح از 1 به 3 باشد ، عدد باید سه رقمی‌باشد ، در غیر این صورت در فیلد خطای نامعتبر بودن بازه وارد شده را دارد.
 
+![IMG-1300: افزودن فیلد عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field.webp>)
+
 ***نمایش فیلد عدد در آیتم:***
+
+![IMG-1301: نمونه فیلد اضافه عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field-sample.webp>)
 
 **فایل:**
 
 با استفاده از فیلد از نوع فایل امکان اضافه کردن فایل به آیتم مورد نظر فراهم می‌شود . پسوندهای مجاز و حداکثر حجم فایل را نیز می‌توانید تعیین کنید.
 
+![IMG-1302: افزودن فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field.webp>)
+
 ***نمایش فیلد از نوع فایل در آیتم: ***
+
+![IMG-1303: نمونه فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field-sample.webp>)
 
 **کاربر:**
 
@@ -134,11 +174,15 @@
 
 نمونه فیلد از نوع گروه:
 
+![IMG-1304: نمایش فیلد گروه کابر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-field.webp>)
+
 **لیست کشویی:**
 
 با استفاده از این فیلد می‌توان فیلد لیستی ایجاد کرد و مقادیر دلخواه را برای این لیست تعریف نمود .
 
 > نکته: برای اضافه کردن مقادیر این لیست باید ابتدا فیلد را ذخیره نمود،سپس با استفاده از کلید افزودن مقادیر مورد نظر را می‌توان اضافه کرد .
+
+![IMG-1305: تنظیمات فیلد لیست کشویی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/List-drop-down-field.webp>)
 
 **لینک:**
 
@@ -148,13 +192,23 @@
 
 یک فیلدی از نوع متن می‌توانید اضافه کنید. این فیلد میتواند تک خطی یا چند خطی باشد. فیلد چند خطی برای مواردی که نیاز به وارد کردن چندین خط توضیحات است، مناسب است.
 
+![IMG-1306: تنظیمات فیلد متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field.webp>)
+
 نمونه فیلد از نوع متن:
+
+![IMG-1307: نمایش فیلد متن تک خطی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field-sample.webp>)
+
+![IMG-1308: نمایش فیلد متن چند خطی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field-sample2.webp>)
 
 **مشخصه:**
 
 یکی از مشخصات تعریف شده در مدیریت آیتم‌های سیستم (مانند نوع برخورد، اعتبار فرد و...) را می‌توانید به آیتم مورد نظر اضافه کنید.
 
+![IMG-1298: تنظیمات فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field.webp>)
+
 ***نمونه فیلد مشخصه خودکار***
+
+![IMG-1299: نمایش فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-sample.webp>)
 
 > نکته: مقادیر این فیلد از قسمت مدیریت آیتم‌های سیستم قابل ویرایش می‌باشد .
 
@@ -164,7 +218,11 @@
 
  مکان ایجاد یک پرداخت و یا انتخاب یکی از پرداخت‌های ثبت شده برای مخاطب (هویت مرتبط با) را فراهم می‌کند
 
+![IMG-1309: تنظیمات فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payement-field.webp>)
+
 ***نمایش فیلد پرداخت***
+
+![IMG-1310: نمایش فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payment-field-view.webp>)
 
  **پیش فاکتور:**
 
@@ -189,6 +247,8 @@
 **شرکت/شخص:**
 
 با استفاده از فیلد شخص/شرکت امکان انتخاب و یا ایجاد یک هویت (سرنخ/مخاطب) از بانک اطلاعاتی فراهم می‌شود.
+
+![IMG-1311: نمایش فیلد شرکت/شخص](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Identity-field.webp>)
 
 **فاکتور:**
 
@@ -219,6 +279,8 @@
 
 با استفاده از این فیلد می‌توانید جدولی داشته باشید که محتوای آن لیستی از یک نوع آیتم باشد که هنگام تعریف فیلد مشخص کرده اید.
 
+![IMG-1312: تنظیمات لیست آیتم‌های CRM](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/CRM-item-list-field.webp>)
+
 **1.** ابتدا یک نام به فیلد اختصاص دهید.
 
 **2.** در این قسمت آیتمی‌که می‌خواهید لیستی از آن نوع داشته باشید را انتخاب کنید (فاکتور فروش، فرم، قرارداد، فرصت و...)
@@ -238,21 +300,31 @@
 
  هنگام استفاده از این فیلد ، لیستی از تاریخ‌های میلادی را می‌توان مقدار دهی کرد .
 
+![IMG-1313: نمایش فیلد لیست تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-list-field-sample.webp>)
+
 **لیست دپارتمان:**
 
  هنگام استفاده از این فیلد ، لیستی از دپارتمان‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توان مقدار دهی کرد .
+
+![IMG-1314: نمایش فیلد لیست لیست دئارتمان](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Department-list-field-sample.webp>)
 
 **لیست سمت:**
 
 لیستی از سمت‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توانید مقداردهی کنید.
 
+![IMG-1315: نمایش فیلد لیست سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Position-list-field-sample.webp>)
+
 **لیست عدد:**
 
 لیستی از اعداد را با در نظر گرفتن تعداد ارقام صحیح و تعداد اعشار مشخص شده در زمان ایجاد فیلد ، می‌توان مقدار دهی کرد .
 
+![IMG-1316: نمایش فیلد لیست عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-list-field-sample.webp>)
+
 **لیست فایل:**
 
  هنگام استفاده از این فیلد لیستی از فایل‌ها را با در نظر گرفتن حجمی‌که هنگام طراحی فیلد مشخص شده می‌توان پیوست کرد.
+
+![IMG-1317: نمایش فیلد لیست فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-list-field-sample.webp>)
 
 **لیست کاربر:**
 
@@ -260,9 +332,13 @@
 
 گزینه نمایش کاربر غیر فعال در تنظمیات فیلد قرار داده شده ام عمل نمی‌کند .
 
+![IMG-1318: نمایش فیلد لیست کاربر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-list-field-sample.webp>)
+
 **لیست گروه:**
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌های کاربری ایجاد شده در مدیریت گروه‌ها را در فراهم می‌کند . (فقط امکان انتخاب گروه‌های فعال وجود دارد)
+
+![IMG-1319: نمایش فیلد لیست گروه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-list-field-sample.webp>)
 
 **لیست گروه‌ها و کاربران:**
 
@@ -272,20 +348,30 @@
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی از نوع لینک وجود دارد.  (لینک‌ها باید با یک پروتکل شروع شوند برای مثال: //:http یا //:https یا //:ftp و ... )
 
+![IMG-1320: نمایش فیلد لیست لینک](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Links-list-field-sample.webp>)
+
 **لیست مبلغ:**
 
  هنگام استفاده از این فیلد امکان ایجاد لیستی از اعداد که ماهیت مبلغ (پول) دارند با مقادیر مثبت و منفی را فراهم می‌کند .
 
+![IMG-1321: نمایش فیلد لیست مبلغ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-list-field-sample.webp>)
+
 **لیست متن:**
 
  هنگام استفاده از این فیلد امکان درج لیستی با ماهیت متن را در اختیار شما قرار می‌دهد.
+
+![IMG-1322: نمایش فیلد لیست متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-list-field-sample.webp>)
 
 **لیست محصول:**
 
 با استفاده از این فیلد می‌توانید یک جدول محصول به آیتم اضافه کنید. می‌توان مشخص کرد که در این جدول محصول چه اطلاعاتی (مقدار، تخفیف، قیمت واحد و قیمت نهایی) نمایش داده
 شود و همچنین تعداد رقم اعشار در مقدار و مبالغ قابل تعریف است . (محصولات تعریف شده در مدیریت محصولات می‌توانند در این لیست انتخاب شوند)
 
+![IMG-1323: تنیمات فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field.webp>)
+
 ***نمونه فیلد لیست محصول: ***
+
+![IMG-1324: نمایش فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field-sample.webp>)
 
 **لیست مشتری:**
 
@@ -298,8 +384,11 @@
 ابتدا بر روی دکمه "تعریف لیست مرتبط کلیک کنید".
 
 !
+![IMG-1325: مرحله اول تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-field.webp>)
 
 سپس طبق مراحل زیر اقدام کنید:
+
+![IMG-1326: تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-settings.webp>)
 
 **A. نام مشخصه:** ستون‌های مختلف را از این قسمت اضافه کنید. (برای مثال طبق تصویر ما سه مشخصه استان، شهر و منطقه را اضافه کرده ایم.)
 
@@ -308,6 +397,8 @@
 **C.** با کلیک بر روی هر مقدار می‌توانید، مقادیر ستون بعد را در آن وارد کنید. (برای مثال طبق تصویر ما برای تهران که در ستون اول وارد شده است، در ستون دوم سه مقدار تهران، شهریار و شهرقدس را وارد کرده ایم.)
 
 نمونه:
+
+![IMG-1327: نمایش فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-field-sample.webp>)
 
 > نکته: امکان استفاده از فیلد‌های لیست مرتبط در قالب پیش نمایش وجود ندارد .
 
@@ -325,6 +416,8 @@
 > نکته: فیلدهایی که به هویت‌های اضافه می‌شوند در قسمت جستجوی پیشرفته می‌توانند مورد استفاده قرار بگیرند. (برای مثال اگر یک فیلد برای کد/شناسه ملی اضافه کنید، در جستجوی پیشرفته می‌توانید بر اساس آن بین مخاطبان و سرنخ‌های خود جستجو انجام دهید)
 
 > نکته: لازم به ذکر است حداکثر تعداد فیلدهای قابل ایجاد بر روی آیتم 200 فیلد می‌باشد.
+
+![IMG-1284: تنظیمات فیلداضافه در شخصی سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Fields-and-group-fields-customization.webp>)
 
 **1  . اضافه کردن گروه:** می‌توانید گروه فیلدی جدید اضافه کنید. برای نمایش نحوه ایجاد و استفاده گروه فیلد بهتر است از گیف استفاده شود .
 
@@ -354,7 +447,11 @@
 
 یک فیلد متنی با قابلیت استفاده از ابزارهای HTML می‌توانید بیافزایید.
 
+![IMG-1285: افزودن فیلد از نوع HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field.webp>)
+
 ***نمونه:***
+
+![IMG-1286: نمونه فیلد HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field-sample.webp>)
 
 **برچسب:**
 
@@ -362,28 +459,46 @@
 
 برای نمایش متن مورد نظر باید از گزینه نمایش عنوان و برای نمایش یک آیکون از گزینه نمایش آیکون استفاده کرد .
 
+![IMG-1287: افزودن فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field.webp>)
+
 ***نمونه برای نمایش برچسب از نوع عنوان:***
 
+![IMG-1288: نمونه فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-sample.webp>)
+
 ***نمونه برای نمایش آیکون:***
+
+![IMG-1289: نمونه فیلد برچسب از نوع آیکن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-sample2.webp>)
 
  **پول:**
 یک فیلد برای وارد کردن مقادیر مثبت و منفی پولی را می‌توانید اضافه کنید
 
+![IMG-1290: افزودن فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field.webp>)
+
 ***نمونه فیلد از نوع پول:***
+
+![IMG-1291: نمونه فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field-sample.webp>)
 
  **تاریخ شمسی:**
 
  یک فیلد از نوع تاریخ شمسی می‌توانید اضافه کنید .
 
+![IMG-1292: افزودن فیلد تاریخ شمسی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Persian-date-field.webp>)
+
 **تاریخ میلادی:**
 
 یک فیلد از نوع تاریخ میلادی می‌توانید اضافه کنید.
+
+![IMG-1293: افزودن فیلد تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-field.webp>)
 
 **تصویر:**
 
 یک فیلد برای انتخاب تصویر اضافه می‌کند. میتوانید اندازه، پسوندهای مجاز و اندازه نمایش تصویر در صفحه را مشخص کنید.
 
+![IMG-1294: افزودن فیلد تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field.webp>)
+
 ***نمونه فیلد از نوع تصویر:***
+
+![IMG-1295: نمونه فیلد اضافه تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field-sample.webp>)
 
 **دپارتمان:**
 
@@ -393,9 +508,13 @@
 
 فیلدی با قابلیت انتخاب ساعت را می‌توانید بیافزایید.
 
+![IMG-1296: افزودن فیلد ساعت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Clock-field.webp>)
+
 **سمت:**
 
 این فیلد لیست سمت‌های تعریف شده در مدیریت دپارتمان‌ها و سمت‌ها را شامل می‌شود که کاربر می‌تواند یکی از سمت‌ها را از لیست انتخاب کند.
+
+![IMG-1297: افزودن فیلد سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-position-field.webp>)
 
 **شناسه خودکار:**
 
@@ -405,7 +524,11 @@
 
 > نکته: برای استفاده از فیلد شماره خودکار نیاز به ماژول فرم ساز پیش رفته می‌باشد .
 
+![IMG-1298: افزودن فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field.webp>)
+
 ***نمونه فیلد از نوع شناسه خودکار:***
+
+![IMG-1299: نمونه فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-sample.webp>)
 
 **عدد:**
 
@@ -413,13 +536,21 @@
 
 زمانی که در تنظیمات فیلد از نوع عدد مشخص شود تعداد ارقام صحیح از 1 به 3 باشد ، عدد باید سه رقمی‌باشد ، در غیر این صورت در فیلد خطای نامعتبر بودن بازه وارد شده را دارد.
 
+![IMG-1300: افزودن فیلد عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field.webp>)
+
 ***نمایش فیلد عدد در آیتم:***
+
+![IMG-1301: نمونه فیلد اضافه عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field-sample.webp>)
 
 **فایل:**
 
 با استفاده از فیلد از نوع فایل امکان اضافه کردن فایل به آیتم مورد نظر فراهم می‌شود . پسوندهای مجاز و حداکثر حجم فایل را نیز می‌توانید تعیین کنید.
 
+![IMG-1302: افزودن فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field.webp>)
+
 ***نمایش فیلد از نوع فایل در آیتم: ***
+
+![IMG-1303: نمونه فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field-sample.webp>)
 
 **کاربر:**
 
@@ -439,11 +570,15 @@
 
 نمونه فیلد از نوع گروه:
 
+![IMG-1304: نمایش فیلد گروه کابر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-field.webp>)
+
 **لیست کشویی:**
 
 با استفاده از این فیلد می‌توان فیلد لیستی ایجاد کرد و مقادیر دلخواه را برای این لیست تعریف نمود .
 
 > نکته: برای اضافه کردن مقادیر این لیست باید ابتدا فیلد را ذخیره نمود،سپس با استفاده از کلید افزودن مقادیر مورد نظر را می‌توان اضافه کرد .
+
+![IMG-1305: تنظیمات فیلد لیست کشویی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/List-drop-down-field.webp>)
 
 **لینک:**
 
@@ -453,13 +588,23 @@
 
 یک فیلدی از نوع متن می‌توانید اضافه کنید. این فیلد میتواند تک خطی یا چند خطی باشد. فیلد چند خطی برای مواردی که نیاز به وارد کردن چندین خط توضیحات است، مناسب است.
 
+![IMG-1306: تنظیمات فیلد متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field.webp>)
+
 نمونه فیلد از نوع متن:
+
+![IMG-1307: نمایش فیلد متن تک خطی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field-sample.webp>)
+
+![IMG-1308: نمایش فیلد متن چند خطی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field-sample2.webp>)
 
 **مشخصه:**
 
 یکی از مشخصات تعریف شده در مدیریت آیتم‌های سیستم (مانند نوع برخورد، اعتبار فرد و...) را می‌توانید به آیتم مورد نظر اضافه کنید.
 
+![IMG-1298: تنظیمات فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field.webp>)
+
 ***نمونه فیلد مشخصه خودکار***
+
+![IMG-1299: نمایش فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-sample.webp>)
 
 > نکته: مقادیر این فیلد از قسمت مدیریت آیتم‌های سیستم قابل ویرایش می‌باشد .
 
@@ -468,6 +613,10 @@
 **پرداخت:**
 
  مکان ایجاد یک پرداخت و یا انتخاب یکی از پرداخت‌های ثبت شده برای مخاطب (هویت مرتبط با) را فراهم می‌کند
+
+![IMG-1309: تنظیمات فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payement-field.webp>)
+
+![IMG-1310: نمایش فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payment-field-view.webp>)
 
  **پیش فاکتور:**
 
@@ -492,6 +641,8 @@
 **شرکت/شخص:**
 
 با استفاده از فیلد شخص/شرکت امکان انتخاب و یا ایجاد یک هویت (سرنخ/مخاطب) از بانک اطلاعاتی فراهم می‌شود.
+
+![IMG-1311: نمایش فیلد شرکت/شخص](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Identity-field.webp>)
 
 **فاکتور:**
 
@@ -522,6 +673,8 @@
 
  با استفاده از این فیلد می‌توانید جدولی داشته باشید که محتوای آن لیستی از یک نوع آیتم باشد که هنگام تعریف فیلد مشخص کرده اید.
 
+![IMG-1312: تنظیمات لیست آیتم‌های CRM](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/CRM-item-list-field.webp>)
+
 **1.** ابتدا یک نام به فیلد اختصاص دهید.
 
 **2.** در این قسمت آیتمی‌که می‌خواهید لیستی از آن نوع داشته باشید را انتخاب کنید (فاکتور فروش، فرم، قرارداد، فرصت و...)
@@ -541,26 +694,38 @@
 
  هنگام استفاده از این فیلد ، لیستی از تاریخ‌های میلادی را می‌توان مقدار دهی کرد .
 
+![IMG-1313: نمایش فیلد لیست تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-list-field-sample.webp>)
+
 **لیست دپارتمان:**
 
  هنگام استفاده از این فیلد ، لیستی از دپارتمان‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توان مقدار دهی کرد .
+
+![IMG-1314: نمایش فیلد لیست لیست دئارتمان](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Department-list-field-sample.webp>)
 
 **لیست سمت:**
 
 لیستی از سمت‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توانید مقداردهی کنید.
 
+![IMG-1315: نمایش فیلد لیست سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Position-list-field-sample.webp>)
+
 **لیست عدد:**
 لیستی از اعداد را با در نظر گرفتن تعداد ارقام صحیح و تعداد اعشار مشخص شده در زمان ایجاد فیلد ، می‌توان مقدار دهی کرد .
+
+![IMG-1316: نمایش فیلد لیست عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-list-field-sample.webp>)
 
 **لیست فایل:**
 
  هنگام استفاده از این فیلد لیستی از فایل‌ها را با در نظر گرفتن حجمی‌که هنگام طراحی فیلد مشخص شده می‌توان پیوست کرد.
+
+![IMG-1317: نمایش فیلد لیست فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-list-field-sample.webp>)
 
 **لیست کاربر:**
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام کاربران سیستم را فراهم می‌کند (درحال حاضر فقط امکان انتخاب کاربران فعال وجود دارد.)
 
 گزینه نمایش کاربر غیر فعال در تنظمیات فیلد قرار داده شده ام عمل نمی‌کند .
+
+![IMG-1318: نمایش فیلد لیست کاربر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-list-field-sample.webp>)
 
 **ليست کشويي چند انتخابي:**
 
@@ -570,6 +735,8 @@
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌های کاربری ایجاد شده در مدیریت گروه‌ها را در فراهم می‌کند . (فقط امکان انتخاب گروه‌های فعال وجود دارد)
 
+![IMG-1319: نمایش فیلد لیست گروه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-list-field-sample.webp>)
+
 **لیست گروه‌ها و کاربران:**
 
  هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌ها و یا کاربران را فراهم میکند (فقط امکان انتخاب گروه‌ها و کاربران فعال وجود دارد)
@@ -578,20 +745,30 @@
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی از نوع لینک وجود دارد.  (لینک‌ها باید با یک پروتکل شروع شوند برای مثال: //:http یا //:https یا //:ftp و ... )
 
+![IMG-1320: نمایش فیلد لیست لینک](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Links-list-field-sample.webp>)
+
 **لیست مبلغ:**
 
  هنگام استفاده از این فیلد امکان ایجاد لیستی از اعداد که ماهیت مبلغ (پول) دارند با مقادیر مثبت و منفی را فراهم می‌کند .
 
+![IMG-1321: نمایش فیلد لیست مبلغ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-list-field-sample.webp>)
+
 **لیست متن:**
 
  هنگام استفاده از این فیلد امکان درج لیستی با ماهیت متن را در اختیار شما قرار می‌دهد.
+
+![IMG-1322: نمایش فیلد لیست متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-list-field-sample.webp>)
 
 **لیست محصول:**
 
 با استفاده از این فیلد می‌توانید یک جدول محصول به آیتم اضافه کنید. می‌توان مشخص کرد که در این جدول محصول چه اطلاعاتی (مقدار، تخفیف، قیمت واحد و قیمت نهایی) نمایش داده
 شود و همچنین تعداد رقم اعشار در مقدار و مبالغ قابل تعریف است . (محصولات تعریف شده در مدیریت محصولات می‌توانند در این لیست انتخاب شوند)
 
+![IMG-1323: تنیمات فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field.webp>)
+
 ***نمونه فیلد لیست محصول: ***
+
+![IMG-1324: نمایش فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field-sample.webp>)
 
 **لیست مشتری:**
 
@@ -604,8 +781,11 @@
 ابتدا بر روی دکمه "تعریف لیست مرتبط کلیک کنید".
 
 !
+![IMG-1325: مرحله اول تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-field.webp>)
 
 سپس طبق مراحل زیر اقدام کنید:
+
+![IMG-1326: تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-settings.webp>)
 
 **A. نام مشخصه:** ستون‌های مختلف را از این قسمت اضافه کنید. (برای مثال طبق تصویر ما سه مشخصه استان، شهر و منطقه را اضافه کرده ایم.)
 
@@ -614,6 +794,8 @@
 **C.** با کلیک بر روی هر مقدار می‌توانید، مقادیر ستون بعد را در آن وارد کنید. (برای مثال طبق تصویر ما برای تهران که در ستون اول وارد شده است، در ستون دوم سه مقدار تهران، شهریار و شهرقدس را وارد کرده ایم.)
 
 نمونه:
+
+![IMG-1327: نمایش فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-field-sample.webp>)
 
 > نکته: امکان استفاده از فیلد‌های لیست مرتبط در قالب پیش نمایش وجود ندارد .
 
@@ -650,12 +832,18 @@
 2. ابتدا نوع مقداری که میخواهید ورود اطلاعات کنید را تعیین کنید. به عنوان مثال برای ثبت شماره پیگیری سند در یک فرم، می‌توانید از دو فیلد عدد و متن استفاده کنید. ولی مهم است که به قابلیت هرکدام آگاه بوده تا انتخاب مناسبی برای فیلد مورد نظر خود داشته باشید.
 3. گروه‌های فیلدی مرتبط با مجموعه فیلدها را ایجاد نمایید. شکل زیر نمونه‌ای از گروه‌های فیلدی مورد نیاز برای یک فرصت فروش است.
 
+![IMG-1328: نمونه گروه فیلدی، در شخصی‌سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Custom-field-group_2.7.5.webp>)
+
 ##### ایجاد گروه فیلد جدید
 در محیط شخصی‌سازی آیتم، در بخش گروه فیلدها، روی دکمه **افزودن** کلیک کنید.
+
+![IMG-1329: صفحه ایجاد گروه فیلد جدید](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Add-a-custom-field-group_2.7.5.webp>)
 
 - **نام:** عنوان مناسبی برای گروه فیلدی انتخاب کنید. دقت داشته باشید که اگر ماژول مدیریت زبان‌ها را داشته و زبان دیگری در سیستم تعریف کرده باشید، می‌توانید معادل آن را نام‌گذاری کنید.
 - **تعداد ستون:** از این طریق می‌توانید تعیین کنید آرایش فیلدها در آیتم به صورت تک یا دو ستون باشد.
 - **باز بودن منو هنگام ویرایش:** در صورت فعال کردن این چک باکس، وضعیت باز یا بسته بودن این گروه فیلدی را هنگام ثبت/ویرایش آیتم تعیین می‌کنید.
+
+![IMG-1284: تنظیمات گروه فیلد و فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Fields-and-group-fields-customization.webp>)
 
 **1  . اضافه کردن گروه:** می‌توانید گروه فیلدی جدید اضافه کنید. برای نمایش نحوه ایجاد و استفاده گروه فیلد بهتر است از گیف استفاده شود.
 
@@ -686,6 +874,8 @@
 
   این امکان را به شما می‌دهند که بر اساس نوع فیلد، بیش از یک مقدار به فیلد مورد نظرتان اختصاص دهید. در واقع لیستی از مقادیر مرتبط با فیلد در آیتم ذخیره می‌شود.
 
+![IMG-1330: تنظیمات فید محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-field-setting.webp>)
+
 **1. عنوان:** انتخاب نام برای فیلد الزامی می باشد.
 
 **2. متن راهنما:** انتخاب متن راهنما برای فیلد این امکان را فراهم می کند تا برای فیلد مورد نظر راهنمایی تعریف نمود که با قراردادن ماوس روی فیلد این راهنما نمایش داده میشود .
@@ -710,6 +900,8 @@
 
 #### تنظیمات فیلدهای محاسباتی{#ComputationalFieldSetting}
 
+![IMG-1331: تنظیمات فایل اکسل فیلد محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-Excel-file-setting.webp>)
+
 **1**. ابتدا فایل اکسلی که حاوی فرمول مورد نظرتان هست را پیوست کنید.
 
 **2**. می توانید تعیین کنید که قبل از هر ذخیره، یکبار این محاسبه انجام شود.
@@ -724,7 +916,11 @@
 
 در سلول خروجی هم عبارت C1 وارد شده است تا نرم افزار نتیجه محاسبه فرمول را بتواند تشخیص دهد.
 
+![IMG-1332: محاسبات در فایل اکسل فیلد محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-Excel-file-setting2.webp>)
+
 ##### نمونه فیلد :
+
+![IMG-1333: نمونه فیلد محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-field-sample.webp>)
 
 درصورت انتخاب وب سرویس در فیلد محاسباتی،امکان گرفتن مقدار از یک برنامه یا وب سرویس دیگر وجود دارد. (قابل استفاده توسط برنامه نویسان)
 
@@ -732,13 +928,19 @@
 
 برای این کار آدرس وب سرویس مورد نظر را در فیلد "آدرس سرویس" وارد کنید.
 
+![IMG-1334: تنظیمات فیلد محاسباتی از طریق وب سرویس](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-field-webservice-setting.webp>)
+
 ###### فیلدهای ساده
 
 **HTML:**
 
 یک فیلد متنی با قابلیت استفاده از ابزارهای HTML می‌توانید بیافزایید.
 
+![IMG-1285: افزودن فیلد از نوع HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field.webp>)
+
 ***نمونه:***
+
+![IMG-1286: نمونه فیلد HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field-sample.webp>)
 
 **برچسب:**
 
@@ -746,28 +948,46 @@
 
 برای نمایش متن مورد نظر باید از گزینه نمایش عنوان و برای نمایش یک آیکون از گزینه نمایش آیکون استفاده کرد .
 
+![IMG-1287: افزودن فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field.webp>)
+
 ***نمونه برای نمایش برچسب از نوع عنوان:***
 
+![IMG-1288: نمونه فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-sample.webp>)
+
 ***نمونه برای نمایش آیکون:***
+
+![IMG-1289: نمونه فیلد برچسب از نوع آیکن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-sample2.webp>)
 
  **پول:**
 یک فیلد برای وارد کردن مقادیر مثبت و منفی پولی را می‌توانید اضافه کنید
 
+![IMG-1290: افزودن فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field.webp>)
+
 ***نمونه فیلد از نوع پول:***
+
+![IMG-1291: نمونه فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field-sample.webp>)
 
  **تاریخ شمسی:**
 
  یک فیلد از نوع تاریخ شمسی می‌توانید اضافه کنید .
 
+![IMG-1292: افزودن فیلد تاریخ شمسی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Persian-date-field.webp>)
+
 **تاریخ میلادی:**
 
 یک فیلد از نوع تاریخ میلادی می‌توانید اضافه کنید.
+
+![IMG-1293: افزودن فیلد تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-field.webp>)
 
 **تصویر:**
 
 یک فیلد برای انتخاب تصویر اضافه می‌کند. میتوانید اندازه، پسوندهای مجاز و اندازه نمایش تصویر در صفحه را مشخص کنید.
 
+![IMG-1294: افزودن فیلد تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field.webp>)
+
 ***نمونه فیلد از نوع تصویر:***
+
+![IMG-1295: نمونه فیلد اضافه تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field-sample.webp>)
 
  **دپارتمان**
 
@@ -777,9 +997,13 @@
 
  فیلدی با قابلیت انتخاب ساعت را می‌توانید بیافزایید..
 
+![IMG-1296: نمایش فیلد ساعت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Clock-field.webp>)
+
  **سمت**
 
  این فیلد لیست سمت‌های تعریف شده در مدیریت دپارتمان‌ها و سمت‌ها را شامل می‌شود که کاربر می‌تواند یکی از سمت‌ها را از لیست انتخاب کند.
+
+![IMG-1297: نمایش فیلد سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-position-field.webp>)
 
 **شناسه خودکار**
 
@@ -789,7 +1013,11 @@
 
 > زمانی که از فیلد شناسه خودکار در موجودیتی مثلا فرم استفاده می‌شود ، فرم‌های ایجاد شده از اون نوع بصورت خودکار شماره می‌گیرند و فرم‌های جدیدی که از این نوع ایجاد می‌شود براساس فرم‌های قبلی شماره دهی می‌شود.
 
+![IMG-1298: تنظیمات فیلد شناسه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field.webp>)
+
  نمونه فیلد از نوع شناسه خودکار:
+
+![IMG-1299: نمایش فیلد شناسه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-sample.webp>)
 
 >**نکته:**
 
@@ -801,13 +1029,21 @@
 
 زمانی که در تنظیمات فیلد از نوع عدد مشخص شود تعداد ارقام صحیح از 1 به 3 باشد ، عدد باید سه رقمی‌باشد ، در غیر این صورت در فیلد خطای نامعتبر بودن بازه وارد شده را دارد.
 
+![IMG-1300: تنظیمات فیلد عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field.webp>)
+
 ***نمایش فیلد عدد در آیتم:***
+
+![IMG-1301: نمونه فیلد اضافه عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field-sample.webp>)
 
 **فایل**
 
 با استفاده از فیلد از نوع فایل امکان اضافه کردن فایل به آیتم مورد نظر فراهم می‌شود . پسوندهای مجاز و حداکثر حجم فایل را نیز می‌توانید تعیین کنید.
 
+![IMG-1302: تنظیمات فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field.webp>)
+
 ***نمایش فیلد از نوع فایل در آیتم: ***
+
+![IMG-1303: نمایش فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field-sample.webp>)
 
 **کاربر**
 
@@ -827,11 +1063,15 @@
 
 ***نمونه فیلد از نوع گروه:***
 
+![IMG-1304: نمایش فیلد گروه کابر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-field.webp>)
+
 **لیست کشویی**
 
 با استفاده از این فیلد می‌توان فیلد لیستی ایجاد کرد و مقادیر دلخواه را برای این لیست تعریف نمود .
 
 > نکته: برای اضافه کردن مقادیر این لیست باید ابتدا فیلد را ذخیره نمود،سپس با استفاده از کلید افزودن مقادیر مورد نظر را می‌توان اضافه کرد .
+
+![IMG-1305: تنظیمات فیلد لیست کشویی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/List-drop-down-field.webp>)
 
 **لینک**
 
@@ -841,13 +1081,23 @@
 
 یک فیلدی از نوع متن می‌توانید اضافه کنید. این فیلد میتواند تک خطی یا چند خطی باشد. فیلد چند خطی برای مواردی که نیاز به وارد کردن چندین خط توضیحات است، مناسب است.
 
+![IMG-1306: تنظیمات فیلد متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field.webp>)
+
 نمونه فیلد از نوع متن:
+
+![IMG-1307: نمایش فیلد متن تک خطی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field-sample.webp>)
+
+![IMG-1308: نمایش فیلد متن چند خطی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-field-sample2.webp>)
 
 **مشخصه**
 
 یکی از مشخصات تعریف شده در مدیریت آیتم‌های سیستم (مانند نوع برخورد، اعتبار فرد و...) را می‌توانید به آیتم مورد نظر اضافه کنید.
 
+![IMG-1298: تنظیمات فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field.webp>)
+
 ***نمونه فیلد مشخصه خودکار***
+
+![IMG-1299: نمایش فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-sample.webp>)
 
 >**نکته:**
 
@@ -857,6 +1107,8 @@
 قرار دادن فیلد CRM در یک آیتم به کاربر این امکان را می‌دهد تا از همان قسمت، آیتمی از نوع آن فیلد ثبت نماید. به عنوان مثال شما می‌توانید از قسمت شخصی‌سازی فاکتور، فیلد دریافت را به آن اضافه نمایید. در نتیجه کاربر می‌تواند با کلیک بر روی دریافت، سند دریافتی مرتبط با فاکتور را نیز در همان صفحه ایجاد نموده و یا دریافت از پیش ثبت شده‌ای را به آن متصل نماید. به منظور ثبت آیتم جدید از گزینه "آیتم جدید" و به منظور انتخاب یکی از سوابق ثبت‌ شده از آن نوع از گزینه  "انتخاب آیتم"
 استفاده کنید.
 
+![IMG-1312: نمایش فیلد CRM](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/CRM-item-list-field.webp>)
+
 > **نکته**
 
 >[ایجاد آیتم‌های CRM](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Specifications-toolbar.md#AddingRelatedRecord) و [اتصال سوابق از پیش ثبت شده](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md#RelatingRecords)، از روش‌های دیگر نیز امکان‌پذیر است.
@@ -865,11 +1117,17 @@
 
 با استفاده از فیلد شخص/شرکت امکان انتخاب و یا ایجاد یک هویت (سرنخ/مخاطب) از بانک اطلاعاتی فراهم می‌شود.
 
+![IMG-1311: نمایش فیلد شرکت/شخص](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Identity-field.webp>)
+
 **پرداخت**
 
  امکان ایجاد یک پرداخت و یا انتخاب یکی از پرداخت‌های ثبت شده برای مخاطب (هویت مرتبط با) را فراهم می‌کند
 
+![IMG-1309: تنظیمات فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payement-field.webp>)
+
 ***نمایش فیلد پرداخت***
+
+![IMG-1310: نمایش فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payment-field-view.webp>)
 
  **پیش فاکتور**
 
@@ -926,14 +1184,19 @@
 
 ***نمونه سوابق متصل شده:***
 
+![IMG-1335: سوابق مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-parent-records-2.7.5.webp>)
+
 ***نمونه سوابق متصل نشده:***
 
+![IMG-1336: سوابق نامرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/unrelated-parent-records-2.7.5.webp>)
 ‌
 ######  فیلدهای لیستی
 
 **لیست آیتم‌های CRM**
 
  با استفاده از این فیلد می‌توانید جدولی داشته باشید که محتوای آن لیستی از یک نوع آیتم باشد. نوع آیتم به هنگام تعریف فیلد مشخص شده است. به منظور اعمال تنظیمات به شیوه زیر عمل کنید:
+
+![IMG-1312: تنظیمات لیست آیتم‌های CRM](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/CRM-item-list-field.webp>)
 
 **1.** ابتدا یک نام به فیلد اختصاص دهید.
 
@@ -953,26 +1216,38 @@
 
  هنگام استفاده از این فیلد ، لیستی از تاریخ‌های میلادی را می‌توان مقدار دهی کرد .
 
+![IMG-1313: نمایش فیلد لیست تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-list-field-sample.webp>)
+
 **لیست دپارتمان**
 
  هنگام استفاده از این فیلد ، لیستی از دپارتمان‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توان مقدار دهی کرد .
+
+![IMG-1314: نمایش فیلد لیست لیست دئارتمان](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Department-list-field-sample.webp>)
 
 **لیست سمت**
 
 لیستی از سمت‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توانید مقداردهی کنید.
 
+![IMG-1315: نمایش فیلد لیست سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Position-list-field-sample.webp>)
+
 **لیست عدد**
 لیستی از اعداد را با در نظر گرفتن تعداد ارقام صحیح و تعداد اعشار مشخص شده در زمان ایجاد فیلد ، می‌توان مقدار دهی کرد .
+
+![IMG-1316: نمایش فیلد لیست عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-list-field-sample.webp>)
 
 **لیست فایل:**
 
  هنگام استفاده از این فیلد لیستی از فایل‌ها را با در نظر گرفتن حجمی‌که هنگام طراحی فیلد مشخص شده می‌توان پیوست کرد.
+
+![IMG-1317: نمایش فیلد لیست فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-list-field-sample.webp>)
 
 **لیست کاربر:**
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام کاربران سیستم را فراهم می‌کند (درحال حاضر فقط امکان انتخاب کاربران فعال وجود دارد.)
 
 گزینه نمایش کاربر غیر فعال در تنظمیات فیلد قرار داده شده ام عمل نمی‌کند .
+
+![IMG-1318: نمایش فیلد لیست کاربر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-list-field-sample.webp>)
 
 **ليست کشويي چند انتخابي:**
 
@@ -982,6 +1257,8 @@
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌های کاربری ایجاد شده در مدیریت گروه‌ها را در فراهم می‌کند . (فقط امکان انتخاب گروه‌های فعال وجود دارد)
 
+![IMG-1319: نمایش فیلد لیست گروه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-list-field-sample.webp>)
+
 **لیست گروه‌ها و کاربران:**
 
  هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌ها و یا کاربران را فراهم میکند (فقط امکان انتخاب گروه‌ها و کاربران فعال وجود دارد)
@@ -990,20 +1267,30 @@
 
 هنگام استفاده از این فیلد امکان ایجاد لیستی از نوع لینک وجود دارد.  (لینک‌ها باید با یک پروتکل شروع شوند برای مثال: //:http یا //:https یا //:ftp و ... )
 
+![IMG-1320: نمایش فیلد لیست لینک](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Links-list-field-sample.webp>)
+
 **لیست مبلغ:**
 
  هنگام استفاده از این فیلد امکان ایجاد لیستی از اعداد که ماهیت مبلغ (پول) دارند با مقادیر مثبت و منفی را فراهم می‌کند .
 
+![IMG-1321: نمایش فیلد لیست مبلغ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-list-field-sample.webp>)
+
 **لیست متن:**
 
  هنگام استفاده از این فیلد امکان درج لیستی با ماهیت متن را در اختیار شما قرار می‌دهد.
+
+![IMG-1322: نمایش فیلد لیست متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-list-field-sample.webp>)
 
 **لیست محصول:**
 
 با استفاده از این فیلد می‌توانید یک جدول محصول به آیتم اضافه کنید. می‌توان مشخص کرد که در این جدول محصول چه اطلاعاتی (مقدار، تخفیف، قیمت واحد و قیمت نهایی) نمایش داده
 شود و همچنین تعداد رقم اعشار در مقدار و مبالغ قابل تعریف است . (محصولات تعریف شده در مدیریت محصولات می‌توانند در این لیست انتخاب شوند)
 
+![IMG-1323: تنیمات فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field.webp>)
+
 ***نمونه فیلد لیست محصول: ***
+
+![IMG-1324: نمایش فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field-sample.webp>)
 
 **لیست مشتری:**
 
@@ -1015,7 +1302,11 @@
 
 ابتدا بر روی دکمه "تعریف لیست مرتبط کلیک کنید".
 
+![IMG-1325: مرحله اول تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-field.webp>)
+
 سپس طبق مراحل زیر اقدام کنید:
+
+![IMG-1326: تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-settings.webp>)
 
 **A. نام مشخصه:** ستون‌های مختلف را از این قسمت اضافه کنید. (برای مثال طبق تصویر ما سه مشخصه استان، شهر و منطقه را اضافه کرده ایم.)
 
@@ -1024,6 +1315,8 @@
 **C.** با کلیک بر روی هر مقدار می‌توانید، مقادیر ستون بعد را در آن وارد کنید. (برای مثال طبق تصویر ما برای تهران که در ستون اول وارد شده است، در ستون دوم سه مقدار تهران، شهریار و شهرقدس را وارد کرده ایم.)
 
 نمونه:
+
+![IMG-1327: نمایش فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-field-sample.webp>)
 
 >**نکته:**
 
@@ -1061,12 +1354,18 @@
 2. ابتدا نوع مقداری که می‌خواهید ورود اطلاعات کنید را تعیین کنید. به عنوان مثال برای ثبت شماره پیگیری سند در یک فرم، می‌توانید از دو فیلد عدد و متن استفاده کنید. ولی مهم است که به قابلیت هرکدام آگاه بوده تا انتخاب مناسبی برای فیلد مورد نظر خود داشته باشید.
 3. گروه‌های فیلدی مرتبط با مجموعه فیلدها را ایجاد نمایید. شکل زیر نمونه‌ای از گروه‌های فیلدی مورد نیاز برای یک فرم است.
 
+![IMG-1337: نمونه گروه فیلدی، در شخصی‌سازی آیتم](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Custom-field-group_2.8.4.webp>)
+
 ##### ایجاد گروه فیلد جدید
 در محیط شخصی‌سازی آیتم، در بخش گروه فیلدها، روی دکمه **افزودن** کلیک کنید.
+
+![IMG-1329: صفحه ایجاد گروه فیلد جدید](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Add-a-custom-field-group_2.7.5.webp>)
 
 - **نام:** عنوان مناسبی برای گروه فیلدی انتخاب کنید. دقت داشته باشید که اگر ماژول مدیریت زبان‌ها را داشته و زبان دیگری در سیستم تعریف کرده باشید، می‌توانید معادل آن را نام‌گذاری کنید.
 - **تعداد ستون:** از این طریق می‌توانید تعیین کنید آرایش فیلدها در آیتم به صورت تک یا دو ستون باشد.
 - **باز بودن منو هنگام ویرایش:** در صورت فعال کردن این چک باکس، وضعیت باز یا بسته بودن این گروه فیلدی را هنگام ثبت/ویرایش آیتم تعیین می‌کنید.
+
+![IMG-1338: تنظیمات گروه فیلد و فیلد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Fields-and-group-fields-customization-2.8.4.webp>)
 
 **1. اضافه کردن گروه:** می‌توانید گروه فیلدی جدید اضافه کنید. برای نمایش نحوه ایجاد و استفاده گروه فیلد بهتر است از گیف استفاده شود.
 
@@ -1092,6 +1391,8 @@
 ##### فیلدهای ساده
 - **فیلد متنی**
 
+![IMG-1339: تنظیمات فیلدها](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/field-setting-2.8.4.webp>)
+
 1. **عنوان:** انتخاب نام برای فیلد الزامی می‌باشد.
 2. **متن راهنما:** انتخاب متن راهنما برای فیلد این امکان را فراهم می‌کند تا برای فیلد مورد نظر راهنمایی تعریف نمود که با قراردادن ماوس روی فیلد این راهنما نمایش داده می‌شود .
 3. **الزامی:** با استفاده از این بخش برای برخی فیلدها قابلیت الزامی شدن وجود دارد .
@@ -1114,6 +1415,8 @@
 
 ###### تنظیمات فیلدهای محاسباتی{#ComputationalFieldSetting}
 
+![IMG-1340: تنظیمات فایل اکسل فیلد محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-Excel-file-setting-2.8.4.webp>)
+
 برای انجام تنظیمات فایل اکسل به موارد زیر توجه کنید:
 - **بارگذاری فایل اکسل**:بتدا فایل اکسلی که حاوی فرمول مورد نظرتان هست را پیوست کنید.
 - **چک‌باکس ذخیره**:می‌توانید تعیین کنید که قبل از هر ذخیره، یکبار این محاسبه انجام شود
@@ -1126,7 +1429,11 @@
 
 در سلول خروجی هم عبارت C1 وارد شده‌است تا نرم افزار نتیجه محاسبه فرمول را بتواند تشخیص دهد.
 
+![IMG-1332: محاسبات در فایل اکسل فیلد محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-Excel-file-setting2.webp>)
+
  **نمونه فیلد**
+
+![IMG-1333: نمونه فیلد محاسباتی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-field-sample.webp>)
 
 درصورت انتخاب وب سرویس در فیلد محاسباتی،امکان گرفتن مقدار از یک برنامه یا وب سرویس دیگر وجود دارد. (این قابلیت توسط برنامه‌نویسان انجام می‌گیرد)
 
@@ -1134,37 +1441,57 @@
 
 برای این کار آدرس وب سرویس مورد نظر را در فیلد "آدرس سرویس" وارد کنید.
 
+![IMG-1334: تنظیمات فیلد محاسباتی از طریق وب سرویس](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Computational-field-webservice-setting.webp>)
+
  > **نکته**
 
 چنانچه یک فیلد مقدار پیش فرض داشته باشد، مقادیر پیش فرض  فیلد های اضافه فقط بعد از ذخیره‌شدن آیتم نمایش داده می‌شود.
 
 - **HTML**: یک فیلد متنی با قابلیت استفاده از ابزارهای HTML می‌توانید بیافزایید.
 
+![IMG-1341: افزودن فیلد از نوع HTML](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/HTML-field_2.8.4.webp>)
+
 - **برچسب**: می‌توانید یک متن رنگی یا یک آیکون را برای نمایش در آیتم اضافه کنید. (مانند توضیح نحوه پر کردن فرم، یا نکات مهمی‌که کاربر باید همیشه مد نظر داشته باشد.)
 
 برای نمایش متن مورد نظر باید از گزینه نمایش عنوان و برای نمایش یک آیکون از گزینه نمایش آیکون استفاده کرد .
 
+![IMG-1342: افزودن فیلد برچسب](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Lable-field-2.8.4.webp>)
+
 -  **پول**: یک فیلد برای وارد کردن مقادیر مثبت و منفی پولی را می‌توانید اضافه کنید
+
+![IMG-1343: افزودن فیلد از نوع پول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-field-2.8.4.webp>)
 
 - **تاریخ شمسی**: یک فیلد از نوع تاریخ شمسی می‌توانید اضافه کنید .
 
+![IMG-1344: افزودن فیلد تاریخ شمسی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Persian-date-field-2.8.4.webp>)
+
 - **تاریخ میلادی**: یک فیلد از نوع تاریخ میلادی می‌توانید اضافه کنید.
 
+![IMG-1345: افزودن فیلد تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-field-2.8.4.webp>)
+
 - **تصویر**: یک فیلد برای انتخاب تصویر اضافه می‌کند. میتوانید اندازه، پسوندهای مجاز و اندازه نمایش تصویر در صفحه را مشخص کنید.
+
+![IMG-1346: افزودن فیلد تصویر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Image-field.2.8.4.webp>)
 
 - **دپارتمان**: این فیلد لیست دپارتمان‌های تعریف شده در مدیریت دپارتمان‌ها و سمت‌ها را شامل می‌شود که کاربر می‌تواند یکی از دپارتمان‌ها را از لیست انتخاب کند.
 
 - **ساعت**: فیلدی با قابلیت انتخاب ساعت را می‌توانید بیافزایید..
 
+![IMG-1347: نمایش فیلد ساعت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Time-field-2.8.4.webp>)
+
 - **سمت**
 
  این فیلد لیست سمت‌های تعریف شده در مدیریت دپارتمان‌ها و سمت‌ها را شامل می‌شود که کاربر می‌تواند یکی از سمت‌ها را از لیست انتخاب کند.
+
+![IMG-1348: نمایش فیلد سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-position-field-2.8.4.webp>)
 
 - **شناسه خودکار**: با استفاده از این فیلد ميتوانيد يک شمارنده خودکار (Indicator) به آيتم‌ها اضافه کنيد، ميتوانيد پيشوند و پسوند اين شمارنده و تعداد رقم آن را مشخص کنيد.
 
 >**نکته:**
 
 > زمانی که از فیلد شناسه خودکار در موجودیتی مثلا فرم استفاده می‌شود ، فرم‌های ایجاد شده از اون نوع بصورت خودکار شماره می‌گیرند و فرم‌های جدیدی که از این نوع ایجاد می‌شود براساس فرم‌های قبلی شماره دهی می‌شود.
+
+![IMG-1349: تنظیمات فیلد شناسه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-2.8.4.webp>)
 
 >**نکته**
 
@@ -1174,7 +1501,11 @@
 
 زمانی که در تنظیمات فیلد از نوع عدد مشخص شود تعداد ارقام صحیح از 1 به 3 باشد ، عدد باید سه رقمی‌باشد ، در غیر این صورت در فیلد خطای نامعتبر بودن بازه وارد شده را دارد.
 
+![IMG-1350: تنظیمات فیلد عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-field-2.8.4.webp>)
+
 - **فایل**: با استفاده از فیلد از نوع فایل امکان اضافه کردن فایل به آیتم مورد نظر فراهم می‌شود . پسوندهای مجاز و حداکثر حجم فایل را نیز می‌توانید تعیین کنید.
+
+![IMG-1351: تنظیمات فیلد از نوع فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-field-2.8.4.webp>)
 
 - **کاربر**: فیلد از نوع کاربر امکان انتخاب یکی از کاربران سیستم را فراهم می‌کند.
 
@@ -1190,11 +1521,19 @@
 
  برای اضافه کردن مقادیر این لیست باید ابتدا فیلد را ذخیره نمود،سپس با استفاده از کلید افزودن مقادیر مورد نظر را می‌توان اضافه کرد .
 
+![IMG-1352: تنظیمات فیلد لیست کشویی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/DropDown-field_2.8.4.webp>)
+
 - **لینک**: فیلد از نوع لینک امکان اضافه نمودن یک لینک به آیتم را فراهم کند .
+
+![IMG-1353: تنظیمات فیلد لینک](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Link-field-2.8.4.webp>)
 
 - **متن**: یک فیلدی از نوع متن می‌توانید اضافه کنید. این فیلد میتواند تک خطی یا چند خطی باشد. فیلد چند خطی برای مواردی که نیاز به وارد کردن چندین خط توضیحات است، مناسب است.
 
+![IMG-1354: تنظیمات فیلد متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/text-field_2.8.4.webp>)
+
 **مشخصه**: یکی از مشخصات تعریف شده در مدیریت آیتم‌های سیستم (مانند نوع برخورد، اعتبار فرد و...) را می‌توانید به آیتم مورد نظر اضافه کنید.
+
+![IMG-1349: تنظیمات فیلد مشخصه خودکار](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Indicator-field-2.8.4.webp>)
 
 >**نکته**
 
@@ -1204,15 +1543,23 @@
 قرار دادن فیلد CRM در یک آیتم به کاربر این امکان را می‌دهد تا از همان قسمت، آیتمی از نوع آن فیلد ثبت نماید. به عنوان مثال شما می‌توانید از قسمت شخصی‌سازی فاکتور، فیلد دریافت را به آن اضافه نمایید. در نتیجه کاربر می‌تواند با کلیک بر روی دریافت، سند دریافتی مرتبط با فاکتور را نیز در همان صفحه ایجاد نموده و یا دریافت از پیش ثبت شده‌ای را به آن متصل نماید. به منظور ثبت آیتم جدید از گزینه "آیتم جدید" و به منظور انتخاب یکی از سوابق ثبت‌ شده از آن نوع از گزینه  "انتخاب آیتم"
 استفاده کنید.
 
+![IMG-1312: نمایش فیلد CRM](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/CRM-item-list-field.webp>)
+
 > **نکته**
 
 >[ایجاد آیتم‌های CRM](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/General-specifications/Specifications-toolbar/Specifications-toolbar.md#AddingRelatedRecord) و [اتصال سوابق از پیش ثبت شده](https://github.com/1stco/PayamGostarDocs/blob/master/Help/Integrated-bank/Database/Records/Joint-record-information/Joint-record-information.md#RelatingRecords)، از روش‌های دیگر نیز امکان‌پذیر است.
 
 - **شرکت/شخص**: با استفاده از فیلد شخص/شرکت امکان انتخاب و یا ایجاد یک هویت (سرنخ/مخاطب) از بانک اطلاعاتی فراهم می‌شود.
 
+![IMG-1311: نمایش فیلد شرکت/شخص](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Identity-field.webp>)
+
 - **پرداخت**: امکان ایجاد یک پرداخت و یا انتخاب یکی از پرداخت‌های ثبت شده برای مخاطب (هویت مرتبط با) را فراهم می‌کند
 
+![IMG-1309: تنظیمات فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payement-field.webp>)
+
 **نمایش فیلد پرداخت**
+
+![IMG-1310: نمایش فیلد پرداخت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Payment-field-view.webp>)
 
 - **پیش فاکتور**: امکان ایجاد یک پیش فاکتور جدید و یا انتخاب یکی از پیش فاکتور‌های صادر شده برای مخاطب را فراهم می‌کند.
 
@@ -1251,14 +1598,19 @@
 
 **نمونه سوابق متصل شده:**
 
+![IMG-1335: سوابق مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-parent-records-2.7.5.webp>)
+
 **نمونه سوابق متصل نشده:**
 
+![IMG-1336: سوابق نامرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/unrelated-parent-records-2.7.5.webp>)
 ‌
 ######  فیلدهای لیستی
 
 **لیست آیتم‌های CRM**
 
  با استفاده از این فیلد می‌توانید جدولی داشته باشید که محتوای آن لیستی از یک نوع آیتم باشد. نوع آیتم به هنگام تعریف فیلد مشخص شده است. به منظور اعمال تنظیمات به شیوه زیر عمل کنید:
+
+![IMG-1312: تنظیمات لیست آیتم‌های CRM](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/CRM-item-list-field.webp>)
 
 **1.** ابتدا یک نام به فیلد اختصاص دهید.
 
@@ -1274,34 +1626,58 @@
 
 - **لیست تاریخ میلادی**: هنگام استفاده از این فیلد ، لیستی از تاریخ‌های میلادی را می‌توان مقدار دهی کرد .
 
+![IMG-1313: نمایش فیلد لیست تاریخ میلادی](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/English-date-list-field-sample.webp>)
+
 - **لیست دپارتمان**: هنگام استفاده از این فیلد ، لیستی از دپارتمان‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توان مقدار دهی کرد .
+
+![IMG-1314: نمایش فیلد لیست لیست دئارتمان](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Department-list-field-sample.webp>)
 
 - **لیست سمت**: لیستی از سمت‌هایی که در قسمت مدیریت دپارتمان، سمت تعریف شده اند را در این فیلد می‌توانید مقداردهی کنید.
 
+![IMG-1315: نمایش فیلد لیست سمت](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Position-list-field-sample.webp>)
+
 - **لیست عدد**: لیستی از اعداد را با در نظر گرفتن تعداد ارقام صحیح و تعداد اعشار مشخص شده در زمان ایجاد فیلد ، می‌توان مقدار دهی کرد .
 
+![IMG-1316: نمایش فیلد لیست عدد](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Number-list-field-sample.webp>)
+
 - **لیست فایل**: هنگام استفاده از این فیلد لیستی از فایل‌ها را با در نظر گرفتن حجمی‌که هنگام طراحی فیلد مشخص شده می‌توان پیوست کرد.
+
+![IMG-1317: نمایش فیلد لیست فایل](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/File-list-field-sample.webp>)
 
 - **لیست کاربر**: هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام کاربران سیستم را فراهم می‌کند (درحال حاضر فقط امکان انتخاب کاربران فعال وجود دارد.)
 
 گزینه نمایش کاربر غیر فعال در تنظمیات فیلد قرار داده شده ام عمل نمی‌کند .
 
+![IMG-1318: نمایش فیلد لیست کاربر](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-list-field-sample.webp>)
+
 - **ليست کشويي چند انتخابي**: استفاده از این فیلد امکان انتخاب مقادیر مختلف به صورت چند تایی از مقادیر تعریف شده در لیست کشویی را فراهم می‌کند.
 
 - **لیست گروه**: هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌های کاربری ایجاد شده در مدیریت گروه‌ها را در فراهم می‌کند . (فقط امکان انتخاب گروه‌های فعال وجود دارد)
+
+![IMG-1319: نمایش فیلد لیست گروه](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/User-group-list-field-sample.webp>)
 
 - **لیست گروه‌ها و کاربران**: هنگام استفاده از این فیلد امکان ایجاد لیستی با مقادیر نام گروه‌ها و یا کاربران را فراهم میکند (فقط امکان انتخاب گروه‌ها و کاربران فعال وجود دارد)
 
 - **لیست لینک**: هنگام استفاده از این فیلد امکان ایجاد لیستی از نوع لینک وجود دارد.  (لینک‌ها باید با یک پروتکل شروع شوند برای مثال: //:http یا //:https یا //:ftp و ... )
 
+![IMG-1320: نمایش فیلد لیست لینک](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Links-list-field-sample.webp>)
+
 - **لیست مبلغ**: هنگام استفاده از این فیلد امکان ایجاد لیستی از اعداد که ماهیت مبلغ (پول) دارند با مقادیر مثبت و منفی را فراهم می‌کند .
 
+![IMG-1321: نمایش فیلد لیست مبلغ](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Money-list-field-sample.webp>)
+
 - **لیست متن**: هنگام استفاده از این فیلد امکان درج لیستی با ماهیت متن را در اختیار شما قرار می‌دهد.
+
+![IMG-1322: نمایش فیلد لیست متن](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Text-list-field-sample.webp>)
 
 - **لیست محصول:** با استفاده از این فیلد می‌توانید یک جدول محصول به آیتم اضافه کنید. می‌توان مشخص کرد که در این جدول محصول چه اطلاعاتی (مقدار، تخفیف، قیمت واحد و قیمت نهایی) نمایش داده
 شود و همچنین تعداد رقم اعشار در مقدار و مبالغ قابل تعریف است . (محصولات تعریف شده در مدیریت محصولات می‌توانند در این لیست انتخاب شوند)
 
+![IMG-1323: تنیمات فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field.webp>)
+
 **نمونه فیلد لیست محصول:**
+
+![IMG-1324: نمایش فیلد لیست محصول](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Product-list-field-sample.webp>)
 
 - **لیست مشتری**: امکان جستجو و انتخاب هویت‌هایی که قبلا در بانک اطلاعاتی ایجاد شده اند و یا ایجاد هویت و سپس انتخاب آن‌ها بصورت لیست وجود دارد.
 
@@ -1309,7 +1685,11 @@
 
 ابتدا بر روی دکمه "تعریف لیست مرتبط کلیک کنید".
 
+![IMG-1325: مرحله اول تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-field.webp>)
+
 سپس طبق مراحل زیر اقدام کنید:
+
+![IMG-1326: تنظیمات فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-list-settings.webp>)
 
 **A. نام مشخصه:** ستون‌های مختلف را از این قسمت اضافه کنید. (برای مثال طبق تصویر ما سه مشخصه استان، شهر و منطقه را اضافه کرده ایم.)
 
@@ -1318,6 +1698,8 @@
 **C.** با کلیک بر روی هر مقدار می‌توانید، مقادیر ستون بعد را در آن وارد کنید. (برای مثال طبق تصویر ما برای تهران که در ستون اول وارد شده است، در ستون دوم سه مقدار تهران، شهریار و شهرقدس را وارد کرده ایم.)
 
 نمونه:
+
+![IMG-1327: نمایش فیلد لیست مرتبط](</kb-assets/kb-images/Help/Settings/Personalization-crm/CustomFields/Images/Related-field-sample.webp>)
 
 >**نکته:**
 
