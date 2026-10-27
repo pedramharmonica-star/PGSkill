@@ -46,7 +46,8 @@ description: "Authoritative knowledge base for the PayamGostar (پیام‌گس�
 | سخت‌افزار سرور، ویندوز، SQL، پیش‌نیاز ماژول‌ها، پورت، SSL | `references/installation-requirements.md` |
 | سینک مالی، VoIP، سانترال، پیامک، ایمیل، تلگرام، واتساپ، POS، WooCommerce | `references/integrations.md` |
 | شرکت، گواهی‌ها، مشتریان مرجع، **متن رسمی «درباره ما»** | `references/company-facts.md` (بخش ✅ داده‌های تأییدشده مقدم است) |
-| زبان و نیازهای هر صنعت، ساختار پروپوزال | `references/industry-solutions.md` |
+| زبان و نیازهای هر صنعت، ساختار پروپوزال | `references/industry-solutions.md` (بیمه، شهرداری، برق، گاز؛ از دک‌های داخلی) |
+| **راهکارها بر اساس نقش، نیاز و صنعت** (فروش، BPMS، اتوماسیون اداری و بازاریابی، منابع انسانی و ATS، خدمات پس از فروش، موفقیت مشتری؛ بیمارستان، هتل، حمل‌ونقل، بیمه، بازرگانی، آژانس مسافرتی، مشاغل) و نقشه استفاده در پروپوزال | `references/solutions.md` |
 | سؤالات متداول فروش | `references/faq.md` |
 | تناقض‌ها و قاعده موقت | `references/conflicts.md` |
 | پوشش و کمبود منابع | `references/source-map.md`، `references/pending-sources.md`، `references/kb-evidence/coverage.md` |
