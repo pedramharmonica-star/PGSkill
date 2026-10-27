@@ -1,0 +1,24 @@
+name_fa,file,industry_key,industry_fa,note,confidence,width,height
+نستله,customer-logos/nestle.png,fmcg,مواد غذایی و FMCG,مواد غذایی,قطعی,75,74
+میهن,customer-logos/mihan.png,fmcg,مواد غذایی و FMCG,لبنیات و بستنی,قطعی,98,68
+صنایع شیر پگاه,customer-logos/pegah.png,fmcg,مواد غذایی و FMCG,لبنیات,قطعی,89,72
+بهنوش,customer-logos/behnoush.png,fmcg,مواد غذایی و FMCG,نوشیدنی,قطعی,121,110
+مجتبی,customer-logos/mojtaba-food.png,fmcg,مواد غذایی و FMCG,گروه صنایع غذایی مجتبی (Mojtaba Food Industries Group، طبق لوگو),قطعی,148,150
+قهوه مرداویچ,customer-logos/mardavij-coffee.png,fmcg,مواد غذایی و FMCG,قهوه,قطعی,300,300
+ستوده بتون,customer-logos/sotoudeh-beton.png,building,مصالح و محصولات ساختمانی,بتن,قطعی,512,512
+هافمن,customer-logos/hofmann.png,building,مصالح و محصولات ساختمانی,پروفیل UPVC (طبق لوگو),قطعی,135,66
+شیر آلات راسان,customer-logos/rassan.png,building,مصالح و محصولات ساختمانی,شیرآلات,قطعی,71,72
+فولاد سیرجان ایرانیان,customer-logos/sirjan-steel.png,industrial,تولیدی و صنعتی,فولاد,قطعی,130,55
+شرکت نفت پاسارگاد,customer-logos/pasargad-oil.png,industrial,تولیدی و صنعتی,نفت و فرآورده‌های نفتی,قطعی,96,89
+اجاق گاز داتیس,customer-logos/datis.png,industrial,تولیدی و صنعتی,لوازم خانگی,قطعی,89,88
+اتوخسروانی,customer-logos/auto-khosravani.png,auto,خودرو,فروش خودرو («حس خوب، خرید مطمئن»),قطعی,400,146
+مادو موتور,customer-logos/mado-motor.png,auto,خودرو,از روی نام؛ نوع فعالیت تأیید شود,حدس,139,50
+ابرآروان,customer-logos/arvancloud.png,it,فناوری اطلاعات و نرم‌افزار,رایانش ابری و CDN,قطعی,74,67
+رسپینا,customer-logos/respina.png,it,فناوری اطلاعات و نرم‌افزار,اینترنت و ارتباطات,قطعی,79,80
+تارا,customer-logos/tara.png,it,فناوری اطلاعات و نرم‌افزار,احتمالاً فین‌تک (خرید اعتباری)؛ تأیید شود,حدس,62,62
+سیب طلایی هوشمند,customer-logos/sib-talaei.png,trade,بازرگانی و توزیع,احتمالاً فروش و توزیع کالای دیجیتال (لوگوی گوشی)؛ تأیید شود,حدس,200,200
+کوبل دارو,customer-logos/cobel-darou.png,health,دارو، درمان و تجهیزات پزشکی,دارو (Cobel Group),قطعی,300,108
+سازمان انتقال خون,customer-logos/blood-transfusion.png,health,دارو، درمان و تجهیزات پزشکی,سازمان دولتی درمانی,قطعی,185,171
+صدا و سیمای جمهوری اسلامی ایران,customer-logos/irib.png,gov,دولتی، عمومی و رسانه,رسانه ملی,قطعی,127,101
+معاونت علمی فناوری ریاست جمهوری,customer-logos/isti.png,gov,دولتی، عمومی و رسانه,نهاد دولتی,قطعی,86,87
+توسعه و نوآوری شهر,customer-logos/city-innovation.png,gov,دولتی، عمومی و رسانه,تحول دیجیتال شهری («تحول‌آفرین فردای دیجیتال»),حدس,151,123

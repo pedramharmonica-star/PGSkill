@@ -117,3 +117,8 @@ python3 scripts/read_source.py SOURCE_ID --max-chars 30000 [--latest]
 
 ## اسکیل همکار: قراردادها
 برای پیش‌فاکتور، قرارداد فروش، قرارداد نصب و آموزش و پشتیبانی، SLA و NDA از `skills/payamgostar-contracts/` استفاده کن. سیاست اسناد (ابری بدون قرارداد، استاندارد فقط پیش‌فاکتور، پیشرفته با قرارداد) و شرایط قراردادی در `skills/payamgostar-contracts/references/contract-policy.md` است.
+
+## مشتریان مرجع و گواهی‌ها
+- مشتریان رزومه (۲۳ سازمان، به تفکیک صنعت) و قواعد استفاده: `references/reference-customers.md`. لوگوها در `skills/payamgostar-proposal/assets/customer-logos/`.
+- گواهی افتا (شماره، نسخه 2.8.3، دارنده، انقضا ۱۴۰۵/۱۱/۰۸): `references/company-facts.md` و اسکن در `skills/payamgostar-proposal/assets/certificates/`.
+- راهکار ۹ صنعت از سند «راهکار جامع»: `references/solutions.md` بخش ج-۲.
