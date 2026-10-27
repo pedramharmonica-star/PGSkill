@@ -39,6 +39,7 @@ description: "Authoritative knowledge base for the PayamGostar (پیام‌گس�
 | چیزهایی که **نداریم** و مسیر جایگزین | `references/gaps-and-limits.md` ← **پیش از نوشتن «دارد» برای نیازمندی مرزی چک کن** |
 | **قیمت، پلن‌های ابری، ماژول‌های لوکال و پیش‌نیازشان، شرایط فروش** | `references/pricing.md` |
 | **بسته‌های پشتیبانی** (برنزی، نقره‌ای، طلایی، پلاتینیوم)، SLA پشتیبانی، ساعت پاسخ، پلن پیش‌فرض هر نسخه | `references/support-plans.md` |
+| **روش اجرا:** نصب، استقرار (۳۰ ساعت پایه)، پروژه استقرار، انتقال داده، فازبندی ۵ فازی، آموزش، موفقیت مشتری، جلسات حضوری و شهرستان | `references/implementation.md` |
 | ماژول‌ها و بسته‌ها | `references/modules.md` |
 | نسخه‌ها (لوکال/ابری، استاندارد/پیشرفته)، لایسنس، استقرار، آموزش، پشتیبانی | `references/editions-licensing-services.md` |
 | معماری، .NET، DB، امنیت، افتا، OTP، نشست، API، HA/DR | `references/technical-architecture-security.md` ← پاسخ‌های فرم خودارزیابی: `references/self-assessment.md` (⚠ تناقض C35) |
