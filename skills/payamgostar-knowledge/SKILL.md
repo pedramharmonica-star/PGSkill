@@ -114,3 +114,6 @@ python3 scripts/read_source.py SOURCE_ID --max-chars 30000 [--latest]
 - منبع تازه (قیمت، ماتریس مادر، RFP تأییدشده) ← طبق `pending-sources.md` فایل بساز یا به‌روز کن.
 - به‌روزرسانی KB: مخزن رسمی را `git pull` کن و `python3 scripts/convert_kb.py <clone> references/kb <commit>` را اجرا کن؛ بعد `version-history.md`، `conflicts.md` و `gaps-and-limits.md` را با Release Notes جدید بازبینی کن.
 - هر تناقض رفع‌شده ← ردیف `conflicts.md` را «✅ رفع» کن و فایل موضوعی را اصلاح کن. تاریخ برداشت را کنار اعداد بنویس.
+
+## اسکیل همکار: قراردادها
+برای پیش‌فاکتور، قرارداد فروش، قرارداد نصب و آموزش و پشتیبانی، SLA و NDA از `skills/payamgostar-contracts/` استفاده کن. سیاست اسناد (ابری بدون قرارداد، استاندارد فقط پیش‌فاکتور، پیشرفته با قرارداد) و شرایط قراردادی در `skills/payamgostar-contracts/references/contract-policy.md` است.

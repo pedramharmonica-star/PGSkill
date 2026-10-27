@@ -55,6 +55,7 @@ def complete():
     ks = os.path.join(SK, "payamgostar-knowledge", "SKILL.md")
     rs = os.path.join(SK, "payamgostar-rfp-matcher", "SKILL.md")
     ps = os.path.join(SK, "payamgostar-proposal", "SKILL.md")
+    cs = os.path.join(SK, "payamgostar-contracts", "SKILL.md")
     desc = fm(ks, "description") + " Also matches RFP/RFI/tender requirements row by row against PayamGostar capabilities and builds the branded customer proposal / RFP response."
     parts = [
         "---", "name: payamgostar-knowledge", f'description: "{desc}"', "---", "",
@@ -73,6 +74,9 @@ def complete():
         "## الف-۳) ساخت پروپوزال و پاسخ RFP طراحی‌شده", "",
         "> بخش‌های فنی این قسمت (HTML، Playwright، فونت و لوگو) فقط در محیطی با اجرای کد کاربرد دارند. در چت‌بات بدون اجرای کد، از قواعد محتوا، استوری‌بورد و نگاشت وضعیت‌ها برای نوشتن متن پروپوزال استفاده کن.", "",
         demote(body(ps), 2), "",
+        "## الف-۴) قراردادها و پیش‌فاکتور", "",
+        "> قالب‌های DOCX و اسکریپت پرکردن فقط در محیط اجرای کد کاربرد دارند. در چت‌بات، متن قالب‌ها در «ب» (فایل‌های contracts/) آمده است.", "",
+        demote(body(cs), 2), "",
         "# ب) دانش مرجع", "",
     ]
     for name in ORDER:
@@ -80,7 +84,15 @@ def complete():
         if not os.path.exists(p):
             continue
         parts += [f"## فایل مرجع: references/{name}", "", demote(body(p), 2), ""]
+    for name in CONTRACT_FILES:
+        p = os.path.join(SK, "payamgostar-contracts", name)
+        if os.path.exists(p):
+            parts += [f"## فایل مرجع: contracts/{name}", "", demote(open(p, encoding="utf-8").read().strip(), 2), ""]
     open(os.path.join(OUT, "PayamGostar-Skill-Complete.md"), "w", encoding="utf-8").write("\n".join(parts) + "\n")
+
+CONTRACT_FILES = ["references/contract-policy.md", "references/pre-invoice.md",
+                  "templates/sales-contract.md", "templates/install-training-support-contract.md",
+                  "templates/sla-annex.md", "templates/nda.md"]
 
 def kb_parts():
     for old in glob.glob(os.path.join(KN, "kb-part-*.md")):

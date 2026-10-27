@@ -2,13 +2,14 @@
 
 Instructions for coding agents and agent frameworks that read `AGENTS.md`, such as OpenAI Codex, Cursor, GitHub Copilot, Gemini CLI, Jules and Aider.
 
-This repository holds **three Agent Skills** (open SKILL.md format). They form a chain, knowledge → rfp-matcher → proposal, and reference each other by relative path, so keep them side by side:
+This repository holds **four Agent Skills** (open SKILL.md format). They form a chain, knowledge → rfp-matcher → proposal → contracts, and reference each other by relative path, so keep them side by side:
 
 | Skill | Use when |
 |---|---|
 | `skills/payamgostar-knowledge/` | Any question about what PayamGostar CRM can or cannot do, where a menu or setting is, which module, edition or version provides a feature, technical or security specs, installation, integrations, or facts for proposals. |
 | `skills/payamgostar-rfp-matcher/` | A customer RFP, RFI, tender or feature checklist must be matched row by row against PayamGostar capabilities. |
 | `skills/payamgostar-proposal/` | A designed, customer-facing proposal or RFP response PDF (Persian, RTL, A4, PayamGostar brand) is needed. Needs Python, Playwright/Chromium and the brand assets in `assets/`. |
+| `skills/payamgostar-contracts/` | A closed deal needs paperwork: pre-invoice, sales contract, installation/training/support contract, SLA annex or NDA. Fills the official .docx templates (`scripts/fill_contract.py`, needs lxml) without changing contract wording. |
 
 ## How to use
 1. Read the relevant `SKILL.md` **completely** before answering. Its rules are mandatory: no fabrication, "not documented" is not the same as "not available", attach module/version/edition qualifiers, apply source priority, and keep internal notes confidential.

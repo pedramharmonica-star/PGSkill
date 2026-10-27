@@ -1,7 +1,15 @@
 {
   "name": "payamgostar-knowledge",
-  "version": "0.8.1",
-  "description": "PayamGostar CRM product knowledge base (modules, capabilities, editions, technical/security, installation, integrations, gaps) plus an RFP-to-capability matcher and a branded proposal / RFP-response builder.",
-  "author": { "name": "Pedram Berenji" },
-  "keywords": ["payamgostar", "crm", "rfp", "knowledge-base", "پیام‌گستر"]
+  "version": "0.9.0",
+  "description": "PayamGostar CRM product knowledge base (modules, capabilities, editions, technical/security, installation, integrations, gaps) plus an RFP-to-capability matcher, a branded proposal / RFP-response builder, and a contracts skill (pre-invoice, sales, installation/support, SLA, NDA templates).",
+  "author": {
+    "name": "Pedram Berenji"
+  },
+  "keywords": [
+    "payamgostar",
+    "crm",
+    "rfp",
+    "knowledge-base",
+    "پیام‌گستر"
+  ]
 }
