@@ -39,10 +39,11 @@ description: "Authoritative knowledge base for the PayamGostar (پیام‌گس�
 | چیزهایی که **نداریم** و مسیر جایگزین | `references/gaps-and-limits.md` ← **پیش از نوشتن «دارد» برای نیازمندی مرزی چک کن** |
 | ماژول‌ها و بسته‌ها | `references/modules.md` |
 | نسخه‌ها (لوکال/ابری، استاندارد/پیشرفته)، لایسنس، استقرار، آموزش، پشتیبانی | `references/editions-licensing-services.md` |
-| معماری، .NET، DB، امنیت، افتا، OTP، نشست، API، HA/DR | `references/technical-architecture-security.md` |
+| معماری، .NET، DB، امنیت، افتا، OTP، نشست، API، HA/DR | `references/technical-architecture-security.md` ← پاسخ‌های فرم خودارزیابی: `references/self-assessment.md` (⚠ تناقض C35) |
+| الزامات امنیتی افتا ردیف‌به‌ردیف (Log، احراز هویت، رمزنگاری، TLS، SSH، نشست) | `references/security-checklist-afta.md` و `.csv` (۳۹۷ ردیف) |
 | سخت‌افزار سرور، ویندوز، SQL، پیش‌نیاز ماژول‌ها، پورت، SSL | `references/installation-requirements.md` |
 | سینک مالی، VoIP، سانترال، پیامک، ایمیل، تلگرام، واتساپ، POS، WooCommerce | `references/integrations.md` |
-| شرکت، گواهی‌ها، مشتریان مرجع | `references/company-facts.md` |
+| شرکت، گواهی‌ها، مشتریان مرجع، **متن رسمی «درباره ما»** | `references/company-facts.md` (بخش ✅ داده‌های تأییدشده مقدم است) |
 | زبان و نیازهای هر صنعت، ساختار پروپوزال | `references/industry-solutions.md` |
 | سؤالات متداول فروش | `references/faq.md` |
 | تناقض‌ها و قاعده موقت | `references/conflicts.md` |

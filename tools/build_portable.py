@@ -21,7 +21,7 @@ PART_LIMIT = 1_200_000  # bytes per KB part (fits ChatGPT/Gemini/Copilot knowled
 
 ORDER = [
     "version-history.md", "company-facts.md", "modules.md", "editions-licensing-services.md",
-    "technical-architecture-security.md", "installation-requirements.md", "integrations.md",
+    "technical-architecture-security.md", "self-assessment.md", "security-checklist-afta.md", "installation-requirements.md", "integrations.md",
     "gaps-and-limits.md", "conflicts.md", "glossary.md", "industry-solutions.md",
     "kb-evidence/verified-capabilities.md", "kb-evidence/version-notes.md",
     "kb-evidence/api-guide.md", "kb-evidence/integration-matrix.md", "kb-evidence/rfp-policy.md",
