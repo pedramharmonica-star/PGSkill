@@ -54,7 +54,8 @@ def fm(path, key):
 def complete():
     ks = os.path.join(SK, "payamgostar-knowledge", "SKILL.md")
     rs = os.path.join(SK, "payamgostar-rfp-matcher", "SKILL.md")
-    desc = fm(ks, "description") + " Also matches RFP/RFI/tender requirements row by row against PayamGostar capabilities."
+    ps = os.path.join(SK, "payamgostar-proposal", "SKILL.md")
+    desc = fm(ks, "description") + " Also matches RFP/RFI/tender requirements row by row against PayamGostar capabilities and builds the branded customer proposal / RFP response."
     parts = [
         "---", "name: payamgostar-knowledge", f'description: "{desc}"', "---", "",
         "# اسکیل کامل دانش پیام‌گستر (نسخه مستقل از مدل)", "",
@@ -69,6 +70,9 @@ def complete():
         "# الف) دستورالعمل", "",
         "## الف-۱) دانش و پرسش و پاسخ", "", demote(body(ks), 2), "",
         "## الف-۲) تطبیق RFP با قابلیت‌ها", "", demote(body(rs), 2), "",
+        "## الف-۳) ساخت پروپوزال و پاسخ RFP طراحی‌شده", "",
+        "> بخش‌های فنی این قسمت (HTML، Playwright، فونت و لوگو) فقط در محیطی با اجرای کد کاربرد دارند. در چت‌بات بدون اجرای کد، از قواعد محتوا، استوری‌بورد و نگاشت وضعیت‌ها برای نوشتن متن پروپوزال استفاده کن.", "",
+        demote(body(ps), 2), "",
         "# ب) دانش مرجع", "",
     ]
     for name in ORDER:
