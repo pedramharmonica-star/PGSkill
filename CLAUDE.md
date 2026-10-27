@@ -19,3 +19,7 @@
 ## منبع مرکز دانش: فقط‌خواندنی
 - مخزن `https://github.com/1stco/PayamGostarDocs` را مدیر آموزش شرکت ساخته است. **به هیچ عنوان در آن چیزی ننویس:** نه commit، نه push، نه issue یا PR. فقط clone (با push غیرفعال: `git remote set-url --push origin DISABLED`) و استخراج.
 - استخراج: `python3 tools/import_kb_images.py <clone> <commit>` (تصاویر ← `kb-assets/`) و `python3 skills/payamgostar-knowledge/scripts/convert_kb.py <clone> skills/payamgostar-knowledge/references/kb <commit>` (متن ← `references/kb/`).
+
+## نسخه دمو
+- نشانی، نام کاربری و رمز دمو را **هرگز** در مخزن یا حافظه ذخیره نکن. ورود را خود پدرام انجام می‌دهد؛ Claude فقط بعد از ورود او، فقط‌خواندنی می‌گردد (نه ذخیره، نه حذف، نه تغییر تنظیمات).
+- مشاهده‌ها در `skills/payamgostar-knowledge/references/demo-walkthrough.md`، بدون داده‌های نمونه (نام اشخاص و شرکت‌ها، مبلغ‌ها).
