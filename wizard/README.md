@@ -8,7 +8,7 @@
 |---|---|---|---|
 | 1 | هویت شرکت و برند | ✅ انجام شد (۱۴۰۵/۰۸/۰۵)؛ ۳ سؤال باز | `references/company-facts.md`، `assets/logo/`، `references/self-assessment.md`، `references/security-checklist-afta.*` |
 | 2 | محصول، نسخه‌ها (ویرایش‌ها)، قیمت و بسته‌های پشتیبانی | ✅ انجام شد (۱۴۰۵/۰۸/۰۵) | `references/pricing.md`، `references/support-plans.md`، `assets/docs/support-plans.pdf`، `conflicts.md` (C10، C11، C19، C38، C39) |
-| 3 | ماژول‌ها | ⏳ | |
+| 3 | ماژول‌ها | ✅ بسته شد (۱۴۰۵/۰۸/۰۵): طبق نظر صاحب مخزن، منبع ماژول‌ها همان سایت است و فهرست کامل ماژول‌ها، توضیح، قیمت، پیش‌نیاز و امکانات هر پلن از سایت ثبت شده است. اختیاری برای بعد: ۳ کاتالوگ PDF پلن‌های ابری و صفحه‌های معرفی محصول در سایت | `references/pricing.md`، `references/modules.md` |
 | 4 | صنایع و راهکارها | ⏳ | |
 | 5 | روش پیاده‌سازی و زمان‌بندی | ⏳ | |
 | 6 | پشتیبانی و SLA | ⏳ | |
