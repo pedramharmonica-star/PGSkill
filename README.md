@@ -57,6 +57,8 @@ PGSkill/
 │   ├── PayamGostar-Skill-Complete.md ← اسکیل کامل در یک فایل
 │   ├── knowledge/                  ← مرکز دانش در ۵ بخش + CSVها + درخت منو
 │   └── agent/search_tool.json      ← تعریف ابزار جست‌وجو برای Function Calling
+├── CLAUDE.md                       ← زمینه پروژه برای Claude Code
+├── handoff/HANDOFF.md              ← سند تحویل: هدف، تصمیم‌ها، کارهای باز
 ├── incoming/                       ← صندوق ورودی منابع تازه + فهرست کمبودها
 ├── dist/                           ← فایل‌های آماده نصب: .plugin برای Claude و zip نسخه portable
 └── tools/build_portable.py         ← ساخت دوباره portable/ از skills/
