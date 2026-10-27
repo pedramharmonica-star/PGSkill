@@ -2,7 +2,7 @@
 
 تا وقتی این فایل خالی نشده، در پاسخ‌هایی که به این منابع وابسته‌اند صریح بگو که «طبق لیست قیمت / مستندات روز تأیید شود».
 
-## ۱. صفحه‌های قیمت سایت
+## ۱. صفحه‌های قیمت سایت: ✅ اضافه شد (`pricing.md`، ۱۴۰۵/۰۸/۰۵). باقی‌مانده: ۳ کاتالوگ PDF پلن‌های ابری
 - https://www.payamgostar.com/fa/pricing/cloud
 - https://www.payamgostar.com/fa/pricing/standard
 - https://www.payamgostar.com/fa/pricing/enterprise

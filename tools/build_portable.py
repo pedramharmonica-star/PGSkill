@@ -20,7 +20,7 @@ KN = os.path.join(OUT, "knowledge")
 PART_LIMIT = 1_200_000  # bytes per KB part (fits ChatGPT/Gemini/Copilot knowledge uploads)
 
 ORDER = [
-    "version-history.md", "company-facts.md", "modules.md", "editions-licensing-services.md",
+    "version-history.md", "company-facts.md", "pricing.md", "support-plans.md", "modules.md", "editions-licensing-services.md",
     "technical-architecture-security.md", "self-assessment.md", "security-checklist-afta.md", "installation-requirements.md", "integrations.md",
     "gaps-and-limits.md", "conflicts.md", "glossary.md", "industry-solutions.md",
     "kb-evidence/verified-capabilities.md", "kb-evidence/version-notes.md",
