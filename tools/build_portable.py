@@ -105,7 +105,7 @@ CONTRACT_FILES = ["references/contract-policy.md", "references/pre-invoice.md",
                   "templates/sales-contract.md", "templates/install-training-support-contract.md",
                   "templates/sla-annex.md", "templates/nda.md"]
 
-PROPOSAL_FILES = ["references/proposal-models.md", "references/current-proposal-structure.md"]
+PROPOSAL_FILES = ["references/proposal-wizard.md", "references/proposal-models.md", "references/current-proposal-structure.md"]
 
 BPMS_FILES = ["references/build-checklist.md", "references/pitfalls.md", "templates/process-spec-template.md", "templates/lead-nurturing.md"]
 
