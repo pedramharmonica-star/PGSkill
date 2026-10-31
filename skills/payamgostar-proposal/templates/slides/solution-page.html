@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:YB;src:url(../../assets/fonts/YekanBakhFaNum-0300-Light.ttf);font-weight:300}
+@font-face{font-family:YB;src:url(../../assets/fonts/YekanBakhFaNum-0400-Regular.ttf);font-weight:400}
+@font-face{font-family:YB;src:url(../../assets/fonts/YekanBakhFaNum-0500-Medium.ttf);font-weight:500}
+@font-face{font-family:YB;src:url(../../assets/fonts/YekanBakhFaNum-0700-Bold.ttf);font-weight:700}
+@font-face{font-family:YB;src:url(../../assets/fonts/YekanBakhFaNum-0900-Heavy.ttf);font-weight:900}
+:root{--or:#F26122;--or2:#F7894E;--deep:#B8460F;--tint:#FFF3EC;--ink:#2B2F36;--gray:#6E747F;--line:#E8E9EC}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1920px;height:1080px;font-family:YB;color:var(--ink);background:#fff;position:relative;overflow:hidden}
+/* corner identity */
+.bar{position:absolute;top:0;right:120px;width:92px;height:150px;background:linear-gradient(#fff 0%,#FDD9C4 35%,var(--or) 100%)}
+.hex{position:absolute;top:118px;right:104px;width:124px;height:124px;background:#fff;clip-path:polygon(25% 4%,75% 4%,100% 50%,75% 96%,25% 96%,0 50%);filter:drop-shadow(0 6px 10px rgba(0,0,0,.18));display:flex;align-items:center;justify-content:center}
+.hexwrap{position:absolute;top:118px;right:104px;width:124px;height:124px;filter:drop-shadow(0 8px 14px rgba(0,0,0,.16))}
+.hexwrap .h{width:100%;height:100%;background:#fff;clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);display:flex;align-items:center;justify-content:center}
+.hexwrap img{width:66px}
+/* header */
+.eyebrow{position:absolute;top:70px;right:270px;font-size:22px;font-weight:500;color:var(--gray);letter-spacing:.2px}
+.eyebrow b{color:var(--or);font-weight:700}
+h1{position:absolute;top:104px;right:270px;font-size:54px;font-weight:700;color:var(--or)}
+.uline{position:absolute;top:186px;right:270px;width:820px;height:2px;background:var(--line)}
+.uline:after{content:"";position:absolute;right:0;top:-2px;width:120px;height:6px;border-radius:3px;background:var(--or)}
+/* need bar */
+.need{position:absolute;top:226px;right:250px;left:90px;height:86px;background:var(--tint);border-radius:18px;display:flex;align-items:center;padding:0 34px;gap:26px}
+.need .lbl{font-weight:700;color:var(--deep);font-size:23px;white-space:nowrap}
+.need .txt{font-size:23px;line-height:1.6;flex:1}
+.chip{display:flex;align-items:center;gap:10px;background:#fff;border:2px solid #2E9E6B;color:#1F7A51;border-radius:40px;padding:8px 22px 8px 18px;font-weight:700;font-size:21px;white-space:nowrap}
+.chip i{width:26px;height:26px;border-radius:50%;background:#2E9E6B;display:inline-flex;align-items:center;justify-content:center}
+.chip small{font-weight:400;color:var(--gray);font-size:18px}
+/* capability list (right) */
+.caps{position:absolute;top:360px;right:90px;width:760px}
+.cap{display:flex;gap:18px;margin-bottom:34px}
+.cap .x{flex:none;width:34px;height:34px;margin-top:4px}
+.cap h3{font-size:25px;font-weight:700;color:var(--ink);margin-bottom:2px}
+.cap p{font-size:21px;line-height:1.65;color:#4A505A}
+/* screenshot (left) */
+.shotwrap{position:absolute;top:340px;left:90px;width:900px;height:430px}
+.blob{position:absolute;left:-40px;top:40px;width:560px;height:420px;border-radius:50% 46% 54% 44%;background:radial-gradient(circle at 40% 40%,#FDD9C4,#FFF3EC 70%,transparent 72%);opacity:.9}
+.ring{position:absolute;left:620px;top:-28px;width:300px;height:300px;border-radius:50%;border:2px solid #F9C4A6}
+.dot{position:absolute;width:16px;height:16px;border-radius:4px;background:#1BA39C;transform:rotate(45deg)}
+.browser{position:absolute;left:30px;top:20px;width:840px;background:#fff;border-radius:16px;box-shadow:0 24px 60px rgba(28,31,35,.18),0 4px 12px rgba(28,31,35,.08);overflow:hidden;border:1px solid #EDEDF0}
+.browser .top{height:40px;background:#F4F5F7;display:flex;align-items:center;padding:0 16px;gap:8px;direction:ltr;border-bottom:1px solid #E6E7EA}
+.browser .top span{width:12px;height:12px;border-radius:50%;background:#E0E2E6}
+.browser .top span:nth-child(1){background:#F26122}
+.browser .top .url{margin-left:18px;flex:1;height:22px;border-radius:11px;background:#fff;border:1px solid #E6E7EA;font:14px YB;color:#9AA0A8;display:flex;align-items:center;padding:0 12px}
+.browser .apphead{height:46px;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:0 18px;border-bottom:3px solid #2C5AA0}
+.browser .apphead .t{font-weight:700;font-size:18px;display:flex;gap:10px;align-items:center}
+.browser .apphead .t em{font-style:normal;background:var(--or);color:#fff;border-radius:6px;padding:2px 10px;font-size:15px}
+.browser .apphead img{height:26px}
+.browser img.shot{display:block;width:100%}
+.callout{position:absolute;width:44px;height:44px;border-radius:12px;background:var(--or);color:#fff;font-weight:900;font-size:24px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 14px rgba(242,97,34,.4);border:3px solid #fff}
+.legend{position:absolute;left:120px;top:790px;width:880px;display:flex;gap:26px;font-size:18.5px;color:#4A505A}
+.legend div{display:flex;gap:10px;align-items:center}
+.legend b{flex:none;width:30px;height:30px;border-radius:9px;background:var(--or);color:#fff;font-weight:900;font-size:16px;display:flex;align-items:center;justify-content:center}
+/* flow */
+.flowtitle{position:absolute;top:862px;right:90px;font-size:24px;font-weight:700;color:var(--ink);display:flex;align-items:center;gap:12px}
+.flowtitle:before{content:"";width:12px;height:12px;border-radius:3px;background:var(--or);transform:rotate(45deg)}
+.flow{position:absolute;top:912px;right:90px;left:90px;display:flex;align-items:stretch;gap:0}
+.step{flex:1;display:flex;align-items:center;gap:14px;background:#fff;border:1.5px solid #F4C3A8;border-radius:16px;padding:14px 16px;min-height:96px}
+.step.hl{background:linear-gradient(135deg,var(--or2),var(--or));border:none;color:#fff}
+.step .ic{flex:none;width:50px;height:50px;border-radius:14px;background:var(--tint);display:flex;align-items:center;justify-content:center}
+.step.hl .ic{background:rgba(255,255,255,.2)}
+.step .n{font-size:15px;font-weight:700;color:var(--or)}
+.step.hl .n{color:#FFE3D3}
+.step .s{font-size:18.5px;font-weight:500;line-height:1.45}
+.arrow{flex:none;width:34px;display:flex;align-items:center;justify-content:center}
+/* footer */
+.foot{position:absolute;bottom:0;left:0;right:0;height:46px;display:flex;align-items:center;justify-content:space-between;padding:0 90px 0 90px;font-size:16px;color:#9AA0A8}
+.foot .pg{font-weight:700;color:var(--or);font-size:20px}
+</style></head><body>
+<div class="bar"></div>
+<div class="hexwrap"><div class="h"><img src="../../assets/logo/payamgostar-mark-160.png"></div></div>
+
+<div class="eyebrow"><b>راهکار ۰۳</b> · خدمات پس از فروش</div>
+<h1>تیکتینگ و مدیریت درخواست‌های مشتریان</h1>
+<div class="uline"></div>
+
+<div class="need">
+  <div class="lbl">نیاز شما</div>
+  <div class="txt">درخواست‌های مشتریان از همه کانال‌ها یک‌جا ثبت شوند، به کارشناس درست برسند و تا پاسخ نهایی، بدون گم‌شدن، پیگیری شوند.</div>
+  <div class="chip"><i><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></i>پوشش کامل <small>با پیکربندی</small></div>
+</div>
+
+<div class="caps">
+  <div class="cap"><svg class="x" viewBox="0 0 40 40"><use href="#xm"/></svg><div><h3>ثبت از همه کانال‌ها</h3><p>پرتال باشگاه، ایمیل، پیامک، تماس و نمایندگان؛ همه در پرونده همان مشتری.</p></div></div>
+  <div class="cap"><svg class="x" viewBox="0 0 40 40"><use href="#xm"/></svg><div><h3>اولویت خودکار</h3><p>از ترکیب «شدت» و «تأثیر»؛ موارد بحرانی همیشه بالای صف.</p></div></div>
+  <div class="cap"><svg class="x" viewBox="0 0 40 40"><use href="#xm"/></svg><div><h3>ارجاع و زمان بحرانی (SLA)</h3><p>تخصیص به واحد یا کارشناس؛ هشدار خودکار با موتور فرایند.</p></div></div>
+  <div class="cap"><svg class="x" viewBox="0 0 40 40"><use href="#xm"/></svg><div><h3>اطلاع‌رسانی و سنجش رضایت</h3><p>کد رهگیری، پیامک تغییر وضعیت و نظرسنجی پس از بستن.</p></div></div>
+</div>
+
+<div class="shotwrap">
+  <div class="blob"></div>
+  <div class="ring"></div>
+  <div class="dot" style="left:880px;top:118px"></div>
+  <div class="dot" style="left:-6px;top:300px;background:#F26122"></div>
+  <div class="browser">
+    <div class="top"><span></span><span></span><span></span><div class="url">crm.yourcompany.ir</div></div>
+    <div class="apphead"><div class="t"><em>تیکت</em>درخواست پشتیبانی جدید</div><img src="../../assets/logo/payamgostar-mark-160.png"></div>
+    <img class="shot" src="ticket-shot.png" data-note="replace: screenshot from assets/screenshots or kb-assets, cropped and anonymized">
+  </div>
+  <div class="callout" style="left:870px;top:132px">۱</div>
+  <div class="callout" style="left:870px;top:300px">۲</div>
+  <div class="callout" style="left:400px;top:132px">۳</div>
+</div>
+<div class="legend">
+  <div><b>۱</b>عنوان و وضعیت درخواست</div>
+  <div><b>۲</b>شدت + تأثیر ← اولویت خودکار</div>
+  <div><b>۳</b>کارشناس مسئول و کانال پاسخ</div>
+</div>
+
+<div class="flowtitle">چرخه عملیاتی در سازمان شما</div>
+<div class="flow">
+  <div class="step hl"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H8l-4 4z"/><path d="M8 9h8M8 12h5"/></svg></div><div><div class="n">۱</div><div class="s">مشتری درخواست ثبت می‌کند</div></div></div>
+  <div class="arrow"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></div>
+  <div class="step"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l3 3v15H6z"/><path d="M9 11h6M9 15h6"/></svg></div><div><div class="n">۲</div><div class="s">ثبت در پرونده + کد رهگیری</div></div></div>
+  <div class="arrow"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></div>
+  <div class="step"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5"/><path d="M16 9h5M18.5 6.5L21 9l-2.5 2.5"/></svg></div><div><div class="n">۳</div><div class="s">اولویت‌بندی و ارجاع به کارشناس</div></div></div>
+  <div class="arrow"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></div>
+  <div class="step"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></div><div><div class="n">۴</div><div class="s">رسیدگی در کارتابل با زمان SLA</div></div></div>
+  <div class="arrow"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></div>
+  <div class="step"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 4L10 15"/><path d="M21 4l-7 17-4-6-6-4z"/></svg></div><div><div class="n">۵</div><div class="s">پاسخ، اطلاع پیامکی و بستن</div></div></div>
+  <div class="arrow"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></div>
+  <div class="step"><div class="ic"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F26122" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div><div><div class="n">۶</div><div class="s">نظرسنجی و گزارش مدیریتی</div></div></div>
+</div>
+
+<div class="foot"><span class="pg">۱۲</span><span>پیشنهاد فنی پیام‌گستر · [نام مشتری] · محرمانه</span></div>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="xm" viewBox="0 0 40 40"><rect x="2" y="2" width="36" height="36" rx="10" fill="#FFF3EC"/><path d="M12 12l16 16M28 12L12 28" stroke="#F26122" stroke-width="4.2" stroke-linecap="round"/><circle cx="12" cy="12" r="3" fill="#F26122"/><circle cx="28" cy="28" r="3" fill="#F26122"/><circle cx="28" cy="12" r="3" fill="#F26122"/><circle cx="12" cy="28" r="3" fill="#F26122"/></symbol>
+</defs></svg>
+</body></html>
