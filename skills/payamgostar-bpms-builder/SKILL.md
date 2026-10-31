@@ -1,6 +1,6 @@
 ---
 name: payamgostar-bpms-builder
-description: "Designs and implements a business form and its workflow (BPMS process) in PayamGostar CRM: turns a business need into a field/stage/action spec using best practices, then builds it in the product UI (Settings > CRM customization: form type, field groups, custom fields, kartables, actions, final states, field visibility, required fields, activation) and test-runs it. Includes a ready lead-nurturing (BANT) template. Use whenever a user wants فرم، فرایند، چرخه کاری، BPMS، کارتابل یا اقدام designed or built in PayamGostar, or wants a step-by-step build checklist a person can follow without AI."
+description: "Designs and implements a business form and its workflow (BPMS process) in PayamGostar CRM: turns a business need into a field/stage/action spec using best practices, then builds it in the product UI (Settings > CRM customization: form type, field groups, custom fields, kartables, actions, final states, field visibility, required fields, activation) and test-runs it. Also writes and checks Custom Expressions and SQL-activity commands (تخصیص داده پیشرفته: read a field from the current item, its identity, child or parent records, or another SQL Server database, and write to other databases). Includes a ready lead-nurturing (BANT) template. Use whenever a user wants فرم، فرایند، چرخه کاری، BPMS، کارتابل یا اقدام designed or built in PayamGostar, or wants a step-by-step build checklist a person can follow without AI."
 ---
 
 # اسکیل ساخت فرم و فرایند در پیام‌گستر (BPMS)
@@ -21,6 +21,7 @@ description: "Designs and implements a business form and its workflow (BPMS proc
 7. **سقف لایسنس:** تعداد فرم‌های فعال محدود است. خطای «به سقف مجاز تعداد فرم‌های فعال رسیده‌اید» یعنی باید فرمی را غیرفعال کرد یا فرم تازه را غیرفعال ذخیره کرد. **بدون اجازه کاربر هیچ فرم موجودی را غیرفعال نکن.**
 8. **حداقل فیلد:** فقط فیلدهایی که در تصمیم، مسیر یا گزارش لازم‌اند. صاحب مخزن صریحاً گفت «انقدر فیلد نساز، اقتصادی کار کن». حدود ۶ تا ۱۰ فیلد برای یک فرایند کافی است. یادداشت آزاد را در فیلد توضیحات پیش‌فرض یا نظرات بنویس.
 9. **روی سیستم واقعی مشتری فقط با اجازه صریح بساز.** در دمو، رکورد آزمایشی را با عنوان «(داده ساختگی)» ثبت کن.
+10. **Expression و فعالیت SQL:** هر دستور را پیش از چسباندن با `scripts/check_expression.py` چک کن و با ماتریس آزمایش `references/expression-sql-howto.md` اجرا کن. رشته اتصال و رمز دیتابیس مشتری را هرگز ذخیره، تکرار یا تایپ نکن؛ خود کاربر وارد کند. `UPDATE`/`DELETE` بدون `WHERE` ننویس.
 
 ## گردش کار
 1. **نیازسنجی کوتاه:** هدف فرایند، نقش‌ها (چه کسی هر مرحله را انجام می‌دهد)، تصمیم‌های کلیدی، پایان‌های ممکن، مهلت هر مرحله، گزارش‌های لازم.
@@ -44,10 +45,13 @@ description: "Designs and implements a business form and its workflow (BPMS proc
 - **دلیل رد را ثبت کن** (فیلد لیستی یا توضیحات الزامی روی اقدام رد) تا گزارش «چرا از دست دادیم» ممکن شود.
 - **ترتیب‌گذاری کارتابل‌ها** را تنظیم کن تا کانبان گزارش فرایندی مرتب باشد.
 - قدم‌های بعدی هوشمندسازی: فعالیت **ثبت فرصت** پس از تأیید، **ارسال پیامک** به سرنخ، فعالیت **انتظار** برای پیگیری زمان‌دار، **فراخوانی سرویس** برای اتصال به سایت.
+- **به‌جای ورود دستی، مقدار را بخوان:** شماره مشتری، موبایل و مسئول فروش از هویت؛ مبلغ و شماره از پیش‌فاکتور یا فرصت مرتبط؛ داده از نرم‌افزار دیگر با فعالیت SQL (ماژول تخصیص داده پیشرفته). کاربر فیلدی را که سیستم می‌داند دوباره تایپ نکند.
 
 ## فایل‌ها
 - `references/build-checklist.md`: مسیر منوها و ترتیب ساخت، قدم‌به‌قدم، برای انسان یا ایجنت.
 - `references/browser-automation.md`: نکته‌های فنی ساخت با مرورگر (دیالوگ‌های iframe، alert، انتخاب کاربر).
 - `references/pitfalls.md`: خطاهای دیده‌شده و راه‌حل.
+- `references/expression-sql-howto.md`: Expression و فعالیت اجرای دستورات پایگاه‌داده؛ از نیاز تا دستور آزموده‌شده (دانش کامل: `../payamgostar-knowledge/references/expression-and-sql-activity.md`).
+- `scripts/check_expression.py`: چک نحو، حروف، نوع مبدأ و مقصد، نسخه و آیتم، و توضیح فارسی معنی دستور (`--self-test`).
 - `templates/process-spec-template.md`: قالب طرح.
 - `templates/lead-nurturing.md` و `.json`: طرح کامل «پرورش سرنخ» (BANT) که روی دموی 2.8.8.2 ساخته شد.

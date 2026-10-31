@@ -32,6 +32,7 @@ description: "Authoritative knowledge base for the PayamGostar (پیام‌گس�
 | سؤال درباره… | فایل |
 |---|---|
 | **کجاست؟ چطور تنظیم می‌شود؟ چه فیلدها و گزینه‌هایی دارد؟** | `references/kb-map.md` (درخت منو و مقاله‌ها) ← متن کامل در `references/kb/<بخش>.md` |
+| **Expression، تخصیص مقدار پیشرفته، کوئری در فرایند، فعالیت اجرای دستورات پایگاه داده (SQL)، اتصال به دیتابیس دیگر** | `references/expression-and-sql-activity.md` (نحو، جدول فیلدها، محدودیت به تفکیک نسخه، نمونه‌ها) ← ساخت عملی: اسکیل `payamgostar-bpms-builder` |
 | **از کدام نسخه؟ آخرین تغییرات؟** | `references/version-history.md` (خلاصه) ← `references/kb/releasenote*.md` (متن کامل) |
 | شواهد منبع‌دار و حدود هر ادعا (هویت، فرم، فرایند، فروش، انبار، تیکت، باشگاه، گزارش، امنیت) | `references/kb-evidence/verified-capabilities.md` |
 | API و وب‌سرویس (۲۲ سرویس، متدها، SOAP یا REST) | `references/kb-evidence/api-guide.md` |

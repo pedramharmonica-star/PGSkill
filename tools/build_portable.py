@@ -21,7 +21,7 @@ PART_LIMIT = 1_200_000  # bytes per KB part (fits ChatGPT/Gemini/Copilot knowled
 
 ORDER = [
     "version-history.md", "company-facts.md", "pricing.md", "support-plans.md", "implementation.md", "modules.md", "editions-licensing-services.md",
-    "technical-architecture-security.md", "self-assessment.md", "security-checklist-afta.md", "installation-requirements.md", "integrations.md",
+    "expression-and-sql-activity.md", "technical-architecture-security.md", "self-assessment.md", "security-checklist-afta.md", "installation-requirements.md", "integrations.md",
     "gaps-and-limits.md", "conflicts.md", "glossary.md", "industry-solutions.md", "solutions.md", "reference-customers.md", "demo-walkthrough.md",
     "kb-evidence/verified-capabilities.md", "kb-evidence/version-notes.md",
     "kb-evidence/api-guide.md", "kb-evidence/integration-matrix.md", "kb-evidence/rfp-policy.md",
@@ -107,7 +107,7 @@ CONTRACT_FILES = ["references/contract-policy.md", "references/pre-invoice.md",
 
 PROPOSAL_FILES = ["references/proposal-structure.md", "references/proposal-wizard.md", "references/proposal-models.md", "references/current-proposal-structure.md"]
 
-BPMS_FILES = ["references/build-checklist.md", "references/pitfalls.md", "templates/process-spec-template.md", "templates/lead-nurturing.md"]
+BPMS_FILES = ["references/build-checklist.md", "references/pitfalls.md", "references/expression-sql-howto.md", "templates/process-spec-template.md", "templates/lead-nurturing.md"]
 
 def kb_parts():
     for old in glob.glob(os.path.join(KN, "kb-part-*.md")):
