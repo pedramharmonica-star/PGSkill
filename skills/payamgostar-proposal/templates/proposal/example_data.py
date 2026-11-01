@@ -47,6 +47,8 @@ CORE_TEXT = 'شخص، سازمان، فرصت و درخواست'
 # optional (non-CRM proposals, e.g. office automation): MAP_TITLE, AUD_TITLE, CORE_TITLE (centre of the solution map),
 # SHOW_CLUB_LIMITS = False (hide agents/customers club meters on the edition page),
 # IMPORT_STEP = (icon, title, text, output) for roadmap step 4, SEC_USERS (first step of the data-path flow)
+# EDITION_SIMPLE = True (solution-based proposals: only the standard limits, no standard-vs-enterprise text),
+# DEP_GENERAL = [(title, text)] with PROCS = [] (deployment page says only the hours and what happens in them)
 
 U = 'crm.example.ir'
 # img: a screenshot crop (assets/screenshots/crops/), or an HTML block (charts) that starts with '<'

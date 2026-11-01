@@ -472,3 +472,23 @@ h1{position:absolute;top:104px;right:270px;left:90px;font-size:52px;font-weight:
 .smv{line-height:1.45}
 .smv b.pgv{color:var(--or)}
 .sla-notes2{top:722px}
+
+/* simple edition page (solution-based proposals) */
+.eds-lead{position:absolute;top:236px;right:270px;left:90px;font-size:23px;line-height:1.8;color:#3A3F47}
+.eds-lead b{color:var(--deep)}
+.eds-h{position:absolute;top:340px;right:270px;font-size:27px;font-weight:700;color:var(--ink)}
+.eds-cards{position:absolute;top:410px;right:270px;left:90px;display:flex;gap:40px}
+.eds-c{flex:1;border:1.5px solid #F4C3A8;border-radius:22px;padding:30px 36px;background:#fff}
+.eds-top{display:flex;align-items:baseline;gap:16px;margin-bottom:18px}
+.eds-top svg{align-self:center}
+.eds-top b{font-size:84px;font-weight:900;color:var(--or);line-height:1}
+.eds-top span{font-size:26px;font-weight:700;color:var(--ink)}
+.eds-c p{font-size:20px;line-height:1.8;color:#4A505A;margin-top:16px}
+.eds-up{position:absolute;top:760px;right:270px;left:90px;display:flex;gap:20px;align-items:center;background:var(--tint);border-radius:18px;padding:22px 30px}
+.eds-up p{font-size:21px;line-height:1.7;color:#3A3F47}
+.eds-up b{color:var(--deep)}
+/* general deployment items */
+.dg{display:grid;grid-template-columns:1fr 1fr;gap:16px 30px}
+.dg-i{border-bottom:1px solid var(--line);padding-bottom:12px}
+.dg-i h4{font-size:21px;font-weight:700;color:var(--ink);margin-bottom:4px}
+.dg-i p{font-size:18px;line-height:1.7;color:#4A505A}

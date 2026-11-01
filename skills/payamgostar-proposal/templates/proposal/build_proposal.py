@@ -317,7 +317,21 @@ if D.EDITION == 'standard':
 else:
     right = '<h3>دلیل انتخاب ویرایش پیشرفته</h3><ul class="why">' + ''.join(f'<li>{e(x)}</li>' for x in D.ENTERPRISE_REASONS) + '</ul>'
     title = 'ویرایش پیشرفته (سازمانی)، نصب درون‌سازمانی'
-page(corner() + head('نسخه پیشنهادی', title) + f'''
+if getattr(D, 'EDITION_SIMPLE', False):
+    # solution-based proposals: no standard-vs-enterprise comparison, only the limits up to which standard is enough
+    left = D.MAX_USERS
+    page(corner() + head('نسخه پیشنهادی', 'ویرایش استاندارد، نصب درون‌سازمانی') + f'''
+<p class="eds-lead">نرم‌افزار پیشنهادی برای {e(C)}، <b>ویرایش استاندارد پیام‌گستر</b> است و روی سرور {e(C)} نصب می‌شود؛ پایگاه داده و پیوست‌ها روی سرورهای {e(C)} می‌ماند.</p>
+<div class="eds-h">ویرایش استاندارد تا این سقف‌ها برای {e(C)} کافی است</div>
+<div class="eds-cards">
+ <div class="eds-c"><div class="eds-top">{icon('users', s=40)}<b>۱۰۰</b><span>کاربر نام‌دار</span></div>{CH.meter(D.MAX_USERS, 100, w=620, h=18)}
+  <p>امروز {fa(D.MAX_USERS)} کاربر؛ تا {fa(100 - left)} کاربر دیگر بدون تغییر ویرایش اضافه می‌شود.</p></div>
+ <div class="eds-c"><div class="eds-top">{icon('flow', s=40)}<b>۳۰</b><span>نوع فرم و فرایند فعال</span></div>
+  <p>هر نوع، مثل «درخواست مرخصی»، یک بار شمرده می‌شود. تعداد درخواست‌ها و فرم‌هایی که کاربران ثبت می‌کنند سقف ندارد.</p></div>
+</div>
+<div class="eds-up">{icon('up', s=34)}<p>اگر تعداد کاربران از ۱۰۰ نفر یا انواع فرم و فرایند فعال از ۳۰ بیشتر شود، نرم‌افزار به <b>ویرایش سازمانی</b> ارتقا داده می‌شود.</p></div>''' + foot(), key='edition')
+else:
+  page(corner() + head('نسخه پیشنهادی', title) + f'''
 <div class="edi"><div class="l">
  <p>{D.EDITION_TEXT}</p>
  <p><b>مدل نصب:</b> درون‌سازمانی (On-Premise) روی سرور {e(C)}؛ پایگاه داده و پیوست‌ها روی سرورهای {e(C)} ذخیره می‌شوند.</p>
@@ -408,7 +422,7 @@ page(corner() + head('فهرست اقلام پیشنهادی', D.LOM_TITLE) + f'
 HB, HX = D.HOURS_BASE, D.HOURS_EXTRA
 RM = [('server', 'نصب', f'نصب نرم‌افزار و SQL Server روی سرور {C} توسط کارشناس پیام‌گستر، حضوری یا ریموت.', f'نرم‌افزار آماده کار روی سرور {C}'),
       ('search', 'نیازسنجی', f'جلسه با مسئول هر فرایند در {C} برای تعیین فرم‌ها، فرایندها، نقش‌ها و دسترسی‌ها.', f'مستند طراحی فرایند برای تأیید {C}'),
-      ('flow', 'استقرار فرم‌ها و فرایندها', f'ساخت فرم‌ها، {fa(len(PROCS))} فرایند، کارتابل‌ها، دسترسی‌ها و اعلان‌ها روی نرم‌افزار.', 'فرم‌ها و فرایندهای فعال'),
+      ('flow', 'استقرار فرم‌ها و فرایندها', (f'ساخت فرم‌ها، {fa(len(PROCS))} فرایند، کارتابل‌ها، دسترسی‌ها و اعلان‌ها روی نرم‌افزار.' if PROCS else 'ساخت فرم‌ها، فرایندها، کارتابل‌ها، دسترسی‌ها و اعلان‌ها روی نرم‌افزار.'), 'فرم‌ها و فرایندهای فعال'),
       getattr(D, 'IMPORT_STEP', ('users', 'ورود هویت‌ها', 'ورود اشخاص و سازمان‌ها با فایل اکسل و کنترل تکرار.', 'پرونده اشخاص و سازمان‌ها')),
       ('cap', 'آموزش', f'آموزش هر نقش روی فرایندهای خود {C}، در جلسات استقرار؛ به‌علاوه وبینارهای گروهی و مرکز دانش.', 'مستند راهنمای کاربران'),
       ('life', 'بهره‌برداری و پشتیبانی', D.SUPPORT_LINE, 'تیکت پشتیبانی')]
@@ -449,9 +463,18 @@ page(corner() + head('واحد استقرار پیام‌گستر', f'تیمی �
 <div class="du-list">{dh}</div>''' + foot(), key='du')
 
 # deployment for the customer (hours only: 15 h ~ 2 processes)
+DG = getattr(D, 'DEP_GENERAL', None)   # [(title, text)]: say what happens in the hours, without naming forms or processes
 pg = ''.join(f'<div><b>{fa(i+1)}</b>{e(p)}</div>' for i, p in enumerate(PROCS))
 extra = f' و {fa(HX)} نفرساعت استقرار تکمیلی' if HX else ''
-page(corner() + head(f'استقرار برای {C}', 'ساعت استقرار و فرایندهای قابل پیاده‌سازی') + f'''
+if DG:
+    gh = ''.join(f'<div class="dg-i"><h4>{e(t)}</h4><p>{e(x)}</p></div>' for t, x in DG)
+    page(corner() + head(f'استقرار برای {C}', f'{fa(HB + HX)} نفرساعت استقرار تخصصی') + f'''
+<div class="dp-hours"><b>{fa(HB + HX)}</b><span>نفرساعت استقرار تخصصی</span>
+<p>همراه خرید ارائه می‌شود. ساعت بیشتر یا پروژه استقرار کامل، جداگانه قابل تعریف است.</p></div>
+<div class="dp-list"><h3>در ساعت‌های استقرار چه انجام می‌شود</h3><div class="dg">{gh}</div></div>
+<div class="dp-note callbox">{D.DEP_NOTE}</div>''' + foot(), key='dep')
+else:
+  page(corner() + head(f'استقرار برای {C}', 'ساعت استقرار و فرایندهای قابل پیاده‌سازی') + f'''
 <div class="dp-hours"><b>{fa(HB + HX)}</b><span>نفرساعت استقرار تخصصی</span>
 <p>{fa(HB)} نفرساعت بسته پایه استقرار که همراه خرید ارائه می‌شود{extra}.</p>
 <p>مبنای برآورد: هر ۱۵ نفرساعت استقرار، حدود ۲ فرایند. برای {fa(len(PROCS))} فرایند {e(C)}، {fa((HB + HX) // 15)} برابر بسته پایه.</p></div>
