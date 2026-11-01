@@ -44,6 +44,9 @@ LOGO_NOTE = 'فهرست کامل سوابق در جلسه ارزیابی ارا�
 AUDIENCES = [('مشتری خرد', 'سرنخ، فرصت، فاکتور'), ('مشتری سازمانی', 'فرصت سازمانی، قرارداد'), ('نماینده فروش', 'پنل نمایندگان')]
 COMPONENTS = [('کنسول مدیریت ارتباط با مشتری', 'پرونده ۳۶۰، دسترسی'), ('فرم‌ساز و BPMS', 'مسیرها و تأییدها'), ('درخواست‌ها و قراردادها', 'تیکت، قرارداد'), ('باشگاه مشتریان', 'پنل مشتری')]
 CORE_TEXT = 'شخص، سازمان، فرصت و درخواست'
+# optional (non-CRM proposals, e.g. office automation): MAP_TITLE, AUD_TITLE, CORE_TITLE (centre of the solution map),
+# SHOW_CLUB_LIMITS = False (hide agents/customers club meters on the edition page),
+# IMPORT_STEP = (icon, title, text, output) for roadmap step 4, SEC_USERS (first step of the data-path flow)
 
 U = 'crm.example.ir'
 # img: a screenshot crop (assets/screenshots/crops/), or an HTML block (charts) that starts with '<'

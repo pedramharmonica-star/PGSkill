@@ -250,9 +250,9 @@ page(corner() + head('گواهی‌نامه‌ها', 'مجوزها و ارزیا
 # 8 solution map
 ah = ''.join(f'<div class="mp-a"><b>{e(a)}</b><span>{e(b)}</span></div>' for a, b in D.AUDIENCES)
 ch = ''.join(f'<div class="mp-c"><b>{e(a)}</b><span>{e(b)}</span></div>' for a, b in D.COMPONENTS)
-page(corner() + head('نقشه راهکار', 'همه گروه‌های مخاطب روی یک نرم‌افزار') + f'''
-<div class="map"><div class="mp-col"><div class="mp-h">گروه‌های مخاطب {e(C)}</div>{ah}</div>
-<div class="mp-mid"><div class="core"><img src="file://{REPO}logo/payamgostar-mark-160.png"><b>پرونده یکپارچه</b><span>{e(D.CORE_TEXT)}</span></div></div>
+page(corner() + head('نقشه راهکار', getattr(D, 'MAP_TITLE', 'همه گروه‌های مخاطب روی یک نرم‌افزار')) + f'''
+<div class="map"><div class="mp-col"><div class="mp-h">{e(getattr(D, 'AUD_TITLE', f'گروه‌های مخاطب {C}'))}</div>{ah}</div>
+<div class="mp-mid"><div class="core"><img src="file://{REPO}logo/payamgostar-mark-160.png"><b>{e(getattr(D, 'CORE_TITLE', 'پرونده یکپارچه'))}</b><span>{e(D.CORE_TEXT)}</span></div></div>
 <div class="mp-col"><div class="mp-h">اجزای پیام‌گستر</div>{ch}</div></div>''' + foot(), key='map')
 
 # solutions
@@ -305,12 +305,14 @@ NT = len(PROCS) + len(FORMS)
 fl = ''.join(f'<span>{e(x)}</span>' for x in FORMS)
 pl = ''.join(f'<span>{e(x)}</span>' for x in PROCS)
 if D.EDITION == 'standard':
+    CLUBS = getattr(D, 'SHOW_CLUB_LIMITS', True)   # False: customer uses neither the agents club nor the customers club
     LIM = [('کاربر نام‌دار', D.MAX_USERS, 100, False, f'بزرگ‌ترین سناریو {fa(D.MAX_USERS)} کاربر، سقف ۱۰۰'),
            ('نوع فرم و فرایند فعال', NT, 30, False, f'{fa(len(PROCS))} فرایند و {fa(len(FORMS))} فرم، جمعاً {fa(NT)} از سقف ۳۰'),
            (f'{AW} فعال در باشگاه نمایندگان', D.AGENTS or 0, 15, D.AGENTS is None, 'سقف ۱۵ نفر' + ('؛ تعداد در درخواست مشتری نیامده است' if D.AGENTS is None else f'؛ {fa(D.AGENTS)} نفر')),
            ('کاربر فعال باشگاه مشتریان', D.CLUB_USERS or 0, 5000, D.CLUB_USERS is None, 'سقف ۵۰۰۰ نفر' + ('؛ تعداد در درخواست مشتری نیامده است' if D.CLUB_USERS is None else f'؛ {fa(D.CLUB_USERS)} نفر'))]
+    if not CLUBS: LIM = LIM[:2]
     right = '<h3>سقف‌های ویرایش استاندارد و وضعیت ' + e(C) + '</h3>' + ''.join(f'<div class="lim"><div class="lh"><b>{e(t)}</b><span>{e(n)}</span></div>{CH.meter(v, m, w=760, h=16, unknown=u)}</div>' for t, v, m, u, n in LIM) + \
-        f'<div class="callbox">اگر پس از نیازسنجی یکی از این سقف‌ها رد شود، مثلاً بیش از ۱۵ {AW} فعال در پنل کار کنند، ارتقا از ویرایش استاندارد به پیشرفته ممکن است. همگام‌ساز راهکاران، ارتباط با Power BI و مرکز تماس سیسکو فقط در ویرایش پیشرفته‌اند.</div>'
+        f'<div class="callbox">اگر پس از نیازسنجی یکی از این سقف‌ها رد شود، مثلاً ' + (f'بیش از ۱۵ {AW} فعال در پنل کار کنند' if CLUBS else 'بیش از ۳۰ نوع فرم و فرایند فعال لازم شود') + '، ارتقا از ویرایش استاندارد به پیشرفته ممکن است. همگام‌ساز راهکاران، ارتباط با Power BI و مرکز تماس سیسکو فقط در ویرایش پیشرفته‌اند.</div>'
     title = 'ویرایش استاندارد، نصب درون‌سازمانی'
 else:
     right = '<h3>دلیل انتخاب ویرایش پیشرفته</h3><ul class="why">' + ''.join(f'<li>{e(x)}</li>' for x in D.ENTERPRISE_REASONS) + '</ul>'
@@ -395,7 +397,7 @@ page(corner() + head('امنیت و مالکیت داده', 'کنترل دستر
   <li>نسخه پشتیبان کامل پایگاه داده در اختیار {e(C)} است؛ خروجی اکسل و وب‌سرویس هم در دسترس است.</li>
   <li>گواهی ارزیابی امنیتی محصول از افتا، شماره <bdi>CBP-C1470-0301</bdi>.</li></ul></div>
 </div>
-''' + flow2('مسیر داده در نصب درون‌سازمانی', [('users', f'کاربران {C} و پنل‌های مشتری و {AW}'), ('shield', 'ارتباط رمزنگاری‌شده HTTPS با گواهی SSL'), ('server', f'وب‌سرور پیام‌گستر روی سرور {C}'), ('db', f'پایگاه داده SQL Server روی سرور {C}'), ('cal', 'نسخه پشتیبان روی درایو جدا')]) + foot(), key='sec')
+''' + flow2('مسیر داده در نصب درون‌سازمانی', [('users', getattr(D, 'SEC_USERS', f'کاربران {C} و پنل‌های مشتری و {AW}')), ('shield', 'ارتباط رمزنگاری‌شده HTTPS با گواهی SSL'), ('server', f'وب‌سرور پیام‌گستر روی سرور {C}'), ('db', f'پایگاه داده SQL Server روی سرور {C}'), ('cal', 'نسخه پشتیبان روی درایو جدا')]) + foot(), key='sec')
 
 # LOM (grouped cards; prices only in the pre-invoice)
 def codes(c): return '، '.join(f'<bdi>{x}</bdi>' for x in c.split('، ')) if c else ''
@@ -407,7 +409,7 @@ HB, HX = D.HOURS_BASE, D.HOURS_EXTRA
 RM = [('server', 'نصب', f'نصب نرم‌افزار و SQL Server روی سرور {C} توسط کارشناس پیام‌گستر، حضوری یا ریموت.', f'نرم‌افزار آماده کار روی سرور {C}'),
       ('search', 'نیازسنجی', f'جلسه با مسئول هر فرایند در {C} برای تعیین فرم‌ها، فرایندها، نقش‌ها و دسترسی‌ها.', f'مستند طراحی فرایند برای تأیید {C}'),
       ('flow', 'استقرار فرم‌ها و فرایندها', f'ساخت فرم‌ها، {fa(len(PROCS))} فرایند، کارتابل‌ها، دسترسی‌ها و اعلان‌ها روی نرم‌افزار.', 'فرم‌ها و فرایندهای فعال'),
-      ('users', 'ورود هویت‌ها', 'ورود اشخاص و سازمان‌ها با فایل اکسل و کنترل تکرار.', 'پرونده اشخاص و سازمان‌ها'),
+      getattr(D, 'IMPORT_STEP', ('users', 'ورود هویت‌ها', 'ورود اشخاص و سازمان‌ها با فایل اکسل و کنترل تکرار.', 'پرونده اشخاص و سازمان‌ها')),
       ('cap', 'آموزش', f'آموزش هر نقش روی فرایندهای خود {C}، در جلسات استقرار؛ به‌علاوه وبینارهای گروهی و مرکز دانش.', 'مستند راهنمای کاربران'),
       ('life', 'بهره‌برداری و پشتیبانی', D.SUPPORT_LINE, 'تیکت پشتیبانی')]
 xs = [1685 - i*290 for i in range(6)]
