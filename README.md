@@ -99,6 +99,9 @@ python3 skills/payamgostar-rfp-matcher/scripts/candidates.py requirements.csv ca
 ```
 System Prompt را از `portable/SYSTEM_PROMPT.md` بردارید و ابزار `portable/agent/search_tool.json` را تعریف کنید. فقط Python 3 استاندارد لازم است.
 
+### پرامپت آماده «RFP ← پروپوزال» برای هر مدل
+متن آماده در [`prompts/rfp-to-proposal.md`](prompts/rfp-to-proposal.md): فایل RFP را همراه این پرامپت به هر مدل یا ایجنتی بدهید. ایجنت‌های دارای اجرای کد PDF کامل می‌سازند و چت‌بات‌ها (با فایل‌های `portable/`) متن صفحه‌به‌صفحه و فایل داده.
+
 ## منابع دانش و اولویت آن‌ها
 
 | حوزه | اولویت (بالاترین ← پایین‌ترین) |
