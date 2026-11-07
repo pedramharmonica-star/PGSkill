@@ -270,17 +270,41 @@ if getattr(D, 'KPI', None):
 
 # compliance: divider, coverage chart, tables
 divider('جدول تطبیق نیازها', f'پاسخ ردیف‌به‌ردیف به {fa(len(R))} شناسه نیاز' + (f'، {D.TABLE_FORMAT}' if getattr(D, 'TABLE_FORMAT', '') else ''), key='table')
-COV = CH.stacked([(CATN[c], [stat[c]['K'], stat[c]['J']]) for c, _ in CATS if c in stat], w=1060, label_w=330, bar_h=26, gap=19, size=19, total_w=40)
+GR = '#AEB3BC'
+COV = CH.stacked([(CATN[c], [stat[c]['K'], stat[c]['J'], stat[c]['F']]) for c, _ in CATS if c in stat], w=1060, label_w=330, bar_h=26, gap=19, size=19, total_w=40, cols=(CH.OR, CH.BL, GR))
 page(corner() + head('جدول تطبیق نیازها', f'پوشش {fa(len(R))} نیاز به تفکیک حوزه') + f'''
-<div class="cov-chart">{CH.legend([('پوشش کامل', CH.OR), ('پوشش جزئی با راه جایگزین', CH.BL)])}{COV}</div>
+<div class="cov-chart">{CH.legend([('پوشش کامل', CH.OR), ('پوشش جزئی با راه جایگزین', CH.BL)] + ([('بدون پوشش', GR)] if TOT['F'] else []))}{COV}</div>
 <div class="cov-side"><div class="cv"><b>{fa(TOT['K'])}</b><span>پوشش کامل</span><p>قابلیت آماده یا پیکربندی‌شدنی که نیاز را کامل برآورده می‌کند.</p></div>
 <div class="cv j"><b>{fa(TOT['J'])}</b><span>پوشش جزئی</span><p>بخشی از نیاز آماده است و برای بقیه، شرط یا راه جایگزین در جدول آمده است.</p></div>
-<div class="cv z"><b>{fa(TOT['F'])}</b><span>بدون پوشش</span></div></div>''' + foot())
+<div class="cv z"><b>{fa(TOT['F'])}</b><span>بدون پوشش</span>{'<p>قابلیت در نرم‌افزار نیست؛ راه جایگزین، اگر هست، در جدول آمده است.</p>' if TOT['F'] else ''}</div></div>''' + foot())
 PRI = {'ا': 'الزام', 'ت': 'ترجیحی', 'خ': 'اختیاری'}
 ST = {'K': ('کامل', 'st-k'), 'J': ('جزئی', 'st-j'), 'F': ('فاقد', 'st-f')}
 groups = [[r for r in R if r[0][0] == c] for c, _ in CATS]
 groups = [g for g in groups if g]
-for gi, chunk in enumerate(groups):
+# long categories are split over several pages: rows are packed by estimated height (px), never cut mid-row
+TABLE_H = getattr(D, 'TABLE_H', 700)
+def rowh(r):
+    return 14 + 27 * max(2, math.ceil(len(r[2]) / 58), math.ceil(len(r[5]) / 100) + (math.ceil(len(r[6]) / 100) if r[6] else 0))
+tpages = []
+def pack(g, cap):
+    parts, cur, h = [], [], 0
+    for r in g:
+        rh = rowh(r)
+        if cur and h + rh > cap:
+            parts.append(cur); cur, h = [], 0
+        cur.append(r); h += rh
+    parts.append(cur)
+    return parts
+for g in groups:
+    parts = pack(g, TABLE_H)
+    n = len(parts)
+    for cap in range(sum(map(rowh, g)) // n, TABLE_H, 10):   # same page count, rows spread evenly
+        if len(pack(g, cap)) == n:
+            parts = pack(g, cap); break
+    for k, part in enumerate(parts):
+        tpages.append((part, k + 1, len(parts)))
+TNOTE = getattr(D, 'TABLE_NOTE', '') or f'◆ شرط یا راه جایگزین. روش «API» یعنی اتصال با وب‌سرویس پیام‌گستر؛ برنامه‌نویسی آن شخصی‌سازی است و سمت {e(C)} یا پیمانکار آن انجام می‌شود. موارد نارنجی نیازمند تأیید تیم فنی پیام‌گستر است.'
+for gi, (chunk, k, n) in enumerate(tpages):
     c = chunk[0][0][0]
     rows = ''
     for r in chunk:
@@ -288,9 +312,10 @@ for gi, chunk in enumerate(groups):
         alt = f'<div class="alt">◆ {e(r[6])}</div>' if r[6] else ''
         pr = f'<small>{PRI.get(r[1][:1], r[1])}، فاز {r[1][1:]}</small>' if r[1] else ''
         rows += f'<tr><td class="id"><bdi>{r[0]}</bdi>{pr}</td><td class="nd2">{e(r[2])}</td><td><span class="st {cl}">{lab}</span><div class="mt">{e(r[4])}</div></td><td class="ans">{e(r[5])}{alt}</td><td class="md">{e(r[7])}</td></tr>'
-    page(corner() + head(f'جدول تطبیق، صفحه {fa(gi+1)} از {fa(len(groups))}', CATN[c]) + f'''
+    sub = f' ({fa(k)} از {fa(n)})' if n > 1 else ''
+    page(corner() + head(f'جدول تطبیق، صفحه {fa(gi+1)} از {fa(len(tpages))}', CATN[c] + sub) + f'''
 <table class="ct"><thead><tr><th>شناسه</th><th>نیاز {e(C)}</th><th>پوشش و روش تأمین</th><th>پاسخ پیام‌گستر و راه جایگزین</th><th>ماژول</th></tr></thead><tbody>{rows}</tbody></table>
-<div class="ctnote">◆ شرط یا راه جایگزین. روش «API» یعنی اتصال با وب‌سرویس پیام‌گستر؛ برنامه‌نویسی آن شخصی‌سازی است و سمت {e(C)} یا پیمانکار آن انجام می‌شود. موارد نارنجی نیازمند تأیید تیم فنی پیام‌گستر است.</div>''' + foot())
+<div class="ctnote">{TNOTE}</div>''' + foot())
 
 # demo scenarios
 if getattr(D, 'DEMO', None):

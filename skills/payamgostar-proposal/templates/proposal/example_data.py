@@ -49,6 +49,9 @@ CORE_TEXT = 'شخص، سازمان، فرصت و درخواست'
 # IMPORT_STEP = (icon, title, text, output) for roadmap step 4, SEC_USERS (first step of the data-path flow)
 # EDITION_SIMPLE = True (solution-based proposals: only the standard limits, no standard-vs-enterprise text),
 # DEP_GENERAL = [(title, text)] with PROCS = [] (deployment page says only the hours and what happens in them)
+# compliance table: long categories split over pages automatically (rows packed by estimated height, spread evenly);
+# TABLE_H = 700 (usable px per page), TABLE_NOTE = '' (footnote under each table page, e.g. how the RFP status words map)
+# status F rows show in grey in the coverage chart and keep their own count on the exec page
 
 U = 'crm.example.ir'
 # img: a screenshot crop (assets/screenshots/crops/), or an HTML block (charts) that starts with '<'
