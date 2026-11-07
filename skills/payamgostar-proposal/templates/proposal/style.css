@@ -487,6 +487,8 @@ h1{position:absolute;top:104px;right:270px;left:90px;font-size:52px;font-weight:
 .eds-up{position:absolute;top:760px;right:270px;left:90px;display:flex;gap:20px;align-items:center;background:var(--tint);border-radius:18px;padding:22px 30px}
 .eds-up p{font-size:21px;line-height:1.7;color:#3A3F47}
 .eds-up b{color:var(--deep)}
+.eds-cards.many{gap:22px}.eds-cards.many .eds-c{padding:26px 24px}.eds-cards.many .eds-top{gap:10px}.eds-cards.many .eds-top b{font-size:58px}.eds-cards.many .eds-top span{font-size:20px}.eds-cards.many .eds-c p{font-size:18px;line-height:1.75}
+.eds-cards.many ~ .eds-up{top:800px}
 /* general deployment items */
 .dg{display:grid;grid-template-columns:1fr 1fr;gap:16px 30px}
 .dg-i{border-bottom:1px solid var(--line);padding-bottom:12px}

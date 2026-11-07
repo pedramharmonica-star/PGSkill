@@ -331,7 +331,7 @@ fl = ''.join(f'<span>{e(x)}</span>' for x in FORMS)
 pl = ''.join(f'<span>{e(x)}</span>' for x in PROCS)
 if D.EDITION == 'standard':
     CLUBS = getattr(D, 'SHOW_CLUB_LIMITS', True)   # False: customer uses neither the agents club nor the customers club
-    LIM = [('کاربر نام‌دار', D.MAX_USERS, 100, False, f'بزرگ‌ترین سناریو {fa(D.MAX_USERS)} کاربر، سقف ۱۰۰'),
+    LIM = [('کاربر نام‌دار', D.MAX_USERS or 0, 100, not D.MAX_USERS, f'بزرگ‌ترین سناریو {fa(D.MAX_USERS)} کاربر، سقف ۱۰۰' if D.MAX_USERS else 'سقف ۱۰۰؛ تعداد در نیازسنجی تعیین می‌شود'),
            ('نوع فرم و فرایند فعال', NT, 30, False, f'{fa(len(PROCS))} فرایند و {fa(len(FORMS))} فرم، جمعاً {fa(NT)} از سقف ۳۰'),
            (f'{AW} فعال در باشگاه نمایندگان', D.AGENTS or 0, 15, D.AGENTS is None, 'سقف ۱۵ نفر' + ('؛ تعداد در درخواست مشتری نیامده است' if D.AGENTS is None else f'؛ {fa(D.AGENTS)} نفر')),
            ('کاربر فعال باشگاه مشتریان', D.CLUB_USERS or 0, 5000, D.CLUB_USERS is None, 'سقف ۵۰۰۰ نفر' + ('؛ تعداد در درخواست مشتری نیامده است' if D.CLUB_USERS is None else f'؛ {fa(D.CLUB_USERS)} نفر'))]
@@ -344,17 +344,26 @@ else:
     title = 'ویرایش پیشرفته (سازمانی)، نصب درون‌سازمانی'
 if getattr(D, 'EDITION_SIMPLE', False):
     # solution-based proposals: no standard-vs-enterprise comparison, only the limits up to which standard is enough
-    left = D.MAX_USERS
+    # MAX_USERS = None: user count not known yet; EDS_EXTRA = [(icon, number, label, text)] extra limit cards
+    # (e.g. active customers-club users, agents); EDS_UP = text of the upgrade line
+    EX = getattr(D, 'EDS_EXTRA', [])
+    many = len(EX) > 0
+    mw = 300 if many else 620
+    if D.MAX_USERS:
+        ucard = f'{CH.meter(D.MAX_USERS, 100, w=mw, h=18)}<p>امروز {fa(D.MAX_USERS)} کاربر؛ تا {fa(100 - D.MAX_USERS)} کاربر دیگر بدون تغییر ویرایش اضافه می‌شود.</p>'
+    else:
+        ucard = f'<p>تعداد کاربران {e(C)} در نیازسنجی تعیین می‌شود؛ تا ۱۰۰ کاربر نام‌دار، ویرایش استاندارد کافی است.</p>'
+    xc = ''.join(f'<div class="eds-c"><div class="eds-top">{icon(i, s=40)}<b>{n}</b><span>{e(t)}</span></div><p>{e(x)}</p></div>' for i, n, t, x in EX)
+    up = getattr(D, 'EDS_UP', 'اگر تعداد کاربران از ۱۰۰ نفر یا انواع فرم و فرایند فعال از ۳۰ بیشتر شود، نرم‌افزار به <b>ویرایش سازمانی</b> ارتقا داده می‌شود.')
     page(corner() + head('نسخه پیشنهادی', 'ویرایش استاندارد، نصب درون‌سازمانی') + f'''
 <p class="eds-lead">نرم‌افزار پیشنهادی برای {e(C)}، <b>ویرایش استاندارد پیام‌گستر</b> است و روی سرور {e(C)} نصب می‌شود؛ پایگاه داده و پیوست‌ها روی سرورهای {e(C)} می‌ماند.</p>
 <div class="eds-h">ویرایش استاندارد تا این سقف‌ها برای {e(C)} کافی است</div>
-<div class="eds-cards">
- <div class="eds-c"><div class="eds-top">{icon('users', s=40)}<b>۱۰۰</b><span>کاربر نام‌دار</span></div>{CH.meter(D.MAX_USERS, 100, w=620, h=18)}
-  <p>امروز {fa(D.MAX_USERS)} کاربر؛ تا {fa(100 - left)} کاربر دیگر بدون تغییر ویرایش اضافه می‌شود.</p></div>
+<div class="eds-cards{' many' if many else ''}">
+ <div class="eds-c"><div class="eds-top">{icon('users', s=40)}<b>۱۰۰</b><span>کاربر نام‌دار</span></div>{ucard}</div>
  <div class="eds-c"><div class="eds-top">{icon('flow', s=40)}<b>۳۰</b><span>نوع فرم و فرایند فعال</span></div>
-  <p>هر نوع، مثل «درخواست مرخصی»، یک بار شمرده می‌شود. تعداد درخواست‌ها و فرم‌هایی که کاربران ثبت می‌کنند سقف ندارد.</p></div>
+  <p>هر نوع، مثل «{e(getattr(D, 'EDS_FORM_EXAMPLE', 'درخواست مرخصی'))}»، یک بار شمرده می‌شود. تعداد درخواست‌ها و فرم‌هایی که کاربران ثبت می‌کنند سقف ندارد.</p></div>{xc}
 </div>
-<div class="eds-up">{icon('up', s=34)}<p>اگر تعداد کاربران از ۱۰۰ نفر یا انواع فرم و فرایند فعال از ۳۰ بیشتر شود، نرم‌افزار به <b>ویرایش سازمانی</b> ارتقا داده می‌شود.</p></div>''' + foot(), key='edition')
+<div class="eds-up">{icon('up', s=34)}<p>{up}</p></div>''' + foot(), key='edition')
 else:
   page(corner() + head('نسخه پیشنهادی', title) + f'''
 <div class="edi"><div class="l">
