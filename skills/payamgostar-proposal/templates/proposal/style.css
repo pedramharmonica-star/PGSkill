@@ -494,3 +494,29 @@ h1{position:absolute;top:104px;right:270px;left:90px;font-size:52px;font-weight:
 .dg-i{border-bottom:1px solid var(--line);padding-bottom:12px}
 .dg-i h4{font-size:21px;font-weight:700;color:var(--ink);margin-bottom:4px}
 .dg-i p{font-size:18px;line-height:1.7;color:#4A505A}
+/* general (solution-based) proposals: executive summary and full capability descriptions */
+.ex-lead.xg-lead{width:auto;left:90px;font-size:25px;line-height:1.8}
+.xg-h{position:absolute;top:420px;right:270px;font-size:24px;font-weight:700;color:var(--deep)}
+.xg-pil{position:absolute;top:470px;right:270px;left:90px;display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.xg-p{border:1.5px solid #F4C3A8;border-radius:18px;padding:22px 24px;background:#fff}
+.xg-p .mi{margin-bottom:10px}
+.xg-p h3{font-size:22px;font-weight:700;color:var(--ink);margin-bottom:8px}
+.xg-p p{font-size:18px;line-height:1.75;color:#4A505A}
+.xg-out{position:absolute;top:735px;right:270px;left:90px;background:var(--tint);border-radius:18px;padding:20px 30px}
+.xg-out h3{font-size:22px;font-weight:700;color:var(--deep);margin-bottom:8px}
+.xg-out ul{display:grid;grid-template-columns:1fr 1fr;gap:6px 40px;padding-right:22px}
+.xg-out li{font-size:18.5px;line-height:1.7;color:#3A3F47}
+.ex-ed.xg-ed{top:925px}
+.dt-intro{position:absolute;top:224px;right:270px;left:90px;font-size:21px;line-height:1.8;color:#3A3F47}
+.dt-grid{position:absolute;top:300px;right:90px;left:90px;bottom:100px;column-count:2;column-gap:36px;column-fill:auto}
+.dt-grid.nointro{top:230px}
+.dt-c{break-inside:avoid;border-right:4px solid var(--or);background:#FFF8F3;border-radius:12px;padding:14px 22px;margin-bottom:14px}
+.dt-c h4{font-size:21px;color:var(--ink);font-weight:700;margin-bottom:4px}
+.dt-c p{font-size:17.5px;line-height:1.72;color:#3A3F47}
+.dt-c em{display:block;font-style:normal;font-size:14.5px;color:var(--gray);margin-top:4px}
+.needs.many{gap:22px 30px}
+.needs.many .nd{display:grid;grid-template-columns:56px 1fr;column-gap:16px;padding-top:18px}
+.needs.many .nd .mi{grid-row:span 2}
+.needs.many .nd h3{margin:4px 0 4px;font-size:23px}
+.needs.many .nd p{font-size:18.5px}
+.needs.many ~ .scope{top:800px}

@@ -159,6 +159,7 @@ def divider(t, s, key=None):
     page(f'<div class="dv-mark"><img src="file://{REPO}logo/payamgostar-mark-160.png"></div><div class="dv-t">{e(t)}</div><div class="dv-s">{e(s)}</div><div class="dv-ring"></div>' + foot(), 'divider', key)
 
 def chip(cat):
+    if GENERAL or cat not in stat: return ''
     s = stat[cat]
     parts = [f'<span class="ck">{fa(s["K"])} کامل</span>']
     if s['J']: parts.append(f'<span class="cj">{fa(s["J"])} جزئی</span>')
@@ -199,13 +200,16 @@ page(mosaic(cov) + f'''
 
 # 2 TOC (page numbers filled at the end; entries only for pages that exist)
 def has(k): return k in BUILT
-BUILT = {'exec', 'needs', 'glance', 'cust', 'map', 'sol', 'table', 'edition', 'api', 'install', 'sec', 'road', 'du', 'dep'}
+# GENERAL = True: solution-based proposal without an RFP. No compliance table and no coverage counts; the solution pages
+# are followed by DETAILS (full capability descriptions) and the executive summary uses EXEC_PILLARS and EXEC_OUTCOMES.
+GENERAL = getattr(D, 'GENERAL', False)
+BUILT = {'exec', 'needs', 'glance', 'cust', 'map', 'sol', 'details' if GENERAL else 'table', 'edition', 'api', 'install', 'sec', 'road', 'du', 'dep'}
 if getattr(D, 'LOM_GROUPS', None): BUILT.add('lom')   # LOM_GROUPS = None: no item list (proposal without a commercial part)
 if getattr(D, 'KPI', None): BUILT.add('kpi')
 if getattr(D, 'DEMO', None): BUILT.add('demo')
 if getattr(D, 'SLA', None): BUILT.add('sla')
 TOCG = [('شناخت و معرفی', [('خلاصه مدیریتی', 'exec'), (f'شناخت ما از نیاز {C}', 'needs'), ('پیام‌گستر در یک نگاه', 'glance'), ('مشتریان و گواهی‌نامه‌ها', 'cust'), ('نقشه راهکار', 'map')]),
-        ('راهکار', [(f'راهکار در {fa(len(D.SOLUTIONS))} حوزه کاری', 'sol'), ('نمونه داشبورد شاخص‌ها', 'kpi'), (f'جدول تطبیق {fa(len(R))} نیاز', 'table'), ('سناریوهای نمایش عملی', 'demo')]),
+        ('راهکار', [(f'راهکار در {fa(len(D.SOLUTIONS))} حوزه کاری', 'sol'), ('نمونه داشبورد شاخص‌ها', 'kpi'), (f'جدول تطبیق {fa(len(R))} نیاز', 'table'), ('شرح کامل قابلیت‌ها', 'details'), ('سناریوهای نمایش عملی', 'demo')]),
         ('فنی و تجاری', [('نسخه پیشنهادی', 'edition'), ('وب‌سرویس و مستندات', 'api'), ('نصب', 'install'), ('امنیت و مالکیت داده', 'sec'), ('فهرست اقلام پیشنهادی', 'lom')]),
         ('اجرا و پشتیبانی', [('نقشه راه اجرا', 'road'), ('واحد استقرار پیام‌گستر', 'du'), (f'استقرار برای {C}', 'dep'), ('سطح خدمت پشتیبانی', 'sla')])]
 def tocgroup(g):
@@ -214,18 +218,29 @@ def tocgroup(g):
 page(corner() + head('فهرست', 'آنچه در این پیشنهاد می‌خوانید') + f'<div class="toc3"><div class="tcol3">{tocgroup(TOCG[0])}{tocgroup(TOCG[1])}</div><div class="tcol3">{tocgroup(TOCG[2])}{tocgroup(TOCG[3])}</div></div>' + foot())
 
 # 3 executive summary
-cols = ''.join(f'<div><h3>{e(h)}</h3><p>{e(p)}</p></div>' for h, p in D.EXEC_COLS)
-page(corner() + head('خلاصه مدیریتی', D.EXEC_TITLE) + f'''
-<div class="ex-lead">{D.EXEC_LEAD}</div>
-<div class="ex-cols">{cols}</div>
-<div class="ex-num"><div class="big">{fa(len(R))}</div><div class="lab">نیاز {e(D.NEED_SOURCE)}، ردیف‌به‌ردیف پاسخ داده شد</div>
- <div class="exseg">{CH.seg100([('پوشش کامل', TOT['K'], CH.OR), ('پوشش جزئی با راه جایگزین', TOT['J'], CH.BL)], w=470, h=26, size=17)}</div>
- <div class="exzero">ردیف بدون پوشش: {fa(TOT['F'])}</div></div>
-<div class="ex-ed"><b>نسخه و نصب:</b> {D.EDITION_LINE} شرح کامل در صفحه {{{{P:edition}}}}.</div>''' + foot(), key='exec')
+if GENERAL:
+    # general proposal: no counts of what we can do; challenge, approach pillars, outcomes, edition
+    pil = ''.join(f'<div class="xg-p"><div class="mi">{icon(i)}</div><h3>{e(t)}</h3><p>{e(x)}</p></div>' for i, t, x in D.EXEC_PILLARS)
+    oc = ''.join(f'<li>{e(x)}</li>' for x in D.EXEC_OUTCOMES)
+    page(corner() + head('خلاصه مدیریتی', D.EXEC_TITLE) + f'''
+<div class="ex-lead xg-lead">{D.EXEC_LEAD}</div>
+<div class="xg-h">محورهای راهکار</div>
+<div class="xg-pil">{pil}</div>
+<div class="xg-out"><h3>آنچه {e(C)} به دست می‌آورد</h3><ul>{oc}</ul></div>
+<div class="ex-ed xg-ed"><b>نسخه و نصب:</b> {D.EDITION_LINE} شرح کامل در صفحه {{{{P:edition}}}}.</div>''' + foot(), key='exec')
+else:
+  cols = ''.join(f'<div><h3>{e(h)}</h3><p>{e(p)}</p></div>' for h, p in D.EXEC_COLS)
+  page(corner() + head('خلاصه مدیریتی', D.EXEC_TITLE) + f'''
+  <div class="ex-lead">{D.EXEC_LEAD}</div>
+  <div class="ex-cols">{cols}</div>
+  <div class="ex-num"><div class="big">{fa(len(R))}</div><div class="lab">نیاز {e(D.NEED_SOURCE)}، ردیف‌به‌ردیف پاسخ داده شد</div>
+   <div class="exseg">{CH.seg100([('پوشش کامل', TOT['K'], CH.OR), ('پوشش جزئی با راه جایگزین', TOT['J'], CH.BL)], w=470, h=26, size=17)}</div>
+   <div class="exzero">ردیف بدون پوشش: {fa(TOT['F'])}</div></div>
+  <div class="ex-ed"><b>نسخه و نصب:</b> {D.EDITION_LINE} شرح کامل در صفحه {{{{P:edition}}}}.</div>''' + foot(), key='exec')
 
 # 4 needs
 nh = ''.join(f'<div class="nd"><div class="mi">{icon(i)}</div><h3>{e(t)}</h3><p>{e(p)}</p></div>' for i, t, p in D.NEEDS)
-page(corner() + head('شناخت ما از نیاز', f'آنچه {C} از سامانه می‌خواهد') + f'<div class="needs">{nh}</div>' + (f'<div class="scope">{D.SCOPE}</div>' if D.SCOPE else '') + foot(), key='needs')
+page(corner() + head('شناخت ما از نیاز', f'آنچه {C} از سامانه می‌خواهد') + f'<div class="needs{" many" if len(D.NEEDS) > 6 else ""}">{nh}</div>' + (f'<div class="scope">{D.SCOPE}</div>' if D.SCOPE else '') + foot(), key='needs')
 
 # 5 glance (company facts: company-facts.md)
 grp = ['tejarat-aval-1st', 'hitobit', 'septa-pardakht', 'alovoip']
@@ -241,7 +256,7 @@ page(corner() + head('درباره ما', 'پیام‌گستر در یک نگا�
 
 # 6 customers + 7 certificates
 lh = ''.join(f'<div class="lg"><img src="file://{REPO}customer-logos/{l}.png"></div>' for l in D.CUSTOMER_LOGOS)
-page(corner() + head('مشتریان', 'برخی از سازمان‌هایی که با پیام‌گستر کار می‌کنند') + f'<div class="logos">{lh}</div><div class="note">{e(D.LOGO_NOTE)}</div>' + foot(), key='cust')
+page(corner() + head('مشتریان', 'برخی از سازمان‌هایی که با پیام‌گستر کار می‌کنند') + f'<div class="logos" style="grid-template-columns:repeat({8 if len(D.CUSTOMER_LOGOS) > 12 else max(4, math.ceil(len(D.CUSTOMER_LOGOS) / 2))},1fr)">{lh}</div><div class="note">{e(D.LOGO_NOTE)}</div>' + foot(), key='cust')
 page(corner() + head('گواهی‌نامه‌ها', 'مجوزها و ارزیابی امنیتی') + f'''
 <div class="certs">
  <div class="cert"><img src="file://{REPO}certificates/afta-certificate.png"><h3>گواهی ارزیابی امنیتی محصول (افتا)</h3><p>شماره <bdi>CBP-C1470-0301</bdi>، صادرشده به نام هلدینگ مادر: تجارت سامانه‌های الکترونیک اول دانش‌محور اوراسیا</p></div>
@@ -270,53 +285,74 @@ if getattr(D, 'KPI', None):
 <div class="kfoot">{'<span class="kft">شاخص‌های دیگر:</span>' + others if others else ''}<span class="knote">داده‌های این صفحه ساختگی است و فقط شکل نمایش را نشان می‌دهد. شاخص‌ها با گزارش‌ساز پیشرفته ساخته می‌شوند (شخصی‌سازی)؛ زمان و هزینه پس از بررسی تیم فنی.</span></div>''' + foot(), key='kpi')
 
 # compliance: divider, coverage chart, tables
-divider('جدول تطبیق نیازها', f'پاسخ ردیف‌به‌ردیف به {fa(len(R))} شناسه نیاز' + (f'، {D.TABLE_FORMAT}' if getattr(D, 'TABLE_FORMAT', '') else ''), key='table')
-GR = '#AEB3BC'
-COV = CH.stacked([(CATN[c], [stat[c]['K'], stat[c]['J'], stat[c]['F']]) for c, _ in CATS if c in stat], w=1060, label_w=330, bar_h=26, gap=19, size=19, total_w=40, cols=(CH.OR, CH.BL, GR))
-page(corner() + head('جدول تطبیق نیازها', f'پوشش {fa(len(R))} نیاز به تفکیک حوزه') + f'''
-<div class="cov-chart">{CH.legend([('پوشش کامل', CH.OR), ('پوشش جزئی با راه جایگزین', CH.BL)] + ([('بدون پوشش', GR)] if TOT['F'] else []))}{COV}</div>
-<div class="cov-side"><div class="cv"><b>{fa(TOT['K'])}</b><span>پوشش کامل</span><p>قابلیت آماده یا پیکربندی‌شدنی که نیاز را کامل برآورده می‌کند.</p></div>
-<div class="cv j"><b>{fa(TOT['J'])}</b><span>پوشش جزئی</span><p>بخشی از نیاز آماده است و برای بقیه، شرط یا راه جایگزین در جدول آمده است.</p></div>
-<div class="cv z"><b>{fa(TOT['F'])}</b><span>بدون پوشش</span>{'<p>قابلیت در نرم‌افزار نیست؛ راه جایگزین، اگر هست، در جدول آمده است.</p>' if TOT['F'] else ''}</div></div>''' + foot())
-PRI = {'ا': 'الزام', 'ت': 'ترجیحی', 'خ': 'اختیاری'}
-ST = {'K': ('کامل', 'st-k'), 'J': ('جزئی', 'st-j'), 'F': ('فاقد', 'st-f')}
-groups = [[r for r in R if r[0][0] == c] for c, _ in CATS]
-groups = [g for g in groups if g]
-# long categories are split over several pages: rows are packed by estimated height (px), never cut mid-row
-TABLE_H = getattr(D, 'TABLE_H', 700)
-def rowh(r):
-    return 14 + 27 * max(2, math.ceil(len(r[2]) / 58), math.ceil(len(r[5]) / 100) + (math.ceil(len(r[6]) / 100) if r[6] else 0))
-tpages = []
-def pack(g, cap):
-    parts, cur, h = [], [], 0
-    for r in g:
-        rh = rowh(r)
-        if cur and h + rh > cap:
-            parts.append(cur); cur, h = [], 0
-        cur.append(r); h += rh
-    parts.append(cur)
-    return parts
-for g in groups:
-    parts = pack(g, TABLE_H)
-    n = len(parts)
-    for cap in range(sum(map(rowh, g)) // n, TABLE_H, 10):   # same page count, rows spread evenly
-        if len(pack(g, cap)) == n:
-            parts = pack(g, cap); break
-    for k, part in enumerate(parts):
-        tpages.append((part, k + 1, len(parts)))
-TNOTE = getattr(D, 'TABLE_NOTE', '') or f'◆ شرط یا راه جایگزین. روش «API» یعنی اتصال با وب‌سرویس پیام‌گستر؛ برنامه‌نویسی آن شخصی‌سازی است و سمت {e(C)} یا پیمانکار آن انجام می‌شود. موارد نارنجی نیازمند تأیید تیم فنی پیام‌گستر است.'
-for gi, (chunk, k, n) in enumerate(tpages):
-    c = chunk[0][0][0]
-    rows = ''
-    for r in chunk:
-        lab, cl = ST[r[3]]
-        alt = f'<div class="alt">◆ {e(r[6])}</div>' if r[6] else ''
-        pr = f'<small>{PRI.get(r[1][:1], r[1])}، فاز {r[1][1:]}</small>' if r[1] else ''
-        rows += f'<tr><td class="id"><bdi>{r[0]}</bdi>{pr}</td><td class="nd2">{e(r[2])}</td><td><span class="st {cl}">{lab}</span><div class="mt">{e(r[4])}</div></td><td class="ans">{e(r[5])}{alt}</td><td class="md">{e(r[7])}</td></tr>'
-    sub = f' ({fa(k)} از {fa(n)})' if n > 1 else ''
-    page(corner() + head(f'جدول تطبیق، صفحه {fa(gi+1)} از {fa(len(tpages))}', CATN[c] + sub) + f'''
-<table class="ct"><thead><tr><th>شناسه</th><th>نیاز {e(C)}</th><th>پوشش و روش تأمین</th><th>پاسخ پیام‌گستر و راه جایگزین</th><th>ماژول</th></tr></thead><tbody>{rows}</tbody></table>
-<div class="ctnote">{TNOTE}</div>''' + foot())
+if not GENERAL:
+    divider('جدول تطبیق نیازها', f'پاسخ ردیف‌به‌ردیف به {fa(len(R))} شناسه نیاز' + (f'، {D.TABLE_FORMAT}' if getattr(D, 'TABLE_FORMAT', '') else ''), key='table')
+    GR = '#AEB3BC'
+    COV = CH.stacked([(CATN[c], [stat[c]['K'], stat[c]['J'], stat[c]['F']]) for c, _ in CATS if c in stat], w=1060, label_w=330, bar_h=26, gap=19, size=19, total_w=40, cols=(CH.OR, CH.BL, GR))
+    page(corner() + head('جدول تطبیق نیازها', f'پوشش {fa(len(R))} نیاز به تفکیک حوزه') + f'''
+    <div class="cov-chart">{CH.legend([('پوشش کامل', CH.OR), ('پوشش جزئی با راه جایگزین', CH.BL)] + ([('بدون پوشش', GR)] if TOT['F'] else []))}{COV}</div>
+    <div class="cov-side"><div class="cv"><b>{fa(TOT['K'])}</b><span>پوشش کامل</span><p>قابلیت آماده یا پیکربندی‌شدنی که نیاز را کامل برآورده می‌کند.</p></div>
+    <div class="cv j"><b>{fa(TOT['J'])}</b><span>پوشش جزئی</span><p>بخشی از نیاز آماده است و برای بقیه، شرط یا راه جایگزین در جدول آمده است.</p></div>
+    <div class="cv z"><b>{fa(TOT['F'])}</b><span>بدون پوشش</span>{'<p>قابلیت در نرم‌افزار نیست؛ راه جایگزین، اگر هست، در جدول آمده است.</p>' if TOT['F'] else ''}</div></div>''' + foot())
+    PRI = {'ا': 'الزام', 'ت': 'ترجیحی', 'خ': 'اختیاری'}
+    ST = {'K': ('کامل', 'st-k'), 'J': ('جزئی', 'st-j'), 'F': ('فاقد', 'st-f')}
+    groups = [[r for r in R if r[0][0] == c] for c, _ in CATS]
+    groups = [g for g in groups if g]
+    # long categories are split over several pages: rows are packed by estimated height (px), never cut mid-row
+    TABLE_H = getattr(D, 'TABLE_H', 700)
+    def rowh(r):
+        return 14 + 27 * max(2, math.ceil(len(r[2]) / 58), math.ceil(len(r[5]) / 100) + (math.ceil(len(r[6]) / 100) if r[6] else 0))
+    tpages = []
+    def pack(g, cap):
+        parts, cur, h = [], [], 0
+        for r in g:
+            rh = rowh(r)
+            if cur and h + rh > cap:
+                parts.append(cur); cur, h = [], 0
+            cur.append(r); h += rh
+        parts.append(cur)
+        return parts
+    for g in groups:
+        parts = pack(g, TABLE_H)
+        n = len(parts)
+        for cap in range(sum(map(rowh, g)) // n, TABLE_H, 10):   # same page count, rows spread evenly
+            if len(pack(g, cap)) == n:
+                parts = pack(g, cap); break
+        for k, part in enumerate(parts):
+            tpages.append((part, k + 1, len(parts)))
+    TNOTE = getattr(D, 'TABLE_NOTE', '') or f'◆ شرط یا راه جایگزین. روش «API» یعنی اتصال با وب‌سرویس پیام‌گستر؛ برنامه‌نویسی آن شخصی‌سازی است و سمت {e(C)} یا پیمانکار آن انجام می‌شود. موارد نارنجی نیازمند تأیید تیم فنی پیام‌گستر است.'
+    for gi, (chunk, k, n) in enumerate(tpages):
+        c = chunk[0][0][0]
+        rows = ''
+        for r in chunk:
+            lab, cl = ST[r[3]]
+            alt = f'<div class="alt">◆ {e(r[6])}</div>' if r[6] else ''
+            pr = f'<small>{PRI.get(r[1][:1], r[1])}، فاز {r[1][1:]}</small>' if r[1] else ''
+            rows += f'<tr><td class="id"><bdi>{r[0]}</bdi>{pr}</td><td class="nd2">{e(r[2])}</td><td><span class="st {cl}">{lab}</span><div class="mt">{e(r[4])}</div></td><td class="ans">{e(r[5])}{alt}</td><td class="md">{e(r[7])}</td></tr>'
+        sub = f' ({fa(k)} از {fa(n)})' if n > 1 else ''
+        page(corner() + head(f'جدول تطبیق، صفحه {fa(gi+1)} از {fa(len(tpages))}', CATN[c] + sub) + f'''
+    <table class="ct"><thead><tr><th>شناسه</th><th>نیاز {e(C)}</th><th>پوشش و روش تأمین</th><th>پاسخ پیام‌گستر و راه جایگزین</th><th>ماژول</th></tr></thead><tbody>{rows}</tbody></table>
+    <div class="ctnote">{TNOTE}</div>''' + foot())
+
+# GENERAL: full capability descriptions instead of the compliance table (DETAILS = [(area, intro, [(title, text, module)])])
+def dth(c):
+    return 74 + 30 * math.ceil(len(c[1]) / 92) + (24 if c[2] else 0)
+DT_CAP = getattr(D, 'DETAILS_H', 1260)
+if GENERAL:
+    divider('شرح کامل قابلیت‌ها', f'جزئیات قابلیت‌های پیام‌گستر برای {C}، حوزه‌به‌حوزه', key='details')
+    for area, intro, caps in D.DETAILS:
+        parts, cur, h = [], [], 0
+        for c in caps:
+            if cur and h + dth(c) > DT_CAP:
+                parts.append(cur); cur, h = [], 0
+            cur.append(c); h += dth(c)
+        parts.append(cur)
+        for k, part in enumerate(parts):
+            cards = ''.join(f'<div class="dt-c"><h4>{e(t)}</h4><p>{e(x)}</p>' + (f'<em>{e(m)}</em>' if m else '') + '</div>' for t, x, m in part)
+            sub = f' ({fa(k+1)} از {fa(len(parts))})' if len(parts) > 1 else ''
+            hasi = bool(intro) and k == 0
+            page(corner() + head('شرح کامل قابلیت‌ها', area + sub) + (f'<div class="dt-intro">{e(intro)}</div>' if hasi else '') +
+                 f'<div class="dt-grid{"" if hasi else " nointro"}">{cards}</div>' + foot())
 
 # demo scenarios
 if getattr(D, 'DEMO', None):

@@ -51,6 +51,8 @@ CORE_TEXT = 'شخص، سازمان، فرصت و درخواست'
 # DEP_GENERAL = [(title, text)] with PROCS = [] (deployment page says only the hours and what happens in them)
 # compliance table: long categories split over pages automatically (rows packed by estimated height, spread evenly);
 # TABLE_H = 700 (usable px per page), TABLE_NOTE = '' (footnote under each table page, e.g. how the RFP status words map)
+# GENERAL = True (no RFP): no compliance table or coverage counts; EXEC_PILLARS = [(icon, title, text)] x4,
+# EXEC_OUTCOMES = [text], DETAILS = [(area, intro, [(title, text, module)])] full capability pages after the solutions
 # EDITION_SIMPLE extras: MAX_USERS = None (count not known yet), EDS_EXTRA = [(icon, number, label, text)] more limit cards
 # (e.g. 5000 active club users, 15 active agents), EDS_UP (upgrade line), EDS_FORM_EXAMPLE (example form type)
 # status F rows show in grey in the coverage chart and keep their own count on the exec page
