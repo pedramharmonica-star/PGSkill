@@ -199,7 +199,8 @@ page(mosaic(cov) + f'''
 
 # 2 TOC (page numbers filled at the end; entries only for pages that exist)
 def has(k): return k in BUILT
-BUILT = {'exec', 'needs', 'glance', 'cust', 'map', 'sol', 'table', 'edition', 'api', 'install', 'sec', 'lom', 'road', 'du', 'dep'}
+BUILT = {'exec', 'needs', 'glance', 'cust', 'map', 'sol', 'table', 'edition', 'api', 'install', 'sec', 'road', 'du', 'dep'}
+if getattr(D, 'LOM_GROUPS', None): BUILT.add('lom')   # LOM_GROUPS = None: no item list (proposal without a commercial part)
 if getattr(D, 'KPI', None): BUILT.add('kpi')
 if getattr(D, 'DEMO', None): BUILT.add('demo')
 if getattr(D, 'SLA', None): BUILT.add('sla')
@@ -369,7 +370,7 @@ else:
 <div class="edi"><div class="l">
  <p>{D.EDITION_TEXT}</p>
  <p><b>مدل نصب:</b> درون‌سازمانی (On-Premise) روی سرور {e(C)}؛ پایگاه داده و پیوست‌ها روی سرورهای {e(C)} ذخیره می‌شوند.</p>
- <div class="tl"><h4>{fa(len(PROCS))} فرایند</h4><div class="tags">{pl}</div><h4>{fa(len(FORMS))} فرم</h4><div class="tags t2">{fl}</div></div>
+ {f'<div class="tl"><h4>{fa(len(PROCS))} فرایند</h4><div class="tags">{pl}</div><h4>{fa(len(FORMS))} فرم</h4><div class="tags t2">{fl}</div></div>' if NT else ''}
 </div>
 <div class="r">{right}</div></div>''' + foot(), key='edition')
 
@@ -449,8 +450,9 @@ page(corner() + head('امنیت و مالکیت داده', 'کنترل دستر
 
 # LOM (grouped cards; prices only in the pre-invoice)
 def codes(c): return '، '.join(f'<bdi>{x}</bdi>' for x in c.split('، ')) if c else ''
-lgh = ''.join(f'<div class="lc{" opt" if t == "اختیاری" else ""}"><div class="lch"><b>{e(t)}</b><em>{codes(c)}</em></div><ul>' + ''.join(f'<li>{e(x)}</li>' for x in items) + '</ul></div>' for c, t, items in D.LOM_GROUPS)
-page(corner() + head('فهرست اقلام پیشنهادی', D.LOM_TITLE) + f'<div class="lomg">{lgh}</div><div class="ctnote">{D.LOM_NOTE}</div>' + foot(), key='lom')
+if 'lom' in BUILT:
+    lgh = ''.join(f'<div class="lc{" opt" if t == "اختیاری" else ""}"><div class="lch"><b>{e(t)}</b><em>{codes(c)}</em></div><ul>' + ''.join(f'<li>{e(x)}</li>' for x in items) + '</ul></div>' for c, t, items in D.LOM_GROUPS)
+    page(corner() + head('فهرست اقلام پیشنهادی', D.LOM_TITLE) + f'<div class="lomg">{lgh}</div><div class="ctnote">{D.LOM_NOTE}</div>' + foot(), key='lom')
 
 # roadmap (graphic; hours only, no dates)
 HB, HX = D.HOURS_BASE, D.HOURS_EXTRA

@@ -7,7 +7,7 @@ name_fa,file,industry_key,industry_fa,note,confidence,width,height
 قهوه مرداویچ,customer-logos/mardavij-coffee.png,fmcg,مواد غذایی و FMCG,قهوه,قطعی,300,300
 ستوده بتون,customer-logos/sotoudeh-beton.png,building,مصالح و محصولات ساختمانی,بتن,قطعی,512,512
 هافمن,customer-logos/hofmann.png,building,مصالح و محصولات ساختمانی,پروفیل UPVC (طبق لوگو),قطعی,135,66
-شیر آلات راسان,customer-logos/rassan.png,building,مصالح و محصولات ساختمانی,شیرآلات,قطعی,71,72
+شیر آلات راسان,customer-logos/rassan.png,building,مصالح و محصولات ساختمانی,شیرآلات,قطعی,142,144
 فولاد سیرجان ایرانیان,customer-logos/sirjan-steel.png,industrial,تولیدی و صنعتی,فولاد,قطعی,130,55
 شرکت نفت پاسارگاد,customer-logos/pasargad-oil.png,industrial,تولیدی و صنعتی,نفت و فرآورده‌های نفتی,قطعی,96,89
 اجاق گاز داتیس,customer-logos/datis.png,industrial,تولیدی و صنعتی,لوازم خانگی,قطعی,89,88
@@ -25,3 +25,6 @@ name_fa,file,industry_key,industry_fa,note,confidence,width,height
 گروه مینا,customer-logos/mina-group.png,industrial,تولیدی و صنعتی,گروه صنعتی؛ نوع فعالیت دقیق ثبت نشده,قطعی,500,500
 ایستکول,customer-logos/eastcool.png,industrial,تولیدی و صنعتی,تولید سیستم‌های سرمایش و تهویه (EASTCOOL),قطعی,500,500
 اسکای روم,customer-logos/skyroom.png,it,فناوری اطلاعات و نرم‌افزار,سامانه جلسات و آموزش آنلاین,قطعی,500,500
+گلها,customer-logos/golha.png,fmcg,مواد غذایی و FMCG,مجتمع صنایع غذایی گلها (طبق لوگو؛ لوگوی کوچک),قطعی,172,108
+نان رضوی,customer-logos/nan-razavi.png,fmcg,مواد غذایی و FMCG,نان و فرآورده‌های آردی (لوگوی کوچک),قطعی,114,116
+مانا,customer-logos/mana.png,fmcg,مواد غذایی و FMCG,صنایع غذایی (لوگوی کوچک),قطعی,142,144
